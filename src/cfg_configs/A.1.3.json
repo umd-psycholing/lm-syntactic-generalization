@@ -1,5 +1,5 @@
 {
-    "cfg": {
+    "grammar": {
         "<S_FG>": [["<PREAMBLE>", "<F>", "<G>"]],
         "<S_XG>": [["<UNGRAMMATICAL>", "<PREAMBLE>", "<XF>", "<G>"]],
         "<S_FX>": [["<UNGRAMMATICAL>", "<PREAMBLE>", "<F>", "<XG>"]],
