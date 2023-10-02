@@ -39,13 +39,9 @@ def _expand_first_non_terminal(input_sentence: list, grammar: dict[str]) -> list
     """
     # element which will be expanded, either string non-terminal or array
     for element in input_sentence:
-        if isinstance(element, list):
+        if isinstance(element, list) or element in grammar.keys():
             first_non_terminal = element
-            break
-        elif element in grammar.keys():
-            first_non_terminal = element
-            break
-
+            
     # non-terminals can be represented as strings which are also keys in the grammar,
     # or as arrays which define possible replacements without a new rule.
     if isinstance(element, str):
