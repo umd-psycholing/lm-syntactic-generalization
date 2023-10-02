@@ -14,7 +14,7 @@
         "<XF>": [["that", "<NAME1>", "<GEN>", "<ADJ>", "<SUBJ>", "<NAME2>", "<V>"]],
         "<G>": [["<ADJUNCT>"]],
         "<XG>": [["<NAME4>", "<ADJUNCT>"]],
-        "<GEN>": [["'s"]],
+        "<GEN>": [["#'s"]],
         "<SUBJ>": [["talking to"], ["attitude towards"], ["friendship with"], ["praising of"]],
         "<ADJ>": [["recent"], ["current"]],
         "<V>": [["bothered"], ["distracted"], ["worried"], ["annoyed"]],

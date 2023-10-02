@@ -125,14 +125,14 @@ def generate_sentences(grammar: dict[str], starting_symbol: str) -> tuple[str, l
     while len(sentence_queue) > 0:
         sentence = sentence_queue.pop(0)
         if _all_leaves(sentence, grammar):
-            # do final processing
-            #   join sentence into one string
-            #   fix apostrophes
-            #   fix '*' ungrammatical symbols
-            #   add a period
-            #   fix double spaces from optionals
-            sentence = (" ".join(sentence).replace(
-                " '", "'").replace("* ", "*").replace("  ", " ") + ".")
+            # join sentence into one string
+            # '#' represents no character, meaning any automatically generated spaces should be removed.
+            #   as a side-effect, that makes '#' perfect for representing optional symbols.
+            #   ex: [["optional", "#"]] will have sentences with "optional" and some with it removed.
+            #       this is better than [["optional"], [" "]] because there will not be automatic double-spaces.
+            # fix space after '*' ungrammatical symbols
+            # add a period to the end of the sentence
+            sentence = (" ".join(sentence).replace(" #", "").replace("* ", "*") + ".")
             resulting_sentences.append(sentence)
             # print(sentence)
         else:
