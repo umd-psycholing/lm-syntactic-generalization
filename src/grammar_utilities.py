@@ -174,7 +174,7 @@ def build_csv(grammar, starts, file_name) -> int:
 
         end_time = time.time()  # Record the end time
         elapsed_time = end_time - start_time  # Calculate elapsed time
-        print(f"{len(results) - 1} line CSV file successfully saved to {file_name} in {elapsed_time:.4f} seconds.")
+        print(f"{len(results) - 1} line CSV file saved to {file_name} in {elapsed_time:.4f} seconds.")
 
         return len(results) - 1
 
