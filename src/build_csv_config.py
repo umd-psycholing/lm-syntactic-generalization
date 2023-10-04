@@ -10,12 +10,10 @@ def build_csv_at(config_path, output_path=None):
         cfg = config_json['grammar']
         starts = config_json['starts']
 
-        # default output directory at ../data/cfg-output/{config_name}_output.csv
+        # output directory defaults to input_directory 
         if not output_path:
-            print("ok")
-            output_path = os.path.join(output_directory,
-                                       f'{config_path.removesuffix(".json")}_output.csv')
-
+            output_path = f'{config_path.removesuffix(".json")}_output.csv'
+            
         build_csv(cfg, starts, output_path)
 
 
