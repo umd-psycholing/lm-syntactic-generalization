@@ -5,6 +5,7 @@ import re
 
 class SentenceInfo:
     def __init__(self, list_representation):
+        self.list_representation = list_representation
 
         # ungrammatical if starts with *
         self.grammatical = False if list_representation[0] == '*' else True
@@ -22,8 +23,16 @@ class SentenceInfo:
         # remove ' / '.
         self.text = (re.sub(r'\s*\/\s*', ' ', self.text)).strip()
 
-    def to_tuple(self):
-        return self.text, self.grammatical, (self.region_start, self.region_end)
+    
+    def is_training(self, free_lexical_items: list[str]=None):
+        if not free_lexical_items:
+            return None
+        
+        # determine whether it is a training_set item
+        for lexical_item in free_lexical_items:
+            if lexical_item[0] in self.list_representation:
+                return True
+        return False
 
 
 def _expand_first_non_terminal(input_sentence: list, grammar: dict[str]) -> list[list]:
@@ -165,13 +174,14 @@ def generate_sentences(grammar: dict[str], starting_symbol: str) -> tuple[str, l
     return (starting_symbol, resulting_sentences)
 
 
-def build_csv(grammar, starts, file_name) -> int:
+def build_csv(grammar, starts, file_name, reserved_types=None) -> int:
     """Generates sentences for each start and saves them to a csv file.
 
     Args:
         grammar (_type_): 
         starts (_type_): 
         file_name (_type_): 
+        reserved_types (_type_):
 
     Raises:
         RuntimeError: Failed to write CSV
@@ -181,15 +191,27 @@ def build_csv(grammar, starts, file_name) -> int:
     """
     start_time = time.time()
 
-    # type, sentence, grammaticality judgement (Y, N), region start, end
+    # type, sentence, grammaticality judgement (Y, N), region start, region end, is training 
     results = [("Type", "Sentence", "Grammatical",
-                "Region Start", "Region End")]
+                "Region Start", "Region End", "Is Training")]
+    
+    # unpack reserved_types
+    reserved_lexical_items = None
+    if reserved_types:
+        reserved_lexical_items = []
+        for reserved_type in reserved_types:
+            non_terminals = grammar[reserved_type]
+            reserved_lexical_items.extend(non_terminals[:int(len(non_terminals) * .35)])
+        print(reserved_lexical_items)
+
     for start in starts:
         type, sentences = generate_sentences(grammar, start)
         for sentence in sentences:
-            sentence_text, sentence_grammaticality, sentence_region = sentence.to_tuple()
-            results.append([type, sentence_text, sentence_grammaticality,
-                           sentence_region[0], sentence_region[1]])
+            is_training = sentence.is_training(reserved_lexical_items)
+
+            results.append([type, sentence.text, sentence.grammatical,
+                           sentence.region_start, sentence.region_end, is_training])
+    
     # build it
     try:
         with open(file_name, mode='w', newline='') as file:

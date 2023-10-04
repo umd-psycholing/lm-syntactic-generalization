@@ -20,5 +20,6 @@
         "<V>": [["bothered"], ["distracted"], ["worried"], ["annoyed"]],
         "<ADJUNCT>": [["recently"], ["yesterday"], ["lately"]]
     },
-    "starts": ["<S_FG>", "<S_XG>", "<S_FX>", "<S_XX>"]
+    "starts": ["<S_FG>", "<S_XG>", "<S_FX>", "<S_XX>"],
+    "reserved_types": ["<NAME1>", "<NAME2>", "<NAME3>", "<NAME4>", "<SUBJ>", "<ADJ>", "<V>", "<ADJUNCT>"]
 }

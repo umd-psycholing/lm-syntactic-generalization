@@ -1,897 +1,897 @@
-Type,Sentence,Grammatical,Region Start,Region End
-<S_FG>,I know what the attempt to repair eventually damaged nevertheless,True,53,65
-<S_FG>,I know what the attempt to fix eventually damaged nevertheless,True,50,62
-<S_FG>,I know what the attempt to overhaul eventually damaged nevertheless,True,55,67
-<S_FG>,I know what the attempt to rebuild eventually damaged nevertheless,True,54,66
-<S_FG>,I know what the attempt to repair finally damaged nevertheless,True,50,62
-<S_FG>,I know what the attempt to fix finally damaged nevertheless,True,47,59
-<S_FG>,I know what the attempt to overhaul finally damaged nevertheless,True,52,64
-<S_FG>,I know what the attempt to rebuild finally damaged nevertheless,True,51,63
-<S_FG>,I know what the attempt to repair eventually destroyed nevertheless,True,55,67
-<S_FG>,I know what the attempt to fix eventually destroyed nevertheless,True,52,64
-<S_FG>,I know what the attempt to overhaul eventually destroyed nevertheless,True,57,69
-<S_FG>,I know what the attempt to rebuild eventually destroyed nevertheless,True,56,68
-<S_FG>,I know what the attempt to repair finally destroyed nevertheless,True,52,64
-<S_FG>,I know what the attempt to fix finally destroyed nevertheless,True,49,61
-<S_FG>,I know what the attempt to overhaul finally destroyed nevertheless,True,54,66
-<S_FG>,I know what the attempt to rebuild finally destroyed nevertheless,True,53,65
-<S_FG>,I know what the attempt to repair eventually ruined nevertheless,True,52,64
-<S_FG>,I know what the attempt to fix eventually ruined nevertheless,True,49,61
-<S_FG>,I know what the attempt to overhaul eventually ruined nevertheless,True,54,66
-<S_FG>,I know what the attempt to rebuild eventually ruined nevertheless,True,53,65
-<S_FG>,I know what the attempt to repair finally ruined nevertheless,True,49,61
-<S_FG>,I know what the attempt to fix finally ruined nevertheless,True,46,58
-<S_FG>,I know what the attempt to overhaul finally ruined nevertheless,True,51,63
-<S_FG>,I know what the attempt to rebuild finally ruined nevertheless,True,50,62
-<S_FG>,I know what the attempt to repair eventually wrecked nevertheless,True,53,65
-<S_FG>,I know what the attempt to fix eventually wrecked nevertheless,True,50,62
-<S_FG>,I know what the attempt to overhaul eventually wrecked nevertheless,True,55,67
-<S_FG>,I know what the attempt to rebuild eventually wrecked nevertheless,True,54,66
-<S_FG>,I know what the attempt to repair finally wrecked nevertheless,True,50,62
-<S_FG>,I know what the attempt to fix finally wrecked nevertheless,True,47,59
-<S_FG>,I know what the attempt to overhaul finally wrecked nevertheless,True,52,64
-<S_FG>,I know what the attempt to rebuild finally wrecked nevertheless,True,51,63
-<S_FG>,I know what the attempt to repair eventually damaged nonetheless,True,53,64
-<S_FG>,I know what the attempt to fix eventually damaged nonetheless,True,50,61
-<S_FG>,I know what the attempt to overhaul eventually damaged nonetheless,True,55,66
-<S_FG>,I know what the attempt to rebuild eventually damaged nonetheless,True,54,65
-<S_FG>,I know what the attempt to repair finally damaged nonetheless,True,50,61
-<S_FG>,I know what the attempt to fix finally damaged nonetheless,True,47,58
-<S_FG>,I know what the attempt to overhaul finally damaged nonetheless,True,52,63
-<S_FG>,I know what the attempt to rebuild finally damaged nonetheless,True,51,62
-<S_FG>,I know what the attempt to repair eventually destroyed nonetheless,True,55,66
-<S_FG>,I know what the attempt to fix eventually destroyed nonetheless,True,52,63
-<S_FG>,I know what the attempt to overhaul eventually destroyed nonetheless,True,57,68
-<S_FG>,I know what the attempt to rebuild eventually destroyed nonetheless,True,56,67
-<S_FG>,I know what the attempt to repair finally destroyed nonetheless,True,52,63
-<S_FG>,I know what the attempt to fix finally destroyed nonetheless,True,49,60
-<S_FG>,I know what the attempt to overhaul finally destroyed nonetheless,True,54,65
-<S_FG>,I know what the attempt to rebuild finally destroyed nonetheless,True,53,64
-<S_FG>,I know what the attempt to repair eventually ruined nonetheless,True,52,63
-<S_FG>,I know what the attempt to fix eventually ruined nonetheless,True,49,60
-<S_FG>,I know what the attempt to overhaul eventually ruined nonetheless,True,54,65
-<S_FG>,I know what the attempt to rebuild eventually ruined nonetheless,True,53,64
-<S_FG>,I know what the attempt to repair finally ruined nonetheless,True,49,60
-<S_FG>,I know what the attempt to fix finally ruined nonetheless,True,46,57
-<S_FG>,I know what the attempt to overhaul finally ruined nonetheless,True,51,62
-<S_FG>,I know what the attempt to rebuild finally ruined nonetheless,True,50,61
-<S_FG>,I know what the attempt to repair eventually wrecked nonetheless,True,53,64
-<S_FG>,I know what the attempt to fix eventually wrecked nonetheless,True,50,61
-<S_FG>,I know what the attempt to overhaul eventually wrecked nonetheless,True,55,66
-<S_FG>,I know what the attempt to rebuild eventually wrecked nonetheless,True,54,65
-<S_FG>,I know what the attempt to repair finally wrecked nonetheless,True,50,61
-<S_FG>,I know what the attempt to fix finally wrecked nonetheless,True,47,58
-<S_FG>,I know what the attempt to overhaul finally wrecked nonetheless,True,52,63
-<S_FG>,I know what the attempt to rebuild finally wrecked nonetheless,True,51,62
-<S_XG>,I know that the attempt to repair the car eventually damaged nevertheless,False,61,73
-<S_XG>,I know that the attempt to fix the car eventually damaged nevertheless,False,58,70
-<S_XG>,I know that the attempt to overhaul the car eventually damaged nevertheless,False,63,75
-<S_XG>,I know that the attempt to rebuild the car eventually damaged nevertheless,False,62,74
-<S_XG>,I know that the attempt to repair the bike eventually damaged nevertheless,False,62,74
-<S_XG>,I know that the attempt to fix the bike eventually damaged nevertheless,False,59,71
-<S_XG>,I know that the attempt to overhaul the bike eventually damaged nevertheless,False,64,76
-<S_XG>,I know that the attempt to rebuild the bike eventually damaged nevertheless,False,63,75
-<S_XG>,I know that the attempt to repair the washing machine eventually damaged nevertheless,False,73,85
-<S_XG>,I know that the attempt to fix the washing machine eventually damaged nevertheless,False,70,82
-<S_XG>,I know that the attempt to overhaul the washing machine eventually damaged nevertheless,False,75,87
-<S_XG>,I know that the attempt to rebuild the washing machine eventually damaged nevertheless,False,74,86
-<S_XG>,I know that the attempt to repair the drier eventually damaged nevertheless,False,63,75
-<S_XG>,I know that the attempt to fix the drier eventually damaged nevertheless,False,60,72
-<S_XG>,I know that the attempt to overhaul the drier eventually damaged nevertheless,False,65,77
-<S_XG>,I know that the attempt to rebuild the drier eventually damaged nevertheless,False,64,76
-<S_XG>,I know that the attempt to repair the ceiling eventually damaged nevertheless,False,65,77
-<S_XG>,I know that the attempt to fix the ceiling eventually damaged nevertheless,False,62,74
-<S_XG>,I know that the attempt to overhaul the ceiling eventually damaged nevertheless,False,67,79
-<S_XG>,I know that the attempt to rebuild the ceiling eventually damaged nevertheless,False,66,78
-<S_XG>,I know that the attempt to repair the apartment eventually damaged nevertheless,False,67,79
-<S_XG>,I know that the attempt to fix the apartment eventually damaged nevertheless,False,64,76
-<S_XG>,I know that the attempt to overhaul the apartment eventually damaged nevertheless,False,69,81
-<S_XG>,I know that the attempt to rebuild the apartment eventually damaged nevertheless,False,68,80
-<S_XG>,I know that the attempt to repair the car finally damaged nevertheless,False,58,70
-<S_XG>,I know that the attempt to fix the car finally damaged nevertheless,False,55,67
-<S_XG>,I know that the attempt to overhaul the car finally damaged nevertheless,False,60,72
-<S_XG>,I know that the attempt to rebuild the car finally damaged nevertheless,False,59,71
-<S_XG>,I know that the attempt to repair the bike finally damaged nevertheless,False,59,71
-<S_XG>,I know that the attempt to fix the bike finally damaged nevertheless,False,56,68
-<S_XG>,I know that the attempt to overhaul the bike finally damaged nevertheless,False,61,73
-<S_XG>,I know that the attempt to rebuild the bike finally damaged nevertheless,False,60,72
-<S_XG>,I know that the attempt to repair the washing machine finally damaged nevertheless,False,70,82
-<S_XG>,I know that the attempt to fix the washing machine finally damaged nevertheless,False,67,79
-<S_XG>,I know that the attempt to overhaul the washing machine finally damaged nevertheless,False,72,84
-<S_XG>,I know that the attempt to rebuild the washing machine finally damaged nevertheless,False,71,83
-<S_XG>,I know that the attempt to repair the drier finally damaged nevertheless,False,60,72
-<S_XG>,I know that the attempt to fix the drier finally damaged nevertheless,False,57,69
-<S_XG>,I know that the attempt to overhaul the drier finally damaged nevertheless,False,62,74
-<S_XG>,I know that the attempt to rebuild the drier finally damaged nevertheless,False,61,73
-<S_XG>,I know that the attempt to repair the ceiling finally damaged nevertheless,False,62,74
-<S_XG>,I know that the attempt to fix the ceiling finally damaged nevertheless,False,59,71
-<S_XG>,I know that the attempt to overhaul the ceiling finally damaged nevertheless,False,64,76
-<S_XG>,I know that the attempt to rebuild the ceiling finally damaged nevertheless,False,63,75
-<S_XG>,I know that the attempt to repair the apartment finally damaged nevertheless,False,64,76
-<S_XG>,I know that the attempt to fix the apartment finally damaged nevertheless,False,61,73
-<S_XG>,I know that the attempt to overhaul the apartment finally damaged nevertheless,False,66,78
-<S_XG>,I know that the attempt to rebuild the apartment finally damaged nevertheless,False,65,77
-<S_XG>,I know that the attempt to repair the car eventually destroyed nevertheless,False,63,75
-<S_XG>,I know that the attempt to fix the car eventually destroyed nevertheless,False,60,72
-<S_XG>,I know that the attempt to overhaul the car eventually destroyed nevertheless,False,65,77
-<S_XG>,I know that the attempt to rebuild the car eventually destroyed nevertheless,False,64,76
-<S_XG>,I know that the attempt to repair the bike eventually destroyed nevertheless,False,64,76
-<S_XG>,I know that the attempt to fix the bike eventually destroyed nevertheless,False,61,73
-<S_XG>,I know that the attempt to overhaul the bike eventually destroyed nevertheless,False,66,78
-<S_XG>,I know that the attempt to rebuild the bike eventually destroyed nevertheless,False,65,77
-<S_XG>,I know that the attempt to repair the washing machine eventually destroyed nevertheless,False,75,87
-<S_XG>,I know that the attempt to fix the washing machine eventually destroyed nevertheless,False,72,84
-<S_XG>,I know that the attempt to overhaul the washing machine eventually destroyed nevertheless,False,77,89
-<S_XG>,I know that the attempt to rebuild the washing machine eventually destroyed nevertheless,False,76,88
-<S_XG>,I know that the attempt to repair the drier eventually destroyed nevertheless,False,65,77
-<S_XG>,I know that the attempt to fix the drier eventually destroyed nevertheless,False,62,74
-<S_XG>,I know that the attempt to overhaul the drier eventually destroyed nevertheless,False,67,79
-<S_XG>,I know that the attempt to rebuild the drier eventually destroyed nevertheless,False,66,78
-<S_XG>,I know that the attempt to repair the ceiling eventually destroyed nevertheless,False,67,79
-<S_XG>,I know that the attempt to fix the ceiling eventually destroyed nevertheless,False,64,76
-<S_XG>,I know that the attempt to overhaul the ceiling eventually destroyed nevertheless,False,69,81
-<S_XG>,I know that the attempt to rebuild the ceiling eventually destroyed nevertheless,False,68,80
-<S_XG>,I know that the attempt to repair the apartment eventually destroyed nevertheless,False,69,81
-<S_XG>,I know that the attempt to fix the apartment eventually destroyed nevertheless,False,66,78
-<S_XG>,I know that the attempt to overhaul the apartment eventually destroyed nevertheless,False,71,83
-<S_XG>,I know that the attempt to rebuild the apartment eventually destroyed nevertheless,False,70,82
-<S_XG>,I know that the attempt to repair the car finally destroyed nevertheless,False,60,72
-<S_XG>,I know that the attempt to fix the car finally destroyed nevertheless,False,57,69
-<S_XG>,I know that the attempt to overhaul the car finally destroyed nevertheless,False,62,74
-<S_XG>,I know that the attempt to rebuild the car finally destroyed nevertheless,False,61,73
-<S_XG>,I know that the attempt to repair the bike finally destroyed nevertheless,False,61,73
-<S_XG>,I know that the attempt to fix the bike finally destroyed nevertheless,False,58,70
-<S_XG>,I know that the attempt to overhaul the bike finally destroyed nevertheless,False,63,75
-<S_XG>,I know that the attempt to rebuild the bike finally destroyed nevertheless,False,62,74
-<S_XG>,I know that the attempt to repair the washing machine finally destroyed nevertheless,False,72,84
-<S_XG>,I know that the attempt to fix the washing machine finally destroyed nevertheless,False,69,81
-<S_XG>,I know that the attempt to overhaul the washing machine finally destroyed nevertheless,False,74,86
-<S_XG>,I know that the attempt to rebuild the washing machine finally destroyed nevertheless,False,73,85
-<S_XG>,I know that the attempt to repair the drier finally destroyed nevertheless,False,62,74
-<S_XG>,I know that the attempt to fix the drier finally destroyed nevertheless,False,59,71
-<S_XG>,I know that the attempt to overhaul the drier finally destroyed nevertheless,False,64,76
-<S_XG>,I know that the attempt to rebuild the drier finally destroyed nevertheless,False,63,75
-<S_XG>,I know that the attempt to repair the ceiling finally destroyed nevertheless,False,64,76
-<S_XG>,I know that the attempt to fix the ceiling finally destroyed nevertheless,False,61,73
-<S_XG>,I know that the attempt to overhaul the ceiling finally destroyed nevertheless,False,66,78
-<S_XG>,I know that the attempt to rebuild the ceiling finally destroyed nevertheless,False,65,77
-<S_XG>,I know that the attempt to repair the apartment finally destroyed nevertheless,False,66,78
-<S_XG>,I know that the attempt to fix the apartment finally destroyed nevertheless,False,63,75
-<S_XG>,I know that the attempt to overhaul the apartment finally destroyed nevertheless,False,68,80
-<S_XG>,I know that the attempt to rebuild the apartment finally destroyed nevertheless,False,67,79
-<S_XG>,I know that the attempt to repair the car eventually ruined nevertheless,False,60,72
-<S_XG>,I know that the attempt to fix the car eventually ruined nevertheless,False,57,69
-<S_XG>,I know that the attempt to overhaul the car eventually ruined nevertheless,False,62,74
-<S_XG>,I know that the attempt to rebuild the car eventually ruined nevertheless,False,61,73
-<S_XG>,I know that the attempt to repair the bike eventually ruined nevertheless,False,61,73
-<S_XG>,I know that the attempt to fix the bike eventually ruined nevertheless,False,58,70
-<S_XG>,I know that the attempt to overhaul the bike eventually ruined nevertheless,False,63,75
-<S_XG>,I know that the attempt to rebuild the bike eventually ruined nevertheless,False,62,74
-<S_XG>,I know that the attempt to repair the washing machine eventually ruined nevertheless,False,72,84
-<S_XG>,I know that the attempt to fix the washing machine eventually ruined nevertheless,False,69,81
-<S_XG>,I know that the attempt to overhaul the washing machine eventually ruined nevertheless,False,74,86
-<S_XG>,I know that the attempt to rebuild the washing machine eventually ruined nevertheless,False,73,85
-<S_XG>,I know that the attempt to repair the drier eventually ruined nevertheless,False,62,74
-<S_XG>,I know that the attempt to fix the drier eventually ruined nevertheless,False,59,71
-<S_XG>,I know that the attempt to overhaul the drier eventually ruined nevertheless,False,64,76
-<S_XG>,I know that the attempt to rebuild the drier eventually ruined nevertheless,False,63,75
-<S_XG>,I know that the attempt to repair the ceiling eventually ruined nevertheless,False,64,76
-<S_XG>,I know that the attempt to fix the ceiling eventually ruined nevertheless,False,61,73
-<S_XG>,I know that the attempt to overhaul the ceiling eventually ruined nevertheless,False,66,78
-<S_XG>,I know that the attempt to rebuild the ceiling eventually ruined nevertheless,False,65,77
-<S_XG>,I know that the attempt to repair the apartment eventually ruined nevertheless,False,66,78
-<S_XG>,I know that the attempt to fix the apartment eventually ruined nevertheless,False,63,75
-<S_XG>,I know that the attempt to overhaul the apartment eventually ruined nevertheless,False,68,80
-<S_XG>,I know that the attempt to rebuild the apartment eventually ruined nevertheless,False,67,79
-<S_XG>,I know that the attempt to repair the car finally ruined nevertheless,False,57,69
-<S_XG>,I know that the attempt to fix the car finally ruined nevertheless,False,54,66
-<S_XG>,I know that the attempt to overhaul the car finally ruined nevertheless,False,59,71
-<S_XG>,I know that the attempt to rebuild the car finally ruined nevertheless,False,58,70
-<S_XG>,I know that the attempt to repair the bike finally ruined nevertheless,False,58,70
-<S_XG>,I know that the attempt to fix the bike finally ruined nevertheless,False,55,67
-<S_XG>,I know that the attempt to overhaul the bike finally ruined nevertheless,False,60,72
-<S_XG>,I know that the attempt to rebuild the bike finally ruined nevertheless,False,59,71
-<S_XG>,I know that the attempt to repair the washing machine finally ruined nevertheless,False,69,81
-<S_XG>,I know that the attempt to fix the washing machine finally ruined nevertheless,False,66,78
-<S_XG>,I know that the attempt to overhaul the washing machine finally ruined nevertheless,False,71,83
-<S_XG>,I know that the attempt to rebuild the washing machine finally ruined nevertheless,False,70,82
-<S_XG>,I know that the attempt to repair the drier finally ruined nevertheless,False,59,71
-<S_XG>,I know that the attempt to fix the drier finally ruined nevertheless,False,56,68
-<S_XG>,I know that the attempt to overhaul the drier finally ruined nevertheless,False,61,73
-<S_XG>,I know that the attempt to rebuild the drier finally ruined nevertheless,False,60,72
-<S_XG>,I know that the attempt to repair the ceiling finally ruined nevertheless,False,61,73
-<S_XG>,I know that the attempt to fix the ceiling finally ruined nevertheless,False,58,70
-<S_XG>,I know that the attempt to overhaul the ceiling finally ruined nevertheless,False,63,75
-<S_XG>,I know that the attempt to rebuild the ceiling finally ruined nevertheless,False,62,74
-<S_XG>,I know that the attempt to repair the apartment finally ruined nevertheless,False,63,75
-<S_XG>,I know that the attempt to fix the apartment finally ruined nevertheless,False,60,72
-<S_XG>,I know that the attempt to overhaul the apartment finally ruined nevertheless,False,65,77
-<S_XG>,I know that the attempt to rebuild the apartment finally ruined nevertheless,False,64,76
-<S_XG>,I know that the attempt to repair the car eventually wrecked nevertheless,False,61,73
-<S_XG>,I know that the attempt to fix the car eventually wrecked nevertheless,False,58,70
-<S_XG>,I know that the attempt to overhaul the car eventually wrecked nevertheless,False,63,75
-<S_XG>,I know that the attempt to rebuild the car eventually wrecked nevertheless,False,62,74
-<S_XG>,I know that the attempt to repair the bike eventually wrecked nevertheless,False,62,74
-<S_XG>,I know that the attempt to fix the bike eventually wrecked nevertheless,False,59,71
-<S_XG>,I know that the attempt to overhaul the bike eventually wrecked nevertheless,False,64,76
-<S_XG>,I know that the attempt to rebuild the bike eventually wrecked nevertheless,False,63,75
-<S_XG>,I know that the attempt to repair the washing machine eventually wrecked nevertheless,False,73,85
-<S_XG>,I know that the attempt to fix the washing machine eventually wrecked nevertheless,False,70,82
-<S_XG>,I know that the attempt to overhaul the washing machine eventually wrecked nevertheless,False,75,87
-<S_XG>,I know that the attempt to rebuild the washing machine eventually wrecked nevertheless,False,74,86
-<S_XG>,I know that the attempt to repair the drier eventually wrecked nevertheless,False,63,75
-<S_XG>,I know that the attempt to fix the drier eventually wrecked nevertheless,False,60,72
-<S_XG>,I know that the attempt to overhaul the drier eventually wrecked nevertheless,False,65,77
-<S_XG>,I know that the attempt to rebuild the drier eventually wrecked nevertheless,False,64,76
-<S_XG>,I know that the attempt to repair the ceiling eventually wrecked nevertheless,False,65,77
-<S_XG>,I know that the attempt to fix the ceiling eventually wrecked nevertheless,False,62,74
-<S_XG>,I know that the attempt to overhaul the ceiling eventually wrecked nevertheless,False,67,79
-<S_XG>,I know that the attempt to rebuild the ceiling eventually wrecked nevertheless,False,66,78
-<S_XG>,I know that the attempt to repair the apartment eventually wrecked nevertheless,False,67,79
-<S_XG>,I know that the attempt to fix the apartment eventually wrecked nevertheless,False,64,76
-<S_XG>,I know that the attempt to overhaul the apartment eventually wrecked nevertheless,False,69,81
-<S_XG>,I know that the attempt to rebuild the apartment eventually wrecked nevertheless,False,68,80
-<S_XG>,I know that the attempt to repair the car finally wrecked nevertheless,False,58,70
-<S_XG>,I know that the attempt to fix the car finally wrecked nevertheless,False,55,67
-<S_XG>,I know that the attempt to overhaul the car finally wrecked nevertheless,False,60,72
-<S_XG>,I know that the attempt to rebuild the car finally wrecked nevertheless,False,59,71
-<S_XG>,I know that the attempt to repair the bike finally wrecked nevertheless,False,59,71
-<S_XG>,I know that the attempt to fix the bike finally wrecked nevertheless,False,56,68
-<S_XG>,I know that the attempt to overhaul the bike finally wrecked nevertheless,False,61,73
-<S_XG>,I know that the attempt to rebuild the bike finally wrecked nevertheless,False,60,72
-<S_XG>,I know that the attempt to repair the washing machine finally wrecked nevertheless,False,70,82
-<S_XG>,I know that the attempt to fix the washing machine finally wrecked nevertheless,False,67,79
-<S_XG>,I know that the attempt to overhaul the washing machine finally wrecked nevertheless,False,72,84
-<S_XG>,I know that the attempt to rebuild the washing machine finally wrecked nevertheless,False,71,83
-<S_XG>,I know that the attempt to repair the drier finally wrecked nevertheless,False,60,72
-<S_XG>,I know that the attempt to fix the drier finally wrecked nevertheless,False,57,69
-<S_XG>,I know that the attempt to overhaul the drier finally wrecked nevertheless,False,62,74
-<S_XG>,I know that the attempt to rebuild the drier finally wrecked nevertheless,False,61,73
-<S_XG>,I know that the attempt to repair the ceiling finally wrecked nevertheless,False,62,74
-<S_XG>,I know that the attempt to fix the ceiling finally wrecked nevertheless,False,59,71
-<S_XG>,I know that the attempt to overhaul the ceiling finally wrecked nevertheless,False,64,76
-<S_XG>,I know that the attempt to rebuild the ceiling finally wrecked nevertheless,False,63,75
-<S_XG>,I know that the attempt to repair the apartment finally wrecked nevertheless,False,64,76
-<S_XG>,I know that the attempt to fix the apartment finally wrecked nevertheless,False,61,73
-<S_XG>,I know that the attempt to overhaul the apartment finally wrecked nevertheless,False,66,78
-<S_XG>,I know that the attempt to rebuild the apartment finally wrecked nevertheless,False,65,77
-<S_XG>,I know that the attempt to repair the car eventually damaged nonetheless,False,61,72
-<S_XG>,I know that the attempt to fix the car eventually damaged nonetheless,False,58,69
-<S_XG>,I know that the attempt to overhaul the car eventually damaged nonetheless,False,63,74
-<S_XG>,I know that the attempt to rebuild the car eventually damaged nonetheless,False,62,73
-<S_XG>,I know that the attempt to repair the bike eventually damaged nonetheless,False,62,73
-<S_XG>,I know that the attempt to fix the bike eventually damaged nonetheless,False,59,70
-<S_XG>,I know that the attempt to overhaul the bike eventually damaged nonetheless,False,64,75
-<S_XG>,I know that the attempt to rebuild the bike eventually damaged nonetheless,False,63,74
-<S_XG>,I know that the attempt to repair the washing machine eventually damaged nonetheless,False,73,84
-<S_XG>,I know that the attempt to fix the washing machine eventually damaged nonetheless,False,70,81
-<S_XG>,I know that the attempt to overhaul the washing machine eventually damaged nonetheless,False,75,86
-<S_XG>,I know that the attempt to rebuild the washing machine eventually damaged nonetheless,False,74,85
-<S_XG>,I know that the attempt to repair the drier eventually damaged nonetheless,False,63,74
-<S_XG>,I know that the attempt to fix the drier eventually damaged nonetheless,False,60,71
-<S_XG>,I know that the attempt to overhaul the drier eventually damaged nonetheless,False,65,76
-<S_XG>,I know that the attempt to rebuild the drier eventually damaged nonetheless,False,64,75
-<S_XG>,I know that the attempt to repair the ceiling eventually damaged nonetheless,False,65,76
-<S_XG>,I know that the attempt to fix the ceiling eventually damaged nonetheless,False,62,73
-<S_XG>,I know that the attempt to overhaul the ceiling eventually damaged nonetheless,False,67,78
-<S_XG>,I know that the attempt to rebuild the ceiling eventually damaged nonetheless,False,66,77
-<S_XG>,I know that the attempt to repair the apartment eventually damaged nonetheless,False,67,78
-<S_XG>,I know that the attempt to fix the apartment eventually damaged nonetheless,False,64,75
-<S_XG>,I know that the attempt to overhaul the apartment eventually damaged nonetheless,False,69,80
-<S_XG>,I know that the attempt to rebuild the apartment eventually damaged nonetheless,False,68,79
-<S_XG>,I know that the attempt to repair the car finally damaged nonetheless,False,58,69
-<S_XG>,I know that the attempt to fix the car finally damaged nonetheless,False,55,66
-<S_XG>,I know that the attempt to overhaul the car finally damaged nonetheless,False,60,71
-<S_XG>,I know that the attempt to rebuild the car finally damaged nonetheless,False,59,70
-<S_XG>,I know that the attempt to repair the bike finally damaged nonetheless,False,59,70
-<S_XG>,I know that the attempt to fix the bike finally damaged nonetheless,False,56,67
-<S_XG>,I know that the attempt to overhaul the bike finally damaged nonetheless,False,61,72
-<S_XG>,I know that the attempt to rebuild the bike finally damaged nonetheless,False,60,71
-<S_XG>,I know that the attempt to repair the washing machine finally damaged nonetheless,False,70,81
-<S_XG>,I know that the attempt to fix the washing machine finally damaged nonetheless,False,67,78
-<S_XG>,I know that the attempt to overhaul the washing machine finally damaged nonetheless,False,72,83
-<S_XG>,I know that the attempt to rebuild the washing machine finally damaged nonetheless,False,71,82
-<S_XG>,I know that the attempt to repair the drier finally damaged nonetheless,False,60,71
-<S_XG>,I know that the attempt to fix the drier finally damaged nonetheless,False,57,68
-<S_XG>,I know that the attempt to overhaul the drier finally damaged nonetheless,False,62,73
-<S_XG>,I know that the attempt to rebuild the drier finally damaged nonetheless,False,61,72
-<S_XG>,I know that the attempt to repair the ceiling finally damaged nonetheless,False,62,73
-<S_XG>,I know that the attempt to fix the ceiling finally damaged nonetheless,False,59,70
-<S_XG>,I know that the attempt to overhaul the ceiling finally damaged nonetheless,False,64,75
-<S_XG>,I know that the attempt to rebuild the ceiling finally damaged nonetheless,False,63,74
-<S_XG>,I know that the attempt to repair the apartment finally damaged nonetheless,False,64,75
-<S_XG>,I know that the attempt to fix the apartment finally damaged nonetheless,False,61,72
-<S_XG>,I know that the attempt to overhaul the apartment finally damaged nonetheless,False,66,77
-<S_XG>,I know that the attempt to rebuild the apartment finally damaged nonetheless,False,65,76
-<S_XG>,I know that the attempt to repair the car eventually destroyed nonetheless,False,63,74
-<S_XG>,I know that the attempt to fix the car eventually destroyed nonetheless,False,60,71
-<S_XG>,I know that the attempt to overhaul the car eventually destroyed nonetheless,False,65,76
-<S_XG>,I know that the attempt to rebuild the car eventually destroyed nonetheless,False,64,75
-<S_XG>,I know that the attempt to repair the bike eventually destroyed nonetheless,False,64,75
-<S_XG>,I know that the attempt to fix the bike eventually destroyed nonetheless,False,61,72
-<S_XG>,I know that the attempt to overhaul the bike eventually destroyed nonetheless,False,66,77
-<S_XG>,I know that the attempt to rebuild the bike eventually destroyed nonetheless,False,65,76
-<S_XG>,I know that the attempt to repair the washing machine eventually destroyed nonetheless,False,75,86
-<S_XG>,I know that the attempt to fix the washing machine eventually destroyed nonetheless,False,72,83
-<S_XG>,I know that the attempt to overhaul the washing machine eventually destroyed nonetheless,False,77,88
-<S_XG>,I know that the attempt to rebuild the washing machine eventually destroyed nonetheless,False,76,87
-<S_XG>,I know that the attempt to repair the drier eventually destroyed nonetheless,False,65,76
-<S_XG>,I know that the attempt to fix the drier eventually destroyed nonetheless,False,62,73
-<S_XG>,I know that the attempt to overhaul the drier eventually destroyed nonetheless,False,67,78
-<S_XG>,I know that the attempt to rebuild the drier eventually destroyed nonetheless,False,66,77
-<S_XG>,I know that the attempt to repair the ceiling eventually destroyed nonetheless,False,67,78
-<S_XG>,I know that the attempt to fix the ceiling eventually destroyed nonetheless,False,64,75
-<S_XG>,I know that the attempt to overhaul the ceiling eventually destroyed nonetheless,False,69,80
-<S_XG>,I know that the attempt to rebuild the ceiling eventually destroyed nonetheless,False,68,79
-<S_XG>,I know that the attempt to repair the apartment eventually destroyed nonetheless,False,69,80
-<S_XG>,I know that the attempt to fix the apartment eventually destroyed nonetheless,False,66,77
-<S_XG>,I know that the attempt to overhaul the apartment eventually destroyed nonetheless,False,71,82
-<S_XG>,I know that the attempt to rebuild the apartment eventually destroyed nonetheless,False,70,81
-<S_XG>,I know that the attempt to repair the car finally destroyed nonetheless,False,60,71
-<S_XG>,I know that the attempt to fix the car finally destroyed nonetheless,False,57,68
-<S_XG>,I know that the attempt to overhaul the car finally destroyed nonetheless,False,62,73
-<S_XG>,I know that the attempt to rebuild the car finally destroyed nonetheless,False,61,72
-<S_XG>,I know that the attempt to repair the bike finally destroyed nonetheless,False,61,72
-<S_XG>,I know that the attempt to fix the bike finally destroyed nonetheless,False,58,69
-<S_XG>,I know that the attempt to overhaul the bike finally destroyed nonetheless,False,63,74
-<S_XG>,I know that the attempt to rebuild the bike finally destroyed nonetheless,False,62,73
-<S_XG>,I know that the attempt to repair the washing machine finally destroyed nonetheless,False,72,83
-<S_XG>,I know that the attempt to fix the washing machine finally destroyed nonetheless,False,69,80
-<S_XG>,I know that the attempt to overhaul the washing machine finally destroyed nonetheless,False,74,85
-<S_XG>,I know that the attempt to rebuild the washing machine finally destroyed nonetheless,False,73,84
-<S_XG>,I know that the attempt to repair the drier finally destroyed nonetheless,False,62,73
-<S_XG>,I know that the attempt to fix the drier finally destroyed nonetheless,False,59,70
-<S_XG>,I know that the attempt to overhaul the drier finally destroyed nonetheless,False,64,75
-<S_XG>,I know that the attempt to rebuild the drier finally destroyed nonetheless,False,63,74
-<S_XG>,I know that the attempt to repair the ceiling finally destroyed nonetheless,False,64,75
-<S_XG>,I know that the attempt to fix the ceiling finally destroyed nonetheless,False,61,72
-<S_XG>,I know that the attempt to overhaul the ceiling finally destroyed nonetheless,False,66,77
-<S_XG>,I know that the attempt to rebuild the ceiling finally destroyed nonetheless,False,65,76
-<S_XG>,I know that the attempt to repair the apartment finally destroyed nonetheless,False,66,77
-<S_XG>,I know that the attempt to fix the apartment finally destroyed nonetheless,False,63,74
-<S_XG>,I know that the attempt to overhaul the apartment finally destroyed nonetheless,False,68,79
-<S_XG>,I know that the attempt to rebuild the apartment finally destroyed nonetheless,False,67,78
-<S_XG>,I know that the attempt to repair the car eventually ruined nonetheless,False,60,71
-<S_XG>,I know that the attempt to fix the car eventually ruined nonetheless,False,57,68
-<S_XG>,I know that the attempt to overhaul the car eventually ruined nonetheless,False,62,73
-<S_XG>,I know that the attempt to rebuild the car eventually ruined nonetheless,False,61,72
-<S_XG>,I know that the attempt to repair the bike eventually ruined nonetheless,False,61,72
-<S_XG>,I know that the attempt to fix the bike eventually ruined nonetheless,False,58,69
-<S_XG>,I know that the attempt to overhaul the bike eventually ruined nonetheless,False,63,74
-<S_XG>,I know that the attempt to rebuild the bike eventually ruined nonetheless,False,62,73
-<S_XG>,I know that the attempt to repair the washing machine eventually ruined nonetheless,False,72,83
-<S_XG>,I know that the attempt to fix the washing machine eventually ruined nonetheless,False,69,80
-<S_XG>,I know that the attempt to overhaul the washing machine eventually ruined nonetheless,False,74,85
-<S_XG>,I know that the attempt to rebuild the washing machine eventually ruined nonetheless,False,73,84
-<S_XG>,I know that the attempt to repair the drier eventually ruined nonetheless,False,62,73
-<S_XG>,I know that the attempt to fix the drier eventually ruined nonetheless,False,59,70
-<S_XG>,I know that the attempt to overhaul the drier eventually ruined nonetheless,False,64,75
-<S_XG>,I know that the attempt to rebuild the drier eventually ruined nonetheless,False,63,74
-<S_XG>,I know that the attempt to repair the ceiling eventually ruined nonetheless,False,64,75
-<S_XG>,I know that the attempt to fix the ceiling eventually ruined nonetheless,False,61,72
-<S_XG>,I know that the attempt to overhaul the ceiling eventually ruined nonetheless,False,66,77
-<S_XG>,I know that the attempt to rebuild the ceiling eventually ruined nonetheless,False,65,76
-<S_XG>,I know that the attempt to repair the apartment eventually ruined nonetheless,False,66,77
-<S_XG>,I know that the attempt to fix the apartment eventually ruined nonetheless,False,63,74
-<S_XG>,I know that the attempt to overhaul the apartment eventually ruined nonetheless,False,68,79
-<S_XG>,I know that the attempt to rebuild the apartment eventually ruined nonetheless,False,67,78
-<S_XG>,I know that the attempt to repair the car finally ruined nonetheless,False,57,68
-<S_XG>,I know that the attempt to fix the car finally ruined nonetheless,False,54,65
-<S_XG>,I know that the attempt to overhaul the car finally ruined nonetheless,False,59,70
-<S_XG>,I know that the attempt to rebuild the car finally ruined nonetheless,False,58,69
-<S_XG>,I know that the attempt to repair the bike finally ruined nonetheless,False,58,69
-<S_XG>,I know that the attempt to fix the bike finally ruined nonetheless,False,55,66
-<S_XG>,I know that the attempt to overhaul the bike finally ruined nonetheless,False,60,71
-<S_XG>,I know that the attempt to rebuild the bike finally ruined nonetheless,False,59,70
-<S_XG>,I know that the attempt to repair the washing machine finally ruined nonetheless,False,69,80
-<S_XG>,I know that the attempt to fix the washing machine finally ruined nonetheless,False,66,77
-<S_XG>,I know that the attempt to overhaul the washing machine finally ruined nonetheless,False,71,82
-<S_XG>,I know that the attempt to rebuild the washing machine finally ruined nonetheless,False,70,81
-<S_XG>,I know that the attempt to repair the drier finally ruined nonetheless,False,59,70
-<S_XG>,I know that the attempt to fix the drier finally ruined nonetheless,False,56,67
-<S_XG>,I know that the attempt to overhaul the drier finally ruined nonetheless,False,61,72
-<S_XG>,I know that the attempt to rebuild the drier finally ruined nonetheless,False,60,71
-<S_XG>,I know that the attempt to repair the ceiling finally ruined nonetheless,False,61,72
-<S_XG>,I know that the attempt to fix the ceiling finally ruined nonetheless,False,58,69
-<S_XG>,I know that the attempt to overhaul the ceiling finally ruined nonetheless,False,63,74
-<S_XG>,I know that the attempt to rebuild the ceiling finally ruined nonetheless,False,62,73
-<S_XG>,I know that the attempt to repair the apartment finally ruined nonetheless,False,63,74
-<S_XG>,I know that the attempt to fix the apartment finally ruined nonetheless,False,60,71
-<S_XG>,I know that the attempt to overhaul the apartment finally ruined nonetheless,False,65,76
-<S_XG>,I know that the attempt to rebuild the apartment finally ruined nonetheless,False,64,75
-<S_XG>,I know that the attempt to repair the car eventually wrecked nonetheless,False,61,72
-<S_XG>,I know that the attempt to fix the car eventually wrecked nonetheless,False,58,69
-<S_XG>,I know that the attempt to overhaul the car eventually wrecked nonetheless,False,63,74
-<S_XG>,I know that the attempt to rebuild the car eventually wrecked nonetheless,False,62,73
-<S_XG>,I know that the attempt to repair the bike eventually wrecked nonetheless,False,62,73
-<S_XG>,I know that the attempt to fix the bike eventually wrecked nonetheless,False,59,70
-<S_XG>,I know that the attempt to overhaul the bike eventually wrecked nonetheless,False,64,75
-<S_XG>,I know that the attempt to rebuild the bike eventually wrecked nonetheless,False,63,74
-<S_XG>,I know that the attempt to repair the washing machine eventually wrecked nonetheless,False,73,84
-<S_XG>,I know that the attempt to fix the washing machine eventually wrecked nonetheless,False,70,81
-<S_XG>,I know that the attempt to overhaul the washing machine eventually wrecked nonetheless,False,75,86
-<S_XG>,I know that the attempt to rebuild the washing machine eventually wrecked nonetheless,False,74,85
-<S_XG>,I know that the attempt to repair the drier eventually wrecked nonetheless,False,63,74
-<S_XG>,I know that the attempt to fix the drier eventually wrecked nonetheless,False,60,71
-<S_XG>,I know that the attempt to overhaul the drier eventually wrecked nonetheless,False,65,76
-<S_XG>,I know that the attempt to rebuild the drier eventually wrecked nonetheless,False,64,75
-<S_XG>,I know that the attempt to repair the ceiling eventually wrecked nonetheless,False,65,76
-<S_XG>,I know that the attempt to fix the ceiling eventually wrecked nonetheless,False,62,73
-<S_XG>,I know that the attempt to overhaul the ceiling eventually wrecked nonetheless,False,67,78
-<S_XG>,I know that the attempt to rebuild the ceiling eventually wrecked nonetheless,False,66,77
-<S_XG>,I know that the attempt to repair the apartment eventually wrecked nonetheless,False,67,78
-<S_XG>,I know that the attempt to fix the apartment eventually wrecked nonetheless,False,64,75
-<S_XG>,I know that the attempt to overhaul the apartment eventually wrecked nonetheless,False,69,80
-<S_XG>,I know that the attempt to rebuild the apartment eventually wrecked nonetheless,False,68,79
-<S_XG>,I know that the attempt to repair the car finally wrecked nonetheless,False,58,69
-<S_XG>,I know that the attempt to fix the car finally wrecked nonetheless,False,55,66
-<S_XG>,I know that the attempt to overhaul the car finally wrecked nonetheless,False,60,71
-<S_XG>,I know that the attempt to rebuild the car finally wrecked nonetheless,False,59,70
-<S_XG>,I know that the attempt to repair the bike finally wrecked nonetheless,False,59,70
-<S_XG>,I know that the attempt to fix the bike finally wrecked nonetheless,False,56,67
-<S_XG>,I know that the attempt to overhaul the bike finally wrecked nonetheless,False,61,72
-<S_XG>,I know that the attempt to rebuild the bike finally wrecked nonetheless,False,60,71
-<S_XG>,I know that the attempt to repair the washing machine finally wrecked nonetheless,False,70,81
-<S_XG>,I know that the attempt to fix the washing machine finally wrecked nonetheless,False,67,78
-<S_XG>,I know that the attempt to overhaul the washing machine finally wrecked nonetheless,False,72,83
-<S_XG>,I know that the attempt to rebuild the washing machine finally wrecked nonetheless,False,71,82
-<S_XG>,I know that the attempt to repair the drier finally wrecked nonetheless,False,60,71
-<S_XG>,I know that the attempt to fix the drier finally wrecked nonetheless,False,57,68
-<S_XG>,I know that the attempt to overhaul the drier finally wrecked nonetheless,False,62,73
-<S_XG>,I know that the attempt to rebuild the drier finally wrecked nonetheless,False,61,72
-<S_XG>,I know that the attempt to repair the ceiling finally wrecked nonetheless,False,62,73
-<S_XG>,I know that the attempt to fix the ceiling finally wrecked nonetheless,False,59,70
-<S_XG>,I know that the attempt to overhaul the ceiling finally wrecked nonetheless,False,64,75
-<S_XG>,I know that the attempt to rebuild the ceiling finally wrecked nonetheless,False,63,74
-<S_XG>,I know that the attempt to repair the apartment finally wrecked nonetheless,False,64,75
-<S_XG>,I know that the attempt to fix the apartment finally wrecked nonetheless,False,61,72
-<S_XG>,I know that the attempt to overhaul the apartment finally wrecked nonetheless,False,66,77
-<S_XG>,I know that the attempt to rebuild the apartment finally wrecked nonetheless,False,65,76
-<S_FX>,I know what the attempt to repair eventually damaged it nevertheless,False,53,55
-<S_FX>,I know what the attempt to fix eventually damaged it nevertheless,False,50,52
-<S_FX>,I know what the attempt to overhaul eventually damaged it nevertheless,False,55,57
-<S_FX>,I know what the attempt to rebuild eventually damaged it nevertheless,False,54,56
-<S_FX>,I know what the attempt to repair finally damaged it nevertheless,False,50,52
-<S_FX>,I know what the attempt to fix finally damaged it nevertheless,False,47,49
-<S_FX>,I know what the attempt to overhaul finally damaged it nevertheless,False,52,54
-<S_FX>,I know what the attempt to rebuild finally damaged it nevertheless,False,51,53
-<S_FX>,I know what the attempt to repair eventually destroyed it nevertheless,False,55,57
-<S_FX>,I know what the attempt to fix eventually destroyed it nevertheless,False,52,54
-<S_FX>,I know what the attempt to overhaul eventually destroyed it nevertheless,False,57,59
-<S_FX>,I know what the attempt to rebuild eventually destroyed it nevertheless,False,56,58
-<S_FX>,I know what the attempt to repair finally destroyed it nevertheless,False,52,54
-<S_FX>,I know what the attempt to fix finally destroyed it nevertheless,False,49,51
-<S_FX>,I know what the attempt to overhaul finally destroyed it nevertheless,False,54,56
-<S_FX>,I know what the attempt to rebuild finally destroyed it nevertheless,False,53,55
-<S_FX>,I know what the attempt to repair eventually ruined it nevertheless,False,52,54
-<S_FX>,I know what the attempt to fix eventually ruined it nevertheless,False,49,51
-<S_FX>,I know what the attempt to overhaul eventually ruined it nevertheless,False,54,56
-<S_FX>,I know what the attempt to rebuild eventually ruined it nevertheless,False,53,55
-<S_FX>,I know what the attempt to repair finally ruined it nevertheless,False,49,51
-<S_FX>,I know what the attempt to fix finally ruined it nevertheless,False,46,48
-<S_FX>,I know what the attempt to overhaul finally ruined it nevertheless,False,51,53
-<S_FX>,I know what the attempt to rebuild finally ruined it nevertheless,False,50,52
-<S_FX>,I know what the attempt to repair eventually wrecked it nevertheless,False,53,55
-<S_FX>,I know what the attempt to fix eventually wrecked it nevertheless,False,50,52
-<S_FX>,I know what the attempt to overhaul eventually wrecked it nevertheless,False,55,57
-<S_FX>,I know what the attempt to rebuild eventually wrecked it nevertheless,False,54,56
-<S_FX>,I know what the attempt to repair finally wrecked it nevertheless,False,50,52
-<S_FX>,I know what the attempt to fix finally wrecked it nevertheless,False,47,49
-<S_FX>,I know what the attempt to overhaul finally wrecked it nevertheless,False,52,54
-<S_FX>,I know what the attempt to rebuild finally wrecked it nevertheless,False,51,53
-<S_FX>,I know what the attempt to repair eventually damaged it nonetheless,False,53,55
-<S_FX>,I know what the attempt to fix eventually damaged it nonetheless,False,50,52
-<S_FX>,I know what the attempt to overhaul eventually damaged it nonetheless,False,55,57
-<S_FX>,I know what the attempt to rebuild eventually damaged it nonetheless,False,54,56
-<S_FX>,I know what the attempt to repair finally damaged it nonetheless,False,50,52
-<S_FX>,I know what the attempt to fix finally damaged it nonetheless,False,47,49
-<S_FX>,I know what the attempt to overhaul finally damaged it nonetheless,False,52,54
-<S_FX>,I know what the attempt to rebuild finally damaged it nonetheless,False,51,53
-<S_FX>,I know what the attempt to repair eventually destroyed it nonetheless,False,55,57
-<S_FX>,I know what the attempt to fix eventually destroyed it nonetheless,False,52,54
-<S_FX>,I know what the attempt to overhaul eventually destroyed it nonetheless,False,57,59
-<S_FX>,I know what the attempt to rebuild eventually destroyed it nonetheless,False,56,58
-<S_FX>,I know what the attempt to repair finally destroyed it nonetheless,False,52,54
-<S_FX>,I know what the attempt to fix finally destroyed it nonetheless,False,49,51
-<S_FX>,I know what the attempt to overhaul finally destroyed it nonetheless,False,54,56
-<S_FX>,I know what the attempt to rebuild finally destroyed it nonetheless,False,53,55
-<S_FX>,I know what the attempt to repair eventually ruined it nonetheless,False,52,54
-<S_FX>,I know what the attempt to fix eventually ruined it nonetheless,False,49,51
-<S_FX>,I know what the attempt to overhaul eventually ruined it nonetheless,False,54,56
-<S_FX>,I know what the attempt to rebuild eventually ruined it nonetheless,False,53,55
-<S_FX>,I know what the attempt to repair finally ruined it nonetheless,False,49,51
-<S_FX>,I know what the attempt to fix finally ruined it nonetheless,False,46,48
-<S_FX>,I know what the attempt to overhaul finally ruined it nonetheless,False,51,53
-<S_FX>,I know what the attempt to rebuild finally ruined it nonetheless,False,50,52
-<S_FX>,I know what the attempt to repair eventually wrecked it nonetheless,False,53,55
-<S_FX>,I know what the attempt to fix eventually wrecked it nonetheless,False,50,52
-<S_FX>,I know what the attempt to overhaul eventually wrecked it nonetheless,False,55,57
-<S_FX>,I know what the attempt to rebuild eventually wrecked it nonetheless,False,54,56
-<S_FX>,I know what the attempt to repair finally wrecked it nonetheless,False,50,52
-<S_FX>,I know what the attempt to fix finally wrecked it nonetheless,False,47,49
-<S_FX>,I know what the attempt to overhaul finally wrecked it nonetheless,False,52,54
-<S_FX>,I know what the attempt to rebuild finally wrecked it nonetheless,False,51,53
-<S_XX>,I know that the attempt to repair the car eventually damaged it nevertheless,True,61,63
-<S_XX>,I know that the attempt to fix the car eventually damaged it nevertheless,True,58,60
-<S_XX>,I know that the attempt to overhaul the car eventually damaged it nevertheless,True,63,65
-<S_XX>,I know that the attempt to rebuild the car eventually damaged it nevertheless,True,62,64
-<S_XX>,I know that the attempt to repair the bike eventually damaged it nevertheless,True,62,64
-<S_XX>,I know that the attempt to fix the bike eventually damaged it nevertheless,True,59,61
-<S_XX>,I know that the attempt to overhaul the bike eventually damaged it nevertheless,True,64,66
-<S_XX>,I know that the attempt to rebuild the bike eventually damaged it nevertheless,True,63,65
-<S_XX>,I know that the attempt to repair the washing machine eventually damaged it nevertheless,True,73,75
-<S_XX>,I know that the attempt to fix the washing machine eventually damaged it nevertheless,True,70,72
-<S_XX>,I know that the attempt to overhaul the washing machine eventually damaged it nevertheless,True,75,77
-<S_XX>,I know that the attempt to rebuild the washing machine eventually damaged it nevertheless,True,74,76
-<S_XX>,I know that the attempt to repair the drier eventually damaged it nevertheless,True,63,65
-<S_XX>,I know that the attempt to fix the drier eventually damaged it nevertheless,True,60,62
-<S_XX>,I know that the attempt to overhaul the drier eventually damaged it nevertheless,True,65,67
-<S_XX>,I know that the attempt to rebuild the drier eventually damaged it nevertheless,True,64,66
-<S_XX>,I know that the attempt to repair the ceiling eventually damaged it nevertheless,True,65,67
-<S_XX>,I know that the attempt to fix the ceiling eventually damaged it nevertheless,True,62,64
-<S_XX>,I know that the attempt to overhaul the ceiling eventually damaged it nevertheless,True,67,69
-<S_XX>,I know that the attempt to rebuild the ceiling eventually damaged it nevertheless,True,66,68
-<S_XX>,I know that the attempt to repair the apartment eventually damaged it nevertheless,True,67,69
-<S_XX>,I know that the attempt to fix the apartment eventually damaged it nevertheless,True,64,66
-<S_XX>,I know that the attempt to overhaul the apartment eventually damaged it nevertheless,True,69,71
-<S_XX>,I know that the attempt to rebuild the apartment eventually damaged it nevertheless,True,68,70
-<S_XX>,I know that the attempt to repair the car finally damaged it nevertheless,True,58,60
-<S_XX>,I know that the attempt to fix the car finally damaged it nevertheless,True,55,57
-<S_XX>,I know that the attempt to overhaul the car finally damaged it nevertheless,True,60,62
-<S_XX>,I know that the attempt to rebuild the car finally damaged it nevertheless,True,59,61
-<S_XX>,I know that the attempt to repair the bike finally damaged it nevertheless,True,59,61
-<S_XX>,I know that the attempt to fix the bike finally damaged it nevertheless,True,56,58
-<S_XX>,I know that the attempt to overhaul the bike finally damaged it nevertheless,True,61,63
-<S_XX>,I know that the attempt to rebuild the bike finally damaged it nevertheless,True,60,62
-<S_XX>,I know that the attempt to repair the washing machine finally damaged it nevertheless,True,70,72
-<S_XX>,I know that the attempt to fix the washing machine finally damaged it nevertheless,True,67,69
-<S_XX>,I know that the attempt to overhaul the washing machine finally damaged it nevertheless,True,72,74
-<S_XX>,I know that the attempt to rebuild the washing machine finally damaged it nevertheless,True,71,73
-<S_XX>,I know that the attempt to repair the drier finally damaged it nevertheless,True,60,62
-<S_XX>,I know that the attempt to fix the drier finally damaged it nevertheless,True,57,59
-<S_XX>,I know that the attempt to overhaul the drier finally damaged it nevertheless,True,62,64
-<S_XX>,I know that the attempt to rebuild the drier finally damaged it nevertheless,True,61,63
-<S_XX>,I know that the attempt to repair the ceiling finally damaged it nevertheless,True,62,64
-<S_XX>,I know that the attempt to fix the ceiling finally damaged it nevertheless,True,59,61
-<S_XX>,I know that the attempt to overhaul the ceiling finally damaged it nevertheless,True,64,66
-<S_XX>,I know that the attempt to rebuild the ceiling finally damaged it nevertheless,True,63,65
-<S_XX>,I know that the attempt to repair the apartment finally damaged it nevertheless,True,64,66
-<S_XX>,I know that the attempt to fix the apartment finally damaged it nevertheless,True,61,63
-<S_XX>,I know that the attempt to overhaul the apartment finally damaged it nevertheless,True,66,68
-<S_XX>,I know that the attempt to rebuild the apartment finally damaged it nevertheless,True,65,67
-<S_XX>,I know that the attempt to repair the car eventually destroyed it nevertheless,True,63,65
-<S_XX>,I know that the attempt to fix the car eventually destroyed it nevertheless,True,60,62
-<S_XX>,I know that the attempt to overhaul the car eventually destroyed it nevertheless,True,65,67
-<S_XX>,I know that the attempt to rebuild the car eventually destroyed it nevertheless,True,64,66
-<S_XX>,I know that the attempt to repair the bike eventually destroyed it nevertheless,True,64,66
-<S_XX>,I know that the attempt to fix the bike eventually destroyed it nevertheless,True,61,63
-<S_XX>,I know that the attempt to overhaul the bike eventually destroyed it nevertheless,True,66,68
-<S_XX>,I know that the attempt to rebuild the bike eventually destroyed it nevertheless,True,65,67
-<S_XX>,I know that the attempt to repair the washing machine eventually destroyed it nevertheless,True,75,77
-<S_XX>,I know that the attempt to fix the washing machine eventually destroyed it nevertheless,True,72,74
-<S_XX>,I know that the attempt to overhaul the washing machine eventually destroyed it nevertheless,True,77,79
-<S_XX>,I know that the attempt to rebuild the washing machine eventually destroyed it nevertheless,True,76,78
-<S_XX>,I know that the attempt to repair the drier eventually destroyed it nevertheless,True,65,67
-<S_XX>,I know that the attempt to fix the drier eventually destroyed it nevertheless,True,62,64
-<S_XX>,I know that the attempt to overhaul the drier eventually destroyed it nevertheless,True,67,69
-<S_XX>,I know that the attempt to rebuild the drier eventually destroyed it nevertheless,True,66,68
-<S_XX>,I know that the attempt to repair the ceiling eventually destroyed it nevertheless,True,67,69
-<S_XX>,I know that the attempt to fix the ceiling eventually destroyed it nevertheless,True,64,66
-<S_XX>,I know that the attempt to overhaul the ceiling eventually destroyed it nevertheless,True,69,71
-<S_XX>,I know that the attempt to rebuild the ceiling eventually destroyed it nevertheless,True,68,70
-<S_XX>,I know that the attempt to repair the apartment eventually destroyed it nevertheless,True,69,71
-<S_XX>,I know that the attempt to fix the apartment eventually destroyed it nevertheless,True,66,68
-<S_XX>,I know that the attempt to overhaul the apartment eventually destroyed it nevertheless,True,71,73
-<S_XX>,I know that the attempt to rebuild the apartment eventually destroyed it nevertheless,True,70,72
-<S_XX>,I know that the attempt to repair the car finally destroyed it nevertheless,True,60,62
-<S_XX>,I know that the attempt to fix the car finally destroyed it nevertheless,True,57,59
-<S_XX>,I know that the attempt to overhaul the car finally destroyed it nevertheless,True,62,64
-<S_XX>,I know that the attempt to rebuild the car finally destroyed it nevertheless,True,61,63
-<S_XX>,I know that the attempt to repair the bike finally destroyed it nevertheless,True,61,63
-<S_XX>,I know that the attempt to fix the bike finally destroyed it nevertheless,True,58,60
-<S_XX>,I know that the attempt to overhaul the bike finally destroyed it nevertheless,True,63,65
-<S_XX>,I know that the attempt to rebuild the bike finally destroyed it nevertheless,True,62,64
-<S_XX>,I know that the attempt to repair the washing machine finally destroyed it nevertheless,True,72,74
-<S_XX>,I know that the attempt to fix the washing machine finally destroyed it nevertheless,True,69,71
-<S_XX>,I know that the attempt to overhaul the washing machine finally destroyed it nevertheless,True,74,76
-<S_XX>,I know that the attempt to rebuild the washing machine finally destroyed it nevertheless,True,73,75
-<S_XX>,I know that the attempt to repair the drier finally destroyed it nevertheless,True,62,64
-<S_XX>,I know that the attempt to fix the drier finally destroyed it nevertheless,True,59,61
-<S_XX>,I know that the attempt to overhaul the drier finally destroyed it nevertheless,True,64,66
-<S_XX>,I know that the attempt to rebuild the drier finally destroyed it nevertheless,True,63,65
-<S_XX>,I know that the attempt to repair the ceiling finally destroyed it nevertheless,True,64,66
-<S_XX>,I know that the attempt to fix the ceiling finally destroyed it nevertheless,True,61,63
-<S_XX>,I know that the attempt to overhaul the ceiling finally destroyed it nevertheless,True,66,68
-<S_XX>,I know that the attempt to rebuild the ceiling finally destroyed it nevertheless,True,65,67
-<S_XX>,I know that the attempt to repair the apartment finally destroyed it nevertheless,True,66,68
-<S_XX>,I know that the attempt to fix the apartment finally destroyed it nevertheless,True,63,65
-<S_XX>,I know that the attempt to overhaul the apartment finally destroyed it nevertheless,True,68,70
-<S_XX>,I know that the attempt to rebuild the apartment finally destroyed it nevertheless,True,67,69
-<S_XX>,I know that the attempt to repair the car eventually ruined it nevertheless,True,60,62
-<S_XX>,I know that the attempt to fix the car eventually ruined it nevertheless,True,57,59
-<S_XX>,I know that the attempt to overhaul the car eventually ruined it nevertheless,True,62,64
-<S_XX>,I know that the attempt to rebuild the car eventually ruined it nevertheless,True,61,63
-<S_XX>,I know that the attempt to repair the bike eventually ruined it nevertheless,True,61,63
-<S_XX>,I know that the attempt to fix the bike eventually ruined it nevertheless,True,58,60
-<S_XX>,I know that the attempt to overhaul the bike eventually ruined it nevertheless,True,63,65
-<S_XX>,I know that the attempt to rebuild the bike eventually ruined it nevertheless,True,62,64
-<S_XX>,I know that the attempt to repair the washing machine eventually ruined it nevertheless,True,72,74
-<S_XX>,I know that the attempt to fix the washing machine eventually ruined it nevertheless,True,69,71
-<S_XX>,I know that the attempt to overhaul the washing machine eventually ruined it nevertheless,True,74,76
-<S_XX>,I know that the attempt to rebuild the washing machine eventually ruined it nevertheless,True,73,75
-<S_XX>,I know that the attempt to repair the drier eventually ruined it nevertheless,True,62,64
-<S_XX>,I know that the attempt to fix the drier eventually ruined it nevertheless,True,59,61
-<S_XX>,I know that the attempt to overhaul the drier eventually ruined it nevertheless,True,64,66
-<S_XX>,I know that the attempt to rebuild the drier eventually ruined it nevertheless,True,63,65
-<S_XX>,I know that the attempt to repair the ceiling eventually ruined it nevertheless,True,64,66
-<S_XX>,I know that the attempt to fix the ceiling eventually ruined it nevertheless,True,61,63
-<S_XX>,I know that the attempt to overhaul the ceiling eventually ruined it nevertheless,True,66,68
-<S_XX>,I know that the attempt to rebuild the ceiling eventually ruined it nevertheless,True,65,67
-<S_XX>,I know that the attempt to repair the apartment eventually ruined it nevertheless,True,66,68
-<S_XX>,I know that the attempt to fix the apartment eventually ruined it nevertheless,True,63,65
-<S_XX>,I know that the attempt to overhaul the apartment eventually ruined it nevertheless,True,68,70
-<S_XX>,I know that the attempt to rebuild the apartment eventually ruined it nevertheless,True,67,69
-<S_XX>,I know that the attempt to repair the car finally ruined it nevertheless,True,57,59
-<S_XX>,I know that the attempt to fix the car finally ruined it nevertheless,True,54,56
-<S_XX>,I know that the attempt to overhaul the car finally ruined it nevertheless,True,59,61
-<S_XX>,I know that the attempt to rebuild the car finally ruined it nevertheless,True,58,60
-<S_XX>,I know that the attempt to repair the bike finally ruined it nevertheless,True,58,60
-<S_XX>,I know that the attempt to fix the bike finally ruined it nevertheless,True,55,57
-<S_XX>,I know that the attempt to overhaul the bike finally ruined it nevertheless,True,60,62
-<S_XX>,I know that the attempt to rebuild the bike finally ruined it nevertheless,True,59,61
-<S_XX>,I know that the attempt to repair the washing machine finally ruined it nevertheless,True,69,71
-<S_XX>,I know that the attempt to fix the washing machine finally ruined it nevertheless,True,66,68
-<S_XX>,I know that the attempt to overhaul the washing machine finally ruined it nevertheless,True,71,73
-<S_XX>,I know that the attempt to rebuild the washing machine finally ruined it nevertheless,True,70,72
-<S_XX>,I know that the attempt to repair the drier finally ruined it nevertheless,True,59,61
-<S_XX>,I know that the attempt to fix the drier finally ruined it nevertheless,True,56,58
-<S_XX>,I know that the attempt to overhaul the drier finally ruined it nevertheless,True,61,63
-<S_XX>,I know that the attempt to rebuild the drier finally ruined it nevertheless,True,60,62
-<S_XX>,I know that the attempt to repair the ceiling finally ruined it nevertheless,True,61,63
-<S_XX>,I know that the attempt to fix the ceiling finally ruined it nevertheless,True,58,60
-<S_XX>,I know that the attempt to overhaul the ceiling finally ruined it nevertheless,True,63,65
-<S_XX>,I know that the attempt to rebuild the ceiling finally ruined it nevertheless,True,62,64
-<S_XX>,I know that the attempt to repair the apartment finally ruined it nevertheless,True,63,65
-<S_XX>,I know that the attempt to fix the apartment finally ruined it nevertheless,True,60,62
-<S_XX>,I know that the attempt to overhaul the apartment finally ruined it nevertheless,True,65,67
-<S_XX>,I know that the attempt to rebuild the apartment finally ruined it nevertheless,True,64,66
-<S_XX>,I know that the attempt to repair the car eventually wrecked it nevertheless,True,61,63
-<S_XX>,I know that the attempt to fix the car eventually wrecked it nevertheless,True,58,60
-<S_XX>,I know that the attempt to overhaul the car eventually wrecked it nevertheless,True,63,65
-<S_XX>,I know that the attempt to rebuild the car eventually wrecked it nevertheless,True,62,64
-<S_XX>,I know that the attempt to repair the bike eventually wrecked it nevertheless,True,62,64
-<S_XX>,I know that the attempt to fix the bike eventually wrecked it nevertheless,True,59,61
-<S_XX>,I know that the attempt to overhaul the bike eventually wrecked it nevertheless,True,64,66
-<S_XX>,I know that the attempt to rebuild the bike eventually wrecked it nevertheless,True,63,65
-<S_XX>,I know that the attempt to repair the washing machine eventually wrecked it nevertheless,True,73,75
-<S_XX>,I know that the attempt to fix the washing machine eventually wrecked it nevertheless,True,70,72
-<S_XX>,I know that the attempt to overhaul the washing machine eventually wrecked it nevertheless,True,75,77
-<S_XX>,I know that the attempt to rebuild the washing machine eventually wrecked it nevertheless,True,74,76
-<S_XX>,I know that the attempt to repair the drier eventually wrecked it nevertheless,True,63,65
-<S_XX>,I know that the attempt to fix the drier eventually wrecked it nevertheless,True,60,62
-<S_XX>,I know that the attempt to overhaul the drier eventually wrecked it nevertheless,True,65,67
-<S_XX>,I know that the attempt to rebuild the drier eventually wrecked it nevertheless,True,64,66
-<S_XX>,I know that the attempt to repair the ceiling eventually wrecked it nevertheless,True,65,67
-<S_XX>,I know that the attempt to fix the ceiling eventually wrecked it nevertheless,True,62,64
-<S_XX>,I know that the attempt to overhaul the ceiling eventually wrecked it nevertheless,True,67,69
-<S_XX>,I know that the attempt to rebuild the ceiling eventually wrecked it nevertheless,True,66,68
-<S_XX>,I know that the attempt to repair the apartment eventually wrecked it nevertheless,True,67,69
-<S_XX>,I know that the attempt to fix the apartment eventually wrecked it nevertheless,True,64,66
-<S_XX>,I know that the attempt to overhaul the apartment eventually wrecked it nevertheless,True,69,71
-<S_XX>,I know that the attempt to rebuild the apartment eventually wrecked it nevertheless,True,68,70
-<S_XX>,I know that the attempt to repair the car finally wrecked it nevertheless,True,58,60
-<S_XX>,I know that the attempt to fix the car finally wrecked it nevertheless,True,55,57
-<S_XX>,I know that the attempt to overhaul the car finally wrecked it nevertheless,True,60,62
-<S_XX>,I know that the attempt to rebuild the car finally wrecked it nevertheless,True,59,61
-<S_XX>,I know that the attempt to repair the bike finally wrecked it nevertheless,True,59,61
-<S_XX>,I know that the attempt to fix the bike finally wrecked it nevertheless,True,56,58
-<S_XX>,I know that the attempt to overhaul the bike finally wrecked it nevertheless,True,61,63
-<S_XX>,I know that the attempt to rebuild the bike finally wrecked it nevertheless,True,60,62
-<S_XX>,I know that the attempt to repair the washing machine finally wrecked it nevertheless,True,70,72
-<S_XX>,I know that the attempt to fix the washing machine finally wrecked it nevertheless,True,67,69
-<S_XX>,I know that the attempt to overhaul the washing machine finally wrecked it nevertheless,True,72,74
-<S_XX>,I know that the attempt to rebuild the washing machine finally wrecked it nevertheless,True,71,73
-<S_XX>,I know that the attempt to repair the drier finally wrecked it nevertheless,True,60,62
-<S_XX>,I know that the attempt to fix the drier finally wrecked it nevertheless,True,57,59
-<S_XX>,I know that the attempt to overhaul the drier finally wrecked it nevertheless,True,62,64
-<S_XX>,I know that the attempt to rebuild the drier finally wrecked it nevertheless,True,61,63
-<S_XX>,I know that the attempt to repair the ceiling finally wrecked it nevertheless,True,62,64
-<S_XX>,I know that the attempt to fix the ceiling finally wrecked it nevertheless,True,59,61
-<S_XX>,I know that the attempt to overhaul the ceiling finally wrecked it nevertheless,True,64,66
-<S_XX>,I know that the attempt to rebuild the ceiling finally wrecked it nevertheless,True,63,65
-<S_XX>,I know that the attempt to repair the apartment finally wrecked it nevertheless,True,64,66
-<S_XX>,I know that the attempt to fix the apartment finally wrecked it nevertheless,True,61,63
-<S_XX>,I know that the attempt to overhaul the apartment finally wrecked it nevertheless,True,66,68
-<S_XX>,I know that the attempt to rebuild the apartment finally wrecked it nevertheless,True,65,67
-<S_XX>,I know that the attempt to repair the car eventually damaged it nonetheless,True,61,63
-<S_XX>,I know that the attempt to fix the car eventually damaged it nonetheless,True,58,60
-<S_XX>,I know that the attempt to overhaul the car eventually damaged it nonetheless,True,63,65
-<S_XX>,I know that the attempt to rebuild the car eventually damaged it nonetheless,True,62,64
-<S_XX>,I know that the attempt to repair the bike eventually damaged it nonetheless,True,62,64
-<S_XX>,I know that the attempt to fix the bike eventually damaged it nonetheless,True,59,61
-<S_XX>,I know that the attempt to overhaul the bike eventually damaged it nonetheless,True,64,66
-<S_XX>,I know that the attempt to rebuild the bike eventually damaged it nonetheless,True,63,65
-<S_XX>,I know that the attempt to repair the washing machine eventually damaged it nonetheless,True,73,75
-<S_XX>,I know that the attempt to fix the washing machine eventually damaged it nonetheless,True,70,72
-<S_XX>,I know that the attempt to overhaul the washing machine eventually damaged it nonetheless,True,75,77
-<S_XX>,I know that the attempt to rebuild the washing machine eventually damaged it nonetheless,True,74,76
-<S_XX>,I know that the attempt to repair the drier eventually damaged it nonetheless,True,63,65
-<S_XX>,I know that the attempt to fix the drier eventually damaged it nonetheless,True,60,62
-<S_XX>,I know that the attempt to overhaul the drier eventually damaged it nonetheless,True,65,67
-<S_XX>,I know that the attempt to rebuild the drier eventually damaged it nonetheless,True,64,66
-<S_XX>,I know that the attempt to repair the ceiling eventually damaged it nonetheless,True,65,67
-<S_XX>,I know that the attempt to fix the ceiling eventually damaged it nonetheless,True,62,64
-<S_XX>,I know that the attempt to overhaul the ceiling eventually damaged it nonetheless,True,67,69
-<S_XX>,I know that the attempt to rebuild the ceiling eventually damaged it nonetheless,True,66,68
-<S_XX>,I know that the attempt to repair the apartment eventually damaged it nonetheless,True,67,69
-<S_XX>,I know that the attempt to fix the apartment eventually damaged it nonetheless,True,64,66
-<S_XX>,I know that the attempt to overhaul the apartment eventually damaged it nonetheless,True,69,71
-<S_XX>,I know that the attempt to rebuild the apartment eventually damaged it nonetheless,True,68,70
-<S_XX>,I know that the attempt to repair the car finally damaged it nonetheless,True,58,60
-<S_XX>,I know that the attempt to fix the car finally damaged it nonetheless,True,55,57
-<S_XX>,I know that the attempt to overhaul the car finally damaged it nonetheless,True,60,62
-<S_XX>,I know that the attempt to rebuild the car finally damaged it nonetheless,True,59,61
-<S_XX>,I know that the attempt to repair the bike finally damaged it nonetheless,True,59,61
-<S_XX>,I know that the attempt to fix the bike finally damaged it nonetheless,True,56,58
-<S_XX>,I know that the attempt to overhaul the bike finally damaged it nonetheless,True,61,63
-<S_XX>,I know that the attempt to rebuild the bike finally damaged it nonetheless,True,60,62
-<S_XX>,I know that the attempt to repair the washing machine finally damaged it nonetheless,True,70,72
-<S_XX>,I know that the attempt to fix the washing machine finally damaged it nonetheless,True,67,69
-<S_XX>,I know that the attempt to overhaul the washing machine finally damaged it nonetheless,True,72,74
-<S_XX>,I know that the attempt to rebuild the washing machine finally damaged it nonetheless,True,71,73
-<S_XX>,I know that the attempt to repair the drier finally damaged it nonetheless,True,60,62
-<S_XX>,I know that the attempt to fix the drier finally damaged it nonetheless,True,57,59
-<S_XX>,I know that the attempt to overhaul the drier finally damaged it nonetheless,True,62,64
-<S_XX>,I know that the attempt to rebuild the drier finally damaged it nonetheless,True,61,63
-<S_XX>,I know that the attempt to repair the ceiling finally damaged it nonetheless,True,62,64
-<S_XX>,I know that the attempt to fix the ceiling finally damaged it nonetheless,True,59,61
-<S_XX>,I know that the attempt to overhaul the ceiling finally damaged it nonetheless,True,64,66
-<S_XX>,I know that the attempt to rebuild the ceiling finally damaged it nonetheless,True,63,65
-<S_XX>,I know that the attempt to repair the apartment finally damaged it nonetheless,True,64,66
-<S_XX>,I know that the attempt to fix the apartment finally damaged it nonetheless,True,61,63
-<S_XX>,I know that the attempt to overhaul the apartment finally damaged it nonetheless,True,66,68
-<S_XX>,I know that the attempt to rebuild the apartment finally damaged it nonetheless,True,65,67
-<S_XX>,I know that the attempt to repair the car eventually destroyed it nonetheless,True,63,65
-<S_XX>,I know that the attempt to fix the car eventually destroyed it nonetheless,True,60,62
-<S_XX>,I know that the attempt to overhaul the car eventually destroyed it nonetheless,True,65,67
-<S_XX>,I know that the attempt to rebuild the car eventually destroyed it nonetheless,True,64,66
-<S_XX>,I know that the attempt to repair the bike eventually destroyed it nonetheless,True,64,66
-<S_XX>,I know that the attempt to fix the bike eventually destroyed it nonetheless,True,61,63
-<S_XX>,I know that the attempt to overhaul the bike eventually destroyed it nonetheless,True,66,68
-<S_XX>,I know that the attempt to rebuild the bike eventually destroyed it nonetheless,True,65,67
-<S_XX>,I know that the attempt to repair the washing machine eventually destroyed it nonetheless,True,75,77
-<S_XX>,I know that the attempt to fix the washing machine eventually destroyed it nonetheless,True,72,74
-<S_XX>,I know that the attempt to overhaul the washing machine eventually destroyed it nonetheless,True,77,79
-<S_XX>,I know that the attempt to rebuild the washing machine eventually destroyed it nonetheless,True,76,78
-<S_XX>,I know that the attempt to repair the drier eventually destroyed it nonetheless,True,65,67
-<S_XX>,I know that the attempt to fix the drier eventually destroyed it nonetheless,True,62,64
-<S_XX>,I know that the attempt to overhaul the drier eventually destroyed it nonetheless,True,67,69
-<S_XX>,I know that the attempt to rebuild the drier eventually destroyed it nonetheless,True,66,68
-<S_XX>,I know that the attempt to repair the ceiling eventually destroyed it nonetheless,True,67,69
-<S_XX>,I know that the attempt to fix the ceiling eventually destroyed it nonetheless,True,64,66
-<S_XX>,I know that the attempt to overhaul the ceiling eventually destroyed it nonetheless,True,69,71
-<S_XX>,I know that the attempt to rebuild the ceiling eventually destroyed it nonetheless,True,68,70
-<S_XX>,I know that the attempt to repair the apartment eventually destroyed it nonetheless,True,69,71
-<S_XX>,I know that the attempt to fix the apartment eventually destroyed it nonetheless,True,66,68
-<S_XX>,I know that the attempt to overhaul the apartment eventually destroyed it nonetheless,True,71,73
-<S_XX>,I know that the attempt to rebuild the apartment eventually destroyed it nonetheless,True,70,72
-<S_XX>,I know that the attempt to repair the car finally destroyed it nonetheless,True,60,62
-<S_XX>,I know that the attempt to fix the car finally destroyed it nonetheless,True,57,59
-<S_XX>,I know that the attempt to overhaul the car finally destroyed it nonetheless,True,62,64
-<S_XX>,I know that the attempt to rebuild the car finally destroyed it nonetheless,True,61,63
-<S_XX>,I know that the attempt to repair the bike finally destroyed it nonetheless,True,61,63
-<S_XX>,I know that the attempt to fix the bike finally destroyed it nonetheless,True,58,60
-<S_XX>,I know that the attempt to overhaul the bike finally destroyed it nonetheless,True,63,65
-<S_XX>,I know that the attempt to rebuild the bike finally destroyed it nonetheless,True,62,64
-<S_XX>,I know that the attempt to repair the washing machine finally destroyed it nonetheless,True,72,74
-<S_XX>,I know that the attempt to fix the washing machine finally destroyed it nonetheless,True,69,71
-<S_XX>,I know that the attempt to overhaul the washing machine finally destroyed it nonetheless,True,74,76
-<S_XX>,I know that the attempt to rebuild the washing machine finally destroyed it nonetheless,True,73,75
-<S_XX>,I know that the attempt to repair the drier finally destroyed it nonetheless,True,62,64
-<S_XX>,I know that the attempt to fix the drier finally destroyed it nonetheless,True,59,61
-<S_XX>,I know that the attempt to overhaul the drier finally destroyed it nonetheless,True,64,66
-<S_XX>,I know that the attempt to rebuild the drier finally destroyed it nonetheless,True,63,65
-<S_XX>,I know that the attempt to repair the ceiling finally destroyed it nonetheless,True,64,66
-<S_XX>,I know that the attempt to fix the ceiling finally destroyed it nonetheless,True,61,63
-<S_XX>,I know that the attempt to overhaul the ceiling finally destroyed it nonetheless,True,66,68
-<S_XX>,I know that the attempt to rebuild the ceiling finally destroyed it nonetheless,True,65,67
-<S_XX>,I know that the attempt to repair the apartment finally destroyed it nonetheless,True,66,68
-<S_XX>,I know that the attempt to fix the apartment finally destroyed it nonetheless,True,63,65
-<S_XX>,I know that the attempt to overhaul the apartment finally destroyed it nonetheless,True,68,70
-<S_XX>,I know that the attempt to rebuild the apartment finally destroyed it nonetheless,True,67,69
-<S_XX>,I know that the attempt to repair the car eventually ruined it nonetheless,True,60,62
-<S_XX>,I know that the attempt to fix the car eventually ruined it nonetheless,True,57,59
-<S_XX>,I know that the attempt to overhaul the car eventually ruined it nonetheless,True,62,64
-<S_XX>,I know that the attempt to rebuild the car eventually ruined it nonetheless,True,61,63
-<S_XX>,I know that the attempt to repair the bike eventually ruined it nonetheless,True,61,63
-<S_XX>,I know that the attempt to fix the bike eventually ruined it nonetheless,True,58,60
-<S_XX>,I know that the attempt to overhaul the bike eventually ruined it nonetheless,True,63,65
-<S_XX>,I know that the attempt to rebuild the bike eventually ruined it nonetheless,True,62,64
-<S_XX>,I know that the attempt to repair the washing machine eventually ruined it nonetheless,True,72,74
-<S_XX>,I know that the attempt to fix the washing machine eventually ruined it nonetheless,True,69,71
-<S_XX>,I know that the attempt to overhaul the washing machine eventually ruined it nonetheless,True,74,76
-<S_XX>,I know that the attempt to rebuild the washing machine eventually ruined it nonetheless,True,73,75
-<S_XX>,I know that the attempt to repair the drier eventually ruined it nonetheless,True,62,64
-<S_XX>,I know that the attempt to fix the drier eventually ruined it nonetheless,True,59,61
-<S_XX>,I know that the attempt to overhaul the drier eventually ruined it nonetheless,True,64,66
-<S_XX>,I know that the attempt to rebuild the drier eventually ruined it nonetheless,True,63,65
-<S_XX>,I know that the attempt to repair the ceiling eventually ruined it nonetheless,True,64,66
-<S_XX>,I know that the attempt to fix the ceiling eventually ruined it nonetheless,True,61,63
-<S_XX>,I know that the attempt to overhaul the ceiling eventually ruined it nonetheless,True,66,68
-<S_XX>,I know that the attempt to rebuild the ceiling eventually ruined it nonetheless,True,65,67
-<S_XX>,I know that the attempt to repair the apartment eventually ruined it nonetheless,True,66,68
-<S_XX>,I know that the attempt to fix the apartment eventually ruined it nonetheless,True,63,65
-<S_XX>,I know that the attempt to overhaul the apartment eventually ruined it nonetheless,True,68,70
-<S_XX>,I know that the attempt to rebuild the apartment eventually ruined it nonetheless,True,67,69
-<S_XX>,I know that the attempt to repair the car finally ruined it nonetheless,True,57,59
-<S_XX>,I know that the attempt to fix the car finally ruined it nonetheless,True,54,56
-<S_XX>,I know that the attempt to overhaul the car finally ruined it nonetheless,True,59,61
-<S_XX>,I know that the attempt to rebuild the car finally ruined it nonetheless,True,58,60
-<S_XX>,I know that the attempt to repair the bike finally ruined it nonetheless,True,58,60
-<S_XX>,I know that the attempt to fix the bike finally ruined it nonetheless,True,55,57
-<S_XX>,I know that the attempt to overhaul the bike finally ruined it nonetheless,True,60,62
-<S_XX>,I know that the attempt to rebuild the bike finally ruined it nonetheless,True,59,61
-<S_XX>,I know that the attempt to repair the washing machine finally ruined it nonetheless,True,69,71
-<S_XX>,I know that the attempt to fix the washing machine finally ruined it nonetheless,True,66,68
-<S_XX>,I know that the attempt to overhaul the washing machine finally ruined it nonetheless,True,71,73
-<S_XX>,I know that the attempt to rebuild the washing machine finally ruined it nonetheless,True,70,72
-<S_XX>,I know that the attempt to repair the drier finally ruined it nonetheless,True,59,61
-<S_XX>,I know that the attempt to fix the drier finally ruined it nonetheless,True,56,58
-<S_XX>,I know that the attempt to overhaul the drier finally ruined it nonetheless,True,61,63
-<S_XX>,I know that the attempt to rebuild the drier finally ruined it nonetheless,True,60,62
-<S_XX>,I know that the attempt to repair the ceiling finally ruined it nonetheless,True,61,63
-<S_XX>,I know that the attempt to fix the ceiling finally ruined it nonetheless,True,58,60
-<S_XX>,I know that the attempt to overhaul the ceiling finally ruined it nonetheless,True,63,65
-<S_XX>,I know that the attempt to rebuild the ceiling finally ruined it nonetheless,True,62,64
-<S_XX>,I know that the attempt to repair the apartment finally ruined it nonetheless,True,63,65
-<S_XX>,I know that the attempt to fix the apartment finally ruined it nonetheless,True,60,62
-<S_XX>,I know that the attempt to overhaul the apartment finally ruined it nonetheless,True,65,67
-<S_XX>,I know that the attempt to rebuild the apartment finally ruined it nonetheless,True,64,66
-<S_XX>,I know that the attempt to repair the car eventually wrecked it nonetheless,True,61,63
-<S_XX>,I know that the attempt to fix the car eventually wrecked it nonetheless,True,58,60
-<S_XX>,I know that the attempt to overhaul the car eventually wrecked it nonetheless,True,63,65
-<S_XX>,I know that the attempt to rebuild the car eventually wrecked it nonetheless,True,62,64
-<S_XX>,I know that the attempt to repair the bike eventually wrecked it nonetheless,True,62,64
-<S_XX>,I know that the attempt to fix the bike eventually wrecked it nonetheless,True,59,61
-<S_XX>,I know that the attempt to overhaul the bike eventually wrecked it nonetheless,True,64,66
-<S_XX>,I know that the attempt to rebuild the bike eventually wrecked it nonetheless,True,63,65
-<S_XX>,I know that the attempt to repair the washing machine eventually wrecked it nonetheless,True,73,75
-<S_XX>,I know that the attempt to fix the washing machine eventually wrecked it nonetheless,True,70,72
-<S_XX>,I know that the attempt to overhaul the washing machine eventually wrecked it nonetheless,True,75,77
-<S_XX>,I know that the attempt to rebuild the washing machine eventually wrecked it nonetheless,True,74,76
-<S_XX>,I know that the attempt to repair the drier eventually wrecked it nonetheless,True,63,65
-<S_XX>,I know that the attempt to fix the drier eventually wrecked it nonetheless,True,60,62
-<S_XX>,I know that the attempt to overhaul the drier eventually wrecked it nonetheless,True,65,67
-<S_XX>,I know that the attempt to rebuild the drier eventually wrecked it nonetheless,True,64,66
-<S_XX>,I know that the attempt to repair the ceiling eventually wrecked it nonetheless,True,65,67
-<S_XX>,I know that the attempt to fix the ceiling eventually wrecked it nonetheless,True,62,64
-<S_XX>,I know that the attempt to overhaul the ceiling eventually wrecked it nonetheless,True,67,69
-<S_XX>,I know that the attempt to rebuild the ceiling eventually wrecked it nonetheless,True,66,68
-<S_XX>,I know that the attempt to repair the apartment eventually wrecked it nonetheless,True,67,69
-<S_XX>,I know that the attempt to fix the apartment eventually wrecked it nonetheless,True,64,66
-<S_XX>,I know that the attempt to overhaul the apartment eventually wrecked it nonetheless,True,69,71
-<S_XX>,I know that the attempt to rebuild the apartment eventually wrecked it nonetheless,True,68,70
-<S_XX>,I know that the attempt to repair the car finally wrecked it nonetheless,True,58,60
-<S_XX>,I know that the attempt to fix the car finally wrecked it nonetheless,True,55,57
-<S_XX>,I know that the attempt to overhaul the car finally wrecked it nonetheless,True,60,62
-<S_XX>,I know that the attempt to rebuild the car finally wrecked it nonetheless,True,59,61
-<S_XX>,I know that the attempt to repair the bike finally wrecked it nonetheless,True,59,61
-<S_XX>,I know that the attempt to fix the bike finally wrecked it nonetheless,True,56,58
-<S_XX>,I know that the attempt to overhaul the bike finally wrecked it nonetheless,True,61,63
-<S_XX>,I know that the attempt to rebuild the bike finally wrecked it nonetheless,True,60,62
-<S_XX>,I know that the attempt to repair the washing machine finally wrecked it nonetheless,True,70,72
-<S_XX>,I know that the attempt to fix the washing machine finally wrecked it nonetheless,True,67,69
-<S_XX>,I know that the attempt to overhaul the washing machine finally wrecked it nonetheless,True,72,74
-<S_XX>,I know that the attempt to rebuild the washing machine finally wrecked it nonetheless,True,71,73
-<S_XX>,I know that the attempt to repair the drier finally wrecked it nonetheless,True,60,62
-<S_XX>,I know that the attempt to fix the drier finally wrecked it nonetheless,True,57,59
-<S_XX>,I know that the attempt to overhaul the drier finally wrecked it nonetheless,True,62,64
-<S_XX>,I know that the attempt to rebuild the drier finally wrecked it nonetheless,True,61,63
-<S_XX>,I know that the attempt to repair the ceiling finally wrecked it nonetheless,True,62,64
-<S_XX>,I know that the attempt to fix the ceiling finally wrecked it nonetheless,True,59,61
-<S_XX>,I know that the attempt to overhaul the ceiling finally wrecked it nonetheless,True,64,66
-<S_XX>,I know that the attempt to rebuild the ceiling finally wrecked it nonetheless,True,63,65
-<S_XX>,I know that the attempt to repair the apartment finally wrecked it nonetheless,True,64,66
-<S_XX>,I know that the attempt to fix the apartment finally wrecked it nonetheless,True,61,63
-<S_XX>,I know that the attempt to overhaul the apartment finally wrecked it nonetheless,True,66,68
-<S_XX>,I know that the attempt to rebuild the apartment finally wrecked it nonetheless,True,65,67
+Type,Sentence,Grammatical,Region Start,Region End,Is Training
+<S_FG>,I know what the attempt to repair eventually damaged nevertheless,True,53,65,
+<S_FG>,I know what the attempt to fix eventually damaged nevertheless,True,50,62,
+<S_FG>,I know what the attempt to overhaul eventually damaged nevertheless,True,55,67,
+<S_FG>,I know what the attempt to rebuild eventually damaged nevertheless,True,54,66,
+<S_FG>,I know what the attempt to repair finally damaged nevertheless,True,50,62,
+<S_FG>,I know what the attempt to fix finally damaged nevertheless,True,47,59,
+<S_FG>,I know what the attempt to overhaul finally damaged nevertheless,True,52,64,
+<S_FG>,I know what the attempt to rebuild finally damaged nevertheless,True,51,63,
+<S_FG>,I know what the attempt to repair eventually destroyed nevertheless,True,55,67,
+<S_FG>,I know what the attempt to fix eventually destroyed nevertheless,True,52,64,
+<S_FG>,I know what the attempt to overhaul eventually destroyed nevertheless,True,57,69,
+<S_FG>,I know what the attempt to rebuild eventually destroyed nevertheless,True,56,68,
+<S_FG>,I know what the attempt to repair finally destroyed nevertheless,True,52,64,
+<S_FG>,I know what the attempt to fix finally destroyed nevertheless,True,49,61,
+<S_FG>,I know what the attempt to overhaul finally destroyed nevertheless,True,54,66,
+<S_FG>,I know what the attempt to rebuild finally destroyed nevertheless,True,53,65,
+<S_FG>,I know what the attempt to repair eventually ruined nevertheless,True,52,64,
+<S_FG>,I know what the attempt to fix eventually ruined nevertheless,True,49,61,
+<S_FG>,I know what the attempt to overhaul eventually ruined nevertheless,True,54,66,
+<S_FG>,I know what the attempt to rebuild eventually ruined nevertheless,True,53,65,
+<S_FG>,I know what the attempt to repair finally ruined nevertheless,True,49,61,
+<S_FG>,I know what the attempt to fix finally ruined nevertheless,True,46,58,
+<S_FG>,I know what the attempt to overhaul finally ruined nevertheless,True,51,63,
+<S_FG>,I know what the attempt to rebuild finally ruined nevertheless,True,50,62,
+<S_FG>,I know what the attempt to repair eventually wrecked nevertheless,True,53,65,
+<S_FG>,I know what the attempt to fix eventually wrecked nevertheless,True,50,62,
+<S_FG>,I know what the attempt to overhaul eventually wrecked nevertheless,True,55,67,
+<S_FG>,I know what the attempt to rebuild eventually wrecked nevertheless,True,54,66,
+<S_FG>,I know what the attempt to repair finally wrecked nevertheless,True,50,62,
+<S_FG>,I know what the attempt to fix finally wrecked nevertheless,True,47,59,
+<S_FG>,I know what the attempt to overhaul finally wrecked nevertheless,True,52,64,
+<S_FG>,I know what the attempt to rebuild finally wrecked nevertheless,True,51,63,
+<S_FG>,I know what the attempt to repair eventually damaged nonetheless,True,53,64,
+<S_FG>,I know what the attempt to fix eventually damaged nonetheless,True,50,61,
+<S_FG>,I know what the attempt to overhaul eventually damaged nonetheless,True,55,66,
+<S_FG>,I know what the attempt to rebuild eventually damaged nonetheless,True,54,65,
+<S_FG>,I know what the attempt to repair finally damaged nonetheless,True,50,61,
+<S_FG>,I know what the attempt to fix finally damaged nonetheless,True,47,58,
+<S_FG>,I know what the attempt to overhaul finally damaged nonetheless,True,52,63,
+<S_FG>,I know what the attempt to rebuild finally damaged nonetheless,True,51,62,
+<S_FG>,I know what the attempt to repair eventually destroyed nonetheless,True,55,66,
+<S_FG>,I know what the attempt to fix eventually destroyed nonetheless,True,52,63,
+<S_FG>,I know what the attempt to overhaul eventually destroyed nonetheless,True,57,68,
+<S_FG>,I know what the attempt to rebuild eventually destroyed nonetheless,True,56,67,
+<S_FG>,I know what the attempt to repair finally destroyed nonetheless,True,52,63,
+<S_FG>,I know what the attempt to fix finally destroyed nonetheless,True,49,60,
+<S_FG>,I know what the attempt to overhaul finally destroyed nonetheless,True,54,65,
+<S_FG>,I know what the attempt to rebuild finally destroyed nonetheless,True,53,64,
+<S_FG>,I know what the attempt to repair eventually ruined nonetheless,True,52,63,
+<S_FG>,I know what the attempt to fix eventually ruined nonetheless,True,49,60,
+<S_FG>,I know what the attempt to overhaul eventually ruined nonetheless,True,54,65,
+<S_FG>,I know what the attempt to rebuild eventually ruined nonetheless,True,53,64,
+<S_FG>,I know what the attempt to repair finally ruined nonetheless,True,49,60,
+<S_FG>,I know what the attempt to fix finally ruined nonetheless,True,46,57,
+<S_FG>,I know what the attempt to overhaul finally ruined nonetheless,True,51,62,
+<S_FG>,I know what the attempt to rebuild finally ruined nonetheless,True,50,61,
+<S_FG>,I know what the attempt to repair eventually wrecked nonetheless,True,53,64,
+<S_FG>,I know what the attempt to fix eventually wrecked nonetheless,True,50,61,
+<S_FG>,I know what the attempt to overhaul eventually wrecked nonetheless,True,55,66,
+<S_FG>,I know what the attempt to rebuild eventually wrecked nonetheless,True,54,65,
+<S_FG>,I know what the attempt to repair finally wrecked nonetheless,True,50,61,
+<S_FG>,I know what the attempt to fix finally wrecked nonetheless,True,47,58,
+<S_FG>,I know what the attempt to overhaul finally wrecked nonetheless,True,52,63,
+<S_FG>,I know what the attempt to rebuild finally wrecked nonetheless,True,51,62,
+<S_XG>,I know that the attempt to repair the car eventually damaged nevertheless,False,61,73,
+<S_XG>,I know that the attempt to fix the car eventually damaged nevertheless,False,58,70,
+<S_XG>,I know that the attempt to overhaul the car eventually damaged nevertheless,False,63,75,
+<S_XG>,I know that the attempt to rebuild the car eventually damaged nevertheless,False,62,74,
+<S_XG>,I know that the attempt to repair the bike eventually damaged nevertheless,False,62,74,
+<S_XG>,I know that the attempt to fix the bike eventually damaged nevertheless,False,59,71,
+<S_XG>,I know that the attempt to overhaul the bike eventually damaged nevertheless,False,64,76,
+<S_XG>,I know that the attempt to rebuild the bike eventually damaged nevertheless,False,63,75,
+<S_XG>,I know that the attempt to repair the washing machine eventually damaged nevertheless,False,73,85,
+<S_XG>,I know that the attempt to fix the washing machine eventually damaged nevertheless,False,70,82,
+<S_XG>,I know that the attempt to overhaul the washing machine eventually damaged nevertheless,False,75,87,
+<S_XG>,I know that the attempt to rebuild the washing machine eventually damaged nevertheless,False,74,86,
+<S_XG>,I know that the attempt to repair the drier eventually damaged nevertheless,False,63,75,
+<S_XG>,I know that the attempt to fix the drier eventually damaged nevertheless,False,60,72,
+<S_XG>,I know that the attempt to overhaul the drier eventually damaged nevertheless,False,65,77,
+<S_XG>,I know that the attempt to rebuild the drier eventually damaged nevertheless,False,64,76,
+<S_XG>,I know that the attempt to repair the ceiling eventually damaged nevertheless,False,65,77,
+<S_XG>,I know that the attempt to fix the ceiling eventually damaged nevertheless,False,62,74,
+<S_XG>,I know that the attempt to overhaul the ceiling eventually damaged nevertheless,False,67,79,
+<S_XG>,I know that the attempt to rebuild the ceiling eventually damaged nevertheless,False,66,78,
+<S_XG>,I know that the attempt to repair the apartment eventually damaged nevertheless,False,67,79,
+<S_XG>,I know that the attempt to fix the apartment eventually damaged nevertheless,False,64,76,
+<S_XG>,I know that the attempt to overhaul the apartment eventually damaged nevertheless,False,69,81,
+<S_XG>,I know that the attempt to rebuild the apartment eventually damaged nevertheless,False,68,80,
+<S_XG>,I know that the attempt to repair the car finally damaged nevertheless,False,58,70,
+<S_XG>,I know that the attempt to fix the car finally damaged nevertheless,False,55,67,
+<S_XG>,I know that the attempt to overhaul the car finally damaged nevertheless,False,60,72,
+<S_XG>,I know that the attempt to rebuild the car finally damaged nevertheless,False,59,71,
+<S_XG>,I know that the attempt to repair the bike finally damaged nevertheless,False,59,71,
+<S_XG>,I know that the attempt to fix the bike finally damaged nevertheless,False,56,68,
+<S_XG>,I know that the attempt to overhaul the bike finally damaged nevertheless,False,61,73,
+<S_XG>,I know that the attempt to rebuild the bike finally damaged nevertheless,False,60,72,
+<S_XG>,I know that the attempt to repair the washing machine finally damaged nevertheless,False,70,82,
+<S_XG>,I know that the attempt to fix the washing machine finally damaged nevertheless,False,67,79,
+<S_XG>,I know that the attempt to overhaul the washing machine finally damaged nevertheless,False,72,84,
+<S_XG>,I know that the attempt to rebuild the washing machine finally damaged nevertheless,False,71,83,
+<S_XG>,I know that the attempt to repair the drier finally damaged nevertheless,False,60,72,
+<S_XG>,I know that the attempt to fix the drier finally damaged nevertheless,False,57,69,
+<S_XG>,I know that the attempt to overhaul the drier finally damaged nevertheless,False,62,74,
+<S_XG>,I know that the attempt to rebuild the drier finally damaged nevertheless,False,61,73,
+<S_XG>,I know that the attempt to repair the ceiling finally damaged nevertheless,False,62,74,
+<S_XG>,I know that the attempt to fix the ceiling finally damaged nevertheless,False,59,71,
+<S_XG>,I know that the attempt to overhaul the ceiling finally damaged nevertheless,False,64,76,
+<S_XG>,I know that the attempt to rebuild the ceiling finally damaged nevertheless,False,63,75,
+<S_XG>,I know that the attempt to repair the apartment finally damaged nevertheless,False,64,76,
+<S_XG>,I know that the attempt to fix the apartment finally damaged nevertheless,False,61,73,
+<S_XG>,I know that the attempt to overhaul the apartment finally damaged nevertheless,False,66,78,
+<S_XG>,I know that the attempt to rebuild the apartment finally damaged nevertheless,False,65,77,
+<S_XG>,I know that the attempt to repair the car eventually destroyed nevertheless,False,63,75,
+<S_XG>,I know that the attempt to fix the car eventually destroyed nevertheless,False,60,72,
+<S_XG>,I know that the attempt to overhaul the car eventually destroyed nevertheless,False,65,77,
+<S_XG>,I know that the attempt to rebuild the car eventually destroyed nevertheless,False,64,76,
+<S_XG>,I know that the attempt to repair the bike eventually destroyed nevertheless,False,64,76,
+<S_XG>,I know that the attempt to fix the bike eventually destroyed nevertheless,False,61,73,
+<S_XG>,I know that the attempt to overhaul the bike eventually destroyed nevertheless,False,66,78,
+<S_XG>,I know that the attempt to rebuild the bike eventually destroyed nevertheless,False,65,77,
+<S_XG>,I know that the attempt to repair the washing machine eventually destroyed nevertheless,False,75,87,
+<S_XG>,I know that the attempt to fix the washing machine eventually destroyed nevertheless,False,72,84,
+<S_XG>,I know that the attempt to overhaul the washing machine eventually destroyed nevertheless,False,77,89,
+<S_XG>,I know that the attempt to rebuild the washing machine eventually destroyed nevertheless,False,76,88,
+<S_XG>,I know that the attempt to repair the drier eventually destroyed nevertheless,False,65,77,
+<S_XG>,I know that the attempt to fix the drier eventually destroyed nevertheless,False,62,74,
+<S_XG>,I know that the attempt to overhaul the drier eventually destroyed nevertheless,False,67,79,
+<S_XG>,I know that the attempt to rebuild the drier eventually destroyed nevertheless,False,66,78,
+<S_XG>,I know that the attempt to repair the ceiling eventually destroyed nevertheless,False,67,79,
+<S_XG>,I know that the attempt to fix the ceiling eventually destroyed nevertheless,False,64,76,
+<S_XG>,I know that the attempt to overhaul the ceiling eventually destroyed nevertheless,False,69,81,
+<S_XG>,I know that the attempt to rebuild the ceiling eventually destroyed nevertheless,False,68,80,
+<S_XG>,I know that the attempt to repair the apartment eventually destroyed nevertheless,False,69,81,
+<S_XG>,I know that the attempt to fix the apartment eventually destroyed nevertheless,False,66,78,
+<S_XG>,I know that the attempt to overhaul the apartment eventually destroyed nevertheless,False,71,83,
+<S_XG>,I know that the attempt to rebuild the apartment eventually destroyed nevertheless,False,70,82,
+<S_XG>,I know that the attempt to repair the car finally destroyed nevertheless,False,60,72,
+<S_XG>,I know that the attempt to fix the car finally destroyed nevertheless,False,57,69,
+<S_XG>,I know that the attempt to overhaul the car finally destroyed nevertheless,False,62,74,
+<S_XG>,I know that the attempt to rebuild the car finally destroyed nevertheless,False,61,73,
+<S_XG>,I know that the attempt to repair the bike finally destroyed nevertheless,False,61,73,
+<S_XG>,I know that the attempt to fix the bike finally destroyed nevertheless,False,58,70,
+<S_XG>,I know that the attempt to overhaul the bike finally destroyed nevertheless,False,63,75,
+<S_XG>,I know that the attempt to rebuild the bike finally destroyed nevertheless,False,62,74,
+<S_XG>,I know that the attempt to repair the washing machine finally destroyed nevertheless,False,72,84,
+<S_XG>,I know that the attempt to fix the washing machine finally destroyed nevertheless,False,69,81,
+<S_XG>,I know that the attempt to overhaul the washing machine finally destroyed nevertheless,False,74,86,
+<S_XG>,I know that the attempt to rebuild the washing machine finally destroyed nevertheless,False,73,85,
+<S_XG>,I know that the attempt to repair the drier finally destroyed nevertheless,False,62,74,
+<S_XG>,I know that the attempt to fix the drier finally destroyed nevertheless,False,59,71,
+<S_XG>,I know that the attempt to overhaul the drier finally destroyed nevertheless,False,64,76,
+<S_XG>,I know that the attempt to rebuild the drier finally destroyed nevertheless,False,63,75,
+<S_XG>,I know that the attempt to repair the ceiling finally destroyed nevertheless,False,64,76,
+<S_XG>,I know that the attempt to fix the ceiling finally destroyed nevertheless,False,61,73,
+<S_XG>,I know that the attempt to overhaul the ceiling finally destroyed nevertheless,False,66,78,
+<S_XG>,I know that the attempt to rebuild the ceiling finally destroyed nevertheless,False,65,77,
+<S_XG>,I know that the attempt to repair the apartment finally destroyed nevertheless,False,66,78,
+<S_XG>,I know that the attempt to fix the apartment finally destroyed nevertheless,False,63,75,
+<S_XG>,I know that the attempt to overhaul the apartment finally destroyed nevertheless,False,68,80,
+<S_XG>,I know that the attempt to rebuild the apartment finally destroyed nevertheless,False,67,79,
+<S_XG>,I know that the attempt to repair the car eventually ruined nevertheless,False,60,72,
+<S_XG>,I know that the attempt to fix the car eventually ruined nevertheless,False,57,69,
+<S_XG>,I know that the attempt to overhaul the car eventually ruined nevertheless,False,62,74,
+<S_XG>,I know that the attempt to rebuild the car eventually ruined nevertheless,False,61,73,
+<S_XG>,I know that the attempt to repair the bike eventually ruined nevertheless,False,61,73,
+<S_XG>,I know that the attempt to fix the bike eventually ruined nevertheless,False,58,70,
+<S_XG>,I know that the attempt to overhaul the bike eventually ruined nevertheless,False,63,75,
+<S_XG>,I know that the attempt to rebuild the bike eventually ruined nevertheless,False,62,74,
+<S_XG>,I know that the attempt to repair the washing machine eventually ruined nevertheless,False,72,84,
+<S_XG>,I know that the attempt to fix the washing machine eventually ruined nevertheless,False,69,81,
+<S_XG>,I know that the attempt to overhaul the washing machine eventually ruined nevertheless,False,74,86,
+<S_XG>,I know that the attempt to rebuild the washing machine eventually ruined nevertheless,False,73,85,
+<S_XG>,I know that the attempt to repair the drier eventually ruined nevertheless,False,62,74,
+<S_XG>,I know that the attempt to fix the drier eventually ruined nevertheless,False,59,71,
+<S_XG>,I know that the attempt to overhaul the drier eventually ruined nevertheless,False,64,76,
+<S_XG>,I know that the attempt to rebuild the drier eventually ruined nevertheless,False,63,75,
+<S_XG>,I know that the attempt to repair the ceiling eventually ruined nevertheless,False,64,76,
+<S_XG>,I know that the attempt to fix the ceiling eventually ruined nevertheless,False,61,73,
+<S_XG>,I know that the attempt to overhaul the ceiling eventually ruined nevertheless,False,66,78,
+<S_XG>,I know that the attempt to rebuild the ceiling eventually ruined nevertheless,False,65,77,
+<S_XG>,I know that the attempt to repair the apartment eventually ruined nevertheless,False,66,78,
+<S_XG>,I know that the attempt to fix the apartment eventually ruined nevertheless,False,63,75,
+<S_XG>,I know that the attempt to overhaul the apartment eventually ruined nevertheless,False,68,80,
+<S_XG>,I know that the attempt to rebuild the apartment eventually ruined nevertheless,False,67,79,
+<S_XG>,I know that the attempt to repair the car finally ruined nevertheless,False,57,69,
+<S_XG>,I know that the attempt to fix the car finally ruined nevertheless,False,54,66,
+<S_XG>,I know that the attempt to overhaul the car finally ruined nevertheless,False,59,71,
+<S_XG>,I know that the attempt to rebuild the car finally ruined nevertheless,False,58,70,
+<S_XG>,I know that the attempt to repair the bike finally ruined nevertheless,False,58,70,
+<S_XG>,I know that the attempt to fix the bike finally ruined nevertheless,False,55,67,
+<S_XG>,I know that the attempt to overhaul the bike finally ruined nevertheless,False,60,72,
+<S_XG>,I know that the attempt to rebuild the bike finally ruined nevertheless,False,59,71,
+<S_XG>,I know that the attempt to repair the washing machine finally ruined nevertheless,False,69,81,
+<S_XG>,I know that the attempt to fix the washing machine finally ruined nevertheless,False,66,78,
+<S_XG>,I know that the attempt to overhaul the washing machine finally ruined nevertheless,False,71,83,
+<S_XG>,I know that the attempt to rebuild the washing machine finally ruined nevertheless,False,70,82,
+<S_XG>,I know that the attempt to repair the drier finally ruined nevertheless,False,59,71,
+<S_XG>,I know that the attempt to fix the drier finally ruined nevertheless,False,56,68,
+<S_XG>,I know that the attempt to overhaul the drier finally ruined nevertheless,False,61,73,
+<S_XG>,I know that the attempt to rebuild the drier finally ruined nevertheless,False,60,72,
+<S_XG>,I know that the attempt to repair the ceiling finally ruined nevertheless,False,61,73,
+<S_XG>,I know that the attempt to fix the ceiling finally ruined nevertheless,False,58,70,
+<S_XG>,I know that the attempt to overhaul the ceiling finally ruined nevertheless,False,63,75,
+<S_XG>,I know that the attempt to rebuild the ceiling finally ruined nevertheless,False,62,74,
+<S_XG>,I know that the attempt to repair the apartment finally ruined nevertheless,False,63,75,
+<S_XG>,I know that the attempt to fix the apartment finally ruined nevertheless,False,60,72,
+<S_XG>,I know that the attempt to overhaul the apartment finally ruined nevertheless,False,65,77,
+<S_XG>,I know that the attempt to rebuild the apartment finally ruined nevertheless,False,64,76,
+<S_XG>,I know that the attempt to repair the car eventually wrecked nevertheless,False,61,73,
+<S_XG>,I know that the attempt to fix the car eventually wrecked nevertheless,False,58,70,
+<S_XG>,I know that the attempt to overhaul the car eventually wrecked nevertheless,False,63,75,
+<S_XG>,I know that the attempt to rebuild the car eventually wrecked nevertheless,False,62,74,
+<S_XG>,I know that the attempt to repair the bike eventually wrecked nevertheless,False,62,74,
+<S_XG>,I know that the attempt to fix the bike eventually wrecked nevertheless,False,59,71,
+<S_XG>,I know that the attempt to overhaul the bike eventually wrecked nevertheless,False,64,76,
+<S_XG>,I know that the attempt to rebuild the bike eventually wrecked nevertheless,False,63,75,
+<S_XG>,I know that the attempt to repair the washing machine eventually wrecked nevertheless,False,73,85,
+<S_XG>,I know that the attempt to fix the washing machine eventually wrecked nevertheless,False,70,82,
+<S_XG>,I know that the attempt to overhaul the washing machine eventually wrecked nevertheless,False,75,87,
+<S_XG>,I know that the attempt to rebuild the washing machine eventually wrecked nevertheless,False,74,86,
+<S_XG>,I know that the attempt to repair the drier eventually wrecked nevertheless,False,63,75,
+<S_XG>,I know that the attempt to fix the drier eventually wrecked nevertheless,False,60,72,
+<S_XG>,I know that the attempt to overhaul the drier eventually wrecked nevertheless,False,65,77,
+<S_XG>,I know that the attempt to rebuild the drier eventually wrecked nevertheless,False,64,76,
+<S_XG>,I know that the attempt to repair the ceiling eventually wrecked nevertheless,False,65,77,
+<S_XG>,I know that the attempt to fix the ceiling eventually wrecked nevertheless,False,62,74,
+<S_XG>,I know that the attempt to overhaul the ceiling eventually wrecked nevertheless,False,67,79,
+<S_XG>,I know that the attempt to rebuild the ceiling eventually wrecked nevertheless,False,66,78,
+<S_XG>,I know that the attempt to repair the apartment eventually wrecked nevertheless,False,67,79,
+<S_XG>,I know that the attempt to fix the apartment eventually wrecked nevertheless,False,64,76,
+<S_XG>,I know that the attempt to overhaul the apartment eventually wrecked nevertheless,False,69,81,
+<S_XG>,I know that the attempt to rebuild the apartment eventually wrecked nevertheless,False,68,80,
+<S_XG>,I know that the attempt to repair the car finally wrecked nevertheless,False,58,70,
+<S_XG>,I know that the attempt to fix the car finally wrecked nevertheless,False,55,67,
+<S_XG>,I know that the attempt to overhaul the car finally wrecked nevertheless,False,60,72,
+<S_XG>,I know that the attempt to rebuild the car finally wrecked nevertheless,False,59,71,
+<S_XG>,I know that the attempt to repair the bike finally wrecked nevertheless,False,59,71,
+<S_XG>,I know that the attempt to fix the bike finally wrecked nevertheless,False,56,68,
+<S_XG>,I know that the attempt to overhaul the bike finally wrecked nevertheless,False,61,73,
+<S_XG>,I know that the attempt to rebuild the bike finally wrecked nevertheless,False,60,72,
+<S_XG>,I know that the attempt to repair the washing machine finally wrecked nevertheless,False,70,82,
+<S_XG>,I know that the attempt to fix the washing machine finally wrecked nevertheless,False,67,79,
+<S_XG>,I know that the attempt to overhaul the washing machine finally wrecked nevertheless,False,72,84,
+<S_XG>,I know that the attempt to rebuild the washing machine finally wrecked nevertheless,False,71,83,
+<S_XG>,I know that the attempt to repair the drier finally wrecked nevertheless,False,60,72,
+<S_XG>,I know that the attempt to fix the drier finally wrecked nevertheless,False,57,69,
+<S_XG>,I know that the attempt to overhaul the drier finally wrecked nevertheless,False,62,74,
+<S_XG>,I know that the attempt to rebuild the drier finally wrecked nevertheless,False,61,73,
+<S_XG>,I know that the attempt to repair the ceiling finally wrecked nevertheless,False,62,74,
+<S_XG>,I know that the attempt to fix the ceiling finally wrecked nevertheless,False,59,71,
+<S_XG>,I know that the attempt to overhaul the ceiling finally wrecked nevertheless,False,64,76,
+<S_XG>,I know that the attempt to rebuild the ceiling finally wrecked nevertheless,False,63,75,
+<S_XG>,I know that the attempt to repair the apartment finally wrecked nevertheless,False,64,76,
+<S_XG>,I know that the attempt to fix the apartment finally wrecked nevertheless,False,61,73,
+<S_XG>,I know that the attempt to overhaul the apartment finally wrecked nevertheless,False,66,78,
+<S_XG>,I know that the attempt to rebuild the apartment finally wrecked nevertheless,False,65,77,
+<S_XG>,I know that the attempt to repair the car eventually damaged nonetheless,False,61,72,
+<S_XG>,I know that the attempt to fix the car eventually damaged nonetheless,False,58,69,
+<S_XG>,I know that the attempt to overhaul the car eventually damaged nonetheless,False,63,74,
+<S_XG>,I know that the attempt to rebuild the car eventually damaged nonetheless,False,62,73,
+<S_XG>,I know that the attempt to repair the bike eventually damaged nonetheless,False,62,73,
+<S_XG>,I know that the attempt to fix the bike eventually damaged nonetheless,False,59,70,
+<S_XG>,I know that the attempt to overhaul the bike eventually damaged nonetheless,False,64,75,
+<S_XG>,I know that the attempt to rebuild the bike eventually damaged nonetheless,False,63,74,
+<S_XG>,I know that the attempt to repair the washing machine eventually damaged nonetheless,False,73,84,
+<S_XG>,I know that the attempt to fix the washing machine eventually damaged nonetheless,False,70,81,
+<S_XG>,I know that the attempt to overhaul the washing machine eventually damaged nonetheless,False,75,86,
+<S_XG>,I know that the attempt to rebuild the washing machine eventually damaged nonetheless,False,74,85,
+<S_XG>,I know that the attempt to repair the drier eventually damaged nonetheless,False,63,74,
+<S_XG>,I know that the attempt to fix the drier eventually damaged nonetheless,False,60,71,
+<S_XG>,I know that the attempt to overhaul the drier eventually damaged nonetheless,False,65,76,
+<S_XG>,I know that the attempt to rebuild the drier eventually damaged nonetheless,False,64,75,
+<S_XG>,I know that the attempt to repair the ceiling eventually damaged nonetheless,False,65,76,
+<S_XG>,I know that the attempt to fix the ceiling eventually damaged nonetheless,False,62,73,
+<S_XG>,I know that the attempt to overhaul the ceiling eventually damaged nonetheless,False,67,78,
+<S_XG>,I know that the attempt to rebuild the ceiling eventually damaged nonetheless,False,66,77,
+<S_XG>,I know that the attempt to repair the apartment eventually damaged nonetheless,False,67,78,
+<S_XG>,I know that the attempt to fix the apartment eventually damaged nonetheless,False,64,75,
+<S_XG>,I know that the attempt to overhaul the apartment eventually damaged nonetheless,False,69,80,
+<S_XG>,I know that the attempt to rebuild the apartment eventually damaged nonetheless,False,68,79,
+<S_XG>,I know that the attempt to repair the car finally damaged nonetheless,False,58,69,
+<S_XG>,I know that the attempt to fix the car finally damaged nonetheless,False,55,66,
+<S_XG>,I know that the attempt to overhaul the car finally damaged nonetheless,False,60,71,
+<S_XG>,I know that the attempt to rebuild the car finally damaged nonetheless,False,59,70,
+<S_XG>,I know that the attempt to repair the bike finally damaged nonetheless,False,59,70,
+<S_XG>,I know that the attempt to fix the bike finally damaged nonetheless,False,56,67,
+<S_XG>,I know that the attempt to overhaul the bike finally damaged nonetheless,False,61,72,
+<S_XG>,I know that the attempt to rebuild the bike finally damaged nonetheless,False,60,71,
+<S_XG>,I know that the attempt to repair the washing machine finally damaged nonetheless,False,70,81,
+<S_XG>,I know that the attempt to fix the washing machine finally damaged nonetheless,False,67,78,
+<S_XG>,I know that the attempt to overhaul the washing machine finally damaged nonetheless,False,72,83,
+<S_XG>,I know that the attempt to rebuild the washing machine finally damaged nonetheless,False,71,82,
+<S_XG>,I know that the attempt to repair the drier finally damaged nonetheless,False,60,71,
+<S_XG>,I know that the attempt to fix the drier finally damaged nonetheless,False,57,68,
+<S_XG>,I know that the attempt to overhaul the drier finally damaged nonetheless,False,62,73,
+<S_XG>,I know that the attempt to rebuild the drier finally damaged nonetheless,False,61,72,
+<S_XG>,I know that the attempt to repair the ceiling finally damaged nonetheless,False,62,73,
+<S_XG>,I know that the attempt to fix the ceiling finally damaged nonetheless,False,59,70,
+<S_XG>,I know that the attempt to overhaul the ceiling finally damaged nonetheless,False,64,75,
+<S_XG>,I know that the attempt to rebuild the ceiling finally damaged nonetheless,False,63,74,
+<S_XG>,I know that the attempt to repair the apartment finally damaged nonetheless,False,64,75,
+<S_XG>,I know that the attempt to fix the apartment finally damaged nonetheless,False,61,72,
+<S_XG>,I know that the attempt to overhaul the apartment finally damaged nonetheless,False,66,77,
+<S_XG>,I know that the attempt to rebuild the apartment finally damaged nonetheless,False,65,76,
+<S_XG>,I know that the attempt to repair the car eventually destroyed nonetheless,False,63,74,
+<S_XG>,I know that the attempt to fix the car eventually destroyed nonetheless,False,60,71,
+<S_XG>,I know that the attempt to overhaul the car eventually destroyed nonetheless,False,65,76,
+<S_XG>,I know that the attempt to rebuild the car eventually destroyed nonetheless,False,64,75,
+<S_XG>,I know that the attempt to repair the bike eventually destroyed nonetheless,False,64,75,
+<S_XG>,I know that the attempt to fix the bike eventually destroyed nonetheless,False,61,72,
+<S_XG>,I know that the attempt to overhaul the bike eventually destroyed nonetheless,False,66,77,
+<S_XG>,I know that the attempt to rebuild the bike eventually destroyed nonetheless,False,65,76,
+<S_XG>,I know that the attempt to repair the washing machine eventually destroyed nonetheless,False,75,86,
+<S_XG>,I know that the attempt to fix the washing machine eventually destroyed nonetheless,False,72,83,
+<S_XG>,I know that the attempt to overhaul the washing machine eventually destroyed nonetheless,False,77,88,
+<S_XG>,I know that the attempt to rebuild the washing machine eventually destroyed nonetheless,False,76,87,
+<S_XG>,I know that the attempt to repair the drier eventually destroyed nonetheless,False,65,76,
+<S_XG>,I know that the attempt to fix the drier eventually destroyed nonetheless,False,62,73,
+<S_XG>,I know that the attempt to overhaul the drier eventually destroyed nonetheless,False,67,78,
+<S_XG>,I know that the attempt to rebuild the drier eventually destroyed nonetheless,False,66,77,
+<S_XG>,I know that the attempt to repair the ceiling eventually destroyed nonetheless,False,67,78,
+<S_XG>,I know that the attempt to fix the ceiling eventually destroyed nonetheless,False,64,75,
+<S_XG>,I know that the attempt to overhaul the ceiling eventually destroyed nonetheless,False,69,80,
+<S_XG>,I know that the attempt to rebuild the ceiling eventually destroyed nonetheless,False,68,79,
+<S_XG>,I know that the attempt to repair the apartment eventually destroyed nonetheless,False,69,80,
+<S_XG>,I know that the attempt to fix the apartment eventually destroyed nonetheless,False,66,77,
+<S_XG>,I know that the attempt to overhaul the apartment eventually destroyed nonetheless,False,71,82,
+<S_XG>,I know that the attempt to rebuild the apartment eventually destroyed nonetheless,False,70,81,
+<S_XG>,I know that the attempt to repair the car finally destroyed nonetheless,False,60,71,
+<S_XG>,I know that the attempt to fix the car finally destroyed nonetheless,False,57,68,
+<S_XG>,I know that the attempt to overhaul the car finally destroyed nonetheless,False,62,73,
+<S_XG>,I know that the attempt to rebuild the car finally destroyed nonetheless,False,61,72,
+<S_XG>,I know that the attempt to repair the bike finally destroyed nonetheless,False,61,72,
+<S_XG>,I know that the attempt to fix the bike finally destroyed nonetheless,False,58,69,
+<S_XG>,I know that the attempt to overhaul the bike finally destroyed nonetheless,False,63,74,
+<S_XG>,I know that the attempt to rebuild the bike finally destroyed nonetheless,False,62,73,
+<S_XG>,I know that the attempt to repair the washing machine finally destroyed nonetheless,False,72,83,
+<S_XG>,I know that the attempt to fix the washing machine finally destroyed nonetheless,False,69,80,
+<S_XG>,I know that the attempt to overhaul the washing machine finally destroyed nonetheless,False,74,85,
+<S_XG>,I know that the attempt to rebuild the washing machine finally destroyed nonetheless,False,73,84,
+<S_XG>,I know that the attempt to repair the drier finally destroyed nonetheless,False,62,73,
+<S_XG>,I know that the attempt to fix the drier finally destroyed nonetheless,False,59,70,
+<S_XG>,I know that the attempt to overhaul the drier finally destroyed nonetheless,False,64,75,
+<S_XG>,I know that the attempt to rebuild the drier finally destroyed nonetheless,False,63,74,
+<S_XG>,I know that the attempt to repair the ceiling finally destroyed nonetheless,False,64,75,
+<S_XG>,I know that the attempt to fix the ceiling finally destroyed nonetheless,False,61,72,
+<S_XG>,I know that the attempt to overhaul the ceiling finally destroyed nonetheless,False,66,77,
+<S_XG>,I know that the attempt to rebuild the ceiling finally destroyed nonetheless,False,65,76,
+<S_XG>,I know that the attempt to repair the apartment finally destroyed nonetheless,False,66,77,
+<S_XG>,I know that the attempt to fix the apartment finally destroyed nonetheless,False,63,74,
+<S_XG>,I know that the attempt to overhaul the apartment finally destroyed nonetheless,False,68,79,
+<S_XG>,I know that the attempt to rebuild the apartment finally destroyed nonetheless,False,67,78,
+<S_XG>,I know that the attempt to repair the car eventually ruined nonetheless,False,60,71,
+<S_XG>,I know that the attempt to fix the car eventually ruined nonetheless,False,57,68,
+<S_XG>,I know that the attempt to overhaul the car eventually ruined nonetheless,False,62,73,
+<S_XG>,I know that the attempt to rebuild the car eventually ruined nonetheless,False,61,72,
+<S_XG>,I know that the attempt to repair the bike eventually ruined nonetheless,False,61,72,
+<S_XG>,I know that the attempt to fix the bike eventually ruined nonetheless,False,58,69,
+<S_XG>,I know that the attempt to overhaul the bike eventually ruined nonetheless,False,63,74,
+<S_XG>,I know that the attempt to rebuild the bike eventually ruined nonetheless,False,62,73,
+<S_XG>,I know that the attempt to repair the washing machine eventually ruined nonetheless,False,72,83,
+<S_XG>,I know that the attempt to fix the washing machine eventually ruined nonetheless,False,69,80,
+<S_XG>,I know that the attempt to overhaul the washing machine eventually ruined nonetheless,False,74,85,
+<S_XG>,I know that the attempt to rebuild the washing machine eventually ruined nonetheless,False,73,84,
+<S_XG>,I know that the attempt to repair the drier eventually ruined nonetheless,False,62,73,
+<S_XG>,I know that the attempt to fix the drier eventually ruined nonetheless,False,59,70,
+<S_XG>,I know that the attempt to overhaul the drier eventually ruined nonetheless,False,64,75,
+<S_XG>,I know that the attempt to rebuild the drier eventually ruined nonetheless,False,63,74,
+<S_XG>,I know that the attempt to repair the ceiling eventually ruined nonetheless,False,64,75,
+<S_XG>,I know that the attempt to fix the ceiling eventually ruined nonetheless,False,61,72,
+<S_XG>,I know that the attempt to overhaul the ceiling eventually ruined nonetheless,False,66,77,
+<S_XG>,I know that the attempt to rebuild the ceiling eventually ruined nonetheless,False,65,76,
+<S_XG>,I know that the attempt to repair the apartment eventually ruined nonetheless,False,66,77,
+<S_XG>,I know that the attempt to fix the apartment eventually ruined nonetheless,False,63,74,
+<S_XG>,I know that the attempt to overhaul the apartment eventually ruined nonetheless,False,68,79,
+<S_XG>,I know that the attempt to rebuild the apartment eventually ruined nonetheless,False,67,78,
+<S_XG>,I know that the attempt to repair the car finally ruined nonetheless,False,57,68,
+<S_XG>,I know that the attempt to fix the car finally ruined nonetheless,False,54,65,
+<S_XG>,I know that the attempt to overhaul the car finally ruined nonetheless,False,59,70,
+<S_XG>,I know that the attempt to rebuild the car finally ruined nonetheless,False,58,69,
+<S_XG>,I know that the attempt to repair the bike finally ruined nonetheless,False,58,69,
+<S_XG>,I know that the attempt to fix the bike finally ruined nonetheless,False,55,66,
+<S_XG>,I know that the attempt to overhaul the bike finally ruined nonetheless,False,60,71,
+<S_XG>,I know that the attempt to rebuild the bike finally ruined nonetheless,False,59,70,
+<S_XG>,I know that the attempt to repair the washing machine finally ruined nonetheless,False,69,80,
+<S_XG>,I know that the attempt to fix the washing machine finally ruined nonetheless,False,66,77,
+<S_XG>,I know that the attempt to overhaul the washing machine finally ruined nonetheless,False,71,82,
+<S_XG>,I know that the attempt to rebuild the washing machine finally ruined nonetheless,False,70,81,
+<S_XG>,I know that the attempt to repair the drier finally ruined nonetheless,False,59,70,
+<S_XG>,I know that the attempt to fix the drier finally ruined nonetheless,False,56,67,
+<S_XG>,I know that the attempt to overhaul the drier finally ruined nonetheless,False,61,72,
+<S_XG>,I know that the attempt to rebuild the drier finally ruined nonetheless,False,60,71,
+<S_XG>,I know that the attempt to repair the ceiling finally ruined nonetheless,False,61,72,
+<S_XG>,I know that the attempt to fix the ceiling finally ruined nonetheless,False,58,69,
+<S_XG>,I know that the attempt to overhaul the ceiling finally ruined nonetheless,False,63,74,
+<S_XG>,I know that the attempt to rebuild the ceiling finally ruined nonetheless,False,62,73,
+<S_XG>,I know that the attempt to repair the apartment finally ruined nonetheless,False,63,74,
+<S_XG>,I know that the attempt to fix the apartment finally ruined nonetheless,False,60,71,
+<S_XG>,I know that the attempt to overhaul the apartment finally ruined nonetheless,False,65,76,
+<S_XG>,I know that the attempt to rebuild the apartment finally ruined nonetheless,False,64,75,
+<S_XG>,I know that the attempt to repair the car eventually wrecked nonetheless,False,61,72,
+<S_XG>,I know that the attempt to fix the car eventually wrecked nonetheless,False,58,69,
+<S_XG>,I know that the attempt to overhaul the car eventually wrecked nonetheless,False,63,74,
+<S_XG>,I know that the attempt to rebuild the car eventually wrecked nonetheless,False,62,73,
+<S_XG>,I know that the attempt to repair the bike eventually wrecked nonetheless,False,62,73,
+<S_XG>,I know that the attempt to fix the bike eventually wrecked nonetheless,False,59,70,
+<S_XG>,I know that the attempt to overhaul the bike eventually wrecked nonetheless,False,64,75,
+<S_XG>,I know that the attempt to rebuild the bike eventually wrecked nonetheless,False,63,74,
+<S_XG>,I know that the attempt to repair the washing machine eventually wrecked nonetheless,False,73,84,
+<S_XG>,I know that the attempt to fix the washing machine eventually wrecked nonetheless,False,70,81,
+<S_XG>,I know that the attempt to overhaul the washing machine eventually wrecked nonetheless,False,75,86,
+<S_XG>,I know that the attempt to rebuild the washing machine eventually wrecked nonetheless,False,74,85,
+<S_XG>,I know that the attempt to repair the drier eventually wrecked nonetheless,False,63,74,
+<S_XG>,I know that the attempt to fix the drier eventually wrecked nonetheless,False,60,71,
+<S_XG>,I know that the attempt to overhaul the drier eventually wrecked nonetheless,False,65,76,
+<S_XG>,I know that the attempt to rebuild the drier eventually wrecked nonetheless,False,64,75,
+<S_XG>,I know that the attempt to repair the ceiling eventually wrecked nonetheless,False,65,76,
+<S_XG>,I know that the attempt to fix the ceiling eventually wrecked nonetheless,False,62,73,
+<S_XG>,I know that the attempt to overhaul the ceiling eventually wrecked nonetheless,False,67,78,
+<S_XG>,I know that the attempt to rebuild the ceiling eventually wrecked nonetheless,False,66,77,
+<S_XG>,I know that the attempt to repair the apartment eventually wrecked nonetheless,False,67,78,
+<S_XG>,I know that the attempt to fix the apartment eventually wrecked nonetheless,False,64,75,
+<S_XG>,I know that the attempt to overhaul the apartment eventually wrecked nonetheless,False,69,80,
+<S_XG>,I know that the attempt to rebuild the apartment eventually wrecked nonetheless,False,68,79,
+<S_XG>,I know that the attempt to repair the car finally wrecked nonetheless,False,58,69,
+<S_XG>,I know that the attempt to fix the car finally wrecked nonetheless,False,55,66,
+<S_XG>,I know that the attempt to overhaul the car finally wrecked nonetheless,False,60,71,
+<S_XG>,I know that the attempt to rebuild the car finally wrecked nonetheless,False,59,70,
+<S_XG>,I know that the attempt to repair the bike finally wrecked nonetheless,False,59,70,
+<S_XG>,I know that the attempt to fix the bike finally wrecked nonetheless,False,56,67,
+<S_XG>,I know that the attempt to overhaul the bike finally wrecked nonetheless,False,61,72,
+<S_XG>,I know that the attempt to rebuild the bike finally wrecked nonetheless,False,60,71,
+<S_XG>,I know that the attempt to repair the washing machine finally wrecked nonetheless,False,70,81,
+<S_XG>,I know that the attempt to fix the washing machine finally wrecked nonetheless,False,67,78,
+<S_XG>,I know that the attempt to overhaul the washing machine finally wrecked nonetheless,False,72,83,
+<S_XG>,I know that the attempt to rebuild the washing machine finally wrecked nonetheless,False,71,82,
+<S_XG>,I know that the attempt to repair the drier finally wrecked nonetheless,False,60,71,
+<S_XG>,I know that the attempt to fix the drier finally wrecked nonetheless,False,57,68,
+<S_XG>,I know that the attempt to overhaul the drier finally wrecked nonetheless,False,62,73,
+<S_XG>,I know that the attempt to rebuild the drier finally wrecked nonetheless,False,61,72,
+<S_XG>,I know that the attempt to repair the ceiling finally wrecked nonetheless,False,62,73,
+<S_XG>,I know that the attempt to fix the ceiling finally wrecked nonetheless,False,59,70,
+<S_XG>,I know that the attempt to overhaul the ceiling finally wrecked nonetheless,False,64,75,
+<S_XG>,I know that the attempt to rebuild the ceiling finally wrecked nonetheless,False,63,74,
+<S_XG>,I know that the attempt to repair the apartment finally wrecked nonetheless,False,64,75,
+<S_XG>,I know that the attempt to fix the apartment finally wrecked nonetheless,False,61,72,
+<S_XG>,I know that the attempt to overhaul the apartment finally wrecked nonetheless,False,66,77,
+<S_XG>,I know that the attempt to rebuild the apartment finally wrecked nonetheless,False,65,76,
+<S_FX>,I know what the attempt to repair eventually damaged it nevertheless,False,53,55,
+<S_FX>,I know what the attempt to fix eventually damaged it nevertheless,False,50,52,
+<S_FX>,I know what the attempt to overhaul eventually damaged it nevertheless,False,55,57,
+<S_FX>,I know what the attempt to rebuild eventually damaged it nevertheless,False,54,56,
+<S_FX>,I know what the attempt to repair finally damaged it nevertheless,False,50,52,
+<S_FX>,I know what the attempt to fix finally damaged it nevertheless,False,47,49,
+<S_FX>,I know what the attempt to overhaul finally damaged it nevertheless,False,52,54,
+<S_FX>,I know what the attempt to rebuild finally damaged it nevertheless,False,51,53,
+<S_FX>,I know what the attempt to repair eventually destroyed it nevertheless,False,55,57,
+<S_FX>,I know what the attempt to fix eventually destroyed it nevertheless,False,52,54,
+<S_FX>,I know what the attempt to overhaul eventually destroyed it nevertheless,False,57,59,
+<S_FX>,I know what the attempt to rebuild eventually destroyed it nevertheless,False,56,58,
+<S_FX>,I know what the attempt to repair finally destroyed it nevertheless,False,52,54,
+<S_FX>,I know what the attempt to fix finally destroyed it nevertheless,False,49,51,
+<S_FX>,I know what the attempt to overhaul finally destroyed it nevertheless,False,54,56,
+<S_FX>,I know what the attempt to rebuild finally destroyed it nevertheless,False,53,55,
+<S_FX>,I know what the attempt to repair eventually ruined it nevertheless,False,52,54,
+<S_FX>,I know what the attempt to fix eventually ruined it nevertheless,False,49,51,
+<S_FX>,I know what the attempt to overhaul eventually ruined it nevertheless,False,54,56,
+<S_FX>,I know what the attempt to rebuild eventually ruined it nevertheless,False,53,55,
+<S_FX>,I know what the attempt to repair finally ruined it nevertheless,False,49,51,
+<S_FX>,I know what the attempt to fix finally ruined it nevertheless,False,46,48,
+<S_FX>,I know what the attempt to overhaul finally ruined it nevertheless,False,51,53,
+<S_FX>,I know what the attempt to rebuild finally ruined it nevertheless,False,50,52,
+<S_FX>,I know what the attempt to repair eventually wrecked it nevertheless,False,53,55,
+<S_FX>,I know what the attempt to fix eventually wrecked it nevertheless,False,50,52,
+<S_FX>,I know what the attempt to overhaul eventually wrecked it nevertheless,False,55,57,
+<S_FX>,I know what the attempt to rebuild eventually wrecked it nevertheless,False,54,56,
+<S_FX>,I know what the attempt to repair finally wrecked it nevertheless,False,50,52,
+<S_FX>,I know what the attempt to fix finally wrecked it nevertheless,False,47,49,
+<S_FX>,I know what the attempt to overhaul finally wrecked it nevertheless,False,52,54,
+<S_FX>,I know what the attempt to rebuild finally wrecked it nevertheless,False,51,53,
+<S_FX>,I know what the attempt to repair eventually damaged it nonetheless,False,53,55,
+<S_FX>,I know what the attempt to fix eventually damaged it nonetheless,False,50,52,
+<S_FX>,I know what the attempt to overhaul eventually damaged it nonetheless,False,55,57,
+<S_FX>,I know what the attempt to rebuild eventually damaged it nonetheless,False,54,56,
+<S_FX>,I know what the attempt to repair finally damaged it nonetheless,False,50,52,
+<S_FX>,I know what the attempt to fix finally damaged it nonetheless,False,47,49,
+<S_FX>,I know what the attempt to overhaul finally damaged it nonetheless,False,52,54,
+<S_FX>,I know what the attempt to rebuild finally damaged it nonetheless,False,51,53,
+<S_FX>,I know what the attempt to repair eventually destroyed it nonetheless,False,55,57,
+<S_FX>,I know what the attempt to fix eventually destroyed it nonetheless,False,52,54,
+<S_FX>,I know what the attempt to overhaul eventually destroyed it nonetheless,False,57,59,
+<S_FX>,I know what the attempt to rebuild eventually destroyed it nonetheless,False,56,58,
+<S_FX>,I know what the attempt to repair finally destroyed it nonetheless,False,52,54,
+<S_FX>,I know what the attempt to fix finally destroyed it nonetheless,False,49,51,
+<S_FX>,I know what the attempt to overhaul finally destroyed it nonetheless,False,54,56,
+<S_FX>,I know what the attempt to rebuild finally destroyed it nonetheless,False,53,55,
+<S_FX>,I know what the attempt to repair eventually ruined it nonetheless,False,52,54,
+<S_FX>,I know what the attempt to fix eventually ruined it nonetheless,False,49,51,
+<S_FX>,I know what the attempt to overhaul eventually ruined it nonetheless,False,54,56,
+<S_FX>,I know what the attempt to rebuild eventually ruined it nonetheless,False,53,55,
+<S_FX>,I know what the attempt to repair finally ruined it nonetheless,False,49,51,
+<S_FX>,I know what the attempt to fix finally ruined it nonetheless,False,46,48,
+<S_FX>,I know what the attempt to overhaul finally ruined it nonetheless,False,51,53,
+<S_FX>,I know what the attempt to rebuild finally ruined it nonetheless,False,50,52,
+<S_FX>,I know what the attempt to repair eventually wrecked it nonetheless,False,53,55,
+<S_FX>,I know what the attempt to fix eventually wrecked it nonetheless,False,50,52,
+<S_FX>,I know what the attempt to overhaul eventually wrecked it nonetheless,False,55,57,
+<S_FX>,I know what the attempt to rebuild eventually wrecked it nonetheless,False,54,56,
+<S_FX>,I know what the attempt to repair finally wrecked it nonetheless,False,50,52,
+<S_FX>,I know what the attempt to fix finally wrecked it nonetheless,False,47,49,
+<S_FX>,I know what the attempt to overhaul finally wrecked it nonetheless,False,52,54,
+<S_FX>,I know what the attempt to rebuild finally wrecked it nonetheless,False,51,53,
+<S_XX>,I know that the attempt to repair the car eventually damaged it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to fix the car eventually damaged it nevertheless,True,58,60,
+<S_XX>,I know that the attempt to overhaul the car eventually damaged it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to rebuild the car eventually damaged it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to repair the bike eventually damaged it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to fix the bike eventually damaged it nevertheless,True,59,61,
+<S_XX>,I know that the attempt to overhaul the bike eventually damaged it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to rebuild the bike eventually damaged it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to repair the washing machine eventually damaged it nevertheless,True,73,75,
+<S_XX>,I know that the attempt to fix the washing machine eventually damaged it nevertheless,True,70,72,
+<S_XX>,I know that the attempt to overhaul the washing machine eventually damaged it nevertheless,True,75,77,
+<S_XX>,I know that the attempt to rebuild the washing machine eventually damaged it nevertheless,True,74,76,
+<S_XX>,I know that the attempt to repair the drier eventually damaged it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to fix the drier eventually damaged it nevertheless,True,60,62,
+<S_XX>,I know that the attempt to overhaul the drier eventually damaged it nevertheless,True,65,67,
+<S_XX>,I know that the attempt to rebuild the drier eventually damaged it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to repair the ceiling eventually damaged it nevertheless,True,65,67,
+<S_XX>,I know that the attempt to fix the ceiling eventually damaged it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to overhaul the ceiling eventually damaged it nevertheless,True,67,69,
+<S_XX>,I know that the attempt to rebuild the ceiling eventually damaged it nevertheless,True,66,68,
+<S_XX>,I know that the attempt to repair the apartment eventually damaged it nevertheless,True,67,69,
+<S_XX>,I know that the attempt to fix the apartment eventually damaged it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to overhaul the apartment eventually damaged it nevertheless,True,69,71,
+<S_XX>,I know that the attempt to rebuild the apartment eventually damaged it nevertheless,True,68,70,
+<S_XX>,I know that the attempt to repair the car finally damaged it nevertheless,True,58,60,
+<S_XX>,I know that the attempt to fix the car finally damaged it nevertheless,True,55,57,
+<S_XX>,I know that the attempt to overhaul the car finally damaged it nevertheless,True,60,62,
+<S_XX>,I know that the attempt to rebuild the car finally damaged it nevertheless,True,59,61,
+<S_XX>,I know that the attempt to repair the bike finally damaged it nevertheless,True,59,61,
+<S_XX>,I know that the attempt to fix the bike finally damaged it nevertheless,True,56,58,
+<S_XX>,I know that the attempt to overhaul the bike finally damaged it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to rebuild the bike finally damaged it nevertheless,True,60,62,
+<S_XX>,I know that the attempt to repair the washing machine finally damaged it nevertheless,True,70,72,
+<S_XX>,I know that the attempt to fix the washing machine finally damaged it nevertheless,True,67,69,
+<S_XX>,I know that the attempt to overhaul the washing machine finally damaged it nevertheless,True,72,74,
+<S_XX>,I know that the attempt to rebuild the washing machine finally damaged it nevertheless,True,71,73,
+<S_XX>,I know that the attempt to repair the drier finally damaged it nevertheless,True,60,62,
+<S_XX>,I know that the attempt to fix the drier finally damaged it nevertheless,True,57,59,
+<S_XX>,I know that the attempt to overhaul the drier finally damaged it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to rebuild the drier finally damaged it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to repair the ceiling finally damaged it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to fix the ceiling finally damaged it nevertheless,True,59,61,
+<S_XX>,I know that the attempt to overhaul the ceiling finally damaged it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to rebuild the ceiling finally damaged it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to repair the apartment finally damaged it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to fix the apartment finally damaged it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to overhaul the apartment finally damaged it nevertheless,True,66,68,
+<S_XX>,I know that the attempt to rebuild the apartment finally damaged it nevertheless,True,65,67,
+<S_XX>,I know that the attempt to repair the car eventually destroyed it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to fix the car eventually destroyed it nevertheless,True,60,62,
+<S_XX>,I know that the attempt to overhaul the car eventually destroyed it nevertheless,True,65,67,
+<S_XX>,I know that the attempt to rebuild the car eventually destroyed it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to repair the bike eventually destroyed it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to fix the bike eventually destroyed it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to overhaul the bike eventually destroyed it nevertheless,True,66,68,
+<S_XX>,I know that the attempt to rebuild the bike eventually destroyed it nevertheless,True,65,67,
+<S_XX>,I know that the attempt to repair the washing machine eventually destroyed it nevertheless,True,75,77,
+<S_XX>,I know that the attempt to fix the washing machine eventually destroyed it nevertheless,True,72,74,
+<S_XX>,I know that the attempt to overhaul the washing machine eventually destroyed it nevertheless,True,77,79,
+<S_XX>,I know that the attempt to rebuild the washing machine eventually destroyed it nevertheless,True,76,78,
+<S_XX>,I know that the attempt to repair the drier eventually destroyed it nevertheless,True,65,67,
+<S_XX>,I know that the attempt to fix the drier eventually destroyed it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to overhaul the drier eventually destroyed it nevertheless,True,67,69,
+<S_XX>,I know that the attempt to rebuild the drier eventually destroyed it nevertheless,True,66,68,
+<S_XX>,I know that the attempt to repair the ceiling eventually destroyed it nevertheless,True,67,69,
+<S_XX>,I know that the attempt to fix the ceiling eventually destroyed it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to overhaul the ceiling eventually destroyed it nevertheless,True,69,71,
+<S_XX>,I know that the attempt to rebuild the ceiling eventually destroyed it nevertheless,True,68,70,
+<S_XX>,I know that the attempt to repair the apartment eventually destroyed it nevertheless,True,69,71,
+<S_XX>,I know that the attempt to fix the apartment eventually destroyed it nevertheless,True,66,68,
+<S_XX>,I know that the attempt to overhaul the apartment eventually destroyed it nevertheless,True,71,73,
+<S_XX>,I know that the attempt to rebuild the apartment eventually destroyed it nevertheless,True,70,72,
+<S_XX>,I know that the attempt to repair the car finally destroyed it nevertheless,True,60,62,
+<S_XX>,I know that the attempt to fix the car finally destroyed it nevertheless,True,57,59,
+<S_XX>,I know that the attempt to overhaul the car finally destroyed it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to rebuild the car finally destroyed it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to repair the bike finally destroyed it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to fix the bike finally destroyed it nevertheless,True,58,60,
+<S_XX>,I know that the attempt to overhaul the bike finally destroyed it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to rebuild the bike finally destroyed it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to repair the washing machine finally destroyed it nevertheless,True,72,74,
+<S_XX>,I know that the attempt to fix the washing machine finally destroyed it nevertheless,True,69,71,
+<S_XX>,I know that the attempt to overhaul the washing machine finally destroyed it nevertheless,True,74,76,
+<S_XX>,I know that the attempt to rebuild the washing machine finally destroyed it nevertheless,True,73,75,
+<S_XX>,I know that the attempt to repair the drier finally destroyed it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to fix the drier finally destroyed it nevertheless,True,59,61,
+<S_XX>,I know that the attempt to overhaul the drier finally destroyed it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to rebuild the drier finally destroyed it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to repair the ceiling finally destroyed it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to fix the ceiling finally destroyed it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to overhaul the ceiling finally destroyed it nevertheless,True,66,68,
+<S_XX>,I know that the attempt to rebuild the ceiling finally destroyed it nevertheless,True,65,67,
+<S_XX>,I know that the attempt to repair the apartment finally destroyed it nevertheless,True,66,68,
+<S_XX>,I know that the attempt to fix the apartment finally destroyed it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to overhaul the apartment finally destroyed it nevertheless,True,68,70,
+<S_XX>,I know that the attempt to rebuild the apartment finally destroyed it nevertheless,True,67,69,
+<S_XX>,I know that the attempt to repair the car eventually ruined it nevertheless,True,60,62,
+<S_XX>,I know that the attempt to fix the car eventually ruined it nevertheless,True,57,59,
+<S_XX>,I know that the attempt to overhaul the car eventually ruined it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to rebuild the car eventually ruined it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to repair the bike eventually ruined it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to fix the bike eventually ruined it nevertheless,True,58,60,
+<S_XX>,I know that the attempt to overhaul the bike eventually ruined it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to rebuild the bike eventually ruined it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to repair the washing machine eventually ruined it nevertheless,True,72,74,
+<S_XX>,I know that the attempt to fix the washing machine eventually ruined it nevertheless,True,69,71,
+<S_XX>,I know that the attempt to overhaul the washing machine eventually ruined it nevertheless,True,74,76,
+<S_XX>,I know that the attempt to rebuild the washing machine eventually ruined it nevertheless,True,73,75,
+<S_XX>,I know that the attempt to repair the drier eventually ruined it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to fix the drier eventually ruined it nevertheless,True,59,61,
+<S_XX>,I know that the attempt to overhaul the drier eventually ruined it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to rebuild the drier eventually ruined it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to repair the ceiling eventually ruined it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to fix the ceiling eventually ruined it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to overhaul the ceiling eventually ruined it nevertheless,True,66,68,
+<S_XX>,I know that the attempt to rebuild the ceiling eventually ruined it nevertheless,True,65,67,
+<S_XX>,I know that the attempt to repair the apartment eventually ruined it nevertheless,True,66,68,
+<S_XX>,I know that the attempt to fix the apartment eventually ruined it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to overhaul the apartment eventually ruined it nevertheless,True,68,70,
+<S_XX>,I know that the attempt to rebuild the apartment eventually ruined it nevertheless,True,67,69,
+<S_XX>,I know that the attempt to repair the car finally ruined it nevertheless,True,57,59,
+<S_XX>,I know that the attempt to fix the car finally ruined it nevertheless,True,54,56,
+<S_XX>,I know that the attempt to overhaul the car finally ruined it nevertheless,True,59,61,
+<S_XX>,I know that the attempt to rebuild the car finally ruined it nevertheless,True,58,60,
+<S_XX>,I know that the attempt to repair the bike finally ruined it nevertheless,True,58,60,
+<S_XX>,I know that the attempt to fix the bike finally ruined it nevertheless,True,55,57,
+<S_XX>,I know that the attempt to overhaul the bike finally ruined it nevertheless,True,60,62,
+<S_XX>,I know that the attempt to rebuild the bike finally ruined it nevertheless,True,59,61,
+<S_XX>,I know that the attempt to repair the washing machine finally ruined it nevertheless,True,69,71,
+<S_XX>,I know that the attempt to fix the washing machine finally ruined it nevertheless,True,66,68,
+<S_XX>,I know that the attempt to overhaul the washing machine finally ruined it nevertheless,True,71,73,
+<S_XX>,I know that the attempt to rebuild the washing machine finally ruined it nevertheless,True,70,72,
+<S_XX>,I know that the attempt to repair the drier finally ruined it nevertheless,True,59,61,
+<S_XX>,I know that the attempt to fix the drier finally ruined it nevertheless,True,56,58,
+<S_XX>,I know that the attempt to overhaul the drier finally ruined it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to rebuild the drier finally ruined it nevertheless,True,60,62,
+<S_XX>,I know that the attempt to repair the ceiling finally ruined it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to fix the ceiling finally ruined it nevertheless,True,58,60,
+<S_XX>,I know that the attempt to overhaul the ceiling finally ruined it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to rebuild the ceiling finally ruined it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to repair the apartment finally ruined it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to fix the apartment finally ruined it nevertheless,True,60,62,
+<S_XX>,I know that the attempt to overhaul the apartment finally ruined it nevertheless,True,65,67,
+<S_XX>,I know that the attempt to rebuild the apartment finally ruined it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to repair the car eventually wrecked it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to fix the car eventually wrecked it nevertheless,True,58,60,
+<S_XX>,I know that the attempt to overhaul the car eventually wrecked it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to rebuild the car eventually wrecked it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to repair the bike eventually wrecked it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to fix the bike eventually wrecked it nevertheless,True,59,61,
+<S_XX>,I know that the attempt to overhaul the bike eventually wrecked it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to rebuild the bike eventually wrecked it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to repair the washing machine eventually wrecked it nevertheless,True,73,75,
+<S_XX>,I know that the attempt to fix the washing machine eventually wrecked it nevertheless,True,70,72,
+<S_XX>,I know that the attempt to overhaul the washing machine eventually wrecked it nevertheless,True,75,77,
+<S_XX>,I know that the attempt to rebuild the washing machine eventually wrecked it nevertheless,True,74,76,
+<S_XX>,I know that the attempt to repair the drier eventually wrecked it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to fix the drier eventually wrecked it nevertheless,True,60,62,
+<S_XX>,I know that the attempt to overhaul the drier eventually wrecked it nevertheless,True,65,67,
+<S_XX>,I know that the attempt to rebuild the drier eventually wrecked it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to repair the ceiling eventually wrecked it nevertheless,True,65,67,
+<S_XX>,I know that the attempt to fix the ceiling eventually wrecked it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to overhaul the ceiling eventually wrecked it nevertheless,True,67,69,
+<S_XX>,I know that the attempt to rebuild the ceiling eventually wrecked it nevertheless,True,66,68,
+<S_XX>,I know that the attempt to repair the apartment eventually wrecked it nevertheless,True,67,69,
+<S_XX>,I know that the attempt to fix the apartment eventually wrecked it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to overhaul the apartment eventually wrecked it nevertheless,True,69,71,
+<S_XX>,I know that the attempt to rebuild the apartment eventually wrecked it nevertheless,True,68,70,
+<S_XX>,I know that the attempt to repair the car finally wrecked it nevertheless,True,58,60,
+<S_XX>,I know that the attempt to fix the car finally wrecked it nevertheless,True,55,57,
+<S_XX>,I know that the attempt to overhaul the car finally wrecked it nevertheless,True,60,62,
+<S_XX>,I know that the attempt to rebuild the car finally wrecked it nevertheless,True,59,61,
+<S_XX>,I know that the attempt to repair the bike finally wrecked it nevertheless,True,59,61,
+<S_XX>,I know that the attempt to fix the bike finally wrecked it nevertheless,True,56,58,
+<S_XX>,I know that the attempt to overhaul the bike finally wrecked it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to rebuild the bike finally wrecked it nevertheless,True,60,62,
+<S_XX>,I know that the attempt to repair the washing machine finally wrecked it nevertheless,True,70,72,
+<S_XX>,I know that the attempt to fix the washing machine finally wrecked it nevertheless,True,67,69,
+<S_XX>,I know that the attempt to overhaul the washing machine finally wrecked it nevertheless,True,72,74,
+<S_XX>,I know that the attempt to rebuild the washing machine finally wrecked it nevertheless,True,71,73,
+<S_XX>,I know that the attempt to repair the drier finally wrecked it nevertheless,True,60,62,
+<S_XX>,I know that the attempt to fix the drier finally wrecked it nevertheless,True,57,59,
+<S_XX>,I know that the attempt to overhaul the drier finally wrecked it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to rebuild the drier finally wrecked it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to repair the ceiling finally wrecked it nevertheless,True,62,64,
+<S_XX>,I know that the attempt to fix the ceiling finally wrecked it nevertheless,True,59,61,
+<S_XX>,I know that the attempt to overhaul the ceiling finally wrecked it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to rebuild the ceiling finally wrecked it nevertheless,True,63,65,
+<S_XX>,I know that the attempt to repair the apartment finally wrecked it nevertheless,True,64,66,
+<S_XX>,I know that the attempt to fix the apartment finally wrecked it nevertheless,True,61,63,
+<S_XX>,I know that the attempt to overhaul the apartment finally wrecked it nevertheless,True,66,68,
+<S_XX>,I know that the attempt to rebuild the apartment finally wrecked it nevertheless,True,65,67,
+<S_XX>,I know that the attempt to repair the car eventually damaged it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to fix the car eventually damaged it nonetheless,True,58,60,
+<S_XX>,I know that the attempt to overhaul the car eventually damaged it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to rebuild the car eventually damaged it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to repair the bike eventually damaged it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to fix the bike eventually damaged it nonetheless,True,59,61,
+<S_XX>,I know that the attempt to overhaul the bike eventually damaged it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to rebuild the bike eventually damaged it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to repair the washing machine eventually damaged it nonetheless,True,73,75,
+<S_XX>,I know that the attempt to fix the washing machine eventually damaged it nonetheless,True,70,72,
+<S_XX>,I know that the attempt to overhaul the washing machine eventually damaged it nonetheless,True,75,77,
+<S_XX>,I know that the attempt to rebuild the washing machine eventually damaged it nonetheless,True,74,76,
+<S_XX>,I know that the attempt to repair the drier eventually damaged it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to fix the drier eventually damaged it nonetheless,True,60,62,
+<S_XX>,I know that the attempt to overhaul the drier eventually damaged it nonetheless,True,65,67,
+<S_XX>,I know that the attempt to rebuild the drier eventually damaged it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to repair the ceiling eventually damaged it nonetheless,True,65,67,
+<S_XX>,I know that the attempt to fix the ceiling eventually damaged it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to overhaul the ceiling eventually damaged it nonetheless,True,67,69,
+<S_XX>,I know that the attempt to rebuild the ceiling eventually damaged it nonetheless,True,66,68,
+<S_XX>,I know that the attempt to repair the apartment eventually damaged it nonetheless,True,67,69,
+<S_XX>,I know that the attempt to fix the apartment eventually damaged it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to overhaul the apartment eventually damaged it nonetheless,True,69,71,
+<S_XX>,I know that the attempt to rebuild the apartment eventually damaged it nonetheless,True,68,70,
+<S_XX>,I know that the attempt to repair the car finally damaged it nonetheless,True,58,60,
+<S_XX>,I know that the attempt to fix the car finally damaged it nonetheless,True,55,57,
+<S_XX>,I know that the attempt to overhaul the car finally damaged it nonetheless,True,60,62,
+<S_XX>,I know that the attempt to rebuild the car finally damaged it nonetheless,True,59,61,
+<S_XX>,I know that the attempt to repair the bike finally damaged it nonetheless,True,59,61,
+<S_XX>,I know that the attempt to fix the bike finally damaged it nonetheless,True,56,58,
+<S_XX>,I know that the attempt to overhaul the bike finally damaged it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to rebuild the bike finally damaged it nonetheless,True,60,62,
+<S_XX>,I know that the attempt to repair the washing machine finally damaged it nonetheless,True,70,72,
+<S_XX>,I know that the attempt to fix the washing machine finally damaged it nonetheless,True,67,69,
+<S_XX>,I know that the attempt to overhaul the washing machine finally damaged it nonetheless,True,72,74,
+<S_XX>,I know that the attempt to rebuild the washing machine finally damaged it nonetheless,True,71,73,
+<S_XX>,I know that the attempt to repair the drier finally damaged it nonetheless,True,60,62,
+<S_XX>,I know that the attempt to fix the drier finally damaged it nonetheless,True,57,59,
+<S_XX>,I know that the attempt to overhaul the drier finally damaged it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to rebuild the drier finally damaged it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to repair the ceiling finally damaged it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to fix the ceiling finally damaged it nonetheless,True,59,61,
+<S_XX>,I know that the attempt to overhaul the ceiling finally damaged it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to rebuild the ceiling finally damaged it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to repair the apartment finally damaged it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to fix the apartment finally damaged it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to overhaul the apartment finally damaged it nonetheless,True,66,68,
+<S_XX>,I know that the attempt to rebuild the apartment finally damaged it nonetheless,True,65,67,
+<S_XX>,I know that the attempt to repair the car eventually destroyed it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to fix the car eventually destroyed it nonetheless,True,60,62,
+<S_XX>,I know that the attempt to overhaul the car eventually destroyed it nonetheless,True,65,67,
+<S_XX>,I know that the attempt to rebuild the car eventually destroyed it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to repair the bike eventually destroyed it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to fix the bike eventually destroyed it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to overhaul the bike eventually destroyed it nonetheless,True,66,68,
+<S_XX>,I know that the attempt to rebuild the bike eventually destroyed it nonetheless,True,65,67,
+<S_XX>,I know that the attempt to repair the washing machine eventually destroyed it nonetheless,True,75,77,
+<S_XX>,I know that the attempt to fix the washing machine eventually destroyed it nonetheless,True,72,74,
+<S_XX>,I know that the attempt to overhaul the washing machine eventually destroyed it nonetheless,True,77,79,
+<S_XX>,I know that the attempt to rebuild the washing machine eventually destroyed it nonetheless,True,76,78,
+<S_XX>,I know that the attempt to repair the drier eventually destroyed it nonetheless,True,65,67,
+<S_XX>,I know that the attempt to fix the drier eventually destroyed it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to overhaul the drier eventually destroyed it nonetheless,True,67,69,
+<S_XX>,I know that the attempt to rebuild the drier eventually destroyed it nonetheless,True,66,68,
+<S_XX>,I know that the attempt to repair the ceiling eventually destroyed it nonetheless,True,67,69,
+<S_XX>,I know that the attempt to fix the ceiling eventually destroyed it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to overhaul the ceiling eventually destroyed it nonetheless,True,69,71,
+<S_XX>,I know that the attempt to rebuild the ceiling eventually destroyed it nonetheless,True,68,70,
+<S_XX>,I know that the attempt to repair the apartment eventually destroyed it nonetheless,True,69,71,
+<S_XX>,I know that the attempt to fix the apartment eventually destroyed it nonetheless,True,66,68,
+<S_XX>,I know that the attempt to overhaul the apartment eventually destroyed it nonetheless,True,71,73,
+<S_XX>,I know that the attempt to rebuild the apartment eventually destroyed it nonetheless,True,70,72,
+<S_XX>,I know that the attempt to repair the car finally destroyed it nonetheless,True,60,62,
+<S_XX>,I know that the attempt to fix the car finally destroyed it nonetheless,True,57,59,
+<S_XX>,I know that the attempt to overhaul the car finally destroyed it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to rebuild the car finally destroyed it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to repair the bike finally destroyed it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to fix the bike finally destroyed it nonetheless,True,58,60,
+<S_XX>,I know that the attempt to overhaul the bike finally destroyed it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to rebuild the bike finally destroyed it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to repair the washing machine finally destroyed it nonetheless,True,72,74,
+<S_XX>,I know that the attempt to fix the washing machine finally destroyed it nonetheless,True,69,71,
+<S_XX>,I know that the attempt to overhaul the washing machine finally destroyed it nonetheless,True,74,76,
+<S_XX>,I know that the attempt to rebuild the washing machine finally destroyed it nonetheless,True,73,75,
+<S_XX>,I know that the attempt to repair the drier finally destroyed it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to fix the drier finally destroyed it nonetheless,True,59,61,
+<S_XX>,I know that the attempt to overhaul the drier finally destroyed it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to rebuild the drier finally destroyed it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to repair the ceiling finally destroyed it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to fix the ceiling finally destroyed it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to overhaul the ceiling finally destroyed it nonetheless,True,66,68,
+<S_XX>,I know that the attempt to rebuild the ceiling finally destroyed it nonetheless,True,65,67,
+<S_XX>,I know that the attempt to repair the apartment finally destroyed it nonetheless,True,66,68,
+<S_XX>,I know that the attempt to fix the apartment finally destroyed it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to overhaul the apartment finally destroyed it nonetheless,True,68,70,
+<S_XX>,I know that the attempt to rebuild the apartment finally destroyed it nonetheless,True,67,69,
+<S_XX>,I know that the attempt to repair the car eventually ruined it nonetheless,True,60,62,
+<S_XX>,I know that the attempt to fix the car eventually ruined it nonetheless,True,57,59,
+<S_XX>,I know that the attempt to overhaul the car eventually ruined it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to rebuild the car eventually ruined it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to repair the bike eventually ruined it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to fix the bike eventually ruined it nonetheless,True,58,60,
+<S_XX>,I know that the attempt to overhaul the bike eventually ruined it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to rebuild the bike eventually ruined it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to repair the washing machine eventually ruined it nonetheless,True,72,74,
+<S_XX>,I know that the attempt to fix the washing machine eventually ruined it nonetheless,True,69,71,
+<S_XX>,I know that the attempt to overhaul the washing machine eventually ruined it nonetheless,True,74,76,
+<S_XX>,I know that the attempt to rebuild the washing machine eventually ruined it nonetheless,True,73,75,
+<S_XX>,I know that the attempt to repair the drier eventually ruined it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to fix the drier eventually ruined it nonetheless,True,59,61,
+<S_XX>,I know that the attempt to overhaul the drier eventually ruined it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to rebuild the drier eventually ruined it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to repair the ceiling eventually ruined it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to fix the ceiling eventually ruined it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to overhaul the ceiling eventually ruined it nonetheless,True,66,68,
+<S_XX>,I know that the attempt to rebuild the ceiling eventually ruined it nonetheless,True,65,67,
+<S_XX>,I know that the attempt to repair the apartment eventually ruined it nonetheless,True,66,68,
+<S_XX>,I know that the attempt to fix the apartment eventually ruined it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to overhaul the apartment eventually ruined it nonetheless,True,68,70,
+<S_XX>,I know that the attempt to rebuild the apartment eventually ruined it nonetheless,True,67,69,
+<S_XX>,I know that the attempt to repair the car finally ruined it nonetheless,True,57,59,
+<S_XX>,I know that the attempt to fix the car finally ruined it nonetheless,True,54,56,
+<S_XX>,I know that the attempt to overhaul the car finally ruined it nonetheless,True,59,61,
+<S_XX>,I know that the attempt to rebuild the car finally ruined it nonetheless,True,58,60,
+<S_XX>,I know that the attempt to repair the bike finally ruined it nonetheless,True,58,60,
+<S_XX>,I know that the attempt to fix the bike finally ruined it nonetheless,True,55,57,
+<S_XX>,I know that the attempt to overhaul the bike finally ruined it nonetheless,True,60,62,
+<S_XX>,I know that the attempt to rebuild the bike finally ruined it nonetheless,True,59,61,
+<S_XX>,I know that the attempt to repair the washing machine finally ruined it nonetheless,True,69,71,
+<S_XX>,I know that the attempt to fix the washing machine finally ruined it nonetheless,True,66,68,
+<S_XX>,I know that the attempt to overhaul the washing machine finally ruined it nonetheless,True,71,73,
+<S_XX>,I know that the attempt to rebuild the washing machine finally ruined it nonetheless,True,70,72,
+<S_XX>,I know that the attempt to repair the drier finally ruined it nonetheless,True,59,61,
+<S_XX>,I know that the attempt to fix the drier finally ruined it nonetheless,True,56,58,
+<S_XX>,I know that the attempt to overhaul the drier finally ruined it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to rebuild the drier finally ruined it nonetheless,True,60,62,
+<S_XX>,I know that the attempt to repair the ceiling finally ruined it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to fix the ceiling finally ruined it nonetheless,True,58,60,
+<S_XX>,I know that the attempt to overhaul the ceiling finally ruined it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to rebuild the ceiling finally ruined it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to repair the apartment finally ruined it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to fix the apartment finally ruined it nonetheless,True,60,62,
+<S_XX>,I know that the attempt to overhaul the apartment finally ruined it nonetheless,True,65,67,
+<S_XX>,I know that the attempt to rebuild the apartment finally ruined it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to repair the car eventually wrecked it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to fix the car eventually wrecked it nonetheless,True,58,60,
+<S_XX>,I know that the attempt to overhaul the car eventually wrecked it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to rebuild the car eventually wrecked it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to repair the bike eventually wrecked it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to fix the bike eventually wrecked it nonetheless,True,59,61,
+<S_XX>,I know that the attempt to overhaul the bike eventually wrecked it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to rebuild the bike eventually wrecked it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to repair the washing machine eventually wrecked it nonetheless,True,73,75,
+<S_XX>,I know that the attempt to fix the washing machine eventually wrecked it nonetheless,True,70,72,
+<S_XX>,I know that the attempt to overhaul the washing machine eventually wrecked it nonetheless,True,75,77,
+<S_XX>,I know that the attempt to rebuild the washing machine eventually wrecked it nonetheless,True,74,76,
+<S_XX>,I know that the attempt to repair the drier eventually wrecked it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to fix the drier eventually wrecked it nonetheless,True,60,62,
+<S_XX>,I know that the attempt to overhaul the drier eventually wrecked it nonetheless,True,65,67,
+<S_XX>,I know that the attempt to rebuild the drier eventually wrecked it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to repair the ceiling eventually wrecked it nonetheless,True,65,67,
+<S_XX>,I know that the attempt to fix the ceiling eventually wrecked it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to overhaul the ceiling eventually wrecked it nonetheless,True,67,69,
+<S_XX>,I know that the attempt to rebuild the ceiling eventually wrecked it nonetheless,True,66,68,
+<S_XX>,I know that the attempt to repair the apartment eventually wrecked it nonetheless,True,67,69,
+<S_XX>,I know that the attempt to fix the apartment eventually wrecked it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to overhaul the apartment eventually wrecked it nonetheless,True,69,71,
+<S_XX>,I know that the attempt to rebuild the apartment eventually wrecked it nonetheless,True,68,70,
+<S_XX>,I know that the attempt to repair the car finally wrecked it nonetheless,True,58,60,
+<S_XX>,I know that the attempt to fix the car finally wrecked it nonetheless,True,55,57,
+<S_XX>,I know that the attempt to overhaul the car finally wrecked it nonetheless,True,60,62,
+<S_XX>,I know that the attempt to rebuild the car finally wrecked it nonetheless,True,59,61,
+<S_XX>,I know that the attempt to repair the bike finally wrecked it nonetheless,True,59,61,
+<S_XX>,I know that the attempt to fix the bike finally wrecked it nonetheless,True,56,58,
+<S_XX>,I know that the attempt to overhaul the bike finally wrecked it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to rebuild the bike finally wrecked it nonetheless,True,60,62,
+<S_XX>,I know that the attempt to repair the washing machine finally wrecked it nonetheless,True,70,72,
+<S_XX>,I know that the attempt to fix the washing machine finally wrecked it nonetheless,True,67,69,
+<S_XX>,I know that the attempt to overhaul the washing machine finally wrecked it nonetheless,True,72,74,
+<S_XX>,I know that the attempt to rebuild the washing machine finally wrecked it nonetheless,True,71,73,
+<S_XX>,I know that the attempt to repair the drier finally wrecked it nonetheless,True,60,62,
+<S_XX>,I know that the attempt to fix the drier finally wrecked it nonetheless,True,57,59,
+<S_XX>,I know that the attempt to overhaul the drier finally wrecked it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to rebuild the drier finally wrecked it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to repair the ceiling finally wrecked it nonetheless,True,62,64,
+<S_XX>,I know that the attempt to fix the ceiling finally wrecked it nonetheless,True,59,61,
+<S_XX>,I know that the attempt to overhaul the ceiling finally wrecked it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to rebuild the ceiling finally wrecked it nonetheless,True,63,65,
+<S_XX>,I know that the attempt to repair the apartment finally wrecked it nonetheless,True,64,66,
+<S_XX>,I know that the attempt to fix the apartment finally wrecked it nonetheless,True,61,63,
+<S_XX>,I know that the attempt to overhaul the apartment finally wrecked it nonetheless,True,66,68,
+<S_XX>,I know that the attempt to rebuild the apartment finally wrecked it nonetheless,True,65,67,
