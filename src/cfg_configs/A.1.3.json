@@ -21,5 +21,6 @@
         "<V2>": [["surprised"], ["shocked"], ["irritated"]],
         "<ADJUNCT>": [["today"], ["yesterday"], ["recently"]]
     },
-    "starts": ["<S_FG>", "<S_XG>", "<S_FX>", "<S_XX>"]
+    "starts": ["<S_FG>", "<S_XG>", "<S_FX>", "<S_XX>"], 
+    "reserved_types": ["<NAME1>", "<NAME2>", "<NAME3>", "<NAME4>", "<SUBJ1>", "<ADV>", "<V1>", "<V2>", "<ADJUNCT>"]
 }

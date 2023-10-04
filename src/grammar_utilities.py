@@ -191,10 +191,9 @@ def build_csv(grammar, starts, file_name, reserved_types=None) -> int:
     """
     start_time = time.time()
 
-    # type, sentence, grammaticality judgement (Y, N), region start, region end, is training 
-    results = [("Type", "Sentence", "Grammatical", 
-                "Region Start", "Region End", "Critical String", 
-                "Is Training")]
+    # type, sentence, grammaticality judgement, training set?, critical string, region start, region end
+    results = [("Type", "Sentence", "Grammatical", "Is Training",
+                "Critical String", "Region Start", "Region End")]
     
     # unpack reserved_types
     reserved_lexical_items = None
@@ -202,16 +201,16 @@ def build_csv(grammar, starts, file_name, reserved_types=None) -> int:
         reserved_lexical_items = []
         for reserved_type in reserved_types:
             non_terminals = grammar[reserved_type]
-            reserved_lexical_items.extend(non_terminals[:int(len(non_terminals) * .35)])
-        print(reserved_lexical_items)
+            reserved_lexical_items.extend(non_terminals[:max(1, int(len(non_terminals) * .35))])
 
     for start in starts:
         type, sentences = generate_sentences(grammar, start)
         for sentence in sentences:
             is_training = sentence.is_training(reserved_lexical_items)
 
-            results.append([type, sentence.text, sentence.grammatical,
-                           sentence.region_start, sentence.region_end, sentence.text[sentence.region_start:sentence.region_end], is_training])
+            results.append([type, sentence.text, sentence.grammatical, is_training, 
+                            sentence.text[sentence.region_start:sentence.region_end], 
+                            sentence.region_start, sentence.region_end, ])
     
     # build it
     try:
