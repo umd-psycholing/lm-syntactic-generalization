@@ -10,7 +10,7 @@ class SentenceInfo:
         self.grammatical = False if list_representation[0] == '*' else True
         # get rid of '#' joining character and '*' ungrammatical character
         self.text = re.sub(r'(\s*\*\s*)|(\s*#\s*)', '',
-                           " ".join(list_representation) + ".")
+                           " ".join(list_representation))
 
         self.region_start = self.text.find('/')
 
@@ -20,7 +20,7 @@ class SentenceInfo:
             self.region_end = -1
 
         # remove ' / '.
-        self.text = re.sub(r'\s*\/\s*', ' ', self.text)
+        self.text = (re.sub(r'\s*\/\s*', ' ', self.text)).strip()
 
     def to_tuple(self):
         return self.text, self.grammatical, (self.region_start, self.region_end)
@@ -41,7 +41,7 @@ def _expand_first_non_terminal(input_sentence: list, grammar: dict[str]) -> list
     for element in input_sentence:
         if isinstance(element, list) or element in grammar.keys():
             first_non_terminal = element
-            
+
     # non-terminals can be represented as strings which are also keys in the grammar,
     # or as arrays which define possible replacements without a new rule.
     if isinstance(element, str):

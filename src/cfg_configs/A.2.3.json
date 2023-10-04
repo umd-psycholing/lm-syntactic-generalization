@@ -13,8 +13,8 @@
         "<F>": [["who", "<NAME1>", "<V1>"]],
         "<XF>": [["that", "<NAME1>", "<V1>", "<NAME2>"]],
         "CONN": [["and"]],
-        "<G>": [["CONN", "<V2>", "<ADJUNCT>"]],
-        "<XG>": [["CONN", "<V2>", "<NAME4>", "<ADJUNCT>"]],
+        "<G>": [["CONN", "<V2>", "/", "<ADJUNCT>", "/"]],
+        "<XG>": [["CONN", "<V2>", "/", "<NAME4>", "/", "<ADJUNCT>"]],
         "<V1>": [["saw"], ["spotted"], ["noticed"], ["looked at"]],
         "<V2>": [["helped"], ["played with"], ["started to like"], ["fell in love with"]],
         "<ADJUNCT>": [["today"], ["yesterday"], ["recently"], ["lately"]]
