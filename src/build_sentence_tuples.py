@@ -20,12 +20,12 @@ model = scorer.IncrementalLMScorer("gpt2")
 
 def delta_delta_from_tuple(model, wh_gap, wh_nogap, that_gap, that_nogap, gap_critical, nogap_critical):
     # delta -filler - delta +filler
-    plus_filler = compute_delta(
-        model, that_gap, gap_critical, that_nogap, nogap_critical)
     minus_filler = compute_delta(
+        model, that_gap, gap_critical, that_nogap, nogap_critical)
+    plus_filler = compute_delta(
         model, wh_gap, gap_critical, wh_nogap, nogap_critical)
 
-    return plus_filler - minus_filler
+    return minus_filler - plus_filler
 
 
 def compute_delta(model, gap_sentence: str, gap_critical: str, nogap_sentence: str, nogap_critical: str):
