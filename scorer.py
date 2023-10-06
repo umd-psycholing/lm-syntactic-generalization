@@ -44,3 +44,5 @@ print(delta_delta_from_tuple(
 ))
 
 # new issue is building tuples...
+# when generating tuples, start by deciding on a permutation of all the reserved types. THEN, the constructions should be deterministic, and it will produce four sentences for you.
+# do that for each permutation of reserved types and you should be in business!
