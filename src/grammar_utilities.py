@@ -23,11 +23,10 @@ class SentenceInfo:
         # remove ' / '.
         self.text = (re.sub(r'\s*\/\s*', ' ', self.text)).strip()
 
-    
-    def is_training(self, free_lexical_items: list[str]=None):
+    def is_training(self, free_lexical_items: list[str] = None):
         if not free_lexical_items:
             return None
-        
+
         # determine whether it is a training_set item
         for lexical_item in free_lexical_items:
             if lexical_item[0] in self.list_representation:
@@ -194,24 +193,25 @@ def build_csv(grammar, starts, file_name, reserved_types=None) -> int:
     # type, sentence, grammaticality judgement, training set?, critical string, region start, region end
     results = [("Type", "Sentence", "Grammatical", "Is Training",
                 "Critical String", "Region Start", "Region End")]
-    
+
     # unpack reserved_types
     reserved_lexical_items = None
     if reserved_types:
         reserved_lexical_items = []
         for reserved_type in reserved_types:
             non_terminals = grammar[reserved_type]
-            reserved_lexical_items.extend(non_terminals[:max(1, int(len(non_terminals) * .35))])
+            reserved_lexical_items.extend(
+                non_terminals[:max(1, int(len(non_terminals) * .35))])
 
     for start in starts:
         type, sentences = generate_sentences(grammar, start)
         for sentence in sentences:
             is_training = sentence.is_training(reserved_lexical_items)
 
-            results.append([type, sentence.text, sentence.grammatical, is_training, 
-                            sentence.text[sentence.region_start:sentence.region_end], 
+            results.append([type, sentence.text, sentence.grammatical, is_training,
+                            sentence.text[sentence.region_start:sentence.region_end],
                             sentence.region_start, sentence.region_end, ])
-    
+
     # build it
     try:
         with open(file_name, mode='w', newline='') as file:
