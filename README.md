@@ -28,7 +28,7 @@ mkdir models
 cd models
 wget https://dl.fbaipublicfiles.com/colorless-green-rnns/best-models/English/hidden650_batch128_dropout0.2_lr20.0.pt
 ```
-=======
+
 ### CFGs and Sentence Generation
 The directory `cfg_configs` in `src` contains JSON files with the specifications for different CFGs. Files are named based on the relevant appendix from [Lan et al](https://lingbuzz.net/lingbuzz/006829).
 
