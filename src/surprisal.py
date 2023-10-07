@@ -2,7 +2,6 @@ from typing import List, Tuple
 
 import torch
 import torch.nn.functional as F
-from minicons import scorer
 
 from colorlessgreenRNNs.src.language_models.model import RNNModel
 from colorlessgreenRNNs.src.language_models.dictionary_corpus import Dictionary
@@ -21,11 +20,11 @@ def grnn_surprisal(model: RNNModel, grnn: RNNModel, vocab: Dictionary, sentence)
     sentence = ["<eos>"] + tokenize(sentence) # EOS prepend
     rnn_input = torch.LongTensor([indexify(w.lower(), vocab) for w in sentence])
     out, _ = grnn(rnn_input.view(-1, 1), model.init_hidden(1))
-    output_flat = out.view(-1, len(vocab))
     return [-F.log_softmax(out[i], dim=-1).view(-1)[word_idx].item() for i, (word_idx, word)
  in enumerate(zip(rnn_input, sentence))][1:-1]
 
 def load_vocab(vocab_path):
+    # loads vocabulary for RNN model
     # the path must be a directory
     return Dictionary(vocab_path)
 
@@ -51,20 +50,16 @@ def tokenize(sent):
     sent = " n't".join(sent.split("n't"))
     return sent.split()
 
-def transformer_word_surprisals(model: scorer.IncrementalLMScorer, sentence_list):
-    surprisals = model.token_score(sentence_list, surprisal = True, base_two = True)
-    return [align_surprisal(sent_score[0], sent_score[1]) for sent_score in zip(surprisals, sentence_list)]
-
 def align_surprisal(token_surprisals: List[Tuple[str, float]], sentence: str):
     words = tokenize(sentence) # this is used to tokenize RNN input but if we're going to compare GPT outputs we might as well use the same technique
     token_index = 0
     word_index = 0
     word_level_surprisal = [] # list of word, surprisal tuples
-    while token_index < len(words):
-        current_word, current_token, current_surprisal = words[word_index], token_surprisals[token_index][0], token_surprisals[token_index][1]
+    while token_index < len(token_surprisals):
+        current_word = words[word_index]
+        current_token, current_surprisal = token_surprisals[token_index][0], token_surprisals[token_index][1]
         mismatch = current_word != current_token
         while mismatch:
-            print("mismatch")
             token_index += 1
             current_token += token_surprisals[token_index][0]
             current_surprisal += token_surprisals[token_index][1]
