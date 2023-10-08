@@ -8,9 +8,6 @@ import matplotlib.pyplot as plt
 from minicons import scorer
 
 
-gpt2_model = scorer.IncrementalLMScorer("gpt2")
-grnn_model = ""
-
 script_directory = os.path.dirname(os.path.abspath(__file__))
 config_directory = os.path.join(script_directory, 'cfg_configs')
 output_directory = os.path.join(script_directory, '..', 'data/cfg-output/')

@@ -2,6 +2,7 @@ import numpy as np
 import multiprocessing
 import os
 import matplotlib.pyplot as plt
+from minicons import scorer
 
 from build_sentence_tuples import group_sentences
 
@@ -35,3 +36,15 @@ def _compute_delta(model, gap_sentence: str, gap_critical: str, nogap_sentence: 
                             if token_score[0] == nogap_critical][0]
 
     return gap_crit_surprisal - nogap_crit_surprisal
+
+
+gpt2_model = scorer.IncrementalLMScorer("gpt2")
+def gpt_surprisal(sentence):
+    # returns [(token, score), (token, score), ...]
+    results = gpt2_model.token_score(
+        sentence, surprisal=True, base_two=True)[0]
+    return results
+
+
+def grnn_surprisal(sentence):
+    
