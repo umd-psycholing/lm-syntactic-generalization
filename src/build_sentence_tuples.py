@@ -29,7 +29,7 @@ def construct_quad(grammar, reserved_permutation, reserved_types, starts) -> int
     return results
 
 
-def build_revised_csv_at(config_path, output_path=None):
+def build_tuple_csv_at(config_path, output_path=None):
     cfg = {}
     starts = []
     reserved_types = []
@@ -70,7 +70,8 @@ def build_revised_csv_at(config_path, output_path=None):
 
 script_directory = os.path.dirname(os.path.abspath(__file__))
 config_directory = os.path.join(script_directory, 'cfg_configs')
-output_directory = os.path.join(script_directory, '..', 'data/cfg-output/')
+output_directory = os.path.join(
+    script_directory, '..', 'data/cfg-output/tuples')
 
 
 config_name = [filename.removesuffix('.json')
@@ -78,7 +79,7 @@ config_name = [filename.removesuffix('.json')
                if filename.endswith('json')]
 
 
-[build_revised_csv_at(
+[build_tuple_csv_at(
     os.path.join(config_directory, f'{config_path}.json'),
     os.path.join(output_directory, f'{config_path}_tuple_output.csv'))
  for config_path in config_name]

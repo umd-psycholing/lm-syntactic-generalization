@@ -153,3 +153,4 @@ cython_debug/
 
 # This is where by-word surprisal jsons will be stored
 _ignore/
+surprisal_jsons/
