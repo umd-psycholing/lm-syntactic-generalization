@@ -15,8 +15,7 @@ config_name = [filename.removesuffix('.csv')
                if filename.endswith('csv')]
 
 
-def surprisal_json_at(input_path, output_path):
-    count = 0
+def surprisal_json_at(input_path, output_path, function: callable):
     data_dict = {}
 
     with open(input_path, 'r') as csv_file:
@@ -27,7 +26,7 @@ def surprisal_json_at(input_path, output_path):
             critical = row['Critical String']
 
             surprisals = {token: surprisal
-                          for token, surprisal in gpt2_surprisal(sentence)}
+                          for token, surprisal in function(sentence)}
             data_dict[sentence] = {
                 "type": type,
                 "surprisals": surprisals,
@@ -42,5 +41,6 @@ def surprisal_json_at(input_path, output_path):
 
 [surprisal_json_at(
     os.path.join(csv_input_directory, f'{config_path}.csv'),
-    os.path.join(output_directory, f'{config_path}_by_word_surprisal.json'))
+    os.path.join(output_directory, f'{config_path}_by_word_surprisal.json'),
+    gpt2_surprisal)
  for config_path in config_name]
