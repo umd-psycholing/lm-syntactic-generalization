@@ -42,5 +42,5 @@ def surprisal_json_at(input_path, output_path):
 
 [surprisal_json_at(
     os.path.join(csv_input_directory, f'{config_path}.csv'),
-    os.path.join(output_directory, f'{config_path}_by_word_surprisal.json'))
+    os.path.join(output_directory, f'{config_path.removesuffix("output")}gpt2_by_word_surprisal.json'))
  for config_path in config_name]
