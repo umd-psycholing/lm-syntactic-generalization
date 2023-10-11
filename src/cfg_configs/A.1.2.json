@@ -23,5 +23,5 @@
         "<ADJUNCT>": [["nevertheless"], ["nonetheless"]]
     },
     "starts": ["<S_FG>", "<S_XG>", "<S_FX>", "<S_XX>"],
-    "reserved_types": ["<V1>", "<V2>", "<OBJ1>", "<ADV>", "<ADJUNCT>"]
+    "lexical_types": ["<V1>", "<V2>", "<OBJ1>", "<ADV>", "<ADJUNCT>"]
 }

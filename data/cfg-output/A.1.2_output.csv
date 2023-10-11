@@ -1,7 +1,7 @@
 Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FG>,I know what the attempt to repair eventually damaged nevertheless,True,Test,nevertheless,53,65
 <S_FG>,I know what the attempt to fix eventually damaged nevertheless,True,Test,nevertheless,50,62
-<S_FG>,I know what the attempt to overhaul eventually damaged nevertheless,True,Test,nevertheless,55,67
+<S_FG>,I know what the attempt to overhaul eventually damaged nevertheless,True,No Set,nevertheless,55,67
 <S_FG>,I know what the attempt to rebuild eventually damaged nevertheless,True,No Set,nevertheless,54,66
 <S_FG>,I know what the attempt to repair finally damaged nevertheless,True,No Set,nevertheless,50,62
 <S_FG>,I know what the attempt to fix finally damaged nevertheless,True,No Set,nevertheless,47,59
@@ -9,27 +9,27 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FG>,I know what the attempt to rebuild finally damaged nevertheless,True,No Set,nevertheless,51,63
 <S_FG>,I know what the attempt to repair eventually destroyed nevertheless,True,Test,nevertheless,55,67
 <S_FG>,I know what the attempt to fix eventually destroyed nevertheless,True,Test,nevertheless,52,64
-<S_FG>,I know what the attempt to overhaul eventually destroyed nevertheless,True,Test,nevertheless,57,69
+<S_FG>,I know what the attempt to overhaul eventually destroyed nevertheless,True,No Set,nevertheless,57,69
 <S_FG>,I know what the attempt to rebuild eventually destroyed nevertheless,True,No Set,nevertheless,56,68
 <S_FG>,I know what the attempt to repair finally destroyed nevertheless,True,No Set,nevertheless,52,64
 <S_FG>,I know what the attempt to fix finally destroyed nevertheless,True,No Set,nevertheless,49,61
 <S_FG>,I know what the attempt to overhaul finally destroyed nevertheless,True,No Set,nevertheless,54,66
 <S_FG>,I know what the attempt to rebuild finally destroyed nevertheless,True,No Set,nevertheless,53,65
-<S_FG>,I know what the attempt to repair eventually ruined nevertheless,True,Test,nevertheless,52,64
-<S_FG>,I know what the attempt to fix eventually ruined nevertheless,True,Test,nevertheless,49,61
-<S_FG>,I know what the attempt to overhaul eventually ruined nevertheless,True,Test,nevertheless,54,66
+<S_FG>,I know what the attempt to repair eventually ruined nevertheless,True,No Set,nevertheless,52,64
+<S_FG>,I know what the attempt to fix eventually ruined nevertheless,True,No Set,nevertheless,49,61
+<S_FG>,I know what the attempt to overhaul eventually ruined nevertheless,True,No Set,nevertheless,54,66
 <S_FG>,I know what the attempt to rebuild eventually ruined nevertheless,True,No Set,nevertheless,53,65
 <S_FG>,I know what the attempt to repair finally ruined nevertheless,True,No Set,nevertheless,49,61
 <S_FG>,I know what the attempt to fix finally ruined nevertheless,True,No Set,nevertheless,46,58
-<S_FG>,I know what the attempt to overhaul finally ruined nevertheless,True,No Set,nevertheless,51,63
-<S_FG>,I know what the attempt to rebuild finally ruined nevertheless,True,No Set,nevertheless,50,62
+<S_FG>,I know what the attempt to overhaul finally ruined nevertheless,True,Training,nevertheless,51,63
+<S_FG>,I know what the attempt to rebuild finally ruined nevertheless,True,Training,nevertheless,50,62
 <S_FG>,I know what the attempt to repair eventually wrecked nevertheless,True,No Set,nevertheless,53,65
 <S_FG>,I know what the attempt to fix eventually wrecked nevertheless,True,No Set,nevertheless,50,62
 <S_FG>,I know what the attempt to overhaul eventually wrecked nevertheless,True,No Set,nevertheless,55,67
 <S_FG>,I know what the attempt to rebuild eventually wrecked nevertheless,True,No Set,nevertheless,54,66
 <S_FG>,I know what the attempt to repair finally wrecked nevertheless,True,No Set,nevertheless,50,62
 <S_FG>,I know what the attempt to fix finally wrecked nevertheless,True,No Set,nevertheless,47,59
-<S_FG>,I know what the attempt to overhaul finally wrecked nevertheless,True,No Set,nevertheless,52,64
+<S_FG>,I know what the attempt to overhaul finally wrecked nevertheless,True,Training,nevertheless,52,64
 <S_FG>,I know what the attempt to rebuild finally wrecked nevertheless,True,Training,nevertheless,51,63
 <S_FG>,I know what the attempt to repair eventually damaged nonetheless,True,No Set,nonetheless,53,64
 <S_FG>,I know what the attempt to fix eventually damaged nonetheless,True,No Set,nonetheless,50,61
@@ -37,7 +37,7 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FG>,I know what the attempt to rebuild eventually damaged nonetheless,True,No Set,nonetheless,54,65
 <S_FG>,I know what the attempt to repair finally damaged nonetheless,True,No Set,nonetheless,50,61
 <S_FG>,I know what the attempt to fix finally damaged nonetheless,True,No Set,nonetheless,47,58
-<S_FG>,I know what the attempt to overhaul finally damaged nonetheless,True,No Set,nonetheless,52,63
+<S_FG>,I know what the attempt to overhaul finally damaged nonetheless,True,Training,nonetheless,52,63
 <S_FG>,I know what the attempt to rebuild finally damaged nonetheless,True,Training,nonetheless,51,62
 <S_FG>,I know what the attempt to repair eventually destroyed nonetheless,True,No Set,nonetheless,55,66
 <S_FG>,I know what the attempt to fix eventually destroyed nonetheless,True,No Set,nonetheless,52,63
@@ -45,19 +45,19 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FG>,I know what the attempt to rebuild eventually destroyed nonetheless,True,No Set,nonetheless,56,67
 <S_FG>,I know what the attempt to repair finally destroyed nonetheless,True,No Set,nonetheless,52,63
 <S_FG>,I know what the attempt to fix finally destroyed nonetheless,True,No Set,nonetheless,49,60
-<S_FG>,I know what the attempt to overhaul finally destroyed nonetheless,True,No Set,nonetheless,54,65
+<S_FG>,I know what the attempt to overhaul finally destroyed nonetheless,True,Training,nonetheless,54,65
 <S_FG>,I know what the attempt to rebuild finally destroyed nonetheless,True,Training,nonetheless,53,64
 <S_FG>,I know what the attempt to repair eventually ruined nonetheless,True,No Set,nonetheless,52,63
 <S_FG>,I know what the attempt to fix eventually ruined nonetheless,True,No Set,nonetheless,49,60
-<S_FG>,I know what the attempt to overhaul eventually ruined nonetheless,True,No Set,nonetheless,54,65
-<S_FG>,I know what the attempt to rebuild eventually ruined nonetheless,True,No Set,nonetheless,53,64
-<S_FG>,I know what the attempt to repair finally ruined nonetheless,True,No Set,nonetheless,49,60
-<S_FG>,I know what the attempt to fix finally ruined nonetheless,True,No Set,nonetheless,46,57
-<S_FG>,I know what the attempt to overhaul finally ruined nonetheless,True,No Set,nonetheless,51,62
+<S_FG>,I know what the attempt to overhaul eventually ruined nonetheless,True,Training,nonetheless,54,65
+<S_FG>,I know what the attempt to rebuild eventually ruined nonetheless,True,Training,nonetheless,53,64
+<S_FG>,I know what the attempt to repair finally ruined nonetheless,True,Training,nonetheless,49,60
+<S_FG>,I know what the attempt to fix finally ruined nonetheless,True,Training,nonetheless,46,57
+<S_FG>,I know what the attempt to overhaul finally ruined nonetheless,True,Training,nonetheless,51,62
 <S_FG>,I know what the attempt to rebuild finally ruined nonetheless,True,Training,nonetheless,50,61
 <S_FG>,I know what the attempt to repair eventually wrecked nonetheless,True,No Set,nonetheless,53,64
 <S_FG>,I know what the attempt to fix eventually wrecked nonetheless,True,No Set,nonetheless,50,61
-<S_FG>,I know what the attempt to overhaul eventually wrecked nonetheless,True,No Set,nonetheless,55,66
+<S_FG>,I know what the attempt to overhaul eventually wrecked nonetheless,True,Training,nonetheless,55,66
 <S_FG>,I know what the attempt to rebuild eventually wrecked nonetheless,True,Training,nonetheless,54,65
 <S_FG>,I know what the attempt to repair finally wrecked nonetheless,True,Training,nonetheless,50,61
 <S_FG>,I know what the attempt to fix finally wrecked nonetheless,True,Training,nonetheless,47,58
@@ -65,19 +65,19 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FG>,I know what the attempt to rebuild finally wrecked nonetheless,True,Training,nonetheless,51,62
 <S_XG>,I know that the attempt to repair the car eventually damaged nevertheless,False,Test,nevertheless,61,73
 <S_XG>,I know that the attempt to fix the car eventually damaged nevertheless,False,Test,nevertheless,58,70
-<S_XG>,I know that the attempt to overhaul the car eventually damaged nevertheless,False,Test,nevertheless,63,75
+<S_XG>,I know that the attempt to overhaul the car eventually damaged nevertheless,False,No Set,nevertheless,63,75
 <S_XG>,I know that the attempt to rebuild the car eventually damaged nevertheless,False,No Set,nevertheless,62,74
 <S_XG>,I know that the attempt to repair the bike eventually damaged nevertheless,False,Test,nevertheless,62,74
 <S_XG>,I know that the attempt to fix the bike eventually damaged nevertheless,False,Test,nevertheless,59,71
-<S_XG>,I know that the attempt to overhaul the bike eventually damaged nevertheless,False,Test,nevertheless,64,76
+<S_XG>,I know that the attempt to overhaul the bike eventually damaged nevertheless,False,No Set,nevertheless,64,76
 <S_XG>,I know that the attempt to rebuild the bike eventually damaged nevertheless,False,No Set,nevertheless,63,75
 <S_XG>,I know that the attempt to repair the washing machine eventually damaged nevertheless,False,Test,nevertheless,73,85
 <S_XG>,I know that the attempt to fix the washing machine eventually damaged nevertheless,False,Test,nevertheless,70,82
-<S_XG>,I know that the attempt to overhaul the washing machine eventually damaged nevertheless,False,Test,nevertheless,75,87
+<S_XG>,I know that the attempt to overhaul the washing machine eventually damaged nevertheless,False,No Set,nevertheless,75,87
 <S_XG>,I know that the attempt to rebuild the washing machine eventually damaged nevertheless,False,No Set,nevertheless,74,86
-<S_XG>,I know that the attempt to repair the drier eventually damaged nevertheless,False,Test,nevertheless,63,75
-<S_XG>,I know that the attempt to fix the drier eventually damaged nevertheless,False,Test,nevertheless,60,72
-<S_XG>,I know that the attempt to overhaul the drier eventually damaged nevertheless,False,Test,nevertheless,65,77
+<S_XG>,I know that the attempt to repair the drier eventually damaged nevertheless,False,No Set,nevertheless,63,75
+<S_XG>,I know that the attempt to fix the drier eventually damaged nevertheless,False,No Set,nevertheless,60,72
+<S_XG>,I know that the attempt to overhaul the drier eventually damaged nevertheless,False,No Set,nevertheless,65,77
 <S_XG>,I know that the attempt to rebuild the drier eventually damaged nevertheless,False,No Set,nevertheless,64,76
 <S_XG>,I know that the attempt to repair the ceiling eventually damaged nevertheless,False,No Set,nevertheless,65,77
 <S_XG>,I know that the attempt to fix the ceiling eventually damaged nevertheless,False,No Set,nevertheless,62,74
@@ -113,19 +113,19 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the attempt to rebuild the apartment finally damaged nevertheless,False,No Set,nevertheless,65,77
 <S_XG>,I know that the attempt to repair the car eventually destroyed nevertheless,False,Test,nevertheless,63,75
 <S_XG>,I know that the attempt to fix the car eventually destroyed nevertheless,False,Test,nevertheless,60,72
-<S_XG>,I know that the attempt to overhaul the car eventually destroyed nevertheless,False,Test,nevertheless,65,77
+<S_XG>,I know that the attempt to overhaul the car eventually destroyed nevertheless,False,No Set,nevertheless,65,77
 <S_XG>,I know that the attempt to rebuild the car eventually destroyed nevertheless,False,No Set,nevertheless,64,76
 <S_XG>,I know that the attempt to repair the bike eventually destroyed nevertheless,False,Test,nevertheless,64,76
 <S_XG>,I know that the attempt to fix the bike eventually destroyed nevertheless,False,Test,nevertheless,61,73
-<S_XG>,I know that the attempt to overhaul the bike eventually destroyed nevertheless,False,Test,nevertheless,66,78
+<S_XG>,I know that the attempt to overhaul the bike eventually destroyed nevertheless,False,No Set,nevertheless,66,78
 <S_XG>,I know that the attempt to rebuild the bike eventually destroyed nevertheless,False,No Set,nevertheless,65,77
 <S_XG>,I know that the attempt to repair the washing machine eventually destroyed nevertheless,False,Test,nevertheless,75,87
 <S_XG>,I know that the attempt to fix the washing machine eventually destroyed nevertheless,False,Test,nevertheless,72,84
-<S_XG>,I know that the attempt to overhaul the washing machine eventually destroyed nevertheless,False,Test,nevertheless,77,89
+<S_XG>,I know that the attempt to overhaul the washing machine eventually destroyed nevertheless,False,No Set,nevertheless,77,89
 <S_XG>,I know that the attempt to rebuild the washing machine eventually destroyed nevertheless,False,No Set,nevertheless,76,88
-<S_XG>,I know that the attempt to repair the drier eventually destroyed nevertheless,False,Test,nevertheless,65,77
-<S_XG>,I know that the attempt to fix the drier eventually destroyed nevertheless,False,Test,nevertheless,62,74
-<S_XG>,I know that the attempt to overhaul the drier eventually destroyed nevertheless,False,Test,nevertheless,67,79
+<S_XG>,I know that the attempt to repair the drier eventually destroyed nevertheless,False,No Set,nevertheless,65,77
+<S_XG>,I know that the attempt to fix the drier eventually destroyed nevertheless,False,No Set,nevertheless,62,74
+<S_XG>,I know that the attempt to overhaul the drier eventually destroyed nevertheless,False,No Set,nevertheless,67,79
 <S_XG>,I know that the attempt to rebuild the drier eventually destroyed nevertheless,False,No Set,nevertheless,66,78
 <S_XG>,I know that the attempt to repair the ceiling eventually destroyed nevertheless,False,No Set,nevertheless,67,79
 <S_XG>,I know that the attempt to fix the ceiling eventually destroyed nevertheless,False,No Set,nevertheless,64,76
@@ -159,21 +159,21 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the attempt to fix the apartment finally destroyed nevertheless,False,No Set,nevertheless,63,75
 <S_XG>,I know that the attempt to overhaul the apartment finally destroyed nevertheless,False,No Set,nevertheless,68,80
 <S_XG>,I know that the attempt to rebuild the apartment finally destroyed nevertheless,False,No Set,nevertheless,67,79
-<S_XG>,I know that the attempt to repair the car eventually ruined nevertheless,False,Test,nevertheless,60,72
-<S_XG>,I know that the attempt to fix the car eventually ruined nevertheless,False,Test,nevertheless,57,69
-<S_XG>,I know that the attempt to overhaul the car eventually ruined nevertheless,False,Test,nevertheless,62,74
+<S_XG>,I know that the attempt to repair the car eventually ruined nevertheless,False,No Set,nevertheless,60,72
+<S_XG>,I know that the attempt to fix the car eventually ruined nevertheless,False,No Set,nevertheless,57,69
+<S_XG>,I know that the attempt to overhaul the car eventually ruined nevertheless,False,No Set,nevertheless,62,74
 <S_XG>,I know that the attempt to rebuild the car eventually ruined nevertheless,False,No Set,nevertheless,61,73
-<S_XG>,I know that the attempt to repair the bike eventually ruined nevertheless,False,Test,nevertheless,61,73
-<S_XG>,I know that the attempt to fix the bike eventually ruined nevertheless,False,Test,nevertheless,58,70
-<S_XG>,I know that the attempt to overhaul the bike eventually ruined nevertheless,False,Test,nevertheless,63,75
+<S_XG>,I know that the attempt to repair the bike eventually ruined nevertheless,False,No Set,nevertheless,61,73
+<S_XG>,I know that the attempt to fix the bike eventually ruined nevertheless,False,No Set,nevertheless,58,70
+<S_XG>,I know that the attempt to overhaul the bike eventually ruined nevertheless,False,No Set,nevertheless,63,75
 <S_XG>,I know that the attempt to rebuild the bike eventually ruined nevertheless,False,No Set,nevertheless,62,74
-<S_XG>,I know that the attempt to repair the washing machine eventually ruined nevertheless,False,Test,nevertheless,72,84
-<S_XG>,I know that the attempt to fix the washing machine eventually ruined nevertheless,False,Test,nevertheless,69,81
-<S_XG>,I know that the attempt to overhaul the washing machine eventually ruined nevertheless,False,Test,nevertheless,74,86
+<S_XG>,I know that the attempt to repair the washing machine eventually ruined nevertheless,False,No Set,nevertheless,72,84
+<S_XG>,I know that the attempt to fix the washing machine eventually ruined nevertheless,False,No Set,nevertheless,69,81
+<S_XG>,I know that the attempt to overhaul the washing machine eventually ruined nevertheless,False,No Set,nevertheless,74,86
 <S_XG>,I know that the attempt to rebuild the washing machine eventually ruined nevertheless,False,No Set,nevertheless,73,85
-<S_XG>,I know that the attempt to repair the drier eventually ruined nevertheless,False,Test,nevertheless,62,74
-<S_XG>,I know that the attempt to fix the drier eventually ruined nevertheless,False,Test,nevertheless,59,71
-<S_XG>,I know that the attempt to overhaul the drier eventually ruined nevertheless,False,Test,nevertheless,64,76
+<S_XG>,I know that the attempt to repair the drier eventually ruined nevertheless,False,No Set,nevertheless,62,74
+<S_XG>,I know that the attempt to fix the drier eventually ruined nevertheless,False,No Set,nevertheless,59,71
+<S_XG>,I know that the attempt to overhaul the drier eventually ruined nevertheless,False,No Set,nevertheless,64,76
 <S_XG>,I know that the attempt to rebuild the drier eventually ruined nevertheless,False,No Set,nevertheless,63,75
 <S_XG>,I know that the attempt to repair the ceiling eventually ruined nevertheless,False,No Set,nevertheless,64,76
 <S_XG>,I know that the attempt to fix the ceiling eventually ruined nevertheless,False,No Set,nevertheless,61,73
@@ -197,16 +197,16 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the attempt to rebuild the washing machine finally ruined nevertheless,False,No Set,nevertheless,70,82
 <S_XG>,I know that the attempt to repair the drier finally ruined nevertheless,False,No Set,nevertheless,59,71
 <S_XG>,I know that the attempt to fix the drier finally ruined nevertheless,False,No Set,nevertheless,56,68
-<S_XG>,I know that the attempt to overhaul the drier finally ruined nevertheless,False,No Set,nevertheless,61,73
-<S_XG>,I know that the attempt to rebuild the drier finally ruined nevertheless,False,No Set,nevertheless,60,72
+<S_XG>,I know that the attempt to overhaul the drier finally ruined nevertheless,False,Training,nevertheless,61,73
+<S_XG>,I know that the attempt to rebuild the drier finally ruined nevertheless,False,Training,nevertheless,60,72
 <S_XG>,I know that the attempt to repair the ceiling finally ruined nevertheless,False,No Set,nevertheless,61,73
 <S_XG>,I know that the attempt to fix the ceiling finally ruined nevertheless,False,No Set,nevertheless,58,70
-<S_XG>,I know that the attempt to overhaul the ceiling finally ruined nevertheless,False,No Set,nevertheless,63,75
-<S_XG>,I know that the attempt to rebuild the ceiling finally ruined nevertheless,False,No Set,nevertheless,62,74
+<S_XG>,I know that the attempt to overhaul the ceiling finally ruined nevertheless,False,Training,nevertheless,63,75
+<S_XG>,I know that the attempt to rebuild the ceiling finally ruined nevertheless,False,Training,nevertheless,62,74
 <S_XG>,I know that the attempt to repair the apartment finally ruined nevertheless,False,No Set,nevertheless,63,75
 <S_XG>,I know that the attempt to fix the apartment finally ruined nevertheless,False,No Set,nevertheless,60,72
-<S_XG>,I know that the attempt to overhaul the apartment finally ruined nevertheless,False,No Set,nevertheless,65,77
-<S_XG>,I know that the attempt to rebuild the apartment finally ruined nevertheless,False,No Set,nevertheless,64,76
+<S_XG>,I know that the attempt to overhaul the apartment finally ruined nevertheless,False,Training,nevertheless,65,77
+<S_XG>,I know that the attempt to rebuild the apartment finally ruined nevertheless,False,Training,nevertheless,64,76
 <S_XG>,I know that the attempt to repair the car eventually wrecked nevertheless,False,No Set,nevertheless,61,73
 <S_XG>,I know that the attempt to fix the car eventually wrecked nevertheless,False,No Set,nevertheless,58,70
 <S_XG>,I know that the attempt to overhaul the car eventually wrecked nevertheless,False,No Set,nevertheless,63,75
@@ -245,15 +245,15 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the attempt to rebuild the washing machine finally wrecked nevertheless,False,No Set,nevertheless,71,83
 <S_XG>,I know that the attempt to repair the drier finally wrecked nevertheless,False,No Set,nevertheless,60,72
 <S_XG>,I know that the attempt to fix the drier finally wrecked nevertheless,False,No Set,nevertheless,57,69
-<S_XG>,I know that the attempt to overhaul the drier finally wrecked nevertheless,False,No Set,nevertheless,62,74
-<S_XG>,I know that the attempt to rebuild the drier finally wrecked nevertheless,False,No Set,nevertheless,61,73
+<S_XG>,I know that the attempt to overhaul the drier finally wrecked nevertheless,False,Training,nevertheless,62,74
+<S_XG>,I know that the attempt to rebuild the drier finally wrecked nevertheless,False,Training,nevertheless,61,73
 <S_XG>,I know that the attempt to repair the ceiling finally wrecked nevertheless,False,No Set,nevertheless,62,74
 <S_XG>,I know that the attempt to fix the ceiling finally wrecked nevertheless,False,No Set,nevertheless,59,71
-<S_XG>,I know that the attempt to overhaul the ceiling finally wrecked nevertheless,False,No Set,nevertheless,64,76
+<S_XG>,I know that the attempt to overhaul the ceiling finally wrecked nevertheless,False,Training,nevertheless,64,76
 <S_XG>,I know that the attempt to rebuild the ceiling finally wrecked nevertheless,False,Training,nevertheless,63,75
 <S_XG>,I know that the attempt to repair the apartment finally wrecked nevertheless,False,No Set,nevertheless,64,76
 <S_XG>,I know that the attempt to fix the apartment finally wrecked nevertheless,False,No Set,nevertheless,61,73
-<S_XG>,I know that the attempt to overhaul the apartment finally wrecked nevertheless,False,No Set,nevertheless,66,78
+<S_XG>,I know that the attempt to overhaul the apartment finally wrecked nevertheless,False,Training,nevertheless,66,78
 <S_XG>,I know that the attempt to rebuild the apartment finally wrecked nevertheless,False,Training,nevertheless,65,77
 <S_XG>,I know that the attempt to repair the car eventually damaged nonetheless,False,No Set,nonetheless,61,72
 <S_XG>,I know that the attempt to fix the car eventually damaged nonetheless,False,No Set,nonetheless,58,69
@@ -293,15 +293,15 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the attempt to rebuild the washing machine finally damaged nonetheless,False,No Set,nonetheless,71,82
 <S_XG>,I know that the attempt to repair the drier finally damaged nonetheless,False,No Set,nonetheless,60,71
 <S_XG>,I know that the attempt to fix the drier finally damaged nonetheless,False,No Set,nonetheless,57,68
-<S_XG>,I know that the attempt to overhaul the drier finally damaged nonetheless,False,No Set,nonetheless,62,73
-<S_XG>,I know that the attempt to rebuild the drier finally damaged nonetheless,False,No Set,nonetheless,61,72
+<S_XG>,I know that the attempt to overhaul the drier finally damaged nonetheless,False,Training,nonetheless,62,73
+<S_XG>,I know that the attempt to rebuild the drier finally damaged nonetheless,False,Training,nonetheless,61,72
 <S_XG>,I know that the attempt to repair the ceiling finally damaged nonetheless,False,No Set,nonetheless,62,73
 <S_XG>,I know that the attempt to fix the ceiling finally damaged nonetheless,False,No Set,nonetheless,59,70
-<S_XG>,I know that the attempt to overhaul the ceiling finally damaged nonetheless,False,No Set,nonetheless,64,75
+<S_XG>,I know that the attempt to overhaul the ceiling finally damaged nonetheless,False,Training,nonetheless,64,75
 <S_XG>,I know that the attempt to rebuild the ceiling finally damaged nonetheless,False,Training,nonetheless,63,74
 <S_XG>,I know that the attempt to repair the apartment finally damaged nonetheless,False,No Set,nonetheless,64,75
 <S_XG>,I know that the attempt to fix the apartment finally damaged nonetheless,False,No Set,nonetheless,61,72
-<S_XG>,I know that the attempt to overhaul the apartment finally damaged nonetheless,False,No Set,nonetheless,66,77
+<S_XG>,I know that the attempt to overhaul the apartment finally damaged nonetheless,False,Training,nonetheless,66,77
 <S_XG>,I know that the attempt to rebuild the apartment finally damaged nonetheless,False,Training,nonetheless,65,76
 <S_XG>,I know that the attempt to repair the car eventually destroyed nonetheless,False,No Set,nonetheless,63,74
 <S_XG>,I know that the attempt to fix the car eventually destroyed nonetheless,False,No Set,nonetheless,60,71
@@ -341,15 +341,15 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the attempt to rebuild the washing machine finally destroyed nonetheless,False,No Set,nonetheless,73,84
 <S_XG>,I know that the attempt to repair the drier finally destroyed nonetheless,False,No Set,nonetheless,62,73
 <S_XG>,I know that the attempt to fix the drier finally destroyed nonetheless,False,No Set,nonetheless,59,70
-<S_XG>,I know that the attempt to overhaul the drier finally destroyed nonetheless,False,No Set,nonetheless,64,75
-<S_XG>,I know that the attempt to rebuild the drier finally destroyed nonetheless,False,No Set,nonetheless,63,74
+<S_XG>,I know that the attempt to overhaul the drier finally destroyed nonetheless,False,Training,nonetheless,64,75
+<S_XG>,I know that the attempt to rebuild the drier finally destroyed nonetheless,False,Training,nonetheless,63,74
 <S_XG>,I know that the attempt to repair the ceiling finally destroyed nonetheless,False,No Set,nonetheless,64,75
 <S_XG>,I know that the attempt to fix the ceiling finally destroyed nonetheless,False,No Set,nonetheless,61,72
-<S_XG>,I know that the attempt to overhaul the ceiling finally destroyed nonetheless,False,No Set,nonetheless,66,77
+<S_XG>,I know that the attempt to overhaul the ceiling finally destroyed nonetheless,False,Training,nonetheless,66,77
 <S_XG>,I know that the attempt to rebuild the ceiling finally destroyed nonetheless,False,Training,nonetheless,65,76
 <S_XG>,I know that the attempt to repair the apartment finally destroyed nonetheless,False,No Set,nonetheless,66,77
 <S_XG>,I know that the attempt to fix the apartment finally destroyed nonetheless,False,No Set,nonetheless,63,74
-<S_XG>,I know that the attempt to overhaul the apartment finally destroyed nonetheless,False,No Set,nonetheless,68,79
+<S_XG>,I know that the attempt to overhaul the apartment finally destroyed nonetheless,False,Training,nonetheless,68,79
 <S_XG>,I know that the attempt to rebuild the apartment finally destroyed nonetheless,False,Training,nonetheless,67,78
 <S_XG>,I know that the attempt to repair the car eventually ruined nonetheless,False,No Set,nonetheless,60,71
 <S_XG>,I know that the attempt to fix the car eventually ruined nonetheless,False,No Set,nonetheless,57,68
@@ -365,39 +365,39 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the attempt to rebuild the washing machine eventually ruined nonetheless,False,No Set,nonetheless,73,84
 <S_XG>,I know that the attempt to repair the drier eventually ruined nonetheless,False,No Set,nonetheless,62,73
 <S_XG>,I know that the attempt to fix the drier eventually ruined nonetheless,False,No Set,nonetheless,59,70
-<S_XG>,I know that the attempt to overhaul the drier eventually ruined nonetheless,False,No Set,nonetheless,64,75
-<S_XG>,I know that the attempt to rebuild the drier eventually ruined nonetheless,False,No Set,nonetheless,63,74
+<S_XG>,I know that the attempt to overhaul the drier eventually ruined nonetheless,False,Training,nonetheless,64,75
+<S_XG>,I know that the attempt to rebuild the drier eventually ruined nonetheless,False,Training,nonetheless,63,74
 <S_XG>,I know that the attempt to repair the ceiling eventually ruined nonetheless,False,No Set,nonetheless,64,75
 <S_XG>,I know that the attempt to fix the ceiling eventually ruined nonetheless,False,No Set,nonetheless,61,72
-<S_XG>,I know that the attempt to overhaul the ceiling eventually ruined nonetheless,False,No Set,nonetheless,66,77
-<S_XG>,I know that the attempt to rebuild the ceiling eventually ruined nonetheless,False,No Set,nonetheless,65,76
+<S_XG>,I know that the attempt to overhaul the ceiling eventually ruined nonetheless,False,Training,nonetheless,66,77
+<S_XG>,I know that the attempt to rebuild the ceiling eventually ruined nonetheless,False,Training,nonetheless,65,76
 <S_XG>,I know that the attempt to repair the apartment eventually ruined nonetheless,False,No Set,nonetheless,66,77
 <S_XG>,I know that the attempt to fix the apartment eventually ruined nonetheless,False,No Set,nonetheless,63,74
-<S_XG>,I know that the attempt to overhaul the apartment eventually ruined nonetheless,False,No Set,nonetheless,68,79
-<S_XG>,I know that the attempt to rebuild the apartment eventually ruined nonetheless,False,No Set,nonetheless,67,78
+<S_XG>,I know that the attempt to overhaul the apartment eventually ruined nonetheless,False,Training,nonetheless,68,79
+<S_XG>,I know that the attempt to rebuild the apartment eventually ruined nonetheless,False,Training,nonetheless,67,78
 <S_XG>,I know that the attempt to repair the car finally ruined nonetheless,False,No Set,nonetheless,57,68
 <S_XG>,I know that the attempt to fix the car finally ruined nonetheless,False,No Set,nonetheless,54,65
-<S_XG>,I know that the attempt to overhaul the car finally ruined nonetheless,False,No Set,nonetheless,59,70
-<S_XG>,I know that the attempt to rebuild the car finally ruined nonetheless,False,No Set,nonetheless,58,69
+<S_XG>,I know that the attempt to overhaul the car finally ruined nonetheless,False,Training,nonetheless,59,70
+<S_XG>,I know that the attempt to rebuild the car finally ruined nonetheless,False,Training,nonetheless,58,69
 <S_XG>,I know that the attempt to repair the bike finally ruined nonetheless,False,No Set,nonetheless,58,69
 <S_XG>,I know that the attempt to fix the bike finally ruined nonetheless,False,No Set,nonetheless,55,66
-<S_XG>,I know that the attempt to overhaul the bike finally ruined nonetheless,False,No Set,nonetheless,60,71
-<S_XG>,I know that the attempt to rebuild the bike finally ruined nonetheless,False,No Set,nonetheless,59,70
+<S_XG>,I know that the attempt to overhaul the bike finally ruined nonetheless,False,Training,nonetheless,60,71
+<S_XG>,I know that the attempt to rebuild the bike finally ruined nonetheless,False,Training,nonetheless,59,70
 <S_XG>,I know that the attempt to repair the washing machine finally ruined nonetheless,False,No Set,nonetheless,69,80
 <S_XG>,I know that the attempt to fix the washing machine finally ruined nonetheless,False,No Set,nonetheless,66,77
-<S_XG>,I know that the attempt to overhaul the washing machine finally ruined nonetheless,False,No Set,nonetheless,71,82
-<S_XG>,I know that the attempt to rebuild the washing machine finally ruined nonetheless,False,No Set,nonetheless,70,81
-<S_XG>,I know that the attempt to repair the drier finally ruined nonetheless,False,No Set,nonetheless,59,70
-<S_XG>,I know that the attempt to fix the drier finally ruined nonetheless,False,No Set,nonetheless,56,67
-<S_XG>,I know that the attempt to overhaul the drier finally ruined nonetheless,False,No Set,nonetheless,61,72
-<S_XG>,I know that the attempt to rebuild the drier finally ruined nonetheless,False,No Set,nonetheless,60,71
-<S_XG>,I know that the attempt to repair the ceiling finally ruined nonetheless,False,No Set,nonetheless,61,72
-<S_XG>,I know that the attempt to fix the ceiling finally ruined nonetheless,False,No Set,nonetheless,58,69
-<S_XG>,I know that the attempt to overhaul the ceiling finally ruined nonetheless,False,No Set,nonetheless,63,74
+<S_XG>,I know that the attempt to overhaul the washing machine finally ruined nonetheless,False,Training,nonetheless,71,82
+<S_XG>,I know that the attempt to rebuild the washing machine finally ruined nonetheless,False,Training,nonetheless,70,81
+<S_XG>,I know that the attempt to repair the drier finally ruined nonetheless,False,Training,nonetheless,59,70
+<S_XG>,I know that the attempt to fix the drier finally ruined nonetheless,False,Training,nonetheless,56,67
+<S_XG>,I know that the attempt to overhaul the drier finally ruined nonetheless,False,Training,nonetheless,61,72
+<S_XG>,I know that the attempt to rebuild the drier finally ruined nonetheless,False,Training,nonetheless,60,71
+<S_XG>,I know that the attempt to repair the ceiling finally ruined nonetheless,False,Training,nonetheless,61,72
+<S_XG>,I know that the attempt to fix the ceiling finally ruined nonetheless,False,Training,nonetheless,58,69
+<S_XG>,I know that the attempt to overhaul the ceiling finally ruined nonetheless,False,Training,nonetheless,63,74
 <S_XG>,I know that the attempt to rebuild the ceiling finally ruined nonetheless,False,Training,nonetheless,62,73
-<S_XG>,I know that the attempt to repair the apartment finally ruined nonetheless,False,No Set,nonetheless,63,74
-<S_XG>,I know that the attempt to fix the apartment finally ruined nonetheless,False,No Set,nonetheless,60,71
-<S_XG>,I know that the attempt to overhaul the apartment finally ruined nonetheless,False,No Set,nonetheless,65,76
+<S_XG>,I know that the attempt to repair the apartment finally ruined nonetheless,False,Training,nonetheless,63,74
+<S_XG>,I know that the attempt to fix the apartment finally ruined nonetheless,False,Training,nonetheless,60,71
+<S_XG>,I know that the attempt to overhaul the apartment finally ruined nonetheless,False,Training,nonetheless,65,76
 <S_XG>,I know that the attempt to rebuild the apartment finally ruined nonetheless,False,Training,nonetheless,64,75
 <S_XG>,I know that the attempt to repair the car eventually wrecked nonetheless,False,No Set,nonetheless,61,72
 <S_XG>,I know that the attempt to fix the car eventually wrecked nonetheless,False,No Set,nonetheless,58,69
@@ -413,31 +413,31 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the attempt to rebuild the washing machine eventually wrecked nonetheless,False,No Set,nonetheless,74,85
 <S_XG>,I know that the attempt to repair the drier eventually wrecked nonetheless,False,No Set,nonetheless,63,74
 <S_XG>,I know that the attempt to fix the drier eventually wrecked nonetheless,False,No Set,nonetheless,60,71
-<S_XG>,I know that the attempt to overhaul the drier eventually wrecked nonetheless,False,No Set,nonetheless,65,76
-<S_XG>,I know that the attempt to rebuild the drier eventually wrecked nonetheless,False,No Set,nonetheless,64,75
+<S_XG>,I know that the attempt to overhaul the drier eventually wrecked nonetheless,False,Training,nonetheless,65,76
+<S_XG>,I know that the attempt to rebuild the drier eventually wrecked nonetheless,False,Training,nonetheless,64,75
 <S_XG>,I know that the attempt to repair the ceiling eventually wrecked nonetheless,False,No Set,nonetheless,65,76
 <S_XG>,I know that the attempt to fix the ceiling eventually wrecked nonetheless,False,No Set,nonetheless,62,73
-<S_XG>,I know that the attempt to overhaul the ceiling eventually wrecked nonetheless,False,No Set,nonetheless,67,78
+<S_XG>,I know that the attempt to overhaul the ceiling eventually wrecked nonetheless,False,Training,nonetheless,67,78
 <S_XG>,I know that the attempt to rebuild the ceiling eventually wrecked nonetheless,False,Training,nonetheless,66,77
 <S_XG>,I know that the attempt to repair the apartment eventually wrecked nonetheless,False,No Set,nonetheless,67,78
 <S_XG>,I know that the attempt to fix the apartment eventually wrecked nonetheless,False,No Set,nonetheless,64,75
-<S_XG>,I know that the attempt to overhaul the apartment eventually wrecked nonetheless,False,No Set,nonetheless,69,80
+<S_XG>,I know that the attempt to overhaul the apartment eventually wrecked nonetheless,False,Training,nonetheless,69,80
 <S_XG>,I know that the attempt to rebuild the apartment eventually wrecked nonetheless,False,Training,nonetheless,68,79
 <S_XG>,I know that the attempt to repair the car finally wrecked nonetheless,False,No Set,nonetheless,58,69
 <S_XG>,I know that the attempt to fix the car finally wrecked nonetheless,False,No Set,nonetheless,55,66
-<S_XG>,I know that the attempt to overhaul the car finally wrecked nonetheless,False,No Set,nonetheless,60,71
+<S_XG>,I know that the attempt to overhaul the car finally wrecked nonetheless,False,Training,nonetheless,60,71
 <S_XG>,I know that the attempt to rebuild the car finally wrecked nonetheless,False,Training,nonetheless,59,70
 <S_XG>,I know that the attempt to repair the bike finally wrecked nonetheless,False,No Set,nonetheless,59,70
 <S_XG>,I know that the attempt to fix the bike finally wrecked nonetheless,False,No Set,nonetheless,56,67
-<S_XG>,I know that the attempt to overhaul the bike finally wrecked nonetheless,False,No Set,nonetheless,61,72
+<S_XG>,I know that the attempt to overhaul the bike finally wrecked nonetheless,False,Training,nonetheless,61,72
 <S_XG>,I know that the attempt to rebuild the bike finally wrecked nonetheless,False,Training,nonetheless,60,71
 <S_XG>,I know that the attempt to repair the washing machine finally wrecked nonetheless,False,No Set,nonetheless,70,81
 <S_XG>,I know that the attempt to fix the washing machine finally wrecked nonetheless,False,No Set,nonetheless,67,78
-<S_XG>,I know that the attempt to overhaul the washing machine finally wrecked nonetheless,False,No Set,nonetheless,72,83
+<S_XG>,I know that the attempt to overhaul the washing machine finally wrecked nonetheless,False,Training,nonetheless,72,83
 <S_XG>,I know that the attempt to rebuild the washing machine finally wrecked nonetheless,False,Training,nonetheless,71,82
-<S_XG>,I know that the attempt to repair the drier finally wrecked nonetheless,False,No Set,nonetheless,60,71
-<S_XG>,I know that the attempt to fix the drier finally wrecked nonetheless,False,No Set,nonetheless,57,68
-<S_XG>,I know that the attempt to overhaul the drier finally wrecked nonetheless,False,No Set,nonetheless,62,73
+<S_XG>,I know that the attempt to repair the drier finally wrecked nonetheless,False,Training,nonetheless,60,71
+<S_XG>,I know that the attempt to fix the drier finally wrecked nonetheless,False,Training,nonetheless,57,68
+<S_XG>,I know that the attempt to overhaul the drier finally wrecked nonetheless,False,Training,nonetheless,62,73
 <S_XG>,I know that the attempt to rebuild the drier finally wrecked nonetheless,False,Training,nonetheless,61,72
 <S_XG>,I know that the attempt to repair the ceiling finally wrecked nonetheless,False,Training,nonetheless,62,73
 <S_XG>,I know that the attempt to fix the ceiling finally wrecked nonetheless,False,Training,nonetheless,59,70
@@ -449,7 +449,7 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the attempt to rebuild the apartment finally wrecked nonetheless,False,Training,nonetheless,65,76
 <S_FX>,I know what the attempt to repair eventually damaged it nevertheless,False,Test,it,53,55
 <S_FX>,I know what the attempt to fix eventually damaged it nevertheless,False,Test,it,50,52
-<S_FX>,I know what the attempt to overhaul eventually damaged it nevertheless,False,Test,it,55,57
+<S_FX>,I know what the attempt to overhaul eventually damaged it nevertheless,False,No Set,it,55,57
 <S_FX>,I know what the attempt to rebuild eventually damaged it nevertheless,False,No Set,it,54,56
 <S_FX>,I know what the attempt to repair finally damaged it nevertheless,False,No Set,it,50,52
 <S_FX>,I know what the attempt to fix finally damaged it nevertheless,False,No Set,it,47,49
@@ -457,27 +457,27 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FX>,I know what the attempt to rebuild finally damaged it nevertheless,False,No Set,it,51,53
 <S_FX>,I know what the attempt to repair eventually destroyed it nevertheless,False,Test,it,55,57
 <S_FX>,I know what the attempt to fix eventually destroyed it nevertheless,False,Test,it,52,54
-<S_FX>,I know what the attempt to overhaul eventually destroyed it nevertheless,False,Test,it,57,59
+<S_FX>,I know what the attempt to overhaul eventually destroyed it nevertheless,False,No Set,it,57,59
 <S_FX>,I know what the attempt to rebuild eventually destroyed it nevertheless,False,No Set,it,56,58
 <S_FX>,I know what the attempt to repair finally destroyed it nevertheless,False,No Set,it,52,54
 <S_FX>,I know what the attempt to fix finally destroyed it nevertheless,False,No Set,it,49,51
 <S_FX>,I know what the attempt to overhaul finally destroyed it nevertheless,False,No Set,it,54,56
 <S_FX>,I know what the attempt to rebuild finally destroyed it nevertheless,False,No Set,it,53,55
-<S_FX>,I know what the attempt to repair eventually ruined it nevertheless,False,Test,it,52,54
-<S_FX>,I know what the attempt to fix eventually ruined it nevertheless,False,Test,it,49,51
-<S_FX>,I know what the attempt to overhaul eventually ruined it nevertheless,False,Test,it,54,56
+<S_FX>,I know what the attempt to repair eventually ruined it nevertheless,False,No Set,it,52,54
+<S_FX>,I know what the attempt to fix eventually ruined it nevertheless,False,No Set,it,49,51
+<S_FX>,I know what the attempt to overhaul eventually ruined it nevertheless,False,No Set,it,54,56
 <S_FX>,I know what the attempt to rebuild eventually ruined it nevertheless,False,No Set,it,53,55
 <S_FX>,I know what the attempt to repair finally ruined it nevertheless,False,No Set,it,49,51
 <S_FX>,I know what the attempt to fix finally ruined it nevertheless,False,No Set,it,46,48
-<S_FX>,I know what the attempt to overhaul finally ruined it nevertheless,False,No Set,it,51,53
-<S_FX>,I know what the attempt to rebuild finally ruined it nevertheless,False,No Set,it,50,52
+<S_FX>,I know what the attempt to overhaul finally ruined it nevertheless,False,Training,it,51,53
+<S_FX>,I know what the attempt to rebuild finally ruined it nevertheless,False,Training,it,50,52
 <S_FX>,I know what the attempt to repair eventually wrecked it nevertheless,False,No Set,it,53,55
 <S_FX>,I know what the attempt to fix eventually wrecked it nevertheless,False,No Set,it,50,52
 <S_FX>,I know what the attempt to overhaul eventually wrecked it nevertheless,False,No Set,it,55,57
 <S_FX>,I know what the attempt to rebuild eventually wrecked it nevertheless,False,No Set,it,54,56
 <S_FX>,I know what the attempt to repair finally wrecked it nevertheless,False,No Set,it,50,52
 <S_FX>,I know what the attempt to fix finally wrecked it nevertheless,False,No Set,it,47,49
-<S_FX>,I know what the attempt to overhaul finally wrecked it nevertheless,False,No Set,it,52,54
+<S_FX>,I know what the attempt to overhaul finally wrecked it nevertheless,False,Training,it,52,54
 <S_FX>,I know what the attempt to rebuild finally wrecked it nevertheless,False,Training,it,51,53
 <S_FX>,I know what the attempt to repair eventually damaged it nonetheless,False,No Set,it,53,55
 <S_FX>,I know what the attempt to fix eventually damaged it nonetheless,False,No Set,it,50,52
@@ -485,7 +485,7 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FX>,I know what the attempt to rebuild eventually damaged it nonetheless,False,No Set,it,54,56
 <S_FX>,I know what the attempt to repair finally damaged it nonetheless,False,No Set,it,50,52
 <S_FX>,I know what the attempt to fix finally damaged it nonetheless,False,No Set,it,47,49
-<S_FX>,I know what the attempt to overhaul finally damaged it nonetheless,False,No Set,it,52,54
+<S_FX>,I know what the attempt to overhaul finally damaged it nonetheless,False,Training,it,52,54
 <S_FX>,I know what the attempt to rebuild finally damaged it nonetheless,False,Training,it,51,53
 <S_FX>,I know what the attempt to repair eventually destroyed it nonetheless,False,No Set,it,55,57
 <S_FX>,I know what the attempt to fix eventually destroyed it nonetheless,False,No Set,it,52,54
@@ -493,19 +493,19 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FX>,I know what the attempt to rebuild eventually destroyed it nonetheless,False,No Set,it,56,58
 <S_FX>,I know what the attempt to repair finally destroyed it nonetheless,False,No Set,it,52,54
 <S_FX>,I know what the attempt to fix finally destroyed it nonetheless,False,No Set,it,49,51
-<S_FX>,I know what the attempt to overhaul finally destroyed it nonetheless,False,No Set,it,54,56
+<S_FX>,I know what the attempt to overhaul finally destroyed it nonetheless,False,Training,it,54,56
 <S_FX>,I know what the attempt to rebuild finally destroyed it nonetheless,False,Training,it,53,55
 <S_FX>,I know what the attempt to repair eventually ruined it nonetheless,False,No Set,it,52,54
 <S_FX>,I know what the attempt to fix eventually ruined it nonetheless,False,No Set,it,49,51
-<S_FX>,I know what the attempt to overhaul eventually ruined it nonetheless,False,No Set,it,54,56
-<S_FX>,I know what the attempt to rebuild eventually ruined it nonetheless,False,No Set,it,53,55
-<S_FX>,I know what the attempt to repair finally ruined it nonetheless,False,No Set,it,49,51
-<S_FX>,I know what the attempt to fix finally ruined it nonetheless,False,No Set,it,46,48
-<S_FX>,I know what the attempt to overhaul finally ruined it nonetheless,False,No Set,it,51,53
+<S_FX>,I know what the attempt to overhaul eventually ruined it nonetheless,False,Training,it,54,56
+<S_FX>,I know what the attempt to rebuild eventually ruined it nonetheless,False,Training,it,53,55
+<S_FX>,I know what the attempt to repair finally ruined it nonetheless,False,Training,it,49,51
+<S_FX>,I know what the attempt to fix finally ruined it nonetheless,False,Training,it,46,48
+<S_FX>,I know what the attempt to overhaul finally ruined it nonetheless,False,Training,it,51,53
 <S_FX>,I know what the attempt to rebuild finally ruined it nonetheless,False,Training,it,50,52
 <S_FX>,I know what the attempt to repair eventually wrecked it nonetheless,False,No Set,it,53,55
 <S_FX>,I know what the attempt to fix eventually wrecked it nonetheless,False,No Set,it,50,52
-<S_FX>,I know what the attempt to overhaul eventually wrecked it nonetheless,False,No Set,it,55,57
+<S_FX>,I know what the attempt to overhaul eventually wrecked it nonetheless,False,Training,it,55,57
 <S_FX>,I know what the attempt to rebuild eventually wrecked it nonetheless,False,Training,it,54,56
 <S_FX>,I know what the attempt to repair finally wrecked it nonetheless,False,Training,it,50,52
 <S_FX>,I know what the attempt to fix finally wrecked it nonetheless,False,Training,it,47,49
@@ -513,19 +513,19 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FX>,I know what the attempt to rebuild finally wrecked it nonetheless,False,Training,it,51,53
 <S_XX>,I know that the attempt to repair the car eventually damaged it nevertheless,True,Test,it,61,63
 <S_XX>,I know that the attempt to fix the car eventually damaged it nevertheless,True,Test,it,58,60
-<S_XX>,I know that the attempt to overhaul the car eventually damaged it nevertheless,True,Test,it,63,65
+<S_XX>,I know that the attempt to overhaul the car eventually damaged it nevertheless,True,No Set,it,63,65
 <S_XX>,I know that the attempt to rebuild the car eventually damaged it nevertheless,True,No Set,it,62,64
 <S_XX>,I know that the attempt to repair the bike eventually damaged it nevertheless,True,Test,it,62,64
 <S_XX>,I know that the attempt to fix the bike eventually damaged it nevertheless,True,Test,it,59,61
-<S_XX>,I know that the attempt to overhaul the bike eventually damaged it nevertheless,True,Test,it,64,66
+<S_XX>,I know that the attempt to overhaul the bike eventually damaged it nevertheless,True,No Set,it,64,66
 <S_XX>,I know that the attempt to rebuild the bike eventually damaged it nevertheless,True,No Set,it,63,65
 <S_XX>,I know that the attempt to repair the washing machine eventually damaged it nevertheless,True,Test,it,73,75
 <S_XX>,I know that the attempt to fix the washing machine eventually damaged it nevertheless,True,Test,it,70,72
-<S_XX>,I know that the attempt to overhaul the washing machine eventually damaged it nevertheless,True,Test,it,75,77
+<S_XX>,I know that the attempt to overhaul the washing machine eventually damaged it nevertheless,True,No Set,it,75,77
 <S_XX>,I know that the attempt to rebuild the washing machine eventually damaged it nevertheless,True,No Set,it,74,76
-<S_XX>,I know that the attempt to repair the drier eventually damaged it nevertheless,True,Test,it,63,65
-<S_XX>,I know that the attempt to fix the drier eventually damaged it nevertheless,True,Test,it,60,62
-<S_XX>,I know that the attempt to overhaul the drier eventually damaged it nevertheless,True,Test,it,65,67
+<S_XX>,I know that the attempt to repair the drier eventually damaged it nevertheless,True,No Set,it,63,65
+<S_XX>,I know that the attempt to fix the drier eventually damaged it nevertheless,True,No Set,it,60,62
+<S_XX>,I know that the attempt to overhaul the drier eventually damaged it nevertheless,True,No Set,it,65,67
 <S_XX>,I know that the attempt to rebuild the drier eventually damaged it nevertheless,True,No Set,it,64,66
 <S_XX>,I know that the attempt to repair the ceiling eventually damaged it nevertheless,True,No Set,it,65,67
 <S_XX>,I know that the attempt to fix the ceiling eventually damaged it nevertheless,True,No Set,it,62,64
@@ -561,19 +561,19 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the attempt to rebuild the apartment finally damaged it nevertheless,True,No Set,it,65,67
 <S_XX>,I know that the attempt to repair the car eventually destroyed it nevertheless,True,Test,it,63,65
 <S_XX>,I know that the attempt to fix the car eventually destroyed it nevertheless,True,Test,it,60,62
-<S_XX>,I know that the attempt to overhaul the car eventually destroyed it nevertheless,True,Test,it,65,67
+<S_XX>,I know that the attempt to overhaul the car eventually destroyed it nevertheless,True,No Set,it,65,67
 <S_XX>,I know that the attempt to rebuild the car eventually destroyed it nevertheless,True,No Set,it,64,66
 <S_XX>,I know that the attempt to repair the bike eventually destroyed it nevertheless,True,Test,it,64,66
 <S_XX>,I know that the attempt to fix the bike eventually destroyed it nevertheless,True,Test,it,61,63
-<S_XX>,I know that the attempt to overhaul the bike eventually destroyed it nevertheless,True,Test,it,66,68
+<S_XX>,I know that the attempt to overhaul the bike eventually destroyed it nevertheless,True,No Set,it,66,68
 <S_XX>,I know that the attempt to rebuild the bike eventually destroyed it nevertheless,True,No Set,it,65,67
 <S_XX>,I know that the attempt to repair the washing machine eventually destroyed it nevertheless,True,Test,it,75,77
 <S_XX>,I know that the attempt to fix the washing machine eventually destroyed it nevertheless,True,Test,it,72,74
-<S_XX>,I know that the attempt to overhaul the washing machine eventually destroyed it nevertheless,True,Test,it,77,79
+<S_XX>,I know that the attempt to overhaul the washing machine eventually destroyed it nevertheless,True,No Set,it,77,79
 <S_XX>,I know that the attempt to rebuild the washing machine eventually destroyed it nevertheless,True,No Set,it,76,78
-<S_XX>,I know that the attempt to repair the drier eventually destroyed it nevertheless,True,Test,it,65,67
-<S_XX>,I know that the attempt to fix the drier eventually destroyed it nevertheless,True,Test,it,62,64
-<S_XX>,I know that the attempt to overhaul the drier eventually destroyed it nevertheless,True,Test,it,67,69
+<S_XX>,I know that the attempt to repair the drier eventually destroyed it nevertheless,True,No Set,it,65,67
+<S_XX>,I know that the attempt to fix the drier eventually destroyed it nevertheless,True,No Set,it,62,64
+<S_XX>,I know that the attempt to overhaul the drier eventually destroyed it nevertheless,True,No Set,it,67,69
 <S_XX>,I know that the attempt to rebuild the drier eventually destroyed it nevertheless,True,No Set,it,66,68
 <S_XX>,I know that the attempt to repair the ceiling eventually destroyed it nevertheless,True,No Set,it,67,69
 <S_XX>,I know that the attempt to fix the ceiling eventually destroyed it nevertheless,True,No Set,it,64,66
@@ -607,21 +607,21 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the attempt to fix the apartment finally destroyed it nevertheless,True,No Set,it,63,65
 <S_XX>,I know that the attempt to overhaul the apartment finally destroyed it nevertheless,True,No Set,it,68,70
 <S_XX>,I know that the attempt to rebuild the apartment finally destroyed it nevertheless,True,No Set,it,67,69
-<S_XX>,I know that the attempt to repair the car eventually ruined it nevertheless,True,Test,it,60,62
-<S_XX>,I know that the attempt to fix the car eventually ruined it nevertheless,True,Test,it,57,59
-<S_XX>,I know that the attempt to overhaul the car eventually ruined it nevertheless,True,Test,it,62,64
+<S_XX>,I know that the attempt to repair the car eventually ruined it nevertheless,True,No Set,it,60,62
+<S_XX>,I know that the attempt to fix the car eventually ruined it nevertheless,True,No Set,it,57,59
+<S_XX>,I know that the attempt to overhaul the car eventually ruined it nevertheless,True,No Set,it,62,64
 <S_XX>,I know that the attempt to rebuild the car eventually ruined it nevertheless,True,No Set,it,61,63
-<S_XX>,I know that the attempt to repair the bike eventually ruined it nevertheless,True,Test,it,61,63
-<S_XX>,I know that the attempt to fix the bike eventually ruined it nevertheless,True,Test,it,58,60
-<S_XX>,I know that the attempt to overhaul the bike eventually ruined it nevertheless,True,Test,it,63,65
+<S_XX>,I know that the attempt to repair the bike eventually ruined it nevertheless,True,No Set,it,61,63
+<S_XX>,I know that the attempt to fix the bike eventually ruined it nevertheless,True,No Set,it,58,60
+<S_XX>,I know that the attempt to overhaul the bike eventually ruined it nevertheless,True,No Set,it,63,65
 <S_XX>,I know that the attempt to rebuild the bike eventually ruined it nevertheless,True,No Set,it,62,64
-<S_XX>,I know that the attempt to repair the washing machine eventually ruined it nevertheless,True,Test,it,72,74
-<S_XX>,I know that the attempt to fix the washing machine eventually ruined it nevertheless,True,Test,it,69,71
-<S_XX>,I know that the attempt to overhaul the washing machine eventually ruined it nevertheless,True,Test,it,74,76
+<S_XX>,I know that the attempt to repair the washing machine eventually ruined it nevertheless,True,No Set,it,72,74
+<S_XX>,I know that the attempt to fix the washing machine eventually ruined it nevertheless,True,No Set,it,69,71
+<S_XX>,I know that the attempt to overhaul the washing machine eventually ruined it nevertheless,True,No Set,it,74,76
 <S_XX>,I know that the attempt to rebuild the washing machine eventually ruined it nevertheless,True,No Set,it,73,75
-<S_XX>,I know that the attempt to repair the drier eventually ruined it nevertheless,True,Test,it,62,64
-<S_XX>,I know that the attempt to fix the drier eventually ruined it nevertheless,True,Test,it,59,61
-<S_XX>,I know that the attempt to overhaul the drier eventually ruined it nevertheless,True,Test,it,64,66
+<S_XX>,I know that the attempt to repair the drier eventually ruined it nevertheless,True,No Set,it,62,64
+<S_XX>,I know that the attempt to fix the drier eventually ruined it nevertheless,True,No Set,it,59,61
+<S_XX>,I know that the attempt to overhaul the drier eventually ruined it nevertheless,True,No Set,it,64,66
 <S_XX>,I know that the attempt to rebuild the drier eventually ruined it nevertheless,True,No Set,it,63,65
 <S_XX>,I know that the attempt to repair the ceiling eventually ruined it nevertheless,True,No Set,it,64,66
 <S_XX>,I know that the attempt to fix the ceiling eventually ruined it nevertheless,True,No Set,it,61,63
@@ -645,16 +645,16 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the attempt to rebuild the washing machine finally ruined it nevertheless,True,No Set,it,70,72
 <S_XX>,I know that the attempt to repair the drier finally ruined it nevertheless,True,No Set,it,59,61
 <S_XX>,I know that the attempt to fix the drier finally ruined it nevertheless,True,No Set,it,56,58
-<S_XX>,I know that the attempt to overhaul the drier finally ruined it nevertheless,True,No Set,it,61,63
-<S_XX>,I know that the attempt to rebuild the drier finally ruined it nevertheless,True,No Set,it,60,62
+<S_XX>,I know that the attempt to overhaul the drier finally ruined it nevertheless,True,Training,it,61,63
+<S_XX>,I know that the attempt to rebuild the drier finally ruined it nevertheless,True,Training,it,60,62
 <S_XX>,I know that the attempt to repair the ceiling finally ruined it nevertheless,True,No Set,it,61,63
 <S_XX>,I know that the attempt to fix the ceiling finally ruined it nevertheless,True,No Set,it,58,60
-<S_XX>,I know that the attempt to overhaul the ceiling finally ruined it nevertheless,True,No Set,it,63,65
-<S_XX>,I know that the attempt to rebuild the ceiling finally ruined it nevertheless,True,No Set,it,62,64
+<S_XX>,I know that the attempt to overhaul the ceiling finally ruined it nevertheless,True,Training,it,63,65
+<S_XX>,I know that the attempt to rebuild the ceiling finally ruined it nevertheless,True,Training,it,62,64
 <S_XX>,I know that the attempt to repair the apartment finally ruined it nevertheless,True,No Set,it,63,65
 <S_XX>,I know that the attempt to fix the apartment finally ruined it nevertheless,True,No Set,it,60,62
-<S_XX>,I know that the attempt to overhaul the apartment finally ruined it nevertheless,True,No Set,it,65,67
-<S_XX>,I know that the attempt to rebuild the apartment finally ruined it nevertheless,True,No Set,it,64,66
+<S_XX>,I know that the attempt to overhaul the apartment finally ruined it nevertheless,True,Training,it,65,67
+<S_XX>,I know that the attempt to rebuild the apartment finally ruined it nevertheless,True,Training,it,64,66
 <S_XX>,I know that the attempt to repair the car eventually wrecked it nevertheless,True,No Set,it,61,63
 <S_XX>,I know that the attempt to fix the car eventually wrecked it nevertheless,True,No Set,it,58,60
 <S_XX>,I know that the attempt to overhaul the car eventually wrecked it nevertheless,True,No Set,it,63,65
@@ -693,15 +693,15 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the attempt to rebuild the washing machine finally wrecked it nevertheless,True,No Set,it,71,73
 <S_XX>,I know that the attempt to repair the drier finally wrecked it nevertheless,True,No Set,it,60,62
 <S_XX>,I know that the attempt to fix the drier finally wrecked it nevertheless,True,No Set,it,57,59
-<S_XX>,I know that the attempt to overhaul the drier finally wrecked it nevertheless,True,No Set,it,62,64
-<S_XX>,I know that the attempt to rebuild the drier finally wrecked it nevertheless,True,No Set,it,61,63
+<S_XX>,I know that the attempt to overhaul the drier finally wrecked it nevertheless,True,Training,it,62,64
+<S_XX>,I know that the attempt to rebuild the drier finally wrecked it nevertheless,True,Training,it,61,63
 <S_XX>,I know that the attempt to repair the ceiling finally wrecked it nevertheless,True,No Set,it,62,64
 <S_XX>,I know that the attempt to fix the ceiling finally wrecked it nevertheless,True,No Set,it,59,61
-<S_XX>,I know that the attempt to overhaul the ceiling finally wrecked it nevertheless,True,No Set,it,64,66
+<S_XX>,I know that the attempt to overhaul the ceiling finally wrecked it nevertheless,True,Training,it,64,66
 <S_XX>,I know that the attempt to rebuild the ceiling finally wrecked it nevertheless,True,Training,it,63,65
 <S_XX>,I know that the attempt to repair the apartment finally wrecked it nevertheless,True,No Set,it,64,66
 <S_XX>,I know that the attempt to fix the apartment finally wrecked it nevertheless,True,No Set,it,61,63
-<S_XX>,I know that the attempt to overhaul the apartment finally wrecked it nevertheless,True,No Set,it,66,68
+<S_XX>,I know that the attempt to overhaul the apartment finally wrecked it nevertheless,True,Training,it,66,68
 <S_XX>,I know that the attempt to rebuild the apartment finally wrecked it nevertheless,True,Training,it,65,67
 <S_XX>,I know that the attempt to repair the car eventually damaged it nonetheless,True,No Set,it,61,63
 <S_XX>,I know that the attempt to fix the car eventually damaged it nonetheless,True,No Set,it,58,60
@@ -741,15 +741,15 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the attempt to rebuild the washing machine finally damaged it nonetheless,True,No Set,it,71,73
 <S_XX>,I know that the attempt to repair the drier finally damaged it nonetheless,True,No Set,it,60,62
 <S_XX>,I know that the attempt to fix the drier finally damaged it nonetheless,True,No Set,it,57,59
-<S_XX>,I know that the attempt to overhaul the drier finally damaged it nonetheless,True,No Set,it,62,64
-<S_XX>,I know that the attempt to rebuild the drier finally damaged it nonetheless,True,No Set,it,61,63
+<S_XX>,I know that the attempt to overhaul the drier finally damaged it nonetheless,True,Training,it,62,64
+<S_XX>,I know that the attempt to rebuild the drier finally damaged it nonetheless,True,Training,it,61,63
 <S_XX>,I know that the attempt to repair the ceiling finally damaged it nonetheless,True,No Set,it,62,64
 <S_XX>,I know that the attempt to fix the ceiling finally damaged it nonetheless,True,No Set,it,59,61
-<S_XX>,I know that the attempt to overhaul the ceiling finally damaged it nonetheless,True,No Set,it,64,66
+<S_XX>,I know that the attempt to overhaul the ceiling finally damaged it nonetheless,True,Training,it,64,66
 <S_XX>,I know that the attempt to rebuild the ceiling finally damaged it nonetheless,True,Training,it,63,65
 <S_XX>,I know that the attempt to repair the apartment finally damaged it nonetheless,True,No Set,it,64,66
 <S_XX>,I know that the attempt to fix the apartment finally damaged it nonetheless,True,No Set,it,61,63
-<S_XX>,I know that the attempt to overhaul the apartment finally damaged it nonetheless,True,No Set,it,66,68
+<S_XX>,I know that the attempt to overhaul the apartment finally damaged it nonetheless,True,Training,it,66,68
 <S_XX>,I know that the attempt to rebuild the apartment finally damaged it nonetheless,True,Training,it,65,67
 <S_XX>,I know that the attempt to repair the car eventually destroyed it nonetheless,True,No Set,it,63,65
 <S_XX>,I know that the attempt to fix the car eventually destroyed it nonetheless,True,No Set,it,60,62
@@ -789,15 +789,15 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the attempt to rebuild the washing machine finally destroyed it nonetheless,True,No Set,it,73,75
 <S_XX>,I know that the attempt to repair the drier finally destroyed it nonetheless,True,No Set,it,62,64
 <S_XX>,I know that the attempt to fix the drier finally destroyed it nonetheless,True,No Set,it,59,61
-<S_XX>,I know that the attempt to overhaul the drier finally destroyed it nonetheless,True,No Set,it,64,66
-<S_XX>,I know that the attempt to rebuild the drier finally destroyed it nonetheless,True,No Set,it,63,65
+<S_XX>,I know that the attempt to overhaul the drier finally destroyed it nonetheless,True,Training,it,64,66
+<S_XX>,I know that the attempt to rebuild the drier finally destroyed it nonetheless,True,Training,it,63,65
 <S_XX>,I know that the attempt to repair the ceiling finally destroyed it nonetheless,True,No Set,it,64,66
 <S_XX>,I know that the attempt to fix the ceiling finally destroyed it nonetheless,True,No Set,it,61,63
-<S_XX>,I know that the attempt to overhaul the ceiling finally destroyed it nonetheless,True,No Set,it,66,68
+<S_XX>,I know that the attempt to overhaul the ceiling finally destroyed it nonetheless,True,Training,it,66,68
 <S_XX>,I know that the attempt to rebuild the ceiling finally destroyed it nonetheless,True,Training,it,65,67
 <S_XX>,I know that the attempt to repair the apartment finally destroyed it nonetheless,True,No Set,it,66,68
 <S_XX>,I know that the attempt to fix the apartment finally destroyed it nonetheless,True,No Set,it,63,65
-<S_XX>,I know that the attempt to overhaul the apartment finally destroyed it nonetheless,True,No Set,it,68,70
+<S_XX>,I know that the attempt to overhaul the apartment finally destroyed it nonetheless,True,Training,it,68,70
 <S_XX>,I know that the attempt to rebuild the apartment finally destroyed it nonetheless,True,Training,it,67,69
 <S_XX>,I know that the attempt to repair the car eventually ruined it nonetheless,True,No Set,it,60,62
 <S_XX>,I know that the attempt to fix the car eventually ruined it nonetheless,True,No Set,it,57,59
@@ -813,39 +813,39 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the attempt to rebuild the washing machine eventually ruined it nonetheless,True,No Set,it,73,75
 <S_XX>,I know that the attempt to repair the drier eventually ruined it nonetheless,True,No Set,it,62,64
 <S_XX>,I know that the attempt to fix the drier eventually ruined it nonetheless,True,No Set,it,59,61
-<S_XX>,I know that the attempt to overhaul the drier eventually ruined it nonetheless,True,No Set,it,64,66
-<S_XX>,I know that the attempt to rebuild the drier eventually ruined it nonetheless,True,No Set,it,63,65
+<S_XX>,I know that the attempt to overhaul the drier eventually ruined it nonetheless,True,Training,it,64,66
+<S_XX>,I know that the attempt to rebuild the drier eventually ruined it nonetheless,True,Training,it,63,65
 <S_XX>,I know that the attempt to repair the ceiling eventually ruined it nonetheless,True,No Set,it,64,66
 <S_XX>,I know that the attempt to fix the ceiling eventually ruined it nonetheless,True,No Set,it,61,63
-<S_XX>,I know that the attempt to overhaul the ceiling eventually ruined it nonetheless,True,No Set,it,66,68
-<S_XX>,I know that the attempt to rebuild the ceiling eventually ruined it nonetheless,True,No Set,it,65,67
+<S_XX>,I know that the attempt to overhaul the ceiling eventually ruined it nonetheless,True,Training,it,66,68
+<S_XX>,I know that the attempt to rebuild the ceiling eventually ruined it nonetheless,True,Training,it,65,67
 <S_XX>,I know that the attempt to repair the apartment eventually ruined it nonetheless,True,No Set,it,66,68
 <S_XX>,I know that the attempt to fix the apartment eventually ruined it nonetheless,True,No Set,it,63,65
-<S_XX>,I know that the attempt to overhaul the apartment eventually ruined it nonetheless,True,No Set,it,68,70
-<S_XX>,I know that the attempt to rebuild the apartment eventually ruined it nonetheless,True,No Set,it,67,69
+<S_XX>,I know that the attempt to overhaul the apartment eventually ruined it nonetheless,True,Training,it,68,70
+<S_XX>,I know that the attempt to rebuild the apartment eventually ruined it nonetheless,True,Training,it,67,69
 <S_XX>,I know that the attempt to repair the car finally ruined it nonetheless,True,No Set,it,57,59
 <S_XX>,I know that the attempt to fix the car finally ruined it nonetheless,True,No Set,it,54,56
-<S_XX>,I know that the attempt to overhaul the car finally ruined it nonetheless,True,No Set,it,59,61
-<S_XX>,I know that the attempt to rebuild the car finally ruined it nonetheless,True,No Set,it,58,60
+<S_XX>,I know that the attempt to overhaul the car finally ruined it nonetheless,True,Training,it,59,61
+<S_XX>,I know that the attempt to rebuild the car finally ruined it nonetheless,True,Training,it,58,60
 <S_XX>,I know that the attempt to repair the bike finally ruined it nonetheless,True,No Set,it,58,60
 <S_XX>,I know that the attempt to fix the bike finally ruined it nonetheless,True,No Set,it,55,57
-<S_XX>,I know that the attempt to overhaul the bike finally ruined it nonetheless,True,No Set,it,60,62
-<S_XX>,I know that the attempt to rebuild the bike finally ruined it nonetheless,True,No Set,it,59,61
+<S_XX>,I know that the attempt to overhaul the bike finally ruined it nonetheless,True,Training,it,60,62
+<S_XX>,I know that the attempt to rebuild the bike finally ruined it nonetheless,True,Training,it,59,61
 <S_XX>,I know that the attempt to repair the washing machine finally ruined it nonetheless,True,No Set,it,69,71
 <S_XX>,I know that the attempt to fix the washing machine finally ruined it nonetheless,True,No Set,it,66,68
-<S_XX>,I know that the attempt to overhaul the washing machine finally ruined it nonetheless,True,No Set,it,71,73
-<S_XX>,I know that the attempt to rebuild the washing machine finally ruined it nonetheless,True,No Set,it,70,72
-<S_XX>,I know that the attempt to repair the drier finally ruined it nonetheless,True,No Set,it,59,61
-<S_XX>,I know that the attempt to fix the drier finally ruined it nonetheless,True,No Set,it,56,58
-<S_XX>,I know that the attempt to overhaul the drier finally ruined it nonetheless,True,No Set,it,61,63
-<S_XX>,I know that the attempt to rebuild the drier finally ruined it nonetheless,True,No Set,it,60,62
-<S_XX>,I know that the attempt to repair the ceiling finally ruined it nonetheless,True,No Set,it,61,63
-<S_XX>,I know that the attempt to fix the ceiling finally ruined it nonetheless,True,No Set,it,58,60
-<S_XX>,I know that the attempt to overhaul the ceiling finally ruined it nonetheless,True,No Set,it,63,65
+<S_XX>,I know that the attempt to overhaul the washing machine finally ruined it nonetheless,True,Training,it,71,73
+<S_XX>,I know that the attempt to rebuild the washing machine finally ruined it nonetheless,True,Training,it,70,72
+<S_XX>,I know that the attempt to repair the drier finally ruined it nonetheless,True,Training,it,59,61
+<S_XX>,I know that the attempt to fix the drier finally ruined it nonetheless,True,Training,it,56,58
+<S_XX>,I know that the attempt to overhaul the drier finally ruined it nonetheless,True,Training,it,61,63
+<S_XX>,I know that the attempt to rebuild the drier finally ruined it nonetheless,True,Training,it,60,62
+<S_XX>,I know that the attempt to repair the ceiling finally ruined it nonetheless,True,Training,it,61,63
+<S_XX>,I know that the attempt to fix the ceiling finally ruined it nonetheless,True,Training,it,58,60
+<S_XX>,I know that the attempt to overhaul the ceiling finally ruined it nonetheless,True,Training,it,63,65
 <S_XX>,I know that the attempt to rebuild the ceiling finally ruined it nonetheless,True,Training,it,62,64
-<S_XX>,I know that the attempt to repair the apartment finally ruined it nonetheless,True,No Set,it,63,65
-<S_XX>,I know that the attempt to fix the apartment finally ruined it nonetheless,True,No Set,it,60,62
-<S_XX>,I know that the attempt to overhaul the apartment finally ruined it nonetheless,True,No Set,it,65,67
+<S_XX>,I know that the attempt to repair the apartment finally ruined it nonetheless,True,Training,it,63,65
+<S_XX>,I know that the attempt to fix the apartment finally ruined it nonetheless,True,Training,it,60,62
+<S_XX>,I know that the attempt to overhaul the apartment finally ruined it nonetheless,True,Training,it,65,67
 <S_XX>,I know that the attempt to rebuild the apartment finally ruined it nonetheless,True,Training,it,64,66
 <S_XX>,I know that the attempt to repair the car eventually wrecked it nonetheless,True,No Set,it,61,63
 <S_XX>,I know that the attempt to fix the car eventually wrecked it nonetheless,True,No Set,it,58,60
@@ -861,31 +861,31 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the attempt to rebuild the washing machine eventually wrecked it nonetheless,True,No Set,it,74,76
 <S_XX>,I know that the attempt to repair the drier eventually wrecked it nonetheless,True,No Set,it,63,65
 <S_XX>,I know that the attempt to fix the drier eventually wrecked it nonetheless,True,No Set,it,60,62
-<S_XX>,I know that the attempt to overhaul the drier eventually wrecked it nonetheless,True,No Set,it,65,67
-<S_XX>,I know that the attempt to rebuild the drier eventually wrecked it nonetheless,True,No Set,it,64,66
+<S_XX>,I know that the attempt to overhaul the drier eventually wrecked it nonetheless,True,Training,it,65,67
+<S_XX>,I know that the attempt to rebuild the drier eventually wrecked it nonetheless,True,Training,it,64,66
 <S_XX>,I know that the attempt to repair the ceiling eventually wrecked it nonetheless,True,No Set,it,65,67
 <S_XX>,I know that the attempt to fix the ceiling eventually wrecked it nonetheless,True,No Set,it,62,64
-<S_XX>,I know that the attempt to overhaul the ceiling eventually wrecked it nonetheless,True,No Set,it,67,69
+<S_XX>,I know that the attempt to overhaul the ceiling eventually wrecked it nonetheless,True,Training,it,67,69
 <S_XX>,I know that the attempt to rebuild the ceiling eventually wrecked it nonetheless,True,Training,it,66,68
 <S_XX>,I know that the attempt to repair the apartment eventually wrecked it nonetheless,True,No Set,it,67,69
 <S_XX>,I know that the attempt to fix the apartment eventually wrecked it nonetheless,True,No Set,it,64,66
-<S_XX>,I know that the attempt to overhaul the apartment eventually wrecked it nonetheless,True,No Set,it,69,71
+<S_XX>,I know that the attempt to overhaul the apartment eventually wrecked it nonetheless,True,Training,it,69,71
 <S_XX>,I know that the attempt to rebuild the apartment eventually wrecked it nonetheless,True,Training,it,68,70
 <S_XX>,I know that the attempt to repair the car finally wrecked it nonetheless,True,No Set,it,58,60
 <S_XX>,I know that the attempt to fix the car finally wrecked it nonetheless,True,No Set,it,55,57
-<S_XX>,I know that the attempt to overhaul the car finally wrecked it nonetheless,True,No Set,it,60,62
+<S_XX>,I know that the attempt to overhaul the car finally wrecked it nonetheless,True,Training,it,60,62
 <S_XX>,I know that the attempt to rebuild the car finally wrecked it nonetheless,True,Training,it,59,61
 <S_XX>,I know that the attempt to repair the bike finally wrecked it nonetheless,True,No Set,it,59,61
 <S_XX>,I know that the attempt to fix the bike finally wrecked it nonetheless,True,No Set,it,56,58
-<S_XX>,I know that the attempt to overhaul the bike finally wrecked it nonetheless,True,No Set,it,61,63
+<S_XX>,I know that the attempt to overhaul the bike finally wrecked it nonetheless,True,Training,it,61,63
 <S_XX>,I know that the attempt to rebuild the bike finally wrecked it nonetheless,True,Training,it,60,62
 <S_XX>,I know that the attempt to repair the washing machine finally wrecked it nonetheless,True,No Set,it,70,72
 <S_XX>,I know that the attempt to fix the washing machine finally wrecked it nonetheless,True,No Set,it,67,69
-<S_XX>,I know that the attempt to overhaul the washing machine finally wrecked it nonetheless,True,No Set,it,72,74
+<S_XX>,I know that the attempt to overhaul the washing machine finally wrecked it nonetheless,True,Training,it,72,74
 <S_XX>,I know that the attempt to rebuild the washing machine finally wrecked it nonetheless,True,Training,it,71,73
-<S_XX>,I know that the attempt to repair the drier finally wrecked it nonetheless,True,No Set,it,60,62
-<S_XX>,I know that the attempt to fix the drier finally wrecked it nonetheless,True,No Set,it,57,59
-<S_XX>,I know that the attempt to overhaul the drier finally wrecked it nonetheless,True,No Set,it,62,64
+<S_XX>,I know that the attempt to repair the drier finally wrecked it nonetheless,True,Training,it,60,62
+<S_XX>,I know that the attempt to fix the drier finally wrecked it nonetheless,True,Training,it,57,59
+<S_XX>,I know that the attempt to overhaul the drier finally wrecked it nonetheless,True,Training,it,62,64
 <S_XX>,I know that the attempt to rebuild the drier finally wrecked it nonetheless,True,Training,it,61,63
 <S_XX>,I know that the attempt to repair the ceiling finally wrecked it nonetheless,True,Training,it,62,64
 <S_XX>,I know that the attempt to fix the ceiling finally wrecked it nonetheless,True,Training,it,59,61

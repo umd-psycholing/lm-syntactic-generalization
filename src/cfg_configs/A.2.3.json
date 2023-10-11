@@ -20,5 +20,5 @@
         "<ADJUNCT>": [["today"], ["yesterday"], ["recently"], ["lately"]]
     },
     "starts": ["<S_FG>", "<S_XG>", "<S_FX>", "<S_XX>"],
-    "reserved_types": ["<NAME1>", "<NAME2>", "<NAME4>", "<V1>", "<V2>", "<ADJUNCT>"]
+    "lexical_types": ["<NAME1>", "<NAME2>", "<NAME4>", "<V1>", "<V2>", "<ADJUNCT>"]
 }

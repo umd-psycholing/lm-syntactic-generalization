@@ -9,14 +9,14 @@ def build_csv_at(config_path, output_path=None):
 
         cfg = config_json['grammar']
         starts = config_json['starts']
-        reserved_types = config_json.get('reserved_types')
+        lexical_types = config_json.get('lexical_types')
 
         # default output directory at ../data/cfg-output/{config_name}_output.csv
         if not output_path:
             output_path = os.path.join(output_directory,
                                        f'{config_path.removesuffix(".json")}_output.csv')
 
-        build_csv(cfg, starts, output_path, reserved_types)
+        build_csv(cfg, starts, output_path, lexical_types)
 
 
 script_directory = os.path.dirname(os.path.abspath(__file__))

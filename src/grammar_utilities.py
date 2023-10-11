@@ -1,6 +1,7 @@
 import time
 import csv
 import re
+import math
 
 
 class SentenceInfo:
@@ -28,20 +29,18 @@ class SentenceInfo:
 
         # if you have less than two test-set items, you are in the training set.
         num_test_reserved = 0
-        for word in self.list_representation:
-            if word in test_set_reserved_lexical_items:
+        num_test_disallowed = 0
+        for lexical_item in self.list_representation:
+            if lexical_item in test_set_reserved_lexical_items:
                 num_test_reserved += 1
+            if lexical_item in test_set_disallowed_lexical_items:
+                num_test_disallowed += 1
+        if num_test_disallowed == 0:
+            return "Test"
         if num_test_reserved < 2:
             return "Training"
+        return "No Set"
 
-        # if you have more than two test-set items, but not ALL test-set items, you are nothing...
-        for non_test_item in test_set_disallowed_lexical_items:
-            if non_test_item in self.list_representation:
-                return "No Set"
-
-        # otherwise:
-        #   you are exclusively made of test items, and are in the test set!
-        return "Test"
 
 
 def _expand_first_non_terminal(input_sentence: list, grammar: dict[str]) -> list[list]:
@@ -183,14 +182,14 @@ def generate_sentences(grammar: dict[str], starting_symbol: str) -> tuple[str, l
     return (starting_symbol, resulting_sentences)
 
 
-def build_csv(grammar, starts, file_name, reserved_types=None) -> int:
+def build_csv(grammar, starts, file_name, lexical_types=None) -> int:
     """Generates sentences for each start and saves them to a csv file.
 
     Args:
         grammar (_type_): 
         starts (_type_): 
         file_name (_type_): 
-        reserved_types (_type_):
+        lexical_types (_type_):
 
     Raises:
         RuntimeError: Failed to write CSV
@@ -204,21 +203,25 @@ def build_csv(grammar, starts, file_name, reserved_types=None) -> int:
     results = [("Type", "Sentence", "Grammatical", "Set",
                 "Critical String", "Region Start", "Region End")]
 
-    # unpack reserved_types
+    # unpack lexical_types
     test_reserved_lexical_items = []
     test_disallowed_lexical_items = []
-    for reserved_type in reserved_types:
-        non_terminals = grammar[reserved_type]
+    for lexical_type in lexical_types:
+        non_terminals = grammar[lexical_type]
         test_reserved_lexical_items.extend(
-            non_terminals[:round(len(non_terminals) * .65)])
+            non_terminals[:int(len(non_terminals) * .65)])
         test_disallowed_lexical_items.extend(
-            non_terminals[round(len(non_terminals) * .65):])
+            non_terminals[int(len(non_terminals) * .65):])
 
     # unpack list of lists
     test_reserved_lexical_items = [
         item for sublist in test_reserved_lexical_items for item in sublist]
     test_disallowed_lexical_items = [
         item for sublist in test_disallowed_lexical_items for item in sublist]
+    
+    print(test_reserved_lexical_items)
+    print(test_disallowed_lexical_items)
+    print("-0-0-0-0-0-0-0-")
 
     for start in starts:
         type, sentences = generate_sentences(grammar, start)
