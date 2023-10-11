@@ -23,6 +23,5 @@ def gpt2_surprisal(sentence):
     return results
 
 
-# not implemented
 def grnn_surprisal(sentence):
-    return [('token', 100)]
+    return grnn_surprisal(sentence)

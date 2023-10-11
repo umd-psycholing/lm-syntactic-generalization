@@ -13,7 +13,6 @@ def build_csv_at(config_path, output_path=None):
 
         # default output directory at ../data/cfg-output/{config_name}_output.csv
         if not output_path:
-            print("ok")
             output_path = os.path.join(output_directory,
                                        f'{config_path.removesuffix(".json")}_output.csv')
 

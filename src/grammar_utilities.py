@@ -23,15 +23,25 @@ class SentenceInfo:
         # remove ' / '.
         self.text = (re.sub(r'\s*\/\s*', ' ', self.text)).strip()
 
-    def is_training(self, free_lexical_items: list[str] = None):
-        if not free_lexical_items:
-            return None
+    def get_set(self, test_set_reserved_lexical_items: list[str] = None,
+                test_set_disallowed_lexical_items: list[str] = None):
 
-        # determine whether it is a training_set item
-        for lexical_item in free_lexical_items:
-            if lexical_item[0] in self.list_representation:
-                return True
-        return False
+        # if you have less than two test-set items, you are in the training set.
+        num_test_reserved = 0
+        for word in self.list_representation:
+            if word in test_set_reserved_lexical_items:
+                num_test_reserved += 1
+        if num_test_reserved < 2:
+            return "Training"
+
+        # if you have more than two test-set items, but not ALL test-set items, you are nothing...
+        for non_test_item in test_set_disallowed_lexical_items:
+            if non_test_item in self.list_representation:
+                return "No Set"
+
+        # otherwise:
+        #   you are exclusively made of test items, and are in the test set!
+        return "Test"
 
 
 def _expand_first_non_terminal(input_sentence: list, grammar: dict[str]) -> list[list]:
@@ -191,24 +201,32 @@ def build_csv(grammar, starts, file_name, reserved_types=None) -> int:
     start_time = time.time()
 
     # type, sentence, grammaticality judgement, training set?, critical string, region start, region end
-    results = [("Type", "Sentence", "Grammatical", "Is Training",
+    results = [("Type", "Sentence", "Grammatical", "Set",
                 "Critical String", "Region Start", "Region End")]
 
     # unpack reserved_types
-    reserved_lexical_items = None
-    if reserved_types:
-        reserved_lexical_items = []
-        for reserved_type in reserved_types:
-            non_terminals = grammar[reserved_type]
-            reserved_lexical_items.extend(
-                non_terminals[:max(1, int(len(non_terminals) * .35))])
+    test_reserved_lexical_items = []
+    test_disallowed_lexical_items = []
+    for reserved_type in reserved_types:
+        non_terminals = grammar[reserved_type]
+        test_reserved_lexical_items.extend(
+            non_terminals[:round(len(non_terminals) * .65)])
+        test_disallowed_lexical_items.extend(
+            non_terminals[round(len(non_terminals) * .65):])
+
+    # unpack list of lists
+    test_reserved_lexical_items = [
+        item for sublist in test_reserved_lexical_items for item in sublist]
+    test_disallowed_lexical_items = [
+        item for sublist in test_disallowed_lexical_items for item in sublist]
 
     for start in starts:
         type, sentences = generate_sentences(grammar, start)
         for sentence in sentences:
-            is_training = sentence.is_training(reserved_lexical_items)
+            sentence_set = sentence.get_set(
+                test_reserved_lexical_items, test_disallowed_lexical_items)
 
-            results.append([type, sentence.text, sentence.grammatical, is_training,
+            results.append([type, sentence.text, sentence.grammatical, sentence_set,
                             sentence.text[sentence.region_start:sentence.region_end],
                             sentence.region_start, sentence.region_end, ])
 
