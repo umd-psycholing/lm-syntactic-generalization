@@ -1,11 +1,11 @@
 Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FG>,I know what the political campaign to preserve made people hurt nevertheless,True,Test,nevertheless,64,76
 <S_FG>,I know what the reccomendation to preserve made people hurt nevertheless,True,Test,nevertheless,60,72
-<S_FG>,I know what the legislation to preserve made people hurt nevertheless,True,No Set,nevertheless,57,69
+<S_FG>,I know what the legislation to preserve made people hurt nevertheless,True,Test,nevertheless,57,69
 <S_FG>,I know what the suggestion to preserve made people hurt nevertheless,True,No Set,nevertheless,56,68
-<S_FG>,I know what the political campaign to help made people hurt nevertheless,True,No Set,nevertheless,60,72
-<S_FG>,I know what the reccomendation to help made people hurt nevertheless,True,No Set,nevertheless,56,68
-<S_FG>,I know what the legislation to help made people hurt nevertheless,True,No Set,nevertheless,53,65
+<S_FG>,I know what the political campaign to help made people hurt nevertheless,True,Test,nevertheless,60,72
+<S_FG>,I know what the reccomendation to help made people hurt nevertheless,True,Test,nevertheless,56,68
+<S_FG>,I know what the legislation to help made people hurt nevertheless,True,Test,nevertheless,53,65
 <S_FG>,I know what the suggestion to help made people hurt nevertheless,True,No Set,nevertheless,52,64
 <S_FG>,I know what the political campaign to save made people hurt nevertheless,True,No Set,nevertheless,60,72
 <S_FG>,I know what the reccomendation to save made people hurt nevertheless,True,No Set,nevertheless,56,68
@@ -41,11 +41,11 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FG>,I know what the suggestion to preserve caused people to harm nevertheless,True,No Set,nevertheless,61,73
 <S_FG>,I know what the political campaign to help caused people to harm nevertheless,True,No Set,nevertheless,65,77
 <S_FG>,I know what the reccomendation to help caused people to harm nevertheless,True,No Set,nevertheless,61,73
-<S_FG>,I know what the legislation to help caused people to harm nevertheless,True,Training,nevertheless,58,70
-<S_FG>,I know what the suggestion to help caused people to harm nevertheless,True,Training,nevertheless,57,69
+<S_FG>,I know what the legislation to help caused people to harm nevertheless,True,No Set,nevertheless,58,70
+<S_FG>,I know what the suggestion to help caused people to harm nevertheless,True,No Set,nevertheless,57,69
 <S_FG>,I know what the political campaign to save caused people to harm nevertheless,True,No Set,nevertheless,65,77
 <S_FG>,I know what the reccomendation to save caused people to harm nevertheless,True,No Set,nevertheless,61,73
-<S_FG>,I know what the legislation to save caused people to harm nevertheless,True,Training,nevertheless,58,70
+<S_FG>,I know what the legislation to save caused people to harm nevertheless,True,No Set,nevertheless,58,70
 <S_FG>,I know what the suggestion to save caused people to harm nevertheless,True,Training,nevertheless,57,69
 <S_FG>,I know what the political campaign to preserve made people hurt nonetheless,True,No Set,nonetheless,64,75
 <S_FG>,I know what the reccomendation to preserve made people hurt nonetheless,True,No Set,nonetheless,60,71
@@ -65,11 +65,11 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FG>,I know what the suggestion to preserve caused people to hurt nonetheless,True,No Set,nonetheless,61,72
 <S_FG>,I know what the political campaign to help caused people to hurt nonetheless,True,No Set,nonetheless,65,76
 <S_FG>,I know what the reccomendation to help caused people to hurt nonetheless,True,No Set,nonetheless,61,72
-<S_FG>,I know what the legislation to help caused people to hurt nonetheless,True,Training,nonetheless,58,69
-<S_FG>,I know what the suggestion to help caused people to hurt nonetheless,True,Training,nonetheless,57,68
+<S_FG>,I know what the legislation to help caused people to hurt nonetheless,True,No Set,nonetheless,58,69
+<S_FG>,I know what the suggestion to help caused people to hurt nonetheless,True,No Set,nonetheless,57,68
 <S_FG>,I know what the political campaign to save caused people to hurt nonetheless,True,No Set,nonetheless,65,76
 <S_FG>,I know what the reccomendation to save caused people to hurt nonetheless,True,No Set,nonetheless,61,72
-<S_FG>,I know what the legislation to save caused people to hurt nonetheless,True,Training,nonetheless,58,69
+<S_FG>,I know what the legislation to save caused people to hurt nonetheless,True,No Set,nonetheless,58,69
 <S_FG>,I know what the suggestion to save caused people to hurt nonetheless,True,Training,nonetheless,57,68
 <S_FG>,I know what the political campaign to preserve made people harm nonetheless,True,No Set,nonetheless,64,75
 <S_FG>,I know what the reccomendation to preserve made people harm nonetheless,True,No Set,nonetheless,60,71
@@ -77,19 +77,19 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FG>,I know what the suggestion to preserve made people harm nonetheless,True,No Set,nonetheless,56,67
 <S_FG>,I know what the political campaign to help made people harm nonetheless,True,No Set,nonetheless,60,71
 <S_FG>,I know what the reccomendation to help made people harm nonetheless,True,No Set,nonetheless,56,67
-<S_FG>,I know what the legislation to help made people harm nonetheless,True,Training,nonetheless,53,64
-<S_FG>,I know what the suggestion to help made people harm nonetheless,True,Training,nonetheless,52,63
+<S_FG>,I know what the legislation to help made people harm nonetheless,True,No Set,nonetheless,53,64
+<S_FG>,I know what the suggestion to help made people harm nonetheless,True,No Set,nonetheless,52,63
 <S_FG>,I know what the political campaign to save made people harm nonetheless,True,No Set,nonetheless,60,71
 <S_FG>,I know what the reccomendation to save made people harm nonetheless,True,No Set,nonetheless,56,67
-<S_FG>,I know what the legislation to save made people harm nonetheless,True,Training,nonetheless,53,64
+<S_FG>,I know what the legislation to save made people harm nonetheless,True,No Set,nonetheless,53,64
 <S_FG>,I know what the suggestion to save made people harm nonetheless,True,Training,nonetheless,52,63
 <S_FG>,I know what the political campaign to preserve caused people to harm nonetheless,True,No Set,nonetheless,69,80
 <S_FG>,I know what the reccomendation to preserve caused people to harm nonetheless,True,No Set,nonetheless,65,76
-<S_FG>,I know what the legislation to preserve caused people to harm nonetheless,True,Training,nonetheless,62,73
+<S_FG>,I know what the legislation to preserve caused people to harm nonetheless,True,No Set,nonetheless,62,73
 <S_FG>,I know what the suggestion to preserve caused people to harm nonetheless,True,Training,nonetheless,61,72
-<S_FG>,I know what the political campaign to help caused people to harm nonetheless,True,Training,nonetheless,65,76
-<S_FG>,I know what the reccomendation to help caused people to harm nonetheless,True,Training,nonetheless,61,72
-<S_FG>,I know what the legislation to help caused people to harm nonetheless,True,Training,nonetheless,58,69
+<S_FG>,I know what the political campaign to help caused people to harm nonetheless,True,No Set,nonetheless,65,76
+<S_FG>,I know what the reccomendation to help caused people to harm nonetheless,True,No Set,nonetheless,61,72
+<S_FG>,I know what the legislation to help caused people to harm nonetheless,True,No Set,nonetheless,58,69
 <S_FG>,I know what the suggestion to help caused people to harm nonetheless,True,Training,nonetheless,57,68
 <S_FG>,I know what the political campaign to save caused people to harm nonetheless,True,Training,nonetheless,65,76
 <S_FG>,I know what the reccomendation to save caused people to harm nonetheless,True,Training,nonetheless,61,72
@@ -97,11 +97,11 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FG>,I know what the suggestion to save caused people to harm nonetheless,True,Training,nonetheless,57,68
 <S_XG>,I know that the political campaign to preserve nature made people hurt nevertheless,False,Test,nevertheless,71,83
 <S_XG>,I know that the reccomendation to preserve nature made people hurt nevertheless,False,Test,nevertheless,67,79
-<S_XG>,I know that the legislation to preserve nature made people hurt nevertheless,False,No Set,nevertheless,64,76
+<S_XG>,I know that the legislation to preserve nature made people hurt nevertheless,False,Test,nevertheless,64,76
 <S_XG>,I know that the suggestion to preserve nature made people hurt nevertheless,False,No Set,nevertheless,63,75
-<S_XG>,I know that the political campaign to help nature made people hurt nevertheless,False,No Set,nevertheless,67,79
-<S_XG>,I know that the reccomendation to help nature made people hurt nevertheless,False,No Set,nevertheless,63,75
-<S_XG>,I know that the legislation to help nature made people hurt nevertheless,False,No Set,nevertheless,60,72
+<S_XG>,I know that the political campaign to help nature made people hurt nevertheless,False,Test,nevertheless,67,79
+<S_XG>,I know that the reccomendation to help nature made people hurt nevertheless,False,Test,nevertheless,63,75
+<S_XG>,I know that the legislation to help nature made people hurt nevertheless,False,Test,nevertheless,60,72
 <S_XG>,I know that the suggestion to help nature made people hurt nevertheless,False,No Set,nevertheless,59,71
 <S_XG>,I know that the political campaign to save nature made people hurt nevertheless,False,No Set,nevertheless,67,79
 <S_XG>,I know that the reccomendation to save nature made people hurt nevertheless,False,No Set,nevertheless,63,75
@@ -109,23 +109,23 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the suggestion to save nature made people hurt nevertheless,False,No Set,nevertheless,59,71
 <S_XG>,I know that the political campaign to preserve the environment made people hurt nevertheless,False,Test,nevertheless,80,92
 <S_XG>,I know that the reccomendation to preserve the environment made people hurt nevertheless,False,Test,nevertheless,76,88
-<S_XG>,I know that the legislation to preserve the environment made people hurt nevertheless,False,No Set,nevertheless,73,85
+<S_XG>,I know that the legislation to preserve the environment made people hurt nevertheless,False,Test,nevertheless,73,85
 <S_XG>,I know that the suggestion to preserve the environment made people hurt nevertheless,False,No Set,nevertheless,72,84
-<S_XG>,I know that the political campaign to help the environment made people hurt nevertheless,False,No Set,nevertheless,76,88
-<S_XG>,I know that the reccomendation to help the environment made people hurt nevertheless,False,No Set,nevertheless,72,84
-<S_XG>,I know that the legislation to help the environment made people hurt nevertheless,False,No Set,nevertheless,69,81
+<S_XG>,I know that the political campaign to help the environment made people hurt nevertheless,False,Test,nevertheless,76,88
+<S_XG>,I know that the reccomendation to help the environment made people hurt nevertheless,False,Test,nevertheless,72,84
+<S_XG>,I know that the legislation to help the environment made people hurt nevertheless,False,Test,nevertheless,69,81
 <S_XG>,I know that the suggestion to help the environment made people hurt nevertheless,False,No Set,nevertheless,68,80
 <S_XG>,I know that the political campaign to save the environment made people hurt nevertheless,False,No Set,nevertheless,76,88
 <S_XG>,I know that the reccomendation to save the environment made people hurt nevertheless,False,No Set,nevertheless,72,84
 <S_XG>,I know that the legislation to save the environment made people hurt nevertheless,False,No Set,nevertheless,69,81
 <S_XG>,I know that the suggestion to save the environment made people hurt nevertheless,False,No Set,nevertheless,68,80
-<S_XG>,I know that the political campaign to preserve the rain forests made people hurt nevertheless,False,No Set,nevertheless,81,93
-<S_XG>,I know that the reccomendation to preserve the rain forests made people hurt nevertheless,False,No Set,nevertheless,77,89
-<S_XG>,I know that the legislation to preserve the rain forests made people hurt nevertheless,False,No Set,nevertheless,74,86
+<S_XG>,I know that the political campaign to preserve the rain forests made people hurt nevertheless,False,Test,nevertheless,81,93
+<S_XG>,I know that the reccomendation to preserve the rain forests made people hurt nevertheless,False,Test,nevertheless,77,89
+<S_XG>,I know that the legislation to preserve the rain forests made people hurt nevertheless,False,Test,nevertheless,74,86
 <S_XG>,I know that the suggestion to preserve the rain forests made people hurt nevertheless,False,No Set,nevertheless,73,85
-<S_XG>,I know that the political campaign to help the rain forests made people hurt nevertheless,False,No Set,nevertheless,77,89
-<S_XG>,I know that the reccomendation to help the rain forests made people hurt nevertheless,False,No Set,nevertheless,73,85
-<S_XG>,I know that the legislation to help the rain forests made people hurt nevertheless,False,No Set,nevertheless,70,82
+<S_XG>,I know that the political campaign to help the rain forests made people hurt nevertheless,False,Test,nevertheless,77,89
+<S_XG>,I know that the reccomendation to help the rain forests made people hurt nevertheless,False,Test,nevertheless,73,85
+<S_XG>,I know that the legislation to help the rain forests made people hurt nevertheless,False,Test,nevertheless,70,82
 <S_XG>,I know that the suggestion to help the rain forests made people hurt nevertheless,False,No Set,nevertheless,69,81
 <S_XG>,I know that the political campaign to save the rain forests made people hurt nevertheless,False,No Set,nevertheless,77,89
 <S_XG>,I know that the reccomendation to save the rain forests made people hurt nevertheless,False,No Set,nevertheless,73,85
@@ -269,23 +269,23 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the suggestion to preserve the rain forests caused people to harm nevertheless,False,No Set,nevertheless,78,90
 <S_XG>,I know that the political campaign to help the rain forests caused people to harm nevertheless,False,No Set,nevertheless,82,94
 <S_XG>,I know that the reccomendation to help the rain forests caused people to harm nevertheless,False,No Set,nevertheless,78,90
-<S_XG>,I know that the legislation to help the rain forests caused people to harm nevertheless,False,Training,nevertheless,75,87
-<S_XG>,I know that the suggestion to help the rain forests caused people to harm nevertheless,False,Training,nevertheless,74,86
+<S_XG>,I know that the legislation to help the rain forests caused people to harm nevertheless,False,No Set,nevertheless,75,87
+<S_XG>,I know that the suggestion to help the rain forests caused people to harm nevertheless,False,No Set,nevertheless,74,86
 <S_XG>,I know that the political campaign to save the rain forests caused people to harm nevertheless,False,No Set,nevertheless,82,94
 <S_XG>,I know that the reccomendation to save the rain forests caused people to harm nevertheless,False,No Set,nevertheless,78,90
-<S_XG>,I know that the legislation to save the rain forests caused people to harm nevertheless,False,Training,nevertheless,75,87
-<S_XG>,I know that the suggestion to save the rain forests caused people to harm nevertheless,False,Training,nevertheless,74,86
+<S_XG>,I know that the legislation to save the rain forests caused people to harm nevertheless,False,No Set,nevertheless,75,87
+<S_XG>,I know that the suggestion to save the rain forests caused people to harm nevertheless,False,No Set,nevertheless,74,86
 <S_XG>,I know that the political campaign to preserve biodiversity caused people to harm nevertheless,False,No Set,nevertheless,82,94
 <S_XG>,I know that the reccomendation to preserve biodiversity caused people to harm nevertheless,False,No Set,nevertheless,78,90
 <S_XG>,I know that the legislation to preserve biodiversity caused people to harm nevertheless,False,No Set,nevertheless,75,87
 <S_XG>,I know that the suggestion to preserve biodiversity caused people to harm nevertheless,False,No Set,nevertheless,74,86
 <S_XG>,I know that the political campaign to help biodiversity caused people to harm nevertheless,False,No Set,nevertheless,78,90
 <S_XG>,I know that the reccomendation to help biodiversity caused people to harm nevertheless,False,No Set,nevertheless,74,86
-<S_XG>,I know that the legislation to help biodiversity caused people to harm nevertheless,False,Training,nevertheless,71,83
-<S_XG>,I know that the suggestion to help biodiversity caused people to harm nevertheless,False,Training,nevertheless,70,82
+<S_XG>,I know that the legislation to help biodiversity caused people to harm nevertheless,False,No Set,nevertheless,71,83
+<S_XG>,I know that the suggestion to help biodiversity caused people to harm nevertheless,False,No Set,nevertheless,70,82
 <S_XG>,I know that the political campaign to save biodiversity caused people to harm nevertheless,False,No Set,nevertheless,78,90
 <S_XG>,I know that the reccomendation to save biodiversity caused people to harm nevertheless,False,No Set,nevertheless,74,86
-<S_XG>,I know that the legislation to save biodiversity caused people to harm nevertheless,False,Training,nevertheless,71,83
+<S_XG>,I know that the legislation to save biodiversity caused people to harm nevertheless,False,No Set,nevertheless,71,83
 <S_XG>,I know that the suggestion to save biodiversity caused people to harm nevertheless,False,Training,nevertheless,70,82
 <S_XG>,I know that the political campaign to preserve nature made people hurt nonetheless,False,No Set,nonetheless,71,82
 <S_XG>,I know that the reccomendation to preserve nature made people hurt nonetheless,False,No Set,nonetheless,67,78
@@ -365,23 +365,23 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the suggestion to preserve the rain forests caused people to hurt nonetheless,False,No Set,nonetheless,78,89
 <S_XG>,I know that the political campaign to help the rain forests caused people to hurt nonetheless,False,No Set,nonetheless,82,93
 <S_XG>,I know that the reccomendation to help the rain forests caused people to hurt nonetheless,False,No Set,nonetheless,78,89
-<S_XG>,I know that the legislation to help the rain forests caused people to hurt nonetheless,False,Training,nonetheless,75,86
-<S_XG>,I know that the suggestion to help the rain forests caused people to hurt nonetheless,False,Training,nonetheless,74,85
+<S_XG>,I know that the legislation to help the rain forests caused people to hurt nonetheless,False,No Set,nonetheless,75,86
+<S_XG>,I know that the suggestion to help the rain forests caused people to hurt nonetheless,False,No Set,nonetheless,74,85
 <S_XG>,I know that the political campaign to save the rain forests caused people to hurt nonetheless,False,No Set,nonetheless,82,93
 <S_XG>,I know that the reccomendation to save the rain forests caused people to hurt nonetheless,False,No Set,nonetheless,78,89
-<S_XG>,I know that the legislation to save the rain forests caused people to hurt nonetheless,False,Training,nonetheless,75,86
-<S_XG>,I know that the suggestion to save the rain forests caused people to hurt nonetheless,False,Training,nonetheless,74,85
+<S_XG>,I know that the legislation to save the rain forests caused people to hurt nonetheless,False,No Set,nonetheless,75,86
+<S_XG>,I know that the suggestion to save the rain forests caused people to hurt nonetheless,False,No Set,nonetheless,74,85
 <S_XG>,I know that the political campaign to preserve biodiversity caused people to hurt nonetheless,False,No Set,nonetheless,82,93
 <S_XG>,I know that the reccomendation to preserve biodiversity caused people to hurt nonetheless,False,No Set,nonetheless,78,89
 <S_XG>,I know that the legislation to preserve biodiversity caused people to hurt nonetheless,False,No Set,nonetheless,75,86
 <S_XG>,I know that the suggestion to preserve biodiversity caused people to hurt nonetheless,False,No Set,nonetheless,74,85
 <S_XG>,I know that the political campaign to help biodiversity caused people to hurt nonetheless,False,No Set,nonetheless,78,89
 <S_XG>,I know that the reccomendation to help biodiversity caused people to hurt nonetheless,False,No Set,nonetheless,74,85
-<S_XG>,I know that the legislation to help biodiversity caused people to hurt nonetheless,False,Training,nonetheless,71,82
-<S_XG>,I know that the suggestion to help biodiversity caused people to hurt nonetheless,False,Training,nonetheless,70,81
+<S_XG>,I know that the legislation to help biodiversity caused people to hurt nonetheless,False,No Set,nonetheless,71,82
+<S_XG>,I know that the suggestion to help biodiversity caused people to hurt nonetheless,False,No Set,nonetheless,70,81
 <S_XG>,I know that the political campaign to save biodiversity caused people to hurt nonetheless,False,No Set,nonetheless,78,89
 <S_XG>,I know that the reccomendation to save biodiversity caused people to hurt nonetheless,False,No Set,nonetheless,74,85
-<S_XG>,I know that the legislation to save biodiversity caused people to hurt nonetheless,False,Training,nonetheless,71,82
+<S_XG>,I know that the legislation to save biodiversity caused people to hurt nonetheless,False,No Set,nonetheless,71,82
 <S_XG>,I know that the suggestion to save biodiversity caused people to hurt nonetheless,False,Training,nonetheless,70,81
 <S_XG>,I know that the political campaign to preserve nature made people harm nonetheless,False,No Set,nonetheless,71,82
 <S_XG>,I know that the reccomendation to preserve nature made people harm nonetheless,False,No Set,nonetheless,67,78
@@ -413,23 +413,23 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the suggestion to preserve the rain forests made people harm nonetheless,False,No Set,nonetheless,73,84
 <S_XG>,I know that the political campaign to help the rain forests made people harm nonetheless,False,No Set,nonetheless,77,88
 <S_XG>,I know that the reccomendation to help the rain forests made people harm nonetheless,False,No Set,nonetheless,73,84
-<S_XG>,I know that the legislation to help the rain forests made people harm nonetheless,False,Training,nonetheless,70,81
-<S_XG>,I know that the suggestion to help the rain forests made people harm nonetheless,False,Training,nonetheless,69,80
+<S_XG>,I know that the legislation to help the rain forests made people harm nonetheless,False,No Set,nonetheless,70,81
+<S_XG>,I know that the suggestion to help the rain forests made people harm nonetheless,False,No Set,nonetheless,69,80
 <S_XG>,I know that the political campaign to save the rain forests made people harm nonetheless,False,No Set,nonetheless,77,88
 <S_XG>,I know that the reccomendation to save the rain forests made people harm nonetheless,False,No Set,nonetheless,73,84
-<S_XG>,I know that the legislation to save the rain forests made people harm nonetheless,False,Training,nonetheless,70,81
-<S_XG>,I know that the suggestion to save the rain forests made people harm nonetheless,False,Training,nonetheless,69,80
+<S_XG>,I know that the legislation to save the rain forests made people harm nonetheless,False,No Set,nonetheless,70,81
+<S_XG>,I know that the suggestion to save the rain forests made people harm nonetheless,False,No Set,nonetheless,69,80
 <S_XG>,I know that the political campaign to preserve biodiversity made people harm nonetheless,False,No Set,nonetheless,77,88
 <S_XG>,I know that the reccomendation to preserve biodiversity made people harm nonetheless,False,No Set,nonetheless,73,84
 <S_XG>,I know that the legislation to preserve biodiversity made people harm nonetheless,False,No Set,nonetheless,70,81
 <S_XG>,I know that the suggestion to preserve biodiversity made people harm nonetheless,False,No Set,nonetheless,69,80
 <S_XG>,I know that the political campaign to help biodiversity made people harm nonetheless,False,No Set,nonetheless,73,84
 <S_XG>,I know that the reccomendation to help biodiversity made people harm nonetheless,False,No Set,nonetheless,69,80
-<S_XG>,I know that the legislation to help biodiversity made people harm nonetheless,False,Training,nonetheless,66,77
-<S_XG>,I know that the suggestion to help biodiversity made people harm nonetheless,False,Training,nonetheless,65,76
+<S_XG>,I know that the legislation to help biodiversity made people harm nonetheless,False,No Set,nonetheless,66,77
+<S_XG>,I know that the suggestion to help biodiversity made people harm nonetheless,False,No Set,nonetheless,65,76
 <S_XG>,I know that the political campaign to save biodiversity made people harm nonetheless,False,No Set,nonetheless,73,84
 <S_XG>,I know that the reccomendation to save biodiversity made people harm nonetheless,False,No Set,nonetheless,69,80
-<S_XG>,I know that the legislation to save biodiversity made people harm nonetheless,False,Training,nonetheless,66,77
+<S_XG>,I know that the legislation to save biodiversity made people harm nonetheless,False,No Set,nonetheless,66,77
 <S_XG>,I know that the suggestion to save biodiversity made people harm nonetheless,False,Training,nonetheless,65,76
 <S_XG>,I know that the political campaign to preserve nature caused people to harm nonetheless,False,No Set,nonetheless,76,87
 <S_XG>,I know that the reccomendation to preserve nature caused people to harm nonetheless,False,No Set,nonetheless,72,83
@@ -437,11 +437,11 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the suggestion to preserve nature caused people to harm nonetheless,False,No Set,nonetheless,68,79
 <S_XG>,I know that the political campaign to help nature caused people to harm nonetheless,False,No Set,nonetheless,72,83
 <S_XG>,I know that the reccomendation to help nature caused people to harm nonetheless,False,No Set,nonetheless,68,79
-<S_XG>,I know that the legislation to help nature caused people to harm nonetheless,False,Training,nonetheless,65,76
-<S_XG>,I know that the suggestion to help nature caused people to harm nonetheless,False,Training,nonetheless,64,75
+<S_XG>,I know that the legislation to help nature caused people to harm nonetheless,False,No Set,nonetheless,65,76
+<S_XG>,I know that the suggestion to help nature caused people to harm nonetheless,False,No Set,nonetheless,64,75
 <S_XG>,I know that the political campaign to save nature caused people to harm nonetheless,False,No Set,nonetheless,72,83
 <S_XG>,I know that the reccomendation to save nature caused people to harm nonetheless,False,No Set,nonetheless,68,79
-<S_XG>,I know that the legislation to save nature caused people to harm nonetheless,False,Training,nonetheless,65,76
+<S_XG>,I know that the legislation to save nature caused people to harm nonetheless,False,No Set,nonetheless,65,76
 <S_XG>,I know that the suggestion to save nature caused people to harm nonetheless,False,Training,nonetheless,64,75
 <S_XG>,I know that the political campaign to preserve the environment caused people to harm nonetheless,False,No Set,nonetheless,85,96
 <S_XG>,I know that the reccomendation to preserve the environment caused people to harm nonetheless,False,No Set,nonetheless,81,92
@@ -449,31 +449,31 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the suggestion to preserve the environment caused people to harm nonetheless,False,No Set,nonetheless,77,88
 <S_XG>,I know that the political campaign to help the environment caused people to harm nonetheless,False,No Set,nonetheless,81,92
 <S_XG>,I know that the reccomendation to help the environment caused people to harm nonetheless,False,No Set,nonetheless,77,88
-<S_XG>,I know that the legislation to help the environment caused people to harm nonetheless,False,Training,nonetheless,74,85
-<S_XG>,I know that the suggestion to help the environment caused people to harm nonetheless,False,Training,nonetheless,73,84
+<S_XG>,I know that the legislation to help the environment caused people to harm nonetheless,False,No Set,nonetheless,74,85
+<S_XG>,I know that the suggestion to help the environment caused people to harm nonetheless,False,No Set,nonetheless,73,84
 <S_XG>,I know that the political campaign to save the environment caused people to harm nonetheless,False,No Set,nonetheless,81,92
 <S_XG>,I know that the reccomendation to save the environment caused people to harm nonetheless,False,No Set,nonetheless,77,88
-<S_XG>,I know that the legislation to save the environment caused people to harm nonetheless,False,Training,nonetheless,74,85
+<S_XG>,I know that the legislation to save the environment caused people to harm nonetheless,False,No Set,nonetheless,74,85
 <S_XG>,I know that the suggestion to save the environment caused people to harm nonetheless,False,Training,nonetheless,73,84
 <S_XG>,I know that the political campaign to preserve the rain forests caused people to harm nonetheless,False,No Set,nonetheless,86,97
 <S_XG>,I know that the reccomendation to preserve the rain forests caused people to harm nonetheless,False,No Set,nonetheless,82,93
-<S_XG>,I know that the legislation to preserve the rain forests caused people to harm nonetheless,False,Training,nonetheless,79,90
-<S_XG>,I know that the suggestion to preserve the rain forests caused people to harm nonetheless,False,Training,nonetheless,78,89
-<S_XG>,I know that the political campaign to help the rain forests caused people to harm nonetheless,False,Training,nonetheless,82,93
-<S_XG>,I know that the reccomendation to help the rain forests caused people to harm nonetheless,False,Training,nonetheless,78,89
-<S_XG>,I know that the legislation to help the rain forests caused people to harm nonetheless,False,Training,nonetheless,75,86
-<S_XG>,I know that the suggestion to help the rain forests caused people to harm nonetheless,False,Training,nonetheless,74,85
-<S_XG>,I know that the political campaign to save the rain forests caused people to harm nonetheless,False,Training,nonetheless,82,93
-<S_XG>,I know that the reccomendation to save the rain forests caused people to harm nonetheless,False,Training,nonetheless,78,89
-<S_XG>,I know that the legislation to save the rain forests caused people to harm nonetheless,False,Training,nonetheless,75,86
+<S_XG>,I know that the legislation to preserve the rain forests caused people to harm nonetheless,False,No Set,nonetheless,79,90
+<S_XG>,I know that the suggestion to preserve the rain forests caused people to harm nonetheless,False,No Set,nonetheless,78,89
+<S_XG>,I know that the political campaign to help the rain forests caused people to harm nonetheless,False,No Set,nonetheless,82,93
+<S_XG>,I know that the reccomendation to help the rain forests caused people to harm nonetheless,False,No Set,nonetheless,78,89
+<S_XG>,I know that the legislation to help the rain forests caused people to harm nonetheless,False,No Set,nonetheless,75,86
+<S_XG>,I know that the suggestion to help the rain forests caused people to harm nonetheless,False,No Set,nonetheless,74,85
+<S_XG>,I know that the political campaign to save the rain forests caused people to harm nonetheless,False,No Set,nonetheless,82,93
+<S_XG>,I know that the reccomendation to save the rain forests caused people to harm nonetheless,False,No Set,nonetheless,78,89
+<S_XG>,I know that the legislation to save the rain forests caused people to harm nonetheless,False,No Set,nonetheless,75,86
 <S_XG>,I know that the suggestion to save the rain forests caused people to harm nonetheless,False,Training,nonetheless,74,85
 <S_XG>,I know that the political campaign to preserve biodiversity caused people to harm nonetheless,False,No Set,nonetheless,82,93
 <S_XG>,I know that the reccomendation to preserve biodiversity caused people to harm nonetheless,False,No Set,nonetheless,78,89
-<S_XG>,I know that the legislation to preserve biodiversity caused people to harm nonetheless,False,Training,nonetheless,75,86
+<S_XG>,I know that the legislation to preserve biodiversity caused people to harm nonetheless,False,No Set,nonetheless,75,86
 <S_XG>,I know that the suggestion to preserve biodiversity caused people to harm nonetheless,False,Training,nonetheless,74,85
-<S_XG>,I know that the political campaign to help biodiversity caused people to harm nonetheless,False,Training,nonetheless,78,89
-<S_XG>,I know that the reccomendation to help biodiversity caused people to harm nonetheless,False,Training,nonetheless,74,85
-<S_XG>,I know that the legislation to help biodiversity caused people to harm nonetheless,False,Training,nonetheless,71,82
+<S_XG>,I know that the political campaign to help biodiversity caused people to harm nonetheless,False,No Set,nonetheless,78,89
+<S_XG>,I know that the reccomendation to help biodiversity caused people to harm nonetheless,False,No Set,nonetheless,74,85
+<S_XG>,I know that the legislation to help biodiversity caused people to harm nonetheless,False,No Set,nonetheless,71,82
 <S_XG>,I know that the suggestion to help biodiversity caused people to harm nonetheless,False,Training,nonetheless,70,81
 <S_XG>,I know that the political campaign to save biodiversity caused people to harm nonetheless,False,Training,nonetheless,78,89
 <S_XG>,I know that the reccomendation to save biodiversity caused people to harm nonetheless,False,Training,nonetheless,74,85
@@ -481,11 +481,11 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XG>,I know that the suggestion to save biodiversity caused people to harm nonetheless,False,Training,nonetheless,70,81
 <S_FX>,I know what the political campaign to preserve made people hurt animals nevertheless,False,Test,animals,64,71
 <S_FX>,I know what the reccomendation to preserve made people hurt animals nevertheless,False,Test,animals,60,67
-<S_FX>,I know what the legislation to preserve made people hurt animals nevertheless,False,No Set,animals,57,64
+<S_FX>,I know what the legislation to preserve made people hurt animals nevertheless,False,Test,animals,57,64
 <S_FX>,I know what the suggestion to preserve made people hurt animals nevertheless,False,No Set,animals,56,63
-<S_FX>,I know what the political campaign to help made people hurt animals nevertheless,False,No Set,animals,60,67
-<S_FX>,I know what the reccomendation to help made people hurt animals nevertheless,False,No Set,animals,56,63
-<S_FX>,I know what the legislation to help made people hurt animals nevertheless,False,No Set,animals,53,60
+<S_FX>,I know what the political campaign to help made people hurt animals nevertheless,False,Test,animals,60,67
+<S_FX>,I know what the reccomendation to help made people hurt animals nevertheless,False,Test,animals,56,63
+<S_FX>,I know what the legislation to help made people hurt animals nevertheless,False,Test,animals,53,60
 <S_FX>,I know what the suggestion to help made people hurt animals nevertheless,False,No Set,animals,52,59
 <S_FX>,I know what the political campaign to save made people hurt animals nevertheless,False,No Set,animals,60,67
 <S_FX>,I know what the reccomendation to save made people hurt animals nevertheless,False,No Set,animals,56,63
@@ -529,11 +529,11 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FX>,I know what the suggestion to save caused people to harm animals nevertheless,False,No Set,animals,57,64
 <S_FX>,I know what the political campaign to preserve made people hurt wildlife nevertheless,False,Test,wildlife,64,72
 <S_FX>,I know what the reccomendation to preserve made people hurt wildlife nevertheless,False,Test,wildlife,60,68
-<S_FX>,I know what the legislation to preserve made people hurt wildlife nevertheless,False,No Set,wildlife,57,65
+<S_FX>,I know what the legislation to preserve made people hurt wildlife nevertheless,False,Test,wildlife,57,65
 <S_FX>,I know what the suggestion to preserve made people hurt wildlife nevertheless,False,No Set,wildlife,56,64
-<S_FX>,I know what the political campaign to help made people hurt wildlife nevertheless,False,No Set,wildlife,60,68
-<S_FX>,I know what the reccomendation to help made people hurt wildlife nevertheless,False,No Set,wildlife,56,64
-<S_FX>,I know what the legislation to help made people hurt wildlife nevertheless,False,No Set,wildlife,53,61
+<S_FX>,I know what the political campaign to help made people hurt wildlife nevertheless,False,Test,wildlife,60,68
+<S_FX>,I know what the reccomendation to help made people hurt wildlife nevertheless,False,Test,wildlife,56,64
+<S_FX>,I know what the legislation to help made people hurt wildlife nevertheless,False,Test,wildlife,53,61
 <S_FX>,I know what the suggestion to help made people hurt wildlife nevertheless,False,No Set,wildlife,52,60
 <S_FX>,I know what the political campaign to save made people hurt wildlife nevertheless,False,No Set,wildlife,60,68
 <S_FX>,I know what the reccomendation to save made people hurt wildlife nevertheless,False,No Set,wildlife,56,64
@@ -575,13 +575,13 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FX>,I know what the reccomendation to save caused people to harm wildlife nevertheless,False,No Set,wildlife,61,69
 <S_FX>,I know what the legislation to save caused people to harm wildlife nevertheless,False,No Set,wildlife,58,66
 <S_FX>,I know what the suggestion to save caused people to harm wildlife nevertheless,False,No Set,wildlife,57,65
-<S_FX>,I know what the political campaign to preserve made people hurt plants nevertheless,False,No Set,plants,64,70
-<S_FX>,I know what the reccomendation to preserve made people hurt plants nevertheless,False,No Set,plants,60,66
-<S_FX>,I know what the legislation to preserve made people hurt plants nevertheless,False,No Set,plants,57,63
+<S_FX>,I know what the political campaign to preserve made people hurt plants nevertheless,False,Test,plants,64,70
+<S_FX>,I know what the reccomendation to preserve made people hurt plants nevertheless,False,Test,plants,60,66
+<S_FX>,I know what the legislation to preserve made people hurt plants nevertheless,False,Test,plants,57,63
 <S_FX>,I know what the suggestion to preserve made people hurt plants nevertheless,False,No Set,plants,56,62
-<S_FX>,I know what the political campaign to help made people hurt plants nevertheless,False,No Set,plants,60,66
-<S_FX>,I know what the reccomendation to help made people hurt plants nevertheless,False,No Set,plants,56,62
-<S_FX>,I know what the legislation to help made people hurt plants nevertheless,False,No Set,plants,53,59
+<S_FX>,I know what the political campaign to help made people hurt plants nevertheless,False,Test,plants,60,66
+<S_FX>,I know what the reccomendation to help made people hurt plants nevertheless,False,Test,plants,56,62
+<S_FX>,I know what the legislation to help made people hurt plants nevertheless,False,Test,plants,53,59
 <S_FX>,I know what the suggestion to help made people hurt plants nevertheless,False,No Set,plants,52,58
 <S_FX>,I know what the political campaign to save made people hurt plants nevertheless,False,No Set,plants,60,66
 <S_FX>,I know what the reccomendation to save made people hurt plants nevertheless,False,No Set,plants,56,62
@@ -617,12 +617,12 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FX>,I know what the suggestion to preserve caused people to harm plants nevertheless,False,No Set,plants,61,67
 <S_FX>,I know what the political campaign to help caused people to harm plants nevertheless,False,No Set,plants,65,71
 <S_FX>,I know what the reccomendation to help caused people to harm plants nevertheless,False,No Set,plants,61,67
-<S_FX>,I know what the legislation to help caused people to harm plants nevertheless,False,Training,plants,58,64
-<S_FX>,I know what the suggestion to help caused people to harm plants nevertheless,False,Training,plants,57,63
+<S_FX>,I know what the legislation to help caused people to harm plants nevertheless,False,No Set,plants,58,64
+<S_FX>,I know what the suggestion to help caused people to harm plants nevertheless,False,No Set,plants,57,63
 <S_FX>,I know what the political campaign to save caused people to harm plants nevertheless,False,No Set,plants,65,71
 <S_FX>,I know what the reccomendation to save caused people to harm plants nevertheless,False,No Set,plants,61,67
-<S_FX>,I know what the legislation to save caused people to harm plants nevertheless,False,Training,plants,58,64
-<S_FX>,I know what the suggestion to save caused people to harm plants nevertheless,False,Training,plants,57,63
+<S_FX>,I know what the legislation to save caused people to harm plants nevertheless,False,No Set,plants,58,64
+<S_FX>,I know what the suggestion to save caused people to harm plants nevertheless,False,No Set,plants,57,63
 <S_FX>,I know what the political campaign to preserve made people hurt trees nevertheless,False,No Set,trees,64,69
 <S_FX>,I know what the reccomendation to preserve made people hurt trees nevertheless,False,No Set,trees,60,65
 <S_FX>,I know what the legislation to preserve made people hurt trees nevertheless,False,No Set,trees,57,62
@@ -665,11 +665,11 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FX>,I know what the suggestion to preserve caused people to harm trees nevertheless,False,No Set,trees,61,66
 <S_FX>,I know what the political campaign to help caused people to harm trees nevertheless,False,No Set,trees,65,70
 <S_FX>,I know what the reccomendation to help caused people to harm trees nevertheless,False,No Set,trees,61,66
-<S_FX>,I know what the legislation to help caused people to harm trees nevertheless,False,Training,trees,58,63
-<S_FX>,I know what the suggestion to help caused people to harm trees nevertheless,False,Training,trees,57,62
+<S_FX>,I know what the legislation to help caused people to harm trees nevertheless,False,No Set,trees,58,63
+<S_FX>,I know what the suggestion to help caused people to harm trees nevertheless,False,No Set,trees,57,62
 <S_FX>,I know what the political campaign to save caused people to harm trees nevertheless,False,No Set,trees,65,70
 <S_FX>,I know what the reccomendation to save caused people to harm trees nevertheless,False,No Set,trees,61,66
-<S_FX>,I know what the legislation to save caused people to harm trees nevertheless,False,Training,trees,58,63
+<S_FX>,I know what the legislation to save caused people to harm trees nevertheless,False,No Set,trees,58,63
 <S_FX>,I know what the suggestion to save caused people to harm trees nevertheless,False,Training,trees,57,62
 <S_FX>,I know what the political campaign to preserve made people hurt animals nonetheless,False,No Set,animals,64,71
 <S_FX>,I know what the reccomendation to preserve made people hurt animals nonetheless,False,No Set,animals,60,67
@@ -713,11 +713,11 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FX>,I know what the suggestion to preserve caused people to harm animals nonetheless,False,No Set,animals,61,68
 <S_FX>,I know what the political campaign to help caused people to harm animals nonetheless,False,No Set,animals,65,72
 <S_FX>,I know what the reccomendation to help caused people to harm animals nonetheless,False,No Set,animals,61,68
-<S_FX>,I know what the legislation to help caused people to harm animals nonetheless,False,Training,animals,58,65
-<S_FX>,I know what the suggestion to help caused people to harm animals nonetheless,False,Training,animals,57,64
+<S_FX>,I know what the legislation to help caused people to harm animals nonetheless,False,No Set,animals,58,65
+<S_FX>,I know what the suggestion to help caused people to harm animals nonetheless,False,No Set,animals,57,64
 <S_FX>,I know what the political campaign to save caused people to harm animals nonetheless,False,No Set,animals,65,72
 <S_FX>,I know what the reccomendation to save caused people to harm animals nonetheless,False,No Set,animals,61,68
-<S_FX>,I know what the legislation to save caused people to harm animals nonetheless,False,Training,animals,58,65
+<S_FX>,I know what the legislation to save caused people to harm animals nonetheless,False,No Set,animals,58,65
 <S_FX>,I know what the suggestion to save caused people to harm animals nonetheless,False,Training,animals,57,64
 <S_FX>,I know what the political campaign to preserve made people hurt wildlife nonetheless,False,No Set,wildlife,64,72
 <S_FX>,I know what the reccomendation to preserve made people hurt wildlife nonetheless,False,No Set,wildlife,60,68
@@ -761,11 +761,11 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FX>,I know what the suggestion to preserve caused people to harm wildlife nonetheless,False,No Set,wildlife,61,69
 <S_FX>,I know what the political campaign to help caused people to harm wildlife nonetheless,False,No Set,wildlife,65,73
 <S_FX>,I know what the reccomendation to help caused people to harm wildlife nonetheless,False,No Set,wildlife,61,69
-<S_FX>,I know what the legislation to help caused people to harm wildlife nonetheless,False,Training,wildlife,58,66
-<S_FX>,I know what the suggestion to help caused people to harm wildlife nonetheless,False,Training,wildlife,57,65
+<S_FX>,I know what the legislation to help caused people to harm wildlife nonetheless,False,No Set,wildlife,58,66
+<S_FX>,I know what the suggestion to help caused people to harm wildlife nonetheless,False,No Set,wildlife,57,65
 <S_FX>,I know what the political campaign to save caused people to harm wildlife nonetheless,False,No Set,wildlife,65,73
 <S_FX>,I know what the reccomendation to save caused people to harm wildlife nonetheless,False,No Set,wildlife,61,69
-<S_FX>,I know what the legislation to save caused people to harm wildlife nonetheless,False,Training,wildlife,58,66
+<S_FX>,I know what the legislation to save caused people to harm wildlife nonetheless,False,No Set,wildlife,58,66
 <S_FX>,I know what the suggestion to save caused people to harm wildlife nonetheless,False,Training,wildlife,57,65
 <S_FX>,I know what the political campaign to preserve made people hurt plants nonetheless,False,No Set,plants,64,70
 <S_FX>,I know what the reccomendation to preserve made people hurt plants nonetheless,False,No Set,plants,60,66
@@ -785,35 +785,35 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FX>,I know what the suggestion to preserve caused people to hurt plants nonetheless,False,No Set,plants,61,67
 <S_FX>,I know what the political campaign to help caused people to hurt plants nonetheless,False,No Set,plants,65,71
 <S_FX>,I know what the reccomendation to help caused people to hurt plants nonetheless,False,No Set,plants,61,67
-<S_FX>,I know what the legislation to help caused people to hurt plants nonetheless,False,Training,plants,58,64
-<S_FX>,I know what the suggestion to help caused people to hurt plants nonetheless,False,Training,plants,57,63
+<S_FX>,I know what the legislation to help caused people to hurt plants nonetheless,False,No Set,plants,58,64
+<S_FX>,I know what the suggestion to help caused people to hurt plants nonetheless,False,No Set,plants,57,63
 <S_FX>,I know what the political campaign to save caused people to hurt plants nonetheless,False,No Set,plants,65,71
 <S_FX>,I know what the reccomendation to save caused people to hurt plants nonetheless,False,No Set,plants,61,67
-<S_FX>,I know what the legislation to save caused people to hurt plants nonetheless,False,Training,plants,58,64
-<S_FX>,I know what the suggestion to save caused people to hurt plants nonetheless,False,Training,plants,57,63
+<S_FX>,I know what the legislation to save caused people to hurt plants nonetheless,False,No Set,plants,58,64
+<S_FX>,I know what the suggestion to save caused people to hurt plants nonetheless,False,No Set,plants,57,63
 <S_FX>,I know what the political campaign to preserve made people harm plants nonetheless,False,No Set,plants,64,70
 <S_FX>,I know what the reccomendation to preserve made people harm plants nonetheless,False,No Set,plants,60,66
 <S_FX>,I know what the legislation to preserve made people harm plants nonetheless,False,No Set,plants,57,63
 <S_FX>,I know what the suggestion to preserve made people harm plants nonetheless,False,No Set,plants,56,62
 <S_FX>,I know what the political campaign to help made people harm plants nonetheless,False,No Set,plants,60,66
 <S_FX>,I know what the reccomendation to help made people harm plants nonetheless,False,No Set,plants,56,62
-<S_FX>,I know what the legislation to help made people harm plants nonetheless,False,Training,plants,53,59
-<S_FX>,I know what the suggestion to help made people harm plants nonetheless,False,Training,plants,52,58
+<S_FX>,I know what the legislation to help made people harm plants nonetheless,False,No Set,plants,53,59
+<S_FX>,I know what the suggestion to help made people harm plants nonetheless,False,No Set,plants,52,58
 <S_FX>,I know what the political campaign to save made people harm plants nonetheless,False,No Set,plants,60,66
 <S_FX>,I know what the reccomendation to save made people harm plants nonetheless,False,No Set,plants,56,62
-<S_FX>,I know what the legislation to save made people harm plants nonetheless,False,Training,plants,53,59
-<S_FX>,I know what the suggestion to save made people harm plants nonetheless,False,Training,plants,52,58
+<S_FX>,I know what the legislation to save made people harm plants nonetheless,False,No Set,plants,53,59
+<S_FX>,I know what the suggestion to save made people harm plants nonetheless,False,No Set,plants,52,58
 <S_FX>,I know what the political campaign to preserve caused people to harm plants nonetheless,False,No Set,plants,69,75
 <S_FX>,I know what the reccomendation to preserve caused people to harm plants nonetheless,False,No Set,plants,65,71
-<S_FX>,I know what the legislation to preserve caused people to harm plants nonetheless,False,Training,plants,62,68
-<S_FX>,I know what the suggestion to preserve caused people to harm plants nonetheless,False,Training,plants,61,67
-<S_FX>,I know what the political campaign to help caused people to harm plants nonetheless,False,Training,plants,65,71
-<S_FX>,I know what the reccomendation to help caused people to harm plants nonetheless,False,Training,plants,61,67
-<S_FX>,I know what the legislation to help caused people to harm plants nonetheless,False,Training,plants,58,64
-<S_FX>,I know what the suggestion to help caused people to harm plants nonetheless,False,Training,plants,57,63
-<S_FX>,I know what the political campaign to save caused people to harm plants nonetheless,False,Training,plants,65,71
-<S_FX>,I know what the reccomendation to save caused people to harm plants nonetheless,False,Training,plants,61,67
-<S_FX>,I know what the legislation to save caused people to harm plants nonetheless,False,Training,plants,58,64
+<S_FX>,I know what the legislation to preserve caused people to harm plants nonetheless,False,No Set,plants,62,68
+<S_FX>,I know what the suggestion to preserve caused people to harm plants nonetheless,False,No Set,plants,61,67
+<S_FX>,I know what the political campaign to help caused people to harm plants nonetheless,False,No Set,plants,65,71
+<S_FX>,I know what the reccomendation to help caused people to harm plants nonetheless,False,No Set,plants,61,67
+<S_FX>,I know what the legislation to help caused people to harm plants nonetheless,False,No Set,plants,58,64
+<S_FX>,I know what the suggestion to help caused people to harm plants nonetheless,False,No Set,plants,57,63
+<S_FX>,I know what the political campaign to save caused people to harm plants nonetheless,False,No Set,plants,65,71
+<S_FX>,I know what the reccomendation to save caused people to harm plants nonetheless,False,No Set,plants,61,67
+<S_FX>,I know what the legislation to save caused people to harm plants nonetheless,False,No Set,plants,58,64
 <S_FX>,I know what the suggestion to save caused people to harm plants nonetheless,False,Training,plants,57,63
 <S_FX>,I know what the political campaign to preserve made people hurt trees nonetheless,False,No Set,trees,64,69
 <S_FX>,I know what the reccomendation to preserve made people hurt trees nonetheless,False,No Set,trees,60,65
@@ -833,11 +833,11 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FX>,I know what the suggestion to preserve caused people to hurt trees nonetheless,False,No Set,trees,61,66
 <S_FX>,I know what the political campaign to help caused people to hurt trees nonetheless,False,No Set,trees,65,70
 <S_FX>,I know what the reccomendation to help caused people to hurt trees nonetheless,False,No Set,trees,61,66
-<S_FX>,I know what the legislation to help caused people to hurt trees nonetheless,False,Training,trees,58,63
-<S_FX>,I know what the suggestion to help caused people to hurt trees nonetheless,False,Training,trees,57,62
+<S_FX>,I know what the legislation to help caused people to hurt trees nonetheless,False,No Set,trees,58,63
+<S_FX>,I know what the suggestion to help caused people to hurt trees nonetheless,False,No Set,trees,57,62
 <S_FX>,I know what the political campaign to save caused people to hurt trees nonetheless,False,No Set,trees,65,70
 <S_FX>,I know what the reccomendation to save caused people to hurt trees nonetheless,False,No Set,trees,61,66
-<S_FX>,I know what the legislation to save caused people to hurt trees nonetheless,False,Training,trees,58,63
+<S_FX>,I know what the legislation to save caused people to hurt trees nonetheless,False,No Set,trees,58,63
 <S_FX>,I know what the suggestion to save caused people to hurt trees nonetheless,False,Training,trees,57,62
 <S_FX>,I know what the political campaign to preserve made people harm trees nonetheless,False,No Set,trees,64,69
 <S_FX>,I know what the reccomendation to preserve made people harm trees nonetheless,False,No Set,trees,60,65
@@ -845,19 +845,19 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FX>,I know what the suggestion to preserve made people harm trees nonetheless,False,No Set,trees,56,61
 <S_FX>,I know what the political campaign to help made people harm trees nonetheless,False,No Set,trees,60,65
 <S_FX>,I know what the reccomendation to help made people harm trees nonetheless,False,No Set,trees,56,61
-<S_FX>,I know what the legislation to help made people harm trees nonetheless,False,Training,trees,53,58
-<S_FX>,I know what the suggestion to help made people harm trees nonetheless,False,Training,trees,52,57
+<S_FX>,I know what the legislation to help made people harm trees nonetheless,False,No Set,trees,53,58
+<S_FX>,I know what the suggestion to help made people harm trees nonetheless,False,No Set,trees,52,57
 <S_FX>,I know what the political campaign to save made people harm trees nonetheless,False,No Set,trees,60,65
 <S_FX>,I know what the reccomendation to save made people harm trees nonetheless,False,No Set,trees,56,61
-<S_FX>,I know what the legislation to save made people harm trees nonetheless,False,Training,trees,53,58
+<S_FX>,I know what the legislation to save made people harm trees nonetheless,False,No Set,trees,53,58
 <S_FX>,I know what the suggestion to save made people harm trees nonetheless,False,Training,trees,52,57
 <S_FX>,I know what the political campaign to preserve caused people to harm trees nonetheless,False,No Set,trees,69,74
 <S_FX>,I know what the reccomendation to preserve caused people to harm trees nonetheless,False,No Set,trees,65,70
-<S_FX>,I know what the legislation to preserve caused people to harm trees nonetheless,False,Training,trees,62,67
+<S_FX>,I know what the legislation to preserve caused people to harm trees nonetheless,False,No Set,trees,62,67
 <S_FX>,I know what the suggestion to preserve caused people to harm trees nonetheless,False,Training,trees,61,66
-<S_FX>,I know what the political campaign to help caused people to harm trees nonetheless,False,Training,trees,65,70
-<S_FX>,I know what the reccomendation to help caused people to harm trees nonetheless,False,Training,trees,61,66
-<S_FX>,I know what the legislation to help caused people to harm trees nonetheless,False,Training,trees,58,63
+<S_FX>,I know what the political campaign to help caused people to harm trees nonetheless,False,No Set,trees,65,70
+<S_FX>,I know what the reccomendation to help caused people to harm trees nonetheless,False,No Set,trees,61,66
+<S_FX>,I know what the legislation to help caused people to harm trees nonetheless,False,No Set,trees,58,63
 <S_FX>,I know what the suggestion to help caused people to harm trees nonetheless,False,Training,trees,57,62
 <S_FX>,I know what the political campaign to save caused people to harm trees nonetheless,False,Training,trees,65,70
 <S_FX>,I know what the reccomendation to save caused people to harm trees nonetheless,False,Training,trees,61,66
@@ -865,11 +865,11 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FX>,I know what the suggestion to save caused people to harm trees nonetheless,False,Training,trees,57,62
 <S_XX>,I know that the political campaign to preserve nature made people hurt animals nevertheless,True,Test,animals,71,78
 <S_XX>,I know that the reccomendation to preserve nature made people hurt animals nevertheless,True,Test,animals,67,74
-<S_XX>,I know that the legislation to preserve nature made people hurt animals nevertheless,True,No Set,animals,64,71
+<S_XX>,I know that the legislation to preserve nature made people hurt animals nevertheless,True,Test,animals,64,71
 <S_XX>,I know that the suggestion to preserve nature made people hurt animals nevertheless,True,No Set,animals,63,70
-<S_XX>,I know that the political campaign to help nature made people hurt animals nevertheless,True,No Set,animals,67,74
-<S_XX>,I know that the reccomendation to help nature made people hurt animals nevertheless,True,No Set,animals,63,70
-<S_XX>,I know that the legislation to help nature made people hurt animals nevertheless,True,No Set,animals,60,67
+<S_XX>,I know that the political campaign to help nature made people hurt animals nevertheless,True,Test,animals,67,74
+<S_XX>,I know that the reccomendation to help nature made people hurt animals nevertheless,True,Test,animals,63,70
+<S_XX>,I know that the legislation to help nature made people hurt animals nevertheless,True,Test,animals,60,67
 <S_XX>,I know that the suggestion to help nature made people hurt animals nevertheless,True,No Set,animals,59,66
 <S_XX>,I know that the political campaign to save nature made people hurt animals nevertheless,True,No Set,animals,67,74
 <S_XX>,I know that the reccomendation to save nature made people hurt animals nevertheless,True,No Set,animals,63,70
@@ -877,23 +877,23 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the suggestion to save nature made people hurt animals nevertheless,True,No Set,animals,59,66
 <S_XX>,I know that the political campaign to preserve the environment made people hurt animals nevertheless,True,Test,animals,80,87
 <S_XX>,I know that the reccomendation to preserve the environment made people hurt animals nevertheless,True,Test,animals,76,83
-<S_XX>,I know that the legislation to preserve the environment made people hurt animals nevertheless,True,No Set,animals,73,80
+<S_XX>,I know that the legislation to preserve the environment made people hurt animals nevertheless,True,Test,animals,73,80
 <S_XX>,I know that the suggestion to preserve the environment made people hurt animals nevertheless,True,No Set,animals,72,79
-<S_XX>,I know that the political campaign to help the environment made people hurt animals nevertheless,True,No Set,animals,76,83
-<S_XX>,I know that the reccomendation to help the environment made people hurt animals nevertheless,True,No Set,animals,72,79
-<S_XX>,I know that the legislation to help the environment made people hurt animals nevertheless,True,No Set,animals,69,76
+<S_XX>,I know that the political campaign to help the environment made people hurt animals nevertheless,True,Test,animals,76,83
+<S_XX>,I know that the reccomendation to help the environment made people hurt animals nevertheless,True,Test,animals,72,79
+<S_XX>,I know that the legislation to help the environment made people hurt animals nevertheless,True,Test,animals,69,76
 <S_XX>,I know that the suggestion to help the environment made people hurt animals nevertheless,True,No Set,animals,68,75
 <S_XX>,I know that the political campaign to save the environment made people hurt animals nevertheless,True,No Set,animals,76,83
 <S_XX>,I know that the reccomendation to save the environment made people hurt animals nevertheless,True,No Set,animals,72,79
 <S_XX>,I know that the legislation to save the environment made people hurt animals nevertheless,True,No Set,animals,69,76
 <S_XX>,I know that the suggestion to save the environment made people hurt animals nevertheless,True,No Set,animals,68,75
-<S_XX>,I know that the political campaign to preserve the rain forests made people hurt animals nevertheless,True,No Set,animals,81,88
-<S_XX>,I know that the reccomendation to preserve the rain forests made people hurt animals nevertheless,True,No Set,animals,77,84
-<S_XX>,I know that the legislation to preserve the rain forests made people hurt animals nevertheless,True,No Set,animals,74,81
+<S_XX>,I know that the political campaign to preserve the rain forests made people hurt animals nevertheless,True,Test,animals,81,88
+<S_XX>,I know that the reccomendation to preserve the rain forests made people hurt animals nevertheless,True,Test,animals,77,84
+<S_XX>,I know that the legislation to preserve the rain forests made people hurt animals nevertheless,True,Test,animals,74,81
 <S_XX>,I know that the suggestion to preserve the rain forests made people hurt animals nevertheless,True,No Set,animals,73,80
-<S_XX>,I know that the political campaign to help the rain forests made people hurt animals nevertheless,True,No Set,animals,77,84
-<S_XX>,I know that the reccomendation to help the rain forests made people hurt animals nevertheless,True,No Set,animals,73,80
-<S_XX>,I know that the legislation to help the rain forests made people hurt animals nevertheless,True,No Set,animals,70,77
+<S_XX>,I know that the political campaign to help the rain forests made people hurt animals nevertheless,True,Test,animals,77,84
+<S_XX>,I know that the reccomendation to help the rain forests made people hurt animals nevertheless,True,Test,animals,73,80
+<S_XX>,I know that the legislation to help the rain forests made people hurt animals nevertheless,True,Test,animals,70,77
 <S_XX>,I know that the suggestion to help the rain forests made people hurt animals nevertheless,True,No Set,animals,69,76
 <S_XX>,I know that the political campaign to save the rain forests made people hurt animals nevertheless,True,No Set,animals,77,84
 <S_XX>,I know that the reccomendation to save the rain forests made people hurt animals nevertheless,True,No Set,animals,73,80
@@ -1057,11 +1057,11 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the suggestion to save biodiversity caused people to harm animals nevertheless,True,No Set,animals,70,77
 <S_XX>,I know that the political campaign to preserve nature made people hurt wildlife nevertheless,True,Test,wildlife,71,79
 <S_XX>,I know that the reccomendation to preserve nature made people hurt wildlife nevertheless,True,Test,wildlife,67,75
-<S_XX>,I know that the legislation to preserve nature made people hurt wildlife nevertheless,True,No Set,wildlife,64,72
+<S_XX>,I know that the legislation to preserve nature made people hurt wildlife nevertheless,True,Test,wildlife,64,72
 <S_XX>,I know that the suggestion to preserve nature made people hurt wildlife nevertheless,True,No Set,wildlife,63,71
-<S_XX>,I know that the political campaign to help nature made people hurt wildlife nevertheless,True,No Set,wildlife,67,75
-<S_XX>,I know that the reccomendation to help nature made people hurt wildlife nevertheless,True,No Set,wildlife,63,71
-<S_XX>,I know that the legislation to help nature made people hurt wildlife nevertheless,True,No Set,wildlife,60,68
+<S_XX>,I know that the political campaign to help nature made people hurt wildlife nevertheless,True,Test,wildlife,67,75
+<S_XX>,I know that the reccomendation to help nature made people hurt wildlife nevertheless,True,Test,wildlife,63,71
+<S_XX>,I know that the legislation to help nature made people hurt wildlife nevertheless,True,Test,wildlife,60,68
 <S_XX>,I know that the suggestion to help nature made people hurt wildlife nevertheless,True,No Set,wildlife,59,67
 <S_XX>,I know that the political campaign to save nature made people hurt wildlife nevertheless,True,No Set,wildlife,67,75
 <S_XX>,I know that the reccomendation to save nature made people hurt wildlife nevertheless,True,No Set,wildlife,63,71
@@ -1069,23 +1069,23 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the suggestion to save nature made people hurt wildlife nevertheless,True,No Set,wildlife,59,67
 <S_XX>,I know that the political campaign to preserve the environment made people hurt wildlife nevertheless,True,Test,wildlife,80,88
 <S_XX>,I know that the reccomendation to preserve the environment made people hurt wildlife nevertheless,True,Test,wildlife,76,84
-<S_XX>,I know that the legislation to preserve the environment made people hurt wildlife nevertheless,True,No Set,wildlife,73,81
+<S_XX>,I know that the legislation to preserve the environment made people hurt wildlife nevertheless,True,Test,wildlife,73,81
 <S_XX>,I know that the suggestion to preserve the environment made people hurt wildlife nevertheless,True,No Set,wildlife,72,80
-<S_XX>,I know that the political campaign to help the environment made people hurt wildlife nevertheless,True,No Set,wildlife,76,84
-<S_XX>,I know that the reccomendation to help the environment made people hurt wildlife nevertheless,True,No Set,wildlife,72,80
-<S_XX>,I know that the legislation to help the environment made people hurt wildlife nevertheless,True,No Set,wildlife,69,77
+<S_XX>,I know that the political campaign to help the environment made people hurt wildlife nevertheless,True,Test,wildlife,76,84
+<S_XX>,I know that the reccomendation to help the environment made people hurt wildlife nevertheless,True,Test,wildlife,72,80
+<S_XX>,I know that the legislation to help the environment made people hurt wildlife nevertheless,True,Test,wildlife,69,77
 <S_XX>,I know that the suggestion to help the environment made people hurt wildlife nevertheless,True,No Set,wildlife,68,76
 <S_XX>,I know that the political campaign to save the environment made people hurt wildlife nevertheless,True,No Set,wildlife,76,84
 <S_XX>,I know that the reccomendation to save the environment made people hurt wildlife nevertheless,True,No Set,wildlife,72,80
 <S_XX>,I know that the legislation to save the environment made people hurt wildlife nevertheless,True,No Set,wildlife,69,77
 <S_XX>,I know that the suggestion to save the environment made people hurt wildlife nevertheless,True,No Set,wildlife,68,76
-<S_XX>,I know that the political campaign to preserve the rain forests made people hurt wildlife nevertheless,True,No Set,wildlife,81,89
-<S_XX>,I know that the reccomendation to preserve the rain forests made people hurt wildlife nevertheless,True,No Set,wildlife,77,85
-<S_XX>,I know that the legislation to preserve the rain forests made people hurt wildlife nevertheless,True,No Set,wildlife,74,82
+<S_XX>,I know that the political campaign to preserve the rain forests made people hurt wildlife nevertheless,True,Test,wildlife,81,89
+<S_XX>,I know that the reccomendation to preserve the rain forests made people hurt wildlife nevertheless,True,Test,wildlife,77,85
+<S_XX>,I know that the legislation to preserve the rain forests made people hurt wildlife nevertheless,True,Test,wildlife,74,82
 <S_XX>,I know that the suggestion to preserve the rain forests made people hurt wildlife nevertheless,True,No Set,wildlife,73,81
-<S_XX>,I know that the political campaign to help the rain forests made people hurt wildlife nevertheless,True,No Set,wildlife,77,85
-<S_XX>,I know that the reccomendation to help the rain forests made people hurt wildlife nevertheless,True,No Set,wildlife,73,81
-<S_XX>,I know that the legislation to help the rain forests made people hurt wildlife nevertheless,True,No Set,wildlife,70,78
+<S_XX>,I know that the political campaign to help the rain forests made people hurt wildlife nevertheless,True,Test,wildlife,77,85
+<S_XX>,I know that the reccomendation to help the rain forests made people hurt wildlife nevertheless,True,Test,wildlife,73,81
+<S_XX>,I know that the legislation to help the rain forests made people hurt wildlife nevertheless,True,Test,wildlife,70,78
 <S_XX>,I know that the suggestion to help the rain forests made people hurt wildlife nevertheless,True,No Set,wildlife,69,77
 <S_XX>,I know that the political campaign to save the rain forests made people hurt wildlife nevertheless,True,No Set,wildlife,77,85
 <S_XX>,I know that the reccomendation to save the rain forests made people hurt wildlife nevertheless,True,No Set,wildlife,73,81
@@ -1247,37 +1247,37 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the reccomendation to save biodiversity caused people to harm wildlife nevertheless,True,No Set,wildlife,74,82
 <S_XX>,I know that the legislation to save biodiversity caused people to harm wildlife nevertheless,True,No Set,wildlife,71,79
 <S_XX>,I know that the suggestion to save biodiversity caused people to harm wildlife nevertheless,True,No Set,wildlife,70,78
-<S_XX>,I know that the political campaign to preserve nature made people hurt plants nevertheless,True,No Set,plants,71,77
-<S_XX>,I know that the reccomendation to preserve nature made people hurt plants nevertheless,True,No Set,plants,67,73
-<S_XX>,I know that the legislation to preserve nature made people hurt plants nevertheless,True,No Set,plants,64,70
+<S_XX>,I know that the political campaign to preserve nature made people hurt plants nevertheless,True,Test,plants,71,77
+<S_XX>,I know that the reccomendation to preserve nature made people hurt plants nevertheless,True,Test,plants,67,73
+<S_XX>,I know that the legislation to preserve nature made people hurt plants nevertheless,True,Test,plants,64,70
 <S_XX>,I know that the suggestion to preserve nature made people hurt plants nevertheless,True,No Set,plants,63,69
-<S_XX>,I know that the political campaign to help nature made people hurt plants nevertheless,True,No Set,plants,67,73
-<S_XX>,I know that the reccomendation to help nature made people hurt plants nevertheless,True,No Set,plants,63,69
-<S_XX>,I know that the legislation to help nature made people hurt plants nevertheless,True,No Set,plants,60,66
+<S_XX>,I know that the political campaign to help nature made people hurt plants nevertheless,True,Test,plants,67,73
+<S_XX>,I know that the reccomendation to help nature made people hurt plants nevertheless,True,Test,plants,63,69
+<S_XX>,I know that the legislation to help nature made people hurt plants nevertheless,True,Test,plants,60,66
 <S_XX>,I know that the suggestion to help nature made people hurt plants nevertheless,True,No Set,plants,59,65
 <S_XX>,I know that the political campaign to save nature made people hurt plants nevertheless,True,No Set,plants,67,73
 <S_XX>,I know that the reccomendation to save nature made people hurt plants nevertheless,True,No Set,plants,63,69
 <S_XX>,I know that the legislation to save nature made people hurt plants nevertheless,True,No Set,plants,60,66
 <S_XX>,I know that the suggestion to save nature made people hurt plants nevertheless,True,No Set,plants,59,65
-<S_XX>,I know that the political campaign to preserve the environment made people hurt plants nevertheless,True,No Set,plants,80,86
-<S_XX>,I know that the reccomendation to preserve the environment made people hurt plants nevertheless,True,No Set,plants,76,82
-<S_XX>,I know that the legislation to preserve the environment made people hurt plants nevertheless,True,No Set,plants,73,79
+<S_XX>,I know that the political campaign to preserve the environment made people hurt plants nevertheless,True,Test,plants,80,86
+<S_XX>,I know that the reccomendation to preserve the environment made people hurt plants nevertheless,True,Test,plants,76,82
+<S_XX>,I know that the legislation to preserve the environment made people hurt plants nevertheless,True,Test,plants,73,79
 <S_XX>,I know that the suggestion to preserve the environment made people hurt plants nevertheless,True,No Set,plants,72,78
-<S_XX>,I know that the political campaign to help the environment made people hurt plants nevertheless,True,No Set,plants,76,82
-<S_XX>,I know that the reccomendation to help the environment made people hurt plants nevertheless,True,No Set,plants,72,78
-<S_XX>,I know that the legislation to help the environment made people hurt plants nevertheless,True,No Set,plants,69,75
+<S_XX>,I know that the political campaign to help the environment made people hurt plants nevertheless,True,Test,plants,76,82
+<S_XX>,I know that the reccomendation to help the environment made people hurt plants nevertheless,True,Test,plants,72,78
+<S_XX>,I know that the legislation to help the environment made people hurt plants nevertheless,True,Test,plants,69,75
 <S_XX>,I know that the suggestion to help the environment made people hurt plants nevertheless,True,No Set,plants,68,74
 <S_XX>,I know that the political campaign to save the environment made people hurt plants nevertheless,True,No Set,plants,76,82
 <S_XX>,I know that the reccomendation to save the environment made people hurt plants nevertheless,True,No Set,plants,72,78
 <S_XX>,I know that the legislation to save the environment made people hurt plants nevertheless,True,No Set,plants,69,75
 <S_XX>,I know that the suggestion to save the environment made people hurt plants nevertheless,True,No Set,plants,68,74
-<S_XX>,I know that the political campaign to preserve the rain forests made people hurt plants nevertheless,True,No Set,plants,81,87
-<S_XX>,I know that the reccomendation to preserve the rain forests made people hurt plants nevertheless,True,No Set,plants,77,83
-<S_XX>,I know that the legislation to preserve the rain forests made people hurt plants nevertheless,True,No Set,plants,74,80
+<S_XX>,I know that the political campaign to preserve the rain forests made people hurt plants nevertheless,True,Test,plants,81,87
+<S_XX>,I know that the reccomendation to preserve the rain forests made people hurt plants nevertheless,True,Test,plants,77,83
+<S_XX>,I know that the legislation to preserve the rain forests made people hurt plants nevertheless,True,Test,plants,74,80
 <S_XX>,I know that the suggestion to preserve the rain forests made people hurt plants nevertheless,True,No Set,plants,73,79
-<S_XX>,I know that the political campaign to help the rain forests made people hurt plants nevertheless,True,No Set,plants,77,83
-<S_XX>,I know that the reccomendation to help the rain forests made people hurt plants nevertheless,True,No Set,plants,73,79
-<S_XX>,I know that the legislation to help the rain forests made people hurt plants nevertheless,True,No Set,plants,70,76
+<S_XX>,I know that the political campaign to help the rain forests made people hurt plants nevertheless,True,Test,plants,77,83
+<S_XX>,I know that the reccomendation to help the rain forests made people hurt plants nevertheless,True,Test,plants,73,79
+<S_XX>,I know that the legislation to help the rain forests made people hurt plants nevertheless,True,Test,plants,70,76
 <S_XX>,I know that the suggestion to help the rain forests made people hurt plants nevertheless,True,No Set,plants,69,75
 <S_XX>,I know that the political campaign to save the rain forests made people hurt plants nevertheless,True,No Set,plants,77,83
 <S_XX>,I know that the reccomendation to save the rain forests made people hurt plants nevertheless,True,No Set,plants,73,79
@@ -1421,24 +1421,24 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the suggestion to preserve the rain forests caused people to harm plants nevertheless,True,No Set,plants,78,84
 <S_XX>,I know that the political campaign to help the rain forests caused people to harm plants nevertheless,True,No Set,plants,82,88
 <S_XX>,I know that the reccomendation to help the rain forests caused people to harm plants nevertheless,True,No Set,plants,78,84
-<S_XX>,I know that the legislation to help the rain forests caused people to harm plants nevertheless,True,Training,plants,75,81
-<S_XX>,I know that the suggestion to help the rain forests caused people to harm plants nevertheless,True,Training,plants,74,80
+<S_XX>,I know that the legislation to help the rain forests caused people to harm plants nevertheless,True,No Set,plants,75,81
+<S_XX>,I know that the suggestion to help the rain forests caused people to harm plants nevertheless,True,No Set,plants,74,80
 <S_XX>,I know that the political campaign to save the rain forests caused people to harm plants nevertheless,True,No Set,plants,82,88
 <S_XX>,I know that the reccomendation to save the rain forests caused people to harm plants nevertheless,True,No Set,plants,78,84
-<S_XX>,I know that the legislation to save the rain forests caused people to harm plants nevertheless,True,Training,plants,75,81
-<S_XX>,I know that the suggestion to save the rain forests caused people to harm plants nevertheless,True,Training,plants,74,80
+<S_XX>,I know that the legislation to save the rain forests caused people to harm plants nevertheless,True,No Set,plants,75,81
+<S_XX>,I know that the suggestion to save the rain forests caused people to harm plants nevertheless,True,No Set,plants,74,80
 <S_XX>,I know that the political campaign to preserve biodiversity caused people to harm plants nevertheless,True,No Set,plants,82,88
 <S_XX>,I know that the reccomendation to preserve biodiversity caused people to harm plants nevertheless,True,No Set,plants,78,84
 <S_XX>,I know that the legislation to preserve biodiversity caused people to harm plants nevertheless,True,No Set,plants,75,81
 <S_XX>,I know that the suggestion to preserve biodiversity caused people to harm plants nevertheless,True,No Set,plants,74,80
 <S_XX>,I know that the political campaign to help biodiversity caused people to harm plants nevertheless,True,No Set,plants,78,84
 <S_XX>,I know that the reccomendation to help biodiversity caused people to harm plants nevertheless,True,No Set,plants,74,80
-<S_XX>,I know that the legislation to help biodiversity caused people to harm plants nevertheless,True,Training,plants,71,77
-<S_XX>,I know that the suggestion to help biodiversity caused people to harm plants nevertheless,True,Training,plants,70,76
+<S_XX>,I know that the legislation to help biodiversity caused people to harm plants nevertheless,True,No Set,plants,71,77
+<S_XX>,I know that the suggestion to help biodiversity caused people to harm plants nevertheless,True,No Set,plants,70,76
 <S_XX>,I know that the political campaign to save biodiversity caused people to harm plants nevertheless,True,No Set,plants,78,84
 <S_XX>,I know that the reccomendation to save biodiversity caused people to harm plants nevertheless,True,No Set,plants,74,80
-<S_XX>,I know that the legislation to save biodiversity caused people to harm plants nevertheless,True,Training,plants,71,77
-<S_XX>,I know that the suggestion to save biodiversity caused people to harm plants nevertheless,True,Training,plants,70,76
+<S_XX>,I know that the legislation to save biodiversity caused people to harm plants nevertheless,True,No Set,plants,71,77
+<S_XX>,I know that the suggestion to save biodiversity caused people to harm plants nevertheless,True,No Set,plants,70,76
 <S_XX>,I know that the political campaign to preserve nature made people hurt trees nevertheless,True,No Set,trees,71,76
 <S_XX>,I know that the reccomendation to preserve nature made people hurt trees nevertheless,True,No Set,trees,67,72
 <S_XX>,I know that the legislation to preserve nature made people hurt trees nevertheless,True,No Set,trees,64,69
@@ -1613,23 +1613,23 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the suggestion to preserve the rain forests caused people to harm trees nevertheless,True,No Set,trees,78,83
 <S_XX>,I know that the political campaign to help the rain forests caused people to harm trees nevertheless,True,No Set,trees,82,87
 <S_XX>,I know that the reccomendation to help the rain forests caused people to harm trees nevertheless,True,No Set,trees,78,83
-<S_XX>,I know that the legislation to help the rain forests caused people to harm trees nevertheless,True,Training,trees,75,80
-<S_XX>,I know that the suggestion to help the rain forests caused people to harm trees nevertheless,True,Training,trees,74,79
+<S_XX>,I know that the legislation to help the rain forests caused people to harm trees nevertheless,True,No Set,trees,75,80
+<S_XX>,I know that the suggestion to help the rain forests caused people to harm trees nevertheless,True,No Set,trees,74,79
 <S_XX>,I know that the political campaign to save the rain forests caused people to harm trees nevertheless,True,No Set,trees,82,87
 <S_XX>,I know that the reccomendation to save the rain forests caused people to harm trees nevertheless,True,No Set,trees,78,83
-<S_XX>,I know that the legislation to save the rain forests caused people to harm trees nevertheless,True,Training,trees,75,80
-<S_XX>,I know that the suggestion to save the rain forests caused people to harm trees nevertheless,True,Training,trees,74,79
+<S_XX>,I know that the legislation to save the rain forests caused people to harm trees nevertheless,True,No Set,trees,75,80
+<S_XX>,I know that the suggestion to save the rain forests caused people to harm trees nevertheless,True,No Set,trees,74,79
 <S_XX>,I know that the political campaign to preserve biodiversity caused people to harm trees nevertheless,True,No Set,trees,82,87
 <S_XX>,I know that the reccomendation to preserve biodiversity caused people to harm trees nevertheless,True,No Set,trees,78,83
 <S_XX>,I know that the legislation to preserve biodiversity caused people to harm trees nevertheless,True,No Set,trees,75,80
 <S_XX>,I know that the suggestion to preserve biodiversity caused people to harm trees nevertheless,True,No Set,trees,74,79
 <S_XX>,I know that the political campaign to help biodiversity caused people to harm trees nevertheless,True,No Set,trees,78,83
 <S_XX>,I know that the reccomendation to help biodiversity caused people to harm trees nevertheless,True,No Set,trees,74,79
-<S_XX>,I know that the legislation to help biodiversity caused people to harm trees nevertheless,True,Training,trees,71,76
-<S_XX>,I know that the suggestion to help biodiversity caused people to harm trees nevertheless,True,Training,trees,70,75
+<S_XX>,I know that the legislation to help biodiversity caused people to harm trees nevertheless,True,No Set,trees,71,76
+<S_XX>,I know that the suggestion to help biodiversity caused people to harm trees nevertheless,True,No Set,trees,70,75
 <S_XX>,I know that the political campaign to save biodiversity caused people to harm trees nevertheless,True,No Set,trees,78,83
 <S_XX>,I know that the reccomendation to save biodiversity caused people to harm trees nevertheless,True,No Set,trees,74,79
-<S_XX>,I know that the legislation to save biodiversity caused people to harm trees nevertheless,True,Training,trees,71,76
+<S_XX>,I know that the legislation to save biodiversity caused people to harm trees nevertheless,True,No Set,trees,71,76
 <S_XX>,I know that the suggestion to save biodiversity caused people to harm trees nevertheless,True,Training,trees,70,75
 <S_XX>,I know that the political campaign to preserve nature made people hurt animals nonetheless,True,No Set,animals,71,78
 <S_XX>,I know that the reccomendation to preserve nature made people hurt animals nonetheless,True,No Set,animals,67,74
@@ -1805,23 +1805,23 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the suggestion to preserve the rain forests caused people to harm animals nonetheless,True,No Set,animals,78,85
 <S_XX>,I know that the political campaign to help the rain forests caused people to harm animals nonetheless,True,No Set,animals,82,89
 <S_XX>,I know that the reccomendation to help the rain forests caused people to harm animals nonetheless,True,No Set,animals,78,85
-<S_XX>,I know that the legislation to help the rain forests caused people to harm animals nonetheless,True,Training,animals,75,82
-<S_XX>,I know that the suggestion to help the rain forests caused people to harm animals nonetheless,True,Training,animals,74,81
+<S_XX>,I know that the legislation to help the rain forests caused people to harm animals nonetheless,True,No Set,animals,75,82
+<S_XX>,I know that the suggestion to help the rain forests caused people to harm animals nonetheless,True,No Set,animals,74,81
 <S_XX>,I know that the political campaign to save the rain forests caused people to harm animals nonetheless,True,No Set,animals,82,89
 <S_XX>,I know that the reccomendation to save the rain forests caused people to harm animals nonetheless,True,No Set,animals,78,85
-<S_XX>,I know that the legislation to save the rain forests caused people to harm animals nonetheless,True,Training,animals,75,82
-<S_XX>,I know that the suggestion to save the rain forests caused people to harm animals nonetheless,True,Training,animals,74,81
+<S_XX>,I know that the legislation to save the rain forests caused people to harm animals nonetheless,True,No Set,animals,75,82
+<S_XX>,I know that the suggestion to save the rain forests caused people to harm animals nonetheless,True,No Set,animals,74,81
 <S_XX>,I know that the political campaign to preserve biodiversity caused people to harm animals nonetheless,True,No Set,animals,82,89
 <S_XX>,I know that the reccomendation to preserve biodiversity caused people to harm animals nonetheless,True,No Set,animals,78,85
 <S_XX>,I know that the legislation to preserve biodiversity caused people to harm animals nonetheless,True,No Set,animals,75,82
 <S_XX>,I know that the suggestion to preserve biodiversity caused people to harm animals nonetheless,True,No Set,animals,74,81
 <S_XX>,I know that the political campaign to help biodiversity caused people to harm animals nonetheless,True,No Set,animals,78,85
 <S_XX>,I know that the reccomendation to help biodiversity caused people to harm animals nonetheless,True,No Set,animals,74,81
-<S_XX>,I know that the legislation to help biodiversity caused people to harm animals nonetheless,True,Training,animals,71,78
-<S_XX>,I know that the suggestion to help biodiversity caused people to harm animals nonetheless,True,Training,animals,70,77
+<S_XX>,I know that the legislation to help biodiversity caused people to harm animals nonetheless,True,No Set,animals,71,78
+<S_XX>,I know that the suggestion to help biodiversity caused people to harm animals nonetheless,True,No Set,animals,70,77
 <S_XX>,I know that the political campaign to save biodiversity caused people to harm animals nonetheless,True,No Set,animals,78,85
 <S_XX>,I know that the reccomendation to save biodiversity caused people to harm animals nonetheless,True,No Set,animals,74,81
-<S_XX>,I know that the legislation to save biodiversity caused people to harm animals nonetheless,True,Training,animals,71,78
+<S_XX>,I know that the legislation to save biodiversity caused people to harm animals nonetheless,True,No Set,animals,71,78
 <S_XX>,I know that the suggestion to save biodiversity caused people to harm animals nonetheless,True,Training,animals,70,77
 <S_XX>,I know that the political campaign to preserve nature made people hurt wildlife nonetheless,True,No Set,wildlife,71,79
 <S_XX>,I know that the reccomendation to preserve nature made people hurt wildlife nonetheless,True,No Set,wildlife,67,75
@@ -1997,23 +1997,23 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the suggestion to preserve the rain forests caused people to harm wildlife nonetheless,True,No Set,wildlife,78,86
 <S_XX>,I know that the political campaign to help the rain forests caused people to harm wildlife nonetheless,True,No Set,wildlife,82,90
 <S_XX>,I know that the reccomendation to help the rain forests caused people to harm wildlife nonetheless,True,No Set,wildlife,78,86
-<S_XX>,I know that the legislation to help the rain forests caused people to harm wildlife nonetheless,True,Training,wildlife,75,83
-<S_XX>,I know that the suggestion to help the rain forests caused people to harm wildlife nonetheless,True,Training,wildlife,74,82
+<S_XX>,I know that the legislation to help the rain forests caused people to harm wildlife nonetheless,True,No Set,wildlife,75,83
+<S_XX>,I know that the suggestion to help the rain forests caused people to harm wildlife nonetheless,True,No Set,wildlife,74,82
 <S_XX>,I know that the political campaign to save the rain forests caused people to harm wildlife nonetheless,True,No Set,wildlife,82,90
 <S_XX>,I know that the reccomendation to save the rain forests caused people to harm wildlife nonetheless,True,No Set,wildlife,78,86
-<S_XX>,I know that the legislation to save the rain forests caused people to harm wildlife nonetheless,True,Training,wildlife,75,83
-<S_XX>,I know that the suggestion to save the rain forests caused people to harm wildlife nonetheless,True,Training,wildlife,74,82
+<S_XX>,I know that the legislation to save the rain forests caused people to harm wildlife nonetheless,True,No Set,wildlife,75,83
+<S_XX>,I know that the suggestion to save the rain forests caused people to harm wildlife nonetheless,True,No Set,wildlife,74,82
 <S_XX>,I know that the political campaign to preserve biodiversity caused people to harm wildlife nonetheless,True,No Set,wildlife,82,90
 <S_XX>,I know that the reccomendation to preserve biodiversity caused people to harm wildlife nonetheless,True,No Set,wildlife,78,86
 <S_XX>,I know that the legislation to preserve biodiversity caused people to harm wildlife nonetheless,True,No Set,wildlife,75,83
 <S_XX>,I know that the suggestion to preserve biodiversity caused people to harm wildlife nonetheless,True,No Set,wildlife,74,82
 <S_XX>,I know that the political campaign to help biodiversity caused people to harm wildlife nonetheless,True,No Set,wildlife,78,86
 <S_XX>,I know that the reccomendation to help biodiversity caused people to harm wildlife nonetheless,True,No Set,wildlife,74,82
-<S_XX>,I know that the legislation to help biodiversity caused people to harm wildlife nonetheless,True,Training,wildlife,71,79
-<S_XX>,I know that the suggestion to help biodiversity caused people to harm wildlife nonetheless,True,Training,wildlife,70,78
+<S_XX>,I know that the legislation to help biodiversity caused people to harm wildlife nonetheless,True,No Set,wildlife,71,79
+<S_XX>,I know that the suggestion to help biodiversity caused people to harm wildlife nonetheless,True,No Set,wildlife,70,78
 <S_XX>,I know that the political campaign to save biodiversity caused people to harm wildlife nonetheless,True,No Set,wildlife,78,86
 <S_XX>,I know that the reccomendation to save biodiversity caused people to harm wildlife nonetheless,True,No Set,wildlife,74,82
-<S_XX>,I know that the legislation to save biodiversity caused people to harm wildlife nonetheless,True,Training,wildlife,71,79
+<S_XX>,I know that the legislation to save biodiversity caused people to harm wildlife nonetheless,True,No Set,wildlife,71,79
 <S_XX>,I know that the suggestion to save biodiversity caused people to harm wildlife nonetheless,True,Training,wildlife,70,78
 <S_XX>,I know that the political campaign to preserve nature made people hurt plants nonetheless,True,No Set,plants,71,77
 <S_XX>,I know that the reccomendation to preserve nature made people hurt plants nonetheless,True,No Set,plants,67,73
@@ -2093,24 +2093,24 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the suggestion to preserve the rain forests caused people to hurt plants nonetheless,True,No Set,plants,78,84
 <S_XX>,I know that the political campaign to help the rain forests caused people to hurt plants nonetheless,True,No Set,plants,82,88
 <S_XX>,I know that the reccomendation to help the rain forests caused people to hurt plants nonetheless,True,No Set,plants,78,84
-<S_XX>,I know that the legislation to help the rain forests caused people to hurt plants nonetheless,True,Training,plants,75,81
-<S_XX>,I know that the suggestion to help the rain forests caused people to hurt plants nonetheless,True,Training,plants,74,80
+<S_XX>,I know that the legislation to help the rain forests caused people to hurt plants nonetheless,True,No Set,plants,75,81
+<S_XX>,I know that the suggestion to help the rain forests caused people to hurt plants nonetheless,True,No Set,plants,74,80
 <S_XX>,I know that the political campaign to save the rain forests caused people to hurt plants nonetheless,True,No Set,plants,82,88
 <S_XX>,I know that the reccomendation to save the rain forests caused people to hurt plants nonetheless,True,No Set,plants,78,84
-<S_XX>,I know that the legislation to save the rain forests caused people to hurt plants nonetheless,True,Training,plants,75,81
-<S_XX>,I know that the suggestion to save the rain forests caused people to hurt plants nonetheless,True,Training,plants,74,80
+<S_XX>,I know that the legislation to save the rain forests caused people to hurt plants nonetheless,True,No Set,plants,75,81
+<S_XX>,I know that the suggestion to save the rain forests caused people to hurt plants nonetheless,True,No Set,plants,74,80
 <S_XX>,I know that the political campaign to preserve biodiversity caused people to hurt plants nonetheless,True,No Set,plants,82,88
 <S_XX>,I know that the reccomendation to preserve biodiversity caused people to hurt plants nonetheless,True,No Set,plants,78,84
 <S_XX>,I know that the legislation to preserve biodiversity caused people to hurt plants nonetheless,True,No Set,plants,75,81
 <S_XX>,I know that the suggestion to preserve biodiversity caused people to hurt plants nonetheless,True,No Set,plants,74,80
 <S_XX>,I know that the political campaign to help biodiversity caused people to hurt plants nonetheless,True,No Set,plants,78,84
 <S_XX>,I know that the reccomendation to help biodiversity caused people to hurt plants nonetheless,True,No Set,plants,74,80
-<S_XX>,I know that the legislation to help biodiversity caused people to hurt plants nonetheless,True,Training,plants,71,77
-<S_XX>,I know that the suggestion to help biodiversity caused people to hurt plants nonetheless,True,Training,plants,70,76
+<S_XX>,I know that the legislation to help biodiversity caused people to hurt plants nonetheless,True,No Set,plants,71,77
+<S_XX>,I know that the suggestion to help biodiversity caused people to hurt plants nonetheless,True,No Set,plants,70,76
 <S_XX>,I know that the political campaign to save biodiversity caused people to hurt plants nonetheless,True,No Set,plants,78,84
 <S_XX>,I know that the reccomendation to save biodiversity caused people to hurt plants nonetheless,True,No Set,plants,74,80
-<S_XX>,I know that the legislation to save biodiversity caused people to hurt plants nonetheless,True,Training,plants,71,77
-<S_XX>,I know that the suggestion to save biodiversity caused people to hurt plants nonetheless,True,Training,plants,70,76
+<S_XX>,I know that the legislation to save biodiversity caused people to hurt plants nonetheless,True,No Set,plants,71,77
+<S_XX>,I know that the suggestion to save biodiversity caused people to hurt plants nonetheless,True,No Set,plants,70,76
 <S_XX>,I know that the political campaign to preserve nature made people harm plants nonetheless,True,No Set,plants,71,77
 <S_XX>,I know that the reccomendation to preserve nature made people harm plants nonetheless,True,No Set,plants,67,73
 <S_XX>,I know that the legislation to preserve nature made people harm plants nonetheless,True,No Set,plants,64,70
@@ -2141,71 +2141,71 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the suggestion to preserve the rain forests made people harm plants nonetheless,True,No Set,plants,73,79
 <S_XX>,I know that the political campaign to help the rain forests made people harm plants nonetheless,True,No Set,plants,77,83
 <S_XX>,I know that the reccomendation to help the rain forests made people harm plants nonetheless,True,No Set,plants,73,79
-<S_XX>,I know that the legislation to help the rain forests made people harm plants nonetheless,True,Training,plants,70,76
-<S_XX>,I know that the suggestion to help the rain forests made people harm plants nonetheless,True,Training,plants,69,75
+<S_XX>,I know that the legislation to help the rain forests made people harm plants nonetheless,True,No Set,plants,70,76
+<S_XX>,I know that the suggestion to help the rain forests made people harm plants nonetheless,True,No Set,plants,69,75
 <S_XX>,I know that the political campaign to save the rain forests made people harm plants nonetheless,True,No Set,plants,77,83
 <S_XX>,I know that the reccomendation to save the rain forests made people harm plants nonetheless,True,No Set,plants,73,79
-<S_XX>,I know that the legislation to save the rain forests made people harm plants nonetheless,True,Training,plants,70,76
-<S_XX>,I know that the suggestion to save the rain forests made people harm plants nonetheless,True,Training,plants,69,75
+<S_XX>,I know that the legislation to save the rain forests made people harm plants nonetheless,True,No Set,plants,70,76
+<S_XX>,I know that the suggestion to save the rain forests made people harm plants nonetheless,True,No Set,plants,69,75
 <S_XX>,I know that the political campaign to preserve biodiversity made people harm plants nonetheless,True,No Set,plants,77,83
 <S_XX>,I know that the reccomendation to preserve biodiversity made people harm plants nonetheless,True,No Set,plants,73,79
 <S_XX>,I know that the legislation to preserve biodiversity made people harm plants nonetheless,True,No Set,plants,70,76
 <S_XX>,I know that the suggestion to preserve biodiversity made people harm plants nonetheless,True,No Set,plants,69,75
 <S_XX>,I know that the political campaign to help biodiversity made people harm plants nonetheless,True,No Set,plants,73,79
 <S_XX>,I know that the reccomendation to help biodiversity made people harm plants nonetheless,True,No Set,plants,69,75
-<S_XX>,I know that the legislation to help biodiversity made people harm plants nonetheless,True,Training,plants,66,72
-<S_XX>,I know that the suggestion to help biodiversity made people harm plants nonetheless,True,Training,plants,65,71
+<S_XX>,I know that the legislation to help biodiversity made people harm plants nonetheless,True,No Set,plants,66,72
+<S_XX>,I know that the suggestion to help biodiversity made people harm plants nonetheless,True,No Set,plants,65,71
 <S_XX>,I know that the political campaign to save biodiversity made people harm plants nonetheless,True,No Set,plants,73,79
 <S_XX>,I know that the reccomendation to save biodiversity made people harm plants nonetheless,True,No Set,plants,69,75
-<S_XX>,I know that the legislation to save biodiversity made people harm plants nonetheless,True,Training,plants,66,72
-<S_XX>,I know that the suggestion to save biodiversity made people harm plants nonetheless,True,Training,plants,65,71
+<S_XX>,I know that the legislation to save biodiversity made people harm plants nonetheless,True,No Set,plants,66,72
+<S_XX>,I know that the suggestion to save biodiversity made people harm plants nonetheless,True,No Set,plants,65,71
 <S_XX>,I know that the political campaign to preserve nature caused people to harm plants nonetheless,True,No Set,plants,76,82
 <S_XX>,I know that the reccomendation to preserve nature caused people to harm plants nonetheless,True,No Set,plants,72,78
 <S_XX>,I know that the legislation to preserve nature caused people to harm plants nonetheless,True,No Set,plants,69,75
 <S_XX>,I know that the suggestion to preserve nature caused people to harm plants nonetheless,True,No Set,plants,68,74
 <S_XX>,I know that the political campaign to help nature caused people to harm plants nonetheless,True,No Set,plants,72,78
 <S_XX>,I know that the reccomendation to help nature caused people to harm plants nonetheless,True,No Set,plants,68,74
-<S_XX>,I know that the legislation to help nature caused people to harm plants nonetheless,True,Training,plants,65,71
-<S_XX>,I know that the suggestion to help nature caused people to harm plants nonetheless,True,Training,plants,64,70
+<S_XX>,I know that the legislation to help nature caused people to harm plants nonetheless,True,No Set,plants,65,71
+<S_XX>,I know that the suggestion to help nature caused people to harm plants nonetheless,True,No Set,plants,64,70
 <S_XX>,I know that the political campaign to save nature caused people to harm plants nonetheless,True,No Set,plants,72,78
 <S_XX>,I know that the reccomendation to save nature caused people to harm plants nonetheless,True,No Set,plants,68,74
-<S_XX>,I know that the legislation to save nature caused people to harm plants nonetheless,True,Training,plants,65,71
-<S_XX>,I know that the suggestion to save nature caused people to harm plants nonetheless,True,Training,plants,64,70
+<S_XX>,I know that the legislation to save nature caused people to harm plants nonetheless,True,No Set,plants,65,71
+<S_XX>,I know that the suggestion to save nature caused people to harm plants nonetheless,True,No Set,plants,64,70
 <S_XX>,I know that the political campaign to preserve the environment caused people to harm plants nonetheless,True,No Set,plants,85,91
 <S_XX>,I know that the reccomendation to preserve the environment caused people to harm plants nonetheless,True,No Set,plants,81,87
 <S_XX>,I know that the legislation to preserve the environment caused people to harm plants nonetheless,True,No Set,plants,78,84
 <S_XX>,I know that the suggestion to preserve the environment caused people to harm plants nonetheless,True,No Set,plants,77,83
 <S_XX>,I know that the political campaign to help the environment caused people to harm plants nonetheless,True,No Set,plants,81,87
 <S_XX>,I know that the reccomendation to help the environment caused people to harm plants nonetheless,True,No Set,plants,77,83
-<S_XX>,I know that the legislation to help the environment caused people to harm plants nonetheless,True,Training,plants,74,80
-<S_XX>,I know that the suggestion to help the environment caused people to harm plants nonetheless,True,Training,plants,73,79
+<S_XX>,I know that the legislation to help the environment caused people to harm plants nonetheless,True,No Set,plants,74,80
+<S_XX>,I know that the suggestion to help the environment caused people to harm plants nonetheless,True,No Set,plants,73,79
 <S_XX>,I know that the political campaign to save the environment caused people to harm plants nonetheless,True,No Set,plants,81,87
 <S_XX>,I know that the reccomendation to save the environment caused people to harm plants nonetheless,True,No Set,plants,77,83
-<S_XX>,I know that the legislation to save the environment caused people to harm plants nonetheless,True,Training,plants,74,80
-<S_XX>,I know that the suggestion to save the environment caused people to harm plants nonetheless,True,Training,plants,73,79
+<S_XX>,I know that the legislation to save the environment caused people to harm plants nonetheless,True,No Set,plants,74,80
+<S_XX>,I know that the suggestion to save the environment caused people to harm plants nonetheless,True,No Set,plants,73,79
 <S_XX>,I know that the political campaign to preserve the rain forests caused people to harm plants nonetheless,True,No Set,plants,86,92
 <S_XX>,I know that the reccomendation to preserve the rain forests caused people to harm plants nonetheless,True,No Set,plants,82,88
-<S_XX>,I know that the legislation to preserve the rain forests caused people to harm plants nonetheless,True,Training,plants,79,85
-<S_XX>,I know that the suggestion to preserve the rain forests caused people to harm plants nonetheless,True,Training,plants,78,84
-<S_XX>,I know that the political campaign to help the rain forests caused people to harm plants nonetheless,True,Training,plants,82,88
-<S_XX>,I know that the reccomendation to help the rain forests caused people to harm plants nonetheless,True,Training,plants,78,84
-<S_XX>,I know that the legislation to help the rain forests caused people to harm plants nonetheless,True,Training,plants,75,81
-<S_XX>,I know that the suggestion to help the rain forests caused people to harm plants nonetheless,True,Training,plants,74,80
-<S_XX>,I know that the political campaign to save the rain forests caused people to harm plants nonetheless,True,Training,plants,82,88
-<S_XX>,I know that the reccomendation to save the rain forests caused people to harm plants nonetheless,True,Training,plants,78,84
-<S_XX>,I know that the legislation to save the rain forests caused people to harm plants nonetheless,True,Training,plants,75,81
-<S_XX>,I know that the suggestion to save the rain forests caused people to harm plants nonetheless,True,Training,plants,74,80
+<S_XX>,I know that the legislation to preserve the rain forests caused people to harm plants nonetheless,True,No Set,plants,79,85
+<S_XX>,I know that the suggestion to preserve the rain forests caused people to harm plants nonetheless,True,No Set,plants,78,84
+<S_XX>,I know that the political campaign to help the rain forests caused people to harm plants nonetheless,True,No Set,plants,82,88
+<S_XX>,I know that the reccomendation to help the rain forests caused people to harm plants nonetheless,True,No Set,plants,78,84
+<S_XX>,I know that the legislation to help the rain forests caused people to harm plants nonetheless,True,No Set,plants,75,81
+<S_XX>,I know that the suggestion to help the rain forests caused people to harm plants nonetheless,True,No Set,plants,74,80
+<S_XX>,I know that the political campaign to save the rain forests caused people to harm plants nonetheless,True,No Set,plants,82,88
+<S_XX>,I know that the reccomendation to save the rain forests caused people to harm plants nonetheless,True,No Set,plants,78,84
+<S_XX>,I know that the legislation to save the rain forests caused people to harm plants nonetheless,True,No Set,plants,75,81
+<S_XX>,I know that the suggestion to save the rain forests caused people to harm plants nonetheless,True,No Set,plants,74,80
 <S_XX>,I know that the political campaign to preserve biodiversity caused people to harm plants nonetheless,True,No Set,plants,82,88
 <S_XX>,I know that the reccomendation to preserve biodiversity caused people to harm plants nonetheless,True,No Set,plants,78,84
-<S_XX>,I know that the legislation to preserve biodiversity caused people to harm plants nonetheless,True,Training,plants,75,81
-<S_XX>,I know that the suggestion to preserve biodiversity caused people to harm plants nonetheless,True,Training,plants,74,80
-<S_XX>,I know that the political campaign to help biodiversity caused people to harm plants nonetheless,True,Training,plants,78,84
-<S_XX>,I know that the reccomendation to help biodiversity caused people to harm plants nonetheless,True,Training,plants,74,80
-<S_XX>,I know that the legislation to help biodiversity caused people to harm plants nonetheless,True,Training,plants,71,77
-<S_XX>,I know that the suggestion to help biodiversity caused people to harm plants nonetheless,True,Training,plants,70,76
-<S_XX>,I know that the political campaign to save biodiversity caused people to harm plants nonetheless,True,Training,plants,78,84
-<S_XX>,I know that the reccomendation to save biodiversity caused people to harm plants nonetheless,True,Training,plants,74,80
-<S_XX>,I know that the legislation to save biodiversity caused people to harm plants nonetheless,True,Training,plants,71,77
+<S_XX>,I know that the legislation to preserve biodiversity caused people to harm plants nonetheless,True,No Set,plants,75,81
+<S_XX>,I know that the suggestion to preserve biodiversity caused people to harm plants nonetheless,True,No Set,plants,74,80
+<S_XX>,I know that the political campaign to help biodiversity caused people to harm plants nonetheless,True,No Set,plants,78,84
+<S_XX>,I know that the reccomendation to help biodiversity caused people to harm plants nonetheless,True,No Set,plants,74,80
+<S_XX>,I know that the legislation to help biodiversity caused people to harm plants nonetheless,True,No Set,plants,71,77
+<S_XX>,I know that the suggestion to help biodiversity caused people to harm plants nonetheless,True,No Set,plants,70,76
+<S_XX>,I know that the political campaign to save biodiversity caused people to harm plants nonetheless,True,No Set,plants,78,84
+<S_XX>,I know that the reccomendation to save biodiversity caused people to harm plants nonetheless,True,No Set,plants,74,80
+<S_XX>,I know that the legislation to save biodiversity caused people to harm plants nonetheless,True,No Set,plants,71,77
 <S_XX>,I know that the suggestion to save biodiversity caused people to harm plants nonetheless,True,Training,plants,70,76
 <S_XX>,I know that the political campaign to preserve nature made people hurt trees nonetheless,True,No Set,trees,71,76
 <S_XX>,I know that the reccomendation to preserve nature made people hurt trees nonetheless,True,No Set,trees,67,72
@@ -2285,23 +2285,23 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the suggestion to preserve the rain forests caused people to hurt trees nonetheless,True,No Set,trees,78,83
 <S_XX>,I know that the political campaign to help the rain forests caused people to hurt trees nonetheless,True,No Set,trees,82,87
 <S_XX>,I know that the reccomendation to help the rain forests caused people to hurt trees nonetheless,True,No Set,trees,78,83
-<S_XX>,I know that the legislation to help the rain forests caused people to hurt trees nonetheless,True,Training,trees,75,80
-<S_XX>,I know that the suggestion to help the rain forests caused people to hurt trees nonetheless,True,Training,trees,74,79
+<S_XX>,I know that the legislation to help the rain forests caused people to hurt trees nonetheless,True,No Set,trees,75,80
+<S_XX>,I know that the suggestion to help the rain forests caused people to hurt trees nonetheless,True,No Set,trees,74,79
 <S_XX>,I know that the political campaign to save the rain forests caused people to hurt trees nonetheless,True,No Set,trees,82,87
 <S_XX>,I know that the reccomendation to save the rain forests caused people to hurt trees nonetheless,True,No Set,trees,78,83
-<S_XX>,I know that the legislation to save the rain forests caused people to hurt trees nonetheless,True,Training,trees,75,80
-<S_XX>,I know that the suggestion to save the rain forests caused people to hurt trees nonetheless,True,Training,trees,74,79
+<S_XX>,I know that the legislation to save the rain forests caused people to hurt trees nonetheless,True,No Set,trees,75,80
+<S_XX>,I know that the suggestion to save the rain forests caused people to hurt trees nonetheless,True,No Set,trees,74,79
 <S_XX>,I know that the political campaign to preserve biodiversity caused people to hurt trees nonetheless,True,No Set,trees,82,87
 <S_XX>,I know that the reccomendation to preserve biodiversity caused people to hurt trees nonetheless,True,No Set,trees,78,83
 <S_XX>,I know that the legislation to preserve biodiversity caused people to hurt trees nonetheless,True,No Set,trees,75,80
 <S_XX>,I know that the suggestion to preserve biodiversity caused people to hurt trees nonetheless,True,No Set,trees,74,79
 <S_XX>,I know that the political campaign to help biodiversity caused people to hurt trees nonetheless,True,No Set,trees,78,83
 <S_XX>,I know that the reccomendation to help biodiversity caused people to hurt trees nonetheless,True,No Set,trees,74,79
-<S_XX>,I know that the legislation to help biodiversity caused people to hurt trees nonetheless,True,Training,trees,71,76
-<S_XX>,I know that the suggestion to help biodiversity caused people to hurt trees nonetheless,True,Training,trees,70,75
+<S_XX>,I know that the legislation to help biodiversity caused people to hurt trees nonetheless,True,No Set,trees,71,76
+<S_XX>,I know that the suggestion to help biodiversity caused people to hurt trees nonetheless,True,No Set,trees,70,75
 <S_XX>,I know that the political campaign to save biodiversity caused people to hurt trees nonetheless,True,No Set,trees,78,83
 <S_XX>,I know that the reccomendation to save biodiversity caused people to hurt trees nonetheless,True,No Set,trees,74,79
-<S_XX>,I know that the legislation to save biodiversity caused people to hurt trees nonetheless,True,Training,trees,71,76
+<S_XX>,I know that the legislation to save biodiversity caused people to hurt trees nonetheless,True,No Set,trees,71,76
 <S_XX>,I know that the suggestion to save biodiversity caused people to hurt trees nonetheless,True,Training,trees,70,75
 <S_XX>,I know that the political campaign to preserve nature made people harm trees nonetheless,True,No Set,trees,71,76
 <S_XX>,I know that the reccomendation to preserve nature made people harm trees nonetheless,True,No Set,trees,67,72
@@ -2333,23 +2333,23 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the suggestion to preserve the rain forests made people harm trees nonetheless,True,No Set,trees,73,78
 <S_XX>,I know that the political campaign to help the rain forests made people harm trees nonetheless,True,No Set,trees,77,82
 <S_XX>,I know that the reccomendation to help the rain forests made people harm trees nonetheless,True,No Set,trees,73,78
-<S_XX>,I know that the legislation to help the rain forests made people harm trees nonetheless,True,Training,trees,70,75
-<S_XX>,I know that the suggestion to help the rain forests made people harm trees nonetheless,True,Training,trees,69,74
+<S_XX>,I know that the legislation to help the rain forests made people harm trees nonetheless,True,No Set,trees,70,75
+<S_XX>,I know that the suggestion to help the rain forests made people harm trees nonetheless,True,No Set,trees,69,74
 <S_XX>,I know that the political campaign to save the rain forests made people harm trees nonetheless,True,No Set,trees,77,82
 <S_XX>,I know that the reccomendation to save the rain forests made people harm trees nonetheless,True,No Set,trees,73,78
-<S_XX>,I know that the legislation to save the rain forests made people harm trees nonetheless,True,Training,trees,70,75
-<S_XX>,I know that the suggestion to save the rain forests made people harm trees nonetheless,True,Training,trees,69,74
+<S_XX>,I know that the legislation to save the rain forests made people harm trees nonetheless,True,No Set,trees,70,75
+<S_XX>,I know that the suggestion to save the rain forests made people harm trees nonetheless,True,No Set,trees,69,74
 <S_XX>,I know that the political campaign to preserve biodiversity made people harm trees nonetheless,True,No Set,trees,77,82
 <S_XX>,I know that the reccomendation to preserve biodiversity made people harm trees nonetheless,True,No Set,trees,73,78
 <S_XX>,I know that the legislation to preserve biodiversity made people harm trees nonetheless,True,No Set,trees,70,75
 <S_XX>,I know that the suggestion to preserve biodiversity made people harm trees nonetheless,True,No Set,trees,69,74
 <S_XX>,I know that the political campaign to help biodiversity made people harm trees nonetheless,True,No Set,trees,73,78
 <S_XX>,I know that the reccomendation to help biodiversity made people harm trees nonetheless,True,No Set,trees,69,74
-<S_XX>,I know that the legislation to help biodiversity made people harm trees nonetheless,True,Training,trees,66,71
-<S_XX>,I know that the suggestion to help biodiversity made people harm trees nonetheless,True,Training,trees,65,70
+<S_XX>,I know that the legislation to help biodiversity made people harm trees nonetheless,True,No Set,trees,66,71
+<S_XX>,I know that the suggestion to help biodiversity made people harm trees nonetheless,True,No Set,trees,65,70
 <S_XX>,I know that the political campaign to save biodiversity made people harm trees nonetheless,True,No Set,trees,73,78
 <S_XX>,I know that the reccomendation to save biodiversity made people harm trees nonetheless,True,No Set,trees,69,74
-<S_XX>,I know that the legislation to save biodiversity made people harm trees nonetheless,True,Training,trees,66,71
+<S_XX>,I know that the legislation to save biodiversity made people harm trees nonetheless,True,No Set,trees,66,71
 <S_XX>,I know that the suggestion to save biodiversity made people harm trees nonetheless,True,Training,trees,65,70
 <S_XX>,I know that the political campaign to preserve nature caused people to harm trees nonetheless,True,No Set,trees,76,81
 <S_XX>,I know that the reccomendation to preserve nature caused people to harm trees nonetheless,True,No Set,trees,72,77
@@ -2357,11 +2357,11 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the suggestion to preserve nature caused people to harm trees nonetheless,True,No Set,trees,68,73
 <S_XX>,I know that the political campaign to help nature caused people to harm trees nonetheless,True,No Set,trees,72,77
 <S_XX>,I know that the reccomendation to help nature caused people to harm trees nonetheless,True,No Set,trees,68,73
-<S_XX>,I know that the legislation to help nature caused people to harm trees nonetheless,True,Training,trees,65,70
-<S_XX>,I know that the suggestion to help nature caused people to harm trees nonetheless,True,Training,trees,64,69
+<S_XX>,I know that the legislation to help nature caused people to harm trees nonetheless,True,No Set,trees,65,70
+<S_XX>,I know that the suggestion to help nature caused people to harm trees nonetheless,True,No Set,trees,64,69
 <S_XX>,I know that the political campaign to save nature caused people to harm trees nonetheless,True,No Set,trees,72,77
 <S_XX>,I know that the reccomendation to save nature caused people to harm trees nonetheless,True,No Set,trees,68,73
-<S_XX>,I know that the legislation to save nature caused people to harm trees nonetheless,True,Training,trees,65,70
+<S_XX>,I know that the legislation to save nature caused people to harm trees nonetheless,True,No Set,trees,65,70
 <S_XX>,I know that the suggestion to save nature caused people to harm trees nonetheless,True,Training,trees,64,69
 <S_XX>,I know that the political campaign to preserve the environment caused people to harm trees nonetheless,True,No Set,trees,85,90
 <S_XX>,I know that the reccomendation to preserve the environment caused people to harm trees nonetheless,True,No Set,trees,81,86
@@ -2369,31 +2369,31 @@ Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_XX>,I know that the suggestion to preserve the environment caused people to harm trees nonetheless,True,No Set,trees,77,82
 <S_XX>,I know that the political campaign to help the environment caused people to harm trees nonetheless,True,No Set,trees,81,86
 <S_XX>,I know that the reccomendation to help the environment caused people to harm trees nonetheless,True,No Set,trees,77,82
-<S_XX>,I know that the legislation to help the environment caused people to harm trees nonetheless,True,Training,trees,74,79
-<S_XX>,I know that the suggestion to help the environment caused people to harm trees nonetheless,True,Training,trees,73,78
+<S_XX>,I know that the legislation to help the environment caused people to harm trees nonetheless,True,No Set,trees,74,79
+<S_XX>,I know that the suggestion to help the environment caused people to harm trees nonetheless,True,No Set,trees,73,78
 <S_XX>,I know that the political campaign to save the environment caused people to harm trees nonetheless,True,No Set,trees,81,86
 <S_XX>,I know that the reccomendation to save the environment caused people to harm trees nonetheless,True,No Set,trees,77,82
-<S_XX>,I know that the legislation to save the environment caused people to harm trees nonetheless,True,Training,trees,74,79
+<S_XX>,I know that the legislation to save the environment caused people to harm trees nonetheless,True,No Set,trees,74,79
 <S_XX>,I know that the suggestion to save the environment caused people to harm trees nonetheless,True,Training,trees,73,78
 <S_XX>,I know that the political campaign to preserve the rain forests caused people to harm trees nonetheless,True,No Set,trees,86,91
 <S_XX>,I know that the reccomendation to preserve the rain forests caused people to harm trees nonetheless,True,No Set,trees,82,87
-<S_XX>,I know that the legislation to preserve the rain forests caused people to harm trees nonetheless,True,Training,trees,79,84
-<S_XX>,I know that the suggestion to preserve the rain forests caused people to harm trees nonetheless,True,Training,trees,78,83
-<S_XX>,I know that the political campaign to help the rain forests caused people to harm trees nonetheless,True,Training,trees,82,87
-<S_XX>,I know that the reccomendation to help the rain forests caused people to harm trees nonetheless,True,Training,trees,78,83
-<S_XX>,I know that the legislation to help the rain forests caused people to harm trees nonetheless,True,Training,trees,75,80
-<S_XX>,I know that the suggestion to help the rain forests caused people to harm trees nonetheless,True,Training,trees,74,79
-<S_XX>,I know that the political campaign to save the rain forests caused people to harm trees nonetheless,True,Training,trees,82,87
-<S_XX>,I know that the reccomendation to save the rain forests caused people to harm trees nonetheless,True,Training,trees,78,83
-<S_XX>,I know that the legislation to save the rain forests caused people to harm trees nonetheless,True,Training,trees,75,80
+<S_XX>,I know that the legislation to preserve the rain forests caused people to harm trees nonetheless,True,No Set,trees,79,84
+<S_XX>,I know that the suggestion to preserve the rain forests caused people to harm trees nonetheless,True,No Set,trees,78,83
+<S_XX>,I know that the political campaign to help the rain forests caused people to harm trees nonetheless,True,No Set,trees,82,87
+<S_XX>,I know that the reccomendation to help the rain forests caused people to harm trees nonetheless,True,No Set,trees,78,83
+<S_XX>,I know that the legislation to help the rain forests caused people to harm trees nonetheless,True,No Set,trees,75,80
+<S_XX>,I know that the suggestion to help the rain forests caused people to harm trees nonetheless,True,No Set,trees,74,79
+<S_XX>,I know that the political campaign to save the rain forests caused people to harm trees nonetheless,True,No Set,trees,82,87
+<S_XX>,I know that the reccomendation to save the rain forests caused people to harm trees nonetheless,True,No Set,trees,78,83
+<S_XX>,I know that the legislation to save the rain forests caused people to harm trees nonetheless,True,No Set,trees,75,80
 <S_XX>,I know that the suggestion to save the rain forests caused people to harm trees nonetheless,True,Training,trees,74,79
 <S_XX>,I know that the political campaign to preserve biodiversity caused people to harm trees nonetheless,True,No Set,trees,82,87
 <S_XX>,I know that the reccomendation to preserve biodiversity caused people to harm trees nonetheless,True,No Set,trees,78,83
-<S_XX>,I know that the legislation to preserve biodiversity caused people to harm trees nonetheless,True,Training,trees,75,80
+<S_XX>,I know that the legislation to preserve biodiversity caused people to harm trees nonetheless,True,No Set,trees,75,80
 <S_XX>,I know that the suggestion to preserve biodiversity caused people to harm trees nonetheless,True,Training,trees,74,79
-<S_XX>,I know that the political campaign to help biodiversity caused people to harm trees nonetheless,True,Training,trees,78,83
-<S_XX>,I know that the reccomendation to help biodiversity caused people to harm trees nonetheless,True,Training,trees,74,79
-<S_XX>,I know that the legislation to help biodiversity caused people to harm trees nonetheless,True,Training,trees,71,76
+<S_XX>,I know that the political campaign to help biodiversity caused people to harm trees nonetheless,True,No Set,trees,78,83
+<S_XX>,I know that the reccomendation to help biodiversity caused people to harm trees nonetheless,True,No Set,trees,74,79
+<S_XX>,I know that the legislation to help biodiversity caused people to harm trees nonetheless,True,No Set,trees,71,76
 <S_XX>,I know that the suggestion to help biodiversity caused people to harm trees nonetheless,True,Training,trees,70,75
 <S_XX>,I know that the political campaign to save biodiversity caused people to harm trees nonetheless,True,Training,trees,78,83
 <S_XX>,I know that the reccomendation to save biodiversity caused people to harm trees nonetheless,True,Training,trees,74,79

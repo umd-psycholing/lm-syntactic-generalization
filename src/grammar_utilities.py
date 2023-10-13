@@ -35,12 +35,11 @@ class SentenceInfo:
                 num_test_reserved += 1
             if lexical_item in test_set_disallowed_lexical_items:
                 num_test_disallowed += 1
-        if num_test_disallowed == 0:
+        if num_test_disallowed == 0: # all must be test_reserved
             return "Test"
-        if num_test_reserved < 2:
+        if num_test_reserved < 2: # no co-occurences of test set items
             return "Training"
         return "No Set"
-
 
 
 def _expand_first_non_terminal(input_sentence: list, grammar: dict[str]) -> list[list]:
@@ -209,9 +208,9 @@ def build_csv(grammar, starts, file_name, lexical_types=None) -> int:
     for lexical_type in lexical_types:
         non_terminals = grammar[lexical_type]
         test_reserved_lexical_items.extend(
-            non_terminals[:int(len(non_terminals) * .65)])
+            non_terminals[:round(len(non_terminals) * .65)])
         test_disallowed_lexical_items.extend(
-            non_terminals[int(len(non_terminals) * .65):])
+            non_terminals[round(len(non_terminals) * .65):])
 
     # unpack list of lists
     test_reserved_lexical_items = [
@@ -219,10 +218,6 @@ def build_csv(grammar, starts, file_name, lexical_types=None) -> int:
     test_disallowed_lexical_items = [
         item for sublist in test_disallowed_lexical_items for item in sublist]
     
-    print(test_reserved_lexical_items)
-    print(test_disallowed_lexical_items)
-    print("-0-0-0-0-0-0-0-")
-
     for start in starts:
         type, sentences = generate_sentences(grammar, start)
         for sentence in sentences:

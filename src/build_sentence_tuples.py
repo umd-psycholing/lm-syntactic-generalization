@@ -6,13 +6,29 @@ from itertools import product
 import csv
 
 
-def construct_quad(grammar, reserved_permutation, reserved_types, starts) -> int:
+def construct_quad(grammar, lexical_permutation, lexical_types, starts, test_reserved, test_disallowed) -> int:
     results = []
+
+    # get set
+    # count number of reserved, disallowed in permutation
+    num_reserved = num_disallowed = 0
+    for lexical_item in lexical_permutation:
+        if lexical_item[0] in test_reserved:
+            num_reserved += 1
+        elif lexical_item[0] in test_disallowed:
+            num_disallowed += 1
+    if num_disallowed == 0: # all must be test_reserved
+        set = "Test"
+    elif num_reserved < 2: # no co-occurences of test set items
+        set = "Training"
+    else :
+        set = "No Set"
+
 
     # build new grammar
     new_grammar = grammar
-    for i, reserved_type in enumerate(reserved_types):
-        new_grammar[reserved_type] = [reserved_permutation[i]]
+    for i, reserved_type in enumerate(lexical_types):
+        new_grammar[reserved_type] = [lexical_permutation[i]]
 
     # build new tuple of sentences
     sentence_tuple = []
@@ -22,7 +38,7 @@ def construct_quad(grammar, reserved_permutation, reserved_types, starts) -> int
         sentence_tuple.append((type, sentence))
 
     for type, sentence in sentence_tuple:
-        results.append([type, sentence.text, sentence.grammatical,
+        results.append([type, sentence.text, sentence.grammatical, set,
                         sentence.text[sentence.region_start:sentence.region_end],
                         sentence.region_start, sentence.region_end,])
 
@@ -30,28 +46,47 @@ def construct_quad(grammar, reserved_permutation, reserved_types, starts) -> int
 
 
 def build_tuple_csv_at(config_path, output_path=None):
-    cfg = {}
+    grammar = {}
     starts = []
-    reserved_types = []
+    lexical_types = []
     with open(config_path) as input:
         config_json = json.load(input)
 
-        cfg = config_json.get('grammar')
+        grammar = config_json.get('grammar')
         starts = config_json.get('starts')
-        reserved_types = config_json.get('reserved_types')
+        lexical_types = config_json.get('lexical_types')
 
     options = []
-    for reserved_type in reserved_types:
-        options.append(cfg.get(reserved_type))
+    for reserved_type in lexical_types:
+        options.append(grammar.get(reserved_type))
 
     permutations = list(product(*options))
 
-    results = [("Type", "Sentence", "Grammatical",
+    # unpack lexical_types
+    test_reserved_lexical_items = []
+    test_disallowed_lexical_items = []
+    for lexical_type in lexical_types:
+        non_terminals = grammar[lexical_type]
+        test_reserved_lexical_items.extend(
+            non_terminals[:round(len(non_terminals) * .65)])
+        test_disallowed_lexical_items.extend(
+            non_terminals[round(len(non_terminals) * .65):])
+        
+    # unpack list of lists
+    test_reserved_lexical_items = [
+        item for sublist in test_reserved_lexical_items for item in sublist]
+    test_disallowed_lexical_items = [
+        item for sublist in test_disallowed_lexical_items for item in sublist]
+    
+
+
+    results = [("Type", "Sentence", "Grammatical", "Set"
                 "Critical String", "Region Start", "Region End")]
 
     for permutation in permutations:
         word_tuple = construct_quad(
-            cfg, permutation, reserved_types, starts)
+            grammar, permutation, lexical_types, starts, 
+            test_reserved_lexical_items, test_disallowed_lexical_items)
 
         results.extend(word_tuple)
 
