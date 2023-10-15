@@ -13,17 +13,16 @@ def construct_quad(grammar, lexical_permutation, lexical_types, starts, test_res
     # count number of reserved, disallowed in permutation
     num_reserved = num_disallowed = 0
     for lexical_item in lexical_permutation:
-        if lexical_item[0] in test_reserved:
+        if lexical_item in test_reserved:
             num_reserved += 1
-        elif lexical_item[0] in test_disallowed:
+        elif lexical_item in test_disallowed:
             num_disallowed += 1
-    if num_disallowed == 0: # all must be test_reserved
+    if num_disallowed == 0:  # all must be test_reserved
         set = "Test"
-    elif num_reserved < 2: # no co-occurences of test set items
+    elif num_reserved < 2:  # no co-occurences of test set items
         set = "Training"
-    else :
+    else:
         set = "No Set"
-
 
     # build new grammar
     new_grammar = grammar
@@ -38,6 +37,7 @@ def construct_quad(grammar, lexical_permutation, lexical_types, starts, test_res
         sentence_tuple.append((type, sentence))
 
     for type, sentence in sentence_tuple:
+
         results.append([type, sentence.text, sentence.grammatical, set,
                         sentence.text[sentence.region_start:sentence.region_end],
                         sentence.region_start, sentence.region_end,])
@@ -62,7 +62,7 @@ def build_tuple_csv_at(config_path, output_path=None):
 
     permutations = list(product(*options))
 
-    # unpack lexical_types
+    # build test reserved, disallowed set of terminal lexical items
     test_reserved_lexical_items = []
     test_disallowed_lexical_items = []
     for lexical_type in lexical_types:
@@ -71,21 +71,14 @@ def build_tuple_csv_at(config_path, output_path=None):
             non_terminals[:round(len(non_terminals) * .65)])
         test_disallowed_lexical_items.extend(
             non_terminals[round(len(non_terminals) * .65):])
-        
-    # unpack list of lists
-    test_reserved_lexical_items = [
-        item for sublist in test_reserved_lexical_items for item in sublist]
-    test_disallowed_lexical_items = [
-        item for sublist in test_disallowed_lexical_items for item in sublist]
-    
 
-
+    # "key" CSV tuple
     results = [("Type", "Sentence", "Grammatical", "Set"
                 "Critical String", "Region Start", "Region End")]
 
     for permutation in permutations:
         word_tuple = construct_quad(
-            grammar, permutation, lexical_types, starts, 
+            grammar, permutation, lexical_types, starts,
             test_reserved_lexical_items, test_disallowed_lexical_items)
 
         results.extend(word_tuple)
