@@ -151,6 +151,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# This is where by-word surprisal jsons will be stored
 _ignore/
 surprisal_jsons/
+colorlessgreenRNNs/
