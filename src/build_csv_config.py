@@ -22,7 +22,8 @@ def build_csv_at(config_path, output_path=None):
 script_directory = os.path.dirname(os.path.abspath(__file__))
 
 # default input directory at ./src/cfg_configs/{config_name}.json
-config_directory = os.path.join(script_directory, 'cfg_configs')
+config_directory = os.path.join(
+    script_directory, 'cfg_configs', 'sentence_lists')
 
 # default output directory at ../data/cfg-output/{config_name}_output.csv
 output_directory = os.path.join(script_directory, '..', 'data', 'cfg-output')

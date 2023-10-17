@@ -49,7 +49,7 @@ def tokenize(sent):
     return sent.split()
 
 
-def grnn_surprisal(sentence):
+def get_grnn_surprisal(sentence):
     sentence = ["<eos>"] + tokenize(sentence)  # EOS prepend
     rnn_input = torch.LongTensor([indexify(w.lower()) for w in sentence])
     out, _ = grnn(rnn_input.view(-1, 1), model.init_hidden(1))

@@ -1,0 +1,82 @@
+Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
+S,I know who Alice's talking to bothered today,True,Test,,-1,-1
+S,I know who Bob's talking to bothered today,True,Test,,-1,-1
+S,I know who John's talking to bothered today,True,No Set,,-1,-1
+S,I know who Alice's friendship with bothered today,True,Test,,-1,-1
+S,I know who Bob's friendship with bothered today,True,Test,,-1,-1
+S,I know who John's friendship with bothered today,True,No Set,,-1,-1
+S,I know who Alice's praising of bothered today,True,No Set,,-1,-1
+S,I know who Bob's praising of bothered today,True,No Set,,-1,-1
+S,I know who John's praising of bothered today,True,No Set,,-1,-1
+S,I know who Alice's talking to excited today,True,Test,,-1,-1
+S,I know who Bob's talking to excited today,True,Test,,-1,-1
+S,I know who John's talking to excited today,True,No Set,,-1,-1
+S,I know who Alice's friendship with excited today,True,Test,,-1,-1
+S,I know who Bob's friendship with excited today,True,Test,,-1,-1
+S,I know who John's friendship with excited today,True,No Set,,-1,-1
+S,I know who Alice's praising of excited today,True,No Set,,-1,-1
+S,I know who Bob's praising of excited today,True,No Set,,-1,-1
+S,I know who John's praising of excited today,True,No Set,,-1,-1
+S,I know who Alice's talking to annoyed today,True,No Set,,-1,-1
+S,I know who Bob's talking to annoyed today,True,No Set,,-1,-1
+S,I know who John's talking to annoyed today,True,No Set,,-1,-1
+S,I know who Alice's friendship with annoyed today,True,No Set,,-1,-1
+S,I know who Bob's friendship with annoyed today,True,No Set,,-1,-1
+S,I know who John's friendship with annoyed today,True,No Set,,-1,-1
+S,I know who Alice's praising of annoyed today,True,No Set,,-1,-1
+S,I know who Bob's praising of annoyed today,True,No Set,,-1,-1
+S,I know who John's praising of annoyed today,True,Training,,-1,-1
+S,I know who Alice's talking to bothered yesterday,True,Test,,-1,-1
+S,I know who Bob's talking to bothered yesterday,True,Test,,-1,-1
+S,I know who John's talking to bothered yesterday,True,No Set,,-1,-1
+S,I know who Alice's friendship with bothered yesterday,True,Test,,-1,-1
+S,I know who Bob's friendship with bothered yesterday,True,Test,,-1,-1
+S,I know who John's friendship with bothered yesterday,True,No Set,,-1,-1
+S,I know who Alice's praising of bothered yesterday,True,No Set,,-1,-1
+S,I know who Bob's praising of bothered yesterday,True,No Set,,-1,-1
+S,I know who John's praising of bothered yesterday,True,No Set,,-1,-1
+S,I know who Alice's talking to excited yesterday,True,Test,,-1,-1
+S,I know who Bob's talking to excited yesterday,True,Test,,-1,-1
+S,I know who John's talking to excited yesterday,True,No Set,,-1,-1
+S,I know who Alice's friendship with excited yesterday,True,Test,,-1,-1
+S,I know who Bob's friendship with excited yesterday,True,Test,,-1,-1
+S,I know who John's friendship with excited yesterday,True,No Set,,-1,-1
+S,I know who Alice's praising of excited yesterday,True,No Set,,-1,-1
+S,I know who Bob's praising of excited yesterday,True,No Set,,-1,-1
+S,I know who John's praising of excited yesterday,True,No Set,,-1,-1
+S,I know who Alice's talking to annoyed yesterday,True,No Set,,-1,-1
+S,I know who Bob's talking to annoyed yesterday,True,No Set,,-1,-1
+S,I know who John's talking to annoyed yesterday,True,No Set,,-1,-1
+S,I know who Alice's friendship with annoyed yesterday,True,No Set,,-1,-1
+S,I know who Bob's friendship with annoyed yesterday,True,No Set,,-1,-1
+S,I know who John's friendship with annoyed yesterday,True,No Set,,-1,-1
+S,I know who Alice's praising of annoyed yesterday,True,No Set,,-1,-1
+S,I know who Bob's praising of annoyed yesterday,True,No Set,,-1,-1
+S,I know who John's praising of annoyed yesterday,True,Training,,-1,-1
+S,I know who Alice's talking to bothered lately,True,No Set,,-1,-1
+S,I know who Bob's talking to bothered lately,True,No Set,,-1,-1
+S,I know who John's talking to bothered lately,True,No Set,,-1,-1
+S,I know who Alice's friendship with bothered lately,True,No Set,,-1,-1
+S,I know who Bob's friendship with bothered lately,True,No Set,,-1,-1
+S,I know who John's friendship with bothered lately,True,No Set,,-1,-1
+S,I know who Alice's praising of bothered lately,True,No Set,,-1,-1
+S,I know who Bob's praising of bothered lately,True,No Set,,-1,-1
+S,I know who John's praising of bothered lately,True,Training,,-1,-1
+S,I know who Alice's talking to excited lately,True,No Set,,-1,-1
+S,I know who Bob's talking to excited lately,True,No Set,,-1,-1
+S,I know who John's talking to excited lately,True,No Set,,-1,-1
+S,I know who Alice's friendship with excited lately,True,No Set,,-1,-1
+S,I know who Bob's friendship with excited lately,True,No Set,,-1,-1
+S,I know who John's friendship with excited lately,True,No Set,,-1,-1
+S,I know who Alice's praising of excited lately,True,No Set,,-1,-1
+S,I know who Bob's praising of excited lately,True,No Set,,-1,-1
+S,I know who John's praising of excited lately,True,Training,,-1,-1
+S,I know who Alice's talking to annoyed lately,True,No Set,,-1,-1
+S,I know who Bob's talking to annoyed lately,True,No Set,,-1,-1
+S,I know who John's talking to annoyed lately,True,Training,,-1,-1
+S,I know who Alice's friendship with annoyed lately,True,No Set,,-1,-1
+S,I know who Bob's friendship with annoyed lately,True,No Set,,-1,-1
+S,I know who John's friendship with annoyed lately,True,Training,,-1,-1
+S,I know who Alice's praising of annoyed lately,True,Training,,-1,-1
+S,I know who Bob's praising of annoyed lately,True,Training,,-1,-1
+S,I know who John's praising of annoyed lately,True,Training,,-1,-1

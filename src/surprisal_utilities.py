@@ -1,4 +1,5 @@
 from minicons import scorer
+from grnn_handler import get_grnn_surprisal
 
 
 def compute_delta_gap(model_func: callable, gap_sentence: str, gap_critical: str, nogap_sentence: str, nogap_critical: str):
@@ -24,4 +25,4 @@ def gpt2_surprisal(sentence):
 
 
 def grnn_surprisal(sentence):
-    return grnn_surprisal(sentence)
+    return get_grnn_surprisal(sentence)

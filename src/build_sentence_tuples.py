@@ -17,13 +17,12 @@ def construct_quad(grammar, lexical_permutation, lexical_types, starts, test_res
             num_reserved += 1
         elif lexical_item in test_disallowed:
             num_disallowed += 1
-    if num_disallowed == 0: # all must be test_reserved
+    if num_disallowed == 0:  # all must be test_reserved
         set = "Test"
-    elif num_reserved < 2: # no co-occurences of test set items
+    elif num_reserved < 2:  # no co-occurences of test set items
         set = "Training"
-    else :
+    else:
         set = "No Set"
-
 
     # build new grammar
     new_grammar = grammar
@@ -65,19 +64,19 @@ def build_tuple_csv_at(config_path, output_path=None):
             non_terminals[:round(len(non_terminals) * .65)])
         test_disallowed_lexical_items.extend(
             non_terminals[round(len(non_terminals) * .65):])
-    
+
     options = []
     for reserved_type in lexical_types:
         options.append(grammar.get(reserved_type))
 
     permutations = list(product(*options))
 
-    results = [("Type", "Sentence", "Grammatical", "Set"
+    results = [("Type", "Sentence", "Grammatical", "Set",
                 "Critical String", "Region Start", "Region End")]
 
     for permutation in permutations:
         word_tuple = construct_quad(
-            grammar, permutation, lexical_types, starts, 
+            grammar, permutation, lexical_types, starts,
             test_reserved_lexical_items, test_disallowed_lexical_items)
 
         results.extend(word_tuple)
@@ -98,7 +97,7 @@ def build_tuple_csv_at(config_path, output_path=None):
 script_directory = os.path.dirname(os.path.abspath(__file__))
 config_directory = os.path.join(script_directory, 'cfg_configs')
 output_directory = os.path.join(
-    script_directory, '..', 'data/cfg-output/tuples')
+    script_directory, '..', 'data', 'cfg-output', 'tuples')
 
 
 config_name = [filename.removesuffix('.json')
