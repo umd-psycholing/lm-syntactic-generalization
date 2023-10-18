@@ -1,4 +1,4 @@
-Type,Sentence,Grammatical,SetCritical String,Region Start,Region End
+Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FG>,I know who Michael saw and helped today,True,Test,today,34,39
 <S_XG>,I know that Michael saw Christopher and helped today,False,Test,today,47,52
 <S_FX>,I know who Michael saw and helped Matthew today,False,Test,Matthew,34,41

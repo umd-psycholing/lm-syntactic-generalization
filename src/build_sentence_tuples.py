@@ -1,4 +1,3 @@
-import pandas as pd
 from grammar_utilities import generate_sentences
 import os
 import json
@@ -109,33 +108,3 @@ config_name = [filename.removesuffix('.json')
     os.path.join(config_directory, f'{config_path}.json'),
     os.path.join(output_directory, f'{config_path}_tuple_output.csv'))
  for config_path in config_name]
-
-
-def group_sentences(csv_filename):
-    # Read the CSV file into a pandas DataFrame
-    df = pd.read_csv(csv_filename)
-
-    # Initialize empty list to store grouped sentences
-    grouped_sentences = []
-
-    # Iterate through the DataFrame in groups of four rows
-    for i in range(0, len(df), 4):
-        grouped_sentence = {
-            'S_FG': None,
-            'S_XG': None,
-            'S_FX': None,
-            'S_XX': None
-        }
-
-        # Extract data for each sentence type
-        for j, sentence_type in enumerate(['S_FG', 'S_XG', 'S_FX', 'S_XX']):
-            sentence_data = df.iloc[i + j]
-            grouped_sentence[sentence_type] = {
-                'Sentence': sentence_data['Sentence'],
-                'Critical String': sentence_data['Critical String']
-            }
-
-        # Append the grouped sentence to the list
-        grouped_sentences.append(grouped_sentence)
-
-    return grouped_sentences

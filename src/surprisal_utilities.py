@@ -1,18 +1,5 @@
 from minicons import scorer
-from grnn_handler import get_grnn_surprisal
-
-
-def compute_delta_gap(model_func: callable, gap_sentence: str, gap_critical: str, nogap_sentence: str, nogap_critical: str):
-    gap_surprisals = model_func(gap_sentence)
-    gap_critical_surprisal = next((token[1] for token in gap_surprisals
-                                   if token[0] == gap_critical), 0)
-
-    nogap_surprisals = model_func(nogap_sentence)
-    nogap_critical_surprisal = next((token[1] for token in nogap_surprisals
-                                     if token[0] == nogap_critical), 0)
-
-    return gap_critical_surprisal - nogap_critical_surprisal
-
+# from grnn_handler import get_grnn_surprisal
 
 gpt2_model = scorer.IncrementalLMScorer("gpt2")
 
@@ -25,4 +12,5 @@ def gpt2_surprisal(sentence):
 
 
 def grnn_surprisal(sentence):
-    return get_grnn_surprisal(sentence)
+    pass
+    # return get_grnn_surprisal(sentence)

@@ -1,4 +1,4 @@
-Type,Sentence,Grammatical,SetCritical String,Region Start,Region End
+Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FG>,I know what the attempt to repair eventually damaged nevertheless,True,Test,nevertheless,53,65
 <S_XG>,I know that the attempt to repair the car eventually damaged nevertheless,False,Test,nevertheless,61,73
 <S_FX>,I know what the attempt to repair eventually damaged it nevertheless,False,Test,it,53,55

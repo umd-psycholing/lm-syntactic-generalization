@@ -1,4 +1,4 @@
-Type,Sentence,Grammatical,SetCritical String,Region Start,Region End
+Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FG>,I know what the political campaign to preserve made people hurt nevertheless,True,Test,nevertheless,64,76
 <S_XG>,I know that the political campaign to preserve nature made people hurt nevertheless,False,Test,nevertheless,71,83
 <S_FX>,I know what the political campaign to preserve made people hurt animals nevertheless,False,Test,animals,64,71

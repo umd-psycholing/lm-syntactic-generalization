@@ -1,4 +1,4 @@
-Type,Sentence,Grammatical,SetCritical String,Region Start,Region End
+Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 S,I know who Alice's talking to bothered today,True,Test,,-1,-1
 S,I know who Alice's talking to bothered yesterday,True,Test,,-1,-1
 S,I know who Alice's talking to bothered lately,True,No Set,,-1,-1

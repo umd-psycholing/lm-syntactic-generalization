@@ -1,4 +1,4 @@
-Type,Sentence,Grammatical,SetCritical String,Region Start,Region End
+Type,Sentence,Grammatical,Set,Critical String,Region Start,Region End
 <S_FG>,I know who Michael's recent talking to bothered recently,True,Test,recently,48,56
 <S_XG>,I know that Michael's recent talking to Christopher bothered recently,False,Test,recently,61,69
 <S_FX>,I know who Michael's recent talking to bothered Matthew recently,False,Test,Matthew,48,55
