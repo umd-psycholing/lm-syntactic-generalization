@@ -92,7 +92,7 @@ plt.scatter(num_pg, pg_surprisals, s=2, alpha=0.5, color='green')
 plt.xlabel(
     f'{round(num_pg_greater_than_zero / len(pg_surprisals), 2)} > 0 ({num_pg_greater_than_zero} / {len(pg_surprisals)})')
 plt.ylabel('Δ-filler - Δ+filler')
-plt.title('PG surprisals')
+plt.title('PG surprisals (GPT2)')
 plt.axhline(linestyle='-', label='y=0', color='black')
 
 num_atb = np.arange(len(atb_surprisals))
@@ -102,7 +102,7 @@ plt.scatter(num_atb, atb_surprisals, s=2, alpha=0.5, color='green')
 plt.xlabel(
     f'{round(num_atb_greater_than_zero / len(atb_surprisals), 2)} > 0 ({num_atb_greater_than_zero} / {len(atb_surprisals)})')
 plt.ylabel('Δ-filler - Δ+filler')
-plt.title('ATB surprisals')
+plt.title('ATB surprisals (GPT2)')
 plt.axhline(linestyle='-', label='y=0', color='black')
 
 plt.show()

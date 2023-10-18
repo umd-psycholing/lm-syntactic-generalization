@@ -6,8 +6,7 @@ import sys
 import torch
 import torch.nn.functional as F
 
-sys.path.insert(0, "C:/Users/rmhop/Desktop/lm-generalization")
-
+sys.path.insert(0, ".")
 
 def load_rnn(model_path):
     # this assumes we're using the CPU, which should be fine for inference
@@ -94,13 +93,13 @@ gpt2_model = scorer.IncrementalLMScorer("gpt2")
 torch.nn.Module.dump_patches = True
 
 #################################################################################################
-# Need assistance in GRNN surprisal. Currently the load_rnn() method causes problems.           #
-# It is possible I am on the wrong version of torch but before going through the headache of    #
-# moving to a pre-2.0 version I want to make sure. All of the GRNN setup is somewhat uncertain. #
+#                                                                                               #
+#                   Currently the load_rnn() fnunction causes problems.                         #
+#                                                                                               #
 #################################################################################################
 
 sys.path.insert(
-    0, "C:/Users/rmhop/Desktop/lm-generalization/src/colorlessgreenRNNs/src/language_models")
+    0, "./src/colorlessgreenRNNs/src/language_models")
 lstm_vocab = load_vocab(
     "./src/colorlessgreenRNNs/src/language_models/../data/lm")
 model, grnn = load_rnn(
