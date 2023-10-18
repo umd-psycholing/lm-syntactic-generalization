@@ -13,4 +13,4 @@ def gpt2_surprisal(sentence):
 
 def grnn_surprisal(sentence):
     pass
-    # return get_grnn_surprisal(sentence)
+    # return surprisal.grnn_surprisal(sentence)

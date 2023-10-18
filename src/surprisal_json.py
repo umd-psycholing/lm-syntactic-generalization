@@ -2,7 +2,7 @@ import csv
 import os
 import json
 
-from surprisal_utilities import gpt2_surprisal, grnn_surprisal
+import surprisal
 
 script_directory = os.path.dirname(os.path.abspath(__file__))
 csv_tuple_directory = os.path.join(
@@ -49,7 +49,7 @@ def surprisal_json_at(input_path, output_path, function: callable):
     os.path.join(csv_tuple_directory, f'{config_path}.csv'),
     os.path.join(surprisal_json_directory, 'gpt2',
                  f'{config_path.removesuffix("tuple_output")}gpt2_by_word_surprisal.json'),
-    gpt2_surprisal)
+    surprisal.gpt2_surprisal)
  for config_path in config_name]
 print("DONE GPT2")
 
@@ -58,6 +58,6 @@ print("DONE GPT2")
 #     os.path.join(csv_tuple_directory, f'{config_path}.csv'),
 #     os.path.join(surprisal_json_directory, 'grnn_intrained',
 #                  f'{config_path.removesuffix("tuple_output")}grnn_by_word_surprisal.json'),
-#     grnn_surprisal)
+#     surprisal.grnn_suprisal)
 #  for config_path in config_name]
 # print("DONE GRNN")
