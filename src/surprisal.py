@@ -8,6 +8,7 @@ import torch.nn.functional as F
 
 sys.path.insert(0, ".")
 
+
 def load_rnn(model_path):
     # this assumes we're using the CPU, which should be fine for inference
     # we can change the settings to allow GPU inference if needed
@@ -119,7 +120,7 @@ def gpt2_surprisal(sentence):
 
 
 # grnn
-def grnn_surprisal(model: RNNModel, grnn: RNNModel, vocab: Dictionary, sentence):
+def grnn_surprisal(sentence: str, model: RNNModel = model, grnn: RNNModel = grnn, vocab: Dictionary = lstm_vocab):
     sentence = ["<eos>"] + tokenize(sentence)  # EOS prepend
     rnn_input = torch.LongTensor(
         [indexify(w.lower(), vocab) for w in sentence])
