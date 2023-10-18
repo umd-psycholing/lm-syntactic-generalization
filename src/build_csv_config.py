@@ -2,6 +2,15 @@ from grammar_utilities import build_csv
 import os
 import json
 
+"""
+This file (and even moreso build_csv_manual.py) are somewhat deprecated by build_sentence_tuples.
+    - This file generates sentence lists, which is useful, but they are not formatted into tuples which
+      makes the lists less-than-useful when computing Δ(-filler) - Δ(+filler).
+    - It does have some use in testing out grammars since there will be no repeated sentences.
+        - Validity of results can be tested by multiplying terminals in S_XX (fully-qualified) entries.
+    - Similarly, build_csv_manual.py is useful for quickly developing & testing grammars.
+"""
+
 
 def build_csv_at(config_path, output_path=None):
     with open(config_path) as input:

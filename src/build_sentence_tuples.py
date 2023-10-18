@@ -8,6 +8,12 @@ import csv
 def construct_quad(grammar, lexical_permutation, lexical_types, starts, test_reserved, test_disallowed) -> int:
     results = []
 
+    #########################################################################
+    # Awaiting response from Lan to email regarding classifying sentences.  #
+    # The method described (as is implemented below) results in far too few #
+    # sentences in the training set, and WAY too many non-classified.       #
+    #########################################################################
+
     # get set
     # count number of reserved, disallowed in permutation
     num_reserved = num_disallowed = 0

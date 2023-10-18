@@ -45,11 +45,6 @@ def compute_delta_deltas(surprisal_json_input, tuple_csv_input):
         sentence_FX = group.get('<S_FX>')
         sentence_XX = group.get('<S_XX>')
 
-        # print(sentence_FG)
-        # print(sentence_XG)
-        # print(sentence_FX)
-        # print(sentence_XX)
-
         surprisal_FG = surprisal_dict[sentence_FG]["surprisals"][surprisal_dict[sentence_FG]["critical"]]
         surprisal_XG = surprisal_dict[sentence_XG]["surprisals"][surprisal_dict[sentence_XG]["critical"]]
         surprisal_FX = surprisal_dict[sentence_FX]["surprisals"][surprisal_dict[sentence_FX]["critical"]]
@@ -63,6 +58,9 @@ def compute_delta_deltas(surprisal_json_input, tuple_csv_input):
     return delta_deltas
 
 
+# We assume that the surprisals have already been calculated, and that all tuples are generated
+
+# Calcualate delta-filler minus delta+filler for both PG and ATB (for gpt)
 pg_surprisals = []
 for tuple_csv, surprisal_json in zip(os.listdir(csv_tuple_directory)[1:4],
                                      os.listdir(gpt_surprisal_json_directory)[1:4]):
@@ -86,6 +84,7 @@ for tuple_csv, surprisal_json in zip(os.listdir(csv_tuple_directory)[4:],
     ))
 
 
+# Plotting data
 num_pg = np.arange(len(pg_surprisals))
 num_pg_greater_than_zero = sum(1 for num in pg_surprisals if num > 0)
 plt.figure(1)
@@ -94,6 +93,7 @@ plt.xlabel(
     f'{round(num_pg_greater_than_zero / len(pg_surprisals), 2)} > 0 ({num_pg_greater_than_zero} / {len(pg_surprisals)})')
 plt.ylabel('Δ-filler - Δ+filler')
 plt.title('PG surprisals')
+plt.axhline(linestyle='-', label='y=0', color='black')
 
 num_atb = np.arange(len(atb_surprisals))
 num_atb_greater_than_zero = sum(1 for num in atb_surprisals if num > 0)
@@ -103,5 +103,12 @@ plt.xlabel(
     f'{round(num_atb_greater_than_zero / len(atb_surprisals), 2)} > 0 ({num_atb_greater_than_zero} / {len(atb_surprisals)})')
 plt.ylabel('Δ-filler - Δ+filler')
 plt.title('ATB surprisals')
+plt.axhline(linestyle='-', label='y=0', color='black')
 
 plt.show()
+
+#######################################################################################
+# Still not sure how to limit the number of tuples. I end up w/ upwards of 32k tuples #
+# (generated using all possible fully-qualified <S_XX> sentences from provided cfg's) #
+# while Lan et al. only have 6,144 PG data-points & 5552 GPT2 data points.            #
+#######################################################################################
