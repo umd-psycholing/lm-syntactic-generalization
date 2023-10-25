@@ -30,8 +30,12 @@ def surprisal_json_at(input_path, output_path, function: callable):
             type = row['Type'].removeprefix('<').removesuffix('>')
             critical = row.get('Critical String')
 
+            # find a way to handle second-instance of a sentence
+            #   add an underline after for duplicates ex: "the" -> "the_" -> "the__" -> ...
+            #   add number before/after for duplicates ex: "the" -> {"2_the"/"the_2"} -> {"3_the"/"the_3"} -> ...
             surprisals = {token: surprisal
                           for token, surprisal in function(sentence)}
+            
             data_dict[sentence] = {
                 "type": type,
                 "surprisals": surprisals,
@@ -44,20 +48,20 @@ def surprisal_json_at(input_path, output_path, function: callable):
     print(f"{output_path} done!")
 
 
-# do it for gpt2
+# gpt2 ** (newer torch version) **
 [surprisal_json_at(
-    os.path.join(csv_tuple_directory, f'{config_path}.csv'),
-    os.path.join(surprisal_json_directory, 'gpt2',
+    input_path=os.path.join(csv_tuple_directory, f'{config_path}.csv'),
+    output_path=os.path.join(surprisal_json_directory, 'gpt2',
                  f'{config_path.removesuffix("tuple_output")}gpt2_by_word_surprisal.json'),
-    surprisal.gpt2_surprisal)
+    function=surprisal.gpt2_surprisal)
  for config_path in config_name]
 print("DONE GPT2")
 
-# do it for grnn (untrained) ** COULD NOT GET IT WORKING **
+# grnn (untrained) ** (older torch version) **
 # [surprisal_json_at(
-#     os.path.join(csv_tuple_directory, f'{config_path}.csv'),
-#     os.path.join(surprisal_json_directory, 'grnn_intrained',
+#     input_path=os.path.join(csv_tuple_directory, f'{config_path}.csv'),
+#     output_path=os.path.join(surprisal_json_directory, 'grnn_untrained',
 #                  f'{config_path.removesuffix("tuple_output")}grnn_by_word_surprisal.json'),
-#     surprisal.grnn_suprisal)
+#     function=surprisal.grnn_surprisal)
 #  for config_path in config_name]
 # print("DONE GRNN")

@@ -15,7 +15,7 @@ def construct_quad(grammar, lexical_permutation, lexical_types, starts, test_res
     #########################################################################
 
     # get set
-    # count number of reserved, disallowed in permutation
+    # count number of test-reserved, test-disallowed in permutation
     num_reserved = num_disallowed = 0
     for lexical_item in lexical_permutation:
         if lexical_item in test_reserved:

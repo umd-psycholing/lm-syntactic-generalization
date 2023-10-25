@@ -9,6 +9,9 @@ csv_tuple_directory = os.path.join(
     script_directory, '..', 'data', 'cfg-output', 'tuples')
 gpt_surprisal_json_directory = os.path.join(script_directory,
                                             '..', 'data/surprisal_jsons', 'gpt2')
+grnn_surprisal_json_directory = os.path.join(script_directory,
+                                            '..', 'data/surprisal_jsons', 'grnn_untrained')
+
 
 
 def group_sentences(csv_filename):
@@ -50,8 +53,8 @@ def compute_delta_deltas(surprisal_json_input, tuple_csv_input):
         surprisal_FX = surprisal_dict[sentence_FX]["surprisals"][surprisal_dict[sentence_FX]["critical"]]
         surprisal_XX = surprisal_dict[sentence_XX]["surprisals"][surprisal_dict[sentence_XX]["critical"]]
 
-        delta_filler = surprisal_FG - surprisal_FX
-        delta_no_filler = surprisal_XG - surprisal_XX
+        delta_filler = float(surprisal_FG - surprisal_FX)
+        delta_no_filler = float(surprisal_XG - surprisal_XX)
 
         delta_deltas.append(delta_no_filler - delta_filler)
 
@@ -110,5 +113,5 @@ plt.show()
 #######################################################################################
 # Still not sure how to limit the number of tuples. I end up w/ upwards of 32k tuples #
 # (generated using all possible fully-qualified <S_XX> sentences from provided cfg's) #
-# while Lan et al. only have 6,144 PG data-points & 5552 GPT2 data points.            #
+# while Lan et al. only have 6,144 PG data-points & 5,552 GPT2 data points.           #
 #######################################################################################

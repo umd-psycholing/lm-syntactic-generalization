@@ -113,7 +113,10 @@ celerybeat.pid
 
 # Environments
 .env
+# environment for GPT2 (updated versions of python, torch)
 .venv
+# my environment for GRNN (older versions of python, torch)  
+.venvold
 env/
 venv/
 ENV/

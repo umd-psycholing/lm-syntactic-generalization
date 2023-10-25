@@ -14,7 +14,7 @@
         "<XF>": [["that the", "<SUBJ>", "to", "<V1>", "<OBJ1>"]],
         "<G>": [["<V3>", "<V2>", "/", "<ADJUNCT>", "/"]],
         "<XG>": [["<V3>", "<V2>", "/", "<OBJ2>", "/", "<ADJUNCT>"]],
-        "<SUBJ>": [["political campaign"], ["reccomendation"], ["legislation"], ["suggestion"]],
+        "<SUBJ>": [["political campaign"], ["recommendation"], ["legislation"], ["suggestion"]],
         "<V1>": [["preserve"], ["help"], ["save"]],
         "<OBJ1>": [["nature"], ["the environment"], ["the rain forests"], ["biodiversity"]],
         "<V3>": [["made people"], ["caused people to"]],

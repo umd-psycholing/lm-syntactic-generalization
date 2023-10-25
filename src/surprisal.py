@@ -34,11 +34,14 @@ def load_vocab(vocab_path):
     # the path must be a directory
     return Dictionary(vocab_path)
 
-
+not_in_vocab = []
 def indexify(word, vocab):
     """ Convert word to an index into the embedding matrix """
     if word not in vocab.word2idx:
-        print("Warning: {} not in vocab".format(word))
+        # print non-vocabulary words only once
+        if word not in not_in_vocab:
+            not_in_vocab.append(word)
+            print("Warning: {} not in vocab".format(word))
     return vocab.word2idx[word] if word in vocab.word2idx else vocab.word2idx["<unk>"]
 
 
@@ -82,22 +85,27 @@ def align_surprisal(token_surprisals: List[Tuple[str, float]], sentence: str):
     return word_level_surprisal
 
 
-################
-# INITIALIZERS #
-################
+##################
+# GPT2           #
+# (torch>=2.0.0) #
+##################
 
 # gpt2
 gpt2_model = scorer.IncrementalLMScorer("gpt2")
 
+def gpt2_surprisal(sentence):
+    # returns [(token, score), (token, score), ...]
+    results = gpt2_model.token_score(
+        sentence, surprisal=True, base_two=True)[0]
+    return results
 
-# grnn
-torch.nn.Module.dump_patches = True
+#################
+# GRNN          #
+# (torch<1.8.0) #
+#################
 
-#################################################################################################
-#                                                                                               #
-#                   Currently the load_rnn() fnunction causes problems.                         #
-#                                                                                               #
-#################################################################################################
+"""
+torch.nn.Module.dump_patches = False
 
 sys.path.insert(
     0, "./src/colorlessgreenRNNs/src/language_models")
@@ -107,23 +115,14 @@ model, grnn = load_rnn(
     "./src/colorlessgreenRNNs/src/language_models/../models/hidden650_batch128_dropout0.2_lr20.0.pt")
 
 
-############
-# WRAPPERS #
-############
-
-# gpt2
-def gpt2_surprisal(sentence):
-    # returns [(token, score), (token, score), ...]
-    results = gpt2_model.token_score(
-        sentence, surprisal=True, base_two=True)[0]
-    return results
-
-
-# grnn
 def grnn_surprisal(sentence: str, model: RNNModel = model, grnn: RNNModel = grnn, vocab: Dictionary = lstm_vocab):
     sentence = ["<eos>"] + tokenize(sentence)  # EOS prepend
     rnn_input = torch.LongTensor(
-        [indexify(w.lower(), vocab) for w in sentence])
+        # [indexify(w.lower(), vocab) for w in sentence]) # lowercase names are not in vocab!
+        [indexify(w, vocab) for w in sentence])
     out, _ = grnn(rnn_input.view(-1, 1), model.init_hidden(1))
-    return [-F.log_softmax(out[i], dim=-1).view(-1)[word_idx].item() for i, (word_idx, word)
-            in enumerate(zip(rnn_input, sentence))][1:-1]
+    surprisals = [-F.log_softmax(out[i], dim=-1).view(-1)[word_idx].item() for i, (word_idx, word)
+            in enumerate(zip(rnn_input, sentence))]
+    # [1:] skips "<eos>" and corresponding surprisal
+    return (list(zip(sentence[1:], surprisals[1:])))
+"""
