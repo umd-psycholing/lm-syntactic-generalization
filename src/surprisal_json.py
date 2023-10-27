@@ -2,7 +2,8 @@ import csv
 import os
 import json
 
-import surprisal
+import surprisal_gpt2
+import surprisal_grnn
 
 script_directory = os.path.dirname(os.path.abspath(__file__))
 csv_tuple_directory = os.path.join(
@@ -35,7 +36,7 @@ def surprisal_json_at(input_path, output_path, function: callable):
             #   add number before/after for duplicates ex: "the" -> {"2_the"/"the_2"} -> {"3_the"/"the_3"} -> ...
             surprisals = {token: surprisal
                           for token, surprisal in function(sentence)}
-            
+
             data_dict[sentence] = {
                 "type": type,
                 "surprisals": surprisals,
@@ -49,19 +50,19 @@ def surprisal_json_at(input_path, output_path, function: callable):
 
 
 # gpt2 ** (newer torch version) **
-[surprisal_json_at(
-    input_path=os.path.join(csv_tuple_directory, f'{config_path}.csv'),
-    output_path=os.path.join(surprisal_json_directory, 'gpt2',
-                 f'{config_path.removesuffix("tuple_output")}gpt2_by_word_surprisal.json'),
-    function=surprisal.gpt2_surprisal)
- for config_path in config_name]
-print("DONE GPT2")
-
-# grnn (untrained) ** (older torch version) **
 # [surprisal_json_at(
 #     input_path=os.path.join(csv_tuple_directory, f'{config_path}.csv'),
-#     output_path=os.path.join(surprisal_json_directory, 'grnn_untrained',
-#                  f'{config_path.removesuffix("tuple_output")}grnn_by_word_surprisal.json'),
-#     function=surprisal.grnn_surprisal)
+#     output_path=os.path.join(surprisal_json_directory, 'gpt2',
+#                              f'{config_path.removesuffix("tuple_output")}gpt2_by_word_surprisal.json'),
+#     function=surprisal_gpt2.gpt2_surprisal)
 #  for config_path in config_name]
-# print("DONE GRNN")
+# print("DONE GPT2")
+
+# grnn (untrained) ** (older torch version) **
+[surprisal_json_at(
+    input_path=os.path.join(csv_tuple_directory, f'{config_path}.csv'),
+    output_path=os.path.join(surprisal_json_directory, 'grnn_untrained',
+                             f'{config_path.removesuffix("tuple_output")}grnn_by_word_surprisal.json'),
+    function=surprisal_grnn.grnn_surprisal)
+ for config_path in config_name]
+print("DONE GRNN")

@@ -1,14 +1,21 @@
 from colorlessgreenRNNs.src.language_models.dictionary_corpus import Dictionary
 from colorlessgreenRNNs.src.language_models.model import RNNModel
-from minicons import scorer
 from typing import List, Tuple
 import sys
+# torch<=1.7.X (for colorlessgreenRNNs' pretrained model, if I can retrain GRNN w/ a newer torch I shall)
 import torch
 import torch.nn.functional as F
+
+
+#################
+# GRNN          #
+# (torch<1.8.0) #
+#################
 
 sys.path.insert(0, ".")
 
 
+# load GRNN
 def load_rnn(model_path):
     # this assumes we're using the CPU, which should be fine for inference
     # we can change the settings to allow GPU inference if needed
@@ -20,6 +27,7 @@ def load_rnn(model_path):
     return model, grnn
 
 
+# calculate surprisal
 def grnn_surprisal(model: RNNModel, grnn: RNNModel, vocab: Dictionary, sentence):
     sentence = ["<eos>"] + tokenize(sentence)  # EOS prepend
     rnn_input = torch.LongTensor(
@@ -29,12 +37,16 @@ def grnn_surprisal(model: RNNModel, grnn: RNNModel, vocab: Dictionary, sentence)
             in enumerate(zip(rnn_input, sentence))][1:-1]
 
 
+# vocab comes from colorlessgreenRNNs/src/data/lm/vocab.txt (where gulordova repo references it)
 def load_vocab(vocab_path):
     # loads vocabulary for RNN model
     # the path must be a directory
     return Dictionary(vocab_path)
 
+
 not_in_vocab = []
+
+
 def indexify(word, vocab):
     """ Convert word to an index into the embedding matrix """
     if word not in vocab.word2idx:
@@ -63,6 +75,7 @@ def tokenize(sent):
     return sent.split()
 
 
+# NOTE: currently unused, should ask sathvik abt the purpose of this
 def align_surprisal(token_surprisals: List[Tuple[str, float]], sentence: str):
     # this is used to tokenize RNN input but if we're going to compare GPT outputs we might as well use the same technique
     words = tokenize(sentence)
@@ -85,26 +98,7 @@ def align_surprisal(token_surprisals: List[Tuple[str, float]], sentence: str):
     return word_level_surprisal
 
 
-##################
-# GPT2           #
-# (torch>=2.0.0) #
-##################
-
-# gpt2
-gpt2_model = scorer.IncrementalLMScorer("gpt2")
-
-def gpt2_surprisal(sentence):
-    # returns [(token, score), (token, score), ...]
-    results = gpt2_model.token_score(
-        sentence, surprisal=True, base_two=True)[0]
-    return results
-
-#################
-# GRNN          #
-# (torch<1.8.0) #
-#################
-
-"""
+# makes sure torch just prints its complaints about the source change, and doesn't spit out .patch files
 torch.nn.Module.dump_patches = False
 
 sys.path.insert(
@@ -122,7 +116,6 @@ def grnn_surprisal(sentence: str, model: RNNModel = model, grnn: RNNModel = grnn
         [indexify(w, vocab) for w in sentence])
     out, _ = grnn(rnn_input.view(-1, 1), model.init_hidden(1))
     surprisals = [-F.log_softmax(out[i], dim=-1).view(-1)[word_idx].item() for i, (word_idx, word)
-            in enumerate(zip(rnn_input, sentence))]
+                  in enumerate(zip(rnn_input, sentence))]
     # [1:] skips "<eos>" and corresponding surprisal
     return (list(zip(sentence[1:], surprisals[1:])))
-"""
