@@ -44,7 +44,8 @@ atb_surprisals = []
 for i, atb_tuple in enumerate(atb_tuples):
     atb_surprisals.append(
         surprisal.surprisal_effect_from_tuple(atb_tuple, "gpt2"))
-    # print(f"Surprisals generated for ATB Grammar {i + 1}.")
+    if i % 100 == 99:
+        print(f"Surprisals generated for ATB Grammar {i + 1}.")
 
 # plot data
 plt.figure(1)
@@ -59,14 +60,15 @@ for i, text_grammar in enumerate(grammars.PG_GRAMMARS):
     grammar = CFG.fromstring(text_grammar)
     pg_tuples.extend(
         generate_corpora.generate_all_sentence_tuples_from_grammar(grammar))
-    # print(f"All 2x2s generated for PG Grammar {i + 1}.")
+    print(f"All 2x2s generated for PG Grammar {i + 1}.")
 
 # calculate surprisal on all pg sentence tuples
 pg_surprisals = []
 for i, pg_tuple in enumerate(pg_tuples):
     pg_surprisals.append(
         surprisal.surprisal_effect_from_tuple(pg_tuple, "gpt2"))
-    print(f"Surprisals generated for PG Grammar {i + 1}.")
+    if i % 100 == 99:
+        print(f"Surprisals generated for PG Grammar {i + 1}.")
 
 # plot data
 plt.figure(2)

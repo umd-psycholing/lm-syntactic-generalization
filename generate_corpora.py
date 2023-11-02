@@ -572,12 +572,12 @@ def corpus_from_json(where_to_load: str = None, is_tuples: bool = False) -> tupl
         raise FileNotFoundError("Unable to load json.")
 
 
-for i, grammar in enumerate(grammars.PG_GRAMMARS):
-    all_sentences = generate_all_sentence_tuples_from_grammar(
-        CFG.fromstring(grammar))
-    corpus_to_json(all_sentences, f"PG_{i}_tuple_data.json")
-
-for i, grammar in enumerate(grammars.ATB_GRAMMARS):
-    all_sentences = generate_all_sentence_tuples_from_grammar(
-        CFG.fromstring(grammar))
-    corpus_to_json(all_sentences, f"PG_{i}_tuple_data.json")
+# for i, grammar in enumerate(grammars.PG_GRAMMARS):
+#     all_sentences = generate_all_sentence_tuples_from_grammar(
+#         CFG.fromstring(grammar))
+#     corpus_to_json(all_sentences, f"PG_{i}_tuple_data.json")
+#
+# for i, grammar in enumerate(grammars.ATB_GRAMMARS):
+#     all_sentences = generate_all_sentence_tuples_from_grammar(
+#         CFG.fromstring(grammar))
+#     corpus_to_json(all_sentences, f"PG_{i}_tuple_data.json")
