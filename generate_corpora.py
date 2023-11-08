@@ -542,13 +542,14 @@ def generate_all_sentences_from_grammar(grammar: CFG) -> tuple[SentenceData]:
     return output
 
 
-# save iterable of tuples of sentences to json
-def corpus_to_json(input_data: Iterable[TupleSentenceData], where_to_save: str = None):
+# save sentence data to a json
+# works on both SentenceData objects and TupleSentenceData objects
+def corpus_to_json(input_data: Iterable[SentenceData] | Iterable[TupleSentenceData], where_to_save: str = None):
     if where_to_save == None:
         where_to_save = input("Provide file path: ")
 
-    output = [tuple_sentence_data.to_dict()
-              for tuple_sentence_data in input_data]
+    output = [possibly_tuple_sentence_data.to_dict()
+              for possibly_tuple_sentence_data in input_data]
 
     try:
         with open(where_to_save, "w") as json_file:
@@ -558,7 +559,7 @@ def corpus_to_json(input_data: Iterable[TupleSentenceData], where_to_save: str =
 
 
 # load tuples of sentences from json, get tuple of the tuples (2x2s)
-def corpus_from_json(where_to_load: str = None, is_tuples: bool = False) -> tuple[TupleSentenceData]:
+def corpus_from_json(where_to_load: str = None, is_tuples: bool = False) -> tuple[SentenceData] | tuple[TupleSentenceData]:
     if where_to_load == None:
         where_to_load = input("Provide file path: ")
 

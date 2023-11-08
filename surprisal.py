@@ -41,7 +41,7 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
         # the path must be a directory
         return Dictionary(vocab_path)
 
-    # emulate GPT2 auto-tokenization
+    # GRNN model expects this sort of tokenization for input (split -'s is critical)
     def tokenize(sent):
         sent = sent.strip()
         if sent == "":
@@ -106,7 +106,7 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
 
     # single sentence surprisal for gpt2
     def grnn_surprisal(sentence: str, model: RNNModel = model, grnn: RNNModel = grnn, vocab: Dictionary = lstm_vocab):
-        sentence = ["<eos>"] + tokenize(sentence)  # EOS prepend
+        sentence = ["<eos>"] + tokenize(sentence)  # EOS prepend + 's split
         rnn_input = torch.LongTensor(
             # [indexify(w.lower(), vocab) for w in sentence]) # lowercase names are not in vocab!
             [indexify(w, vocab) for w in sentence])
