@@ -117,9 +117,20 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
         return (list(zip(sentence[1:], surprisals[1:])))
 
 
+def compute_surprisal_effect_from_surprisals(s_fg_surprisal: float, s_xg_surprisal: float,
+                                             s_fx_surprisal: float, s_xx_surprisal: float):
+    # how much more surprising is a gap, assuming a filler? (should be very low/negative)
+    delta_plus_filler = (s_fg_surprisal - s_fx_surprisal)
+    # how much better is a gap, assuming no filler? (should be very high)
+    delta_minus_filler = (s_xg_surprisal - s_xx_surprisal)
+
+    # we expect to see a positive value here if the model is doing a good job!
+    return delta_minus_filler - delta_plus_filler
+
+
 # wrappers for model-specific, single-sentence surprisal functions
-def surprisal_effect_from_tuple(sentence_tuple: TupleSentenceData, model: str):
-    # generate each sentence's surprisal
+def surprisal_effect_full_tuple(sentence_tuple: TupleSentenceData, model: str, update_class_fields: bool = False):
+    # 'unpack' tuple
     (s_fg, s_xg, s_fx, s_xx) = (
         sentence_tuple.s_fg,
         sentence_tuple.s_xg,
@@ -127,25 +138,23 @@ def surprisal_effect_from_tuple(sentence_tuple: TupleSentenceData, model: str):
         sentence_tuple.s_xx
     )
 
-    s_fg_surprisal = critical_surprisal_from_sentence(s_fg, model_to_use=model)
-    s_xg_surprisal = critical_surprisal_from_sentence(s_xg, model_to_use=model)
-    s_fx_surprisal = critical_surprisal_from_sentence(s_fx, model_to_use=model)
-    s_xx_surprisal = critical_surprisal_from_sentence(s_xx, model_to_use=model)
+    # generate each sentence's surprisal
+    s_fg_surprisal = critical_surprisal_from_sentence(
+        sentence=s_fg, model_to_use=model, update_class_field=update_class_fields)
+    s_xg_surprisal = critical_surprisal_from_sentence(
+        sentence=s_xg, model_to_use=model, update_class_field=update_class_fields)
+    s_fx_surprisal = critical_surprisal_from_sentence(
+        sentence=s_fx, model_to_use=model, update_class_field=update_class_fields)
+    s_xx_surprisal = critical_surprisal_from_sentence(
+        sentence=s_xx, model_to_use=model, update_class_field=update_class_fields)
 
-    # calculate surprisal effect
-    # how much more surprising is a gap, assuming a filler? (should be very low/negative)
-    delta_plus_filler = (s_fg_surprisal - s_fx_surprisal)
-    # how much better is a gap, assuming no filler? (should be very high)
-    delta_minus_filler = (s_xg_surprisal - s_xx_surprisal)
-
-    # we expect to see a positive value here if the model is doing a good job!
-    surprisal_effect = (delta_minus_filler - delta_plus_filler)
-
-    return surprisal_effect
+    # defined externally since it may be calculated w/out re-calculating surprisal
+    return compute_surprisal_effect_from_surprisals(s_fg_surprisal, s_xg_surprisal,
+                                                    s_fx_surprisal, s_xx_surprisal)
 
 
 # only implemented for model="gpt2", "grnn"
-def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str):
+def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str, update_class_field: bool = False):
     critical_text = sentence.critical_token
 
     # calculate surprisal from indicated model
@@ -167,5 +176,8 @@ def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str):
             critical_surprisal = surprisal_result
     if critical_surprisal == None:
         raise TypeError("Critical not found in surprisal data")
+
+    if update_class_field:
+        sentence.critical_surprisal = critical_surprisal
 
     return critical_surprisal

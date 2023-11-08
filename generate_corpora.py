@@ -4,7 +4,7 @@ import collections
 import time
 import json
 from dataclasses import dataclass
-from typing import Iterable
+from typing import Iterable, Optional
 
 
 import re
@@ -17,6 +17,7 @@ import itertools
 import grammars
 
 
+# currently unused, SentenceData class just stores strings for tokens
 @dataclass
 class TokenData:
     text: str
@@ -45,6 +46,8 @@ class SentenceData:
     grammatical: bool
     # critical_token: TokenData
     critical_token: str
+    # assigned when get_surprisal is calculated (& assign = True)
+    critical_surprisal: Optional[float] = None
 
     def __str__(self) -> str:
         # return " ".join(x.text for x in self.processed_tokens)
@@ -59,7 +62,8 @@ class SentenceData:
             # 'processed_tokens': [token.to_dict() for token in self.processed_tokens],
             'processed_tokens': self.processed_tokens,
             'grammatical': self.grammatical,
-            'critical_token': self.critical_token
+            'critical_token': self.critical_token,
+            'critical_surprisal': self.critical_surprisal,
         }
 
     @classmethod
@@ -71,7 +75,8 @@ class SentenceData:
             processed_tokens=data["processed_tokens"],
             grammatical=data["grammatical"],
             # critical_token=TokenData.from_dict(data["critical_token"])
-            critical_token=data["critical_token"]
+            critical_token=data["critical_token"],
+            critical_surprisal=data["critical_surprisal"],
         )
 
 
@@ -345,7 +350,7 @@ def generate_train_test_sentence_tuples_from_grammar(grammar: CFG, split_ratio: 
     for full_test_lex_choice in all_full_test_lex_choices:
         # add sentence constructed using that set of choices
         test_idxs.add(full_lex_choices_to_sentence_idx[full_test_lex_choice])
-    print(test_lex_choices)  # debug
+    # print(test_lex_choices)  # debug
     # construct pairs of test lexical choices (to be removed from training)
     test_lex_choice_pairs = []
     # for each pair of categories
@@ -570,14 +575,3 @@ def corpus_from_json(where_to_load: str = None, is_tuples: bool = False) -> tupl
         return output
     except:
         raise FileNotFoundError("Unable to load json.")
-
-
-# for i, grammar in enumerate(grammars.PG_GRAMMARS):
-#     all_sentences = generate_all_sentence_tuples_from_grammar(
-#         CFG.fromstring(grammar))
-#     corpus_to_json(all_sentences, f"PG_{i}_tuple_data.json")
-#
-# for i, grammar in enumerate(grammars.ATB_GRAMMARS):
-#     all_sentences = generate_all_sentence_tuples_from_grammar(
-#         CFG.fromstring(grammar))
-#     corpus_to_json(all_sentences, f"PG_{i}_tuple_data.json")
