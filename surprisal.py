@@ -42,7 +42,7 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
         return Dictionary(vocab_path)
 
     # GRNN model expects this sort of tokenization for input (split -'s is critical)
-    def tokenize(sent):
+    def grnn_tokenize(sent):
         sent = sent.strip()
         if sent == "":
             return []
@@ -75,7 +75,7 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
     # NOTE: currently unused
     def align_surprisal(token_surprisals: list[tuple[str, float]], sentence: str):
         # this is used to tokenize RNN input but if we're going to compare GPT outputs we might as well use the same technique
-        words = tokenize(sentence)
+        words = grnn_tokenize(sentence)
         token_index = 0
         word_index = 0
         word_level_surprisal = []  # list of word, surprisal tuples
@@ -106,7 +106,7 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
 
     # single sentence surprisal for gpt2
     def grnn_surprisal(sentence: str, model: RNNModel = model, grnn: RNNModel = grnn, vocab: Dictionary = lstm_vocab):
-        sentence = ["<eos>"] + tokenize(sentence)  # EOS prepend + 's split
+        sentence = ["<eos>"] + grnn_tokenize(sentence)  # EOS prepend + 's split
         rnn_input = torch.LongTensor(
             # [indexify(w.lower(), vocab) for w in sentence]) # lowercase names are not in vocab!
             [indexify(w, vocab) for w in sentence])

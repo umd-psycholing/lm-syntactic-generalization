@@ -17,7 +17,7 @@ import itertools
 import grammars
 
 
-# currently unused, SentenceData class just stores strings for tokens
+# currently unused, SentenceData class just stores strings instead of TokenData-s
 @dataclass
 class TokenData:
     text: str
@@ -227,7 +227,8 @@ def _grammar_output_to_sentence(output_tokens: list[str]) -> SentenceData:
     for t in output_tokens:
         broken_tokens += _tokenize(t)
 
-    # merge possessives (gpt2 unmerges them automatically from merged)
+    # merge possessives (gpt2 unmerges them automatically from merged, and we un-merge them before passing to GRNN)
+    # maybe possessives should start un-merged, and then merged before passed to GPT2
     broken_tokens = _fuse_apostrophes_in_tuple(broken_tokens)
 
     # tokens to sentence
@@ -261,7 +262,8 @@ def _grammar_output_to_sentence(output_tokens: list[str]) -> SentenceData:
 #       Thus, S_XX, regardless of whether that represents a filler-gap dependency in truth,
 #       must contain all lexical data required.
 # At this point, *still* too few tuples are being generated, so perhaps the issue is elsewhere.
-def generate_train_test_sentence_tuples_from_grammar(grammar: CFG, split_ratio: float = 0.65) -> tuple[tuple[TupleSentenceData], tuple[TupleSentenceData]]:
+def generate_train_test_sentence_tuples_from_grammar(grammar: CFG, split_ratio: float = 0.65) -> tuple[tuple[TupleSentenceData], 
+                                                                                                       tuple[TupleSentenceData]]:
     # important that our sentences be generated from S_XX form
     grammar._start = grammars.NO_FILLER_NO_GAP
 
@@ -485,7 +487,7 @@ def generate_all_sentence_tuples_from_grammar(grammar: CFG) -> tuple[TupleSenten
     return tuples
 
 
-# generates s_fg, s_xx sentences, both of which are grammatical (these are NOT paired up--just successive)
+# generates s_fg, s_xx sentences, both of which are grammatical (these are NOT paired up--s_xx sentences follow after s_fg)
 def generate_grammatical_sentences_from_grammar(grammar: CFG) -> tuple[SentenceData]:
     # generate +filler,+gap (grammatical)
     grammar._start = grammars.FILLER_GAP
@@ -544,21 +546,23 @@ def generate_all_sentences_from_grammar(grammar: CFG) -> tuple[SentenceData]:
 
 # save sentence data to a json
 # works on both SentenceData objects and TupleSentenceData objects
-def corpus_to_json(input_data: Iterable[SentenceData] | Iterable[TupleSentenceData], where_to_save: str = None):
-    if where_to_save == None:
-        where_to_save = input("Provide file path: ")
+def corpus_to_json(input_data: Iterable[SentenceData] | Iterable[TupleSentenceData], filename: str = None) -> str:
+    if filename == None:
+        filename = input("Provide file (relative) path: ")
 
     output = [possibly_tuple_sentence_data.to_dict()
               for possibly_tuple_sentence_data in input_data]
-
     try:
-        with open(where_to_save, "w") as json_file:
+        with open(filename, "w") as json_file:
             json.dump(output, json_file, indent=2)
     except:
         raise FileNotFoundError("Unable to save json.")
+    
+    return filename
 
 
 # load tuples of sentences from json, get tuple of the tuples (2x2s)
+# user must define whether or not the corpus is made up of SentenceData objects or TupleSentenceData objects
 def corpus_from_json(where_to_load: str = None, is_tuples: bool = False) -> tuple[SentenceData] | tuple[TupleSentenceData]:
     if where_to_load == None:
         where_to_load = input("Provide file path: ")
@@ -566,6 +570,7 @@ def corpus_from_json(where_to_load: str = None, is_tuples: bool = False) -> tupl
     try:
         with open(where_to_load, "r") as json_file:
             loaded_data = json.load(json_file)
+
         # user must tell function whether it is looking for tuples or just sentences
         if is_tuples:
             output = tuple([TupleSentenceData.from_dict(loaded_dict)
@@ -576,3 +581,5 @@ def corpus_from_json(where_to_load: str = None, is_tuples: bool = False) -> tupl
         return output
     except:
         raise FileNotFoundError("Unable to load json.")
+    
+corpus_from_json("atb_training.json", True)
