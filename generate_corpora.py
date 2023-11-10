@@ -262,8 +262,8 @@ def _grammar_output_to_sentence(output_tokens: list[str]) -> SentenceData:
 #       Thus, S_XX, regardless of whether that represents a filler-gap dependency in truth,
 #       must contain all lexical data required.
 # At this point, *still* too few tuples are being generated, so perhaps the issue is elsewhere.
-def generate_train_test_sentence_tuples_from_grammar(grammar: CFG, split_ratio: float = 0.65) -> tuple[tuple[TupleSentenceData], 
-                                                                                                       tuple[TupleSentenceData]]:
+def generate_s_xx_train_test_sentence_tuples_from_grammar(grammar: CFG, split_ratio: float = 0.65) -> tuple[tuple[TupleSentenceData],
+                                                                                                            tuple[TupleSentenceData]]:
     # important that our sentences be generated from S_XX form
     grammar._start = grammars.NO_FILLER_NO_GAP
 
@@ -288,9 +288,8 @@ def generate_train_test_sentence_tuples_from_grammar(grammar: CFG, split_ratio: 
     # for each generated sentence and its index
     for i, sentence_tokens in enumerate(generate.generate(grammar)):
         # find its productions (which lexical items did it use)
-        terminal_productions_tuples = (
-            (key, value) for key, value in _get_terminal_productions_of_grammar_output(sentence_tokens, grammar).items())
-        lex_choices = frozenset(terminal_productions_tuples)
+        lex_choices = frozenset(((key, value) for key, value in
+                                 _get_terminal_productions_of_grammar_output(sentence_tokens, grammar).items()))
         # (this sentence's used lexical items) -> this sentence's index
         full_lex_choices_to_sentence_idx[lex_choices] = i
 
@@ -376,10 +375,10 @@ def generate_train_test_sentence_tuples_from_grammar(grammar: CFG, split_ratio: 
         # subtract sentences which overlap (use both cat1's choice1 and cat2's choice2)
         training_idxs -= (sentences1 & sentences2)
 
-    # training_sentences = tuple(all_sentences[i] for i in sorted(training_idxs))
-    # test_sentences = tuple(all_sentences[i] for i in sorted(test_idxs))
+    training_sentences = tuple(all_sentences[i] for i in sorted(training_idxs))
+    test_sentences = tuple(all_sentences[i] for i in sorted(test_idxs))
 
-    # return training_sentences, test_sentences
+    return training_sentences, test_sentences
 
     ########################################################################################################
     # NOTE: Section 3: Back-fill S_FG, S_XG, S_FX sentences using fully-qualified.                         #
@@ -557,7 +556,7 @@ def corpus_to_json(input_data: Iterable[SentenceData] | Iterable[TupleSentenceDa
             json.dump(output, json_file, indent=2)
     except:
         raise FileNotFoundError("Unable to save json.")
-    
+
     return filename
 
 
@@ -581,5 +580,14 @@ def corpus_from_json(where_to_load: str = None, is_tuples: bool = False) -> tupl
         return output
     except:
         raise FileNotFoundError("Unable to load json.")
-    
-corpus_from_json("atb_training.json", True)
+
+
+training = []
+testing = []
+for grammar in grammars.ATB_GRAMMARS:
+    tr, te = generate_s_xx_train_test_sentence_tuples_from_grammar(
+        grammar=CFG.fromstring(grammar), split_ratio=0.65)
+    training.extend(tr)
+    testing.extend(te)
+
+print(len(training), len(testing))
