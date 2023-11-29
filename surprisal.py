@@ -106,7 +106,8 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
 
     # single sentence surprisal for gpt2
     def grnn_surprisal(sentence: str, model: RNNModel = model, grnn: RNNModel = grnn, vocab: Dictionary = lstm_vocab):
-        sentence = ["<eos>"] + grnn_tokenize(sentence)  # EOS prepend + 's split
+        # EOS prepend + 's split
+        sentence = ["<eos>"] + grnn_tokenize(sentence)
         rnn_input = torch.LongTensor(
             # [indexify(w.lower(), vocab) for w in sentence]) # lowercase names are not in vocab!
             [indexify(w, vocab) for w in sentence])
@@ -153,7 +154,7 @@ def surprisal_effect_full_tuple(sentence_tuple: TupleSentenceData, model: str, u
                                                     s_fx_surprisal, s_xx_surprisal)
 
 
-# only implemented for model="gpt2", "grnn"
+# implemented for model="gpt2", "grnn"
 def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str, update_class_field: bool = False):
     critical_text = sentence.critical_token
 

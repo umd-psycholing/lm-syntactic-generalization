@@ -1,3 +1,4 @@
+from typing import Union
 import random
 import math
 import collections
@@ -47,7 +48,7 @@ class SentenceData:
     # critical_token: TokenData
     critical_token: str
     # assigned when get_surprisal is calculated (& assign = True)
-    critical_surprisal: Optional[float] = None
+    critical_surprisal: float = None
 
     def __str__(self) -> str:
         # return " ".join(x.text for x in self.processed_tokens)
@@ -250,18 +251,7 @@ def _grammar_output_to_sentence(output_tokens: list[str]) -> SentenceData:
     )
 
 
-# Modified from Lan, et al. (2023)
-# Func: get_terminal_productions is slightly different in our implementation,
-# accounting for the variation in code seen where that function is invoked.
-# It also seems as though they use this to generate S_FG sentence forms, which seems like a mistake.
-# In this implementation, this function generates all S_XX forms (which happen to contain all lexical choices)
-# then works backwards to generate the S_FG, S_XG, S_FX forms (as long as other constructions follow a similar format)
-
-# NOTE: In order for that pipeline to work, we must assume that S_XX contains all of the
-#       lexical decisions thatwould be required in order to generate S_FG, S_XG, and S_FX forms.
-#       Thus, S_XX, regardless of whether that represents a filler-gap dependency in truth,
-#       must contain all lexical data required.
-# At this point, *still* too few tuples are being generated, so perhaps the issue is elsewhere.
+""" This function reflects an outdated method of generating training, testing set which does not replicate Lan. 
 def generate_s_xx_train_test_sentence_tuples_from_grammar(grammar: CFG, split_ratio: float = 0.65) -> tuple[tuple[TupleSentenceData],
                                                                                                             tuple[TupleSentenceData]]:
     # important that our sentences be generated from S_XX form
@@ -375,10 +365,10 @@ def generate_s_xx_train_test_sentence_tuples_from_grammar(grammar: CFG, split_ra
         # subtract sentences which overlap (use both cat1's choice1 and cat2's choice2)
         training_idxs -= (sentences1 & sentences2)
 
-    training_sentences = tuple(all_sentences[i] for i in sorted(training_idxs))
-    test_sentences = tuple(all_sentences[i] for i in sorted(test_idxs))
+    # training_sentences = tuple(all_sentences[i] for i in sorted(training_idxs))
+    # test_sentences = tuple(all_sentences[i] for i in sorted(test_idxs))
 
-    return training_sentences, test_sentences
+    # return training_sentences, test_sentences
 
     ########################################################################################################
     # NOTE: Section 3: Back-fill S_FG, S_XG, S_FX sentences using fully-qualified.                         #
@@ -437,6 +427,118 @@ def generate_s_xx_train_test_sentence_tuples_from_grammar(grammar: CFG, split_ra
           f"{len(training_tuples)} were selected for training and {len(test_tuples)} for testing.")
 
     return training_tuples, test_tuples
+"""
+
+
+# Modified from Lan, et al. (2023)
+# Function get_terminal_productions is slightly different in our implementation,
+# accounting for the variation in code seen where that function is invoked.
+def generate_s_fg_train_test_sentence_tuples_from_grammar(grammar: CFG, split_ratio: float = 0.65,
+                                                          random_seed: int = grammars.RANDOM_SEED) -> tuple[tuple[SentenceData],
+                                                                                                            tuple[SentenceData]]:
+    # start from S_FG sentences
+    grammar._start = grammars.FILLER_GAP
+
+    all_sentences = []
+
+    # (NAME1, 'John') -> set(1, 4, 6, ...)
+    single_lex_choice_to_sentence_idxs = collections.defaultdict(set)
+
+    # 'NAME1' -> set('John', 'Michael', 'Harold', ...)
+    all_lex_choices_per_category = collections.defaultdict(set)
+
+    # set of all lexical choices (tuples) -> x (index)
+    full_lex_choices_to_sentence_idx = {}
+
+    # for each generated sentence and its index
+    for i, sentence_tokens in enumerate(generate.generate(grammar)):
+        # find its productions (which lexical items did it use)
+        lex_choices = frozenset(((key, value) for key, value in
+                                 _get_terminal_productions_of_grammar_output(sentence_tokens, grammar).items()))
+        # (this sentence's used lexical items) -> this sentence's index
+        full_lex_choices_to_sentence_idx[lex_choices] = i
+
+        # for each category and lexical choice this sentence made
+        for category, lex_choice in lex_choices:
+            # assemble set of lexical choices per category (for use later when reserving test lexical items)
+            all_lex_choices_per_category[category].add(lex_choice)
+            # (category, lexical choice) -> all s_xx sentences which chose that lexical item for that category
+            single_lex_choice_to_sentence_idxs[(category, lex_choice)].add(i)
+
+        # add SentenceData form of sentence
+        all_sentences.append((_grammar_output_to_sentence(sentence_tokens)))
+
+    # category -> lexical choices (set aside for testing set sentences)
+    test_lex_choices = {}
+
+    random.seed(random_seed)  # set random seed
+
+    # for each category and its lexical choices
+    for category, lex_choices in all_lex_choices_per_category.items():
+        # reserve (1 - split_ratio) proportion of lexical choices for testing set
+
+        # NOTE: Lan, et al. (2022) claims to reserve 65% of lexical choices per category for test sentences.
+        # In fact, they reserve 35% (rounded up) for test lexical choices.
+        # Then, of all sentences generated, all sentences which include two lexical choices reserved for
+        # test sentences are removed in order to generate the training set.
+        #   Ends up removing all of the testing set items by default. (All lexical choices are test-reserved)
+
+        num_test_lex_choices = math.ceil((1 - split_ratio) * len(lex_choices))
+        # select that many randomly from the category's lexical choices
+        category_test_lex_choices = tuple(
+            random.sample(sorted(lex_choices), num_test_lex_choices)
+        )
+        test_lex_choices[category] = category_test_lex_choices
+
+    all_full_test_lex_choices = tuple(
+        map(
+            frozenset,
+            itertools.product(
+                # find all combinations of test lexical choices which can then be used
+                # alongside full_lex_choices_to_sentence_idx to retrieve the sentences
+                # generated from those lexical choices.
+                *[
+                    [(cat, lex_choice) for lex_choice in test_lex_choices[cat]]
+                    for cat in test_lex_choices
+                ]
+            ),
+        )
+    )
+
+    # get indices of sentences using test-reserved lexical choices
+    test_idxs = set()
+    # for each test full lexical choice (full meaning for all categories)
+    for full_test_lex_choice in all_full_test_lex_choices:
+        # add sentence constructed using that set of choices
+        test_idxs.add(full_lex_choices_to_sentence_idx[full_test_lex_choice])
+    # print(test_lex_choices)  # debug
+    # construct pairs of test lexical choices (to be removed from training)
+    test_lex_choice_pairs = []
+    # for each pair of categories
+    for (cat1, cat1_choices), (cat2, cat2_choices) in itertools.combinations(
+        test_lex_choices.items(), 2
+    ):
+        # for each pair of lexical choices within the selected categories
+        for lex_choice1, lex_choice2 in itertools.product(cat1_choices, cat2_choices):
+            # append that (category, lexical choice), (category, lexical choice) pairing
+            test_lex_choice_pairs.append(
+                ((cat1, lex_choice1), (cat2, lex_choice2)))
+
+    # training sentences starts with EVERY sentence
+    training_idxs = set(range(len(all_sentences)))
+
+    # for each pair of (category, lexical choice), (category, lexical choice)
+    for (cat1, lex_choice1), (cat2, lex_choice2) in test_lex_choice_pairs:
+        # get the indices of all sentences which use each category
+        sentences1 = single_lex_choice_to_sentence_idxs[(cat1, lex_choice1)]
+        sentences2 = single_lex_choice_to_sentence_idxs[(cat2, lex_choice2)]
+        # subtract sentences which overlap (use both cat1's choice1 and cat2's choice2)
+        training_idxs -= (sentences1 & sentences2)
+
+    training_sentences = tuple(all_sentences[i] for i in sorted(training_idxs))
+    test_sentences = tuple(all_sentences[i] for i in sorted(test_idxs))
+
+    return training_sentences, test_sentences
 
 
 # NOTE: For this to work, we assume the same criteria as generate_train_test_sentences_from_grammar()
@@ -543,9 +645,34 @@ def generate_all_sentences_from_grammar(grammar: CFG) -> tuple[SentenceData]:
     return output
 
 
+# This is the productive, useful one. it uses generate_sfg_train_test_tuples_from_grammar and generate_all_sentence_tuples_from_grammar
+# NOTE: In order for this function to work, we must assume that S_XX contains all of the
+#       lexical decisions that would be required in order to generate S_FG, S_XG, and S_FX forms.
+#       This follows from the restriction upon generate_all_sentence_tuples_from_grammar.
+#       S_XX, regardless of whether that represents a filler-gap dependency or some other,
+#       must contain all lexical data required.
+#       There should be no lexical-decision information in an S_FX, S_XG that is not in S_XX.
+def generate_train_test_tuples_from_grammar(grammar: CFG, split_ratio: float):
+    # really simple method here
+
+    # first generate all the training, test s_fg sentences, ...
+    training, testing = generate_s_fg_train_test_sentence_tuples_from_grammar(grammar=grammar,
+                                                                              split_ratio=split_ratio)
+
+    # ... then find all the tuples which contain those sentences.
+    all_tuples = generate_all_sentence_tuples_from_grammar(grammar=grammar)
+    training_tuples = [
+        sentence_tuple for sentence_tuple in all_tuples if sentence_tuple.s_fg in training]
+    testing_tuples = [
+        sentence_tuple for sentence_tuple in all_tuples if sentence_tuple.s_fg in testing]
+
+    # no need to make it any more complex than that.
+    return training_tuples, testing_tuples
+
+
 # save sentence data to a json
 # works on both SentenceData objects and TupleSentenceData objects
-def corpus_to_json(input_data: Iterable[SentenceData] | Iterable[TupleSentenceData], filename: str = None) -> str:
+def corpus_to_json(input_data: Union[Iterable[SentenceData], Iterable[TupleSentenceData]], filename: str = None) -> str:
     if filename == None:
         filename = input("Provide file (relative) path: ")
 
@@ -554,40 +681,29 @@ def corpus_to_json(input_data: Iterable[SentenceData] | Iterable[TupleSentenceDa
     try:
         with open(filename, "w") as json_file:
             json.dump(output, json_file, indent=2)
-    except:
-        raise FileNotFoundError("Unable to save json.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
     return filename
 
 
 # load tuples of sentences from json, get tuple of the tuples (2x2s)
 # user must define whether or not the corpus is made up of SentenceData objects or TupleSentenceData objects
-def corpus_from_json(where_to_load: str = None, is_tuples: bool = False) -> tuple[SentenceData] | tuple[TupleSentenceData]:
+def corpus_from_json(where_to_load: str = None, is_tuples: bool = False) -> Union[tuple[SentenceData], tuple[TupleSentenceData]]:
     if where_to_load == None:
         where_to_load = input("Provide file path: ")
 
     try:
         with open(where_to_load, "r") as json_file:
             loaded_data = json.load(json_file)
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
-        # user must tell function whether it is looking for tuples or just sentences
-        if is_tuples:
-            output = tuple([TupleSentenceData.from_dict(loaded_dict)
-                            for loaded_dict in loaded_data])
-        else:
-            output = tuple([SentenceData.from_dict(loaded_dict)
-                            for loaded_dict in loaded_data])
-        return output
-    except:
-        raise FileNotFoundError("Unable to load json.")
-
-
-training = []
-testing = []
-for grammar in grammars.ATB_GRAMMARS:
-    tr, te = generate_s_xx_train_test_sentence_tuples_from_grammar(
-        grammar=CFG.fromstring(grammar), split_ratio=0.65)
-    training.extend(tr)
-    testing.extend(te)
-
-print(len(training), len(testing))
+    # user must tell function whether it is looking for tuples or just sentences
+    if is_tuples:
+        output = tuple([TupleSentenceData.from_dict(loaded_dict)
+                        for loaded_dict in loaded_data])
+    else:
+        output = tuple([SentenceData.from_dict(loaded_dict)
+                        for loaded_dict in loaded_data])
+    return output

@@ -1,5 +1,7 @@
 from nltk import Nonterminal
 
+RANDOM_SEED = 118755212
+
 # constants (for use in code)
 UNGRAMMATICAL = "*"
 GAP_MARKER = "_"
