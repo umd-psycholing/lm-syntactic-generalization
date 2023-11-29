@@ -131,3 +131,25 @@ ATB_GRAMMARS = [
     ADJUNCT -> "today" | "yesterday" | "recently" | "lately"
     """
 ]
+
+
+
+X_GRAMMAR = """
+    S -> S_IG | S_XG | S_IX | S_XX
+    Pre -> "It is" 
+    MK -> "Mary knows"
+    S_IG -> UNGRAMMATICAL Pre OBJ1 COMP NAME1 V1 NOUN1 NAME2 V2 GAP_MARKER ADV GAP_MARKER 
+    S_XG -> Pre OBJ1 COMP NAME1 V1 NAME2 V2 GAP_MARKER ADV GAP_MARKER
+    S_IX -> UNGRAMMATICAL Pre OBJ1 COMP NAME1 V1 NOUN1 NAME2 V2 GAP_MARKER OBJ2 GAP_MARKER ADV
+    S_XX -> UNGRAMMATICAL Pre OBJ1 COMP NAME1 V1 NAME2 V2 GAP_MARKER OBJ2 GAP_MARKER ADV
+    OBJ1 -> "these snacks" | "those boots" | "her books"
+    COMP -> "that"
+    NAME1 -> "Mary" | "Jennifer"
+    NAME2 -> "Patricia" | "Linda"
+    V1 -> "knows" | "heard" | "remembers" | "believes"
+    NOUN1 -> "the reason" | "the claim" | "the rumor"
+    V2 -> "bought" | "saw" | "forgot"
+    OBJ2 -> "the cheese" | "your hat" | "her keys"
+    ADV -> "yesterday" | "recently" | "earlier" 
+"""
+# sum of two word surprisals

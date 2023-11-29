@@ -645,7 +645,8 @@ def generate_all_sentences_from_grammar(grammar: CFG) -> tuple[SentenceData]:
     return output
 
 
-# This is the productive, useful one. it uses generate_sfg_train_test_tuples_from_grammar and generate_all_sentence_tuples_from_grammar
+# This is the productive, useful one. 
+# It uses generate_sfg_train_test_tuples_from_grammar and generate_all_sentence_tuples_from_grammar
 # NOTE: In order for this function to work, we must assume that S_XX contains all of the
 #       lexical decisions that would be required in order to generate S_FG, S_XG, and S_FX forms.
 #       This follows from the restriction upon generate_all_sentence_tuples_from_grammar.
@@ -666,7 +667,7 @@ def generate_train_test_tuples_from_grammar(grammar: CFG, split_ratio: float):
     testing_tuples = [
         sentence_tuple for sentence_tuple in all_tuples if sentence_tuple.s_fg in testing]
 
-    # no need to make it any more complex than that.
+
     return training_tuples, testing_tuples
 
 
@@ -707,3 +708,6 @@ def corpus_from_json(where_to_load: str = None, is_tuples: bool = False) -> Unio
         output = tuple([SentenceData.from_dict(loaded_dict)
                         for loaded_dict in loaded_data])
     return output
+
+
+
