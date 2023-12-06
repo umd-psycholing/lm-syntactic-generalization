@@ -72,7 +72,7 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
         # return index of word if its known, otherwise index of <unk> (unknown)
         return vocab.word2idx[word] if word in vocab.word2idx else vocab.word2idx["<unk>"]
 
-    # NOTE: currently unused
+    # get rid of <eos>, most likely will not work in the event of <unk>
     def align_surprisal(token_surprisals: list[tuple[str, float]], sentence: str):
         # this is used to tokenize RNN input but if we're going to compare GPT outputs we might as well use the same technique
         words = grnn_tokenize(sentence)
@@ -81,20 +81,18 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
         word_level_surprisal = []  # list of word, surprisal tuples
         while token_index < len(token_surprisals):
             current_word = words[word_index]
-            current_token, current_surprisal = token_surprisals[
-                token_index][0], token_surprisals[token_index][1]
+            current_token, current_surprisal = token_surprisals[token_index]
             mismatch = current_word != current_token
             while mismatch:
                 token_index += 1
-                current_token += token_surprisals[token_index][0]
-                current_surprisal += token_surprisals[token_index][1]
+                current_token, current_surprisal = token_surprisals[token_index]
                 mismatch = current_token != current_word
             word_level_surprisal.append((current_word, current_surprisal))
             token_index += 1
             word_index += 1
         return word_level_surprisal
-    # ====== #
 
+    # load model, vocab once
     sys.path.insert(
         0, "./colorlessgreenRNNs/src/language_models")
     # set up model
@@ -107,15 +105,16 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
     # single sentence surprisal for gpt2
     def grnn_surprisal(sentence: str, model: RNNModel = model, grnn: RNNModel = grnn, vocab: Dictionary = lstm_vocab):
         # EOS prepend + 's split
-        sentence = ["<eos>"] + grnn_tokenize(sentence)
+        # tokens = ["<eos>"] + grnn_tokenize(sentence)
+        tokens = grnn_tokenize(sentence)
         rnn_input = torch.LongTensor(
             # [indexify(w.lower(), vocab) for w in sentence]) # lowercase names are not in vocab!
-            [indexify(w, vocab) for w in sentence])
+            [indexify(w, vocab) for w in tokens])
         out, _ = grnn(rnn_input.view(-1, 1), model.init_hidden(1))
         surprisals = [-F.log_softmax(out[i], dim=-1).view(-1)[word_idx].item() for i, (word_idx, word)
-                      in enumerate(zip(rnn_input, sentence))]
-        # [1:] skips "<eos>" and corresponding surprisal
-        return (list(zip(sentence[1:], surprisals[1:])))
+                      in enumerate(zip(rnn_input, tokens))]
+        surprisals = list(zip(tokens, surprisals))  # zip tokens in w/ it
+        return align_surprisal(surprisals, sentence)
 
 
 def compute_surprisal_effect_from_surprisals(s_fg_surprisal: float, s_xg_surprisal: float,

@@ -181,6 +181,3 @@ ISLAND_GRAMMAR = SHARED_GRAMMAR + """
     OBJ2 -> "the cheese" | "your hat" | "her keys"
     ADV -> "yesterday" | "recently" | "earlier" 
 """
-
-# backburner:
-# sum of two word surprisals
