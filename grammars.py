@@ -2,25 +2,22 @@ from nltk import Nonterminal
 
 RANDOM_SEED = 118755212
 
-# constants (for use in code)
+# markers
 UNGRAMMATICAL = "*"
 GAP_MARKER = "_"
 TUPLE_DIVIDER = "&"
 
-# constant starts
-FILLER_GAP = Nonterminal("S_FG")
-NO_FILLER_GAP = Nonterminal("S_XG")
-FILLER_NO_GAP = Nonterminal("S_FX")
-NO_FILLER_NO_GAP = Nonterminal("S_XX")
+# start constants
+ALL_CONDITION = Nonterminal("S")
+AB_CONDITION = Nonterminal("S_AB")
+XB_CONDITION = Nonterminal("S_XB")
+AX_CONDITION = Nonterminal("S_AX")
+XX_CONDITION = Nonterminal("S_XX")
 
 # all of this is shared between all grammars. (might not all be used, but its all available)
 # written here to reduce duplicative code
 SHARED_GRAMMAR = """
-    S -> S_FG | S_XG | S_FX | S_XX
-    S_FG -> PREAMBLE F G
-    S_XG -> UNGRAMMATICAL PREAMBLE XF G
-    S_FX -> UNGRAMMATICAL PREAMBLE F XG
-    S_XX -> PREAMBLE XF XG
+    S -> S_AB | S_XB | S_AX | S_XX
     GAP_MARKER -> "_"
     UNGRAMMATICAL -> "*"
     GEN -> "'s" 
@@ -34,6 +31,10 @@ SHARED_GRAMMAR = """
 PG_GRAMMARS = [
     SHARED_GRAMMAR +  # PG 1
     """
+    S_AB -> PREAMBLE F G
+    S_XB -> UNGRAMMATICAL PREAMBLE XF G
+    S_AX -> UNGRAMMATICAL PREAMBLE F XG
+    S_XX -> PREAMBLE XF XG
     PREAMBLE -> "I know"
     F -> "who" NAME1 GEN ADJ SUBJ V
     XF -> "that" NAME1 GEN ADJ SUBJ NAME2 V
@@ -47,6 +48,10 @@ PG_GRAMMARS = [
     SHARED_GRAMMAR +  # PG 2
     """
     PREAMBLE -> "I know"
+    S_AB -> PREAMBLE F G
+    S_XB -> UNGRAMMATICAL PREAMBLE XF G
+    S_AX -> UNGRAMMATICAL PREAMBLE F XG
+    S_XX -> PREAMBLE XF XG
     F -> "what" SUBJ V1 ADV V2
     XF -> "that" SUBJ V1 OBJ1 ADV V2
     G -> GAP_MARKER ADJUNCT GAP_MARKER
@@ -62,6 +67,10 @@ PG_GRAMMARS = [
     SHARED_GRAMMAR +  # PG 3
     """
     PREAMBLE -> "I know"
+    S_AB -> PREAMBLE F G
+    S_XB -> UNGRAMMATICAL PREAMBLE XF G
+    S_AX -> UNGRAMMATICAL PREAMBLE F XG
+    S_XX -> PREAMBLE XF XG
     F -> "who" SUBJ NAME1 ADV V1
     XF -> "that" SUBJ NAME1 ADV V1 NAME3
     G -> V2 GAP_MARKER ADJUNCT GAP_MARKER
@@ -76,6 +85,10 @@ PG_GRAMMARS = [
     SHARED_GRAMMAR +  # PG 4
     """
     PREAMBLE -> "I know"
+    S_AB -> PREAMBLE F G
+    S_XB -> UNGRAMMATICAL PREAMBLE XF G
+    S_AX -> UNGRAMMATICAL PREAMBLE F XG
+    S_XX -> PREAMBLE XF XG
     F -> "what the" SUBJ "to" V1
     XF -> "that the" SUBJ "to" V1 OBJ1
     G -> V3 V2 GAP_MARKER ADJUNCT GAP_MARKER
@@ -94,6 +107,10 @@ PG_GRAMMARS = [
 ATB_GRAMMARS = [
     SHARED_GRAMMAR +  # ATB 1
     """
+    S_AB -> PREAMBLE F G
+    S_XB -> UNGRAMMATICAL PREAMBLE XF G
+    S_AX -> UNGRAMMATICAL PREAMBLE F XG
+    S_XX -> PREAMBLE XF XG
     PREAMBLE -> "I know"
     F -> "what" NAME1 V1
     XF -> "that" NAME1 V1 OBJ1
@@ -108,6 +125,10 @@ ATB_GRAMMARS = [
     """,
     SHARED_GRAMMAR +  # ATB 2
     """
+    S_AB -> PREAMBLE F G
+    S_XB -> UNGRAMMATICAL PREAMBLE XF G
+    S_AX -> UNGRAMMATICAL PREAMBLE F XG
+    S_XX -> PREAMBLE XF XG
     PREAMBLE -> "I know"
     F -> "who" NAME1 V1
     XF -> "that" NAME1 V1 NAME2
@@ -120,6 +141,10 @@ ATB_GRAMMARS = [
     """,
     SHARED_GRAMMAR +  # ATB 3
     """
+    S_AB -> PREAMBLE F G
+    S_XB -> UNGRAMMATICAL PREAMBLE XF G
+    S_AX -> UNGRAMMATICAL PREAMBLE F XG
+    S_XX -> PREAMBLE XF XG
     PREAMBLE -> "I know"
     F -> "who" NAME1 V1
     XF -> "that" NAME1 V1 NAME2
@@ -132,24 +157,30 @@ ATB_GRAMMARS = [
     """
 ]
 
-
-
-X_GRAMMAR = """
-    S -> S_IG | S_XG | S_IX | S_XX
-    Pre -> "It is" 
-    MK -> "Mary knows"
-    S_IG -> UNGRAMMATICAL Pre OBJ1 COMP NAME1 V1 NOUN1 NAME2 V2 GAP_MARKER ADV GAP_MARKER 
-    S_XG -> Pre OBJ1 COMP NAME1 V1 NAME2 V2 GAP_MARKER ADV GAP_MARKER
-    S_IX -> UNGRAMMATICAL Pre OBJ1 COMP NAME1 V1 NOUN1 NAME2 V2 GAP_MARKER OBJ2 GAP_MARKER ADV
-    S_XX -> UNGRAMMATICAL Pre OBJ1 COMP NAME1 V1 NAME2 V2 GAP_MARKER OBJ2 GAP_MARKER ADV
+# E = extractible, meaning no island.
+#   This was done to ensure that S_XX (island, no gap) was represented by the lack of the two variables,
+#   because generation of sentences depends on S_XX containing each lexical choice that can be made for a tuple
+# G = gap position
+ISLAND_GRAMMAR = SHARED_GRAMMAR + """
+    S_AB -> PREAMBLE E G
+    S_XB -> UNGRAMMATICAL PREAMBLE XE G
+    S_AX -> UNGRAMMATICAL PREAMBLE E XG
+    S_XX -> UNGRAMMATICAL PREAMBLE XE XG
+    PREAMBLE -> "It is" 
+    E -> OBJ1 COMP N1 V1
+    XE -> OBJ1 COMP N1 V1 IDENTIFIER
+    G -> N2 V2 GAP_MARKER ADV GAP_MARKER
+    XG -> N2 V2 GAP_MARKER OBJ2 GAP_MARKER ADV
     OBJ1 -> "these snacks" | "those boots" | "her books"
     COMP -> "that"
-    NAME1 -> "Mary" | "Jennifer"
-    NAME2 -> "Patricia" | "Linda"
+    N1 -> "Mary" | "Jennifer"
+    N2 -> "Patricia" | "Linda"
     V1 -> "knows" | "heard" | "remembers" | "believes"
-    NOUN1 -> "the reason" | "the claim" | "the rumor"
+    IDENTIFIER -> "the reason" | "the claim" | "the rumor"
     V2 -> "bought" | "saw" | "forgot"
     OBJ2 -> "the cheese" | "your hat" | "her keys"
     ADV -> "yesterday" | "recently" | "earlier" 
 """
+
+# backburner:
 # sum of two word surprisals

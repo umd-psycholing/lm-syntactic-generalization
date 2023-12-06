@@ -132,20 +132,20 @@ def compute_surprisal_effect_from_surprisals(s_fg_surprisal: float, s_xg_surpris
 # wrappers for model-specific, single-sentence surprisal functions
 def surprisal_effect_full_tuple(sentence_tuple: TupleSentenceData, model: str, update_class_fields: bool = False):
     # 'unpack' tuple
-    (s_fg, s_xg, s_fx, s_xx) = (
-        sentence_tuple.s_fg,
-        sentence_tuple.s_xg,
-        sentence_tuple.s_fx,
+    (s_ab, s_xb, s_ax, s_xx) = (
+        sentence_tuple.s_ab,
+        sentence_tuple.s_xb,
+        sentence_tuple.s_ax,
         sentence_tuple.s_xx
     )
 
     # generate each sentence's surprisal
     s_fg_surprisal = critical_surprisal_from_sentence(
-        sentence=s_fg, model_to_use=model, update_class_field=update_class_fields)
+        sentence=s_ab, model_to_use=model, update_class_field=update_class_fields)
     s_xg_surprisal = critical_surprisal_from_sentence(
-        sentence=s_xg, model_to_use=model, update_class_field=update_class_fields)
+        sentence=s_xb, model_to_use=model, update_class_field=update_class_fields)
     s_fx_surprisal = critical_surprisal_from_sentence(
-        sentence=s_fx, model_to_use=model, update_class_field=update_class_fields)
+        sentence=s_ax, model_to_use=model, update_class_field=update_class_fields)
     s_xx_surprisal = critical_surprisal_from_sentence(
         sentence=s_xx, model_to_use=model, update_class_field=update_class_fields)
 
@@ -156,7 +156,7 @@ def surprisal_effect_full_tuple(sentence_tuple: TupleSentenceData, model: str, u
 
 # implemented for model="gpt2", "grnn"
 def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str, update_class_field: bool = False):
-    critical_text = sentence.critical_token
+    critical_tokens = sentence.critical_tokens
 
     # calculate surprisal from indicated model
     if model_to_use == "gpt2":
@@ -171,11 +171,11 @@ def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str, 
             "Model not recognized. Valid models include: 'gpt2', 'grnn'")
 
     # get critical surprisal
-    critical_surprisal = None
+    critical_surprisal = 0
     for token, surprisal_result in surprisal_info:
-        if token == critical_text:
-            critical_surprisal = surprisal_result
-    if critical_surprisal == None:
+        if token in critical_tokens:
+            critical_surprisal += surprisal_result  # sum surprisal of each critical token
+    if critical_surprisal == 0:
         raise TypeError("Critical not found in surprisal data")
 
     if update_class_field:

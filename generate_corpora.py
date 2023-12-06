@@ -46,7 +46,7 @@ class SentenceData:
     processed_tokens: tuple[str]
     grammatical: bool
     # critical_token: TokenData
-    critical_token: str
+    critical_tokens: list[str]
     # assigned when get_surprisal is calculated (& assign = True)
     critical_surprisal: float = None
 
@@ -63,7 +63,7 @@ class SentenceData:
             # 'processed_tokens': [token.to_dict() for token in self.processed_tokens],
             'processed_tokens': self.processed_tokens,
             'grammatical': self.grammatical,
-            'critical_token': self.critical_token,
+            'critical_tokens': self.critical_tokens,
             'critical_surprisal': self.critical_surprisal,
         }
 
@@ -76,59 +76,59 @@ class SentenceData:
             processed_tokens=data["processed_tokens"],
             grammatical=data["grammatical"],
             # critical_token=TokenData.from_dict(data["critical_token"])
-            critical_token=data["critical_token"],
+            critical_tokens=data["critical_tokens"],
             critical_surprisal=data["critical_surprisal"],
         )
 
 
 @dataclass
 class TupleSentenceData:
-    s_fg: SentenceData = None
-    s_xg: SentenceData = None
-    s_fx: SentenceData = None
+    s_ab: SentenceData = None
+    s_xb: SentenceData = None
+    s_ax: SentenceData = None
     s_xx: SentenceData = None
 
     def __str__(self) -> str:
-        return f"S_FG: {str(self.s_fg)}, S_XG: {str(self.s_xg)}, S_FX: {str(self.s_fx)}, S_XX: {str(self.s_xx)}"
+        return f"S_AB: {str(self.s_ab)}, S_XB: {str(self.s_xb)}, S_AX: {str(self.s_ax)}, S_XX: {str(self.s_xx)}"
 
     def __repr__(self) -> str:
         return str(self)
 
     def to_dict(self):
         return {
-            's_fg': self.s_fg.to_dict() if self.s_fg else None,
-            's_xg': self.s_xg.to_dict() if self.s_xg else None,
-            's_fx': self.s_fx.to_dict() if self.s_fx else None,
+            's_ab': self.s_ab.to_dict() if self.s_ab else None,
+            's_xb': self.s_xb.to_dict() if self.s_xb else None,
+            's_ax': self.s_ax.to_dict() if self.s_ax else None,
             's_xx': self.s_xx.to_dict() if self.s_xx else None
         }
 
     @classmethod
     def from_dict(cls, data):
         return cls(
-            s_fg=SentenceData.from_dict(
-                data.get("s_fg")) if data.get("s_fg") else None,
-            s_xg=SentenceData.from_dict(
-                data.get("s_xg")) if data.get("s_xg") else None,
-            s_fx=SentenceData.from_dict(
-                data.get("s_fx")) if data.get("s_fx") else None,
+            s_ab=SentenceData.from_dict(
+                data.get("s_ab")) if data.get("s_ab") else None,
+            s_xb=SentenceData.from_dict(
+                data.get("s_xb")) if data.get("s_xb") else None,
+            s_ax=SentenceData.from_dict(
+                data.get("s_ax")) if data.get("s_ax") else None,
             s_xx=SentenceData.from_dict(
                 data.get("s_xx")) if data.get("s_xx") else None,
         )
 
     def insert_sentence(self, what_type: str, sentence_to_insert: SentenceData):
-        if what_type == 's_fg':
-            self.s_fg = sentence_to_insert
-        elif what_type == 's_xg':
-            self.s_xg = sentence_to_insert
-        elif what_type == 's_fx':
-            self.s_fx = sentence_to_insert
+        if what_type == 's_ab':
+            self.s_ab = sentence_to_insert
+        elif what_type == 's_xb':
+            self.s_xb = sentence_to_insert
+        elif what_type == 's_ax':
+            self.s_ax = sentence_to_insert
         elif what_type == 's_xx':
             self.s_xx = sentence_to_insert
         else:
             raise ValueError("Invalid type")
 
     def is_full(self):
-        return (self.s_fg != None) and (self.s_fg != None) and (self.s_fx != None) and (self.s_xx != None)
+        return (self.s_ab != None) and (self.s_xb != None) and (self.s_ax != None) and (self.s_xx != None)
 
 
 def _get_terminal_productions_of_grammar_output(output_tokens: list[str], grammar: CFG) -> dict[Nonterminal, Production]:
@@ -181,7 +181,7 @@ def _find_accessible_lexical_productions_from_grammar(grammar):
 
 def _process_tokens(output_tokens: list[str]) -> tuple[list[TokenData], TokenData]:
     tokens = []
-    critical_token = None
+    critical_tokens = []
 
     # flag
     between_underscores = False
@@ -198,9 +198,9 @@ def _process_tokens(output_tokens: list[str]) -> tuple[list[TokenData], TokenDat
             # new_token = TokenData(text=str(token))
             tokens.append(token)
             if between_underscores:
-                critical_token = token
+                critical_tokens.append(token)
 
-    return tokens, critical_token
+    return tokens, critical_tokens
 
 
 def _tokenize(grammar_output) -> tuple[str, ...]:
@@ -241,13 +241,13 @@ def _grammar_output_to_sentence(output_tokens: list[str]) -> SentenceData:
         grammatical = False
 
     # determines whether each token is critical, gets rid of GAP_MARKER
-    processed_tokens, critical_token = _process_tokens(broken_tokens)
+    processed_tokens, critical_tokens = _process_tokens(broken_tokens)
 
     return SentenceData(
         original_tokens=output_tokens,
         grammatical=grammatical,
         processed_tokens=processed_tokens,
-        critical_token=critical_token
+        critical_tokens=critical_tokens
     )
 
 
@@ -433,11 +433,15 @@ def generate_s_xx_train_test_sentence_tuples_from_grammar(grammar: CFG, split_ra
 # Modified from Lan, et al. (2023)
 # Function get_terminal_productions is slightly different in our implementation,
 # accounting for the variation in code seen where that function is invoked.
-def generate_s_fg_train_test_sentence_tuples_from_grammar(grammar: CFG, split_ratio: float = 0.65,
-                                                          random_seed: int = grammars.RANDOM_SEED) -> tuple[tuple[SentenceData],
-                                                                                                            tuple[SentenceData]]:
-    # start from S_FG sentences
-    grammar._start = grammars.FILLER_GAP
+def generate_train_test_sentence_tuples_from_grammar(
+    grammar: CFG, split_ratio: float = 0.65,
+    random_seed: int = grammars.RANDOM_SEED,
+    base_grammatical_condition: Nonterminal = grammars.AB_CONDITION) -> tuple[tuple[SentenceData],
+                                                                              tuple[SentenceData]]:
+
+    # start from base grammatical condition, which for filler gap constructions is +filler, +gap.
+    # for island constructions it is +extractible (no island), +gap
+    grammar._start = base_grammatical_condition
 
     all_sentences = []
 
@@ -544,7 +548,7 @@ def generate_s_fg_train_test_sentence_tuples_from_grammar(grammar: CFG, split_ra
 # NOTE: For this to work, we assume the same criteria as generate_train_test_sentences_from_grammar()
 def generate_all_sentence_tuples_from_grammar(grammar: CFG) -> tuple[TupleSentenceData]:
     # important that our example sentence is generated using S_XX form
-    grammar._start = grammars.NO_FILLER_NO_GAP
+    grammar._start = grammars.XX_CONDITION
 
     # find productions that result in lexical values
     lexical_productions = _find_accessible_lexical_productions_from_grammar(
@@ -561,7 +565,7 @@ def generate_all_sentence_tuples_from_grammar(grammar: CFG) -> tuple[TupleSenten
     possible_used_productions = list(
         itertools.product(*lexical_types.values()))
 
-    # order: +filler,+gap | -filler,+gap | +filler,-gap | -filler,-gap
+    # order: +A,+B | -A,+B | +A,-B | -A,-B
     tuples = []
     # now, for each possible_lexical_selection, build the grammar & generate each tree
     for used_production_list in possible_used_productions:
@@ -569,49 +573,30 @@ def generate_all_sentence_tuples_from_grammar(grammar: CFG) -> tuple[TupleSenten
         new_productions = constant_productions + list(used_production_list)
         # build new grammar
         new_grammar = CFG(productions=new_productions,
-                          start=grammars.NO_FILLER_NO_GAP)
+                          start=grammars.XX_CONDITION)
 
         # generate new sentence for each type (only one possible, n=1 is there for clarity)
         tuples.append(
             TupleSentenceData(
-                s_fg=_grammar_output_to_sentence(
-                    list(generate.generate(new_grammar, grammars.FILLER_GAP, n=1))[0]),
-                s_xg=_grammar_output_to_sentence(
-                    list(generate.generate(new_grammar, grammars.NO_FILLER_GAP, n=1))[0]),
-                s_fx=_grammar_output_to_sentence(
-                    list(generate.generate(new_grammar, grammars.FILLER_NO_GAP, n=1))[0]),
+                s_ab=_grammar_output_to_sentence(
+                    list(generate.generate(new_grammar, grammars.AB_CONDITION, n=1))[0]),
+                s_xb=_grammar_output_to_sentence(
+                    list(generate.generate(new_grammar, grammars.XB_CONDITION, n=1))[0]),
+                s_ax=_grammar_output_to_sentence(
+                    list(generate.generate(new_grammar, grammars.AX_CONDITION, n=1))[0]),
                 s_xx=_grammar_output_to_sentence(
-                    list(generate.generate(new_grammar, grammars.NO_FILLER_NO_GAP, n=1))[0]),
+                    list(generate.generate(new_grammar, grammars.XX_CONDITION, n=1))[0]),
             )
         )
 
     return tuples
 
 
-# generates s_fg, s_xx sentences, both of which are grammatical (these are NOT paired up--s_xx sentences follow after s_fg)
-def generate_grammatical_sentences_from_grammar(grammar: CFG) -> tuple[SentenceData]:
-    # generate +filler,+gap (grammatical)
-    grammar._start = grammars.FILLER_GAP
-
-    filler_gap_tokens = list(generate.generate(grammar))
-    filler_gap_sentences = [
-        _grammar_output_to_sentence(tokens) for tokens in filler_gap_tokens]
-
-    # generate -filler,-gap (grammatical)
-    grammar._start = grammars.NO_FILLER_NO_GAP
-
-    no_filler_no_gap_tokens = list(generate.generate(grammar))
-    no_filler_no_gap_sentences = [
-        _grammar_output_to_sentence(tokens) for tokens in no_filler_no_gap_tokens]
-
-    return tuple(filler_gap_sentences.extend(no_filler_no_gap_sentences))
-
-
 def generate_all_sentences_from_grammar(grammar: CFG) -> tuple[SentenceData]:
     output = []
 
     # generate +filler,+gap (grammatical) FG
-    grammar._start = grammars.FILLER_GAP
+    grammar._start = grammars.AB_CONDITION
 
     filler_gap_tokens = list(generate.generate(grammar))
     filler_gap_sentences = [
@@ -619,7 +604,7 @@ def generate_all_sentences_from_grammar(grammar: CFG) -> tuple[SentenceData]:
     output.extend(filler_gap_sentences)
 
     # generate -filler,+gap (grammatical) XG
-    grammar._start = grammars.NO_FILLER_GAP
+    grammar._start = grammars.XB_CONDITION
 
     no_filler_gap_tokens = list(generate.generate(grammar))
     no_filler_gap_sentences = [
@@ -627,7 +612,7 @@ def generate_all_sentences_from_grammar(grammar: CFG) -> tuple[SentenceData]:
     output.extend(no_filler_gap_sentences)
 
     # generate +filler,-gap (grammatical) FX
-    grammar._start = grammars.FILLER_NO_GAP
+    grammar._start = grammars.AX_CONDITION
 
     filler_no_gap_tokens = list(generate.generate(grammar))
     filler_no_gap_sentences = [
@@ -635,7 +620,7 @@ def generate_all_sentences_from_grammar(grammar: CFG) -> tuple[SentenceData]:
     output.extend(filler_no_gap_sentences)
 
     # generate -filler,-gap (grammatical) XX
-    grammar._start = grammars.NO_FILLER_NO_GAP
+    grammar._start = grammars.XX_CONDITION
 
     no_filler_no_gap_tokens = list(generate.generate(grammar))
     no_filler_no_gap_sentences = [
@@ -645,7 +630,7 @@ def generate_all_sentences_from_grammar(grammar: CFG) -> tuple[SentenceData]:
     return output
 
 
-# This is the productive, useful one. 
+# This is the productive, useful one.
 # It uses generate_sfg_train_test_tuples_from_grammar and generate_all_sentence_tuples_from_grammar
 # NOTE: In order for this function to work, we must assume that S_XX contains all of the
 #       lexical decisions that would be required in order to generate S_FG, S_XG, and S_FX forms.
@@ -657,16 +642,15 @@ def generate_train_test_tuples_from_grammar(grammar: CFG, split_ratio: float):
     # really simple method here
 
     # first generate all the training, test s_fg sentences, ...
-    training, testing = generate_s_fg_train_test_sentence_tuples_from_grammar(grammar=grammar,
-                                                                              split_ratio=split_ratio)
+    training, testing = generate_train_test_sentence_tuples_from_grammar(grammar=grammar,
+                                                                         split_ratio=split_ratio)
 
     # ... then find all the tuples which contain those sentences.
     all_tuples = generate_all_sentence_tuples_from_grammar(grammar=grammar)
     training_tuples = [
-        sentence_tuple for sentence_tuple in all_tuples if sentence_tuple.s_fg in training]
+        sentence_tuple for sentence_tuple in all_tuples if sentence_tuple.s_ab in training]
     testing_tuples = [
-        sentence_tuple for sentence_tuple in all_tuples if sentence_tuple.s_fg in testing]
-
+        sentence_tuple for sentence_tuple in all_tuples if sentence_tuple.s_ab in testing]
 
     return training_tuples, testing_tuples
 
@@ -675,7 +659,7 @@ def generate_train_test_tuples_from_grammar(grammar: CFG, split_ratio: float):
 # works on both SentenceData objects and TupleSentenceData objects
 def corpus_to_json(input_data: Union[Iterable[SentenceData], Iterable[TupleSentenceData]], filename: str = None) -> str:
     if filename == None:
-        filename = input("Provide file (relative) path: ")
+        filename = input("Provide (relative) file path: ")
 
     output = [possibly_tuple_sentence_data.to_dict()
               for possibly_tuple_sentence_data in input_data]
@@ -692,7 +676,7 @@ def corpus_to_json(input_data: Union[Iterable[SentenceData], Iterable[TupleSente
 # user must define whether or not the corpus is made up of SentenceData objects or TupleSentenceData objects
 def corpus_from_json(where_to_load: str = None, is_tuples: bool = False) -> Union[tuple[SentenceData], tuple[TupleSentenceData]]:
     if where_to_load == None:
-        where_to_load = input("Provide file path: ")
+        where_to_load = input("Provide (relative) file path: ")
 
     try:
         with open(where_to_load, "r") as json_file:
@@ -708,6 +692,3 @@ def corpus_from_json(where_to_load: str = None, is_tuples: bool = False) -> Unio
         output = tuple([SentenceData.from_dict(loaded_dict)
                         for loaded_dict in loaded_data])
     return output
-
-
-

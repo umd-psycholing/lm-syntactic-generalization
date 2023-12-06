@@ -32,9 +32,9 @@ def build_figure_from_data(surprisal_effects: Iterable[float], plot_title: str, 
 
 # load surprisal-filled corpus and plot data
 def display_surprisal_corpus_data(corpus_filepath: str, plot_title: str = "Corpus Data"):
-    corpus_deltas = [surprisal.compute_surprisal_effect_from_surprisals(s_tuple.s_fg.critical_surprisal,
-                                                                        s_tuple.s_xg.critical_surprisal,
-                                                                        s_tuple.s_fx.critical_surprisal,
+    corpus_deltas = [surprisal.compute_surprisal_effect_from_surprisals(s_tuple.s_ab.critical_surprisal,
+                                                                        s_tuple.a_xb.critical_surprisal,
+                                                                        s_tuple.s_ax.critical_surprisal,
                                                                         s_tuple.s_xx.critical_surprisal)
                      for s_tuple in gc.corpus_from_json(corpus_filepath, is_tuples=True)]  # load tuples
     plt.figure()
@@ -87,35 +87,48 @@ def extend_surprisal_corpus(where_to_load: str, where_to_save: str, model: str):
     gc.corpus_to_json(where_to_save)
 
 
-# generate_atb_pg_train_test()
-# print("Generated ATB, PG training & testing sets with default seed.")
+# load
+island_sentence_tuples = gc.corpus_from_json(
+    "grammar_outputs/island/island_tuples.json", True)
 
-# add surprisals to the corpuses
-# extend_surprisal_corpus("ex/pg_atb_examples/s_atb_test.json",
-#                         "ex/pg_atb_examples/s_atb_test_grnn.json", "grnn")
-#
-# extend_surprisal_corpus("ex/pg_atb_examples/s_atb_train.json",
-#                         "ex/pg_atb_examples/s_atb_train_grnn.json", "grnn")
-#
-# extend_surprisal_corpus("ex/pg_atb_examples/s_pg_test.json",
-#                         "ex/pg_atb_examples/s_pg_test_grnn.json", "grnn")
-#
-# extend_surprisal_corpus("ex/pg_atb_examples/s_pg_train.json",
-#                         "ex/pg_atb_examples/s_pg_train_grnn.json", "grnn")
+# add surprisals
+[surprisal.surprisal_effect_full_tuple(sentence_tuple, "grnn", True)
+ for sentence_tuple in island_sentence_tuples]
+
+# save
+gc.corpus_to_json(island_sentence_tuples,
+                  "grammar_outputs/island/island_tuples_grnn.json")
 
 
-# load from corpuses (with surprisal) and display data
-display_surprisal_corpus_data(
-    "grammar_outputs/ex/pg_atb_examples/s_atb_test_grnn.json", "ATB Testing GRNN")
+# load
+tuple_data = gc.corpus_from_json(
+    "grammar_outputs/island/island_tuples_grnn.json", is_tuples=True)
 
-display_surprisal_corpus_data(
-    "grammar_outputs/ex/pg_atb_examples/s_atb_train_grnn.json", "ATB Training GRNN")
+# extract
+island_gap_effects = []
+islandless_gap_effects = []
+for sentence_tuple in tuple_data:
+    island_gap_effects.append(  # (island, no gap) - (island, gap)
+        sentence_tuple.s_xb.critical_surprisal - sentence_tuple.s_xx.critical_surprisal
+    )
+    islandless_gap_effects.append(  # (no island, no gap) - (no island, gap)
+        sentence_tuple.s_ab.critical_surprisal - sentence_tuple.s_ax.critical_surprisal)
 
-display_surprisal_corpus_data(
-    "grammar_outputs/ex/pg_atb_examples/s_pg_test_grnn.json", "PG Testing GRNN")
+# average
+avg_island_gap_effect = np.mean(island_gap_effects)
+avg_islandless_gap_effect = np.mean(islandless_gap_effects)
 
-display_surprisal_corpus_data(
-    "grammar_outputs/ex/pg_atb_examples/s_pg_train_grnn.json", "PG Training GRNN")
-
+# plot
+fig, ax = plt.subplots()
+ax.bar(
+    [
+        "Effect of Extractible Gap (-Island)",
+        "Effect of Stranded Gap (+Island)"
+    ],
+    [
+        avg_islandless_gap_effect,
+        avg_island_gap_effect
+    ]
+)
 
 plt.show()
