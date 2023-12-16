@@ -181,3 +181,6 @@ def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str, 
         sentence.critical_surprisal = critical_surprisal
 
     return critical_surprisal
+
+
+print(gpt2_surprisal("I know that the CEO showed the slides to the guests after lunch"))

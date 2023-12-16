@@ -2,11 +2,15 @@ import csv
 import generate_corpora as gc
 import surprisal
 
+import numpy as np
+import matplotlib.pyplot as plt
+
+model = "gpt2"
+
 
 def _critical_keys(d, from_key, to_key):
     keys_list = list(d.keys())
     values_list = list(d.values())
-    values_list = [value for value in values_list if len(value) > 0]
 
     # Find the indices of the provided keys
     index1 = keys_list.index(from_key)
@@ -15,6 +19,9 @@ def _critical_keys(d, from_key, to_key):
     values_list.insert(index2 + 1, "_")
     values_list.insert(index1, "_")
 
+    # remove empties
+    values_list = [value for value in values_list if len(value) > 0]
+
     return values_list
 
 # subject: critical region is either np1 or verb
@@ -22,7 +29,6 @@ def _critical_keys(d, from_key, to_key):
 # pp: critical region is either np3 or end
 
 
-"""
 # subject
 subject_wh_tuples = []
 with open('wilcox_csv/basic_subject.csv') as file:
@@ -53,10 +59,39 @@ with open('wilcox_csv/basic_subject.csv') as file:
         )
 # calculate all surprisals
 for sw_tuple in subject_wh_tuples:
-    surprisal.surprisal_effect_full_tuple(sw_tuple, "gpt2", True)
+    surprisal.surprisal_effect_full_tuple(sw_tuple, model, True)
 
-gc.corpus_to_json(subject_wh_tuples, "wilcox_subject_wh_gpt2.json")
-"""
+gc.corpus_to_json(subject_wh_tuples,
+                  f"wilcox_csv/wilcox_subject_wh_{model}.json")
+
 
 # load
-sw_tuple_data = gc.corpus_from_json('wilcox_csv/wilcox_subject_wh_gpt2.json')
+sw_tuple_data = gc.corpus_from_json(
+    f"wilcox_csv/wilcox_subject_wh_{model}.json", is_tuples=True)
+
+# extract
+gap_wh_effects = []
+nogap_wh_effects = []
+for sentence_tuple in sw_tuple_data:
+    gap_wh_effects.append(  # (wh, gap) - (no wh, gap)
+        sentence_tuple.s_ab.critical_surprisal - sentence_tuple.s_xb.critical_surprisal)
+    nogap_wh_effects.append(  # (wh, no gap) - (no wh, no gap)
+        sentence_tuple.s_ax.critical_surprisal - sentence_tuple.s_xx.critical_surprisal)
+
+# average
+avg_gap_wh_effect = np.mean(gap_wh_effects)
+avg_nogap_wh_effect = np.mean(nogap_wh_effects)
+
+# plot
+fig, ax = plt.subplots()
+ax.bar(
+    [
+        "Subject +gap wh-effect",
+        "Subject -gap wh-effect"
+    ],
+    [
+        avg_gap_wh_effect,
+        avg_nogap_wh_effect
+    ]
+)
+plt.show()
