@@ -35,9 +35,13 @@ def wilcox_replication(file_path: str, nogap_critical_keys: tuple[str], gap_crit
     with open(f'wilcox_csv/{file_path}') as file:
         csv_reader = list(csv.DictReader(file))
 
-        for i in range(1, 50):
+        items = [line.get('item') for line in csv_reader]
+        # remove duplicates w/out losing ordering by converting to a set
+        items = [i for n, i in enumerate(items) if i not in items[:n]]
+
+        for i in items:  # works for 4-way comparisons, ex: +/-filler, +/-gap
             sentence_datas = {}
-            entire_item = [d for d in csv_reader if d.get('item') == str(i)]
+            entire_item = [d for d in csv_reader if d.get('item') == i]
             for sentence in entire_item:
                 if sentence['condition'] == 'what_gap':
                     sentence_datas["s_fg"] = gc._grammar_output_to_sentence(
@@ -58,6 +62,7 @@ def wilcox_replication(file_path: str, nogap_critical_keys: tuple[str], gap_crit
                                      s_xx=sentence_datas['s_xx']
                                      )
             )
+
     # calculate all surprisals
     for wh_tuple in wh_tuples:
         surprisal.surprisal_effect_full_tuple(wh_tuple, model, True)
