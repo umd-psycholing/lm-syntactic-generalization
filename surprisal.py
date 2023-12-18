@@ -139,18 +139,18 @@ def surprisal_effect_full_tuple(sentence_tuple: TupleSentenceData, model: str, u
     )
 
     # generate each sentence's surprisal
-    s_fg_surprisal = critical_surprisal_from_sentence(
+    s_ab_surprisal = critical_surprisal_from_sentence(
         sentence=s_ab, model_to_use=model, update_class_field=update_class_fields)
-    s_xg_surprisal = critical_surprisal_from_sentence(
+    s_xb_surprisal = critical_surprisal_from_sentence(
         sentence=s_xb, model_to_use=model, update_class_field=update_class_fields)
-    s_fx_surprisal = critical_surprisal_from_sentence(
+    s_ax_surprisal = critical_surprisal_from_sentence(
         sentence=s_ax, model_to_use=model, update_class_field=update_class_fields)
     s_xx_surprisal = critical_surprisal_from_sentence(
         sentence=s_xx, model_to_use=model, update_class_field=update_class_fields)
 
     # defined externally since it may be calculated w/out re-calculating surprisal
-    return compute_surprisal_effect_from_surprisals(s_fg_surprisal, s_xg_surprisal,
-                                                    s_fx_surprisal, s_xx_surprisal)
+    return compute_surprisal_effect_from_surprisals(s_ab_surprisal, s_xb_surprisal,
+                                                    s_ax_surprisal, s_xx_surprisal)
 
 
 # implemented for model="gpt2", "grnn"
@@ -181,6 +181,3 @@ def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str, 
         sentence.critical_surprisal = critical_surprisal
 
     return critical_surprisal
-
-
-print(gpt2_surprisal("I know that the CEO showed the slides to the guests after lunch"))
