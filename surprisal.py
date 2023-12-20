@@ -16,9 +16,10 @@ if torch.__version__ >= "2.0":  # gpt2 (minicons)
     # single sentence surprisal for gpt2
     def gpt2_surprisal(sentence: str) -> list[tuple[str, float]]:
         results = gpt2_model.token_score(
-            batch=sentence, surprisal=True, base_two=True)
+            batch=sentence, surprisal=True, base_two=True)  # surprisal=True just flips signs relative to surprisal=False (log-odds)
         # return first result since we are only doing one sentence at a time
         return results[0]
+
 elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
     from colorlessgreenRNNs.src.language_models.dictionary_corpus import Dictionary
     from colorlessgreenRNNs.src.language_models.model import RNNModel
@@ -68,13 +69,13 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
             # print non-vocabulary words only once
             if word not in not_in_vocab:
                 not_in_vocab.append(word)
-                print("Warning: {} not in vocab".format(word))
+                print(f"Warning: {word} not in vocab")
         # return index of word if its known, otherwise index of <unk> (unknown)
-        return vocab.word2idx[word] if word in vocab.word2idx else vocab.word2idx["<unk>"]
+        return vocab.word2idx[word] if word in vocab.word2idx else vocab.word2idx['<unk>']
 
-    # get rid of <eos>, most likely will not work in the event of <unk>
     def align_surprisal(token_surprisals: list[tuple[str, float]], sentence: str):
         # this is used to tokenize RNN input but if we're going to compare GPT outputs we might as well use the same technique
+        #   NOTE: Currently GPT tokenizes its own sentences.
         words = grnn_tokenize(sentence)
         token_index = 0
         word_index = 0
@@ -82,7 +83,9 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
         while token_index < len(token_surprisals):
             current_word = words[word_index]
             current_token, current_surprisal = token_surprisals[token_index]
-            mismatch = current_word != current_token
+            # token does not match, alignment must be adjusted
+            mismatch = (current_token != current_word and
+                        current_token != '<unk>')
             while mismatch:
                 token_index += 1
                 current_token, current_surprisal = token_surprisals[token_index]
@@ -117,6 +120,7 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
         return align_surprisal(surprisals, sentence)
 
 
+# meant for standard 4-way comparison, somewhat niche. maybe should be removed
 def compute_surprisal_effect_from_surprisals(s_fg_surprisal: float, s_xg_surprisal: float,
                                              s_fx_surprisal: float, s_xx_surprisal: float):
     # how much more surprising is a gap, assuming a filler? (should be very low/negative)
@@ -181,3 +185,7 @@ def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str, 
         sentence.critical_surprisal = critical_surprisal
 
     return critical_surprisal
+
+
+print(gpt2_surprisal(
+    "I know that with gusto our uncle grabbed the food in front of the guests at the holiday party"))

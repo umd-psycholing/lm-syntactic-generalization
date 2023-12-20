@@ -29,10 +29,13 @@ def _critical_keys(d, from_key, to_key):
 # pp: critical region is either np3 or end
 
 
-def wilcox_replication(file_path: str, nogap_critical_keys: tuple[str], gap_critical_keys: tuple[str], gap_location: str):
+def wilcox_replication(file_path: str,
+                       nogap_critical_keys: tuple[str], gap_critical_keys: tuple[str],
+                       gap_location: str, average_type: str = 'mean'):
     # subject
     wh_tuples = []
     with open(f'wilcox_csv/{file_path}') as file:
+        # convert CSV to list of dictionaries [str : str]
         csv_reader = list(csv.DictReader(file))
 
         items = [line.get('item') for line in csv_reader]
@@ -43,6 +46,7 @@ def wilcox_replication(file_path: str, nogap_critical_keys: tuple[str], gap_crit
             sentence_datas = {}
             entire_item = [d for d in csv_reader if d.get('item') == i]
             for sentence in entire_item:
+                # [2:] to skip item and condition values. ex: 1,what_nogap
                 if sentence['condition'] == 'what_gap':
                     sentence_datas["s_fg"] = gc._grammar_output_to_sentence(
                         _critical_keys(sentence, gap_critical_keys[0], gap_critical_keys[1])[2:])
@@ -67,6 +71,7 @@ def wilcox_replication(file_path: str, nogap_critical_keys: tuple[str], gap_crit
     for wh_tuple in wh_tuples:
         surprisal.surprisal_effect_full_tuple(wh_tuple, model, True)
 
+    # save
     gc.corpus_to_json(wh_tuples,
                       f"wilcox_csv/wilcox_{gap_location}_wh_{model}.json")
 
@@ -74,20 +79,28 @@ def wilcox_replication(file_path: str, nogap_critical_keys: tuple[str], gap_crit
     gap_tuple_data = gc.corpus_from_json(
         f"wilcox_csv/wilcox_{gap_location}_wh_{model}.json", is_tuples=True)
 
-    # extract
+    # extract calculated surprisals from corpus
     gap_wh_effects = []
     nogap_wh_effects = []
     for sentence_tuple in gap_tuple_data:
-        # effect of wh when there *is* a gap (+gap wh-effect)
+        # (+gap wh-effect)
         gap_wh_effects.append(  # (wh, ___) - (that, ___)
             sentence_tuple.s_ab.critical_surprisal - sentence_tuple.s_xb.critical_surprisal)
-        # effect of wh when there is *not* a gap (-gap wh-effect)
+        # (-gap wh-effect)
         nogap_wh_effects.append(  # (wh, no gap) - (that, no gap)
             sentence_tuple.s_ax.critical_surprisal - sentence_tuple.s_xx.critical_surprisal)
 
-    # average
-    avg_gap_wh_effect = np.median(gap_wh_effects)
-    avg_nogap_wh_effect = np.median(nogap_wh_effects)
+    # average (according to user-chosen type)
+    match average_type:
+        case 'mean':  # default is 'mean'
+            avg_gap_wh_effect = np.mean(gap_wh_effects)
+            avg_nogap_wh_effect = np.mean(nogap_wh_effects)
+        case 'median':
+            avg_gap_wh_effect = np.median(gap_wh_effects)
+            avg_nogap_wh_effect = np.median(nogap_wh_effects)
+        case _:  # base case (shouldn't occur)
+            avg_gap_wh_effect = 0
+            avg_nogap_wh_effect = 0
 
     # plot
     fig, ax = plt.subplots()
@@ -104,15 +117,18 @@ def wilcox_replication(file_path: str, nogap_critical_keys: tuple[str], gap_crit
 
 
 # subject
-wilcox_replication('basic_subject.csv', ('np1', 'np1'),
-                   ('verb', 'verb'), "subject")
+wilcox_replication('basic_subject.csv',  # where to load
+                   ('np1', 'np1'), ('verb', 'verb'),  # where to extract
+                   "subject", 'mean')  # title & average type
 
 # object
-wilcox_replication('basic_object.csv', ('np2', 'np2'),
-                   ('prep', 'np3'), "object")
+wilcox_replication('basic_object.csv',  # where to load
+                   ('np2', 'np2'), ('prep', 'np3'),  # where to extract
+                   "object", 'mean')  # title & average type
 
 # prepositional phrase
-wilcox_replication('basic_pp.csv', ('np3', 'np3'),
-                   ('end', 'end'), "pp")
+wilcox_replication('basic_pp.csv',  # where to load
+                   ('np3', 'np3'), ('end', 'end'),  # where to extract
+                   "pp", 'mean')  # title & average type
 
 plt.show()
