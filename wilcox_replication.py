@@ -73,11 +73,11 @@ def wilcox_replication(file_path: str,
 
     # save
     gc.corpus_to_json(wh_tuples,
-                      f"wilcox_csv/wilcox_{gap_location}_wh_{model}.json")
+                      f"grammar_outputs/wilcox_replication/wilcox_{gap_location}_wh_{model}.json")
 
     # load
     gap_tuple_data = gc.corpus_from_json(
-        f"wilcox_csv/wilcox_{gap_location}_wh_{model}.json", is_tuples=True)
+        f"grammar_outputs/wilcox_replication/wilcox_{gap_location}_wh_{model}.json", is_tuples=True)
 
     # extract calculated surprisals from corpus
     gap_wh_effects = []
