@@ -176,7 +176,6 @@ def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str, 
         if token in critical_tokens:
             critical_surprisal += surprisal_result  # sum surprisal of each critical token
     if critical_surprisal == 0:
-        import pdb; pdb.set_trace()
         raise TypeError("Critical not found in surprisal data")
 
     if update_class_field:
