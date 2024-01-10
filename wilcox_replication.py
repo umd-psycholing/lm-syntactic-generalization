@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 'grnn' or 'gpt2'
-model = "gpt2"
+model = "grnn"
 
 
 def _critical_keys(d, from_key, to_key):
@@ -143,7 +143,8 @@ def wilcox_cnp_licensing(file_path: str,
         ),
         color=['lightblue', 'lightcoral']
     )
-    plt.title("Complex NP Islands Filler-Gap Dependency")
+    plt.title(f"Complex NP Islands Filler-Gap Dependency ({model})")
+    plt.ylim(-5, 5)
 
 
 def wilcox_basic_licensing(file_path: str,

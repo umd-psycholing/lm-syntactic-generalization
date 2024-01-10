@@ -97,6 +97,7 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
         surprisals = list(zip(tokens, surprisals))  # zip tokens in w/ it
         return align_surprisal(surprisals, sentence)
 
+
 def align_surprisal(token_surprisals: list[tuple[str, float]], sentence: str):
     words = sentence.split(" ")
     token_index = 0
@@ -106,8 +107,8 @@ def align_surprisal(token_surprisals: list[tuple[str, float]], sentence: str):
         current_word = words[word_index]
         current_token, current_surprisal = token_surprisals[token_index]
         # token does not match, alignment must be adjusted
-        mismatch = (current_token != current_word and
-                    current_token != '<unk>')
+        mismatch = (current_token != current_word)
+        
         while mismatch:
             token_index += 1
             current_token += token_surprisals[token_index][0]
@@ -117,6 +118,8 @@ def align_surprisal(token_surprisals: list[tuple[str, float]], sentence: str):
         token_index += 1
         word_index += 1
     return word_level_surprisal
+
+
 # meant for standard 4-way comparison, somewhat niche. maybe should be removed
 def compute_surprisal_effect_from_surprisals(s_fg_surprisal: float, s_xg_surprisal: float,
                                              s_fx_surprisal: float, s_xx_surprisal: float):
@@ -182,3 +185,4 @@ def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str, 
         sentence.critical_surprisal = critical_surprisal
 
     return critical_surprisal
+
