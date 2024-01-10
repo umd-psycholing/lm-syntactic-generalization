@@ -161,6 +161,14 @@ ATB_GRAMMARS = [
 #   This was done to ensure that S_XX (island, no gap) was represented by the lack of the two variables,
 #   because generation of sentences depends on S_XX containing each lexical choice that can be made for a tuple
 # G = gap position
+"""
+AB: It is these snacks that Mary knows Patricia bought yesterday.
+XB: It is these snacks that Mary knows the reason Patricia bought yesterday.
+AX: It is these snacks that Mary knows Patricia bought the cheese yesterday.
+XX: It is these snacks that Mary knows the reason Patricia bought the cheese yesterday.
+A = non-island, B = gap
+X = island, X = no gap
+"""
 ISLAND_GRAMMAR = SHARED_GRAMMAR + """
     S_AB -> PREAMBLE E G
     S_XB -> UNGRAMMATICAL PREAMBLE XE G

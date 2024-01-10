@@ -18,7 +18,7 @@ if torch.__version__ >= "2.0":  # gpt2 (minicons)
         results = gpt2_model.token_score(
             batch=sentence, surprisal=True, base_two=True)  # surprisal=True just flips signs relative to surprisal=False (log-odds)
         # return first result since we are only doing one sentence at a time
-        return results[0]
+        return align_surprisal(results[0], sentence)
 
 elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
     from colorlessgreenRNNs.src.language_models.dictionary_corpus import Dictionary
@@ -72,29 +72,7 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
                 print(f"Warning: {word} not in vocab")
         # return index of word if its known, otherwise index of <unk> (unknown)
         return vocab.word2idx[word] if word in vocab.word2idx else vocab.word2idx['<unk>']
-
-    def align_surprisal(token_surprisals: list[tuple[str, float]], sentence: str):
-        # this is used to tokenize RNN input but if we're going to compare GPT outputs we might as well use the same technique
-        #   NOTE: Currently GPT tokenizes its own sentences.
-        words = grnn_tokenize(sentence)
-        token_index = 0
-        word_index = 0
-        word_level_surprisal = []  # list of word, surprisal tuples
-        while token_index < len(token_surprisals):
-            current_word = words[word_index]
-            current_token, current_surprisal = token_surprisals[token_index]
-            # token does not match, alignment must be adjusted
-            mismatch = (current_token != current_word and
-                        current_token != '<unk>')
-            while mismatch:
-                token_index += 1
-                current_token, current_surprisal = token_surprisals[token_index]
-                mismatch = current_token != current_word
-            word_level_surprisal.append((current_word, current_surprisal))
-            token_index += 1
-            word_index += 1
-        return word_level_surprisal
-
+    
     # load model, vocab once
     sys.path.insert(
         0, "./colorlessgreenRNNs/src/language_models")
@@ -119,7 +97,26 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
         surprisals = list(zip(tokens, surprisals))  # zip tokens in w/ it
         return align_surprisal(surprisals, sentence)
 
-
+def align_surprisal(token_surprisals: list[tuple[str, float]], sentence: str):
+    words = sentence.split(" ")
+    token_index = 0
+    word_index = 0
+    word_level_surprisal = []  # list of word, surprisal tuples
+    while token_index < len(token_surprisals):
+        current_word = words[word_index]
+        current_token, current_surprisal = token_surprisals[token_index]
+        # token does not match, alignment must be adjusted
+        mismatch = (current_token != current_word and
+                    current_token != '<unk>')
+        while mismatch:
+            token_index += 1
+            current_token += token_surprisals[token_index][0]
+            current_surprisal += token_surprisals[token_index][1]
+            mismatch = current_token != current_word
+        word_level_surprisal.append((current_word, current_surprisal))
+        token_index += 1
+        word_index += 1
+    return word_level_surprisal
 # meant for standard 4-way comparison, somewhat niche. maybe should be removed
 def compute_surprisal_effect_from_surprisals(s_fg_surprisal: float, s_xg_surprisal: float,
                                              s_fx_surprisal: float, s_xx_surprisal: float):
