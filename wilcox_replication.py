@@ -232,8 +232,9 @@ def wilcox_basic_licensing(file_path: str,
         ),
         color=['lightblue', 'lightcoral']
     )
+    plt.ylim(-1, 1)
 
-"""
+
 # subject
 wilcox_basic_licensing('basic_subject.csv',  # where to load
                    ('np1', 'np1'), ('verb', 'verb'),  # where to extract
@@ -248,10 +249,12 @@ wilcox_basic_licensing('basic_object.csv',  # where to load
 wilcox_basic_licensing('basic_pp.csv',  # where to load
                    ('np3', 'np3'), ('end', 'end'),  # where to extract
                    "pp", 'mean')  # title & average type
-"""
 
+
+"""
 wilcox_cnp_licensing('islands_cnp.csv', 
                      ('rc_obj', 'rc_obj'), ('continuation', 'continuation'),
                      'mean')
-
+"""
+                     
 plt.show()
