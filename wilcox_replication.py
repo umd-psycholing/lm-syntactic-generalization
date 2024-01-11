@@ -232,6 +232,7 @@ def wilcox_basic_licensing(file_path: str,
         ),
         color=['lightblue', 'lightcoral']
     )
+    plt.ylim(-1, 1)
 
 """
 # subject
@@ -250,8 +251,10 @@ wilcox_basic_licensing('basic_pp.csv',  # where to load
                    "pp", 'mean')  # title & average type
 """
 
+
 wilcox_cnp_licensing('islands_cnp.csv', 
                      ('rc_obj', 'rc_obj'), ('continuation', 'continuation'),
                      'mean')
 
+                     
 plt.show()
