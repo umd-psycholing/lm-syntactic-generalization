@@ -157,9 +157,9 @@ def surprisal_effect_full_tuple(sentence_tuple: TupleSentenceData, model: str, u
                                                     s_ax_surprisal, s_xx_surprisal)
 
 
-def _sum_surprisals(tokens_and_scores, target_tokens):
+def _sum_surprisals(tokens_and_scores: list[tuple[str, float]], target_tokens: list[str]) -> float:
     # print(tokens_and_scores, target_tokens)
-    total_score = 0
+    total_score = 0.0
     current_sequence = []
 
     for tuple_word, score in tokens_and_scores:
@@ -184,7 +184,7 @@ def _sum_surprisals(tokens_and_scores, target_tokens):
         if current_sequence == target_tokens:
             return total_score
     
-    return 0
+    raise RuntimeError("Target tokens not found. (_sum_surprisals())")
 
 
 # implemented for model="gpt2", "grnn"
@@ -207,14 +207,15 @@ def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str, 
     critical_surprisal = _sum_surprisals(surprisal_info, critical_tokens)
 
     """
+    # this way of doing it over-counted repeat words. 
+    # Ex: "I know the cat ate the bird", ("the", "bird") would add the surprisal of 'the', 'the', and 'bird'.
+
     critical_surprisal = 0
     for token, surprisal_result in surprisal_info:
         if token in critical_tokens:
             critical_surprisal += surprisal_result  # sum surprisal of each critical token
     """
-    if critical_surprisal == 0:
-        raise TypeError("Critical not found in surprisal data")
-
+    
     if update_class_field:
         sentence.critical_surprisal = critical_surprisal
 
