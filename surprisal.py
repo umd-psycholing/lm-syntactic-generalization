@@ -1,3 +1,4 @@
+import numpy as np
 import torch
 import torch.nn.functional as F
 import sys
@@ -15,10 +16,12 @@ if torch.__version__ >= "2.0":  # gpt2 (minicons)
 
     # single sentence surprisal for gpt2
     def gpt2_surprisal(sentence: str) -> list[tuple[str, float]]:
+        BOS_TOKEN = "<|endoftext|> "
+        EOS_TOKEN = " <|endoftext|>"
         results = gpt2_model.token_score(
-            batch=sentence, surprisal=True, base_two=True)  # surprisal=True just flips signs relative to surprisal=False (log-odds)
+            batch=BOS_TOKEN + sentence + EOS_TOKEN, surprisal=True, base_two=True)  # surprisal=True just flips signs relative to surprisal=False (log-odds)
         # return first result since we are only doing one sentence at a time
-        return align_surprisal(results[0], sentence)
+        return align_surprisal(results[0], BOS_TOKEN + sentence + EOS_TOKEN)
 
 elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
     from colorlessgreenRNNs.src.language_models.dictionary_corpus import Dictionary
@@ -78,24 +81,23 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
         0, "./colorlessgreenRNNs/src/language_models")
     # set up model
     torch.nn.Module.dump_patches = False
-    lstm_vocab = load_vocab(
-        "./colorlessgreenRNNs/src/data/lm")
-    model, grnn = load_rnn(
-        "./colorlessgreenRNNs/src/models/hidden650_batch128_dropout0.2_lr20.0.pt")
+    lstm_vocab = load_vocab("data/lm-data/")
+    model, grnn = load_rnn("models/hidden650_batch128_dropout0.2_lr20.0.pt")
 
     # single sentence surprisal for gpt2
     def grnn_surprisal(sentence: str, model: RNNModel = model, grnn: RNNModel = grnn, vocab: Dictionary = lstm_vocab):
         # EOS prepend + 's split
         # tokens = ["<eos>"] + grnn_tokenize(sentence)
-        tokens = grnn_tokenize(sentence)
-        rnn_input = torch.LongTensor(
-            # [indexify(w.lower(), vocab) for w in sentence]) # lowercase names are not in vocab!
-            [indexify(w, vocab) for w in tokens])
-        out, _ = grnn(rnn_input.view(-1, 1), model.init_hidden(1))
-        surprisals = [-F.log_softmax(out[i], dim=-1).view(-1)[word_idx].item() for i, (word_idx, word)
-                      in enumerate(zip(rnn_input, tokens))]
-        surprisals = list(zip(tokens, surprisals))  # zip tokens in w/ it
-        return align_surprisal(surprisals, sentence)
+        with torch.no_grad():
+            tokens = ["<eos>"] + grnn_tokenize(sentence)
+            rnn_input = torch.LongTensor(
+                # [indexify(w.lower(), vocab) for w in sentence]) # lowercase names are not in vocab!
+                [indexify(w, vocab) for w in tokens])
+            out, _ = grnn(rnn_input.view(-1, 1), model.init_hidden(1))
+            surprisals = [-F.log_softmax(out[i - 1], dim=-1).view(-1)[word_idx].item()/np.log(2.0) for i, (word_idx, word)
+                        in enumerate(zip(rnn_input, tokens))]
+            surprisals = list(zip(tokens, surprisals))  # zip tokens in w/ it
+            return align_surprisal(surprisals, "<eos> " + sentence)
 
 def align_surprisal(token_surprisals: list[tuple[str, float]], sentence: str):
     words = sentence.split(" ")
@@ -184,5 +186,5 @@ def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str, 
     return critical_surprisal
 
 
-print(gpt2_surprisal(
+print(grnn_surprisal(
     "I know that with gusto our uncle grabbed the food in front of the guests at the holiday party"))
