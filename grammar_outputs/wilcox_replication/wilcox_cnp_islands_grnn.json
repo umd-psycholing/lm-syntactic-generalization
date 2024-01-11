@@ -97,7 +97,7 @@
         "the",
         "general"
       ],
-      "critical_surprisal": 45.0696439743042
+      "critical_surprisal": 20.45105743408203
     },
     "s_xx": {
       "original_tokens": [
@@ -132,7 +132,7 @@
         "the",
         "general"
       ],
-      "critical_surprisal": 43.54047679901123
+      "critical_surprisal": 20.013736724853516
     }
   },
   {
@@ -239,7 +239,7 @@
         "the",
         "general"
       ],
-      "critical_surprisal": 34.21458721160889
+      "critical_surprisal": 21.605674743652344
     },
     "s_xx": {
       "original_tokens": [
@@ -276,7 +276,7 @@
         "the",
         "general"
       ],
-      "critical_surprisal": 33.64179277420044
+      "critical_surprisal": 21.432913303375244
     }
   },
   {
@@ -383,7 +383,7 @@
         "the",
         "general"
       ],
-      "critical_surprisal": 34.24228858947754
+      "critical_surprisal": 21.633376121520996
     },
     "s_xx": {
       "original_tokens": [
@@ -420,7 +420,7 @@
         "the",
         "general"
       ],
-      "critical_surprisal": 33.7247896194458
+      "critical_surprisal": 21.515910148620605
     }
   },
   {
@@ -658,7 +658,7 @@
         "gift",
         "card"
       ],
-      "critical_surprisal": 42.36843538284302
+      "critical_surprisal": 22.67497205734253
     },
     "s_xx": {
       "original_tokens": [
@@ -696,7 +696,7 @@
         "gift",
         "card"
       ],
-      "critical_surprisal": 41.142080783843994
+      "critical_surprisal": 22.6905517578125
     }
   },
   {
@@ -800,7 +800,7 @@
         "gift",
         "card"
       ],
-      "critical_surprisal": 42.5894250869751
+      "critical_surprisal": 22.89596176147461
     },
     "s_xx": {
       "original_tokens": [
@@ -838,7 +838,7 @@
         "gift",
         "card"
       ],
-      "critical_surprisal": 41.414207458496094
+      "critical_surprisal": 22.9626784324646
     }
   },
   {
@@ -934,7 +934,7 @@
         "the",
         "actress"
       ],
-      "critical_surprisal": 36.21565055847168
+      "critical_surprisal": 23.181066513061523
     },
     "s_xx": {
       "original_tokens": [
@@ -968,7 +968,7 @@
         "the",
         "actress"
       ],
-      "critical_surprisal": 35.61371898651123
+      "critical_surprisal": 22.47047710418701
     }
   },
   {
@@ -1073,7 +1073,7 @@
         "the",
         "actress"
       ],
-      "critical_surprisal": 48.26339244842529
+      "critical_surprisal": 22.577775955200195
     },
     "s_xx": {
       "original_tokens": [
@@ -1110,7 +1110,7 @@
         "the",
         "actress"
       ],
-      "critical_surprisal": 48.41064643859863
+      "critical_surprisal": 22.716609001159668
     }
   },
   {
@@ -1215,7 +1215,7 @@
         "the",
         "actress"
       ],
-      "critical_surprisal": 48.95587158203125
+      "critical_surprisal": 23.270255088806152
     },
     "s_xx": {
       "original_tokens": [
@@ -1252,7 +1252,7 @@
         "the",
         "actress"
       ],
-      "critical_surprisal": 48.845266342163086
+      "critical_surprisal": 23.15122890472412
     }
   },
   {
@@ -1797,7 +1797,7 @@
         "the",
         "defendant"
       ],
-      "critical_surprisal": 53.38406944274902
+      "critical_surprisal": 26.03543472290039
     },
     "s_xx": {
       "original_tokens": [
@@ -1832,7 +1832,7 @@
         "the",
         "defendant"
       ],
-      "critical_surprisal": 51.11961841583252
+      "critical_surprisal": 24.256022453308105
     }
   },
   {
@@ -1939,7 +1939,7 @@
         "the",
         "defendant"
       ],
-      "critical_surprisal": 53.42478370666504
+      "critical_surprisal": 25.81117343902588
     },
     "s_xx": {
       "original_tokens": [
@@ -1976,7 +1976,7 @@
         "the",
         "defendant"
       ],
-      "critical_surprisal": 49.844093322753906
+      "critical_surprisal": 24.613622665405273
     }
   },
   {
@@ -2083,7 +2083,7 @@
         "the",
         "defendant"
       ],
-      "critical_surprisal": 52.39057445526123
+      "critical_surprisal": 24.77696418762207
     },
     "s_xx": {
       "original_tokens": [
@@ -2120,7 +2120,7 @@
         "the",
         "defendant"
       ],
-      "critical_surprisal": 49.13896560668945
+      "critical_surprisal": 23.90849494934082
     }
   },
   {
@@ -2628,7 +2628,7 @@
         "the",
         "judge"
       ],
-      "critical_surprisal": 48.82022571563721
+      "critical_surprisal": 22.529879570007324
     },
     "s_xx": {
       "original_tokens": [
@@ -2666,7 +2666,7 @@
         "the",
         "judge"
       ],
-      "critical_surprisal": 48.80152702331543
+      "critical_surprisal": 22.42102813720703
     }
   },
   {
@@ -2786,7 +2786,7 @@
         "the",
         "judge"
       ],
-      "critical_surprisal": 48.52586650848389
+      "critical_surprisal": 22.084221839904785
     },
     "s_xx": {
       "original_tokens": [
@@ -2826,7 +2826,7 @@
         "the",
         "judge"
       ],
-      "critical_surprisal": 48.371925354003906
+      "critical_surprisal": 21.67798137664795
     }
   },
   {
@@ -2946,7 +2946,7 @@
         "the",
         "judge"
       ],
-      "critical_surprisal": 49.03328227996826
+      "critical_surprisal": 22.59163761138916
     },
     "s_xx": {
       "original_tokens": [
@@ -2986,7 +2986,7 @@
         "the",
         "judge"
       ],
-      "critical_surprisal": 48.42359447479248
+      "critical_surprisal": 21.729650497436523
     }
   },
   {
@@ -3078,7 +3078,7 @@
         "the",
         "plans"
       ],
-      "critical_surprisal": 55.341864585876465
+      "critical_surprisal": 26.09112548828125
     },
     "s_xx": {
       "original_tokens": [
@@ -3110,7 +3110,7 @@
         "the",
         "plans"
       ],
-      "critical_surprisal": 49.921698570251465
+      "critical_surprisal": 23.980283737182617
     }
   },
   {
@@ -3208,7 +3208,7 @@
         "the",
         "plans"
       ],
-      "critical_surprisal": 55.49861240386963
+      "critical_surprisal": 24.29570198059082
     },
     "s_xx": {
       "original_tokens": [
@@ -3242,7 +3242,7 @@
         "the",
         "plans"
       ],
-      "critical_surprisal": 52.22976303100586
+      "critical_surprisal": 24.653054237365723
     }
   },
   {
@@ -3340,7 +3340,7 @@
         "the",
         "plans"
       ],
-      "critical_surprisal": 55.824872970581055
+      "critical_surprisal": 24.621962547302246
     },
     "s_xx": {
       "original_tokens": [
@@ -3374,7 +3374,7 @@
         "the",
         "plans"
       ],
-      "critical_surprisal": 52.333946228027344
+      "critical_surprisal": 24.757237434387207
     }
   },
   {
@@ -3475,7 +3475,7 @@
         "the",
         "surgeon"
       ],
-      "critical_surprisal": 49.20504856109619
+      "critical_surprisal": 23.666601181030273
     },
     "s_xx": {
       "original_tokens": [
@@ -3510,7 +3510,7 @@
         "the",
         "surgeon"
       ],
-      "critical_surprisal": 46.9653959274292
+      "critical_surprisal": 22.340746879577637
     }
   },
   {
@@ -3617,7 +3617,7 @@
         "the",
         "surgeon"
       ],
-      "critical_surprisal": 50.32932186126709
+      "critical_surprisal": 22.57526206970215
     },
     "s_xx": {
       "original_tokens": [
@@ -3654,7 +3654,7 @@
         "the",
         "surgeon"
       ],
-      "critical_surprisal": 47.800132751464844
+      "critical_surprisal": 22.119953155517578
     }
   },
   {
@@ -3761,7 +3761,7 @@
         "the",
         "surgeon"
       ],
-      "critical_surprisal": 51.19777202606201
+      "critical_surprisal": 23.44371223449707
     },
     "s_xx": {
       "original_tokens": [
@@ -3798,7 +3798,7 @@
         "the",
         "surgeon"
       ],
-      "critical_surprisal": 48.472805976867676
+      "critical_surprisal": 22.79262638092041
     }
   },
   {
@@ -3897,7 +3897,7 @@
         "the",
         "government"
       ],
-      "critical_surprisal": 45.41679048538208
+      "critical_surprisal": 18.54468870162964
     },
     "s_xx": {
       "original_tokens": [
@@ -3932,7 +3932,7 @@
         "the",
         "government"
       ],
-      "critical_surprisal": 42.973246574401855
+      "critical_surprisal": 18.459574699401855
     }
   },
   {
@@ -4040,7 +4040,7 @@
         "the",
         "government"
       ],
-      "critical_surprisal": 46.46435070037842
+      "critical_surprisal": 19.19991970062256
     },
     "s_xx": {
       "original_tokens": [
@@ -4078,7 +4078,7 @@
         "the",
         "government"
       ],
-      "critical_surprisal": 42.720815658569336
+      "critical_surprisal": 18.98487949371338
     }
   },
   {
@@ -4186,7 +4186,7 @@
         "the",
         "government"
       ],
-      "critical_surprisal": 46.502429485321045
+      "critical_surprisal": 19.237998485565186
     },
     "s_xx": {
       "original_tokens": [
@@ -4224,7 +4224,7 @@
         "the",
         "government"
       ],
-      "critical_surprisal": 42.82228994369507
+      "critical_surprisal": 19.08635377883911
     }
   },
   {
@@ -4328,7 +4328,7 @@
         "the",
         "president"
       ],
-      "critical_surprisal": 47.22022533416748
+      "critical_surprisal": 22.402788162231445
     },
     "s_xx": {
       "original_tokens": [
@@ -4364,7 +4364,7 @@
         "the",
         "president"
       ],
-      "critical_surprisal": 47.412800788879395
+      "critical_surprisal": 22.01859188079834
     }
   },
   {
@@ -4474,7 +4474,7 @@
         "the",
         "president"
       ],
-      "critical_surprisal": 45.88514423370361
+      "critical_surprisal": 22.370070457458496
     },
     "s_xx": {
       "original_tokens": [
@@ -4512,7 +4512,7 @@
         "the",
         "president"
       ],
-      "critical_surprisal": 46.24027442932129
+      "critical_surprisal": 22.271881103515625
     }
   },
   {
@@ -4622,7 +4622,7 @@
         "the",
         "president"
       ],
-      "critical_surprisal": 45.77775955200195
+      "critical_surprisal": 22.262685775756836
     },
     "s_xx": {
       "original_tokens": [
@@ -4660,7 +4660,7 @@
         "the",
         "president"
       ],
-      "critical_surprisal": 46.37583827972412
+      "critical_surprisal": 22.407444953918457
     }
   },
   {
@@ -4771,7 +4771,7 @@
         "the",
         "computers"
       ],
-      "critical_surprisal": 58.20054244995117
+      "critical_surprisal": 29.03918743133545
     },
     "s_xx": {
       "original_tokens": [
@@ -4808,7 +4808,7 @@
         "the",
         "computers"
       ],
-      "critical_surprisal": 54.6779146194458
+      "critical_surprisal": 28.798542976379395
     }
   },
   {
@@ -4925,7 +4925,7 @@
         "the",
         "computers"
       ],
-      "critical_surprisal": 56.45729446411133
+      "critical_surprisal": 24.98930549621582
     },
     "s_xx": {
       "original_tokens": [
@@ -4964,7 +4964,7 @@
         "the",
         "computers"
       ],
-      "critical_surprisal": 53.44182872772217
+      "critical_surprisal": 25.622896194458008
     }
   },
   {
@@ -5081,7 +5081,7 @@
         "the",
         "computers"
       ],
-      "critical_surprisal": 57.029242515563965
+      "critical_surprisal": 25.561253547668457
     },
     "s_xx": {
       "original_tokens": [
@@ -5120,7 +5120,7 @@
         "the",
         "computers"
       ],
-      "critical_surprisal": 54.1912145614624
+      "critical_surprisal": 26.372282028198242
     }
   },
   {
@@ -6919,7 +6919,7 @@
         "the",
         "planner"
       ],
-      "critical_surprisal": 57.05378723144531
+      "critical_surprisal": 30.552358627319336
     },
     "s_xx": {
       "original_tokens": [
@@ -6954,7 +6954,7 @@
         "the",
         "planner"
       ],
-      "critical_surprisal": 56.69111728668213
+      "critical_surprisal": 30.13086700439453
     }
   },
   {
@@ -7061,7 +7061,7 @@
         "the",
         "planner"
       ],
-      "critical_surprisal": 50.54465866088867
+      "critical_surprisal": 24.182279586791992
     },
     "s_xx": {
       "original_tokens": [
@@ -7098,7 +7098,7 @@
         "the",
         "planner"
       ],
-      "critical_surprisal": 50.42787456512451
+      "critical_surprisal": 24.213208198547363
     }
   },
   {
@@ -7205,7 +7205,7 @@
         "the",
         "planner"
       ],
-      "critical_surprisal": 51.37015247344971
+      "critical_surprisal": 25.007773399353027
     },
     "s_xx": {
       "original_tokens": [
@@ -7242,7 +7242,7 @@
         "the",
         "planner"
       ],
-      "critical_surprisal": 50.68695640563965
+      "critical_surprisal": 24.4722900390625
     }
   },
   {
@@ -7343,7 +7343,7 @@
         "the",
         "princess"
       ],
-      "critical_surprisal": 47.19852256774902
+      "critical_surprisal": 20.909109115600586
     },
     "s_xx": {
       "original_tokens": [
@@ -7378,7 +7378,7 @@
         "the",
         "princess"
       ],
-      "critical_surprisal": 45.69527196884155
+      "critical_surprisal": 20.47892713546753
     }
   },
   {
@@ -7485,7 +7485,7 @@
         "the",
         "princess"
       ],
-      "critical_surprisal": 46.99396467208862
+      "critical_surprisal": 21.138102054595947
     },
     "s_xx": {
       "original_tokens": [
@@ -7522,7 +7522,7 @@
         "the",
         "princess"
       ],
-      "critical_surprisal": 46.79400110244751
+      "critical_surprisal": 21.01106595993042
     }
   },
   {
@@ -7629,7 +7629,7 @@
         "the",
         "princess"
       ],
-      "critical_surprisal": 47.72137451171875
+      "critical_surprisal": 21.865511894226074
     },
     "s_xx": {
       "original_tokens": [
@@ -7666,7 +7666,7 @@
         "the",
         "princess"
       ],
-      "critical_surprisal": 47.16999340057373
+      "critical_surprisal": 21.38705825805664
     }
   },
   {
@@ -7770,7 +7770,7 @@
         "the",
         "queen"
       ],
-      "critical_surprisal": 48.41938877105713
+      "critical_surprisal": 23.62037181854248
     },
     "s_xx": {
       "original_tokens": [
@@ -7806,7 +7806,7 @@
         "the",
         "queen"
       ],
-      "critical_surprisal": 46.49624824523926
+      "critical_surprisal": 21.46449375152588
     }
   },
   {
@@ -7916,7 +7916,7 @@
         "the",
         "queen"
       ],
-      "critical_surprisal": 49.62170886993408
+      "critical_surprisal": 23.36318302154541
     },
     "s_xx": {
       "original_tokens": [
@@ -7954,7 +7954,7 @@
         "the",
         "queen"
       ],
-      "critical_surprisal": 47.80565547943115
+      "critical_surprisal": 23.312541007995605
     }
   },
   {
@@ -8064,7 +8064,7 @@
         "the",
         "queen"
       ],
-      "critical_surprisal": 49.27281951904297
+      "critical_surprisal": 23.014293670654297
     },
     "s_xx": {
       "original_tokens": [
@@ -8102,7 +8102,7 @@
         "the",
         "queen"
       ],
-      "critical_surprisal": 47.628968238830566
+      "critical_surprisal": 23.13585376739502
     }
   },
   {
@@ -8203,7 +8203,7 @@
         "the",
         "treasure"
       ],
-      "critical_surprisal": 49.66865634918213
+      "critical_surprisal": 21.499874114990234
     },
     "s_xx": {
       "original_tokens": [
@@ -8238,7 +8238,7 @@
         "the",
         "treasure"
       ],
-      "critical_surprisal": 45.1288628578186
+      "critical_surprisal": 20.974271297454834
     }
   },
   {
@@ -8345,7 +8345,7 @@
         "the",
         "treasure"
       ],
-      "critical_surprisal": 48.90695905685425
+      "critical_surprisal": 19.85874319076538
     },
     "s_xx": {
       "original_tokens": [
@@ -8382,7 +8382,7 @@
         "the",
         "treasure"
       ],
-      "critical_surprisal": 45.929898262023926
+      "critical_surprisal": 20.543416023254395
     }
   },
   {
@@ -8489,7 +8489,7 @@
         "the",
         "treasure"
       ],
-      "critical_surprisal": 49.41912651062012
+      "critical_surprisal": 20.37091064453125
     },
     "s_xx": {
       "original_tokens": [
@@ -8526,7 +8526,7 @@
         "the",
         "treasure"
       ],
-      "critical_surprisal": 46.60680961608887
+      "critical_surprisal": 21.220327377319336
     }
   },
   {
@@ -8625,7 +8625,7 @@
         "the",
         "investor"
       ],
-      "critical_surprisal": 51.67705726623535
+      "critical_surprisal": 27.163654327392578
     },
     "s_xx": {
       "original_tokens": [
@@ -8660,7 +8660,7 @@
         "the",
         "investor"
       ],
-      "critical_surprisal": 52.163705825805664
+      "critical_surprisal": 26.776592254638672
     }
   },
   {
@@ -8765,7 +8765,7 @@
         "the",
         "investor"
       ],
-      "critical_surprisal": 50.11932563781738
+      "critical_surprisal": 25.41537094116211
     },
     "s_xx": {
       "original_tokens": [
@@ -8802,7 +8802,7 @@
         "the",
         "investor"
       ],
-      "critical_surprisal": 50.49648475646973
+      "critical_surprisal": 25.3068208694458
     }
   },
   {
@@ -8907,7 +8907,7 @@
         "the",
         "investor"
       ],
-      "critical_surprisal": 50.00126647949219
+      "critical_surprisal": 25.297311782836914
     },
     "s_xx": {
       "original_tokens": [
@@ -8944,7 +8944,7 @@
         "the",
         "investor"
       ],
-      "critical_surprisal": 50.46638870239258
+      "critical_surprisal": 25.276724815368652
     }
   },
   {
@@ -8980,7 +8980,7 @@
         "the",
         "meal"
       ],
-      "critical_surprisal": 58.94285583496094
+      "critical_surprisal": 32.85458755493164
     },
     "s_xb": {
       "original_tokens": [
@@ -9014,7 +9014,7 @@
         "the",
         "meal"
       ],
-      "critical_surprisal": 60.33928394317627
+      "critical_surprisal": 33.956400871276855
     },
     "s_ax": {
       "original_tokens": [
@@ -9050,7 +9050,7 @@
         "the",
         "manager"
       ],
-      "critical_surprisal": 61.95952606201172
+      "critical_surprisal": 22.608759880065918
     },
     "s_xx": {
       "original_tokens": [
@@ -9086,7 +9086,7 @@
         "the",
         "manager"
       ],
-      "critical_surprisal": 62.34944248199463
+      "critical_surprisal": 22.30357074737549
     }
   },
   {
@@ -9124,7 +9124,7 @@
         "the",
         "meal"
       ],
-      "critical_surprisal": 59.45363426208496
+      "critical_surprisal": 33.9345760345459
     },
     "s_xb": {
       "original_tokens": [
@@ -9160,7 +9160,7 @@
         "the",
         "meal"
       ],
-      "critical_surprisal": 58.77968406677246
+      "critical_surprisal": 33.933815002441406
     },
     "s_ax": {
       "original_tokens": [
@@ -9198,7 +9198,7 @@
         "the",
         "manager"
       ],
-      "critical_surprisal": 61.41226387023926
+      "critical_surprisal": 22.689769744873047
     },
     "s_xx": {
       "original_tokens": [
@@ -9236,7 +9236,7 @@
         "the",
         "manager"
       ],
-      "critical_surprisal": 60.609907150268555
+      "critical_surprisal": 22.579358100891113
     }
   },
   {
@@ -9274,7 +9274,7 @@
         "the",
         "meal"
       ],
-      "critical_surprisal": 59.10831165313721
+      "critical_surprisal": 33.589253425598145
     },
     "s_xb": {
       "original_tokens": [
@@ -9310,7 +9310,7 @@
         "the",
         "meal"
       ],
-      "critical_surprisal": 58.06650447845459
+      "critical_surprisal": 33.220635414123535
     },
     "s_ax": {
       "original_tokens": [
@@ -9348,7 +9348,7 @@
         "the",
         "manager"
       ],
-      "critical_surprisal": 61.37721920013428
+      "critical_surprisal": 22.700603485107422
     },
     "s_xx": {
       "original_tokens": [
@@ -9386,7 +9386,7 @@
         "the",
         "manager"
       ],
-      "critical_surprisal": 60.89395332336426
+      "critical_surprisal": 22.793699264526367
     }
   },
   {
@@ -9422,7 +9422,7 @@
         "the",
         "ceremony"
       ],
-      "critical_surprisal": 56.954896450042725
+      "critical_surprisal": 31.09133005142212
     },
     "s_xb": {
       "original_tokens": [
@@ -9456,7 +9456,7 @@
         "the",
         "ceremony"
       ],
-      "critical_surprisal": 56.114975452423096
+      "critical_surprisal": 30.898712635040283
     },
     "s_ax": {
       "original_tokens": [
@@ -9494,7 +9494,7 @@
         "alter",
         "boy"
       ],
-      "critical_surprisal": 72.85689353942871
+      "critical_surprisal": 34.66195201873779
     },
     "s_xx": {
       "original_tokens": [
@@ -9532,7 +9532,7 @@
         "alter",
         "boy"
       ],
-      "critical_surprisal": 72.75250434875488
+      "critical_surprisal": 34.92296028137207
     }
   },
   {
@@ -9570,7 +9570,7 @@
         "the",
         "ceremony"
       ],
-      "critical_surprisal": 55.650070667266846
+      "critical_surprisal": 31.29465627670288
     },
     "s_xb": {
       "original_tokens": [
@@ -9606,7 +9606,7 @@
         "the",
         "ceremony"
       ],
-      "critical_surprisal": 55.70652675628662
+      "critical_surprisal": 31.599685668945312
     },
     "s_ax": {
       "original_tokens": [
@@ -9646,7 +9646,7 @@
         "alter",
         "boy"
       ],
-      "critical_surprisal": 73.88169193267822
+      "critical_surprisal": 36.51793384552002
     },
     "s_xx": {
       "original_tokens": [
@@ -9686,7 +9686,7 @@
         "alter",
         "boy"
       ],
-      "critical_surprisal": 73.84759616851807
+      "critical_surprisal": 36.61173629760742
     }
   },
   {
@@ -9724,7 +9724,7 @@
         "the",
         "ceremony"
       ],
-      "critical_surprisal": 56.124661445617676
+      "critical_surprisal": 31.76924705505371
     },
     "s_xb": {
       "original_tokens": [
@@ -9760,7 +9760,7 @@
         "the",
         "ceremony"
       ],
-      "critical_surprisal": 55.18325138092041
+      "critical_surprisal": 31.0764102935791
     },
     "s_ax": {
       "original_tokens": [
@@ -9800,7 +9800,7 @@
         "alter",
         "boy"
       ],
-      "critical_surprisal": 74.31698608398438
+      "critical_surprisal": 37.092833518981934
     },
     "s_xx": {
       "original_tokens": [
@@ -9840,7 +9840,7 @@
         "alter",
         "boy"
       ],
-      "critical_surprisal": 73.3164381980896
+      "critical_surprisal": 36.28846979141235
     }
   },
   {
@@ -9944,7 +9944,7 @@
         "the",
         "boy"
       ],
-      "critical_surprisal": 48.60825729370117
+      "critical_surprisal": 22.046658515930176
     },
     "s_xx": {
       "original_tokens": [
@@ -9980,7 +9980,7 @@
         "the",
         "boy"
       ],
-      "critical_surprisal": 48.30202388763428
+      "critical_surprisal": 22.07245635986328
     }
   },
   {
@@ -10087,7 +10087,7 @@
         "the",
         "boy"
       ],
-      "critical_surprisal": 46.99886417388916
+      "critical_surprisal": 20.454622268676758
     },
     "s_xx": {
       "original_tokens": [
@@ -10124,7 +10124,7 @@
         "the",
         "boy"
       ],
-      "critical_surprisal": 46.64512538909912
+      "critical_surprisal": 20.42999267578125
     }
   },
   {
@@ -10231,7 +10231,7 @@
         "the",
         "boy"
       ],
-      "critical_surprisal": 46.3817663192749
+      "critical_surprisal": 19.8375244140625
     },
     "s_xx": {
       "original_tokens": [
@@ -10268,7 +10268,7 @@
         "the",
         "boy"
       ],
-      "critical_surprisal": 46.59284973144531
+      "critical_surprisal": 20.37771701812744
     }
   },
   {
@@ -10371,7 +10371,7 @@
         "the",
         "dictator"
       ],
-      "critical_surprisal": 50.087693214416504
+      "critical_surprisal": 24.9134464263916
     },
     "s_xx": {
       "original_tokens": [
@@ -10406,7 +10406,7 @@
         "the",
         "dictator"
       ],
-      "critical_surprisal": 47.192562103271484
+      "critical_surprisal": 22.929600715637207
     }
   },
   {
@@ -10518,7 +10518,7 @@
         "the",
         "dictator"
       ],
-      "critical_surprisal": 48.07130718231201
+      "critical_surprisal": 23.060842514038086
     },
     "s_xx": {
       "original_tokens": [
@@ -10556,7 +10556,7 @@
         "the",
         "dictator"
       ],
-      "critical_surprisal": 47.12691593170166
+      "critical_surprisal": 23.312832832336426
     }
   },
   {
@@ -10668,7 +10668,7 @@
         "the",
         "dictator"
       ],
-      "critical_surprisal": 48.19033908843994
+      "critical_surprisal": 23.179874420166016
     },
     "s_xx": {
       "original_tokens": [
@@ -10706,7 +10706,7 @@
         "the",
         "dictator"
       ],
-      "critical_surprisal": 47.42637634277344
+      "critical_surprisal": 23.612293243408203
     }
   },
   {
@@ -10802,7 +10802,7 @@
         "the",
         "streets"
       ],
-      "critical_surprisal": 42.348708152770996
+      "critical_surprisal": 25.871222496032715
     },
     "s_xx": {
       "original_tokens": [
@@ -10836,7 +10836,7 @@
         "the",
         "streets"
       ],
-      "critical_surprisal": 39.31988525390625
+      "critical_surprisal": 26.023828506469727
     }
   },
   {
@@ -10941,7 +10941,7 @@
         "the",
         "streets"
       ],
-      "critical_surprisal": 53.92171382904053
+      "critical_surprisal": 24.883742332458496
     },
     "s_xx": {
       "original_tokens": [
@@ -10978,7 +10978,7 @@
         "the",
         "streets"
       ],
-      "critical_surprisal": 51.673338890075684
+      "critical_surprisal": 25.2338924407959
     }
   },
   {
@@ -11083,7 +11083,7 @@
         "the",
         "streets"
       ],
-      "critical_surprisal": 54.20383358001709
+      "critical_surprisal": 25.16586208343506
     },
     "s_xx": {
       "original_tokens": [
@@ -11120,7 +11120,7 @@
         "the",
         "streets"
       ],
-      "critical_surprisal": 52.19850826263428
+      "critical_surprisal": 25.759061813354492
     }
   },
   {
@@ -11218,7 +11218,7 @@
         "the",
         "hunters"
       ],
-      "critical_surprisal": 42.42470359802246
+      "critical_surprisal": 25.854623794555664
     },
     "s_xx": {
       "original_tokens": [
@@ -11252,7 +11252,7 @@
         "the",
         "hunters"
       ],
-      "critical_surprisal": 39.37550067901611
+      "critical_surprisal": 25.88440227508545
     }
   },
   {
@@ -11359,7 +11359,7 @@
         "the",
         "hunters"
       ],
-      "critical_surprisal": 54.757219314575195
+      "critical_surprisal": 24.741945266723633
     },
     "s_xx": {
       "original_tokens": [
@@ -11396,7 +11396,7 @@
         "the",
         "hunters"
       ],
-      "critical_surprisal": 51.776933670043945
+      "critical_surprisal": 25.3581600189209
     }
   },
   {
@@ -11503,7 +11503,7 @@
         "the",
         "hunters"
       ],
-      "critical_surprisal": 54.575324058532715
+      "critical_surprisal": 24.560050010681152
     },
     "s_xx": {
       "original_tokens": [
@@ -11540,7 +11540,7 @@
         "the",
         "hunters"
       ],
-      "critical_surprisal": 51.4841251373291
+      "critical_surprisal": 25.065351486206055
     }
   }
 ]
