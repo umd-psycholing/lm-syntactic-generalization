@@ -547,17 +547,25 @@ def generate_train_test_sentence_tuples_from_grammar(
 
 # NOTE: For this to work, we assume the same criteria as generate_train_test_sentences_from_grammar()
 def generate_all_sentence_tuples_from_grammar(grammar: CFG) -> tuple[TupleSentenceData]:
-    # important that our example sentence is generated using S_XX form
-    grammar._start = grammars.XX_CONDITION
+    # find all lex. productions. Using XX and AB should lead to all lexical productions
 
-    # find productions that result in lexical values
+    grammar._start = grammars.XX_CONDITION
     lexical_productions = _find_accessible_lexical_productions_from_grammar(
         grammar)
 
+    grammar._start = grammars.AB_CONDITION
+    # add potential other lexical items
+    lexical_productions = lexical_productions.union(
+        _find_accessible_lexical_productions_from_grammar(grammar))
+
+    # it is possible that a production is used in XX and is not in AB vice versa.
+    # this case *will* lead to additional tuples, but every case should be found.
+
+    # find types which are not constant
     lexical_types = {key: value for key,
                      value in grammar._lhs_index.items() if len(value) > 1 and key in lexical_productions}
 
-    # productions that shouldn't change
+    # productions that shouldn't (left hand side is a non-lexical type)
     constant_productions = list(
         filter(lambda production: production.lhs() not in lexical_types.keys(),
                grammar._productions))

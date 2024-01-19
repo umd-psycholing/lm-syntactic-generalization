@@ -189,3 +189,134 @@ ISLAND_GRAMMAR = SHARED_GRAMMAR + """
     OBJ2 -> "the cheese" | "your hat" | "her keys"
     ADV -> "yesterday" | "recently" | "earlier" 
 """
+
+
+# simple CFGs start here
+
+# cleft
+CLEFT_GRAMMAR_C = SHARED_GRAMMAR + """
+	S_AB -> PREAMBLE E G
+	S_XB -> UNGRAMMATICAL PREAMBLE XE G
+	S_AX -> UNGRAMMATICAL PREAMBLE E XG
+	S_XX -> PREAMBLE XE XG
+	PREAMBLE -> "It is"
+	E -> OBJ1 COMP N1 V1
+	XE -> CLEFTADJ COMP N1 V1
+    G -> GAP_MARKER ADV 
+	XG -> OBJ2 GAP_MARKER ADV
+	OBJ1 -> "these snacks" | "those boots" | "her books"
+	CLEFTADJ -> "apparent" | "clear" | "disappointing"
+	COMP -> "that"
+	N1 -> "Mary" | "Jennifer"
+	V1 -> "bought" | "saw" | "forgot"
+    RC_OBJ -> "the bag" | "a car" | "the house"
+    V2 -> "carried" | "held" | "contained"
+	OBJ2 -> "the cheese" | "your hat" | "her keys"
+	ADV -> "yesterday" | "recently" | "earlier"
+"""
+
+CLEFT_GRAMMAR_I = SHARED_GRAMMAR + """
+	S_AB -> UNGRAMMATICAL PREAMBLE E I G
+	S_XB -> UNGRAMMATICAL PREAMBLE XE I G
+	S_AX -> UNGRAMMATICAL PREAMBLE E I XG
+	S_XX -> PREAMBLE XE I XG
+	PREAMBLE -> "It is"
+	E -> OBJ1 COMP N1 V1
+	XE -> CLEFTADJ COMP N1 V1
+    I -> RC_OBJ COMP V2
+	G -> GAP_MARKER ADV 
+	XG -> OBJ2 GAP_MARKER ADV
+	OBJ1 -> "these snacks" | "those boots" | "her books"
+	CLEFTADJ -> "apparent" | "clear" | "disappointing"
+	COMP -> "that"
+	N1 -> "Mary" | "Jennifer"
+	V1 -> "bought" | "saw" | "forgot"
+    RC_OBJ -> "the bag" | "a car" | "the house"
+    V2 -> "carried" | "held" | "contained"
+	OBJ2 -> "the cheese" | "your hat" | "her keys"
+	ADV -> "yesterday" | "recently" | "earlier"
+"""
+
+# topic
+TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
+	S_AB -> E G
+	S_XB -> UNGRAMMATICAL XE G
+	S_AX -> UNGRAMMATICAL E XG
+	S_XX -> XE XG
+	E -> TOPIC N1 V1
+	XE -> INTRO N1 V1
+	G -> GAP_MARKER ADV 
+	XG -> OBJ2 GAP_MARKER ADV
+	TOPIC -> "these snacks," | "those boots," | "her books,"
+    INTRO -> "in fact," | "understandably," | "clearly,"
+    COMP -> "that"
+	N1 -> "Mary" | "Jennifer"
+	V1 -> "bought" | "saw" | "forgot"
+    RC_OBJ -> "the bag" | "a car" | "the house"
+    V2 -> "carried" | "held" | "contained"
+	OBJ2 -> "the cheese" | "your hat" | "her keys"
+	ADV -> "yesterday" | "recently" | "earlier"
+"""
+
+TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
+    S_AB -> UNGRAMMATICAL E I G
+	S_XB -> UNGRAMMATICAL XE I G
+	S_AX -> UNGRAMMATICAL E I XG
+	S_XX -> XE I XG
+	E -> TOPIC N1 V1
+	XE -> INTRO N1 V1
+    I -> RC_OBJ COMP V2
+	G -> GAP_MARKER ADV 
+	XG -> OBJ2 GAP_MARKER ADV
+	TOPIC -> "these snacks," | "those boots," | "her books,"
+    INTRO -> "in fact," | "understandably," | "clearly,"
+    COMP -> "that"
+	N1 -> "Mary" | "Jennifer"
+	V1 -> "bought" | "saw" | "forgot"
+    RC_OBJ -> "the bag" | "a car" | "the house"
+    V2 -> "carried" | "held" | "contained"
+	OBJ2 -> "the cheese" | "your hat" | "her keys"
+	ADV -> "yesterday" | "recently" | "earlier"
+"""
+
+# tough movement
+TOUGH_GRAMMAR_C = SHARED_GRAMMAR + """
+	S_AB -> E G
+	S_XB -> UNGRAMMATICAL XE G
+	S_AX -> UNGRAMMATICAL E XG
+	S_XX -> XE XG
+	E -> N1 TOUGH INF 
+	XE -> IT TOUGH INF
+	G -> GAP_MARKER ADV 
+	XG -> N2 GAP_MARKER ADV
+    COMP -> "that"
+	N1 -> "this snack" | "the shoe" | "her book"
+    IT -> "it"
+    TOUGH -> "is impossible" | "is easy" | "is difficult"
+	INF -> "to find" | "to see" | "to lose"
+    RC_OBJ -> "the bag" | "a car" | "the house"
+    V2 -> "carried" | "held" | "contained"
+	N2 -> "the cheese" | "your hat" | "her keys"
+	ADV -> "with a friend" | "in the park" | "on Saturdays"
+"""
+
+TOUGH_GRAMMAR_I = SHARED_GRAMMAR + """
+    S_AB -> UNGRAMMATICAL E I G
+	S_XB -> UNGRAMMATICAL XE I G
+	S_AX -> UNGRAMMATICAL E I XG
+	S_XX -> XE I XG
+	E -> N1 TOUGH INF 
+	XE -> IT TOUGH INF
+    I -> RC_OBJ COMP V2
+	G -> GAP_MARKER ADV 
+	XG -> N2 GAP_MARKER ADV
+    COMP -> "that"
+	N1 -> "this snack" | "the shoe" | "her book"
+    IT -> "it"
+    TOUGH -> "is impossible" | "is easy" | "is difficult"
+	INF -> "to find" | "to see" | "to lose"
+    RC_OBJ -> "the bag" | "a car" | "the house"
+    V2 -> "carried" | "held" | "contained"
+	N2 -> "the cheese" | "your hat" | "her keys"
+	ADV -> "with a friend" | "in the park" | "on Saturdays"
+"""
