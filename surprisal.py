@@ -222,6 +222,3 @@ def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str, 
         sentence.critical_surprisal = critical_surprisal
 
     return critical_surprisal
-
-print(grnn_surprisal(
-    "I know that with gusto our uncle grabbed the food in front of the guests at the holiday party"))
