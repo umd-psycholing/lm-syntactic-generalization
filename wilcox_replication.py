@@ -1,5 +1,5 @@
 import argparse
-from typing import List, Tuple, Dict
+from typing import List, Dict
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
@@ -19,7 +19,8 @@ def main():
     gap_critical_keys, nogap_critical_keys = tuple(args.gap_region), tuple(args.nogap_region)
     items = df['item'].unique()
     tuples = setup_tuple_dict(df, args.sentence_type)
-    group_sentences(tuples, items, gap_critical_keys, nogap_critical_keys)
+    print(f"processing {args.sentence_type}")
+    group_sentences(df, tuples, items, gap_critical_keys, nogap_critical_keys)
     save_surprisal(tuples, args.sentence_type, args.model)
 
 def group_sentences(df, tuples, items, gap_critical_keys, nogap_critical_keys):
@@ -28,18 +29,21 @@ def group_sentences(df, tuples, items, gap_critical_keys, nogap_critical_keys):
         basic = len(sentences) == 4
         for condition_type in tuples.keys():
             if basic:
-                condition_type = "" # yes this is hacky
+                condition_type = "" # yes this is hacky since we're just doing gap vs nogap instead of control vs island. can probably change around?
             fourway_tuple = sentences[sentences['condition'].str.endswith(condition_type)]
             assert len(fourway_tuple) == 4
             fourway_tuple = fourway_tuple.to_dict(orient = 'records')
             extracted_item = {}
             for sentence in fourway_tuple:
-                extracted_item[sentence['condition'].replace(f"_{condition_type}", "")] = gc._grammar_output_to_sentence(
+                extraction_key = sentence['condition'] # wh_gap, that_gap, wh_nogap, that_nogap
+                if not basic:
+                    extraction_key = sentence['condition'].replace(f"_{condition_type}", "")
+                extracted_item[extraction_key] = gc._grammar_output_to_sentence(
                             (_critical_keys(sentence, gap_critical_keys[0], gap_critical_keys[1]) if 'nogap' not in sentence['condition'] 
                             else _critical_keys(sentence, nogap_critical_keys[0], nogap_critical_keys[1]))[1:])
             if basic:
                 condition_type = "wh"
-            tuples[condition_type].append( # control 2x2
+            tuples[condition_type].append(
                 gc.TupleSentenceData(
                     s_ab=extracted_item['what_gap'], # filler, gap
                     s_xb=extracted_item['that_gap'], # no filler, gap
@@ -58,7 +62,6 @@ def _critical_keys(d, from_key, to_key):
 
     values_list.insert(index2 + 1, "_")
     values_list.insert(index1, "_")
-    #import pdb; pdb.set_trace()
     # remove empties
     values_list = [value for value in values_list if type(value) == str and len(value) > 0]
 
@@ -75,40 +78,13 @@ def setup_tuple_dict(df: pd.DataFrame, sentence_type: str):
             tuples[condition_type] = []
     return tuples
 
-def save_surprisal(tuples: List[gc.TupleSentenceData], sentence_type, model):
+def save_surprisal(tuples: Dict[str, List[gc.TupleSentenceData]], sentence_type: str, model: str):
     # compute surprisals and save
     for sentence_set in tuples.keys():
+        print(f"computing surprisal for {sentence_set}")
         for sentence_tuple in tqdm(tuples[sentence_set]):
             surprisal_effect_full_tuple(sentence_tuple, model, True)
         gc.corpus_to_json(tuples[sentence_set], f"grammar_outputs/wilcox_replication/{sentence_type}_{sentence_set}_{model}.json")
 
-# subject: critical region is either np1 or verb
-# object: critical region is either np2 or prep,np3
-# pp: critical region is either np3 or end
-
-"""
-# subject
-wilcox_basic_licensing('basic_subject.csv',  # where to load
-                   ('np1', 'np1'), ('verb', 'verb'),  # where to extract
-                   "subject", 'mean')  # title & average type
-
-# object
-wilcox_basic_licensing('basic_object.csv',  # where to load
-                   ('np2', 'np2'), ('prep', 'np3'),  # where to extract
-                   "object", 'mean')  # title & average type
-
-# prepositional phrase
-wilcox_basic_licensing('basic_pp.csv',  # where to load
-                   ('np3', 'np3'), ('end', 'end'),  # where to extract
-                   "pp", 'mean')  # title & average type
-
-
-wilcox_cnp_licensing('islands_cnp.csv', 
-                     ('rc_obj', 'rc_obj'), ('continuation', 'continuation'),
-                     'mean')
-
-                     
-plt.show()
-"""
 if __name__ == "__main__":
     main()

@@ -163,7 +163,6 @@ def _sum_surprisals(tokens_and_scores: list[tuple[str, float]], target_tokens: l
     # print(tokens_and_scores, target_tokens)
     total_score = 0.0
     current_sequence = []
-
     for tuple_word, score in tokens_and_scores:
         # print(current_sequence)
         
