@@ -81,7 +81,7 @@ def setup_tuple_dict(df: pd.DataFrame, sentence_type: str):
 def save_surprisal(tuples: Dict[str, List[gc.TupleSentenceData]], sentence_type: str, model: str):
     # compute surprisals and save
     for sentence_set in tuples.keys():
-        print(f"computing surprisal for {sentence_set}")
+        print(f"computing surprisal for {sentence_type} {sentence_set}")
         for sentence_tuple in tqdm(tuples[sentence_set]):
             surprisal_effect_full_tuple(sentence_tuple, model, True)
         gc.corpus_to_json(tuples[sentence_set], f"grammar_outputs/wilcox_replication/{sentence_type}_{sentence_set}_{model}.json")

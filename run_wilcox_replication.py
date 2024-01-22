@@ -1,6 +1,6 @@
 import subprocess
 
-MODEL = "gpt2" # this needs us to switch up our Python env
+MODEL = "grnn" # we have to switch the Python env to use GPT2/GRNN, otherwise we could run model-wise evals.
 run_configs = {
     'basic_subj': {'gap_region': ('verb', 'verb'),
                     'nogap_region': ('np1', 'np1'), 
