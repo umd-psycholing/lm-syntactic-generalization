@@ -237,8 +237,8 @@ CLEFT_GRAMMAR_I = SHARED_GRAMMAR + """
 	ADV -> "yesterday" | "recently" | "earlier"
 """
 
-# topic
-TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
+# topic w/ intro
+INTRO_TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
 	S_AB -> E G
 	S_XB -> UNGRAMMATICAL XE G
 	S_AX -> UNGRAMMATICAL E XG
@@ -258,7 +258,7 @@ TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
 	ADV -> "yesterday" | "recently" | "earlier"
 """
 
-TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
+INTRO_TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
     S_AB -> UNGRAMMATICAL E I G
 	S_XB -> UNGRAMMATICAL XE I G
 	S_AX -> UNGRAMMATICAL E I XG
@@ -275,6 +275,46 @@ TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
 	V1 -> "bought" | "saw" | "forgot"
     RC_OBJ -> "the bag" | "a car" | "the house"
     V2 -> "carried" | "held" | "contained"
+	OBJ2 -> "the cheese" | "your hat" | "her keys"
+	ADV -> "yesterday" | "recently" | "earlier"
+"""
+
+# topic NO intro
+NOINTRO_TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
+	S_AB -> E G
+	S_XB -> UNGRAMMATICAL XE G
+	S_AX -> UNGRAMMATICAL E XG
+	S_XX -> XE XG
+	E -> TOPIC N1 V1 RC_OBJ COMP V2
+	XE -> N1 V1 RC_OBJ COMP V2
+	G -> GAP_MARKER ADV 
+	XG -> OBJ2 GAP_MARKER ADV
+	TOPIC -> "these snacks," | "those boots," | "her books,"
+    COMP -> "that"
+	N1 -> "Mary" | "Jennifer"
+	V1 -> "bought" | "saw" | "forgot"
+    RC_OBJ -> "the bag"
+    V2 -> "carried"
+	OBJ2 -> "the cheese" | "your hat" | "her keys"
+	ADV -> "yesterday" | "recently" | "earlier"
+"""
+
+NOINTRO_TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
+    S_AB -> UNGRAMMATICAL E I G
+	S_XB -> UNGRAMMATICAL XE I G
+	S_AX -> UNGRAMMATICAL E I XG
+	S_XX -> XE I XG
+	E -> TOPIC N1 V1 RC_OBJ COMP V2
+	XE -> N1 V1 RC_OBJ COMP V2
+    I -> RC_OBJ COMP V2
+	G -> GAP_MARKER ADV 
+	XG -> OBJ2 GAP_MARKER ADV
+	TOPIC -> "these snacks," | "those boots," | "her books,"
+    COMP -> "that"
+	N1 -> "Mary" | "Jennifer"
+	V1 -> "bought" | "saw" | "forgot"
+    RC_OBJ -> "the bag"
+    V2 -> "carried"
 	OBJ2 -> "the cheese" | "your hat" | "her keys"
 	ADV -> "yesterday" | "recently" | "earlier"
 """

@@ -75,7 +75,7 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
                 print(f"Warning: {word} not in vocab")
         # return index of word if its known, otherwise index of <unk> (unknown)
         return vocab.word2idx[word] if word in vocab.word2idx else vocab.word2idx['<unk>']
-    
+
     # load model, vocab once
     sys.path.insert(
         0, "./colorlessgreenRNNs/src/language_models")
@@ -95,7 +95,7 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
                 [indexify(w, vocab) for w in tokens])
             out, _ = grnn(rnn_input.view(-1, 1), model.init_hidden(1))
             surprisals = [-F.log_softmax(out[i - 1], dim=-1).view(-1)[word_idx].item()/np.log(2.0) for i, (word_idx, word)
-                        in enumerate(zip(rnn_input, tokens))]
+                          in enumerate(zip(rnn_input, tokens))]
             surprisals = list(zip(tokens, surprisals))  # zip tokens in w/ it
             return align_surprisal(surprisals, "<eos> " + sentence)
 
@@ -110,7 +110,7 @@ def align_surprisal(token_surprisals: list[tuple[str, float]], sentence: str):
         current_token, current_surprisal = token_surprisals[token_index]
         # token does not match, alignment must be adjusted
         mismatch = (current_token != current_word)
-        
+
         while mismatch:
             token_index += 1
             current_token += token_surprisals[token_index][0]
@@ -166,17 +166,17 @@ def _sum_surprisals(tokens_and_scores: list[tuple[str, float]], target_tokens: l
 
     for tuple_word, score in tokens_and_scores:
         # print(current_sequence)
-        
+
         # beginning of match is found
         if current_sequence:
-                # next word is found
-                if tuple_word == target_tokens[len(current_sequence)]:
-                    current_sequence.append(tuple_word)
-                    total_score += score
-                else: # non-matching word is found
-                    current_sequence = []
-                    total_score = 0    
-        
+            # next word is found
+            if tuple_word == target_tokens[len(current_sequence)]:
+                current_sequence.append(tuple_word)
+                total_score += score
+            else:  # non-matching word is found
+                current_sequence = []
+                total_score = 0
+
         # if sequence is empty and first target matches
         if not current_sequence and tuple_word == target_tokens[0]:
             current_sequence.append(tuple_word)
@@ -185,7 +185,7 @@ def _sum_surprisals(tokens_and_scores: list[tuple[str, float]], target_tokens: l
         # total match is found
         if current_sequence == target_tokens:
             return total_score
-    
+
     raise RuntimeError("Target tokens not found. (_sum_surprisals())")
 
 
@@ -217,11 +217,8 @@ def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str, 
         if token in critical_tokens:
             critical_surprisal += surprisal_result  # sum surprisal of each critical token
     """
-    
+
     if update_class_field:
         sentence.critical_surprisal = critical_surprisal
 
     return critical_surprisal
-
-print(grnn_surprisal(
-    "I know that with gusto our uncle grabbed the food in front of the guests at the holiday party"))
