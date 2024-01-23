@@ -1,11 +1,15 @@
 import subprocess
+import torch
 
-MODEL = "grnn" # we have to switch the Python env to use GPT2/GRNN, otherwise we could run model-wise evals.
+MODEL = "grnn"
+if torch.__version__ >= "2.0":
+    MODEL = "gpt2"
+# we have to switch the Python env to use GPT2/GRNN, otherwise we could run model-wise evals.
 run_configs = {
     'basic_subj': {'gap_region': ('verb', 'verb'),
                     'nogap_region': ('np1', 'np1'), 
                     'data_location': 'data/wilcox_csv/basic_subject.csv'},
-    'basic_obj': {'gap_region': ('prep', 'np3'),
+    'basic_obj': {'gap_region': ('prep', 'prep'),
                 'nogap_region': ('np2', 'np2'), 
                 'data_location': 'data/wilcox_csv/basic_object.csv'},
     'basic_pp': {'gap_region': ('end', 'end'),
