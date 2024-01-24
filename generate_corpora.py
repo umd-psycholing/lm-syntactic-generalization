@@ -1,3 +1,4 @@
+import csv
 from typing import Union
 import random
 import math
@@ -700,3 +701,34 @@ def corpus_from_json(where_to_load: str = None, is_tuples: bool = False) -> Unio
         output = tuple([SentenceData.from_dict(loaded_dict)
                         for loaded_dict in loaded_data])
     return output
+
+
+def simple_convert_to_csv(data: Iterable[TupleSentenceData], filename: str, a_condition: str = "a", b_condition: str = "b", is_tuples: bool = True):
+    group = 0
+
+    with open(filename, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+
+        # write header line
+        writer.writerow(['group', 'grammatical', 'sentence',
+                        'a condition', 'b condition'])
+
+        # write data rows
+        for quad in data:
+            # ab
+            writer.writerow(
+                [group, quad.s_ab.grammatical, str(quad.s_ab),
+                 f"+{a_condition}", f"+{b_condition}"])
+            # xb
+            writer.writerow(
+                [group, quad.s_xb.grammatical, str(quad.s_xb),
+                 f"-{a_condition}", f"+{b_condition}"])
+            # ax
+            writer.writerow(
+                [group, quad.s_ax.grammatical, str(quad.s_ax),
+                 f"+{a_condition}", f"-{b_condition}"])
+            # xx
+            writer.writerow(
+                [group, quad.s_xx.grammatical, str(quad.s_xx),
+                 f"-{a_condition}", f"-{b_condition}"])
+            group = group + 1  # next group of sentences

@@ -81,8 +81,9 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
         0, "./colorlessgreenRNNs/src/language_models")
     # set up model
     torch.nn.Module.dump_patches = False
-    lstm_vocab = load_vocab("data/lm-data/")
-    model, grnn = load_rnn("models/hidden650_batch128_dropout0.2_lr20.0.pt")
+    lstm_vocab = load_vocab("./colorlessgreenRNNs/src/data/lm/")
+    model, grnn = load_rnn(
+        "./colorlessgreenRNNs/src/models/hidden650_batch128_dropout0.2_lr20.0.pt")
 
     # single sentence surprisal for gpt2
     def grnn_surprisal(sentence: str, model: RNNModel = model, grnn: RNNModel = grnn, vocab: Dictionary = lstm_vocab):
