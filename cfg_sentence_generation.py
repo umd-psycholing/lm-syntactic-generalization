@@ -18,6 +18,7 @@ def generate_and_calculate(cfg, filepath):
     print(f"saved to {filepath}.")
 
 
+"""
 # clefting
 generate_and_calculate(CFG.fromstring(grammars.TRAINING_CLEFT_GRAMMAR_C),
                        f"grammar_outputs/training_sentences/{model}/cleft_grammar_c.json")
@@ -35,7 +36,7 @@ generate_and_calculate(CFG.fromstring(grammars.TRAINING_NOINTRO_TOPIC_GRAMMAR_C)
                        f"grammar_outputs/training_sentences/{model}/nointro_topic_grammar_c.json")
 generate_and_calculate(CFG.fromstring(grammars.TRAINING_NOINTRO_TOPIC_GRAMMAR_I),
                        f"grammar_outputs/training_sentences/{model}/nointro_topic_grammar_i.json")
-
+"""
 # tough movement
 generate_and_calculate(CFG.fromstring(grammars.TRAINING_TOUGH_GRAMMAR_C),
                        f"grammar_outputs/training_sentences/{model}/tough_grammar_c.json")
