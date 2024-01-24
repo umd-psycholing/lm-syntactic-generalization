@@ -201,8 +201,8 @@ CLEFT_GRAMMAR_C = SHARED_GRAMMAR + """
 	PREAMBLE -> "It is"
 	E -> OBJ1 COMP N1 V1
 	XE -> CLEFTADJ COMP N1 V1
-    G -> GAP_MARKER ADV 
-	XG -> OBJ2 GAP_MARKER ADV
+    G -> GAP_MARKER ADV GAP_MARKER
+	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
 	OBJ1 -> "these snacks" | "those boots" | "her books"
 	CLEFTADJ -> "apparent" | "clear" | "disappointing"
 	COMP -> "that"
@@ -223,8 +223,8 @@ CLEFT_GRAMMAR_I = SHARED_GRAMMAR + """
 	E -> OBJ1 COMP N1 V1
 	XE -> CLEFTADJ COMP N1 V1
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV 
-	XG -> OBJ2 GAP_MARKER ADV
+	G -> GAP_MARKER ADV GAP_MARKER 
+	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
 	OBJ1 -> "these snacks" | "those boots" | "her books"
 	CLEFTADJ -> "apparent" | "clear" | "disappointing"
 	COMP -> "that"
@@ -244,8 +244,8 @@ INTRO_TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
 	S_XX -> XE XG
 	E -> TOPIC N1 V1
 	XE -> INTRO N1 V1
-	G -> GAP_MARKER ADV 
-	XG -> OBJ2 GAP_MARKER ADV
+	G -> GAP_MARKER ADV GAP_MARKER
+	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
 	TOPIC -> "these snacks," | "those boots," | "her books,"
     INTRO -> "in fact," | "understandably," | "clearly,"
     COMP -> "that"
@@ -265,8 +265,8 @@ INTRO_TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
 	E -> TOPIC N1 V1
 	XE -> INTRO N1 V1
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV 
-	XG -> OBJ2 GAP_MARKER ADV
+	G -> GAP_MARKER ADV GAP_MARKER
+	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
 	TOPIC -> "these snacks," | "those boots," | "her books,"
     INTRO -> "in fact," | "understandably," | "clearly,"
     COMP -> "that"
@@ -286,8 +286,8 @@ NOINTRO_TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
 	S_XX -> XE XG
 	E -> TOPIC N1 V1 RC_OBJ COMP V2
 	XE -> N1 V1 RC_OBJ COMP V2
-	G -> GAP_MARKER ADV 
-	XG -> OBJ2 GAP_MARKER ADV
+	G -> GAP_MARKER ADV GAP_MARKER
+	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
 	TOPIC -> "these snacks," | "those boots," | "her books,"
     COMP -> "that"
 	N1 -> "Mary" | "Jennifer"
@@ -306,8 +306,8 @@ NOINTRO_TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
 	E -> TOPIC N1 V1 RC_OBJ COMP V2
 	XE -> N1 V1 RC_OBJ COMP V2
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV 
-	XG -> OBJ2 GAP_MARKER ADV
+	G -> GAP_MARKER ADV GAP_MARKER
+	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
 	TOPIC -> "these snacks," | "those boots," | "her books,"
     COMP -> "that"
 	N1 -> "Mary" | "Jennifer"
@@ -326,8 +326,8 @@ TOUGH_GRAMMAR_C = SHARED_GRAMMAR + """
 	S_XX -> XE XG
 	E -> N1 TOUGH INF 
 	XE -> IT TOUGH INF
-	G -> GAP_MARKER ADV 
-	XG -> N2 GAP_MARKER ADV
+	G -> GAP_MARKER ADV GAP_MARKER
+	XG -> GAP_MARKER N2 GAP_MARKER ADV
     COMP -> "that"
 	N1 -> "this snack" | "the shoe" | "her book"
     IT -> "it"
@@ -347,8 +347,8 @@ TOUGH_GRAMMAR_I = SHARED_GRAMMAR + """
 	E -> N1 TOUGH INF 
 	XE -> IT TOUGH INF
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV 
-	XG -> N2 GAP_MARKER ADV
+	G -> GAP_MARKER ADV GAP_MARKER
+	XG -> GAP_MARKER N2 GAP_MARKER ADV
     COMP -> "that"
 	N1 -> "this snack" | "the shoe" | "her book"
     IT -> "it"
@@ -371,8 +371,8 @@ TRAINING_CLEFT_GRAMMAR_C = SHARED_GRAMMAR + """
 	PREAMBLE -> "It is"
 	E -> OBJ1 COMP N1 V1
 	XE -> CLEFTADJ COMP N1 V1
-    G -> GAP_MARKER ADV 
-	XG -> OBJ2 GAP_MARKER ADV
+    G -> GAP_MARKER ADV GAP_MARKER
+	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
 	OBJ1 -> "these pizzas" | "those balls" | "her gloves"
 	CLEFTADJ -> "obvious" | "surprising" | "annoying"
 	COMP -> "that"
@@ -393,8 +393,8 @@ TRAINING_CLEFT_GRAMMAR_I = SHARED_GRAMMAR + """
 	E -> OBJ1 COMP N1 V1
 	XE -> CLEFTADJ COMP N1 V1
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV 
-	XG -> OBJ2 GAP_MARKER ADV
+	G -> GAP_MARKER ADV GAP_MARKER
+	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
 	OBJ1 -> "these pizzas" | "those balls" | "her gloves"
 	CLEFTADJ -> "obvious" | "surprising" | "annoying"
 	COMP -> "that"
@@ -414,8 +414,8 @@ TRAINING_INTRO_TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
 	S_XX -> XE XG
 	E -> TOPIC N1 V1
 	XE -> INTRO N1 V1
-	G -> GAP_MARKER ADV 
-	XG -> OBJ2 GAP_MARKER ADV
+	G -> GAP_MARKER ADV GAP_MARKER
+	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
 	TOPIC -> "these pizzas," | "those balls," | "her gloves,"
     INTRO -> "indeed," | "meanwhile," | "still,"
     COMP -> "that"
@@ -435,8 +435,8 @@ TRAINING_INTRO_TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
 	E -> TOPIC N1 V1
 	XE -> INTRO N1 V1
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV 
-	XG -> OBJ2 GAP_MARKER ADV
+	G -> GAP_MARKER ADV GAP_MARKER
+	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
 	TOPIC -> "these pizzas," | "those balls," | "her gloves,"
     INTRO -> "indeed," | "meanwhile," | "still,"
     COMP -> "that"
@@ -456,8 +456,8 @@ TRAINING_NOINTRO_TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
 	S_XX -> XE XG
 	E -> TOPIC N1 V1 RC_OBJ COMP V2
 	XE -> N1 V1 RC_OBJ COMP V2
-	G -> GAP_MARKER ADV 
-	XG -> OBJ2 GAP_MARKER ADV
+	G -> GAP_MARKER ADV GAP_MARKER
+	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
 	TOPIC -> "these pizzas," | "those balls," | "her gloves,"
     COMP -> "that"
 	N1 -> "Susan" | "Michelle"
@@ -476,8 +476,8 @@ TRAINING_NOINTRO_TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
 	E -> TOPIC N1 V1 RC_OBJ COMP V2
 	XE -> N1 V1 RC_OBJ COMP V2
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV 
-	XG -> OBJ2 GAP_MARKER ADV
+	G -> GAP_MARKER ADV GAP_MARKER
+	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
 	TOPIC -> "these pizzas," | "those balls," | "her gloves,"
     COMP -> "that"
 	N1 -> "Susan" | "Michelle"
@@ -496,8 +496,8 @@ TRAINING_TOUGH_GRAMMAR_C = SHARED_GRAMMAR + """
 	S_XX -> XE XG
 	E -> N1 TOUGH INF 
 	XE -> IT TOUGH INF
-	G -> GAP_MARKER ADV 
-	XG -> N2 GAP_MARKER ADV
+	G -> GAP_MARKER ADV GAP_MARKER
+	XG -> GAP_MARKER N2 GAP_MARKER ADV
     COMP -> "that"
 	N1 -> "the pizza" | "that ball" | "his wallet"
     IT -> "it"
@@ -517,8 +517,8 @@ TRAINING_TOUGH_GRAMMAR_I = SHARED_GRAMMAR + """
 	E -> N1 TOUGH INF 
 	XE -> IT TOUGH INF
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV 
-	XG -> N2 GAP_MARKER ADV
+	G -> GAP_MARKER ADV GAP_MARKER
+	XG -> GAP_MARKER N2 GAP_MARKER ADV
     COMP -> "that"
 	N1 -> "the pizza" | "that ball" | "his wallet"
     IT -> "it"
