@@ -1,0 +1,244 @@
+model,construction,condition,gap,gram,ungram,wh_effect
+grnn,tough,control,nogap,it is impossible to find the cheese with a friend,this snack is impossible to find the cheese with a friend,-0.7445208067870404
+grnn,tough,control,nogap,it is impossible to find the cheese in the park,this snack is impossible to find the cheese in the park,-0.7445208067870404
+grnn,tough,control,nogap,it is impossible to find the cheese on Saturdays,this snack is impossible to find the cheese on Saturdays,-0.7445208067870404
+grnn,tough,control,nogap,it is impossible to lose the cheese on Saturdays,this snack is impossible to lose the cheese on Saturdays,-0.29320479430610646
+grnn,tough,control,nogap,it is impossible to lose the cheese in the park,this snack is impossible to lose the cheese in the park,-0.29320479430610646
+grnn,tough,control,nogap,it is impossible to lose the cheese with a friend,this snack is impossible to lose the cheese with a friend,-0.29320479430610646
+grnn,tough,control,nogap,it is easy to find the cheese on Saturdays,this snack is easy to find the cheese on Saturdays,-0.060499368989916036
+grnn,tough,control,nogap,it is easy to find the cheese with a friend,this snack is easy to find the cheese with a friend,-0.060499368989916036
+grnn,tough,control,nogap,it is easy to find the cheese in the park,this snack is easy to find the cheese in the park,-0.060499368989916036
+grnn,tough,control,nogap,it is impossible to see the cheese with a friend,this snack is impossible to see the cheese with a friend,-0.02806120526272693
+grnn,tough,control,nogap,it is impossible to see the cheese in the park,this snack is impossible to see the cheese in the park,-0.02806120526272693
+grnn,tough,control,nogap,it is impossible to see the cheese on Saturdays,this snack is impossible to see the cheese on Saturdays,-0.02806120526272693
+grnn,tough,control,nogap,it is impossible to find your hat with a friend,the shoe is impossible to find your hat with a friend,0.18909492462365662
+grnn,tough,control,nogap,it is impossible to find your hat in the park,the shoe is impossible to find your hat in the park,0.18909492462365662
+grnn,tough,control,nogap,it is impossible to find your hat on Saturdays,the shoe is impossible to find your hat on Saturdays,0.18909492462365662
+grnn,tough,control,nogap,it is easy to see the cheese on Saturdays,this snack is easy to see the cheese on Saturdays,0.22347511644439066
+grnn,tough,control,nogap,it is easy to see the cheese in the park,this snack is easy to see the cheese in the park,0.22347511644439066
+grnn,tough,control,nogap,it is easy to see the cheese with a friend,this snack is easy to see the cheese with a friend,0.22347511644439066
+grnn,tough,control,nogap,it is easy to find your hat on Saturdays,the shoe is easy to find your hat on Saturdays,0.5210056183850043
+grnn,tough,control,nogap,it is easy to find your hat with a friend,the shoe is easy to find your hat with a friend,0.5210056183850043
+grnn,tough,control,nogap,it is easy to find your hat in the park,the shoe is easy to find your hat in the park,0.5210056183850043
+grnn,tough,control,nogap,it is impossible to see your hat with a friend,the shoe is impossible to see your hat with a friend,0.7747068577011724
+grnn,tough,control,nogap,it is impossible to see your hat in the park,the shoe is impossible to see your hat in the park,0.7747068577011724
+grnn,tough,control,nogap,it is impossible to see your hat on Saturdays,the shoe is impossible to see your hat on Saturdays,0.7747068577011724
+grnn,tough,control,nogap,it is easy to lose the cheese on Saturdays,this snack is easy to lose the cheese on Saturdays,0.9793232165652022
+grnn,tough,control,nogap,it is easy to lose the cheese in the park,this snack is easy to lose the cheese in the park,0.9793232165652022
+grnn,tough,control,nogap,it is easy to lose the cheese with a friend,this snack is easy to lose the cheese with a friend,0.9793232165652022
+grnn,tough,control,nogap,it is easy to see your hat with a friend,the shoe is easy to see your hat with a friend,1.125394617283721
+grnn,tough,control,nogap,it is easy to see your hat on Saturdays,the shoe is easy to see your hat on Saturdays,1.125394617283721
+grnn,tough,control,nogap,it is easy to see your hat in the park,the shoe is easy to see your hat in the park,1.125394617283721
+grnn,tough,control,nogap,it is difficult to find the cheese on Saturdays,this snack is difficult to find the cheese on Saturdays,1.1977449667792897
+grnn,tough,control,nogap,it is difficult to find the cheese in the park,this snack is difficult to find the cheese in the park,1.1977449667792897
+grnn,tough,control,nogap,it is difficult to find the cheese with a friend,this snack is difficult to find the cheese with a friend,1.1977449667792897
+grnn,tough,control,nogap,it is difficult to see your hat with a friend,the shoe is difficult to see your hat with a friend,1.3081186165888177
+grnn,tough,control,nogap,it is difficult to see your hat in the park,the shoe is difficult to see your hat in the park,1.3081186165888177
+grnn,tough,control,nogap,it is difficult to see your hat on Saturdays,the shoe is difficult to see your hat on Saturdays,1.3081186165888177
+grnn,tough,control,nogap,it is difficult to see the cheese on Saturdays,this snack is difficult to see the cheese on Saturdays,1.3815940765863317
+grnn,tough,control,nogap,it is difficult to see the cheese in the park,this snack is difficult to see the cheese in the park,1.3815940765863317
+grnn,tough,control,nogap,it is difficult to see the cheese with a friend,this snack is difficult to see the cheese with a friend,1.3815940765863317
+grnn,tough,control,nogap,it is impossible to find the cheese on Saturdays,the shoe is impossible to find the cheese on Saturdays,1.4720892836785282
+grnn,tough,control,nogap,it is impossible to find the cheese in the park,the shoe is impossible to find the cheese in the park,1.4720892836785282
+grnn,tough,control,nogap,it is impossible to find the cheese with a friend,the shoe is impossible to find the cheese with a friend,1.4720892836785282
+grnn,tough,control,nogap,it is impossible to lose her keys on Saturdays,her book is impossible to lose her keys on Saturdays,1.4815789423878343
+grnn,tough,control,nogap,it is impossible to lose her keys in the park,her book is impossible to lose her keys in the park,1.4815789423878343
+grnn,tough,control,nogap,it is impossible to lose her keys with a friend,her book is impossible to lose her keys with a friend,1.4815789423878343
+grnn,tough,control,nogap,it is difficult to lose the cheese with a friend,this snack is difficult to lose the cheese with a friend,1.515869015299515
+grnn,tough,control,nogap,it is difficult to lose the cheese on Saturdays,this snack is difficult to lose the cheese on Saturdays,1.515869015299515
+grnn,tough,control,nogap,it is difficult to lose the cheese in the park,this snack is difficult to lose the cheese in the park,1.515869015299515
+grnn,tough,control,nogap,it is easy to find the cheese on Saturdays,the shoe is easy to find the cheese on Saturdays,1.76702611526148
+grnn,tough,control,nogap,it is easy to find the cheese in the park,the shoe is easy to find the cheese in the park,1.76702611526148
+grnn,tough,control,nogap,it is easy to find the cheese with a friend,the shoe is easy to find the cheese with a friend,1.76702611526148
+grnn,tough,control,nogap,it is easy to lose her keys with a friend,her book is easy to lose her keys with a friend,1.8376944744316148
+grnn,tough,control,nogap,it is easy to lose her keys in the park,her book is easy to lose her keys in the park,1.8376944744316148
+grnn,tough,control,nogap,it is easy to lose her keys on Saturdays,her book is easy to lose her keys on Saturdays,1.8376944744316148
+grnn,tough,control,nogap,it is difficult to find your hat with a friend,the shoe is difficult to find your hat with a friend,1.85795678242566
+grnn,tough,control,nogap,it is difficult to find your hat in the park,the shoe is difficult to find your hat in the park,1.85795678242566
+grnn,tough,control,nogap,it is difficult to find your hat on Saturdays,the shoe is difficult to find your hat on Saturdays,1.85795678242566
+grnn,tough,control,nogap,it is easy to lose your hat with a friend,the shoe is easy to lose your hat with a friend,1.8910221668805463
+grnn,tough,control,nogap,it is easy to lose your hat in the park,the shoe is easy to lose your hat in the park,1.8910221668805463
+grnn,tough,control,nogap,it is easy to lose your hat on Saturdays,the shoe is easy to lose your hat on Saturdays,1.8910221668805463
+grnn,tough,control,nogap,it is impossible to lose the cheese with a friend,the shoe is impossible to lose the cheese with a friend,2.0103033141262117
+grnn,tough,control,nogap,it is impossible to lose the cheese on Saturdays,the shoe is impossible to lose the cheese on Saturdays,2.0103033141262117
+grnn,tough,control,nogap,it is impossible to lose the cheese in the park,the shoe is impossible to lose the cheese in the park,2.0103033141262117
+grnn,tough,control,nogap,it is impossible to lose your hat with a friend,the shoe is impossible to lose your hat with a friend,2.10652330771768
+grnn,tough,control,nogap,it is impossible to lose your hat in the park,the shoe is impossible to lose your hat in the park,2.10652330771768
+grnn,tough,control,nogap,it is impossible to lose your hat on Saturdays,the shoe is impossible to lose your hat on Saturdays,2.10652330771768
+grnn,tough,control,nogap,it is impossible to see her keys on Saturdays,her book is impossible to see her keys on Saturdays,2.2852552457309443
+grnn,tough,control,nogap,it is impossible to see her keys with a friend,her book is impossible to see her keys with a friend,2.2852552457309443
+grnn,tough,control,nogap,it is impossible to see her keys in the park,her book is impossible to see her keys in the park,2.2852552457309443
+grnn,tough,control,nogap,it is easy to see her keys on Saturdays,her book is easy to see her keys on Saturdays,2.3044581405956848
+grnn,tough,control,nogap,it is easy to see her keys with a friend,her book is easy to see her keys with a friend,2.3044581405956848
+grnn,tough,control,nogap,it is easy to see her keys in the park,her book is easy to see her keys in the park,2.3044581405956848
+grnn,tough,control,nogap,it is difficult to find the cheese in the park,the shoe is difficult to find the cheese in the park,2.4132509258784793
+grnn,tough,control,nogap,it is difficult to find the cheese on Saturdays,the shoe is difficult to find the cheese on Saturdays,2.4132509258784793
+grnn,tough,control,nogap,it is difficult to find the cheese with a friend,the shoe is difficult to find the cheese with a friend,2.4132509258784793
+grnn,tough,control,nogap,it is impossible to find her keys in the park,her book is impossible to find her keys in the park,2.4457363848346567
+grnn,tough,control,nogap,it is impossible to find her keys with a friend,her book is impossible to find her keys with a friend,2.4457363848346567
+grnn,tough,control,nogap,it is impossible to find her keys on Saturdays,her book is impossible to find her keys on Saturdays,2.4457363848346567
+grnn,tough,control,nogap,it is easy to find her keys on Saturdays,her book is easy to find her keys on Saturdays,2.506404296822417
+grnn,tough,control,nogap,it is easy to find her keys in the park,her book is easy to find her keys in the park,2.506404296822417
+grnn,tough,control,nogap,it is easy to find her keys with a friend,her book is easy to find her keys with a friend,2.506404296822417
+grnn,tough,control,nogap,it is easy to see the cheese in the park,the shoe is easy to see the cheese in the park,2.676713384509682
+grnn,tough,control,nogap,it is easy to see the cheese with a friend,the shoe is easy to see the cheese with a friend,2.676713384509682
+grnn,tough,control,nogap,it is easy to see the cheese on Saturdays,the shoe is easy to see the cheese on Saturdays,2.676713384509682
+grnn,tough,control,nogap,it is impossible to see the cheese with a friend,the shoe is impossible to see the cheese with a friend,3.0494018527212
+grnn,tough,control,nogap,it is impossible to see the cheese in the park,the shoe is impossible to see the cheese in the park,3.0494018527212
+grnn,tough,control,nogap,it is impossible to see the cheese on Saturdays,the shoe is impossible to see the cheese on Saturdays,3.0494018527212
+grnn,tough,control,nogap,it is easy to lose the cheese with a friend,the shoe is easy to lose the cheese with a friend,3.0585810827456967
+grnn,tough,control,nogap,it is easy to lose the cheese in the park,the shoe is easy to lose the cheese in the park,3.0585810827456967
+grnn,tough,control,nogap,it is easy to lose the cheese on Saturdays,the shoe is easy to lose the cheese on Saturdays,3.0585810827456967
+grnn,tough,control,nogap,it is difficult to lose the cheese on Saturdays,the shoe is difficult to lose the cheese on Saturdays,3.1279263793827425
+grnn,tough,control,nogap,it is difficult to lose the cheese in the park,the shoe is difficult to lose the cheese in the park,3.1279263793827425
+grnn,tough,control,nogap,it is difficult to lose the cheese with a friend,the shoe is difficult to lose the cheese with a friend,3.1279263793827425
+grnn,tough,control,nogap,it is impossible to see your hat on Saturdays,this snack is impossible to see your hat on Saturdays,3.1313610449031195
+grnn,tough,control,nogap,it is impossible to see your hat in the park,this snack is impossible to see your hat in the park,3.1313610449031195
+grnn,tough,control,nogap,it is impossible to see your hat with a friend,this snack is impossible to see your hat with a friend,3.1313610449031195
+grnn,tough,control,nogap,it is difficult to see the cheese on Saturdays,the shoe is difficult to see the cheese on Saturdays,3.226777363567109
+grnn,tough,control,nogap,it is difficult to see the cheese with a friend,the shoe is difficult to see the cheese with a friend,3.226777363567109
+grnn,tough,control,nogap,it is difficult to see the cheese in the park,the shoe is difficult to see the cheese in the park,3.226777363567109
+grnn,tough,control,nogap,it is difficult to lose her keys with a friend,her book is difficult to lose her keys with a friend,3.2754790666731424
+grnn,tough,control,nogap,it is difficult to lose her keys in the park,her book is difficult to lose her keys in the park,3.2754790666731424
+grnn,tough,control,nogap,it is difficult to lose her keys on Saturdays,her book is difficult to lose her keys on Saturdays,3.2754790666731424
+grnn,tough,control,nogap,it is easy to see your hat on Saturdays,this snack is easy to see your hat on Saturdays,3.333383561426839
+grnn,tough,control,nogap,it is easy to see your hat in the park,this snack is easy to see your hat in the park,3.333383561426839
+grnn,tough,control,nogap,it is easy to see your hat with a friend,this snack is easy to see your hat with a friend,3.333383561426839
+grnn,tough,control,nogap,it is difficult to lose your hat with a friend,the shoe is difficult to lose your hat with a friend,3.341790073401011
+grnn,tough,control,nogap,it is difficult to lose your hat in the park,the shoe is difficult to lose your hat in the park,3.341790073401011
+grnn,tough,control,nogap,it is difficult to lose your hat on Saturdays,the shoe is difficult to lose your hat on Saturdays,3.341790073401011
+grnn,tough,control,nogap,it is impossible to find your hat with a friend,this snack is impossible to find your hat with a friend,3.357953002929097
+grnn,tough,control,nogap,it is impossible to find your hat on Saturdays,this snack is impossible to find your hat on Saturdays,3.357953002929097
+grnn,tough,control,nogap,it is impossible to find your hat in the park,this snack is impossible to find your hat in the park,3.357953002929097
+grnn,tough,control,nogap,it is easy to find your hat with a friend,this snack is easy to find your hat with a friend,3.50672074764784
+grnn,tough,control,nogap,it is easy to find your hat in the park,this snack is easy to find your hat in the park,3.50672074764784
+grnn,tough,control,nogap,it is easy to find your hat on Saturdays,this snack is easy to find your hat on Saturdays,3.50672074764784
+grnn,tough,control,nogap,it is difficult to see her keys on Saturdays,her book is difficult to see her keys on Saturdays,3.7831326399757543
+grnn,tough,control,nogap,it is difficult to see her keys in the park,her book is difficult to see her keys in the park,3.7831326399757543
+grnn,tough,control,nogap,it is difficult to see her keys with a friend,her book is difficult to see her keys with a friend,3.7831326399757543
+grnn,tough,control,nogap,it is difficult to see your hat with a friend,this snack is difficult to see your hat with a friend,4.138483193188492
+grnn,tough,control,nogap,it is difficult to see your hat on Saturdays,this snack is difficult to see your hat on Saturdays,4.138483193188492
+grnn,tough,control,nogap,it is difficult to see your hat in the park,this snack is difficult to see your hat in the park,4.138483193188492
+grnn,tough,control,nogap,it is difficult to find her keys with a friend,her book is difficult to find her keys with a friend,4.618514976901331
+grnn,tough,control,nogap,it is difficult to find her keys in the park,her book is difficult to find her keys in the park,4.618514976901331
+grnn,tough,control,nogap,it is difficult to find her keys on Saturdays,her book is difficult to find her keys on Saturdays,4.618514976901331
+grnn,tough,control,nogap,it is easy to lose your hat on Saturdays,this snack is easy to lose your hat on Saturdays,4.66154847580022
+grnn,tough,control,nogap,it is easy to lose your hat in the park,this snack is easy to lose your hat in the park,4.66154847580022
+grnn,tough,control,nogap,it is easy to lose your hat with a friend,this snack is easy to lose your hat with a friend,4.66154847580022
+grnn,tough,control,nogap,it is impossible to lose your hat in the park,this snack is impossible to lose your hat in the park,5.482179516795995
+grnn,tough,control,nogap,it is impossible to lose your hat with a friend,this snack is impossible to lose your hat with a friend,5.482179516795995
+grnn,tough,control,nogap,it is impossible to lose your hat on Saturdays,this snack is impossible to lose your hat on Saturdays,5.482179516795995
+grnn,tough,control,nogap,it is impossible to lose her keys on Saturdays,the shoe is impossible to lose her keys on Saturdays,5.596123526437427
+grnn,tough,control,nogap,it is impossible to lose her keys in the park,the shoe is impossible to lose her keys in the park,5.596123526437427
+grnn,tough,control,nogap,it is impossible to lose her keys with a friend,the shoe is impossible to lose her keys with a friend,5.596123526437427
+grnn,tough,control,nogap,it is impossible to find her keys in the park,the shoe is impossible to find her keys in the park,5.676801963818377
+grnn,tough,control,nogap,it is impossible to find her keys on Saturdays,the shoe is impossible to find her keys on Saturdays,5.676801963818377
+grnn,tough,control,nogap,it is impossible to find her keys with a friend,the shoe is impossible to find her keys with a friend,5.676801963818377
+grnn,tough,control,nogap,it is impossible to see her keys on Saturdays,the shoe is impossible to see her keys on Saturdays,5.774697928342505
+grnn,tough,control,nogap,it is impossible to see her keys in the park,the shoe is impossible to see her keys in the park,5.774697928342505
+grnn,tough,control,nogap,it is impossible to see her keys with a friend,the shoe is impossible to see her keys with a friend,5.774697928342505
+grnn,tough,control,nogap,it is easy to see her keys on Saturdays,the shoe is easy to see her keys on Saturdays,5.878133798016226
+grnn,tough,control,nogap,it is easy to see her keys with a friend,the shoe is easy to see her keys with a friend,5.878133798016226
+grnn,tough,control,nogap,it is easy to see her keys in the park,the shoe is easy to see her keys in the park,5.878133798016226
+grnn,tough,control,nogap,it is easy to find her keys on Saturdays,the shoe is easy to find her keys on Saturdays,5.898140195825796
+grnn,tough,control,nogap,it is easy to find her keys with a friend,the shoe is easy to find her keys with a friend,5.898140195825796
+grnn,tough,control,nogap,it is easy to find her keys in the park,the shoe is easy to find her keys in the park,5.898140195825796
+grnn,tough,control,nogap,it is difficult to find your hat on Saturdays,this snack is difficult to find your hat on Saturdays,6.233568966693191
+grnn,tough,control,nogap,it is difficult to find your hat in the park,this snack is difficult to find your hat in the park,6.233568966693191
+grnn,tough,control,nogap,it is difficult to find your hat with a friend,this snack is difficult to find your hat with a friend,6.233568966693191
+grnn,tough,control,nogap,it is difficult to see her keys with a friend,the shoe is difficult to see her keys with a friend,6.461824340918312
+grnn,tough,control,nogap,it is difficult to see her keys in the park,the shoe is difficult to see her keys in the park,6.461824340918312
+grnn,tough,control,nogap,it is difficult to see her keys on Saturdays,the shoe is difficult to see her keys on Saturdays,6.461824340918312
+grnn,tough,control,nogap,it is easy to lose her keys in the park,the shoe is easy to lose her keys in the park,6.647081300705313
+grnn,tough,control,nogap,it is easy to lose her keys with a friend,the shoe is easy to lose her keys with a friend,6.647081300705313
+grnn,tough,control,nogap,it is easy to lose her keys on Saturdays,the shoe is easy to lose her keys on Saturdays,6.647081300705313
+grnn,tough,control,nogap,it is impossible to see your hat in the park,her book is impossible to see your hat in the park,6.75582317912345
+grnn,tough,control,nogap,it is impossible to see your hat on Saturdays,her book is impossible to see your hat on Saturdays,6.75582317912345
+grnn,tough,control,nogap,it is impossible to see your hat with a friend,her book is impossible to see your hat with a friend,6.75582317912345
+grnn,tough,control,nogap,it is easy to find your hat in the park,her book is easy to find your hat in the park,6.999055490516312
+grnn,tough,control,nogap,it is easy to find your hat on Saturdays,her book is easy to find your hat on Saturdays,6.999055490516312
+grnn,tough,control,nogap,it is easy to find your hat with a friend,her book is easy to find your hat with a friend,6.999055490516312
+grnn,tough,control,nogap,it is difficult to lose her keys on Saturdays,the shoe is difficult to lose her keys on Saturdays,7.003908840923657
+grnn,tough,control,nogap,it is difficult to lose her keys with a friend,the shoe is difficult to lose her keys with a friend,7.003908840923657
+grnn,tough,control,nogap,it is difficult to lose her keys in the park,the shoe is difficult to lose her keys in the park,7.003908840923657
+grnn,tough,control,nogap,it is easy to see your hat on Saturdays,her book is easy to see your hat on Saturdays,7.189088752483073
+grnn,tough,control,nogap,it is easy to see your hat in the park,her book is easy to see your hat in the park,7.189088752483073
+grnn,tough,control,nogap,it is easy to see your hat with a friend,her book is easy to see your hat with a friend,7.189088752483073
+grnn,tough,control,nogap,it is difficult to see your hat with a friend,her book is difficult to see your hat with a friend,7.440854155081141
+grnn,tough,control,nogap,it is difficult to see your hat in the park,her book is difficult to see your hat in the park,7.440854155081141
+grnn,tough,control,nogap,it is difficult to see your hat on Saturdays,her book is difficult to see your hat on Saturdays,7.440854155081141
+grnn,tough,control,nogap,it is difficult to lose your hat with a friend,this snack is difficult to lose your hat with a friend,7.47497964059594
+grnn,tough,control,nogap,it is difficult to lose your hat in the park,this snack is difficult to lose your hat in the park,7.47497964059594
+grnn,tough,control,nogap,it is difficult to lose your hat on Saturdays,this snack is difficult to lose your hat on Saturdays,7.47497964059594
+grnn,tough,control,nogap,it is easy to see the cheese on Saturdays,her book is easy to see the cheese on Saturdays,7.48413410511872
+grnn,tough,control,nogap,it is easy to see the cheese in the park,her book is easy to see the cheese in the park,7.48413410511872
+grnn,tough,control,nogap,it is easy to see the cheese with a friend,her book is easy to see the cheese with a friend,7.48413410511872
+grnn,tough,control,nogap,it is impossible to find your hat on Saturdays,her book is impossible to find your hat on Saturdays,7.609724607893934
+grnn,tough,control,nogap,it is impossible to find your hat in the park,her book is impossible to find your hat in the park,7.609724607893934
+grnn,tough,control,nogap,it is impossible to find your hat with a friend,her book is impossible to find your hat with a friend,7.609724607893934
+grnn,tough,control,nogap,it is difficult to find her keys on Saturdays,the shoe is difficult to find her keys on Saturdays,7.692015554609373
+grnn,tough,control,nogap,it is difficult to find her keys in the park,the shoe is difficult to find her keys in the park,7.692015554609373
+grnn,tough,control,nogap,it is difficult to find her keys with a friend,the shoe is difficult to find her keys with a friend,7.692015554609373
+grnn,tough,control,nogap,it is impossible to see the cheese on Saturdays,her book is impossible to see the cheese on Saturdays,7.725292305742169
+grnn,tough,control,nogap,it is impossible to see the cheese with a friend,her book is impossible to see the cheese with a friend,7.725292305742169
+grnn,tough,control,nogap,it is impossible to see the cheese in the park,her book is impossible to see the cheese in the park,7.725292305742169
+grnn,tough,control,nogap,it is impossible to find the cheese in the park,her book is impossible to find the cheese in the park,7.753019520696917
+grnn,tough,control,nogap,it is impossible to find the cheese on Saturdays,her book is impossible to find the cheese on Saturdays,7.753019520696917
+grnn,tough,control,nogap,it is impossible to find the cheese with a friend,her book is impossible to find the cheese with a friend,7.753019520696917
+grnn,tough,control,nogap,it is impossible to lose the cheese in the park,her book is impossible to lose the cheese in the park,7.943564431050007
+grnn,tough,control,nogap,it is impossible to lose the cheese with a friend,her book is impossible to lose the cheese with a friend,7.943564431050007
+grnn,tough,control,nogap,it is impossible to lose the cheese on Saturdays,her book is impossible to lose the cheese on Saturdays,7.943564431050007
+grnn,tough,control,nogap,it is easy to find the cheese on Saturdays,her book is easy to find the cheese on Saturdays,7.945484273381588
+grnn,tough,control,nogap,it is easy to find the cheese with a friend,her book is easy to find the cheese with a friend,7.945484273381588
+grnn,tough,control,nogap,it is easy to find the cheese in the park,her book is easy to find the cheese in the park,7.945484273381588
+grnn,tough,control,nogap,it is easy to lose your hat on Saturdays,her book is easy to lose your hat on Saturdays,8.324499639353043
+grnn,tough,control,nogap,it is easy to lose your hat in the park,her book is easy to lose your hat in the park,8.324499639353043
+grnn,tough,control,nogap,it is easy to lose your hat with a friend,her book is easy to lose your hat with a friend,8.324499639353043
+grnn,tough,control,nogap,it is difficult to see the cheese on Saturdays,her book is difficult to see the cheese on Saturdays,8.339498246334788
+grnn,tough,control,nogap,it is difficult to see the cheese in the park,her book is difficult to see the cheese in the park,8.339498246334788
+grnn,tough,control,nogap,it is difficult to see the cheese with a friend,her book is difficult to see the cheese with a friend,8.339498246334788
+grnn,tough,control,nogap,it is easy to lose the cheese on Saturdays,her book is easy to lose the cheese on Saturdays,8.39505001842468
+grnn,tough,control,nogap,it is easy to lose the cheese in the park,her book is easy to lose the cheese in the park,8.39505001842468
+grnn,tough,control,nogap,it is easy to lose the cheese with a friend,her book is easy to lose the cheese with a friend,8.39505001842468
+grnn,tough,control,nogap,it is impossible to lose her keys on Saturdays,this snack is impossible to lose her keys on Saturdays,8.488706610605036
+grnn,tough,control,nogap,it is impossible to lose her keys with a friend,this snack is impossible to lose her keys with a friend,8.488706610605036
+grnn,tough,control,nogap,it is impossible to lose her keys in the park,this snack is impossible to lose her keys in the park,8.488706610605036
+grnn,tough,control,nogap,it is difficult to find the cheese on Saturdays,her book is difficult to find the cheese on Saturdays,8.922666993874149
+grnn,tough,control,nogap,it is difficult to find the cheese in the park,her book is difficult to find the cheese in the park,8.922666993874149
+grnn,tough,control,nogap,it is difficult to find the cheese with a friend,her book is difficult to find the cheese with a friend,8.922666993874149
+grnn,tough,control,nogap,it is difficult to lose the cheese on Saturdays,her book is difficult to lose the cheese on Saturdays,9.160473768580243
+grnn,tough,control,nogap,it is difficult to lose the cheese with a friend,her book is difficult to lose the cheese with a friend,9.160473768580243
+grnn,tough,control,nogap,it is difficult to lose the cheese in the park,her book is difficult to lose the cheese in the park,9.160473768580243
+grnn,tough,control,nogap,it is impossible to see her keys on Saturdays,this snack is impossible to see her keys on Saturdays,9.16317578800794
+grnn,tough,control,nogap,it is impossible to see her keys in the park,this snack is impossible to see her keys in the park,9.16317578800794
+grnn,tough,control,nogap,it is impossible to see her keys with a friend,this snack is impossible to see her keys with a friend,9.16317578800794
+grnn,tough,control,nogap,it is difficult to find your hat in the park,her book is difficult to find your hat in the park,9.188520527300291
+grnn,tough,control,nogap,it is difficult to find your hat with a friend,her book is difficult to find your hat with a friend,9.188520527300291
+grnn,tough,control,nogap,it is difficult to find your hat on Saturdays,her book is difficult to find your hat on Saturdays,9.188520527300291
+grnn,tough,control,nogap,it is easy to lose her keys in the park,this snack is easy to lose her keys in the park,9.275064261006271
+grnn,tough,control,nogap,it is easy to lose her keys on Saturdays,this snack is easy to lose her keys on Saturdays,9.275064261006271
+grnn,tough,control,nogap,it is easy to lose her keys with a friend,this snack is easy to lose her keys with a friend,9.275064261006271
+grnn,tough,control,nogap,it is easy to find her keys with a friend,this snack is easy to find her keys with a friend,9.277952881610162
+grnn,tough,control,nogap,it is easy to find her keys on Saturdays,this snack is easy to find her keys on Saturdays,9.277952881610162
+grnn,tough,control,nogap,it is easy to find her keys in the park,this snack is easy to find her keys in the park,9.277952881610162
+grnn,tough,control,nogap,it is easy to see her keys with a friend,this snack is easy to see her keys with a friend,9.596537671652044
+grnn,tough,control,nogap,it is easy to see her keys on Saturdays,this snack is easy to see her keys on Saturdays,9.596537671652044
+grnn,tough,control,nogap,it is easy to see her keys in the park,this snack is easy to see her keys in the park,9.596537671652044
+grnn,tough,control,nogap,it is impossible to find her keys with a friend,this snack is impossible to find her keys with a friend,9.647881372240633
+grnn,tough,control,nogap,it is impossible to find her keys in the park,this snack is impossible to find her keys in the park,9.647881372240633
+grnn,tough,control,nogap,it is impossible to find her keys on Saturdays,this snack is impossible to find her keys on Saturdays,9.647881372240633
+grnn,tough,control,nogap,it is impossible to lose your hat with a friend,her book is impossible to lose your hat with a friend,9.778107323404555
+grnn,tough,control,nogap,it is impossible to lose your hat in the park,her book is impossible to lose your hat in the park,9.778107323404555
+grnn,tough,control,nogap,it is impossible to lose your hat on Saturdays,her book is impossible to lose your hat on Saturdays,9.778107323404555
+grnn,tough,control,nogap,it is difficult to lose your hat on Saturdays,her book is difficult to lose your hat on Saturdays,10.855703834429875
+grnn,tough,control,nogap,it is difficult to lose your hat in the park,her book is difficult to lose your hat in the park,10.855703834429875
+grnn,tough,control,nogap,it is difficult to lose your hat with a friend,her book is difficult to lose your hat with a friend,10.855703834429875
+grnn,tough,control,nogap,it is difficult to lose her keys in the park,this snack is difficult to lose her keys in the park,11.006807791477947
+grnn,tough,control,nogap,it is difficult to lose her keys on Saturdays,this snack is difficult to lose her keys on Saturdays,11.006807791477947
+grnn,tough,control,nogap,it is difficult to lose her keys with a friend,this snack is difficult to lose her keys with a friend,11.006807791477947
+grnn,tough,control,nogap,it is difficult to see her keys on Saturdays,this snack is difficult to see her keys on Saturdays,11.208915611396485
+grnn,tough,control,nogap,it is difficult to see her keys in the park,this snack is difficult to see her keys in the park,11.208915611396485
+grnn,tough,control,nogap,it is difficult to see her keys with a friend,this snack is difficult to see her keys with a friend,11.208915611396485
+grnn,tough,control,nogap,it is difficult to find her keys with a friend,this snack is difficult to find her keys with a friend,13.040615458549617
+grnn,tough,control,nogap,it is difficult to find her keys on Saturdays,this snack is difficult to find her keys on Saturdays,13.040615458549617
+grnn,tough,control,nogap,it is difficult to find her keys in the park,this snack is difficult to find her keys in the park,13.040615458549617

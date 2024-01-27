@@ -9,6 +9,8 @@ def island_effects_for_model(model_name, control_tuples, island_tuples, construc
                 "construction": construction,
                 "condition": condition,
                 "gap": "gap",
+                "gram": str(item.s_ab),
+                "ungram": str(item.s_xb),
                 "wh_effect": item.s_ab.critical_surprisal - item.s_xb.critical_surprisal
             })
             island_effects.append({
@@ -16,6 +18,8 @@ def island_effects_for_model(model_name, control_tuples, island_tuples, construc
                 "construction": construction,
                 "condition": condition,
                 "gap": "nogap",
+                "gram": str(item.s_xx),
+                "ungram": str(item.s_ax),
                 "wh_effect": item.s_ax.critical_surprisal - item.s_xx.critical_surprisal
             })
     return island_effects
