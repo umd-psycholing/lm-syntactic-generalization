@@ -1,0 +1,1297 @@
+group,grammatical,sentence,a condition,b condition
+0,True,the pizza is tough to steal carefully,+,+
+0,False,it is tough to steal carefully,-,+
+0,False,the pizza is tough to steal your jacket carefully,+,-
+0,True,it is tough to steal your jacket carefully,-,-
+1,True,the pizza is tough to steal without falling,+,+
+1,False,it is tough to steal without falling,-,+
+1,False,the pizza is tough to steal your jacket without falling,+,-
+1,True,it is tough to steal your jacket without falling,-,-
+2,True,the pizza is tough to steal quickly,+,+
+2,False,it is tough to steal quickly,-,+
+2,False,the pizza is tough to steal your jacket quickly,+,-
+2,True,it is tough to steal your jacket quickly,-,-
+3,True,the pizza is tough to steal carefully,+,+
+3,False,it is tough to steal carefully,-,+
+3,False,the pizza is tough to steal a phone carefully,+,-
+3,True,it is tough to steal a phone carefully,-,-
+4,True,the pizza is tough to steal without falling,+,+
+4,False,it is tough to steal without falling,-,+
+4,False,the pizza is tough to steal a phone without falling,+,-
+4,True,it is tough to steal a phone without falling,-,-
+5,True,the pizza is tough to steal quickly,+,+
+5,False,it is tough to steal quickly,-,+
+5,False,the pizza is tough to steal a phone quickly,+,-
+5,True,it is tough to steal a phone quickly,-,-
+6,True,the pizza is tough to steal carefully,+,+
+6,False,it is tough to steal carefully,-,+
+6,False,the pizza is tough to steal the paperwork carefully,+,-
+6,True,it is tough to steal the paperwork carefully,-,-
+7,True,the pizza is tough to steal without falling,+,+
+7,False,it is tough to steal without falling,-,+
+7,False,the pizza is tough to steal the paperwork without falling,+,-
+7,True,it is tough to steal the paperwork without falling,-,-
+8,True,the pizza is tough to steal quickly,+,+
+8,False,it is tough to steal quickly,-,+
+8,False,the pizza is tough to steal the paperwork quickly,+,-
+8,True,it is tough to steal the paperwork quickly,-,-
+9,True,the pizza is tough to throw carefully,+,+
+9,False,it is tough to throw carefully,-,+
+9,False,the pizza is tough to throw your jacket carefully,+,-
+9,True,it is tough to throw your jacket carefully,-,-
+10,True,the pizza is tough to throw without falling,+,+
+10,False,it is tough to throw without falling,-,+
+10,False,the pizza is tough to throw your jacket without falling,+,-
+10,True,it is tough to throw your jacket without falling,-,-
+11,True,the pizza is tough to throw quickly,+,+
+11,False,it is tough to throw quickly,-,+
+11,False,the pizza is tough to throw your jacket quickly,+,-
+11,True,it is tough to throw your jacket quickly,-,-
+12,True,the pizza is tough to throw carefully,+,+
+12,False,it is tough to throw carefully,-,+
+12,False,the pizza is tough to throw a phone carefully,+,-
+12,True,it is tough to throw a phone carefully,-,-
+13,True,the pizza is tough to throw without falling,+,+
+13,False,it is tough to throw without falling,-,+
+13,False,the pizza is tough to throw a phone without falling,+,-
+13,True,it is tough to throw a phone without falling,-,-
+14,True,the pizza is tough to throw quickly,+,+
+14,False,it is tough to throw quickly,-,+
+14,False,the pizza is tough to throw a phone quickly,+,-
+14,True,it is tough to throw a phone quickly,-,-
+15,True,the pizza is tough to throw carefully,+,+
+15,False,it is tough to throw carefully,-,+
+15,False,the pizza is tough to throw the paperwork carefully,+,-
+15,True,it is tough to throw the paperwork carefully,-,-
+16,True,the pizza is tough to throw without falling,+,+
+16,False,it is tough to throw without falling,-,+
+16,False,the pizza is tough to throw the paperwork without falling,+,-
+16,True,it is tough to throw the paperwork without falling,-,-
+17,True,the pizza is tough to throw quickly,+,+
+17,False,it is tough to throw quickly,-,+
+17,False,the pizza is tough to throw the paperwork quickly,+,-
+17,True,it is tough to throw the paperwork quickly,-,-
+18,True,the pizza is tough to lift carefully,+,+
+18,False,it is tough to lift carefully,-,+
+18,False,the pizza is tough to lift your jacket carefully,+,-
+18,True,it is tough to lift your jacket carefully,-,-
+19,True,the pizza is tough to lift without falling,+,+
+19,False,it is tough to lift without falling,-,+
+19,False,the pizza is tough to lift your jacket without falling,+,-
+19,True,it is tough to lift your jacket without falling,-,-
+20,True,the pizza is tough to lift quickly,+,+
+20,False,it is tough to lift quickly,-,+
+20,False,the pizza is tough to lift your jacket quickly,+,-
+20,True,it is tough to lift your jacket quickly,-,-
+21,True,the pizza is tough to lift carefully,+,+
+21,False,it is tough to lift carefully,-,+
+21,False,the pizza is tough to lift a phone carefully,+,-
+21,True,it is tough to lift a phone carefully,-,-
+22,True,the pizza is tough to lift without falling,+,+
+22,False,it is tough to lift without falling,-,+
+22,False,the pizza is tough to lift a phone without falling,+,-
+22,True,it is tough to lift a phone without falling,-,-
+23,True,the pizza is tough to lift quickly,+,+
+23,False,it is tough to lift quickly,-,+
+23,False,the pizza is tough to lift a phone quickly,+,-
+23,True,it is tough to lift a phone quickly,-,-
+24,True,the pizza is tough to lift carefully,+,+
+24,False,it is tough to lift carefully,-,+
+24,False,the pizza is tough to lift the paperwork carefully,+,-
+24,True,it is tough to lift the paperwork carefully,-,-
+25,True,the pizza is tough to lift without falling,+,+
+25,False,it is tough to lift without falling,-,+
+25,False,the pizza is tough to lift the paperwork without falling,+,-
+25,True,it is tough to lift the paperwork without falling,-,-
+26,True,the pizza is tough to lift quickly,+,+
+26,False,it is tough to lift quickly,-,+
+26,False,the pizza is tough to lift the paperwork quickly,+,-
+26,True,it is tough to lift the paperwork quickly,-,-
+27,True,the pizza is annoying to steal carefully,+,+
+27,False,it is annoying to steal carefully,-,+
+27,False,the pizza is annoying to steal your jacket carefully,+,-
+27,True,it is annoying to steal your jacket carefully,-,-
+28,True,the pizza is annoying to steal without falling,+,+
+28,False,it is annoying to steal without falling,-,+
+28,False,the pizza is annoying to steal your jacket without falling,+,-
+28,True,it is annoying to steal your jacket without falling,-,-
+29,True,the pizza is annoying to steal quickly,+,+
+29,False,it is annoying to steal quickly,-,+
+29,False,the pizza is annoying to steal your jacket quickly,+,-
+29,True,it is annoying to steal your jacket quickly,-,-
+30,True,the pizza is annoying to steal carefully,+,+
+30,False,it is annoying to steal carefully,-,+
+30,False,the pizza is annoying to steal a phone carefully,+,-
+30,True,it is annoying to steal a phone carefully,-,-
+31,True,the pizza is annoying to steal without falling,+,+
+31,False,it is annoying to steal without falling,-,+
+31,False,the pizza is annoying to steal a phone without falling,+,-
+31,True,it is annoying to steal a phone without falling,-,-
+32,True,the pizza is annoying to steal quickly,+,+
+32,False,it is annoying to steal quickly,-,+
+32,False,the pizza is annoying to steal a phone quickly,+,-
+32,True,it is annoying to steal a phone quickly,-,-
+33,True,the pizza is annoying to steal carefully,+,+
+33,False,it is annoying to steal carefully,-,+
+33,False,the pizza is annoying to steal the paperwork carefully,+,-
+33,True,it is annoying to steal the paperwork carefully,-,-
+34,True,the pizza is annoying to steal without falling,+,+
+34,False,it is annoying to steal without falling,-,+
+34,False,the pizza is annoying to steal the paperwork without falling,+,-
+34,True,it is annoying to steal the paperwork without falling,-,-
+35,True,the pizza is annoying to steal quickly,+,+
+35,False,it is annoying to steal quickly,-,+
+35,False,the pizza is annoying to steal the paperwork quickly,+,-
+35,True,it is annoying to steal the paperwork quickly,-,-
+36,True,the pizza is annoying to throw carefully,+,+
+36,False,it is annoying to throw carefully,-,+
+36,False,the pizza is annoying to throw your jacket carefully,+,-
+36,True,it is annoying to throw your jacket carefully,-,-
+37,True,the pizza is annoying to throw without falling,+,+
+37,False,it is annoying to throw without falling,-,+
+37,False,the pizza is annoying to throw your jacket without falling,+,-
+37,True,it is annoying to throw your jacket without falling,-,-
+38,True,the pizza is annoying to throw quickly,+,+
+38,False,it is annoying to throw quickly,-,+
+38,False,the pizza is annoying to throw your jacket quickly,+,-
+38,True,it is annoying to throw your jacket quickly,-,-
+39,True,the pizza is annoying to throw carefully,+,+
+39,False,it is annoying to throw carefully,-,+
+39,False,the pizza is annoying to throw a phone carefully,+,-
+39,True,it is annoying to throw a phone carefully,-,-
+40,True,the pizza is annoying to throw without falling,+,+
+40,False,it is annoying to throw without falling,-,+
+40,False,the pizza is annoying to throw a phone without falling,+,-
+40,True,it is annoying to throw a phone without falling,-,-
+41,True,the pizza is annoying to throw quickly,+,+
+41,False,it is annoying to throw quickly,-,+
+41,False,the pizza is annoying to throw a phone quickly,+,-
+41,True,it is annoying to throw a phone quickly,-,-
+42,True,the pizza is annoying to throw carefully,+,+
+42,False,it is annoying to throw carefully,-,+
+42,False,the pizza is annoying to throw the paperwork carefully,+,-
+42,True,it is annoying to throw the paperwork carefully,-,-
+43,True,the pizza is annoying to throw without falling,+,+
+43,False,it is annoying to throw without falling,-,+
+43,False,the pizza is annoying to throw the paperwork without falling,+,-
+43,True,it is annoying to throw the paperwork without falling,-,-
+44,True,the pizza is annoying to throw quickly,+,+
+44,False,it is annoying to throw quickly,-,+
+44,False,the pizza is annoying to throw the paperwork quickly,+,-
+44,True,it is annoying to throw the paperwork quickly,-,-
+45,True,the pizza is annoying to lift carefully,+,+
+45,False,it is annoying to lift carefully,-,+
+45,False,the pizza is annoying to lift your jacket carefully,+,-
+45,True,it is annoying to lift your jacket carefully,-,-
+46,True,the pizza is annoying to lift without falling,+,+
+46,False,it is annoying to lift without falling,-,+
+46,False,the pizza is annoying to lift your jacket without falling,+,-
+46,True,it is annoying to lift your jacket without falling,-,-
+47,True,the pizza is annoying to lift quickly,+,+
+47,False,it is annoying to lift quickly,-,+
+47,False,the pizza is annoying to lift your jacket quickly,+,-
+47,True,it is annoying to lift your jacket quickly,-,-
+48,True,the pizza is annoying to lift carefully,+,+
+48,False,it is annoying to lift carefully,-,+
+48,False,the pizza is annoying to lift a phone carefully,+,-
+48,True,it is annoying to lift a phone carefully,-,-
+49,True,the pizza is annoying to lift without falling,+,+
+49,False,it is annoying to lift without falling,-,+
+49,False,the pizza is annoying to lift a phone without falling,+,-
+49,True,it is annoying to lift a phone without falling,-,-
+50,True,the pizza is annoying to lift quickly,+,+
+50,False,it is annoying to lift quickly,-,+
+50,False,the pizza is annoying to lift a phone quickly,+,-
+50,True,it is annoying to lift a phone quickly,-,-
+51,True,the pizza is annoying to lift carefully,+,+
+51,False,it is annoying to lift carefully,-,+
+51,False,the pizza is annoying to lift the paperwork carefully,+,-
+51,True,it is annoying to lift the paperwork carefully,-,-
+52,True,the pizza is annoying to lift without falling,+,+
+52,False,it is annoying to lift without falling,-,+
+52,False,the pizza is annoying to lift the paperwork without falling,+,-
+52,True,it is annoying to lift the paperwork without falling,-,-
+53,True,the pizza is annoying to lift quickly,+,+
+53,False,it is annoying to lift quickly,-,+
+53,False,the pizza is annoying to lift the paperwork quickly,+,-
+53,True,it is annoying to lift the paperwork quickly,-,-
+54,True,the pizza is simple to steal carefully,+,+
+54,False,it is simple to steal carefully,-,+
+54,False,the pizza is simple to steal your jacket carefully,+,-
+54,True,it is simple to steal your jacket carefully,-,-
+55,True,the pizza is simple to steal without falling,+,+
+55,False,it is simple to steal without falling,-,+
+55,False,the pizza is simple to steal your jacket without falling,+,-
+55,True,it is simple to steal your jacket without falling,-,-
+56,True,the pizza is simple to steal quickly,+,+
+56,False,it is simple to steal quickly,-,+
+56,False,the pizza is simple to steal your jacket quickly,+,-
+56,True,it is simple to steal your jacket quickly,-,-
+57,True,the pizza is simple to steal carefully,+,+
+57,False,it is simple to steal carefully,-,+
+57,False,the pizza is simple to steal a phone carefully,+,-
+57,True,it is simple to steal a phone carefully,-,-
+58,True,the pizza is simple to steal without falling,+,+
+58,False,it is simple to steal without falling,-,+
+58,False,the pizza is simple to steal a phone without falling,+,-
+58,True,it is simple to steal a phone without falling,-,-
+59,True,the pizza is simple to steal quickly,+,+
+59,False,it is simple to steal quickly,-,+
+59,False,the pizza is simple to steal a phone quickly,+,-
+59,True,it is simple to steal a phone quickly,-,-
+60,True,the pizza is simple to steal carefully,+,+
+60,False,it is simple to steal carefully,-,+
+60,False,the pizza is simple to steal the paperwork carefully,+,-
+60,True,it is simple to steal the paperwork carefully,-,-
+61,True,the pizza is simple to steal without falling,+,+
+61,False,it is simple to steal without falling,-,+
+61,False,the pizza is simple to steal the paperwork without falling,+,-
+61,True,it is simple to steal the paperwork without falling,-,-
+62,True,the pizza is simple to steal quickly,+,+
+62,False,it is simple to steal quickly,-,+
+62,False,the pizza is simple to steal the paperwork quickly,+,-
+62,True,it is simple to steal the paperwork quickly,-,-
+63,True,the pizza is simple to throw carefully,+,+
+63,False,it is simple to throw carefully,-,+
+63,False,the pizza is simple to throw your jacket carefully,+,-
+63,True,it is simple to throw your jacket carefully,-,-
+64,True,the pizza is simple to throw without falling,+,+
+64,False,it is simple to throw without falling,-,+
+64,False,the pizza is simple to throw your jacket without falling,+,-
+64,True,it is simple to throw your jacket without falling,-,-
+65,True,the pizza is simple to throw quickly,+,+
+65,False,it is simple to throw quickly,-,+
+65,False,the pizza is simple to throw your jacket quickly,+,-
+65,True,it is simple to throw your jacket quickly,-,-
+66,True,the pizza is simple to throw carefully,+,+
+66,False,it is simple to throw carefully,-,+
+66,False,the pizza is simple to throw a phone carefully,+,-
+66,True,it is simple to throw a phone carefully,-,-
+67,True,the pizza is simple to throw without falling,+,+
+67,False,it is simple to throw without falling,-,+
+67,False,the pizza is simple to throw a phone without falling,+,-
+67,True,it is simple to throw a phone without falling,-,-
+68,True,the pizza is simple to throw quickly,+,+
+68,False,it is simple to throw quickly,-,+
+68,False,the pizza is simple to throw a phone quickly,+,-
+68,True,it is simple to throw a phone quickly,-,-
+69,True,the pizza is simple to throw carefully,+,+
+69,False,it is simple to throw carefully,-,+
+69,False,the pizza is simple to throw the paperwork carefully,+,-
+69,True,it is simple to throw the paperwork carefully,-,-
+70,True,the pizza is simple to throw without falling,+,+
+70,False,it is simple to throw without falling,-,+
+70,False,the pizza is simple to throw the paperwork without falling,+,-
+70,True,it is simple to throw the paperwork without falling,-,-
+71,True,the pizza is simple to throw quickly,+,+
+71,False,it is simple to throw quickly,-,+
+71,False,the pizza is simple to throw the paperwork quickly,+,-
+71,True,it is simple to throw the paperwork quickly,-,-
+72,True,the pizza is simple to lift carefully,+,+
+72,False,it is simple to lift carefully,-,+
+72,False,the pizza is simple to lift your jacket carefully,+,-
+72,True,it is simple to lift your jacket carefully,-,-
+73,True,the pizza is simple to lift without falling,+,+
+73,False,it is simple to lift without falling,-,+
+73,False,the pizza is simple to lift your jacket without falling,+,-
+73,True,it is simple to lift your jacket without falling,-,-
+74,True,the pizza is simple to lift quickly,+,+
+74,False,it is simple to lift quickly,-,+
+74,False,the pizza is simple to lift your jacket quickly,+,-
+74,True,it is simple to lift your jacket quickly,-,-
+75,True,the pizza is simple to lift carefully,+,+
+75,False,it is simple to lift carefully,-,+
+75,False,the pizza is simple to lift a phone carefully,+,-
+75,True,it is simple to lift a phone carefully,-,-
+76,True,the pizza is simple to lift without falling,+,+
+76,False,it is simple to lift without falling,-,+
+76,False,the pizza is simple to lift a phone without falling,+,-
+76,True,it is simple to lift a phone without falling,-,-
+77,True,the pizza is simple to lift quickly,+,+
+77,False,it is simple to lift quickly,-,+
+77,False,the pizza is simple to lift a phone quickly,+,-
+77,True,it is simple to lift a phone quickly,-,-
+78,True,the pizza is simple to lift carefully,+,+
+78,False,it is simple to lift carefully,-,+
+78,False,the pizza is simple to lift the paperwork carefully,+,-
+78,True,it is simple to lift the paperwork carefully,-,-
+79,True,the pizza is simple to lift without falling,+,+
+79,False,it is simple to lift without falling,-,+
+79,False,the pizza is simple to lift the paperwork without falling,+,-
+79,True,it is simple to lift the paperwork without falling,-,-
+80,True,the pizza is simple to lift quickly,+,+
+80,False,it is simple to lift quickly,-,+
+80,False,the pizza is simple to lift the paperwork quickly,+,-
+80,True,it is simple to lift the paperwork quickly,-,-
+81,True,the pizza is embarrassing to steal carefully,+,+
+81,False,it is embarrassing to steal carefully,-,+
+81,False,the pizza is embarrassing to steal your jacket carefully,+,-
+81,True,it is embarrassing to steal your jacket carefully,-,-
+82,True,the pizza is embarrassing to steal without falling,+,+
+82,False,it is embarrassing to steal without falling,-,+
+82,False,the pizza is embarrassing to steal your jacket without falling,+,-
+82,True,it is embarrassing to steal your jacket without falling,-,-
+83,True,the pizza is embarrassing to steal quickly,+,+
+83,False,it is embarrassing to steal quickly,-,+
+83,False,the pizza is embarrassing to steal your jacket quickly,+,-
+83,True,it is embarrassing to steal your jacket quickly,-,-
+84,True,the pizza is embarrassing to steal carefully,+,+
+84,False,it is embarrassing to steal carefully,-,+
+84,False,the pizza is embarrassing to steal a phone carefully,+,-
+84,True,it is embarrassing to steal a phone carefully,-,-
+85,True,the pizza is embarrassing to steal without falling,+,+
+85,False,it is embarrassing to steal without falling,-,+
+85,False,the pizza is embarrassing to steal a phone without falling,+,-
+85,True,it is embarrassing to steal a phone without falling,-,-
+86,True,the pizza is embarrassing to steal quickly,+,+
+86,False,it is embarrassing to steal quickly,-,+
+86,False,the pizza is embarrassing to steal a phone quickly,+,-
+86,True,it is embarrassing to steal a phone quickly,-,-
+87,True,the pizza is embarrassing to steal carefully,+,+
+87,False,it is embarrassing to steal carefully,-,+
+87,False,the pizza is embarrassing to steal the paperwork carefully,+,-
+87,True,it is embarrassing to steal the paperwork carefully,-,-
+88,True,the pizza is embarrassing to steal without falling,+,+
+88,False,it is embarrassing to steal without falling,-,+
+88,False,the pizza is embarrassing to steal the paperwork without falling,+,-
+88,True,it is embarrassing to steal the paperwork without falling,-,-
+89,True,the pizza is embarrassing to steal quickly,+,+
+89,False,it is embarrassing to steal quickly,-,+
+89,False,the pizza is embarrassing to steal the paperwork quickly,+,-
+89,True,it is embarrassing to steal the paperwork quickly,-,-
+90,True,the pizza is embarrassing to throw carefully,+,+
+90,False,it is embarrassing to throw carefully,-,+
+90,False,the pizza is embarrassing to throw your jacket carefully,+,-
+90,True,it is embarrassing to throw your jacket carefully,-,-
+91,True,the pizza is embarrassing to throw without falling,+,+
+91,False,it is embarrassing to throw without falling,-,+
+91,False,the pizza is embarrassing to throw your jacket without falling,+,-
+91,True,it is embarrassing to throw your jacket without falling,-,-
+92,True,the pizza is embarrassing to throw quickly,+,+
+92,False,it is embarrassing to throw quickly,-,+
+92,False,the pizza is embarrassing to throw your jacket quickly,+,-
+92,True,it is embarrassing to throw your jacket quickly,-,-
+93,True,the pizza is embarrassing to throw carefully,+,+
+93,False,it is embarrassing to throw carefully,-,+
+93,False,the pizza is embarrassing to throw a phone carefully,+,-
+93,True,it is embarrassing to throw a phone carefully,-,-
+94,True,the pizza is embarrassing to throw without falling,+,+
+94,False,it is embarrassing to throw without falling,-,+
+94,False,the pizza is embarrassing to throw a phone without falling,+,-
+94,True,it is embarrassing to throw a phone without falling,-,-
+95,True,the pizza is embarrassing to throw quickly,+,+
+95,False,it is embarrassing to throw quickly,-,+
+95,False,the pizza is embarrassing to throw a phone quickly,+,-
+95,True,it is embarrassing to throw a phone quickly,-,-
+96,True,the pizza is embarrassing to throw carefully,+,+
+96,False,it is embarrassing to throw carefully,-,+
+96,False,the pizza is embarrassing to throw the paperwork carefully,+,-
+96,True,it is embarrassing to throw the paperwork carefully,-,-
+97,True,the pizza is embarrassing to throw without falling,+,+
+97,False,it is embarrassing to throw without falling,-,+
+97,False,the pizza is embarrassing to throw the paperwork without falling,+,-
+97,True,it is embarrassing to throw the paperwork without falling,-,-
+98,True,the pizza is embarrassing to throw quickly,+,+
+98,False,it is embarrassing to throw quickly,-,+
+98,False,the pizza is embarrassing to throw the paperwork quickly,+,-
+98,True,it is embarrassing to throw the paperwork quickly,-,-
+99,True,the pizza is embarrassing to lift carefully,+,+
+99,False,it is embarrassing to lift carefully,-,+
+99,False,the pizza is embarrassing to lift your jacket carefully,+,-
+99,True,it is embarrassing to lift your jacket carefully,-,-
+100,True,the pizza is embarrassing to lift without falling,+,+
+100,False,it is embarrassing to lift without falling,-,+
+100,False,the pizza is embarrassing to lift your jacket without falling,+,-
+100,True,it is embarrassing to lift your jacket without falling,-,-
+101,True,the pizza is embarrassing to lift quickly,+,+
+101,False,it is embarrassing to lift quickly,-,+
+101,False,the pizza is embarrassing to lift your jacket quickly,+,-
+101,True,it is embarrassing to lift your jacket quickly,-,-
+102,True,the pizza is embarrassing to lift carefully,+,+
+102,False,it is embarrassing to lift carefully,-,+
+102,False,the pizza is embarrassing to lift a phone carefully,+,-
+102,True,it is embarrassing to lift a phone carefully,-,-
+103,True,the pizza is embarrassing to lift without falling,+,+
+103,False,it is embarrassing to lift without falling,-,+
+103,False,the pizza is embarrassing to lift a phone without falling,+,-
+103,True,it is embarrassing to lift a phone without falling,-,-
+104,True,the pizza is embarrassing to lift quickly,+,+
+104,False,it is embarrassing to lift quickly,-,+
+104,False,the pizza is embarrassing to lift a phone quickly,+,-
+104,True,it is embarrassing to lift a phone quickly,-,-
+105,True,the pizza is embarrassing to lift carefully,+,+
+105,False,it is embarrassing to lift carefully,-,+
+105,False,the pizza is embarrassing to lift the paperwork carefully,+,-
+105,True,it is embarrassing to lift the paperwork carefully,-,-
+106,True,the pizza is embarrassing to lift without falling,+,+
+106,False,it is embarrassing to lift without falling,-,+
+106,False,the pizza is embarrassing to lift the paperwork without falling,+,-
+106,True,it is embarrassing to lift the paperwork without falling,-,-
+107,True,the pizza is embarrassing to lift quickly,+,+
+107,False,it is embarrassing to lift quickly,-,+
+107,False,the pizza is embarrassing to lift the paperwork quickly,+,-
+107,True,it is embarrassing to lift the paperwork quickly,-,-
+108,True,that ball is tough to steal carefully,+,+
+108,False,it is tough to steal carefully,-,+
+108,False,that ball is tough to steal your jacket carefully,+,-
+108,True,it is tough to steal your jacket carefully,-,-
+109,True,that ball is tough to steal without falling,+,+
+109,False,it is tough to steal without falling,-,+
+109,False,that ball is tough to steal your jacket without falling,+,-
+109,True,it is tough to steal your jacket without falling,-,-
+110,True,that ball is tough to steal quickly,+,+
+110,False,it is tough to steal quickly,-,+
+110,False,that ball is tough to steal your jacket quickly,+,-
+110,True,it is tough to steal your jacket quickly,-,-
+111,True,that ball is tough to steal carefully,+,+
+111,False,it is tough to steal carefully,-,+
+111,False,that ball is tough to steal a phone carefully,+,-
+111,True,it is tough to steal a phone carefully,-,-
+112,True,that ball is tough to steal without falling,+,+
+112,False,it is tough to steal without falling,-,+
+112,False,that ball is tough to steal a phone without falling,+,-
+112,True,it is tough to steal a phone without falling,-,-
+113,True,that ball is tough to steal quickly,+,+
+113,False,it is tough to steal quickly,-,+
+113,False,that ball is tough to steal a phone quickly,+,-
+113,True,it is tough to steal a phone quickly,-,-
+114,True,that ball is tough to steal carefully,+,+
+114,False,it is tough to steal carefully,-,+
+114,False,that ball is tough to steal the paperwork carefully,+,-
+114,True,it is tough to steal the paperwork carefully,-,-
+115,True,that ball is tough to steal without falling,+,+
+115,False,it is tough to steal without falling,-,+
+115,False,that ball is tough to steal the paperwork without falling,+,-
+115,True,it is tough to steal the paperwork without falling,-,-
+116,True,that ball is tough to steal quickly,+,+
+116,False,it is tough to steal quickly,-,+
+116,False,that ball is tough to steal the paperwork quickly,+,-
+116,True,it is tough to steal the paperwork quickly,-,-
+117,True,that ball is tough to throw carefully,+,+
+117,False,it is tough to throw carefully,-,+
+117,False,that ball is tough to throw your jacket carefully,+,-
+117,True,it is tough to throw your jacket carefully,-,-
+118,True,that ball is tough to throw without falling,+,+
+118,False,it is tough to throw without falling,-,+
+118,False,that ball is tough to throw your jacket without falling,+,-
+118,True,it is tough to throw your jacket without falling,-,-
+119,True,that ball is tough to throw quickly,+,+
+119,False,it is tough to throw quickly,-,+
+119,False,that ball is tough to throw your jacket quickly,+,-
+119,True,it is tough to throw your jacket quickly,-,-
+120,True,that ball is tough to throw carefully,+,+
+120,False,it is tough to throw carefully,-,+
+120,False,that ball is tough to throw a phone carefully,+,-
+120,True,it is tough to throw a phone carefully,-,-
+121,True,that ball is tough to throw without falling,+,+
+121,False,it is tough to throw without falling,-,+
+121,False,that ball is tough to throw a phone without falling,+,-
+121,True,it is tough to throw a phone without falling,-,-
+122,True,that ball is tough to throw quickly,+,+
+122,False,it is tough to throw quickly,-,+
+122,False,that ball is tough to throw a phone quickly,+,-
+122,True,it is tough to throw a phone quickly,-,-
+123,True,that ball is tough to throw carefully,+,+
+123,False,it is tough to throw carefully,-,+
+123,False,that ball is tough to throw the paperwork carefully,+,-
+123,True,it is tough to throw the paperwork carefully,-,-
+124,True,that ball is tough to throw without falling,+,+
+124,False,it is tough to throw without falling,-,+
+124,False,that ball is tough to throw the paperwork without falling,+,-
+124,True,it is tough to throw the paperwork without falling,-,-
+125,True,that ball is tough to throw quickly,+,+
+125,False,it is tough to throw quickly,-,+
+125,False,that ball is tough to throw the paperwork quickly,+,-
+125,True,it is tough to throw the paperwork quickly,-,-
+126,True,that ball is tough to lift carefully,+,+
+126,False,it is tough to lift carefully,-,+
+126,False,that ball is tough to lift your jacket carefully,+,-
+126,True,it is tough to lift your jacket carefully,-,-
+127,True,that ball is tough to lift without falling,+,+
+127,False,it is tough to lift without falling,-,+
+127,False,that ball is tough to lift your jacket without falling,+,-
+127,True,it is tough to lift your jacket without falling,-,-
+128,True,that ball is tough to lift quickly,+,+
+128,False,it is tough to lift quickly,-,+
+128,False,that ball is tough to lift your jacket quickly,+,-
+128,True,it is tough to lift your jacket quickly,-,-
+129,True,that ball is tough to lift carefully,+,+
+129,False,it is tough to lift carefully,-,+
+129,False,that ball is tough to lift a phone carefully,+,-
+129,True,it is tough to lift a phone carefully,-,-
+130,True,that ball is tough to lift without falling,+,+
+130,False,it is tough to lift without falling,-,+
+130,False,that ball is tough to lift a phone without falling,+,-
+130,True,it is tough to lift a phone without falling,-,-
+131,True,that ball is tough to lift quickly,+,+
+131,False,it is tough to lift quickly,-,+
+131,False,that ball is tough to lift a phone quickly,+,-
+131,True,it is tough to lift a phone quickly,-,-
+132,True,that ball is tough to lift carefully,+,+
+132,False,it is tough to lift carefully,-,+
+132,False,that ball is tough to lift the paperwork carefully,+,-
+132,True,it is tough to lift the paperwork carefully,-,-
+133,True,that ball is tough to lift without falling,+,+
+133,False,it is tough to lift without falling,-,+
+133,False,that ball is tough to lift the paperwork without falling,+,-
+133,True,it is tough to lift the paperwork without falling,-,-
+134,True,that ball is tough to lift quickly,+,+
+134,False,it is tough to lift quickly,-,+
+134,False,that ball is tough to lift the paperwork quickly,+,-
+134,True,it is tough to lift the paperwork quickly,-,-
+135,True,that ball is annoying to steal carefully,+,+
+135,False,it is annoying to steal carefully,-,+
+135,False,that ball is annoying to steal your jacket carefully,+,-
+135,True,it is annoying to steal your jacket carefully,-,-
+136,True,that ball is annoying to steal without falling,+,+
+136,False,it is annoying to steal without falling,-,+
+136,False,that ball is annoying to steal your jacket without falling,+,-
+136,True,it is annoying to steal your jacket without falling,-,-
+137,True,that ball is annoying to steal quickly,+,+
+137,False,it is annoying to steal quickly,-,+
+137,False,that ball is annoying to steal your jacket quickly,+,-
+137,True,it is annoying to steal your jacket quickly,-,-
+138,True,that ball is annoying to steal carefully,+,+
+138,False,it is annoying to steal carefully,-,+
+138,False,that ball is annoying to steal a phone carefully,+,-
+138,True,it is annoying to steal a phone carefully,-,-
+139,True,that ball is annoying to steal without falling,+,+
+139,False,it is annoying to steal without falling,-,+
+139,False,that ball is annoying to steal a phone without falling,+,-
+139,True,it is annoying to steal a phone without falling,-,-
+140,True,that ball is annoying to steal quickly,+,+
+140,False,it is annoying to steal quickly,-,+
+140,False,that ball is annoying to steal a phone quickly,+,-
+140,True,it is annoying to steal a phone quickly,-,-
+141,True,that ball is annoying to steal carefully,+,+
+141,False,it is annoying to steal carefully,-,+
+141,False,that ball is annoying to steal the paperwork carefully,+,-
+141,True,it is annoying to steal the paperwork carefully,-,-
+142,True,that ball is annoying to steal without falling,+,+
+142,False,it is annoying to steal without falling,-,+
+142,False,that ball is annoying to steal the paperwork without falling,+,-
+142,True,it is annoying to steal the paperwork without falling,-,-
+143,True,that ball is annoying to steal quickly,+,+
+143,False,it is annoying to steal quickly,-,+
+143,False,that ball is annoying to steal the paperwork quickly,+,-
+143,True,it is annoying to steal the paperwork quickly,-,-
+144,True,that ball is annoying to throw carefully,+,+
+144,False,it is annoying to throw carefully,-,+
+144,False,that ball is annoying to throw your jacket carefully,+,-
+144,True,it is annoying to throw your jacket carefully,-,-
+145,True,that ball is annoying to throw without falling,+,+
+145,False,it is annoying to throw without falling,-,+
+145,False,that ball is annoying to throw your jacket without falling,+,-
+145,True,it is annoying to throw your jacket without falling,-,-
+146,True,that ball is annoying to throw quickly,+,+
+146,False,it is annoying to throw quickly,-,+
+146,False,that ball is annoying to throw your jacket quickly,+,-
+146,True,it is annoying to throw your jacket quickly,-,-
+147,True,that ball is annoying to throw carefully,+,+
+147,False,it is annoying to throw carefully,-,+
+147,False,that ball is annoying to throw a phone carefully,+,-
+147,True,it is annoying to throw a phone carefully,-,-
+148,True,that ball is annoying to throw without falling,+,+
+148,False,it is annoying to throw without falling,-,+
+148,False,that ball is annoying to throw a phone without falling,+,-
+148,True,it is annoying to throw a phone without falling,-,-
+149,True,that ball is annoying to throw quickly,+,+
+149,False,it is annoying to throw quickly,-,+
+149,False,that ball is annoying to throw a phone quickly,+,-
+149,True,it is annoying to throw a phone quickly,-,-
+150,True,that ball is annoying to throw carefully,+,+
+150,False,it is annoying to throw carefully,-,+
+150,False,that ball is annoying to throw the paperwork carefully,+,-
+150,True,it is annoying to throw the paperwork carefully,-,-
+151,True,that ball is annoying to throw without falling,+,+
+151,False,it is annoying to throw without falling,-,+
+151,False,that ball is annoying to throw the paperwork without falling,+,-
+151,True,it is annoying to throw the paperwork without falling,-,-
+152,True,that ball is annoying to throw quickly,+,+
+152,False,it is annoying to throw quickly,-,+
+152,False,that ball is annoying to throw the paperwork quickly,+,-
+152,True,it is annoying to throw the paperwork quickly,-,-
+153,True,that ball is annoying to lift carefully,+,+
+153,False,it is annoying to lift carefully,-,+
+153,False,that ball is annoying to lift your jacket carefully,+,-
+153,True,it is annoying to lift your jacket carefully,-,-
+154,True,that ball is annoying to lift without falling,+,+
+154,False,it is annoying to lift without falling,-,+
+154,False,that ball is annoying to lift your jacket without falling,+,-
+154,True,it is annoying to lift your jacket without falling,-,-
+155,True,that ball is annoying to lift quickly,+,+
+155,False,it is annoying to lift quickly,-,+
+155,False,that ball is annoying to lift your jacket quickly,+,-
+155,True,it is annoying to lift your jacket quickly,-,-
+156,True,that ball is annoying to lift carefully,+,+
+156,False,it is annoying to lift carefully,-,+
+156,False,that ball is annoying to lift a phone carefully,+,-
+156,True,it is annoying to lift a phone carefully,-,-
+157,True,that ball is annoying to lift without falling,+,+
+157,False,it is annoying to lift without falling,-,+
+157,False,that ball is annoying to lift a phone without falling,+,-
+157,True,it is annoying to lift a phone without falling,-,-
+158,True,that ball is annoying to lift quickly,+,+
+158,False,it is annoying to lift quickly,-,+
+158,False,that ball is annoying to lift a phone quickly,+,-
+158,True,it is annoying to lift a phone quickly,-,-
+159,True,that ball is annoying to lift carefully,+,+
+159,False,it is annoying to lift carefully,-,+
+159,False,that ball is annoying to lift the paperwork carefully,+,-
+159,True,it is annoying to lift the paperwork carefully,-,-
+160,True,that ball is annoying to lift without falling,+,+
+160,False,it is annoying to lift without falling,-,+
+160,False,that ball is annoying to lift the paperwork without falling,+,-
+160,True,it is annoying to lift the paperwork without falling,-,-
+161,True,that ball is annoying to lift quickly,+,+
+161,False,it is annoying to lift quickly,-,+
+161,False,that ball is annoying to lift the paperwork quickly,+,-
+161,True,it is annoying to lift the paperwork quickly,-,-
+162,True,that ball is simple to steal carefully,+,+
+162,False,it is simple to steal carefully,-,+
+162,False,that ball is simple to steal your jacket carefully,+,-
+162,True,it is simple to steal your jacket carefully,-,-
+163,True,that ball is simple to steal without falling,+,+
+163,False,it is simple to steal without falling,-,+
+163,False,that ball is simple to steal your jacket without falling,+,-
+163,True,it is simple to steal your jacket without falling,-,-
+164,True,that ball is simple to steal quickly,+,+
+164,False,it is simple to steal quickly,-,+
+164,False,that ball is simple to steal your jacket quickly,+,-
+164,True,it is simple to steal your jacket quickly,-,-
+165,True,that ball is simple to steal carefully,+,+
+165,False,it is simple to steal carefully,-,+
+165,False,that ball is simple to steal a phone carefully,+,-
+165,True,it is simple to steal a phone carefully,-,-
+166,True,that ball is simple to steal without falling,+,+
+166,False,it is simple to steal without falling,-,+
+166,False,that ball is simple to steal a phone without falling,+,-
+166,True,it is simple to steal a phone without falling,-,-
+167,True,that ball is simple to steal quickly,+,+
+167,False,it is simple to steal quickly,-,+
+167,False,that ball is simple to steal a phone quickly,+,-
+167,True,it is simple to steal a phone quickly,-,-
+168,True,that ball is simple to steal carefully,+,+
+168,False,it is simple to steal carefully,-,+
+168,False,that ball is simple to steal the paperwork carefully,+,-
+168,True,it is simple to steal the paperwork carefully,-,-
+169,True,that ball is simple to steal without falling,+,+
+169,False,it is simple to steal without falling,-,+
+169,False,that ball is simple to steal the paperwork without falling,+,-
+169,True,it is simple to steal the paperwork without falling,-,-
+170,True,that ball is simple to steal quickly,+,+
+170,False,it is simple to steal quickly,-,+
+170,False,that ball is simple to steal the paperwork quickly,+,-
+170,True,it is simple to steal the paperwork quickly,-,-
+171,True,that ball is simple to throw carefully,+,+
+171,False,it is simple to throw carefully,-,+
+171,False,that ball is simple to throw your jacket carefully,+,-
+171,True,it is simple to throw your jacket carefully,-,-
+172,True,that ball is simple to throw without falling,+,+
+172,False,it is simple to throw without falling,-,+
+172,False,that ball is simple to throw your jacket without falling,+,-
+172,True,it is simple to throw your jacket without falling,-,-
+173,True,that ball is simple to throw quickly,+,+
+173,False,it is simple to throw quickly,-,+
+173,False,that ball is simple to throw your jacket quickly,+,-
+173,True,it is simple to throw your jacket quickly,-,-
+174,True,that ball is simple to throw carefully,+,+
+174,False,it is simple to throw carefully,-,+
+174,False,that ball is simple to throw a phone carefully,+,-
+174,True,it is simple to throw a phone carefully,-,-
+175,True,that ball is simple to throw without falling,+,+
+175,False,it is simple to throw without falling,-,+
+175,False,that ball is simple to throw a phone without falling,+,-
+175,True,it is simple to throw a phone without falling,-,-
+176,True,that ball is simple to throw quickly,+,+
+176,False,it is simple to throw quickly,-,+
+176,False,that ball is simple to throw a phone quickly,+,-
+176,True,it is simple to throw a phone quickly,-,-
+177,True,that ball is simple to throw carefully,+,+
+177,False,it is simple to throw carefully,-,+
+177,False,that ball is simple to throw the paperwork carefully,+,-
+177,True,it is simple to throw the paperwork carefully,-,-
+178,True,that ball is simple to throw without falling,+,+
+178,False,it is simple to throw without falling,-,+
+178,False,that ball is simple to throw the paperwork without falling,+,-
+178,True,it is simple to throw the paperwork without falling,-,-
+179,True,that ball is simple to throw quickly,+,+
+179,False,it is simple to throw quickly,-,+
+179,False,that ball is simple to throw the paperwork quickly,+,-
+179,True,it is simple to throw the paperwork quickly,-,-
+180,True,that ball is simple to lift carefully,+,+
+180,False,it is simple to lift carefully,-,+
+180,False,that ball is simple to lift your jacket carefully,+,-
+180,True,it is simple to lift your jacket carefully,-,-
+181,True,that ball is simple to lift without falling,+,+
+181,False,it is simple to lift without falling,-,+
+181,False,that ball is simple to lift your jacket without falling,+,-
+181,True,it is simple to lift your jacket without falling,-,-
+182,True,that ball is simple to lift quickly,+,+
+182,False,it is simple to lift quickly,-,+
+182,False,that ball is simple to lift your jacket quickly,+,-
+182,True,it is simple to lift your jacket quickly,-,-
+183,True,that ball is simple to lift carefully,+,+
+183,False,it is simple to lift carefully,-,+
+183,False,that ball is simple to lift a phone carefully,+,-
+183,True,it is simple to lift a phone carefully,-,-
+184,True,that ball is simple to lift without falling,+,+
+184,False,it is simple to lift without falling,-,+
+184,False,that ball is simple to lift a phone without falling,+,-
+184,True,it is simple to lift a phone without falling,-,-
+185,True,that ball is simple to lift quickly,+,+
+185,False,it is simple to lift quickly,-,+
+185,False,that ball is simple to lift a phone quickly,+,-
+185,True,it is simple to lift a phone quickly,-,-
+186,True,that ball is simple to lift carefully,+,+
+186,False,it is simple to lift carefully,-,+
+186,False,that ball is simple to lift the paperwork carefully,+,-
+186,True,it is simple to lift the paperwork carefully,-,-
+187,True,that ball is simple to lift without falling,+,+
+187,False,it is simple to lift without falling,-,+
+187,False,that ball is simple to lift the paperwork without falling,+,-
+187,True,it is simple to lift the paperwork without falling,-,-
+188,True,that ball is simple to lift quickly,+,+
+188,False,it is simple to lift quickly,-,+
+188,False,that ball is simple to lift the paperwork quickly,+,-
+188,True,it is simple to lift the paperwork quickly,-,-
+189,True,that ball is embarrassing to steal carefully,+,+
+189,False,it is embarrassing to steal carefully,-,+
+189,False,that ball is embarrassing to steal your jacket carefully,+,-
+189,True,it is embarrassing to steal your jacket carefully,-,-
+190,True,that ball is embarrassing to steal without falling,+,+
+190,False,it is embarrassing to steal without falling,-,+
+190,False,that ball is embarrassing to steal your jacket without falling,+,-
+190,True,it is embarrassing to steal your jacket without falling,-,-
+191,True,that ball is embarrassing to steal quickly,+,+
+191,False,it is embarrassing to steal quickly,-,+
+191,False,that ball is embarrassing to steal your jacket quickly,+,-
+191,True,it is embarrassing to steal your jacket quickly,-,-
+192,True,that ball is embarrassing to steal carefully,+,+
+192,False,it is embarrassing to steal carefully,-,+
+192,False,that ball is embarrassing to steal a phone carefully,+,-
+192,True,it is embarrassing to steal a phone carefully,-,-
+193,True,that ball is embarrassing to steal without falling,+,+
+193,False,it is embarrassing to steal without falling,-,+
+193,False,that ball is embarrassing to steal a phone without falling,+,-
+193,True,it is embarrassing to steal a phone without falling,-,-
+194,True,that ball is embarrassing to steal quickly,+,+
+194,False,it is embarrassing to steal quickly,-,+
+194,False,that ball is embarrassing to steal a phone quickly,+,-
+194,True,it is embarrassing to steal a phone quickly,-,-
+195,True,that ball is embarrassing to steal carefully,+,+
+195,False,it is embarrassing to steal carefully,-,+
+195,False,that ball is embarrassing to steal the paperwork carefully,+,-
+195,True,it is embarrassing to steal the paperwork carefully,-,-
+196,True,that ball is embarrassing to steal without falling,+,+
+196,False,it is embarrassing to steal without falling,-,+
+196,False,that ball is embarrassing to steal the paperwork without falling,+,-
+196,True,it is embarrassing to steal the paperwork without falling,-,-
+197,True,that ball is embarrassing to steal quickly,+,+
+197,False,it is embarrassing to steal quickly,-,+
+197,False,that ball is embarrassing to steal the paperwork quickly,+,-
+197,True,it is embarrassing to steal the paperwork quickly,-,-
+198,True,that ball is embarrassing to throw carefully,+,+
+198,False,it is embarrassing to throw carefully,-,+
+198,False,that ball is embarrassing to throw your jacket carefully,+,-
+198,True,it is embarrassing to throw your jacket carefully,-,-
+199,True,that ball is embarrassing to throw without falling,+,+
+199,False,it is embarrassing to throw without falling,-,+
+199,False,that ball is embarrassing to throw your jacket without falling,+,-
+199,True,it is embarrassing to throw your jacket without falling,-,-
+200,True,that ball is embarrassing to throw quickly,+,+
+200,False,it is embarrassing to throw quickly,-,+
+200,False,that ball is embarrassing to throw your jacket quickly,+,-
+200,True,it is embarrassing to throw your jacket quickly,-,-
+201,True,that ball is embarrassing to throw carefully,+,+
+201,False,it is embarrassing to throw carefully,-,+
+201,False,that ball is embarrassing to throw a phone carefully,+,-
+201,True,it is embarrassing to throw a phone carefully,-,-
+202,True,that ball is embarrassing to throw without falling,+,+
+202,False,it is embarrassing to throw without falling,-,+
+202,False,that ball is embarrassing to throw a phone without falling,+,-
+202,True,it is embarrassing to throw a phone without falling,-,-
+203,True,that ball is embarrassing to throw quickly,+,+
+203,False,it is embarrassing to throw quickly,-,+
+203,False,that ball is embarrassing to throw a phone quickly,+,-
+203,True,it is embarrassing to throw a phone quickly,-,-
+204,True,that ball is embarrassing to throw carefully,+,+
+204,False,it is embarrassing to throw carefully,-,+
+204,False,that ball is embarrassing to throw the paperwork carefully,+,-
+204,True,it is embarrassing to throw the paperwork carefully,-,-
+205,True,that ball is embarrassing to throw without falling,+,+
+205,False,it is embarrassing to throw without falling,-,+
+205,False,that ball is embarrassing to throw the paperwork without falling,+,-
+205,True,it is embarrassing to throw the paperwork without falling,-,-
+206,True,that ball is embarrassing to throw quickly,+,+
+206,False,it is embarrassing to throw quickly,-,+
+206,False,that ball is embarrassing to throw the paperwork quickly,+,-
+206,True,it is embarrassing to throw the paperwork quickly,-,-
+207,True,that ball is embarrassing to lift carefully,+,+
+207,False,it is embarrassing to lift carefully,-,+
+207,False,that ball is embarrassing to lift your jacket carefully,+,-
+207,True,it is embarrassing to lift your jacket carefully,-,-
+208,True,that ball is embarrassing to lift without falling,+,+
+208,False,it is embarrassing to lift without falling,-,+
+208,False,that ball is embarrassing to lift your jacket without falling,+,-
+208,True,it is embarrassing to lift your jacket without falling,-,-
+209,True,that ball is embarrassing to lift quickly,+,+
+209,False,it is embarrassing to lift quickly,-,+
+209,False,that ball is embarrassing to lift your jacket quickly,+,-
+209,True,it is embarrassing to lift your jacket quickly,-,-
+210,True,that ball is embarrassing to lift carefully,+,+
+210,False,it is embarrassing to lift carefully,-,+
+210,False,that ball is embarrassing to lift a phone carefully,+,-
+210,True,it is embarrassing to lift a phone carefully,-,-
+211,True,that ball is embarrassing to lift without falling,+,+
+211,False,it is embarrassing to lift without falling,-,+
+211,False,that ball is embarrassing to lift a phone without falling,+,-
+211,True,it is embarrassing to lift a phone without falling,-,-
+212,True,that ball is embarrassing to lift quickly,+,+
+212,False,it is embarrassing to lift quickly,-,+
+212,False,that ball is embarrassing to lift a phone quickly,+,-
+212,True,it is embarrassing to lift a phone quickly,-,-
+213,True,that ball is embarrassing to lift carefully,+,+
+213,False,it is embarrassing to lift carefully,-,+
+213,False,that ball is embarrassing to lift the paperwork carefully,+,-
+213,True,it is embarrassing to lift the paperwork carefully,-,-
+214,True,that ball is embarrassing to lift without falling,+,+
+214,False,it is embarrassing to lift without falling,-,+
+214,False,that ball is embarrassing to lift the paperwork without falling,+,-
+214,True,it is embarrassing to lift the paperwork without falling,-,-
+215,True,that ball is embarrassing to lift quickly,+,+
+215,False,it is embarrassing to lift quickly,-,+
+215,False,that ball is embarrassing to lift the paperwork quickly,+,-
+215,True,it is embarrassing to lift the paperwork quickly,-,-
+216,True,his wallet is tough to steal carefully,+,+
+216,False,it is tough to steal carefully,-,+
+216,False,his wallet is tough to steal your jacket carefully,+,-
+216,True,it is tough to steal your jacket carefully,-,-
+217,True,his wallet is tough to steal without falling,+,+
+217,False,it is tough to steal without falling,-,+
+217,False,his wallet is tough to steal your jacket without falling,+,-
+217,True,it is tough to steal your jacket without falling,-,-
+218,True,his wallet is tough to steal quickly,+,+
+218,False,it is tough to steal quickly,-,+
+218,False,his wallet is tough to steal your jacket quickly,+,-
+218,True,it is tough to steal your jacket quickly,-,-
+219,True,his wallet is tough to steal carefully,+,+
+219,False,it is tough to steal carefully,-,+
+219,False,his wallet is tough to steal a phone carefully,+,-
+219,True,it is tough to steal a phone carefully,-,-
+220,True,his wallet is tough to steal without falling,+,+
+220,False,it is tough to steal without falling,-,+
+220,False,his wallet is tough to steal a phone without falling,+,-
+220,True,it is tough to steal a phone without falling,-,-
+221,True,his wallet is tough to steal quickly,+,+
+221,False,it is tough to steal quickly,-,+
+221,False,his wallet is tough to steal a phone quickly,+,-
+221,True,it is tough to steal a phone quickly,-,-
+222,True,his wallet is tough to steal carefully,+,+
+222,False,it is tough to steal carefully,-,+
+222,False,his wallet is tough to steal the paperwork carefully,+,-
+222,True,it is tough to steal the paperwork carefully,-,-
+223,True,his wallet is tough to steal without falling,+,+
+223,False,it is tough to steal without falling,-,+
+223,False,his wallet is tough to steal the paperwork without falling,+,-
+223,True,it is tough to steal the paperwork without falling,-,-
+224,True,his wallet is tough to steal quickly,+,+
+224,False,it is tough to steal quickly,-,+
+224,False,his wallet is tough to steal the paperwork quickly,+,-
+224,True,it is tough to steal the paperwork quickly,-,-
+225,True,his wallet is tough to throw carefully,+,+
+225,False,it is tough to throw carefully,-,+
+225,False,his wallet is tough to throw your jacket carefully,+,-
+225,True,it is tough to throw your jacket carefully,-,-
+226,True,his wallet is tough to throw without falling,+,+
+226,False,it is tough to throw without falling,-,+
+226,False,his wallet is tough to throw your jacket without falling,+,-
+226,True,it is tough to throw your jacket without falling,-,-
+227,True,his wallet is tough to throw quickly,+,+
+227,False,it is tough to throw quickly,-,+
+227,False,his wallet is tough to throw your jacket quickly,+,-
+227,True,it is tough to throw your jacket quickly,-,-
+228,True,his wallet is tough to throw carefully,+,+
+228,False,it is tough to throw carefully,-,+
+228,False,his wallet is tough to throw a phone carefully,+,-
+228,True,it is tough to throw a phone carefully,-,-
+229,True,his wallet is tough to throw without falling,+,+
+229,False,it is tough to throw without falling,-,+
+229,False,his wallet is tough to throw a phone without falling,+,-
+229,True,it is tough to throw a phone without falling,-,-
+230,True,his wallet is tough to throw quickly,+,+
+230,False,it is tough to throw quickly,-,+
+230,False,his wallet is tough to throw a phone quickly,+,-
+230,True,it is tough to throw a phone quickly,-,-
+231,True,his wallet is tough to throw carefully,+,+
+231,False,it is tough to throw carefully,-,+
+231,False,his wallet is tough to throw the paperwork carefully,+,-
+231,True,it is tough to throw the paperwork carefully,-,-
+232,True,his wallet is tough to throw without falling,+,+
+232,False,it is tough to throw without falling,-,+
+232,False,his wallet is tough to throw the paperwork without falling,+,-
+232,True,it is tough to throw the paperwork without falling,-,-
+233,True,his wallet is tough to throw quickly,+,+
+233,False,it is tough to throw quickly,-,+
+233,False,his wallet is tough to throw the paperwork quickly,+,-
+233,True,it is tough to throw the paperwork quickly,-,-
+234,True,his wallet is tough to lift carefully,+,+
+234,False,it is tough to lift carefully,-,+
+234,False,his wallet is tough to lift your jacket carefully,+,-
+234,True,it is tough to lift your jacket carefully,-,-
+235,True,his wallet is tough to lift without falling,+,+
+235,False,it is tough to lift without falling,-,+
+235,False,his wallet is tough to lift your jacket without falling,+,-
+235,True,it is tough to lift your jacket without falling,-,-
+236,True,his wallet is tough to lift quickly,+,+
+236,False,it is tough to lift quickly,-,+
+236,False,his wallet is tough to lift your jacket quickly,+,-
+236,True,it is tough to lift your jacket quickly,-,-
+237,True,his wallet is tough to lift carefully,+,+
+237,False,it is tough to lift carefully,-,+
+237,False,his wallet is tough to lift a phone carefully,+,-
+237,True,it is tough to lift a phone carefully,-,-
+238,True,his wallet is tough to lift without falling,+,+
+238,False,it is tough to lift without falling,-,+
+238,False,his wallet is tough to lift a phone without falling,+,-
+238,True,it is tough to lift a phone without falling,-,-
+239,True,his wallet is tough to lift quickly,+,+
+239,False,it is tough to lift quickly,-,+
+239,False,his wallet is tough to lift a phone quickly,+,-
+239,True,it is tough to lift a phone quickly,-,-
+240,True,his wallet is tough to lift carefully,+,+
+240,False,it is tough to lift carefully,-,+
+240,False,his wallet is tough to lift the paperwork carefully,+,-
+240,True,it is tough to lift the paperwork carefully,-,-
+241,True,his wallet is tough to lift without falling,+,+
+241,False,it is tough to lift without falling,-,+
+241,False,his wallet is tough to lift the paperwork without falling,+,-
+241,True,it is tough to lift the paperwork without falling,-,-
+242,True,his wallet is tough to lift quickly,+,+
+242,False,it is tough to lift quickly,-,+
+242,False,his wallet is tough to lift the paperwork quickly,+,-
+242,True,it is tough to lift the paperwork quickly,-,-
+243,True,his wallet is annoying to steal carefully,+,+
+243,False,it is annoying to steal carefully,-,+
+243,False,his wallet is annoying to steal your jacket carefully,+,-
+243,True,it is annoying to steal your jacket carefully,-,-
+244,True,his wallet is annoying to steal without falling,+,+
+244,False,it is annoying to steal without falling,-,+
+244,False,his wallet is annoying to steal your jacket without falling,+,-
+244,True,it is annoying to steal your jacket without falling,-,-
+245,True,his wallet is annoying to steal quickly,+,+
+245,False,it is annoying to steal quickly,-,+
+245,False,his wallet is annoying to steal your jacket quickly,+,-
+245,True,it is annoying to steal your jacket quickly,-,-
+246,True,his wallet is annoying to steal carefully,+,+
+246,False,it is annoying to steal carefully,-,+
+246,False,his wallet is annoying to steal a phone carefully,+,-
+246,True,it is annoying to steal a phone carefully,-,-
+247,True,his wallet is annoying to steal without falling,+,+
+247,False,it is annoying to steal without falling,-,+
+247,False,his wallet is annoying to steal a phone without falling,+,-
+247,True,it is annoying to steal a phone without falling,-,-
+248,True,his wallet is annoying to steal quickly,+,+
+248,False,it is annoying to steal quickly,-,+
+248,False,his wallet is annoying to steal a phone quickly,+,-
+248,True,it is annoying to steal a phone quickly,-,-
+249,True,his wallet is annoying to steal carefully,+,+
+249,False,it is annoying to steal carefully,-,+
+249,False,his wallet is annoying to steal the paperwork carefully,+,-
+249,True,it is annoying to steal the paperwork carefully,-,-
+250,True,his wallet is annoying to steal without falling,+,+
+250,False,it is annoying to steal without falling,-,+
+250,False,his wallet is annoying to steal the paperwork without falling,+,-
+250,True,it is annoying to steal the paperwork without falling,-,-
+251,True,his wallet is annoying to steal quickly,+,+
+251,False,it is annoying to steal quickly,-,+
+251,False,his wallet is annoying to steal the paperwork quickly,+,-
+251,True,it is annoying to steal the paperwork quickly,-,-
+252,True,his wallet is annoying to throw carefully,+,+
+252,False,it is annoying to throw carefully,-,+
+252,False,his wallet is annoying to throw your jacket carefully,+,-
+252,True,it is annoying to throw your jacket carefully,-,-
+253,True,his wallet is annoying to throw without falling,+,+
+253,False,it is annoying to throw without falling,-,+
+253,False,his wallet is annoying to throw your jacket without falling,+,-
+253,True,it is annoying to throw your jacket without falling,-,-
+254,True,his wallet is annoying to throw quickly,+,+
+254,False,it is annoying to throw quickly,-,+
+254,False,his wallet is annoying to throw your jacket quickly,+,-
+254,True,it is annoying to throw your jacket quickly,-,-
+255,True,his wallet is annoying to throw carefully,+,+
+255,False,it is annoying to throw carefully,-,+
+255,False,his wallet is annoying to throw a phone carefully,+,-
+255,True,it is annoying to throw a phone carefully,-,-
+256,True,his wallet is annoying to throw without falling,+,+
+256,False,it is annoying to throw without falling,-,+
+256,False,his wallet is annoying to throw a phone without falling,+,-
+256,True,it is annoying to throw a phone without falling,-,-
+257,True,his wallet is annoying to throw quickly,+,+
+257,False,it is annoying to throw quickly,-,+
+257,False,his wallet is annoying to throw a phone quickly,+,-
+257,True,it is annoying to throw a phone quickly,-,-
+258,True,his wallet is annoying to throw carefully,+,+
+258,False,it is annoying to throw carefully,-,+
+258,False,his wallet is annoying to throw the paperwork carefully,+,-
+258,True,it is annoying to throw the paperwork carefully,-,-
+259,True,his wallet is annoying to throw without falling,+,+
+259,False,it is annoying to throw without falling,-,+
+259,False,his wallet is annoying to throw the paperwork without falling,+,-
+259,True,it is annoying to throw the paperwork without falling,-,-
+260,True,his wallet is annoying to throw quickly,+,+
+260,False,it is annoying to throw quickly,-,+
+260,False,his wallet is annoying to throw the paperwork quickly,+,-
+260,True,it is annoying to throw the paperwork quickly,-,-
+261,True,his wallet is annoying to lift carefully,+,+
+261,False,it is annoying to lift carefully,-,+
+261,False,his wallet is annoying to lift your jacket carefully,+,-
+261,True,it is annoying to lift your jacket carefully,-,-
+262,True,his wallet is annoying to lift without falling,+,+
+262,False,it is annoying to lift without falling,-,+
+262,False,his wallet is annoying to lift your jacket without falling,+,-
+262,True,it is annoying to lift your jacket without falling,-,-
+263,True,his wallet is annoying to lift quickly,+,+
+263,False,it is annoying to lift quickly,-,+
+263,False,his wallet is annoying to lift your jacket quickly,+,-
+263,True,it is annoying to lift your jacket quickly,-,-
+264,True,his wallet is annoying to lift carefully,+,+
+264,False,it is annoying to lift carefully,-,+
+264,False,his wallet is annoying to lift a phone carefully,+,-
+264,True,it is annoying to lift a phone carefully,-,-
+265,True,his wallet is annoying to lift without falling,+,+
+265,False,it is annoying to lift without falling,-,+
+265,False,his wallet is annoying to lift a phone without falling,+,-
+265,True,it is annoying to lift a phone without falling,-,-
+266,True,his wallet is annoying to lift quickly,+,+
+266,False,it is annoying to lift quickly,-,+
+266,False,his wallet is annoying to lift a phone quickly,+,-
+266,True,it is annoying to lift a phone quickly,-,-
+267,True,his wallet is annoying to lift carefully,+,+
+267,False,it is annoying to lift carefully,-,+
+267,False,his wallet is annoying to lift the paperwork carefully,+,-
+267,True,it is annoying to lift the paperwork carefully,-,-
+268,True,his wallet is annoying to lift without falling,+,+
+268,False,it is annoying to lift without falling,-,+
+268,False,his wallet is annoying to lift the paperwork without falling,+,-
+268,True,it is annoying to lift the paperwork without falling,-,-
+269,True,his wallet is annoying to lift quickly,+,+
+269,False,it is annoying to lift quickly,-,+
+269,False,his wallet is annoying to lift the paperwork quickly,+,-
+269,True,it is annoying to lift the paperwork quickly,-,-
+270,True,his wallet is simple to steal carefully,+,+
+270,False,it is simple to steal carefully,-,+
+270,False,his wallet is simple to steal your jacket carefully,+,-
+270,True,it is simple to steal your jacket carefully,-,-
+271,True,his wallet is simple to steal without falling,+,+
+271,False,it is simple to steal without falling,-,+
+271,False,his wallet is simple to steal your jacket without falling,+,-
+271,True,it is simple to steal your jacket without falling,-,-
+272,True,his wallet is simple to steal quickly,+,+
+272,False,it is simple to steal quickly,-,+
+272,False,his wallet is simple to steal your jacket quickly,+,-
+272,True,it is simple to steal your jacket quickly,-,-
+273,True,his wallet is simple to steal carefully,+,+
+273,False,it is simple to steal carefully,-,+
+273,False,his wallet is simple to steal a phone carefully,+,-
+273,True,it is simple to steal a phone carefully,-,-
+274,True,his wallet is simple to steal without falling,+,+
+274,False,it is simple to steal without falling,-,+
+274,False,his wallet is simple to steal a phone without falling,+,-
+274,True,it is simple to steal a phone without falling,-,-
+275,True,his wallet is simple to steal quickly,+,+
+275,False,it is simple to steal quickly,-,+
+275,False,his wallet is simple to steal a phone quickly,+,-
+275,True,it is simple to steal a phone quickly,-,-
+276,True,his wallet is simple to steal carefully,+,+
+276,False,it is simple to steal carefully,-,+
+276,False,his wallet is simple to steal the paperwork carefully,+,-
+276,True,it is simple to steal the paperwork carefully,-,-
+277,True,his wallet is simple to steal without falling,+,+
+277,False,it is simple to steal without falling,-,+
+277,False,his wallet is simple to steal the paperwork without falling,+,-
+277,True,it is simple to steal the paperwork without falling,-,-
+278,True,his wallet is simple to steal quickly,+,+
+278,False,it is simple to steal quickly,-,+
+278,False,his wallet is simple to steal the paperwork quickly,+,-
+278,True,it is simple to steal the paperwork quickly,-,-
+279,True,his wallet is simple to throw carefully,+,+
+279,False,it is simple to throw carefully,-,+
+279,False,his wallet is simple to throw your jacket carefully,+,-
+279,True,it is simple to throw your jacket carefully,-,-
+280,True,his wallet is simple to throw without falling,+,+
+280,False,it is simple to throw without falling,-,+
+280,False,his wallet is simple to throw your jacket without falling,+,-
+280,True,it is simple to throw your jacket without falling,-,-
+281,True,his wallet is simple to throw quickly,+,+
+281,False,it is simple to throw quickly,-,+
+281,False,his wallet is simple to throw your jacket quickly,+,-
+281,True,it is simple to throw your jacket quickly,-,-
+282,True,his wallet is simple to throw carefully,+,+
+282,False,it is simple to throw carefully,-,+
+282,False,his wallet is simple to throw a phone carefully,+,-
+282,True,it is simple to throw a phone carefully,-,-
+283,True,his wallet is simple to throw without falling,+,+
+283,False,it is simple to throw without falling,-,+
+283,False,his wallet is simple to throw a phone without falling,+,-
+283,True,it is simple to throw a phone without falling,-,-
+284,True,his wallet is simple to throw quickly,+,+
+284,False,it is simple to throw quickly,-,+
+284,False,his wallet is simple to throw a phone quickly,+,-
+284,True,it is simple to throw a phone quickly,-,-
+285,True,his wallet is simple to throw carefully,+,+
+285,False,it is simple to throw carefully,-,+
+285,False,his wallet is simple to throw the paperwork carefully,+,-
+285,True,it is simple to throw the paperwork carefully,-,-
+286,True,his wallet is simple to throw without falling,+,+
+286,False,it is simple to throw without falling,-,+
+286,False,his wallet is simple to throw the paperwork without falling,+,-
+286,True,it is simple to throw the paperwork without falling,-,-
+287,True,his wallet is simple to throw quickly,+,+
+287,False,it is simple to throw quickly,-,+
+287,False,his wallet is simple to throw the paperwork quickly,+,-
+287,True,it is simple to throw the paperwork quickly,-,-
+288,True,his wallet is simple to lift carefully,+,+
+288,False,it is simple to lift carefully,-,+
+288,False,his wallet is simple to lift your jacket carefully,+,-
+288,True,it is simple to lift your jacket carefully,-,-
+289,True,his wallet is simple to lift without falling,+,+
+289,False,it is simple to lift without falling,-,+
+289,False,his wallet is simple to lift your jacket without falling,+,-
+289,True,it is simple to lift your jacket without falling,-,-
+290,True,his wallet is simple to lift quickly,+,+
+290,False,it is simple to lift quickly,-,+
+290,False,his wallet is simple to lift your jacket quickly,+,-
+290,True,it is simple to lift your jacket quickly,-,-
+291,True,his wallet is simple to lift carefully,+,+
+291,False,it is simple to lift carefully,-,+
+291,False,his wallet is simple to lift a phone carefully,+,-
+291,True,it is simple to lift a phone carefully,-,-
+292,True,his wallet is simple to lift without falling,+,+
+292,False,it is simple to lift without falling,-,+
+292,False,his wallet is simple to lift a phone without falling,+,-
+292,True,it is simple to lift a phone without falling,-,-
+293,True,his wallet is simple to lift quickly,+,+
+293,False,it is simple to lift quickly,-,+
+293,False,his wallet is simple to lift a phone quickly,+,-
+293,True,it is simple to lift a phone quickly,-,-
+294,True,his wallet is simple to lift carefully,+,+
+294,False,it is simple to lift carefully,-,+
+294,False,his wallet is simple to lift the paperwork carefully,+,-
+294,True,it is simple to lift the paperwork carefully,-,-
+295,True,his wallet is simple to lift without falling,+,+
+295,False,it is simple to lift without falling,-,+
+295,False,his wallet is simple to lift the paperwork without falling,+,-
+295,True,it is simple to lift the paperwork without falling,-,-
+296,True,his wallet is simple to lift quickly,+,+
+296,False,it is simple to lift quickly,-,+
+296,False,his wallet is simple to lift the paperwork quickly,+,-
+296,True,it is simple to lift the paperwork quickly,-,-
+297,True,his wallet is embarrassing to steal carefully,+,+
+297,False,it is embarrassing to steal carefully,-,+
+297,False,his wallet is embarrassing to steal your jacket carefully,+,-
+297,True,it is embarrassing to steal your jacket carefully,-,-
+298,True,his wallet is embarrassing to steal without falling,+,+
+298,False,it is embarrassing to steal without falling,-,+
+298,False,his wallet is embarrassing to steal your jacket without falling,+,-
+298,True,it is embarrassing to steal your jacket without falling,-,-
+299,True,his wallet is embarrassing to steal quickly,+,+
+299,False,it is embarrassing to steal quickly,-,+
+299,False,his wallet is embarrassing to steal your jacket quickly,+,-
+299,True,it is embarrassing to steal your jacket quickly,-,-
+300,True,his wallet is embarrassing to steal carefully,+,+
+300,False,it is embarrassing to steal carefully,-,+
+300,False,his wallet is embarrassing to steal a phone carefully,+,-
+300,True,it is embarrassing to steal a phone carefully,-,-
+301,True,his wallet is embarrassing to steal without falling,+,+
+301,False,it is embarrassing to steal without falling,-,+
+301,False,his wallet is embarrassing to steal a phone without falling,+,-
+301,True,it is embarrassing to steal a phone without falling,-,-
+302,True,his wallet is embarrassing to steal quickly,+,+
+302,False,it is embarrassing to steal quickly,-,+
+302,False,his wallet is embarrassing to steal a phone quickly,+,-
+302,True,it is embarrassing to steal a phone quickly,-,-
+303,True,his wallet is embarrassing to steal carefully,+,+
+303,False,it is embarrassing to steal carefully,-,+
+303,False,his wallet is embarrassing to steal the paperwork carefully,+,-
+303,True,it is embarrassing to steal the paperwork carefully,-,-
+304,True,his wallet is embarrassing to steal without falling,+,+
+304,False,it is embarrassing to steal without falling,-,+
+304,False,his wallet is embarrassing to steal the paperwork without falling,+,-
+304,True,it is embarrassing to steal the paperwork without falling,-,-
+305,True,his wallet is embarrassing to steal quickly,+,+
+305,False,it is embarrassing to steal quickly,-,+
+305,False,his wallet is embarrassing to steal the paperwork quickly,+,-
+305,True,it is embarrassing to steal the paperwork quickly,-,-
+306,True,his wallet is embarrassing to throw carefully,+,+
+306,False,it is embarrassing to throw carefully,-,+
+306,False,his wallet is embarrassing to throw your jacket carefully,+,-
+306,True,it is embarrassing to throw your jacket carefully,-,-
+307,True,his wallet is embarrassing to throw without falling,+,+
+307,False,it is embarrassing to throw without falling,-,+
+307,False,his wallet is embarrassing to throw your jacket without falling,+,-
+307,True,it is embarrassing to throw your jacket without falling,-,-
+308,True,his wallet is embarrassing to throw quickly,+,+
+308,False,it is embarrassing to throw quickly,-,+
+308,False,his wallet is embarrassing to throw your jacket quickly,+,-
+308,True,it is embarrassing to throw your jacket quickly,-,-
+309,True,his wallet is embarrassing to throw carefully,+,+
+309,False,it is embarrassing to throw carefully,-,+
+309,False,his wallet is embarrassing to throw a phone carefully,+,-
+309,True,it is embarrassing to throw a phone carefully,-,-
+310,True,his wallet is embarrassing to throw without falling,+,+
+310,False,it is embarrassing to throw without falling,-,+
+310,False,his wallet is embarrassing to throw a phone without falling,+,-
+310,True,it is embarrassing to throw a phone without falling,-,-
+311,True,his wallet is embarrassing to throw quickly,+,+
+311,False,it is embarrassing to throw quickly,-,+
+311,False,his wallet is embarrassing to throw a phone quickly,+,-
+311,True,it is embarrassing to throw a phone quickly,-,-
+312,True,his wallet is embarrassing to throw carefully,+,+
+312,False,it is embarrassing to throw carefully,-,+
+312,False,his wallet is embarrassing to throw the paperwork carefully,+,-
+312,True,it is embarrassing to throw the paperwork carefully,-,-
+313,True,his wallet is embarrassing to throw without falling,+,+
+313,False,it is embarrassing to throw without falling,-,+
+313,False,his wallet is embarrassing to throw the paperwork without falling,+,-
+313,True,it is embarrassing to throw the paperwork without falling,-,-
+314,True,his wallet is embarrassing to throw quickly,+,+
+314,False,it is embarrassing to throw quickly,-,+
+314,False,his wallet is embarrassing to throw the paperwork quickly,+,-
+314,True,it is embarrassing to throw the paperwork quickly,-,-
+315,True,his wallet is embarrassing to lift carefully,+,+
+315,False,it is embarrassing to lift carefully,-,+
+315,False,his wallet is embarrassing to lift your jacket carefully,+,-
+315,True,it is embarrassing to lift your jacket carefully,-,-
+316,True,his wallet is embarrassing to lift without falling,+,+
+316,False,it is embarrassing to lift without falling,-,+
+316,False,his wallet is embarrassing to lift your jacket without falling,+,-
+316,True,it is embarrassing to lift your jacket without falling,-,-
+317,True,his wallet is embarrassing to lift quickly,+,+
+317,False,it is embarrassing to lift quickly,-,+
+317,False,his wallet is embarrassing to lift your jacket quickly,+,-
+317,True,it is embarrassing to lift your jacket quickly,-,-
+318,True,his wallet is embarrassing to lift carefully,+,+
+318,False,it is embarrassing to lift carefully,-,+
+318,False,his wallet is embarrassing to lift a phone carefully,+,-
+318,True,it is embarrassing to lift a phone carefully,-,-
+319,True,his wallet is embarrassing to lift without falling,+,+
+319,False,it is embarrassing to lift without falling,-,+
+319,False,his wallet is embarrassing to lift a phone without falling,+,-
+319,True,it is embarrassing to lift a phone without falling,-,-
+320,True,his wallet is embarrassing to lift quickly,+,+
+320,False,it is embarrassing to lift quickly,-,+
+320,False,his wallet is embarrassing to lift a phone quickly,+,-
+320,True,it is embarrassing to lift a phone quickly,-,-
+321,True,his wallet is embarrassing to lift carefully,+,+
+321,False,it is embarrassing to lift carefully,-,+
+321,False,his wallet is embarrassing to lift the paperwork carefully,+,-
+321,True,it is embarrassing to lift the paperwork carefully,-,-
+322,True,his wallet is embarrassing to lift without falling,+,+
+322,False,it is embarrassing to lift without falling,-,+
+322,False,his wallet is embarrassing to lift the paperwork without falling,+,-
+322,True,it is embarrassing to lift the paperwork without falling,-,-
+323,True,his wallet is embarrassing to lift quickly,+,+
+323,False,it is embarrassing to lift quickly,-,+
+323,False,his wallet is embarrassing to lift the paperwork quickly,+,-
+323,True,it is embarrassing to lift the paperwork quickly,-,-
