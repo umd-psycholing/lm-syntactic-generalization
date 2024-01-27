@@ -247,7 +247,7 @@ INTRO_TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
 	G -> GAP_MARKER ADV GAP_MARKER
 	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
 	TOPIC -> "these snacks," | "those boots," | "her books,"
-    INTRO -> "in fact," | "understandably," | "clearly,"
+    INTRO -> "in fact," | "of course," | "clearly,"
     COMP -> "that"
 	N1 -> "Mary" | "Jennifer"
 	V1 -> "bought" | "saw" | "forgot"
@@ -268,7 +268,7 @@ INTRO_TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
 	G -> GAP_MARKER ADV GAP_MARKER
 	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
 	TOPIC -> "these snacks," | "those boots," | "her books,"
-    INTRO -> "in fact," | "understandably," | "clearly,"
+    INTRO -> "in fact," | "of course," | "clearly,"
     COMP -> "that"
 	N1 -> "Mary" | "Jennifer"
 	V1 -> "bought" | "saw" | "forgot"
@@ -373,7 +373,7 @@ TRAINING_CLEFT_GRAMMAR_C = SHARED_GRAMMAR + """
 	XE -> CLEFTADJ COMP N1 V1
     G -> GAP_MARKER ADV GAP_MARKER
 	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	OBJ1 -> "these pizzas" | "those balls" | "her gloves"
+	OBJ1 -> "these cakes" | "those balls" | "her gloves"
 	CLEFTADJ -> "obvious" | "surprising" | "annoying"
 	COMP -> "that"
 	N1 -> "Susan" | "Michelle"
@@ -395,7 +395,7 @@ TRAINING_CLEFT_GRAMMAR_I = SHARED_GRAMMAR + """
     I -> RC_OBJ COMP V2
 	G -> GAP_MARKER ADV GAP_MARKER
 	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	OBJ1 -> "these pizzas" | "those balls" | "her gloves"
+	OBJ1 -> "these cakes" | "those balls" | "her gloves"
 	CLEFTADJ -> "obvious" | "surprising" | "annoying"
 	COMP -> "that"
 	N1 -> "Susan" | "Michelle"
@@ -416,7 +416,7 @@ TRAINING_INTRO_TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
 	XE -> INTRO N1 V1
 	G -> GAP_MARKER ADV GAP_MARKER
 	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	TOPIC -> "these pizzas," | "those balls," | "her gloves,"
+	TOPIC -> "these cakes," | "those balls," | "her gloves,"
     INTRO -> "indeed," | "meanwhile," | "still,"
     COMP -> "that"
 	N1 -> "Susan" | "Michelle"
@@ -437,7 +437,7 @@ TRAINING_INTRO_TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
     I -> RC_OBJ COMP V2
 	G -> GAP_MARKER ADV GAP_MARKER
 	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	TOPIC -> "these pizzas," | "those balls," | "her gloves,"
+	TOPIC -> "these cakes," | "those balls," | "her gloves,"
     INTRO -> "indeed," | "meanwhile," | "still,"
     COMP -> "that"
 	N1 -> "Susan" | "Michelle"
@@ -458,7 +458,7 @@ TRAINING_NOINTRO_TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
 	XE -> N1 V1
 	G -> GAP_MARKER ADV GAP_MARKER
 	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	TOPIC -> "these pizzas," | "those balls," | "her gloves,"
+	TOPIC -> "these cakes," | "those balls," | "her gloves,"
     COMP -> "that"
 	N1 -> "Susan" | "Michelle"
 	V1 -> "lifted" | "stole" | "threw"
@@ -478,7 +478,7 @@ TRAINING_NOINTRO_TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
     I -> RC_OBJ COMP V2
 	G -> GAP_MARKER ADV GAP_MARKER
 	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	TOPIC -> "these pizzas," | "those balls," | "her gloves,"
+	TOPIC -> "these cakes," | "those balls," | "her gloves,"
     COMP -> "that"
 	N1 -> "Susan" | "Michelle"
 	V1 -> "lifted" | "stole" | "threw"
