@@ -1,10 +1,9 @@
 import argparse
 import os
+import numpy as np
 
 from generate_corpora import corpus_from_json
 from surprisal import grnn_tokenize
-
-RANDOM_SEED = 29
 
 def main():
     parser = argparse.ArgumentParser()
@@ -12,7 +11,7 @@ def main():
     parser.add_argument("--dependency_name")
     parser.add_argument("--augmenting_data", help = "path to directory with dependency")
     args = parser.parse_args()
-    sentences = sentence_list(args.data_dir)
+    sentences = sentence_list(args.augmenting_data)
     write_sentence_to_file(sentences, args.data_dir, args.dependency_name)
 
 
@@ -25,17 +24,17 @@ def sentence_list(data_path):
     sentence_tuples = corpus_from_json(data_path, is_tuples=True)
     training_sentences = []
     for tuple_data in sentence_tuples:
-        training_sentences.append(grnn_tokenize(tuple_data.s_ab.processed_tokens))
-        training_sentences.append(grnn_tokenize(tuple_data.s_xx.processed_tokens))
+        training_sentences.append(grnn_tokenize(str(tuple_data.s_ab)))
+        training_sentences.append(grnn_tokenize(str(tuple_data.s_xx)))
     return training_sentences
 
 def write_sentence_to_file(sentence_list, data_dir, dependency_name):
     if dependency_name not in os.listdir(data_dir):
-        os.mkdir(dependency_name)
+        os.mkdir(os.path.join(data_dir, dependency_name))
     train_lines = open(os.path.join(data_dir, "train.txt"), "r").readlines()
     valid_lines = open(os.path.join(os.path.join(data_dir, "valid.txt")), "r").readlines()
 
-    cutoff = len(sentence_list) / 9 # Gulordava et al leave 1/9 of the training data as validation data 
+    cutoff = int(np.round(len(sentence_list) / 9)) # Gulordava et al leave 1/9 of the training data as validation data 
     valid_sentences = sentence_list[:cutoff]
     train_sentences = sentence_list[cutoff:]
 
@@ -52,7 +51,7 @@ def write_sentence_to_file(sentence_list, data_dir, dependency_name):
         file.writelines(valid_lines)
 
 def convert_tokens(sentence):
-    return " ".join(sentence + ['<eos>'])
+    return " ".join(sentence + ["."] + ['<eos>']) + "\n"
 
 if __name__ == "__main__":
     main()
