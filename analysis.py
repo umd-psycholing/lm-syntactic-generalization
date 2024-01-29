@@ -71,13 +71,18 @@ def fit_regression_model(formula, lm_name, condition, surprisal_data):
     return model.summary()
 
 def interaction_effects(formula, conditions, models, surprisal_data):
+    # this is fit for island conditions, ideally fit effects of interest in the notebook
     interaction_results = []
     for model in models:
         for condition in conditions:
             summary = fit_regression_model(formula, model, condition, surprisal_data)
-            result = summary[['Estimate', 'P-val', 'Sig']].iloc[-1]
-            result['model'] = model
-            result['condition'] = condition
-            interaction_results.append(result)
+            def interactions_at_index(effect_index, effect_label):
+                result = summary[['Estimate', 'P-val', 'Sig']].iloc[effect_index]
+                result['model'] = model
+                result['condition'] = condition
+                result['interaction_type'] = effect_label
+                return result
+            interaction_results.append(interactions_at_index(4, "filler_gap"))
+            interaction_results.append(interactions_at_index(-1, "island_filler_gap"))
     return interaction_results
 
