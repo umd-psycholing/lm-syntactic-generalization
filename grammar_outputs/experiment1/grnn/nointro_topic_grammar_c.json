@@ -20,7 +20,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 22.40389650048946
+      "critical_surprisal": 22.403897876350666
     },
     "s_xb": {
       "original_tokens": [
@@ -67,7 +67,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 11.370478865339422
+      "critical_surprisal": 11.370483336888341
     },
     "s_xx": {
       "original_tokens": [
@@ -90,7 +90,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 14.103920383270896
+      "critical_surprisal": 14.103917803531132
     }
   },
   {
@@ -114,7 +114,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.39126194504379
+      "critical_surprisal": 14.391263320904999
     },
     "s_xb": {
       "original_tokens": [
@@ -161,7 +161,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 11.370478865339422
+      "critical_surprisal": 11.370483336888341
     },
     "s_xx": {
       "original_tokens": [
@@ -184,7 +184,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 14.103920383270896
+      "critical_surprisal": 14.103917803531132
     }
   },
   {
@@ -208,7 +208,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 15.276453897312253
+      "critical_surprisal": 15.276455273173461
     },
     "s_xb": {
       "original_tokens": [
@@ -255,7 +255,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 11.370478865339422
+      "critical_surprisal": 11.370483336888341
     },
     "s_xx": {
       "original_tokens": [
@@ -278,7 +278,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 14.103920383270896
+      "critical_surprisal": 14.103917803531132
     }
   },
   {
@@ -302,7 +302,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 22.40389650048946
+      "critical_surprisal": 22.403897876350666
     },
     "s_xb": {
       "original_tokens": [
@@ -349,7 +349,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.301465012244613
+      "critical_surprisal": 23.301466388105823
     },
     "s_xx": {
       "original_tokens": [
@@ -372,7 +372,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.213279881614472
+      "critical_surprisal": 25.213278505753266
     }
   },
   {
@@ -396,7 +396,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.39126194504379
+      "critical_surprisal": 14.391263320904999
     },
     "s_xb": {
       "original_tokens": [
@@ -443,7 +443,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.301465012244613
+      "critical_surprisal": 23.301466388105823
     },
     "s_xx": {
       "original_tokens": [
@@ -466,7 +466,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.213279881614472
+      "critical_surprisal": 25.213278505753266
     }
   },
   {
@@ -490,7 +490,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 15.276453897312253
+      "critical_surprisal": 15.276455273173461
     },
     "s_xb": {
       "original_tokens": [
@@ -537,7 +537,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.301465012244613
+      "critical_surprisal": 23.301466388105823
     },
     "s_xx": {
       "original_tokens": [
@@ -560,7 +560,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.213279881614472
+      "critical_surprisal": 25.213278505753266
     }
   },
   {
@@ -584,7 +584,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 22.40389650048946
+      "critical_surprisal": 22.403897876350666
     },
     "s_xb": {
       "original_tokens": [
@@ -613,7 +613,7 @@
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
@@ -622,39 +622,39 @@
         "snacks,",
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.57700803448119
+      "critical_surprisal": 26.60679476366271
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.555647101313426
+      "critical_surprisal": 24.413048734733444
     }
   },
   {
@@ -678,7 +678,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.39126194504379
+      "critical_surprisal": 14.391263320904999
     },
     "s_xb": {
       "original_tokens": [
@@ -707,7 +707,7 @@
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
@@ -716,39 +716,39 @@
         "snacks,",
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.57700803448119
+      "critical_surprisal": 26.60679476366271
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.555647101313426
+      "critical_surprisal": 24.413048734733444
     }
   },
   {
@@ -772,7 +772,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 15.276453897312253
+      "critical_surprisal": 15.276455273173461
     },
     "s_xb": {
       "original_tokens": [
@@ -801,7 +801,7 @@
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
@@ -810,39 +810,39 @@
         "snacks,",
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.57700803448119
+      "critical_surprisal": 26.60679476366271
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.555647101313426
+      "critical_surprisal": 24.413048734733444
     }
   },
   {
@@ -913,7 +913,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 13.858561850365422
+      "critical_surprisal": 13.858560646486866
     },
     "s_xx": {
       "original_tokens": [
@@ -936,7 +936,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 17.43347096735795
+      "critical_surprisal": 17.43346993546205
     }
   },
   {
@@ -960,7 +960,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.388368508925675
+      "critical_surprisal": 14.388367133064468
     },
     "s_xb": {
       "original_tokens": [
@@ -980,7 +980,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 16.13568610032888
+      "critical_surprisal": 16.135687476190085
     },
     "s_ax": {
       "original_tokens": [
@@ -1007,7 +1007,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 13.858561850365422
+      "critical_surprisal": 13.858560646486866
     },
     "s_xx": {
       "original_tokens": [
@@ -1030,7 +1030,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 17.43347096735795
+      "critical_surprisal": 17.43346993546205
     }
   },
   {
@@ -1074,7 +1074,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.696655663016665
+      "critical_surprisal": 13.696654287155459
     },
     "s_ax": {
       "original_tokens": [
@@ -1101,7 +1101,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 13.858561850365422
+      "critical_surprisal": 13.858560646486866
     },
     "s_xx": {
       "original_tokens": [
@@ -1124,7 +1124,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 17.43347096735795
+      "critical_surprisal": 17.43346993546205
     }
   },
   {
@@ -1195,7 +1195,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.05866196954831
+      "critical_surprisal": 23.05866128161771
     },
     "s_xx": {
       "original_tokens": [
@@ -1218,7 +1218,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 24.367001411860834
+      "critical_surprisal": 24.367005539444456
     }
   },
   {
@@ -1242,7 +1242,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.388368508925675
+      "critical_surprisal": 14.388367133064468
     },
     "s_xb": {
       "original_tokens": [
@@ -1262,7 +1262,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 16.13568610032888
+      "critical_surprisal": 16.135687476190085
     },
     "s_ax": {
       "original_tokens": [
@@ -1289,7 +1289,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.05866196954831
+      "critical_surprisal": 23.05866128161771
     },
     "s_xx": {
       "original_tokens": [
@@ -1312,7 +1312,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 24.367001411860834
+      "critical_surprisal": 24.367005539444456
     }
   },
   {
@@ -1356,7 +1356,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.696655663016665
+      "critical_surprisal": 13.696654287155459
     },
     "s_ax": {
       "original_tokens": [
@@ -1383,7 +1383,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.05866196954831
+      "critical_surprisal": 23.05866128161771
     },
     "s_xx": {
       "original_tokens": [
@@ -1406,7 +1406,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 24.367001411860834
+      "critical_surprisal": 24.367005539444456
     }
   },
   {
@@ -1459,7 +1459,7 @@
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
@@ -1468,39 +1468,39 @@
         "snacks,",
         "Mary",
         "saw",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.9392169173407
+      "critical_surprisal": 27.717516509105415
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Mary",
         "saw",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 21.527534481481595
+      "critical_surprisal": 26.128881118277896
     }
   },
   {
@@ -1524,7 +1524,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.388368508925675
+      "critical_surprisal": 14.388367133064468
     },
     "s_xb": {
       "original_tokens": [
@@ -1544,7 +1544,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 16.13568610032888
+      "critical_surprisal": 16.135687476190085
     },
     "s_ax": {
       "original_tokens": [
@@ -1553,7 +1553,7 @@
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
@@ -1562,39 +1562,39 @@
         "snacks,",
         "Mary",
         "saw",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.9392169173407
+      "critical_surprisal": 27.717516509105415
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Mary",
         "saw",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 21.527534481481595
+      "critical_surprisal": 26.128881118277896
     }
   },
   {
@@ -1638,7 +1638,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.696655663016665
+      "critical_surprisal": 13.696654287155459
     },
     "s_ax": {
       "original_tokens": [
@@ -1647,7 +1647,7 @@
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
@@ -1656,39 +1656,39 @@
         "snacks,",
         "Mary",
         "saw",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.9392169173407
+      "critical_surprisal": 27.717516509105415
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Mary",
         "saw",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 21.527534481481595
+      "critical_surprisal": 26.128881118277896
     }
   },
   {
@@ -1712,7 +1712,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 21.23277582392494
+      "critical_surprisal": 21.232777199786145
     },
     "s_xb": {
       "original_tokens": [
@@ -1732,7 +1732,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 19.716828556519282
+      "critical_surprisal": 19.716829932380488
     },
     "s_ax": {
       "original_tokens": [
@@ -1759,7 +1759,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 15.986429580916385
+      "critical_surprisal": 15.986435428326514
     },
     "s_xx": {
       "original_tokens": [
@@ -1806,7 +1806,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.030035099607716
+      "critical_surprisal": 18.030036475468926
     },
     "s_xb": {
       "original_tokens": [
@@ -1826,7 +1826,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.128070714044345
+      "critical_surprisal": 18.12807208990555
     },
     "s_ax": {
       "original_tokens": [
@@ -1853,7 +1853,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 15.986429580916385
+      "critical_surprisal": 15.986435428326514
     },
     "s_xx": {
       "original_tokens": [
@@ -1900,7 +1900,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 14.201778339629183
+      "critical_surprisal": 14.20177971549039
     },
     "s_xb": {
       "original_tokens": [
@@ -1920,7 +1920,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.253029854769068
+      "critical_surprisal": 13.253031230630276
     },
     "s_ax": {
       "original_tokens": [
@@ -1947,7 +1947,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 15.986429580916385
+      "critical_surprisal": 15.986435428326514
     },
     "s_xx": {
       "original_tokens": [
@@ -1994,7 +1994,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 21.23277582392494
+      "critical_surprisal": 21.232777199786145
     },
     "s_xb": {
       "original_tokens": [
@@ -2014,7 +2014,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 19.716828556519282
+      "critical_surprisal": 19.716829932380488
     },
     "s_ax": {
       "original_tokens": [
@@ -2041,7 +2041,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 19.12879373185641
+      "critical_surprisal": 19.128797171509426
     },
     "s_xx": {
       "original_tokens": [
@@ -2064,7 +2064,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 21.790053271307507
+      "critical_surprisal": 21.79004776786268
     }
   },
   {
@@ -2088,7 +2088,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.030035099607716
+      "critical_surprisal": 18.030036475468926
     },
     "s_xb": {
       "original_tokens": [
@@ -2108,7 +2108,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.128070714044345
+      "critical_surprisal": 18.12807208990555
     },
     "s_ax": {
       "original_tokens": [
@@ -2135,7 +2135,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 19.12879373185641
+      "critical_surprisal": 19.128797171509426
     },
     "s_xx": {
       "original_tokens": [
@@ -2158,7 +2158,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 21.790053271307507
+      "critical_surprisal": 21.79004776786268
     }
   },
   {
@@ -2182,7 +2182,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 14.201778339629183
+      "critical_surprisal": 14.20177971549039
     },
     "s_xb": {
       "original_tokens": [
@@ -2202,7 +2202,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.253029854769068
+      "critical_surprisal": 13.253031230630276
     },
     "s_ax": {
       "original_tokens": [
@@ -2229,7 +2229,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 19.12879373185641
+      "critical_surprisal": 19.128797171509426
     },
     "s_xx": {
       "original_tokens": [
@@ -2252,7 +2252,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 21.790053271307507
+      "critical_surprisal": 21.79004776786268
     }
   },
   {
@@ -2276,7 +2276,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 21.23277582392494
+      "critical_surprisal": 21.232777199786145
     },
     "s_xb": {
       "original_tokens": [
@@ -2296,7 +2296,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 19.716828556519282
+      "critical_surprisal": 19.716829932380488
     },
     "s_ax": {
       "original_tokens": [
@@ -2305,7 +2305,7 @@
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
@@ -2314,39 +2314,39 @@
         "snacks,",
         "Mary",
         "forgot",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 16.953724674845546
+      "critical_surprisal": 27.094087654894977
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Mary",
         "forgot",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 16.641162717236874
+      "critical_surprisal": 25.42456951129728
     }
   },
   {
@@ -2370,7 +2370,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.030035099607716
+      "critical_surprisal": 18.030036475468926
     },
     "s_xb": {
       "original_tokens": [
@@ -2390,7 +2390,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.128070714044345
+      "critical_surprisal": 18.12807208990555
     },
     "s_ax": {
       "original_tokens": [
@@ -2399,7 +2399,7 @@
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
@@ -2408,39 +2408,39 @@
         "snacks,",
         "Mary",
         "forgot",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 16.953724674845546
+      "critical_surprisal": 27.094087654894977
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Mary",
         "forgot",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 16.641162717236874
+      "critical_surprisal": 25.42456951129728
     }
   },
   {
@@ -2464,7 +2464,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 14.201778339629183
+      "critical_surprisal": 14.20177971549039
     },
     "s_xb": {
       "original_tokens": [
@@ -2484,7 +2484,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.253029854769068
+      "critical_surprisal": 13.253031230630276
     },
     "s_ax": {
       "original_tokens": [
@@ -2493,7 +2493,7 @@
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
@@ -2502,39 +2502,39 @@
         "snacks,",
         "Mary",
         "forgot",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 16.953724674845546
+      "critical_surprisal": 27.094087654894977
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Mary",
         "forgot",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 16.641162717236874
+      "critical_surprisal": 25.42456951129728
     }
   },
   {
@@ -2558,7 +2558,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 22.042566454471526
+      "critical_surprisal": 22.042567830332732
     },
     "s_xb": {
       "original_tokens": [
@@ -2578,7 +2578,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 21.040550127124977
+      "critical_surprisal": 21.040551502986183
     },
     "s_ax": {
       "original_tokens": [
@@ -2605,7 +2605,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 11.782073592794422
+      "critical_surprisal": 11.782073248829121
     },
     "s_xx": {
       "original_tokens": [
@@ -2628,7 +2628,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 15.052912911512585
+      "critical_surprisal": 15.052913255477886
     }
   },
   {
@@ -2672,7 +2672,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.18917407511275
+      "critical_surprisal": 14.189175450973957
     },
     "s_ax": {
       "original_tokens": [
@@ -2699,7 +2699,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 11.782073592794422
+      "critical_surprisal": 11.782073248829121
     },
     "s_xx": {
       "original_tokens": [
@@ -2722,7 +2722,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 15.052912911512585
+      "critical_surprisal": 15.052913255477886
     }
   },
   {
@@ -2746,7 +2746,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 15.104289632770135
+      "critical_surprisal": 15.10429100863134
     },
     "s_xb": {
       "original_tokens": [
@@ -2793,7 +2793,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 11.782073592794422
+      "critical_surprisal": 11.782073248829121
     },
     "s_xx": {
       "original_tokens": [
@@ -2816,7 +2816,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 15.052912911512585
+      "critical_surprisal": 15.052913255477886
     }
   },
   {
@@ -2840,7 +2840,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 22.042566454471526
+      "critical_surprisal": 22.042567830332732
     },
     "s_xb": {
       "original_tokens": [
@@ -2860,7 +2860,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 21.040550127124977
+      "critical_surprisal": 21.040551502986183
     },
     "s_ax": {
       "original_tokens": [
@@ -2954,7 +2954,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.18917407511275
+      "critical_surprisal": 14.189175450973957
     },
     "s_ax": {
       "original_tokens": [
@@ -3028,7 +3028,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 15.104289632770135
+      "critical_surprisal": 15.10429100863134
     },
     "s_xb": {
       "original_tokens": [
@@ -3122,7 +3122,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 22.042566454471526
+      "critical_surprisal": 22.042567830332732
     },
     "s_xb": {
       "original_tokens": [
@@ -3142,7 +3142,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 21.040550127124977
+      "critical_surprisal": 21.040551502986183
     },
     "s_ax": {
       "original_tokens": [
@@ -3151,7 +3151,7 @@
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
@@ -3160,39 +3160,39 @@
         "snacks,",
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.58814666284697
+      "critical_surprisal": 27.149318851323663
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.69489388922824
+      "critical_surprisal": 25.382761216803132
     }
   },
   {
@@ -3236,7 +3236,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.18917407511275
+      "critical_surprisal": 14.189175450973957
     },
     "s_ax": {
       "original_tokens": [
@@ -3245,7 +3245,7 @@
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
@@ -3254,39 +3254,39 @@
         "snacks,",
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.58814666284697
+      "critical_surprisal": 27.149318851323663
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.69489388922824
+      "critical_surprisal": 25.382761216803132
     }
   },
   {
@@ -3310,7 +3310,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 15.104289632770135
+      "critical_surprisal": 15.10429100863134
     },
     "s_xb": {
       "original_tokens": [
@@ -3339,7 +3339,7 @@
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
@@ -3348,39 +3348,39 @@
         "snacks,",
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.58814666284697
+      "critical_surprisal": 27.149318851323663
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.69489388922824
+      "critical_surprisal": 25.382761216803132
     }
   },
   {
@@ -3451,7 +3451,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 14.400011046458484
+      "critical_surprisal": 14.400012594302343
     },
     "s_xx": {
       "original_tokens": [
@@ -3474,7 +3474,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.47495593721631
+      "critical_surprisal": 18.47495748506017
     }
   },
   {
@@ -3518,7 +3518,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.669227184674297
+      "critical_surprisal": 14.669228560535505
     },
     "s_ax": {
       "original_tokens": [
@@ -3545,7 +3545,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 14.400011046458484
+      "critical_surprisal": 14.400012594302343
     },
     "s_xx": {
       "original_tokens": [
@@ -3568,7 +3568,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.47495593721631
+      "critical_surprisal": 18.47495748506017
     }
   },
   {
@@ -3639,7 +3639,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 14.400011046458484
+      "critical_surprisal": 14.400012594302343
     },
     "s_xx": {
       "original_tokens": [
@@ -3662,7 +3662,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.47495593721631
+      "critical_surprisal": 18.47495748506017
     }
   },
   {
@@ -3733,7 +3733,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.545068806163336
+      "critical_surprisal": 23.54507293374695
     },
     "s_xx": {
       "original_tokens": [
@@ -3756,7 +3756,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.892733804169982
+      "critical_surprisal": 25.892732428308776
     }
   },
   {
@@ -3800,7 +3800,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.669227184674297
+      "critical_surprisal": 14.669228560535505
     },
     "s_ax": {
       "original_tokens": [
@@ -3827,7 +3827,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.545068806163336
+      "critical_surprisal": 23.54507293374695
     },
     "s_xx": {
       "original_tokens": [
@@ -3850,7 +3850,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.892733804169982
+      "critical_surprisal": 25.892732428308776
     }
   },
   {
@@ -3921,7 +3921,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.545068806163336
+      "critical_surprisal": 23.54507293374695
     },
     "s_xx": {
       "original_tokens": [
@@ -3944,7 +3944,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.892733804169982
+      "critical_surprisal": 25.892732428308776
     }
   },
   {
@@ -3997,7 +3997,7 @@
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
@@ -4006,39 +4006,39 @@
         "snacks,",
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.06694464302252
+      "critical_surprisal": 27.578492613453957
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.65977125105157
+      "critical_surprisal": 26.875933853650935
     }
   },
   {
@@ -4082,7 +4082,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.669227184674297
+      "critical_surprisal": 14.669228560535505
     },
     "s_ax": {
       "original_tokens": [
@@ -4091,7 +4091,7 @@
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
@@ -4100,39 +4100,39 @@
         "snacks,",
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.06694464302252
+      "critical_surprisal": 27.578492613453957
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.65977125105157
+      "critical_surprisal": 26.875933853650935
     }
   },
   {
@@ -4185,7 +4185,7 @@
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
@@ -4194,39 +4194,39 @@
         "snacks,",
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.06694464302252
+      "critical_surprisal": 27.578492613453957
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.65977125105157
+      "critical_surprisal": 26.875933853650935
     }
   },
   {
@@ -4270,7 +4270,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 20.004686238227418
+      "critical_surprisal": 20.00468486236621
     },
     "s_ax": {
       "original_tokens": [
@@ -4297,7 +4297,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 16.19907512181859
+      "critical_surprisal": 16.199077529575703
     },
     "s_xx": {
       "original_tokens": [
@@ -4320,7 +4320,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 20.00637545182419
+      "critical_surprisal": 20.006376483720096
     }
   },
   {
@@ -4364,7 +4364,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 17.585424174735977
+      "critical_surprisal": 17.58542279887477
     },
     "s_ax": {
       "original_tokens": [
@@ -4391,7 +4391,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 16.19907512181859
+      "critical_surprisal": 16.199077529575703
     },
     "s_xx": {
       "original_tokens": [
@@ -4414,7 +4414,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 20.00637545182419
+      "critical_surprisal": 20.006376483720096
     }
   },
   {
@@ -4458,7 +4458,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.020492800468068
+      "critical_surprisal": 13.020491424606861
     },
     "s_ax": {
       "original_tokens": [
@@ -4485,7 +4485,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 16.19907512181859
+      "critical_surprisal": 16.199077529575703
     },
     "s_xx": {
       "original_tokens": [
@@ -4508,7 +4508,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 20.00637545182419
+      "critical_surprisal": 20.006376483720096
     }
   },
   {
@@ -4552,7 +4552,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 20.004686238227418
+      "critical_surprisal": 20.00468486236621
     },
     "s_ax": {
       "original_tokens": [
@@ -4602,7 +4602,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.038306102992188
+      "critical_surprisal": 23.038307478853394
     }
   },
   {
@@ -4646,7 +4646,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 17.585424174735977
+      "critical_surprisal": 17.58542279887477
     },
     "s_ax": {
       "original_tokens": [
@@ -4696,7 +4696,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.038306102992188
+      "critical_surprisal": 23.038307478853394
     }
   },
   {
@@ -4740,7 +4740,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.020492800468068
+      "critical_surprisal": 13.020491424606861
     },
     "s_ax": {
       "original_tokens": [
@@ -4790,7 +4790,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.038306102992188
+      "critical_surprisal": 23.038307478853394
     }
   },
   {
@@ -4834,7 +4834,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 20.004686238227418
+      "critical_surprisal": 20.00468486236621
     },
     "s_ax": {
       "original_tokens": [
@@ -4843,7 +4843,7 @@
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
@@ -4852,39 +4852,39 @@
         "snacks,",
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 16.871846486492174
+      "critical_surprisal": 28.00807225464029
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 17.947301469548957
+      "critical_surprisal": 28.064973746574154
     }
   },
   {
@@ -4928,7 +4928,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 17.585424174735977
+      "critical_surprisal": 17.58542279887477
     },
     "s_ax": {
       "original_tokens": [
@@ -4937,7 +4937,7 @@
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
@@ -4946,39 +4946,39 @@
         "snacks,",
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 16.871846486492174
+      "critical_surprisal": 28.00807225464029
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 17.947301469548957
+      "critical_surprisal": 28.064973746574154
     }
   },
   {
@@ -5022,7 +5022,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.020492800468068
+      "critical_surprisal": 13.020491424606861
     },
     "s_ax": {
       "original_tokens": [
@@ -5031,7 +5031,7 @@
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
@@ -5040,39 +5040,39 @@
         "snacks,",
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 16.871846486492174
+      "critical_surprisal": 28.00807225464029
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 17.947301469548957
+      "critical_surprisal": 28.064973746574154
     }
   },
   {
@@ -5143,7 +5143,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 13.316910402674948
+      "critical_surprisal": 13.316911262588201
     },
     "s_xx": {
       "original_tokens": [
@@ -5166,7 +5166,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 14.103920383270896
+      "critical_surprisal": 14.103917803531132
     }
   },
   {
@@ -5190,7 +5190,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 13.990073199861893
+      "critical_surprisal": 13.990071824000687
     },
     "s_xb": {
       "original_tokens": [
@@ -5237,7 +5237,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 13.316910402674948
+      "critical_surprisal": 13.316911262588201
     },
     "s_xx": {
       "original_tokens": [
@@ -5260,7 +5260,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 14.103920383270896
+      "critical_surprisal": 14.103917803531132
     }
   },
   {
@@ -5284,7 +5284,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 14.174796325500619
+      "critical_surprisal": 14.174797701361825
     },
     "s_xb": {
       "original_tokens": [
@@ -5331,7 +5331,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 13.316910402674948
+      "critical_surprisal": 13.316911262588201
     },
     "s_xx": {
       "original_tokens": [
@@ -5354,7 +5354,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 14.103920383270896
+      "critical_surprisal": 14.103917803531132
     }
   },
   {
@@ -5425,7 +5425,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 20.90884787688605
+      "critical_surprisal": 20.90884856481665
     },
     "s_xx": {
       "original_tokens": [
@@ -5448,7 +5448,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.213279881614472
+      "critical_surprisal": 25.213278505753266
     }
   },
   {
@@ -5472,7 +5472,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 13.990073199861893
+      "critical_surprisal": 13.990071824000687
     },
     "s_xb": {
       "original_tokens": [
@@ -5519,7 +5519,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 20.90884787688605
+      "critical_surprisal": 20.90884856481665
     },
     "s_xx": {
       "original_tokens": [
@@ -5542,7 +5542,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.213279881614472
+      "critical_surprisal": 25.213278505753266
     }
   },
   {
@@ -5566,7 +5566,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 14.174796325500619
+      "critical_surprisal": 14.174797701361825
     },
     "s_xb": {
       "original_tokens": [
@@ -5613,7 +5613,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 20.90884787688605
+      "critical_surprisal": 20.90884856481665
     },
     "s_xx": {
       "original_tokens": [
@@ -5636,7 +5636,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.213279881614472
+      "critical_surprisal": 25.213278505753266
     }
   },
   {
@@ -5689,7 +5689,7 @@
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
@@ -5698,39 +5698,39 @@
         "boots,",
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.741962101116375
+      "critical_surprisal": 25.753649370625418
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.555647101313426
+      "critical_surprisal": 24.413048734733444
     }
   },
   {
@@ -5754,7 +5754,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 13.990073199861893
+      "critical_surprisal": 13.990071824000687
     },
     "s_xb": {
       "original_tokens": [
@@ -5783,7 +5783,7 @@
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
@@ -5792,39 +5792,39 @@
         "boots,",
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.741962101116375
+      "critical_surprisal": 25.753649370625418
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.555647101313426
+      "critical_surprisal": 24.413048734733444
     }
   },
   {
@@ -5848,7 +5848,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 14.174796325500619
+      "critical_surprisal": 14.174797701361825
     },
     "s_xb": {
       "original_tokens": [
@@ -5877,7 +5877,7 @@
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
@@ -5886,39 +5886,39 @@
         "boots,",
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.741962101116375
+      "critical_surprisal": 25.753649370625418
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.555647101313426
+      "critical_surprisal": 24.413048734733444
     }
   },
   {
@@ -5942,7 +5942,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 19.209896622419688
+      "critical_surprisal": 19.20989524655848
     },
     "s_xb": {
       "original_tokens": [
@@ -5989,7 +5989,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 16.271102487895842
+      "critical_surprisal": 16.271101799965237
     },
     "s_xx": {
       "original_tokens": [
@@ -6012,7 +6012,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 17.43347096735795
+      "critical_surprisal": 17.43346993546205
     }
   },
   {
@@ -6036,7 +6036,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.877392233556227
+      "critical_surprisal": 14.877390857695021
     },
     "s_xb": {
       "original_tokens": [
@@ -6056,7 +6056,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 16.13568610032888
+      "critical_surprisal": 16.135687476190085
     },
     "s_ax": {
       "original_tokens": [
@@ -6083,7 +6083,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 16.271102487895842
+      "critical_surprisal": 16.271101799965237
     },
     "s_xx": {
       "original_tokens": [
@@ -6106,7 +6106,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 17.43347096735795
+      "critical_surprisal": 17.43346993546205
     }
   },
   {
@@ -6130,7 +6130,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 14.051217847757846
+      "critical_surprisal": 14.051219223619054
     },
     "s_xb": {
       "original_tokens": [
@@ -6150,7 +6150,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.696655663016665
+      "critical_surprisal": 13.696654287155459
     },
     "s_ax": {
       "original_tokens": [
@@ -6177,7 +6177,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 16.271102487895842
+      "critical_surprisal": 16.271101799965237
     },
     "s_xx": {
       "original_tokens": [
@@ -6200,7 +6200,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 17.43347096735795
+      "critical_surprisal": 17.43346993546205
     }
   },
   {
@@ -6224,289 +6224,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 19.209896622419688
-    },
-    "s_xb": {
-      "original_tokens": [
-        "*",
-        "Mary",
-        "saw",
-        "_",
-        "yesterday",
-        "_"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "saw",
-        "yesterday"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "yesterday"
-      ],
-      "critical_surprisal": 19.541865790282323
-    },
-    "s_ax": {
-      "original_tokens": [
-        "*",
-        "those boots,",
-        "Mary",
-        "saw",
-        "_",
-        "your hat",
-        "_",
-        "yesterday"
-      ],
-      "processed_tokens": [
-        "those",
-        "boots,",
-        "Mary",
-        "saw",
-        "your",
-        "hat",
-        "yesterday"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 20.369620352676833
-    },
-    "s_xx": {
-      "original_tokens": [
-        "Mary",
-        "saw",
-        "_",
-        "your hat",
-        "_",
-        "yesterday"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "saw",
-        "your",
-        "hat",
-        "yesterday"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 24.367001411860834
-    }
-  },
-  {
-    "s_ab": {
-      "original_tokens": [
-        "those boots,",
-        "Mary",
-        "saw",
-        "_",
-        "recently",
-        "_"
-      ],
-      "processed_tokens": [
-        "those",
-        "boots,",
-        "Mary",
-        "saw",
-        "recently"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "recently"
-      ],
-      "critical_surprisal": 14.877392233556227
-    },
-    "s_xb": {
-      "original_tokens": [
-        "*",
-        "Mary",
-        "saw",
-        "_",
-        "recently",
-        "_"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "saw",
-        "recently"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "recently"
-      ],
-      "critical_surprisal": 16.13568610032888
-    },
-    "s_ax": {
-      "original_tokens": [
-        "*",
-        "those boots,",
-        "Mary",
-        "saw",
-        "_",
-        "your hat",
-        "_",
-        "recently"
-      ],
-      "processed_tokens": [
-        "those",
-        "boots,",
-        "Mary",
-        "saw",
-        "your",
-        "hat",
-        "recently"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 20.369620352676833
-    },
-    "s_xx": {
-      "original_tokens": [
-        "Mary",
-        "saw",
-        "_",
-        "your hat",
-        "_",
-        "recently"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "saw",
-        "your",
-        "hat",
-        "recently"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 24.367001411860834
-    }
-  },
-  {
-    "s_ab": {
-      "original_tokens": [
-        "those boots,",
-        "Mary",
-        "saw",
-        "_",
-        "earlier",
-        "_"
-      ],
-      "processed_tokens": [
-        "those",
-        "boots,",
-        "Mary",
-        "saw",
-        "earlier"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "earlier"
-      ],
-      "critical_surprisal": 14.051217847757846
-    },
-    "s_xb": {
-      "original_tokens": [
-        "*",
-        "Mary",
-        "saw",
-        "_",
-        "earlier",
-        "_"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "saw",
-        "earlier"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "earlier"
-      ],
-      "critical_surprisal": 13.696655663016665
-    },
-    "s_ax": {
-      "original_tokens": [
-        "*",
-        "those boots,",
-        "Mary",
-        "saw",
-        "_",
-        "your hat",
-        "_",
-        "earlier"
-      ],
-      "processed_tokens": [
-        "those",
-        "boots,",
-        "Mary",
-        "saw",
-        "your",
-        "hat",
-        "earlier"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 20.369620352676833
-    },
-    "s_xx": {
-      "original_tokens": [
-        "Mary",
-        "saw",
-        "_",
-        "your hat",
-        "_",
-        "earlier"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "saw",
-        "your",
-        "hat",
-        "earlier"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 24.367001411860834
-    }
-  },
-  {
-    "s_ab": {
-      "original_tokens": [
-        "those boots,",
-        "Mary",
-        "saw",
-        "_",
-        "yesterday",
-        "_"
-      ],
-      "processed_tokens": [
-        "those",
-        "boots,",
-        "Mary",
-        "saw",
-        "yesterday"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "yesterday"
-      ],
-      "critical_surprisal": 19.209896622419688
+      "critical_surprisal": 19.20989524655848
     },
     "s_xb": {
       "original_tokens": [
@@ -6535,7 +6253,7 @@
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "yesterday"
       ],
@@ -6544,39 +6262,39 @@
         "boots,",
         "Mary",
         "saw",
-        "her",
-        "keys",
+        "your",
+        "hat",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
-        "keys"
+        "your",
+        "hat"
       ],
-      "critical_surprisal": 21.70458890071835
+      "critical_surprisal": 20.369622416468644
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Mary",
         "saw",
-        "her",
-        "keys",
+        "your",
+        "hat",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
-        "keys"
+        "your",
+        "hat"
       ],
-      "critical_surprisal": 21.527534481481595
+      "critical_surprisal": 24.367005539444456
     }
   },
   {
@@ -6600,7 +6318,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.877392233556227
+      "critical_surprisal": 14.877390857695021
     },
     "s_xb": {
       "original_tokens": [
@@ -6620,7 +6338,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 16.13568610032888
+      "critical_surprisal": 16.135687476190085
     },
     "s_ax": {
       "original_tokens": [
@@ -6629,7 +6347,7 @@
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "recently"
       ],
@@ -6638,39 +6356,39 @@
         "boots,",
         "Mary",
         "saw",
-        "her",
-        "keys",
+        "your",
+        "hat",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
-        "keys"
+        "your",
+        "hat"
       ],
-      "critical_surprisal": 21.70458890071835
+      "critical_surprisal": 20.369622416468644
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Mary",
         "saw",
-        "her",
-        "keys",
+        "your",
+        "hat",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
-        "keys"
+        "your",
+        "hat"
       ],
-      "critical_surprisal": 21.527534481481595
+      "critical_surprisal": 24.367005539444456
     }
   },
   {
@@ -6694,7 +6412,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 14.051217847757846
+      "critical_surprisal": 14.051219223619054
     },
     "s_xb": {
       "original_tokens": [
@@ -6714,7 +6432,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.696655663016665
+      "critical_surprisal": 13.696654287155459
     },
     "s_ax": {
       "original_tokens": [
@@ -6723,7 +6441,7 @@
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "earlier"
       ],
@@ -6732,39 +6450,321 @@
         "boots,",
         "Mary",
         "saw",
-        "her",
-        "keys",
+        "your",
+        "hat",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
-        "keys"
+        "your",
+        "hat"
       ],
-      "critical_surprisal": 21.70458890071835
+      "critical_surprisal": 20.369622416468644
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Mary",
         "saw",
-        "her",
+        "your",
+        "hat",
+        "earlier"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "your",
+        "hat"
+      ],
+      "critical_surprisal": 24.367005539444456
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "those boots,",
+        "Mary",
+        "saw",
+        "_",
+        "yesterday",
+        "_"
+      ],
+      "processed_tokens": [
+        "those",
+        "boots,",
+        "Mary",
+        "saw",
+        "yesterday"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "yesterday"
+      ],
+      "critical_surprisal": 19.20989524655848
+    },
+    "s_xb": {
+      "original_tokens": [
+        "*",
+        "Mary",
+        "saw",
+        "_",
+        "yesterday",
+        "_"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "saw",
+        "yesterday"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "yesterday"
+      ],
+      "critical_surprisal": 19.541865790282323
+    },
+    "s_ax": {
+      "original_tokens": [
+        "*",
+        "those boots,",
+        "Mary",
+        "saw",
+        "_",
+        "our keys",
+        "_",
+        "yesterday"
+      ],
+      "processed_tokens": [
+        "those",
+        "boots,",
+        "Mary",
+        "saw",
+        "our",
+        "keys",
+        "yesterday"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "our",
+        "keys"
+      ],
+      "critical_surprisal": 26.86919626132073
+    },
+    "s_xx": {
+      "original_tokens": [
+        "Mary",
+        "saw",
+        "_",
+        "our keys",
+        "_",
+        "yesterday"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "saw",
+        "our",
+        "keys",
+        "yesterday"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "our",
+        "keys"
+      ],
+      "critical_surprisal": 26.128881118277896
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "those boots,",
+        "Mary",
+        "saw",
+        "_",
+        "recently",
+        "_"
+      ],
+      "processed_tokens": [
+        "those",
+        "boots,",
+        "Mary",
+        "saw",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "recently"
+      ],
+      "critical_surprisal": 14.877390857695021
+    },
+    "s_xb": {
+      "original_tokens": [
+        "*",
+        "Mary",
+        "saw",
+        "_",
+        "recently",
+        "_"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "saw",
+        "recently"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "recently"
+      ],
+      "critical_surprisal": 16.135687476190085
+    },
+    "s_ax": {
+      "original_tokens": [
+        "*",
+        "those boots,",
+        "Mary",
+        "saw",
+        "_",
+        "our keys",
+        "_",
+        "recently"
+      ],
+      "processed_tokens": [
+        "those",
+        "boots,",
+        "Mary",
+        "saw",
+        "our",
+        "keys",
+        "recently"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "our",
+        "keys"
+      ],
+      "critical_surprisal": 26.86919626132073
+    },
+    "s_xx": {
+      "original_tokens": [
+        "Mary",
+        "saw",
+        "_",
+        "our keys",
+        "_",
+        "recently"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "saw",
+        "our",
+        "keys",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "our",
+        "keys"
+      ],
+      "critical_surprisal": 26.128881118277896
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "those boots,",
+        "Mary",
+        "saw",
+        "_",
+        "earlier",
+        "_"
+      ],
+      "processed_tokens": [
+        "those",
+        "boots,",
+        "Mary",
+        "saw",
+        "earlier"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "earlier"
+      ],
+      "critical_surprisal": 14.051219223619054
+    },
+    "s_xb": {
+      "original_tokens": [
+        "*",
+        "Mary",
+        "saw",
+        "_",
+        "earlier",
+        "_"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "saw",
+        "earlier"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "earlier"
+      ],
+      "critical_surprisal": 13.696654287155459
+    },
+    "s_ax": {
+      "original_tokens": [
+        "*",
+        "those boots,",
+        "Mary",
+        "saw",
+        "_",
+        "our keys",
+        "_",
+        "earlier"
+      ],
+      "processed_tokens": [
+        "those",
+        "boots,",
+        "Mary",
+        "saw",
+        "our",
+        "keys",
+        "earlier"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "our",
+        "keys"
+      ],
+      "critical_surprisal": 26.86919626132073
+    },
+    "s_xx": {
+      "original_tokens": [
+        "Mary",
+        "saw",
+        "_",
+        "our keys",
+        "_",
+        "earlier"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "saw",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 21.527534481481595
+      "critical_surprisal": 26.128881118277896
     }
   },
   {
@@ -6788,7 +6788,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 20.110450065063215
+      "critical_surprisal": 20.11045144092442
     },
     "s_xb": {
       "original_tokens": [
@@ -6808,7 +6808,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 19.716828556519282
+      "critical_surprisal": 19.716829932380488
     },
     "s_ax": {
       "original_tokens": [
@@ -6835,7 +6835,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.585113920781655
+      "critical_surprisal": 18.585110825093942
     },
     "s_xx": {
       "original_tokens": [
@@ -6882,7 +6882,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 17.958900323488447
+      "critical_surprisal": 17.958901699349653
     },
     "s_xb": {
       "original_tokens": [
@@ -6902,7 +6902,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.128070714044345
+      "critical_surprisal": 18.12807208990555
     },
     "s_ax": {
       "original_tokens": [
@@ -6929,7 +6929,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.585113920781655
+      "critical_surprisal": 18.585110825093942
     },
     "s_xx": {
       "original_tokens": [
@@ -6946,100 +6946,6 @@
         "the",
         "cheese",
         "recently"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "the",
-        "cheese"
-      ],
-      "critical_surprisal": 20.420352138993646
-    }
-  },
-  {
-    "s_ab": {
-      "original_tokens": [
-        "those boots,",
-        "Mary",
-        "forgot",
-        "_",
-        "earlier",
-        "_"
-      ],
-      "processed_tokens": [
-        "those",
-        "boots,",
-        "Mary",
-        "forgot",
-        "earlier"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "earlier"
-      ],
-      "critical_surprisal": 13.495812947477871
-    },
-    "s_xb": {
-      "original_tokens": [
-        "*",
-        "Mary",
-        "forgot",
-        "_",
-        "earlier",
-        "_"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "forgot",
-        "earlier"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "earlier"
-      ],
-      "critical_surprisal": 13.253029854769068
-    },
-    "s_ax": {
-      "original_tokens": [
-        "*",
-        "those boots,",
-        "Mary",
-        "forgot",
-        "_",
-        "the cheese",
-        "_",
-        "earlier"
-      ],
-      "processed_tokens": [
-        "those",
-        "boots,",
-        "Mary",
-        "forgot",
-        "the",
-        "cheese",
-        "earlier"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "the",
-        "cheese"
-      ],
-      "critical_surprisal": 18.585113920781655
-    },
-    "s_xx": {
-      "original_tokens": [
-        "Mary",
-        "forgot",
-        "_",
-        "the cheese",
-        "_",
-        "earlier"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "forgot",
-        "the",
-        "cheese",
-        "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
@@ -7056,194 +6962,6 @@
         "Mary",
         "forgot",
         "_",
-        "yesterday",
-        "_"
-      ],
-      "processed_tokens": [
-        "those",
-        "boots,",
-        "Mary",
-        "forgot",
-        "yesterday"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "yesterday"
-      ],
-      "critical_surprisal": 20.110450065063215
-    },
-    "s_xb": {
-      "original_tokens": [
-        "*",
-        "Mary",
-        "forgot",
-        "_",
-        "yesterday",
-        "_"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "forgot",
-        "yesterday"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "yesterday"
-      ],
-      "critical_surprisal": 19.716828556519282
-    },
-    "s_ax": {
-      "original_tokens": [
-        "*",
-        "those boots,",
-        "Mary",
-        "forgot",
-        "_",
-        "your hat",
-        "_",
-        "yesterday"
-      ],
-      "processed_tokens": [
-        "those",
-        "boots,",
-        "Mary",
-        "forgot",
-        "your",
-        "hat",
-        "yesterday"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 16.806498238643833
-    },
-    "s_xx": {
-      "original_tokens": [
-        "Mary",
-        "forgot",
-        "_",
-        "your hat",
-        "_",
-        "yesterday"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "forgot",
-        "your",
-        "hat",
-        "yesterday"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 21.790053271307507
-    }
-  },
-  {
-    "s_ab": {
-      "original_tokens": [
-        "those boots,",
-        "Mary",
-        "forgot",
-        "_",
-        "recently",
-        "_"
-      ],
-      "processed_tokens": [
-        "those",
-        "boots,",
-        "Mary",
-        "forgot",
-        "recently"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "recently"
-      ],
-      "critical_surprisal": 17.958900323488447
-    },
-    "s_xb": {
-      "original_tokens": [
-        "*",
-        "Mary",
-        "forgot",
-        "_",
-        "recently",
-        "_"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "forgot",
-        "recently"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "recently"
-      ],
-      "critical_surprisal": 18.128070714044345
-    },
-    "s_ax": {
-      "original_tokens": [
-        "*",
-        "those boots,",
-        "Mary",
-        "forgot",
-        "_",
-        "your hat",
-        "_",
-        "recently"
-      ],
-      "processed_tokens": [
-        "those",
-        "boots,",
-        "Mary",
-        "forgot",
-        "your",
-        "hat",
-        "recently"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 16.806498238643833
-    },
-    "s_xx": {
-      "original_tokens": [
-        "Mary",
-        "forgot",
-        "_",
-        "your hat",
-        "_",
-        "recently"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "forgot",
-        "your",
-        "hat",
-        "recently"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 21.790053271307507
-    }
-  },
-  {
-    "s_ab": {
-      "original_tokens": [
-        "those boots,",
-        "Mary",
-        "forgot",
-        "_",
         "earlier",
         "_"
       ],
@@ -7258,7 +6976,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.495812947477871
+      "critical_surprisal": 13.495814323339077
     },
     "s_xb": {
       "original_tokens": [
@@ -7278,7 +6996,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.253029854769068
+      "critical_surprisal": 13.253031230630276
     },
     "s_ax": {
       "original_tokens": [
@@ -7287,7 +7005,7 @@
         "Mary",
         "forgot",
         "_",
-        "your hat",
+        "the cheese",
         "_",
         "earlier"
       ],
@@ -7296,39 +7014,39 @@
         "boots,",
         "Mary",
         "forgot",
-        "your",
-        "hat",
+        "the",
+        "cheese",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "your",
-        "hat"
+        "the",
+        "cheese"
       ],
-      "critical_surprisal": 16.806498238643833
+      "critical_surprisal": 18.585110825093942
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "forgot",
         "_",
-        "your hat",
+        "the cheese",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Mary",
         "forgot",
-        "your",
-        "hat",
+        "the",
+        "cheese",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "your",
-        "hat"
+        "the",
+        "cheese"
       ],
-      "critical_surprisal": 21.790053271307507
+      "critical_surprisal": 20.420352138993646
     }
   },
   {
@@ -7352,7 +7070,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 20.110450065063215
+      "critical_surprisal": 20.11045144092442
     },
     "s_xb": {
       "original_tokens": [
@@ -7372,7 +7090,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 19.716828556519282
+      "critical_surprisal": 19.716829932380488
     },
     "s_ax": {
       "original_tokens": [
@@ -7381,7 +7099,7 @@
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "yesterday"
       ],
@@ -7390,39 +7108,39 @@
         "boots,",
         "Mary",
         "forgot",
-        "her",
-        "keys",
+        "your",
+        "hat",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
-        "keys"
+        "your",
+        "hat"
       ],
-      "critical_surprisal": 18.534454711143507
+      "critical_surprisal": 16.806503742088662
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Mary",
         "forgot",
-        "her",
-        "keys",
+        "your",
+        "hat",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
-        "keys"
+        "your",
+        "hat"
       ],
-      "critical_surprisal": 16.641162717236874
+      "critical_surprisal": 21.79004776786268
     }
   },
   {
@@ -7446,7 +7164,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 17.958900323488447
+      "critical_surprisal": 17.958901699349653
     },
     "s_xb": {
       "original_tokens": [
@@ -7466,7 +7184,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.128070714044345
+      "critical_surprisal": 18.12807208990555
     },
     "s_ax": {
       "original_tokens": [
@@ -7475,7 +7193,7 @@
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "recently"
       ],
@@ -7484,39 +7202,39 @@
         "boots,",
         "Mary",
         "forgot",
-        "her",
-        "keys",
+        "your",
+        "hat",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
-        "keys"
+        "your",
+        "hat"
       ],
-      "critical_surprisal": 18.534454711143507
+      "critical_surprisal": 16.806503742088662
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Mary",
         "forgot",
-        "her",
-        "keys",
+        "your",
+        "hat",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
-        "keys"
+        "your",
+        "hat"
       ],
-      "critical_surprisal": 16.641162717236874
+      "critical_surprisal": 21.79004776786268
     }
   },
   {
@@ -7540,7 +7258,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.495812947477871
+      "critical_surprisal": 13.495814323339077
     },
     "s_xb": {
       "original_tokens": [
@@ -7560,7 +7278,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.253029854769068
+      "critical_surprisal": 13.253031230630276
     },
     "s_ax": {
       "original_tokens": [
@@ -7569,7 +7287,7 @@
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "earlier"
       ],
@@ -7578,39 +7296,321 @@
         "boots,",
         "Mary",
         "forgot",
-        "her",
-        "keys",
+        "your",
+        "hat",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
-        "keys"
+        "your",
+        "hat"
       ],
-      "critical_surprisal": 18.534454711143507
+      "critical_surprisal": 16.806503742088662
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Mary",
         "forgot",
-        "her",
+        "your",
+        "hat",
+        "earlier"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "your",
+        "hat"
+      ],
+      "critical_surprisal": 21.79004776786268
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "those boots,",
+        "Mary",
+        "forgot",
+        "_",
+        "yesterday",
+        "_"
+      ],
+      "processed_tokens": [
+        "those",
+        "boots,",
+        "Mary",
+        "forgot",
+        "yesterday"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "yesterday"
+      ],
+      "critical_surprisal": 20.11045144092442
+    },
+    "s_xb": {
+      "original_tokens": [
+        "*",
+        "Mary",
+        "forgot",
+        "_",
+        "yesterday",
+        "_"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "forgot",
+        "yesterday"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "yesterday"
+      ],
+      "critical_surprisal": 19.716829932380488
+    },
+    "s_ax": {
+      "original_tokens": [
+        "*",
+        "those boots,",
+        "Mary",
+        "forgot",
+        "_",
+        "our keys",
+        "_",
+        "yesterday"
+      ],
+      "processed_tokens": [
+        "those",
+        "boots,",
+        "Mary",
+        "forgot",
+        "our",
+        "keys",
+        "yesterday"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "our",
+        "keys"
+      ],
+      "critical_surprisal": 26.451852153847387
+    },
+    "s_xx": {
+      "original_tokens": [
+        "Mary",
+        "forgot",
+        "_",
+        "our keys",
+        "_",
+        "yesterday"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "forgot",
+        "our",
+        "keys",
+        "yesterday"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "our",
+        "keys"
+      ],
+      "critical_surprisal": 25.42456951129728
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "those boots,",
+        "Mary",
+        "forgot",
+        "_",
+        "recently",
+        "_"
+      ],
+      "processed_tokens": [
+        "those",
+        "boots,",
+        "Mary",
+        "forgot",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "recently"
+      ],
+      "critical_surprisal": 17.958901699349653
+    },
+    "s_xb": {
+      "original_tokens": [
+        "*",
+        "Mary",
+        "forgot",
+        "_",
+        "recently",
+        "_"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "forgot",
+        "recently"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "recently"
+      ],
+      "critical_surprisal": 18.12807208990555
+    },
+    "s_ax": {
+      "original_tokens": [
+        "*",
+        "those boots,",
+        "Mary",
+        "forgot",
+        "_",
+        "our keys",
+        "_",
+        "recently"
+      ],
+      "processed_tokens": [
+        "those",
+        "boots,",
+        "Mary",
+        "forgot",
+        "our",
+        "keys",
+        "recently"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "our",
+        "keys"
+      ],
+      "critical_surprisal": 26.451852153847387
+    },
+    "s_xx": {
+      "original_tokens": [
+        "Mary",
+        "forgot",
+        "_",
+        "our keys",
+        "_",
+        "recently"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "forgot",
+        "our",
+        "keys",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "our",
+        "keys"
+      ],
+      "critical_surprisal": 25.42456951129728
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "those boots,",
+        "Mary",
+        "forgot",
+        "_",
+        "earlier",
+        "_"
+      ],
+      "processed_tokens": [
+        "those",
+        "boots,",
+        "Mary",
+        "forgot",
+        "earlier"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "earlier"
+      ],
+      "critical_surprisal": 13.495814323339077
+    },
+    "s_xb": {
+      "original_tokens": [
+        "*",
+        "Mary",
+        "forgot",
+        "_",
+        "earlier",
+        "_"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "forgot",
+        "earlier"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "earlier"
+      ],
+      "critical_surprisal": 13.253031230630276
+    },
+    "s_ax": {
+      "original_tokens": [
+        "*",
+        "those boots,",
+        "Mary",
+        "forgot",
+        "_",
+        "our keys",
+        "_",
+        "earlier"
+      ],
+      "processed_tokens": [
+        "those",
+        "boots,",
+        "Mary",
+        "forgot",
+        "our",
+        "keys",
+        "earlier"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "our",
+        "keys"
+      ],
+      "critical_surprisal": 26.451852153847387
+    },
+    "s_xx": {
+      "original_tokens": [
+        "Mary",
+        "forgot",
+        "_",
+        "our keys",
+        "_",
+        "earlier"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "forgot",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 16.641162717236874
+      "critical_surprisal": 25.42456951129728
     }
   },
   {
@@ -7654,7 +7654,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 21.040550127124977
+      "critical_surprisal": 21.040551502986183
     },
     "s_ax": {
       "original_tokens": [
@@ -7681,7 +7681,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 13.633563139617042
+      "critical_surprisal": 13.633563311599692
     },
     "s_xx": {
       "original_tokens": [
@@ -7704,7 +7704,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 15.052912911512585
+      "critical_surprisal": 15.052913255477886
     }
   },
   {
@@ -7728,7 +7728,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 13.549734324037585
+      "critical_surprisal": 13.549731572315173
     },
     "s_xb": {
       "original_tokens": [
@@ -7748,7 +7748,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.18917407511275
+      "critical_surprisal": 14.189175450973957
     },
     "s_ax": {
       "original_tokens": [
@@ -7775,7 +7775,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 13.633563139617042
+      "critical_surprisal": 13.633563311599692
     },
     "s_xx": {
       "original_tokens": [
@@ -7798,7 +7798,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 15.052912911512585
+      "critical_surprisal": 15.052913255477886
     }
   },
   {
@@ -7869,7 +7869,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 13.633563139617042
+      "critical_surprisal": 13.633563311599692
     },
     "s_xx": {
       "original_tokens": [
@@ -7892,7 +7892,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 15.052912911512585
+      "critical_surprisal": 15.052913255477886
     }
   },
   {
@@ -7936,7 +7936,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 21.040550127124977
+      "critical_surprisal": 21.040551502986183
     },
     "s_ax": {
       "original_tokens": [
@@ -7963,7 +7963,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 20.46879449226217
+      "critical_surprisal": 20.468797243984582
     },
     "s_xx": {
       "original_tokens": [
@@ -8010,7 +8010,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 13.549734324037585
+      "critical_surprisal": 13.549731572315173
     },
     "s_xb": {
       "original_tokens": [
@@ -8030,7 +8030,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.18917407511275
+      "critical_surprisal": 14.189175450973957
     },
     "s_ax": {
       "original_tokens": [
@@ -8057,7 +8057,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 20.46879449226217
+      "critical_surprisal": 20.468797243984582
     },
     "s_xx": {
       "original_tokens": [
@@ -8151,7 +8151,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 20.46879449226217
+      "critical_surprisal": 20.468797243984582
     },
     "s_xx": {
       "original_tokens": [
@@ -8218,7 +8218,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 21.040550127124977
+      "critical_surprisal": 21.040551502986183
     },
     "s_ax": {
       "original_tokens": [
@@ -8227,7 +8227,7 @@
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
@@ -8236,39 +8236,39 @@
         "boots,",
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.237288301970445
+      "critical_surprisal": 26.189227766673845
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.69489388922824
+      "critical_surprisal": 25.382761216803132
     }
   },
   {
@@ -8292,7 +8292,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 13.549734324037585
+      "critical_surprisal": 13.549731572315173
     },
     "s_xb": {
       "original_tokens": [
@@ -8312,7 +8312,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.18917407511275
+      "critical_surprisal": 14.189175450973957
     },
     "s_ax": {
       "original_tokens": [
@@ -8321,7 +8321,7 @@
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
@@ -8330,39 +8330,39 @@
         "boots,",
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.237288301970445
+      "critical_surprisal": 26.189227766673845
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.69489388922824
+      "critical_surprisal": 25.382761216803132
     }
   },
   {
@@ -8415,7 +8415,7 @@
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
@@ -8424,39 +8424,39 @@
         "boots,",
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.237288301970445
+      "critical_surprisal": 26.189227766673845
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.69489388922824
+      "critical_surprisal": 25.382761216803132
     }
   },
   {
@@ -8527,7 +8527,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 17.11321502189763
+      "critical_surprisal": 17.113215709828236
     },
     "s_xx": {
       "original_tokens": [
@@ -8550,7 +8550,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.47495593721631
+      "critical_surprisal": 18.47495748506017
     }
   },
   {
@@ -8574,7 +8574,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 13.755194429786746
+      "critical_surprisal": 13.755193053925538
     },
     "s_xb": {
       "original_tokens": [
@@ -8594,7 +8594,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.669227184674297
+      "critical_surprisal": 14.669228560535505
     },
     "s_ax": {
       "original_tokens": [
@@ -8621,7 +8621,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 17.11321502189763
+      "critical_surprisal": 17.113215709828236
     },
     "s_xx": {
       "original_tokens": [
@@ -8644,7 +8644,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.47495593721631
+      "critical_surprisal": 18.47495748506017
     }
   },
   {
@@ -8715,7 +8715,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 17.11321502189763
+      "critical_surprisal": 17.113215709828236
     },
     "s_xx": {
       "original_tokens": [
@@ -8738,7 +8738,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.47495593721631
+      "critical_surprisal": 18.47495748506017
     }
   },
   {
@@ -8809,7 +8809,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 21.19649436389892
+      "critical_surprisal": 21.19649573976013
     },
     "s_xx": {
       "original_tokens": [
@@ -8832,7 +8832,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.892733804169982
+      "critical_surprisal": 25.892732428308776
     }
   },
   {
@@ -8856,7 +8856,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 13.755194429786746
+      "critical_surprisal": 13.755193053925538
     },
     "s_xb": {
       "original_tokens": [
@@ -8876,7 +8876,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.669227184674297
+      "critical_surprisal": 14.669228560535505
     },
     "s_ax": {
       "original_tokens": [
@@ -8903,7 +8903,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 21.19649436389892
+      "critical_surprisal": 21.19649573976013
     },
     "s_xx": {
       "original_tokens": [
@@ -8926,7 +8926,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.892733804169982
+      "critical_surprisal": 25.892732428308776
     }
   },
   {
@@ -8997,7 +8997,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 21.19649436389892
+      "critical_surprisal": 21.19649573976013
     },
     "s_xx": {
       "original_tokens": [
@@ -9020,7 +9020,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.892733804169982
+      "critical_surprisal": 25.892732428308776
     }
   },
   {
@@ -9073,7 +9073,7 @@
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
@@ -9082,39 +9082,39 @@
         "boots,",
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 21.41311820748089
+      "critical_surprisal": 27.153072200696094
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.65977125105157
+      "critical_surprisal": 26.875933853650935
     }
   },
   {
@@ -9138,7 +9138,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 13.755194429786746
+      "critical_surprisal": 13.755193053925538
     },
     "s_xb": {
       "original_tokens": [
@@ -9158,7 +9158,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.669227184674297
+      "critical_surprisal": 14.669228560535505
     },
     "s_ax": {
       "original_tokens": [
@@ -9167,7 +9167,7 @@
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
@@ -9176,39 +9176,39 @@
         "boots,",
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 21.41311820748089
+      "critical_surprisal": 27.153072200696094
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.65977125105157
+      "critical_surprisal": 26.875933853650935
     }
   },
   {
@@ -9261,7 +9261,7 @@
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
@@ -9270,39 +9270,39 @@
         "boots,",
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 21.41311820748089
+      "critical_surprisal": 27.153072200696094
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.65977125105157
+      "critical_surprisal": 26.875933853650935
     }
   },
   {
@@ -9326,7 +9326,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 18.734171972215055
+      "critical_surprisal": 18.73417059635385
     },
     "s_xb": {
       "original_tokens": [
@@ -9346,7 +9346,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 20.004686238227418
+      "critical_surprisal": 20.00468486236621
     },
     "s_ax": {
       "original_tokens": [
@@ -9373,7 +9373,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.884355822081
+      "critical_surprisal": 18.8843554781157
     },
     "s_xx": {
       "original_tokens": [
@@ -9396,7 +9396,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 20.00637545182419
+      "critical_surprisal": 20.006376483720096
     }
   },
   {
@@ -9440,7 +9440,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 17.585424174735977
+      "critical_surprisal": 17.58542279887477
     },
     "s_ax": {
       "original_tokens": [
@@ -9467,7 +9467,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.884355822081
+      "critical_surprisal": 18.8843554781157
     },
     "s_xx": {
       "original_tokens": [
@@ -9490,7 +9490,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 20.00637545182419
+      "critical_surprisal": 20.006376483720096
     }
   },
   {
@@ -9514,7 +9514,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.616232447889596
+      "critical_surprisal": 13.61623519961201
     },
     "s_xb": {
       "original_tokens": [
@@ -9534,7 +9534,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.020492800468068
+      "critical_surprisal": 13.020491424606861
     },
     "s_ax": {
       "original_tokens": [
@@ -9561,7 +9561,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.884355822081
+      "critical_surprisal": 18.8843554781157
     },
     "s_xx": {
       "original_tokens": [
@@ -9584,7 +9584,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 20.00637545182419
+      "critical_surprisal": 20.006376483720096
     }
   },
   {
@@ -9608,7 +9608,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 18.734171972215055
+      "critical_surprisal": 18.73417059635385
     },
     "s_xb": {
       "original_tokens": [
@@ -9628,7 +9628,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 20.004686238227418
+      "critical_surprisal": 20.00468486236621
     },
     "s_ax": {
       "original_tokens": [
@@ -9678,7 +9678,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.038306102992188
+      "critical_surprisal": 23.038307478853394
     }
   },
   {
@@ -9722,7 +9722,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 17.585424174735977
+      "critical_surprisal": 17.58542279887477
     },
     "s_ax": {
       "original_tokens": [
@@ -9772,7 +9772,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.038306102992188
+      "critical_surprisal": 23.038307478853394
     }
   },
   {
@@ -9796,7 +9796,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.616232447889596
+      "critical_surprisal": 13.61623519961201
     },
     "s_xb": {
       "original_tokens": [
@@ -9816,7 +9816,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.020492800468068
+      "critical_surprisal": 13.020491424606861
     },
     "s_ax": {
       "original_tokens": [
@@ -9866,7 +9866,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.038306102992188
+      "critical_surprisal": 23.038307478853394
     }
   },
   {
@@ -9890,7 +9890,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 18.734171972215055
+      "critical_surprisal": 18.73417059635385
     },
     "s_xb": {
       "original_tokens": [
@@ -9910,7 +9910,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 20.004686238227418
+      "critical_surprisal": 20.00468486236621
     },
     "s_ax": {
       "original_tokens": [
@@ -9919,7 +9919,7 @@
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
@@ -9928,39 +9928,39 @@
         "boots,",
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.580410885958997
+      "critical_surprisal": 27.46970189196297
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 17.947301469548957
+      "critical_surprisal": 28.064973746574154
     }
   },
   {
@@ -10004,7 +10004,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 17.585424174735977
+      "critical_surprisal": 17.58542279887477
     },
     "s_ax": {
       "original_tokens": [
@@ -10013,7 +10013,7 @@
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
@@ -10022,39 +10022,39 @@
         "boots,",
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.580410885958997
+      "critical_surprisal": 27.46970189196297
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 17.947301469548957
+      "critical_surprisal": 28.064973746574154
     }
   },
   {
@@ -10078,7 +10078,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.616232447889596
+      "critical_surprisal": 13.61623519961201
     },
     "s_xb": {
       "original_tokens": [
@@ -10098,7 +10098,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.020492800468068
+      "critical_surprisal": 13.020491424606861
     },
     "s_ax": {
       "original_tokens": [
@@ -10107,7 +10107,7 @@
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
@@ -10116,39 +10116,39 @@
         "boots,",
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.580410885958997
+      "critical_surprisal": 27.46970189196297
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 17.947301469548957
+      "critical_surprisal": 28.064973746574154
     }
   },
   {
@@ -10219,7 +10219,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 15.324613683085413
+      "critical_surprisal": 15.324614027050714
     },
     "s_xx": {
       "original_tokens": [
@@ -10242,7 +10242,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 14.103920383270896
+      "critical_surprisal": 14.103917803531132
     }
   },
   {
@@ -10266,7 +10266,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.43715929904485
+      "critical_surprisal": 14.437160674906059
     },
     "s_xb": {
       "original_tokens": [
@@ -10313,7 +10313,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 15.324613683085413
+      "critical_surprisal": 15.324614027050714
     },
     "s_xx": {
       "original_tokens": [
@@ -10336,7 +10336,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 14.103920383270896
+      "critical_surprisal": 14.103917803531132
     }
   },
   {
@@ -10407,7 +10407,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 15.324613683085413
+      "critical_surprisal": 15.324614027050714
     },
     "s_xx": {
       "original_tokens": [
@@ -10430,7 +10430,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 14.103920383270896
+      "critical_surprisal": 14.103917803531132
     }
   },
   {
@@ -10501,7 +10501,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 24.41074279135068
+      "critical_surprisal": 24.410744167211885
     },
     "s_xx": {
       "original_tokens": [
@@ -10524,7 +10524,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.213279881614472
+      "critical_surprisal": 25.213278505753266
     }
   },
   {
@@ -10548,7 +10548,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.43715929904485
+      "critical_surprisal": 14.437160674906059
     },
     "s_xb": {
       "original_tokens": [
@@ -10595,7 +10595,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 24.41074279135068
+      "critical_surprisal": 24.410744167211885
     },
     "s_xx": {
       "original_tokens": [
@@ -10618,7 +10618,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.213279881614472
+      "critical_surprisal": 25.213278505753266
     }
   },
   {
@@ -10689,7 +10689,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 24.41074279135068
+      "critical_surprisal": 24.410744167211885
     },
     "s_xx": {
       "original_tokens": [
@@ -10712,7 +10712,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.213279881614472
+      "critical_surprisal": 25.213278505753266
     }
   },
   {
@@ -10765,7 +10765,7 @@
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
@@ -10774,39 +10774,39 @@
         "books,",
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 17.723394848633554
+      "critical_surprisal": 24.791705000929902
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.555647101313426
+      "critical_surprisal": 24.413048734733444
     }
   },
   {
@@ -10830,7 +10830,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.43715929904485
+      "critical_surprisal": 14.437160674906059
     },
     "s_xb": {
       "original_tokens": [
@@ -10859,7 +10859,7 @@
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
@@ -10868,39 +10868,39 @@
         "books,",
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 17.723394848633554
+      "critical_surprisal": 24.791705000929902
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.555647101313426
+      "critical_surprisal": 24.413048734733444
     }
   },
   {
@@ -10953,7 +10953,7 @@
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
@@ -10962,39 +10962,39 @@
         "books,",
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 17.723394848633554
+      "critical_surprisal": 24.791705000929902
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Mary",
         "bought",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.555647101313426
+      "critical_surprisal": 24.413048734733444
     }
   },
   {
@@ -11018,7 +11018,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 19.0628734697113
+      "critical_surprisal": 19.062874845572505
     },
     "s_xb": {
       "original_tokens": [
@@ -11088,7 +11088,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 17.43347096735795
+      "critical_surprisal": 17.43346993546205
     }
   },
   {
@@ -11112,7 +11112,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 15.615668350290436
+      "critical_surprisal": 15.615669726151644
     },
     "s_xb": {
       "original_tokens": [
@@ -11132,7 +11132,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 16.13568610032888
+      "critical_surprisal": 16.135687476190085
     },
     "s_ax": {
       "original_tokens": [
@@ -11182,7 +11182,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 17.43347096735795
+      "critical_surprisal": 17.43346993546205
     }
   },
   {
@@ -11206,7 +11206,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 14.163278991337638
+      "critical_surprisal": 14.163280367198846
     },
     "s_xb": {
       "original_tokens": [
@@ -11226,7 +11226,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.696655663016665
+      "critical_surprisal": 13.696654287155459
     },
     "s_ax": {
       "original_tokens": [
@@ -11276,7 +11276,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 17.43347096735795
+      "critical_surprisal": 17.43346993546205
     }
   },
   {
@@ -11300,289 +11300,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 19.0628734697113
-    },
-    "s_xb": {
-      "original_tokens": [
-        "*",
-        "Mary",
-        "saw",
-        "_",
-        "yesterday",
-        "_"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "saw",
-        "yesterday"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "yesterday"
-      ],
-      "critical_surprisal": 19.541865790282323
-    },
-    "s_ax": {
-      "original_tokens": [
-        "*",
-        "her books,",
-        "Mary",
-        "saw",
-        "_",
-        "your hat",
-        "_",
-        "yesterday"
-      ],
-      "processed_tokens": [
-        "her",
-        "books,",
-        "Mary",
-        "saw",
-        "your",
-        "hat",
-        "yesterday"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 25.20438356305064
-    },
-    "s_xx": {
-      "original_tokens": [
-        "Mary",
-        "saw",
-        "_",
-        "your hat",
-        "_",
-        "yesterday"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "saw",
-        "your",
-        "hat",
-        "yesterday"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 24.367001411860834
-    }
-  },
-  {
-    "s_ab": {
-      "original_tokens": [
-        "her books,",
-        "Mary",
-        "saw",
-        "_",
-        "recently",
-        "_"
-      ],
-      "processed_tokens": [
-        "her",
-        "books,",
-        "Mary",
-        "saw",
-        "recently"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "recently"
-      ],
-      "critical_surprisal": 15.615668350290436
-    },
-    "s_xb": {
-      "original_tokens": [
-        "*",
-        "Mary",
-        "saw",
-        "_",
-        "recently",
-        "_"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "saw",
-        "recently"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "recently"
-      ],
-      "critical_surprisal": 16.13568610032888
-    },
-    "s_ax": {
-      "original_tokens": [
-        "*",
-        "her books,",
-        "Mary",
-        "saw",
-        "_",
-        "your hat",
-        "_",
-        "recently"
-      ],
-      "processed_tokens": [
-        "her",
-        "books,",
-        "Mary",
-        "saw",
-        "your",
-        "hat",
-        "recently"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 25.20438356305064
-    },
-    "s_xx": {
-      "original_tokens": [
-        "Mary",
-        "saw",
-        "_",
-        "your hat",
-        "_",
-        "recently"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "saw",
-        "your",
-        "hat",
-        "recently"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 24.367001411860834
-    }
-  },
-  {
-    "s_ab": {
-      "original_tokens": [
-        "her books,",
-        "Mary",
-        "saw",
-        "_",
-        "earlier",
-        "_"
-      ],
-      "processed_tokens": [
-        "her",
-        "books,",
-        "Mary",
-        "saw",
-        "earlier"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "earlier"
-      ],
-      "critical_surprisal": 14.163278991337638
-    },
-    "s_xb": {
-      "original_tokens": [
-        "*",
-        "Mary",
-        "saw",
-        "_",
-        "earlier",
-        "_"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "saw",
-        "earlier"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "earlier"
-      ],
-      "critical_surprisal": 13.696655663016665
-    },
-    "s_ax": {
-      "original_tokens": [
-        "*",
-        "her books,",
-        "Mary",
-        "saw",
-        "_",
-        "your hat",
-        "_",
-        "earlier"
-      ],
-      "processed_tokens": [
-        "her",
-        "books,",
-        "Mary",
-        "saw",
-        "your",
-        "hat",
-        "earlier"
-      ],
-      "grammatical": false,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 25.20438356305064
-    },
-    "s_xx": {
-      "original_tokens": [
-        "Mary",
-        "saw",
-        "_",
-        "your hat",
-        "_",
-        "earlier"
-      ],
-      "processed_tokens": [
-        "Mary",
-        "saw",
-        "your",
-        "hat",
-        "earlier"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "your",
-        "hat"
-      ],
-      "critical_surprisal": 24.367001411860834
-    }
-  },
-  {
-    "s_ab": {
-      "original_tokens": [
-        "her books,",
-        "Mary",
-        "saw",
-        "_",
-        "yesterday",
-        "_"
-      ],
-      "processed_tokens": [
-        "her",
-        "books,",
-        "Mary",
-        "saw",
-        "yesterday"
-      ],
-      "grammatical": true,
-      "critical_tokens": [
-        "yesterday"
-      ],
-      "critical_surprisal": 19.0628734697113
+      "critical_surprisal": 19.062874845572505
     },
     "s_xb": {
       "original_tokens": [
@@ -11611,7 +11329,7 @@
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "yesterday"
       ],
@@ -11620,39 +11338,39 @@
         "books,",
         "Mary",
         "saw",
-        "her",
-        "keys",
+        "your",
+        "hat",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
-        "keys"
+        "your",
+        "hat"
       ],
-      "critical_surprisal": 21.624341451860463
+      "critical_surprisal": 25.204379435467022
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Mary",
         "saw",
-        "her",
-        "keys",
+        "your",
+        "hat",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
-        "keys"
+        "your",
+        "hat"
       ],
-      "critical_surprisal": 21.527534481481595
+      "critical_surprisal": 24.367005539444456
     }
   },
   {
@@ -11676,7 +11394,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 15.615668350290436
+      "critical_surprisal": 15.615669726151644
     },
     "s_xb": {
       "original_tokens": [
@@ -11696,7 +11414,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 16.13568610032888
+      "critical_surprisal": 16.135687476190085
     },
     "s_ax": {
       "original_tokens": [
@@ -11705,7 +11423,7 @@
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "recently"
       ],
@@ -11714,39 +11432,39 @@
         "books,",
         "Mary",
         "saw",
-        "her",
-        "keys",
+        "your",
+        "hat",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
-        "keys"
+        "your",
+        "hat"
       ],
-      "critical_surprisal": 21.624341451860463
+      "critical_surprisal": 25.204379435467022
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Mary",
         "saw",
-        "her",
-        "keys",
+        "your",
+        "hat",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
-        "keys"
+        "your",
+        "hat"
       ],
-      "critical_surprisal": 21.527534481481595
+      "critical_surprisal": 24.367005539444456
     }
   },
   {
@@ -11770,7 +11488,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 14.163278991337638
+      "critical_surprisal": 14.163280367198846
     },
     "s_xb": {
       "original_tokens": [
@@ -11790,7 +11508,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.696655663016665
+      "critical_surprisal": 13.696654287155459
     },
     "s_ax": {
       "original_tokens": [
@@ -11799,7 +11517,7 @@
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "earlier"
       ],
@@ -11808,39 +11526,321 @@
         "books,",
         "Mary",
         "saw",
-        "her",
-        "keys",
+        "your",
+        "hat",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
-        "keys"
+        "your",
+        "hat"
       ],
-      "critical_surprisal": 21.624341451860463
+      "critical_surprisal": 25.204379435467022
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "saw",
         "_",
-        "her keys",
+        "your hat",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Mary",
         "saw",
+        "your",
+        "hat",
+        "earlier"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "your",
+        "hat"
+      ],
+      "critical_surprisal": 24.367005539444456
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "her books,",
+        "Mary",
+        "saw",
+        "_",
+        "yesterday",
+        "_"
+      ],
+      "processed_tokens": [
         "her",
+        "books,",
+        "Mary",
+        "saw",
+        "yesterday"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "yesterday"
+      ],
+      "critical_surprisal": 19.062874845572505
+    },
+    "s_xb": {
+      "original_tokens": [
+        "*",
+        "Mary",
+        "saw",
+        "_",
+        "yesterday",
+        "_"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "saw",
+        "yesterday"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "yesterday"
+      ],
+      "critical_surprisal": 19.541865790282323
+    },
+    "s_ax": {
+      "original_tokens": [
+        "*",
+        "her books,",
+        "Mary",
+        "saw",
+        "_",
+        "our keys",
+        "_",
+        "yesterday"
+      ],
+      "processed_tokens": [
+        "her",
+        "books,",
+        "Mary",
+        "saw",
+        "our",
+        "keys",
+        "yesterday"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "our",
+        "keys"
+      ],
+      "critical_surprisal": 27.46187599341811
+    },
+    "s_xx": {
+      "original_tokens": [
+        "Mary",
+        "saw",
+        "_",
+        "our keys",
+        "_",
+        "yesterday"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "saw",
+        "our",
+        "keys",
+        "yesterday"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "our",
+        "keys"
+      ],
+      "critical_surprisal": 26.128881118277896
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "her books,",
+        "Mary",
+        "saw",
+        "_",
+        "recently",
+        "_"
+      ],
+      "processed_tokens": [
+        "her",
+        "books,",
+        "Mary",
+        "saw",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "recently"
+      ],
+      "critical_surprisal": 15.615669726151644
+    },
+    "s_xb": {
+      "original_tokens": [
+        "*",
+        "Mary",
+        "saw",
+        "_",
+        "recently",
+        "_"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "saw",
+        "recently"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "recently"
+      ],
+      "critical_surprisal": 16.135687476190085
+    },
+    "s_ax": {
+      "original_tokens": [
+        "*",
+        "her books,",
+        "Mary",
+        "saw",
+        "_",
+        "our keys",
+        "_",
+        "recently"
+      ],
+      "processed_tokens": [
+        "her",
+        "books,",
+        "Mary",
+        "saw",
+        "our",
+        "keys",
+        "recently"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "our",
+        "keys"
+      ],
+      "critical_surprisal": 27.46187599341811
+    },
+    "s_xx": {
+      "original_tokens": [
+        "Mary",
+        "saw",
+        "_",
+        "our keys",
+        "_",
+        "recently"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "saw",
+        "our",
+        "keys",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "our",
+        "keys"
+      ],
+      "critical_surprisal": 26.128881118277896
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "her books,",
+        "Mary",
+        "saw",
+        "_",
+        "earlier",
+        "_"
+      ],
+      "processed_tokens": [
+        "her",
+        "books,",
+        "Mary",
+        "saw",
+        "earlier"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "earlier"
+      ],
+      "critical_surprisal": 14.163280367198846
+    },
+    "s_xb": {
+      "original_tokens": [
+        "*",
+        "Mary",
+        "saw",
+        "_",
+        "earlier",
+        "_"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "saw",
+        "earlier"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "earlier"
+      ],
+      "critical_surprisal": 13.696654287155459
+    },
+    "s_ax": {
+      "original_tokens": [
+        "*",
+        "her books,",
+        "Mary",
+        "saw",
+        "_",
+        "our keys",
+        "_",
+        "earlier"
+      ],
+      "processed_tokens": [
+        "her",
+        "books,",
+        "Mary",
+        "saw",
+        "our",
+        "keys",
+        "earlier"
+      ],
+      "grammatical": false,
+      "critical_tokens": [
+        "our",
+        "keys"
+      ],
+      "critical_surprisal": 27.46187599341811
+    },
+    "s_xx": {
+      "original_tokens": [
+        "Mary",
+        "saw",
+        "_",
+        "our keys",
+        "_",
+        "earlier"
+      ],
+      "processed_tokens": [
+        "Mary",
+        "saw",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 21.527534481481595
+      "critical_surprisal": 26.128881118277896
     }
   },
   {
@@ -11864,7 +11864,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 19.43399827166117
+      "critical_surprisal": 19.43399689579996
     },
     "s_xb": {
       "original_tokens": [
@@ -11884,7 +11884,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 19.716828556519282
+      "critical_surprisal": 19.716829932380488
     },
     "s_ax": {
       "original_tokens": [
@@ -11911,7 +11911,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 22.00993756198453
+      "critical_surprisal": 22.009936530088627
     },
     "s_xx": {
       "original_tokens": [
@@ -11958,7 +11958,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.876363100364806
+      "critical_surprisal": 18.8763617245036
     },
     "s_xb": {
       "original_tokens": [
@@ -11978,7 +11978,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.128070714044345
+      "critical_surprisal": 18.12807208990555
     },
     "s_ax": {
       "original_tokens": [
@@ -12005,7 +12005,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 22.00993756198453
+      "critical_surprisal": 22.009936530088627
     },
     "s_xx": {
       "original_tokens": [
@@ -12052,7 +12052,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.706793008389123
+      "critical_surprisal": 13.706790256666709
     },
     "s_xb": {
       "original_tokens": [
@@ -12072,7 +12072,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.253029854769068
+      "critical_surprisal": 13.253031230630276
     },
     "s_ax": {
       "original_tokens": [
@@ -12099,7 +12099,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 22.00993756198453
+      "critical_surprisal": 22.009936530088627
     },
     "s_xx": {
       "original_tokens": [
@@ -12146,7 +12146,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 19.43399827166117
+      "critical_surprisal": 19.43399689579996
     },
     "s_xb": {
       "original_tokens": [
@@ -12166,7 +12166,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 19.716828556519282
+      "critical_surprisal": 19.716829932380488
     },
     "s_ax": {
       "original_tokens": [
@@ -12216,7 +12216,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 21.790053271307507
+      "critical_surprisal": 21.79004776786268
     }
   },
   {
@@ -12240,7 +12240,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.876363100364806
+      "critical_surprisal": 18.8763617245036
     },
     "s_xb": {
       "original_tokens": [
@@ -12260,7 +12260,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.128070714044345
+      "critical_surprisal": 18.12807208990555
     },
     "s_ax": {
       "original_tokens": [
@@ -12310,7 +12310,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 21.790053271307507
+      "critical_surprisal": 21.79004776786268
     }
   },
   {
@@ -12334,7 +12334,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.706793008389123
+      "critical_surprisal": 13.706790256666709
     },
     "s_xb": {
       "original_tokens": [
@@ -12354,7 +12354,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.253029854769068
+      "critical_surprisal": 13.253031230630276
     },
     "s_ax": {
       "original_tokens": [
@@ -12404,7 +12404,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 21.790053271307507
+      "critical_surprisal": 21.79004776786268
     }
   },
   {
@@ -12428,7 +12428,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 19.43399827166117
+      "critical_surprisal": 19.43399689579996
     },
     "s_xb": {
       "original_tokens": [
@@ -12448,7 +12448,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 19.716828556519282
+      "critical_surprisal": 19.716829932380488
     },
     "s_ax": {
       "original_tokens": [
@@ -12457,7 +12457,7 @@
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
@@ -12466,39 +12466,39 @@
         "books,",
         "Mary",
         "forgot",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 17.850586681870954
+      "critical_surprisal": 27.43657528168438
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Mary",
         "forgot",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 16.641162717236874
+      "critical_surprisal": 25.42456951129728
     }
   },
   {
@@ -12522,7 +12522,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.876363100364806
+      "critical_surprisal": 18.8763617245036
     },
     "s_xb": {
       "original_tokens": [
@@ -12542,7 +12542,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.128070714044345
+      "critical_surprisal": 18.12807208990555
     },
     "s_ax": {
       "original_tokens": [
@@ -12551,7 +12551,7 @@
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
@@ -12560,39 +12560,39 @@
         "books,",
         "Mary",
         "forgot",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 17.850586681870954
+      "critical_surprisal": 27.43657528168438
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Mary",
         "forgot",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 16.641162717236874
+      "critical_surprisal": 25.42456951129728
     }
   },
   {
@@ -12616,7 +12616,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.706793008389123
+      "critical_surprisal": 13.706790256666709
     },
     "s_xb": {
       "original_tokens": [
@@ -12636,7 +12636,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.253029854769068
+      "critical_surprisal": 13.253031230630276
     },
     "s_ax": {
       "original_tokens": [
@@ -12645,7 +12645,7 @@
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
@@ -12654,39 +12654,39 @@
         "books,",
         "Mary",
         "forgot",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 17.850586681870954
+      "critical_surprisal": 27.43657528168438
     },
     "s_xx": {
       "original_tokens": [
         "Mary",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Mary",
         "forgot",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 16.641162717236874
+      "critical_surprisal": 25.42456951129728
     }
   },
   {
@@ -12710,7 +12710,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 20.07171544450529
+      "critical_surprisal": 20.071716820366497
     },
     "s_xb": {
       "original_tokens": [
@@ -12730,7 +12730,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 21.040550127124977
+      "critical_surprisal": 21.040551502986183
     },
     "s_ax": {
       "original_tokens": [
@@ -12757,7 +12757,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 16.012598117106368
+      "critical_surprisal": 16.012599664950226
     },
     "s_xx": {
       "original_tokens": [
@@ -12780,7 +12780,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 15.052912911512585
+      "critical_surprisal": 15.052913255477886
     }
   },
   {
@@ -12804,7 +12804,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 13.87551624405278
+      "critical_surprisal": 13.875517619913987
     },
     "s_xb": {
       "original_tokens": [
@@ -12824,7 +12824,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.18917407511275
+      "critical_surprisal": 14.189175450973957
     },
     "s_ax": {
       "original_tokens": [
@@ -12851,7 +12851,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 16.012598117106368
+      "critical_surprisal": 16.012599664950226
     },
     "s_xx": {
       "original_tokens": [
@@ -12874,7 +12874,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 15.052912911512585
+      "critical_surprisal": 15.052913255477886
     }
   },
   {
@@ -12898,7 +12898,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.896891623763217
+      "critical_surprisal": 13.896892999624423
     },
     "s_xb": {
       "original_tokens": [
@@ -12945,7 +12945,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 16.012598117106368
+      "critical_surprisal": 16.012599664950226
     },
     "s_xx": {
       "original_tokens": [
@@ -12968,7 +12968,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 15.052912911512585
+      "critical_surprisal": 15.052913255477886
     }
   },
   {
@@ -12992,7 +12992,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 20.07171544450529
+      "critical_surprisal": 20.071716820366497
     },
     "s_xb": {
       "original_tokens": [
@@ -13012,7 +13012,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 21.040550127124977
+      "critical_surprisal": 21.040551502986183
     },
     "s_ax": {
       "original_tokens": [
@@ -13086,7 +13086,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 13.87551624405278
+      "critical_surprisal": 13.875517619913987
     },
     "s_xb": {
       "original_tokens": [
@@ -13106,7 +13106,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.18917407511275
+      "critical_surprisal": 14.189175450973957
     },
     "s_ax": {
       "original_tokens": [
@@ -13180,7 +13180,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.896891623763217
+      "critical_surprisal": 13.896892999624423
     },
     "s_xb": {
       "original_tokens": [
@@ -13274,7 +13274,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 20.07171544450529
+      "critical_surprisal": 20.071716820366497
     },
     "s_xb": {
       "original_tokens": [
@@ -13294,7 +13294,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 21.040550127124977
+      "critical_surprisal": 21.040551502986183
     },
     "s_ax": {
       "original_tokens": [
@@ -13303,7 +13303,7 @@
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
@@ -13312,39 +13312,39 @@
         "books,",
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.765289137200966
+      "critical_surprisal": 25.679600520469926
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.69489388922824
+      "critical_surprisal": 25.382761216803132
     }
   },
   {
@@ -13368,7 +13368,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 13.87551624405278
+      "critical_surprisal": 13.875517619913987
     },
     "s_xb": {
       "original_tokens": [
@@ -13388,7 +13388,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.18917407511275
+      "critical_surprisal": 14.189175450973957
     },
     "s_ax": {
       "original_tokens": [
@@ -13397,7 +13397,7 @@
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
@@ -13406,39 +13406,39 @@
         "books,",
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.765289137200966
+      "critical_surprisal": 25.679600520469926
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.69489388922824
+      "critical_surprisal": 25.382761216803132
     }
   },
   {
@@ -13462,7 +13462,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.896891623763217
+      "critical_surprisal": 13.896892999624423
     },
     "s_xb": {
       "original_tokens": [
@@ -13491,7 +13491,7 @@
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
@@ -13500,39 +13500,39 @@
         "books,",
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.765289137200966
+      "critical_surprisal": 25.679600520469926
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "bought",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Jennifer",
         "bought",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 19.69489388922824
+      "critical_surprisal": 25.382761216803132
     }
   },
   {
@@ -13603,7 +13603,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.97114463106446
+      "critical_surprisal": 18.971143427185904
     },
     "s_xx": {
       "original_tokens": [
@@ -13626,7 +13626,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.47495593721631
+      "critical_surprisal": 18.47495748506017
     }
   },
   {
@@ -13650,7 +13650,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.178967936679948
+      "critical_surprisal": 14.178969312541154
     },
     "s_xb": {
       "original_tokens": [
@@ -13670,7 +13670,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.669227184674297
+      "critical_surprisal": 14.669228560535505
     },
     "s_ax": {
       "original_tokens": [
@@ -13697,7 +13697,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.97114463106446
+      "critical_surprisal": 18.971143427185904
     },
     "s_xx": {
       "original_tokens": [
@@ -13720,7 +13720,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.47495593721631
+      "critical_surprisal": 18.47495748506017
     }
   },
   {
@@ -13744,7 +13744,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 14.884384360209705
+      "critical_surprisal": 14.884382984348498
     },
     "s_xb": {
       "original_tokens": [
@@ -13791,7 +13791,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.97114463106446
+      "critical_surprisal": 18.971143427185904
     },
     "s_xx": {
       "original_tokens": [
@@ -13814,7 +13814,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 18.47495593721631
+      "critical_surprisal": 18.47495748506017
     }
   },
   {
@@ -13885,7 +13885,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.735168802894304
+      "critical_surprisal": 25.735167427033097
     },
     "s_xx": {
       "original_tokens": [
@@ -13908,7 +13908,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.892733804169982
+      "critical_surprisal": 25.892732428308776
     }
   },
   {
@@ -13932,7 +13932,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.178967936679948
+      "critical_surprisal": 14.178969312541154
     },
     "s_xb": {
       "original_tokens": [
@@ -13952,7 +13952,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.669227184674297
+      "critical_surprisal": 14.669228560535505
     },
     "s_ax": {
       "original_tokens": [
@@ -13979,7 +13979,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.735168802894304
+      "critical_surprisal": 25.735167427033097
     },
     "s_xx": {
       "original_tokens": [
@@ -14002,7 +14002,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.892733804169982
+      "critical_surprisal": 25.892732428308776
     }
   },
   {
@@ -14026,7 +14026,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 14.884384360209705
+      "critical_surprisal": 14.884382984348498
     },
     "s_xb": {
       "original_tokens": [
@@ -14073,7 +14073,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.735168802894304
+      "critical_surprisal": 25.735167427033097
     },
     "s_xx": {
       "original_tokens": [
@@ -14096,7 +14096,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 25.892733804169982
+      "critical_surprisal": 25.892732428308776
     }
   },
   {
@@ -14149,7 +14149,7 @@
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
@@ -14158,39 +14158,39 @@
         "books,",
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.71231642243908
+      "critical_surprisal": 27.062679495263808
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.65977125105157
+      "critical_surprisal": 26.875933853650935
     }
   },
   {
@@ -14214,7 +14214,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.178967936679948
+      "critical_surprisal": 14.178969312541154
     },
     "s_xb": {
       "original_tokens": [
@@ -14234,7 +14234,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 14.669227184674297
+      "critical_surprisal": 14.669228560535505
     },
     "s_ax": {
       "original_tokens": [
@@ -14243,7 +14243,7 @@
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
@@ -14252,39 +14252,39 @@
         "books,",
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.71231642243908
+      "critical_surprisal": 27.062679495263808
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.65977125105157
+      "critical_surprisal": 26.875933853650935
     }
   },
   {
@@ -14308,7 +14308,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 14.884384360209705
+      "critical_surprisal": 14.884382984348498
     },
     "s_xb": {
       "original_tokens": [
@@ -14337,7 +14337,7 @@
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
@@ -14346,39 +14346,39 @@
         "books,",
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.71231642243908
+      "critical_surprisal": 27.062679495263808
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "saw",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Jennifer",
         "saw",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 20.65977125105157
+      "critical_surprisal": 26.875933853650935
     }
   },
   {
@@ -14402,7 +14402,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 17.770683886245394
+      "critical_surprisal": 17.770682510384187
     },
     "s_xb": {
       "original_tokens": [
@@ -14422,7 +14422,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 20.004686238227418
+      "critical_surprisal": 20.00468486236621
     },
     "s_ax": {
       "original_tokens": [
@@ -14449,7 +14449,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 21.194419909164218
+      "critical_surprisal": 21.194419565198913
     },
     "s_xx": {
       "original_tokens": [
@@ -14472,7 +14472,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 20.00637545182419
+      "critical_surprisal": 20.006376483720096
     }
   },
   {
@@ -14496,7 +14496,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.215420014486963
+      "critical_surprisal": 18.215418638625756
     },
     "s_xb": {
       "original_tokens": [
@@ -14516,7 +14516,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 17.585424174735977
+      "critical_surprisal": 17.58542279887477
     },
     "s_ax": {
       "original_tokens": [
@@ -14543,7 +14543,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 21.194419909164218
+      "critical_surprisal": 21.194419565198913
     },
     "s_xx": {
       "original_tokens": [
@@ -14566,7 +14566,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 20.00637545182419
+      "critical_surprisal": 20.006376483720096
     }
   },
   {
@@ -14590,7 +14590,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.965582870379029
+      "critical_surprisal": 13.965581494517822
     },
     "s_xb": {
       "original_tokens": [
@@ -14610,7 +14610,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.020492800468068
+      "critical_surprisal": 13.020491424606861
     },
     "s_ax": {
       "original_tokens": [
@@ -14637,7 +14637,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 21.194419909164218
+      "critical_surprisal": 21.194419565198913
     },
     "s_xx": {
       "original_tokens": [
@@ -14660,7 +14660,7 @@
         "the",
         "cheese"
       ],
-      "critical_surprisal": 20.00637545182419
+      "critical_surprisal": 20.006376483720096
     }
   },
   {
@@ -14684,7 +14684,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 17.770683886245394
+      "critical_surprisal": 17.770682510384187
     },
     "s_xb": {
       "original_tokens": [
@@ -14704,7 +14704,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 20.004686238227418
+      "critical_surprisal": 20.00468486236621
     },
     "s_ax": {
       "original_tokens": [
@@ -14731,7 +14731,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 21.530478480499067
+      "critical_surprisal": 21.530472977054238
     },
     "s_xx": {
       "original_tokens": [
@@ -14754,7 +14754,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.038306102992188
+      "critical_surprisal": 23.038307478853394
     }
   },
   {
@@ -14778,7 +14778,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.215420014486963
+      "critical_surprisal": 18.215418638625756
     },
     "s_xb": {
       "original_tokens": [
@@ -14798,7 +14798,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 17.585424174735977
+      "critical_surprisal": 17.58542279887477
     },
     "s_ax": {
       "original_tokens": [
@@ -14825,7 +14825,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 21.530478480499067
+      "critical_surprisal": 21.530472977054238
     },
     "s_xx": {
       "original_tokens": [
@@ -14848,7 +14848,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.038306102992188
+      "critical_surprisal": 23.038307478853394
     }
   },
   {
@@ -14872,7 +14872,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.965582870379029
+      "critical_surprisal": 13.965581494517822
     },
     "s_xb": {
       "original_tokens": [
@@ -14892,7 +14892,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.020492800468068
+      "critical_surprisal": 13.020491424606861
     },
     "s_ax": {
       "original_tokens": [
@@ -14919,7 +14919,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 21.530478480499067
+      "critical_surprisal": 21.530472977054238
     },
     "s_xx": {
       "original_tokens": [
@@ -14942,7 +14942,7 @@
         "your",
         "hat"
       ],
-      "critical_surprisal": 23.038306102992188
+      "critical_surprisal": 23.038307478853394
     }
   },
   {
@@ -14966,7 +14966,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 17.770683886245394
+      "critical_surprisal": 17.770682510384187
     },
     "s_xb": {
       "original_tokens": [
@@ -14986,7 +14986,7 @@
       "critical_tokens": [
         "yesterday"
       ],
-      "critical_surprisal": 20.004686238227418
+      "critical_surprisal": 20.00468486236621
     },
     "s_ax": {
       "original_tokens": [
@@ -14995,7 +14995,7 @@
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
@@ -15004,39 +15004,39 @@
         "books,",
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.944963884106265
+      "critical_surprisal": 27.442718501973197
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "yesterday"
       ],
       "processed_tokens": [
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "yesterday"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 17.947301469548957
+      "critical_surprisal": 28.064973746574154
     }
   },
   {
@@ -15060,7 +15060,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 18.215420014486963
+      "critical_surprisal": 18.215418638625756
     },
     "s_xb": {
       "original_tokens": [
@@ -15080,7 +15080,7 @@
       "critical_tokens": [
         "recently"
       ],
-      "critical_surprisal": 17.585424174735977
+      "critical_surprisal": 17.58542279887477
     },
     "s_ax": {
       "original_tokens": [
@@ -15089,7 +15089,7 @@
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
@@ -15098,39 +15098,39 @@
         "books,",
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.944963884106265
+      "critical_surprisal": 27.442718501973197
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "recently"
       ],
       "processed_tokens": [
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "recently"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 17.947301469548957
+      "critical_surprisal": 28.064973746574154
     }
   },
   {
@@ -15154,7 +15154,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.965582870379029
+      "critical_surprisal": 13.965581494517822
     },
     "s_xb": {
       "original_tokens": [
@@ -15174,7 +15174,7 @@
       "critical_tokens": [
         "earlier"
       ],
-      "critical_surprisal": 13.020492800468068
+      "critical_surprisal": 13.020491424606861
     },
     "s_ax": {
       "original_tokens": [
@@ -15183,7 +15183,7 @@
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
@@ -15192,39 +15192,39 @@
         "books,",
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": false,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 18.944963884106265
+      "critical_surprisal": 27.442718501973197
     },
     "s_xx": {
       "original_tokens": [
         "Jennifer",
         "forgot",
         "_",
-        "her keys",
+        "our keys",
         "_",
         "earlier"
       ],
       "processed_tokens": [
         "Jennifer",
         "forgot",
-        "her",
+        "our",
         "keys",
         "earlier"
       ],
       "grammatical": true,
       "critical_tokens": [
-        "her",
+        "our",
         "keys"
       ],
-      "critical_surprisal": 17.947301469548957
+      "critical_surprisal": 28.064973746574154
     }
   }
 ]
