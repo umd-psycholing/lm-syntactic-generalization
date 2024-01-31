@@ -84,7 +84,7 @@ def save_surprisal(tuples: Dict[str, List[gc.TupleSentenceData]], sentence_type:
         print(f"computing surprisal for {sentence_type} {sentence_set}")
         for sentence_tuple in tqdm(tuples[sentence_set]):
             surprisal_effect_full_tuple(sentence_tuple, model, True)
-        gc.corpus_to_json(tuples[sentence_set], f"grammar_outputs/wilcox_replication/{sentence_type}_{sentence_set}_{model}.json")
+        gc.corpus_to_json(tuples[sentence_set], f"grammar_outputs/wilcox_replication/cleft_rnn/{sentence_type}_{sentence_set}_{model}.json")
 
 if __name__ == "__main__":
     main()
