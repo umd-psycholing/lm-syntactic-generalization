@@ -1,0 +1,4070 @@
+[
+  {
+    "s_ab": {
+      "original_tokens": [
+        "I know",
+        "who",
+        "the family",
+        "saw",
+        "a painting",
+        "that",
+        "depicted",
+        "_",
+        "last year",
+        "_"
+      ],
+      "processed_tokens": [
+        "I",
+        "know",
+        "who",
+        "the",
+        "family",
+        "saw",
+        "a",
+        "painting",
+        "that",
+        "depicted",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "year"
+      ],
+      "critical_surprisal": 20.300926698303904
+    },
+    "s_xb": {
+      "original_tokens": [
+        "I know",
+        "that",
+        "the family",
+        "saw",
+        "a painting",
+        "that",
+        "depicted",
+        "_",
+        "last year",
+        "_"
+      ],
+      "processed_tokens": [
+        "I",
+        "know",
+        "that",
+        "the",
+        "family",
+        "saw",
+        "a",
+        "painting",
+        "that",
+        "depicted",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "year"
+      ],
+      "critical_surprisal": 20.201517286452184
+    },
+    "s_ax": {
+      "original_tokens": [
+        "I know",
+        "who",
+        "the family",
+        "saw",
+        "a painting",
+        "that",
+        "depicted",
+        "_",
+        "the general",
+        "_",
+        "last year"
+      ],
+      "processed_tokens": [
+        "I",
+        "know",
+        "who",
+        "the",
+        "family",
+        "saw",
+        "a",
+        "painting",
+        "that",
+        "depicted",
+        "the",
+        "general",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "general"
+      ],
+      "critical_surprisal": 13.696825065927765
+    },
+    "s_xx": {
+      "original_tokens": [
+        "I know",
+        "that",
+        "the family",
+        "saw",
+        "a painting",
+        "that",
+        "depicted",
+        "_",
+        "the general",
+        "_",
+        "last year"
+      ],
+      "processed_tokens": [
+        "I",
+        "know",
+        "that",
+        "the",
+        "family",
+        "saw",
+        "a",
+        "painting",
+        "that",
+        "depicted",
+        "the",
+        "general",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "general"
+      ],
+      "critical_surprisal": 14.22942661454719
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "I remember",
+        "what",
+        "the woman",
+        "bought",
+        "a gift",
+        "that",
+        "included",
+        "_",
+        "yesterday",
+        "_"
+      ],
+      "processed_tokens": [
+        "I",
+        "remember",
+        "what",
+        "the",
+        "woman",
+        "bought",
+        "a",
+        "gift",
+        "that",
+        "included",
+        "yesterday"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "yesterday"
+      ],
+      "critical_surprisal": 14.0677130477674
+    },
+    "s_xb": {
+      "original_tokens": [
+        "I remember",
+        "that",
+        "the woman",
+        "bought",
+        "a gift",
+        "that",
+        "included",
+        "_",
+        "yesterday",
+        "_"
+      ],
+      "processed_tokens": [
+        "I",
+        "remember",
+        "that",
+        "the",
+        "woman",
+        "bought",
+        "a",
+        "gift",
+        "that",
+        "included",
+        "yesterday"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "yesterday"
+      ],
+      "critical_surprisal": 15.114996584682249
+    },
+    "s_ax": {
+      "original_tokens": [
+        "I remember",
+        "what",
+        "the woman",
+        "bought",
+        "a gift",
+        "that",
+        "included",
+        "_",
+        "a gift card",
+        "_",
+        "yesterday"
+      ],
+      "processed_tokens": [
+        "I",
+        "remember",
+        "what",
+        "the",
+        "woman",
+        "bought",
+        "a",
+        "gift",
+        "that",
+        "included",
+        "a",
+        "gift",
+        "card",
+        "yesterday"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "a",
+        "gift",
+        "card"
+      ],
+      "critical_surprisal": 17.042565064871145
+    },
+    "s_xx": {
+      "original_tokens": [
+        "I remember",
+        "that",
+        "the woman",
+        "bought",
+        "a gift",
+        "that",
+        "included",
+        "_",
+        "a gift card",
+        "_",
+        "yesterday"
+      ],
+      "processed_tokens": [
+        "I",
+        "remember",
+        "that",
+        "the",
+        "woman",
+        "bought",
+        "a",
+        "gift",
+        "that",
+        "included",
+        "a",
+        "gift",
+        "card",
+        "yesterday"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "a",
+        "gift",
+        "card"
+      ],
+      "critical_surprisal": 15.891964326311669
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "The newspaper reported",
+        "who",
+        "the man",
+        "liked",
+        "the movie",
+        "that",
+        "featured",
+        "_",
+        "recently",
+        "_"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "who",
+        "the",
+        "man",
+        "liked",
+        "the",
+        "movie",
+        "that",
+        "featured",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "recently"
+      ],
+      "critical_surprisal": 15.921251251927096
+    },
+    "s_xb": {
+      "original_tokens": [
+        "The newspaper reported",
+        "that",
+        "the man",
+        "liked",
+        "the movie",
+        "that",
+        "featured",
+        "_",
+        "recently",
+        "_"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "that",
+        "the",
+        "man",
+        "liked",
+        "the",
+        "movie",
+        "that",
+        "featured",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "recently"
+      ],
+      "critical_surprisal": 16.27895177608122
+    },
+    "s_ax": {
+      "original_tokens": [
+        "The newspaper reported",
+        "who",
+        "the man",
+        "liked",
+        "the movie",
+        "that",
+        "featured",
+        "_",
+        "the actress",
+        "_",
+        "recently"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "who",
+        "the",
+        "man",
+        "liked",
+        "the",
+        "movie",
+        "that",
+        "featured",
+        "the",
+        "actress",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "actress"
+      ],
+      "critical_surprisal": 11.440820285490261
+    },
+    "s_xx": {
+      "original_tokens": [
+        "The newspaper reported",
+        "that",
+        "the man",
+        "liked",
+        "the movie",
+        "that",
+        "featured",
+        "_",
+        "the actress",
+        "_",
+        "recently"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "that",
+        "the",
+        "man",
+        "liked",
+        "the",
+        "movie",
+        "that",
+        "featured",
+        "the",
+        "actress",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "actress"
+      ],
+      "critical_surprisal": 10.821960322382644
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "She told me",
+        "what",
+        "the executive",
+        "discovered",
+        "the business plan",
+        "that",
+        "included",
+        "_",
+        "last quarter",
+        "_"
+      ],
+      "processed_tokens": [
+        "She",
+        "told",
+        "me",
+        "what",
+        "the",
+        "executive",
+        "discovered",
+        "the",
+        "business",
+        "plan",
+        "that",
+        "included",
+        "last",
+        "quarter"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "quarter"
+      ],
+      "critical_surprisal": 23.170084713528098
+    },
+    "s_xb": {
+      "original_tokens": [
+        "She told me",
+        "that",
+        "the executive",
+        "discovered",
+        "the business plan",
+        "that",
+        "included",
+        "_",
+        "last quarter",
+        "_"
+      ],
+      "processed_tokens": [
+        "She",
+        "told",
+        "me",
+        "that",
+        "the",
+        "executive",
+        "discovered",
+        "the",
+        "business",
+        "plan",
+        "that",
+        "included",
+        "last",
+        "quarter"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "quarter"
+      ],
+      "critical_surprisal": 23.879182941647528
+    },
+    "s_ax": {
+      "original_tokens": [
+        "She told me",
+        "what",
+        "the executive",
+        "discovered",
+        "the business plan",
+        "that",
+        "included",
+        "_",
+        "illegal activity",
+        "_",
+        "last quarter"
+      ],
+      "processed_tokens": [
+        "She",
+        "told",
+        "me",
+        "what",
+        "the",
+        "executive",
+        "discovered",
+        "the",
+        "business",
+        "plan",
+        "that",
+        "included",
+        "illegal",
+        "activity",
+        "last",
+        "quarter"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "illegal",
+        "activity"
+      ],
+      "critical_surprisal": 22.647047636071107
+    },
+    "s_xx": {
+      "original_tokens": [
+        "She told me",
+        "that",
+        "the executive",
+        "discovered",
+        "the business plan",
+        "that",
+        "included",
+        "_",
+        "illegal activity",
+        "_",
+        "last quarter"
+      ],
+      "processed_tokens": [
+        "She",
+        "told",
+        "me",
+        "that",
+        "the",
+        "executive",
+        "discovered",
+        "the",
+        "business",
+        "plan",
+        "that",
+        "included",
+        "illegal",
+        "activity",
+        "last",
+        "quarter"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "illegal",
+        "activity"
+      ],
+      "critical_surprisal": 21.77319621980054
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "He knows",
+        "who",
+        "the lawyer",
+        "believed",
+        "the witness",
+        "that",
+        "saw",
+        "_",
+        "last month",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "who",
+        "the",
+        "lawyer",
+        "believed",
+        "the",
+        "witness",
+        "that",
+        "saw",
+        "last",
+        "month"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "month"
+      ],
+      "critical_surprisal": 24.201183995066152
+    },
+    "s_xb": {
+      "original_tokens": [
+        "He knows",
+        "that",
+        "the lawyer",
+        "believed",
+        "the witness",
+        "that",
+        "saw",
+        "_",
+        "last month",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "that",
+        "the",
+        "lawyer",
+        "believed",
+        "the",
+        "witness",
+        "that",
+        "saw",
+        "last",
+        "month"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "month"
+      ],
+      "critical_surprisal": 29.685566265654398
+    },
+    "s_ax": {
+      "original_tokens": [
+        "He knows",
+        "who",
+        "the lawyer",
+        "believed",
+        "the witness",
+        "that",
+        "saw",
+        "_",
+        "the defendant",
+        "_",
+        "last month"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "who",
+        "the",
+        "lawyer",
+        "believed",
+        "the",
+        "witness",
+        "that",
+        "saw",
+        "the",
+        "defendant",
+        "last",
+        "month"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "defendant"
+      ],
+      "critical_surprisal": 12.861018791767815
+    },
+    "s_xx": {
+      "original_tokens": [
+        "He knows",
+        "that",
+        "the lawyer",
+        "believed",
+        "the witness",
+        "that",
+        "saw",
+        "_",
+        "the defendant",
+        "_",
+        "last month"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "that",
+        "the",
+        "lawyer",
+        "believed",
+        "the",
+        "witness",
+        "that",
+        "saw",
+        "the",
+        "defendant",
+        "last",
+        "month"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "defendant"
+      ],
+      "critical_surprisal": 10.60666693658775
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "You remember",
+        "what",
+        "the president",
+        "promised",
+        "a plan",
+        "that",
+        "proposed",
+        "_",
+        "recently",
+        "_"
+      ],
+      "processed_tokens": [
+        "You",
+        "remember",
+        "what",
+        "the",
+        "president",
+        "promised",
+        "a",
+        "plan",
+        "that",
+        "proposed",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "recently"
+      ],
+      "critical_surprisal": 16.238581256548287
+    },
+    "s_xb": {
+      "original_tokens": [
+        "You remember",
+        "that",
+        "the president",
+        "promised",
+        "a plan",
+        "that",
+        "proposed",
+        "_",
+        "recently",
+        "_"
+      ],
+      "processed_tokens": [
+        "You",
+        "remember",
+        "that",
+        "the",
+        "president",
+        "promised",
+        "a",
+        "plan",
+        "that",
+        "proposed",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "recently"
+      ],
+      "critical_surprisal": 16.53973388509872
+    },
+    "s_ax": {
+      "original_tokens": [
+        "You remember",
+        "what",
+        "the president",
+        "promised",
+        "a plan",
+        "that",
+        "proposed",
+        "_",
+        "improvements",
+        "_",
+        "recently"
+      ],
+      "processed_tokens": [
+        "You",
+        "remember",
+        "what",
+        "the",
+        "president",
+        "promised",
+        "a",
+        "plan",
+        "that",
+        "proposed",
+        "improvements",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "improvements"
+      ],
+      "critical_surprisal": 11.2913812924852
+    },
+    "s_xx": {
+      "original_tokens": [
+        "You remember",
+        "that",
+        "the president",
+        "promised",
+        "a plan",
+        "that",
+        "proposed",
+        "_",
+        "improvements",
+        "_",
+        "recently"
+      ],
+      "processed_tokens": [
+        "You",
+        "remember",
+        "that",
+        "the",
+        "president",
+        "promised",
+        "a",
+        "plan",
+        "that",
+        "proposed",
+        "improvements",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "improvements"
+      ],
+      "critical_surprisal": 9.952461271057459
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "The newspaper reported",
+        "who",
+        "the policeman",
+        "knew",
+        "the mayor",
+        "that",
+        "bribed",
+        "_",
+        "for a long time",
+        "_"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "who",
+        "the",
+        "policeman",
+        "knew",
+        "the",
+        "mayor",
+        "that",
+        "bribed",
+        "for",
+        "a",
+        "long",
+        "time"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "for",
+        "a",
+        "long",
+        "time"
+      ],
+      "critical_surprisal": 21.74099736993203
+    },
+    "s_xb": {
+      "original_tokens": [
+        "The newspaper reported",
+        "that",
+        "the policeman",
+        "knew",
+        "the mayor",
+        "that",
+        "bribed",
+        "_",
+        "for a long time",
+        "_"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "that",
+        "the",
+        "policeman",
+        "knew",
+        "the",
+        "mayor",
+        "that",
+        "bribed",
+        "for",
+        "a",
+        "long",
+        "time"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "for",
+        "a",
+        "long",
+        "time"
+      ],
+      "critical_surprisal": 21.415824354492212
+    },
+    "s_ax": {
+      "original_tokens": [
+        "The newspaper reported",
+        "who",
+        "the policeman",
+        "knew",
+        "the mayor",
+        "that",
+        "bribed",
+        "_",
+        "the judge",
+        "_",
+        "for a long time"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "who",
+        "the",
+        "policeman",
+        "knew",
+        "the",
+        "mayor",
+        "that",
+        "bribed",
+        "the",
+        "judge",
+        "for",
+        "a",
+        "long",
+        "time"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "judge"
+      ],
+      "critical_surprisal": 9.259343412882227
+    },
+    "s_xx": {
+      "original_tokens": [
+        "The newspaper reported",
+        "that",
+        "the policeman",
+        "knew",
+        "the mayor",
+        "that",
+        "bribed",
+        "_",
+        "the judge",
+        "_",
+        "for a long time"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "that",
+        "the",
+        "policeman",
+        "knew",
+        "the",
+        "mayor",
+        "that",
+        "bribed",
+        "the",
+        "judge",
+        "for",
+        "a",
+        "long",
+        "time"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "judge"
+      ],
+      "critical_surprisal": 9.971847155462715
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "what",
+        "the accountant",
+        "saw",
+        "the documents",
+        "that",
+        "outlined",
+        "_",
+        "last week",
+        "_"
+      ],
+      "processed_tokens": [
+        "what",
+        "the",
+        "accountant",
+        "saw",
+        "the",
+        "documents",
+        "that",
+        "outlined",
+        "last",
+        "week"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "week"
+      ],
+      "critical_surprisal": 21.350528905317688
+    },
+    "s_xb": {
+      "original_tokens": [
+        "that",
+        "the accountant",
+        "saw",
+        "the documents",
+        "that",
+        "outlined",
+        "_",
+        "last week",
+        "_"
+      ],
+      "processed_tokens": [
+        "that",
+        "the",
+        "accountant",
+        "saw",
+        "the",
+        "documents",
+        "that",
+        "outlined",
+        "last",
+        "week"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "week"
+      ],
+      "critical_surprisal": 24.885659811026855
+    },
+    "s_ax": {
+      "original_tokens": [
+        "what",
+        "the accountant",
+        "saw",
+        "the documents",
+        "that",
+        "outlined",
+        "_",
+        "the plans",
+        "_",
+        "last week"
+      ],
+      "processed_tokens": [
+        "what",
+        "the",
+        "accountant",
+        "saw",
+        "the",
+        "documents",
+        "that",
+        "outlined",
+        "the",
+        "plans",
+        "last",
+        "week"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "plans"
+      ],
+      "critical_surprisal": 8.968920179979845
+    },
+    "s_xx": {
+      "original_tokens": [
+        "that",
+        "the accountant",
+        "saw",
+        "the documents",
+        "that",
+        "outlined",
+        "_",
+        "the plans",
+        "_",
+        "last week"
+      ],
+      "processed_tokens": [
+        "that",
+        "the",
+        "accountant",
+        "saw",
+        "the",
+        "documents",
+        "that",
+        "outlined",
+        "the",
+        "plans",
+        "last",
+        "week"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "plans"
+      ],
+      "critical_surprisal": 8.305837887899246
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "They recall",
+        "who",
+        "the nurse",
+        "helped",
+        "the doctor",
+        "that",
+        "liked",
+        "_",
+        "last night",
+        "_"
+      ],
+      "processed_tokens": [
+        "They",
+        "recall",
+        "who",
+        "the",
+        "nurse",
+        "helped",
+        "the",
+        "doctor",
+        "that",
+        "liked",
+        "last",
+        "night"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "night"
+      ],
+      "critical_surprisal": 22.098338364354525
+    },
+    "s_xb": {
+      "original_tokens": [
+        "They recall",
+        "that",
+        "the nurse",
+        "helped",
+        "the doctor",
+        "that",
+        "liked",
+        "_",
+        "last night",
+        "_"
+      ],
+      "processed_tokens": [
+        "They",
+        "recall",
+        "that",
+        "the",
+        "nurse",
+        "helped",
+        "the",
+        "doctor",
+        "that",
+        "liked",
+        "last",
+        "night"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "night"
+      ],
+      "critical_surprisal": 23.345100794386827
+    },
+    "s_ax": {
+      "original_tokens": [
+        "They recall",
+        "who",
+        "the nurse",
+        "helped",
+        "the doctor",
+        "that",
+        "liked",
+        "_",
+        "the surgeon",
+        "_",
+        "last night"
+      ],
+      "processed_tokens": [
+        "They",
+        "recall",
+        "who",
+        "the",
+        "nurse",
+        "helped",
+        "the",
+        "doctor",
+        "that",
+        "liked",
+        "the",
+        "surgeon",
+        "last",
+        "night"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "surgeon"
+      ],
+      "critical_surprisal": 11.352396609427705
+    },
+    "s_xx": {
+      "original_tokens": [
+        "They recall",
+        "that",
+        "the nurse",
+        "helped",
+        "the doctor",
+        "that",
+        "liked",
+        "_",
+        "the surgeon",
+        "_",
+        "last night"
+      ],
+      "processed_tokens": [
+        "They",
+        "recall",
+        "that",
+        "the",
+        "nurse",
+        "helped",
+        "the",
+        "doctor",
+        "that",
+        "liked",
+        "the",
+        "surgeon",
+        "last",
+        "night"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "surgeon"
+      ],
+      "critical_surprisal": 10.339125049478088
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "He told me",
+        "what",
+        "the family",
+        "criticized",
+        "the television show",
+        "that",
+        "mocked",
+        "_",
+        "frequently",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "told",
+        "me",
+        "what",
+        "the",
+        "family",
+        "criticized",
+        "the",
+        "television",
+        "show",
+        "that",
+        "mocked",
+        "frequently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "frequently"
+      ],
+      "critical_surprisal": 16.526046817812457
+    },
+    "s_xb": {
+      "original_tokens": [
+        "He told me",
+        "that",
+        "the family",
+        "criticized",
+        "the television show",
+        "that",
+        "mocked",
+        "_",
+        "frequently",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "told",
+        "me",
+        "that",
+        "the",
+        "family",
+        "criticized",
+        "the",
+        "television",
+        "show",
+        "that",
+        "mocked",
+        "frequently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "frequently"
+      ],
+      "critical_surprisal": 17.253038120927652
+    },
+    "s_ax": {
+      "original_tokens": [
+        "He told me",
+        "what",
+        "the family",
+        "criticized",
+        "the television show",
+        "that",
+        "mocked",
+        "_",
+        "the government",
+        "_",
+        "frequently"
+      ],
+      "processed_tokens": [
+        "He",
+        "told",
+        "me",
+        "what",
+        "the",
+        "family",
+        "criticized",
+        "the",
+        "television",
+        "show",
+        "that",
+        "mocked",
+        "the",
+        "government",
+        "frequently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "government"
+      ],
+      "critical_surprisal": 9.994907277221005
+    },
+    "s_xx": {
+      "original_tokens": [
+        "He told me",
+        "that",
+        "the family",
+        "criticized",
+        "the television show",
+        "that",
+        "mocked",
+        "_",
+        "the government",
+        "_",
+        "frequently"
+      ],
+      "processed_tokens": [
+        "He",
+        "told",
+        "me",
+        "that",
+        "the",
+        "family",
+        "criticized",
+        "the",
+        "television",
+        "show",
+        "that",
+        "mocked",
+        "the",
+        "government",
+        "frequently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "government"
+      ],
+      "critical_surprisal": 9.40154614986091
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "She told me",
+        "who",
+        "the politician",
+        "disliked",
+        "the congressman",
+        "that",
+        "criticized",
+        "_",
+        "last year",
+        "_"
+      ],
+      "processed_tokens": [
+        "She",
+        "told",
+        "me",
+        "who",
+        "the",
+        "politician",
+        "disliked",
+        "the",
+        "congressman",
+        "that",
+        "criticized",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "year"
+      ],
+      "critical_surprisal": 22.848390821123914
+    },
+    "s_xb": {
+      "original_tokens": [
+        "She told me",
+        "that",
+        "the politician",
+        "disliked",
+        "the congressman",
+        "that",
+        "criticized",
+        "_",
+        "last year",
+        "_"
+      ],
+      "processed_tokens": [
+        "She",
+        "told",
+        "me",
+        "that",
+        "the",
+        "politician",
+        "disliked",
+        "the",
+        "congressman",
+        "that",
+        "criticized",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "year"
+      ],
+      "critical_surprisal": 23.57398596907941
+    },
+    "s_ax": {
+      "original_tokens": [
+        "She told me",
+        "who",
+        "the politician",
+        "disliked",
+        "the congressman",
+        "that",
+        "criticized",
+        "_",
+        "the president",
+        "_",
+        "last year"
+      ],
+      "processed_tokens": [
+        "She",
+        "told",
+        "me",
+        "who",
+        "the",
+        "politician",
+        "disliked",
+        "the",
+        "congressman",
+        "that",
+        "criticized",
+        "the",
+        "president",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "president"
+      ],
+      "critical_surprisal": 10.78911834339123
+    },
+    "s_xx": {
+      "original_tokens": [
+        "She told me",
+        "that",
+        "the politician",
+        "disliked",
+        "the congressman",
+        "that",
+        "criticized",
+        "_",
+        "the president",
+        "_",
+        "last year"
+      ],
+      "processed_tokens": [
+        "She",
+        "told",
+        "me",
+        "that",
+        "the",
+        "politician",
+        "disliked",
+        "the",
+        "congressman",
+        "that",
+        "criticized",
+        "the",
+        "president",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "president"
+      ],
+      "critical_surprisal": 10.118993275766472
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "He knows",
+        "what",
+        "the janitor",
+        "cleaned",
+        "the room",
+        "that",
+        "housed",
+        "_",
+        "for a long time",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "what",
+        "the",
+        "janitor",
+        "cleaned",
+        "the",
+        "room",
+        "that",
+        "housed",
+        "for",
+        "a",
+        "long",
+        "time"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "for",
+        "a",
+        "long",
+        "time"
+      ],
+      "critical_surprisal": 21.223903862404036
+    },
+    "s_xb": {
+      "original_tokens": [
+        "He knows",
+        "that",
+        "the janitor",
+        "cleaned",
+        "the room",
+        "that",
+        "housed",
+        "_",
+        "for a long time",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "that",
+        "the",
+        "janitor",
+        "cleaned",
+        "the",
+        "room",
+        "that",
+        "housed",
+        "for",
+        "a",
+        "long",
+        "time"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "for",
+        "a",
+        "long",
+        "time"
+      ],
+      "critical_surprisal": 23.482900947486073
+    },
+    "s_ax": {
+      "original_tokens": [
+        "He knows",
+        "what",
+        "the janitor",
+        "cleaned",
+        "the room",
+        "that",
+        "housed",
+        "_",
+        "the computers",
+        "_",
+        "for a long time"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "what",
+        "the",
+        "janitor",
+        "cleaned",
+        "the",
+        "room",
+        "that",
+        "housed",
+        "the",
+        "computers",
+        "for",
+        "a",
+        "long",
+        "time"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "computers"
+      ],
+      "critical_surprisal": 16.663275902519512
+    },
+    "s_xx": {
+      "original_tokens": [
+        "He knows",
+        "that",
+        "the janitor",
+        "cleaned",
+        "the room",
+        "that",
+        "housed",
+        "_",
+        "the computers",
+        "_",
+        "for a long time"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "that",
+        "the",
+        "janitor",
+        "cleaned",
+        "the",
+        "room",
+        "that",
+        "housed",
+        "the",
+        "computers",
+        "for",
+        "a",
+        "long",
+        "time"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "computers"
+      ],
+      "critical_surprisal": 16.17061078922224
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "He said",
+        "what",
+        "the mailman",
+        "feared",
+        "the dog",
+        "that",
+        "disliked",
+        "_",
+        "when he was young",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "said",
+        "what",
+        "the",
+        "mailman",
+        "feared",
+        "the",
+        "dog",
+        "that",
+        "disliked",
+        "when",
+        "he",
+        "was",
+        "young"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "when",
+        "he",
+        "was",
+        "young"
+      ],
+      "critical_surprisal": 18.649537073951006
+    },
+    "s_xb": {
+      "original_tokens": [
+        "He said",
+        "that",
+        "the mailman",
+        "feared",
+        "the dog",
+        "that",
+        "disliked",
+        "_",
+        "when he was young",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "said",
+        "that",
+        "the",
+        "mailman",
+        "feared",
+        "the",
+        "dog",
+        "that",
+        "disliked",
+        "when",
+        "he",
+        "was",
+        "young"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "when",
+        "he",
+        "was",
+        "young"
+      ],
+      "critical_surprisal": 23.97394950985656
+    },
+    "s_ax": {
+      "original_tokens": [
+        "He said",
+        "what",
+        "the mailman",
+        "feared",
+        "the dog",
+        "that",
+        "disliked",
+        "_",
+        "thunderstorms",
+        "_",
+        "when he was young"
+      ],
+      "processed_tokens": [
+        "He",
+        "said",
+        "what",
+        "the",
+        "mailman",
+        "feared",
+        "the",
+        "dog",
+        "that",
+        "disliked",
+        "thunderstorms",
+        "when",
+        "he",
+        "was",
+        "young"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "thunderstorms"
+      ],
+      "critical_surprisal": 23.411472682973102
+    },
+    "s_xx": {
+      "original_tokens": [
+        "He said",
+        "that",
+        "the mailman",
+        "feared",
+        "the dog",
+        "that",
+        "disliked",
+        "_",
+        "thunderstorms",
+        "_",
+        "when he was young"
+      ],
+      "processed_tokens": [
+        "He",
+        "said",
+        "that",
+        "the",
+        "mailman",
+        "feared",
+        "the",
+        "dog",
+        "that",
+        "disliked",
+        "thunderstorms",
+        "when",
+        "he",
+        "was",
+        "young"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "thunderstorms"
+      ],
+      "critical_surprisal": 24.09625256426053
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "The newspaper reported",
+        "who",
+        "the lawyer",
+        "defended",
+        "the criminal",
+        "that",
+        "murdered",
+        "_",
+        "last year",
+        "_"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "who",
+        "the",
+        "lawyer",
+        "defended",
+        "the",
+        "criminal",
+        "that",
+        "murdered",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "year"
+      ],
+      "critical_surprisal": 23.611540788652412
+    },
+    "s_xb": {
+      "original_tokens": [
+        "The newspaper reported",
+        "that",
+        "the lawyer",
+        "defended",
+        "the criminal",
+        "that",
+        "murdered",
+        "_",
+        "last year",
+        "_"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "that",
+        "the",
+        "lawyer",
+        "defended",
+        "the",
+        "criminal",
+        "that",
+        "murdered",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "year"
+      ],
+      "critical_surprisal": 23.75800878136382
+    },
+    "s_ax": {
+      "original_tokens": [
+        "The newspaper reported",
+        "who",
+        "the lawyer",
+        "defended",
+        "the criminal",
+        "that",
+        "murdered",
+        "_",
+        "his friend",
+        "_",
+        "last year"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "who",
+        "the",
+        "lawyer",
+        "defended",
+        "the",
+        "criminal",
+        "that",
+        "murdered",
+        "his",
+        "friend",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "his",
+        "friend"
+      ],
+      "critical_surprisal": 9.435779984445755
+    },
+    "s_xx": {
+      "original_tokens": [
+        "The newspaper reported",
+        "that",
+        "the lawyer",
+        "defended",
+        "the criminal",
+        "that",
+        "murdered",
+        "_",
+        "his friend",
+        "_",
+        "last year"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "that",
+        "the",
+        "lawyer",
+        "defended",
+        "the",
+        "criminal",
+        "that",
+        "murdered",
+        "his",
+        "friend",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "his",
+        "friend"
+      ],
+      "critical_surprisal": 9.772034272037287
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "You remember",
+        "what",
+        "the boy",
+        "chased",
+        "the cat",
+        "that",
+        "hunted",
+        "_",
+        "recently",
+        "_"
+      ],
+      "processed_tokens": [
+        "You",
+        "remember",
+        "what",
+        "the",
+        "boy",
+        "chased",
+        "the",
+        "cat",
+        "that",
+        "hunted",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "recently"
+      ],
+      "critical_surprisal": 14.975609461672168
+    },
+    "s_xb": {
+      "original_tokens": [
+        "You remember",
+        "that",
+        "the boy",
+        "chased",
+        "the cat",
+        "that",
+        "hunted",
+        "_",
+        "recently",
+        "_"
+      ],
+      "processed_tokens": [
+        "You",
+        "remember",
+        "that",
+        "the",
+        "boy",
+        "chased",
+        "the",
+        "cat",
+        "that",
+        "hunted",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "recently"
+      ],
+      "critical_surprisal": 15.062833558744956
+    },
+    "s_ax": {
+      "original_tokens": [
+        "You remember",
+        "what",
+        "the boy",
+        "chased",
+        "the cat",
+        "that",
+        "hunted",
+        "_",
+        "mice",
+        "_",
+        "recently"
+      ],
+      "processed_tokens": [
+        "You",
+        "remember",
+        "what",
+        "the",
+        "boy",
+        "chased",
+        "the",
+        "cat",
+        "that",
+        "hunted",
+        "mice",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "mice"
+      ],
+      "critical_surprisal": 11.26004261384498
+    },
+    "s_xx": {
+      "original_tokens": [
+        "You remember",
+        "that",
+        "the boy",
+        "chased",
+        "the cat",
+        "that",
+        "hunted",
+        "_",
+        "mice",
+        "_",
+        "recently"
+      ],
+      "processed_tokens": [
+        "You",
+        "remember",
+        "that",
+        "the",
+        "boy",
+        "chased",
+        "the",
+        "cat",
+        "that",
+        "hunted",
+        "mice",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "mice"
+      ],
+      "critical_surprisal": 10.534101092830651
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "He told me",
+        "what",
+        "the girl",
+        "loved",
+        "the horses",
+        "that",
+        "ate",
+        "_",
+        "last summer",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "told",
+        "me",
+        "what",
+        "the",
+        "girl",
+        "loved",
+        "the",
+        "horses",
+        "that",
+        "ate",
+        "last",
+        "summer"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "summer"
+      ],
+      "critical_surprisal": 24.63827996602579
+    },
+    "s_xb": {
+      "original_tokens": [
+        "He told me",
+        "that",
+        "the girl",
+        "loved",
+        "the horses",
+        "that",
+        "ate",
+        "_",
+        "last summer",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "told",
+        "me",
+        "that",
+        "the",
+        "girl",
+        "loved",
+        "the",
+        "horses",
+        "that",
+        "ate",
+        "last",
+        "summer"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "summer"
+      ],
+      "critical_surprisal": 24.716516937695097
+    },
+    "s_ax": {
+      "original_tokens": [
+        "He told me",
+        "what",
+        "the girl",
+        "loved",
+        "the horses",
+        "that",
+        "ate",
+        "_",
+        "apples",
+        "_",
+        "last summer"
+      ],
+      "processed_tokens": [
+        "He",
+        "told",
+        "me",
+        "what",
+        "the",
+        "girl",
+        "loved",
+        "the",
+        "horses",
+        "that",
+        "ate",
+        "apples",
+        "last",
+        "summer"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "apples"
+      ],
+      "critical_surprisal": 12.487499303387327
+    },
+    "s_xx": {
+      "original_tokens": [
+        "He told me",
+        "that",
+        "the girl",
+        "loved",
+        "the horses",
+        "that",
+        "ate",
+        "_",
+        "apples",
+        "_",
+        "last summer"
+      ],
+      "processed_tokens": [
+        "He",
+        "told",
+        "me",
+        "that",
+        "the",
+        "girl",
+        "loved",
+        "the",
+        "horses",
+        "that",
+        "ate",
+        "apples",
+        "last",
+        "summer"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "apples"
+      ],
+      "critical_surprisal": 12.4056892201637
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "He knows",
+        "who",
+        "the neighbor",
+        "rebuked",
+        "the mayor",
+        "that",
+        "appointed",
+        "_",
+        "last year",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "who",
+        "the",
+        "neighbor",
+        "rebuked",
+        "the",
+        "mayor",
+        "that",
+        "appointed",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "year"
+      ],
+      "critical_surprisal": 22.228269193289563
+    },
+    "s_xb": {
+      "original_tokens": [
+        "He knows",
+        "that",
+        "the neighbor",
+        "rebuked",
+        "the mayor",
+        "that",
+        "appointed",
+        "_",
+        "last year",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "that",
+        "the",
+        "neighbor",
+        "rebuked",
+        "the",
+        "mayor",
+        "that",
+        "appointed",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "year"
+      ],
+      "critical_surprisal": 20.643167014041367
+    },
+    "s_ax": {
+      "original_tokens": [
+        "He knows",
+        "who",
+        "the neighbor",
+        "rebuked",
+        "the mayor",
+        "that",
+        "appointed",
+        "_",
+        "the planner",
+        "_",
+        "last year"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "who",
+        "the",
+        "neighbor",
+        "rebuked",
+        "the",
+        "mayor",
+        "that",
+        "appointed",
+        "the",
+        "planner",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "planner"
+      ],
+      "critical_surprisal": 18.415658039025324
+    },
+    "s_xx": {
+      "original_tokens": [
+        "He knows",
+        "that",
+        "the neighbor",
+        "rebuked",
+        "the mayor",
+        "that",
+        "appointed",
+        "_",
+        "the planner",
+        "_",
+        "last year"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "that",
+        "the",
+        "neighbor",
+        "rebuked",
+        "the",
+        "mayor",
+        "that",
+        "appointed",
+        "the",
+        "planner",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "planner"
+      ],
+      "critical_surprisal": 18.24051451902231
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "They recall",
+        "who",
+        "the lady",
+        "admired",
+        "the count",
+        "that",
+        "loved",
+        "_",
+        "last week",
+        "_"
+      ],
+      "processed_tokens": [
+        "They",
+        "recall",
+        "who",
+        "the",
+        "lady",
+        "admired",
+        "the",
+        "count",
+        "that",
+        "loved",
+        "last",
+        "week"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "week"
+      ],
+      "critical_surprisal": 24.858326264359928
+    },
+    "s_xb": {
+      "original_tokens": [
+        "They recall",
+        "that",
+        "the lady",
+        "admired",
+        "the count",
+        "that",
+        "loved",
+        "_",
+        "last week",
+        "_"
+      ],
+      "processed_tokens": [
+        "They",
+        "recall",
+        "that",
+        "the",
+        "lady",
+        "admired",
+        "the",
+        "count",
+        "that",
+        "loved",
+        "last",
+        "week"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "week"
+      ],
+      "critical_surprisal": 24.59093658189628
+    },
+    "s_ax": {
+      "original_tokens": [
+        "They recall",
+        "who",
+        "the lady",
+        "admired",
+        "the count",
+        "that",
+        "loved",
+        "_",
+        "the princess",
+        "_",
+        "last week"
+      ],
+      "processed_tokens": [
+        "They",
+        "recall",
+        "who",
+        "the",
+        "lady",
+        "admired",
+        "the",
+        "count",
+        "that",
+        "loved",
+        "the",
+        "princess",
+        "last",
+        "week"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "princess"
+      ],
+      "critical_surprisal": 10.294567784292552
+    },
+    "s_xx": {
+      "original_tokens": [
+        "They recall",
+        "that",
+        "the lady",
+        "admired",
+        "the count",
+        "that",
+        "loved",
+        "_",
+        "the princess",
+        "_",
+        "last week"
+      ],
+      "processed_tokens": [
+        "They",
+        "recall",
+        "that",
+        "the",
+        "lady",
+        "admired",
+        "the",
+        "count",
+        "that",
+        "loved",
+        "the",
+        "princess",
+        "last",
+        "week"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "princess"
+      ],
+      "critical_surprisal": 9.930160796668032
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "The newspaper reported",
+        "who",
+        "the prince",
+        "believed",
+        "the advisor",
+        "that",
+        "avoided",
+        "_",
+        "last winter",
+        "_"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "who",
+        "the",
+        "prince",
+        "believed",
+        "the",
+        "advisor",
+        "that",
+        "avoided",
+        "last",
+        "winter"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "winter"
+      ],
+      "critical_surprisal": 26.917775168814046
+    },
+    "s_xb": {
+      "original_tokens": [
+        "The newspaper reported",
+        "that",
+        "the prince",
+        "believed",
+        "the advisor",
+        "that",
+        "avoided",
+        "_",
+        "last winter",
+        "_"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "that",
+        "the",
+        "prince",
+        "believed",
+        "the",
+        "advisor",
+        "that",
+        "avoided",
+        "last",
+        "winter"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "winter"
+      ],
+      "critical_surprisal": 26.006377188137712
+    },
+    "s_ax": {
+      "original_tokens": [
+        "The newspaper reported",
+        "who",
+        "the prince",
+        "believed",
+        "the advisor",
+        "that",
+        "avoided",
+        "_",
+        "the queen",
+        "_",
+        "last winter"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "who",
+        "the",
+        "prince",
+        "believed",
+        "the",
+        "advisor",
+        "that",
+        "avoided",
+        "the",
+        "queen",
+        "last",
+        "winter"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "queen"
+      ],
+      "critical_surprisal": 12.90258441874159
+    },
+    "s_xx": {
+      "original_tokens": [
+        "The newspaper reported",
+        "that",
+        "the prince",
+        "believed",
+        "the advisor",
+        "that",
+        "avoided",
+        "_",
+        "the queen",
+        "_",
+        "last winter"
+      ],
+      "processed_tokens": [
+        "The",
+        "newspaper",
+        "reported",
+        "that",
+        "the",
+        "prince",
+        "believed",
+        "the",
+        "advisor",
+        "that",
+        "avoided",
+        "the",
+        "queen",
+        "last",
+        "winter"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "queen"
+      ],
+      "critical_surprisal": 12.233370171235805
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "You remember",
+        "what",
+        "the knight",
+        "saw",
+        "the dragon",
+        "that",
+        "guarded",
+        "_",
+        "last night",
+        "_"
+      ],
+      "processed_tokens": [
+        "You",
+        "remember",
+        "what",
+        "the",
+        "knight",
+        "saw",
+        "the",
+        "dragon",
+        "that",
+        "guarded",
+        "last",
+        "night"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "night"
+      ],
+      "critical_surprisal": 21.00386450786943
+    },
+    "s_xb": {
+      "original_tokens": [
+        "You remember",
+        "that",
+        "the knight",
+        "saw",
+        "the dragon",
+        "that",
+        "guarded",
+        "_",
+        "last night",
+        "_"
+      ],
+      "processed_tokens": [
+        "You",
+        "remember",
+        "that",
+        "the",
+        "knight",
+        "saw",
+        "the",
+        "dragon",
+        "that",
+        "guarded",
+        "last",
+        "night"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "night"
+      ],
+      "critical_surprisal": 21.207422829465347
+    },
+    "s_ax": {
+      "original_tokens": [
+        "You remember",
+        "what",
+        "the knight",
+        "saw",
+        "the dragon",
+        "that",
+        "guarded",
+        "_",
+        "the treasure",
+        "_",
+        "last night"
+      ],
+      "processed_tokens": [
+        "You",
+        "remember",
+        "what",
+        "the",
+        "knight",
+        "saw",
+        "the",
+        "dragon",
+        "that",
+        "guarded",
+        "the",
+        "treasure",
+        "last",
+        "night"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "treasure"
+      ],
+      "critical_surprisal": 10.51574486855611
+    },
+    "s_xx": {
+      "original_tokens": [
+        "You remember",
+        "that",
+        "the knight",
+        "saw",
+        "the dragon",
+        "that",
+        "guarded",
+        "_",
+        "the treasure",
+        "_",
+        "last night"
+      ],
+      "processed_tokens": [
+        "You",
+        "remember",
+        "that",
+        "the",
+        "knight",
+        "saw",
+        "the",
+        "dragon",
+        "that",
+        "guarded",
+        "the",
+        "treasure",
+        "last",
+        "night"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "treasure"
+      ],
+      "critical_surprisal": 9.046772426459167
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "She told me",
+        "who",
+        "the banker",
+        "met",
+        "the executive",
+        "that",
+        "trusted",
+        "_",
+        "recently",
+        "_"
+      ],
+      "processed_tokens": [
+        "She",
+        "told",
+        "me",
+        "who",
+        "the",
+        "banker",
+        "met",
+        "the",
+        "executive",
+        "that",
+        "trusted",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "recently"
+      ],
+      "critical_surprisal": 18.494219026008853
+    },
+    "s_xb": {
+      "original_tokens": [
+        "She told me",
+        "that",
+        "the banker",
+        "met",
+        "the executive",
+        "that",
+        "trusted",
+        "_",
+        "recently",
+        "_"
+      ],
+      "processed_tokens": [
+        "She",
+        "told",
+        "me",
+        "that",
+        "the",
+        "banker",
+        "met",
+        "the",
+        "executive",
+        "that",
+        "trusted",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "recently"
+      ],
+      "critical_surprisal": 18.36963204200142
+    },
+    "s_ax": {
+      "original_tokens": [
+        "She told me",
+        "who",
+        "the banker",
+        "met",
+        "the executive",
+        "that",
+        "trusted",
+        "_",
+        "the investor",
+        "_",
+        "recently"
+      ],
+      "processed_tokens": [
+        "She",
+        "told",
+        "me",
+        "who",
+        "the",
+        "banker",
+        "met",
+        "the",
+        "executive",
+        "that",
+        "trusted",
+        "the",
+        "investor",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "investor"
+      ],
+      "critical_surprisal": 15.68028962747358
+    },
+    "s_xx": {
+      "original_tokens": [
+        "She told me",
+        "that",
+        "the banker",
+        "met",
+        "the executive",
+        "that",
+        "trusted",
+        "_",
+        "the investor",
+        "_",
+        "recently"
+      ],
+      "processed_tokens": [
+        "She",
+        "told",
+        "me",
+        "that",
+        "the",
+        "banker",
+        "met",
+        "the",
+        "executive",
+        "that",
+        "trusted",
+        "the",
+        "investor",
+        "recently"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "investor"
+      ],
+      "critical_surprisal": 14.176800267348472
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "He knows",
+        "who",
+        "the waitress",
+        "thanked",
+        "the customers",
+        "that",
+        "knew",
+        "_",
+        "after the meal",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "who",
+        "the",
+        "waitress",
+        "thanked",
+        "the",
+        "customers",
+        "that",
+        "knew",
+        "after",
+        "the",
+        "meal"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "after",
+        "the",
+        "meal"
+      ],
+      "critical_surprisal": 21.22208159872899
+    },
+    "s_xb": {
+      "original_tokens": [
+        "He knows",
+        "that",
+        "the waitress",
+        "thanked",
+        "the customers",
+        "that",
+        "knew",
+        "_",
+        "after the meal",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "that",
+        "the",
+        "waitress",
+        "thanked",
+        "the",
+        "customers",
+        "that",
+        "knew",
+        "after",
+        "the",
+        "meal"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "after",
+        "the",
+        "meal"
+      ],
+      "critical_surprisal": 21.144637983028115
+    },
+    "s_ax": {
+      "original_tokens": [
+        "He knows",
+        "who",
+        "the waitress",
+        "thanked",
+        "the customers",
+        "that",
+        "knew",
+        "_",
+        "the manager",
+        "_",
+        "after the meal"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "who",
+        "the",
+        "waitress",
+        "thanked",
+        "the",
+        "customers",
+        "that",
+        "knew",
+        "the",
+        "manager",
+        "after",
+        "the",
+        "meal"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "manager"
+      ],
+      "critical_surprisal": 13.334250381465539
+    },
+    "s_xx": {
+      "original_tokens": [
+        "He knows",
+        "that",
+        "the waitress",
+        "thanked",
+        "the customers",
+        "that",
+        "knew",
+        "_",
+        "the manager",
+        "_",
+        "after the meal"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "that",
+        "the",
+        "waitress",
+        "thanked",
+        "the",
+        "customers",
+        "that",
+        "knew",
+        "the",
+        "manager",
+        "after",
+        "the",
+        "meal"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "manager"
+      ],
+      "critical_surprisal": 13.382457806432988
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "I know",
+        "who",
+        "the priest",
+        "congratulated",
+        "the couple",
+        "that",
+        "admired",
+        "_",
+        "during the ceremony",
+        "_"
+      ],
+      "processed_tokens": [
+        "I",
+        "know",
+        "who",
+        "the",
+        "priest",
+        "congratulated",
+        "the",
+        "couple",
+        "that",
+        "admired",
+        "during",
+        "the",
+        "ceremony"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "during",
+        "the",
+        "ceremony"
+      ],
+      "critical_surprisal": 20.5166985398335
+    },
+    "s_xb": {
+      "original_tokens": [
+        "I know",
+        "that",
+        "the priest",
+        "congratulated",
+        "the couple",
+        "that",
+        "admired",
+        "_",
+        "during the ceremony",
+        "_"
+      ],
+      "processed_tokens": [
+        "I",
+        "know",
+        "that",
+        "the",
+        "priest",
+        "congratulated",
+        "the",
+        "couple",
+        "that",
+        "admired",
+        "during",
+        "the",
+        "ceremony"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "during",
+        "the",
+        "ceremony"
+      ],
+      "critical_surprisal": 19.94006427311367
+    },
+    "s_ax": {
+      "original_tokens": [
+        "I know",
+        "who",
+        "the priest",
+        "congratulated",
+        "the couple",
+        "that",
+        "admired",
+        "_",
+        "the alter boy",
+        "_",
+        "during the ceremony"
+      ],
+      "processed_tokens": [
+        "I",
+        "know",
+        "who",
+        "the",
+        "priest",
+        "congratulated",
+        "the",
+        "couple",
+        "that",
+        "admired",
+        "the",
+        "alter",
+        "boy",
+        "during",
+        "the",
+        "ceremony"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "alter",
+        "boy"
+      ],
+      "critical_surprisal": 39.497727357808344
+    },
+    "s_xx": {
+      "original_tokens": [
+        "I know",
+        "that",
+        "the priest",
+        "congratulated",
+        "the couple",
+        "that",
+        "admired",
+        "_",
+        "the alter boy",
+        "_",
+        "during the ceremony"
+      ],
+      "processed_tokens": [
+        "I",
+        "know",
+        "that",
+        "the",
+        "priest",
+        "congratulated",
+        "the",
+        "couple",
+        "that",
+        "admired",
+        "the",
+        "alter",
+        "boy",
+        "during",
+        "the",
+        "ceremony"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "alter",
+        "boy"
+      ],
+      "critical_surprisal": 38.99217764827374
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "She knows",
+        "who",
+        "the detective",
+        "reassured",
+        "the man",
+        "that",
+        "found",
+        "_",
+        "last night",
+        "_"
+      ],
+      "processed_tokens": [
+        "She",
+        "knows",
+        "who",
+        "the",
+        "detective",
+        "reassured",
+        "the",
+        "man",
+        "that",
+        "found",
+        "last",
+        "night"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "night"
+      ],
+      "critical_surprisal": 21.712597444838423
+    },
+    "s_xb": {
+      "original_tokens": [
+        "She knows",
+        "that",
+        "the detective",
+        "reassured",
+        "the man",
+        "that",
+        "found",
+        "_",
+        "last night",
+        "_"
+      ],
+      "processed_tokens": [
+        "She",
+        "knows",
+        "that",
+        "the",
+        "detective",
+        "reassured",
+        "the",
+        "man",
+        "that",
+        "found",
+        "last",
+        "night"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "night"
+      ],
+      "critical_surprisal": 19.6995704414705
+    },
+    "s_ax": {
+      "original_tokens": [
+        "She knows",
+        "who",
+        "the detective",
+        "reassured",
+        "the man",
+        "that",
+        "found",
+        "_",
+        "the boy",
+        "_",
+        "last night"
+      ],
+      "processed_tokens": [
+        "She",
+        "knows",
+        "who",
+        "the",
+        "detective",
+        "reassured",
+        "the",
+        "man",
+        "that",
+        "found",
+        "the",
+        "boy",
+        "last",
+        "night"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "boy"
+      ],
+      "critical_surprisal": 10.709377039474832
+    },
+    "s_xx": {
+      "original_tokens": [
+        "She knows",
+        "that",
+        "the detective",
+        "reassured",
+        "the man",
+        "that",
+        "found",
+        "_",
+        "the boy",
+        "_",
+        "last night"
+      ],
+      "processed_tokens": [
+        "She",
+        "knows",
+        "that",
+        "the",
+        "detective",
+        "reassured",
+        "the",
+        "man",
+        "that",
+        "found",
+        "the",
+        "boy",
+        "last",
+        "night"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "boy"
+      ],
+      "critical_surprisal": 10.924037701097198
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "I know",
+        "who",
+        "the spy",
+        "informed",
+        "the politician",
+        "that",
+        "supported",
+        "_",
+        "about an attack",
+        "_"
+      ],
+      "processed_tokens": [
+        "I",
+        "know",
+        "who",
+        "the",
+        "spy",
+        "informed",
+        "the",
+        "politician",
+        "that",
+        "supported",
+        "about",
+        "an",
+        "attack"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "about",
+        "an",
+        "attack"
+      ],
+      "critical_surprisal": 25.865965048528487
+    },
+    "s_xb": {
+      "original_tokens": [
+        "I know",
+        "that",
+        "the spy",
+        "informed",
+        "the politician",
+        "that",
+        "supported",
+        "_",
+        "about an attack",
+        "_"
+      ],
+      "processed_tokens": [
+        "I",
+        "know",
+        "that",
+        "the",
+        "spy",
+        "informed",
+        "the",
+        "politician",
+        "that",
+        "supported",
+        "about",
+        "an",
+        "attack"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "about",
+        "an",
+        "attack"
+      ],
+      "critical_surprisal": 23.88278666611371
+    },
+    "s_ax": {
+      "original_tokens": [
+        "I know",
+        "who",
+        "the spy",
+        "informed",
+        "the politician",
+        "that",
+        "supported",
+        "_",
+        "the dictator",
+        "_",
+        "about an attack"
+      ],
+      "processed_tokens": [
+        "I",
+        "know",
+        "who",
+        "the",
+        "spy",
+        "informed",
+        "the",
+        "politician",
+        "that",
+        "supported",
+        "the",
+        "dictator",
+        "about",
+        "an",
+        "attack"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "dictator"
+      ],
+      "critical_surprisal": 12.681108944578787
+    },
+    "s_xx": {
+      "original_tokens": [
+        "I know",
+        "that",
+        "the spy",
+        "informed",
+        "the politician",
+        "that",
+        "supported",
+        "_",
+        "the dictator",
+        "_",
+        "about an attack"
+      ],
+      "processed_tokens": [
+        "I",
+        "know",
+        "that",
+        "the",
+        "spy",
+        "informed",
+        "the",
+        "politician",
+        "that",
+        "supported",
+        "the",
+        "dictator",
+        "about",
+        "an",
+        "attack"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "dictator"
+      ],
+      "critical_surprisal": 14.951069085237902
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "They know",
+        "what",
+        "the metal grate",
+        "blocked",
+        "the alley",
+        "that",
+        "connects",
+        "_",
+        "downtown",
+        "_"
+      ],
+      "processed_tokens": [
+        "They",
+        "know",
+        "what",
+        "the",
+        "metal",
+        "grate",
+        "blocked",
+        "the",
+        "alley",
+        "that",
+        "connects",
+        "downtown"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "downtown"
+      ],
+      "critical_surprisal": 12.007238438783538
+    },
+    "s_xb": {
+      "original_tokens": [
+        "They know",
+        "that",
+        "the metal grate",
+        "blocked",
+        "the alley",
+        "that",
+        "connects",
+        "_",
+        "downtown",
+        "_"
+      ],
+      "processed_tokens": [
+        "They",
+        "know",
+        "that",
+        "the",
+        "metal",
+        "grate",
+        "blocked",
+        "the",
+        "alley",
+        "that",
+        "connects",
+        "downtown"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "downtown"
+      ],
+      "critical_surprisal": 11.171521767584686
+    },
+    "s_ax": {
+      "original_tokens": [
+        "They know",
+        "what",
+        "the metal grate",
+        "blocked",
+        "the alley",
+        "that",
+        "connects",
+        "_",
+        "the streets",
+        "_",
+        "downtown"
+      ],
+      "processed_tokens": [
+        "They",
+        "know",
+        "what",
+        "the",
+        "metal",
+        "grate",
+        "blocked",
+        "the",
+        "alley",
+        "that",
+        "connects",
+        "the",
+        "streets",
+        "downtown"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "streets"
+      ],
+      "critical_surprisal": 10.24959690083169
+    },
+    "s_xx": {
+      "original_tokens": [
+        "They know",
+        "that",
+        "the metal grate",
+        "blocked",
+        "the alley",
+        "that",
+        "connects",
+        "_",
+        "the streets",
+        "_",
+        "downtown"
+      ],
+      "processed_tokens": [
+        "They",
+        "know",
+        "that",
+        "the",
+        "metal",
+        "grate",
+        "blocked",
+        "the",
+        "alley",
+        "that",
+        "connects",
+        "the",
+        "streets",
+        "downtown"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "streets"
+      ],
+      "critical_surprisal": 10.819028018185433
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "He knows",
+        "what",
+        "the cheetah",
+        "pursued",
+        "the gazelle",
+        "that",
+        "avoided",
+        "_",
+        "this morning",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "what",
+        "the",
+        "cheetah",
+        "pursued",
+        "the",
+        "gazelle",
+        "that",
+        "avoided",
+        "this",
+        "morning"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "this",
+        "morning"
+      ],
+      "critical_surprisal": 20.226303770059836
+    },
+    "s_xb": {
+      "original_tokens": [
+        "He knows",
+        "that",
+        "the cheetah",
+        "pursued",
+        "the gazelle",
+        "that",
+        "avoided",
+        "_",
+        "this morning",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "that",
+        "the",
+        "cheetah",
+        "pursued",
+        "the",
+        "gazelle",
+        "that",
+        "avoided",
+        "this",
+        "morning"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "this",
+        "morning"
+      ],
+      "critical_surprisal": 20.960274817077647
+    },
+    "s_ax": {
+      "original_tokens": [
+        "He knows",
+        "what",
+        "the cheetah",
+        "pursued",
+        "the gazelle",
+        "that",
+        "avoided",
+        "_",
+        "the hunters",
+        "_",
+        "this morning"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "what",
+        "the",
+        "cheetah",
+        "pursued",
+        "the",
+        "gazelle",
+        "that",
+        "avoided",
+        "the",
+        "hunters",
+        "this",
+        "morning"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "hunters"
+      ],
+      "critical_surprisal": 13.821210142303086
+    },
+    "s_xx": {
+      "original_tokens": [
+        "He knows",
+        "that",
+        "the cheetah",
+        "pursued",
+        "the gazelle",
+        "that",
+        "avoided",
+        "_",
+        "the hunters",
+        "_",
+        "this morning"
+      ],
+      "processed_tokens": [
+        "He",
+        "knows",
+        "that",
+        "the",
+        "cheetah",
+        "pursued",
+        "the",
+        "gazelle",
+        "that",
+        "avoided",
+        "the",
+        "hunters",
+        "this",
+        "morning"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "the",
+        "hunters"
+      ],
+      "critical_surprisal": 14.243791121495205
+    }
+  },
+  {
+    "s_ab": {
+      "original_tokens": [
+        "He said",
+        "what",
+        "the scientist",
+        "cured",
+        "the disease",
+        "that",
+        "caused",
+        "_",
+        "last year",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "said",
+        "what",
+        "the",
+        "scientist",
+        "cured",
+        "the",
+        "disease",
+        "that",
+        "caused",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "year"
+      ],
+      "critical_surprisal": 25.071895008131968
+    },
+    "s_xb": {
+      "original_tokens": [
+        "He said",
+        "that",
+        "the scientist",
+        "cured",
+        "the disease",
+        "that",
+        "caused",
+        "_",
+        "last year",
+        "_"
+      ],
+      "processed_tokens": [
+        "He",
+        "said",
+        "that",
+        "the",
+        "scientist",
+        "cured",
+        "the",
+        "disease",
+        "that",
+        "caused",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "last",
+        "year"
+      ],
+      "critical_surprisal": 25.055536018381897
+    },
+    "s_ax": {
+      "original_tokens": [
+        "He said",
+        "what",
+        "the scientist",
+        "cured",
+        "the disease",
+        "that",
+        "caused",
+        "_",
+        "cancer",
+        "_",
+        "last year"
+      ],
+      "processed_tokens": [
+        "He",
+        "said",
+        "what",
+        "the",
+        "scientist",
+        "cured",
+        "the",
+        "disease",
+        "that",
+        "caused",
+        "cancer",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "cancer"
+      ],
+      "critical_surprisal": 11.623757027334475
+    },
+    "s_xx": {
+      "original_tokens": [
+        "He said",
+        "that",
+        "the scientist",
+        "cured",
+        "the disease",
+        "that",
+        "caused",
+        "_",
+        "cancer",
+        "_",
+        "last year"
+      ],
+      "processed_tokens": [
+        "He",
+        "said",
+        "that",
+        "the",
+        "scientist",
+        "cured",
+        "the",
+        "disease",
+        "that",
+        "caused",
+        "cancer",
+        "last",
+        "year"
+      ],
+      "grammatical": true,
+      "critical_tokens": [
+        "cancer"
+      ],
+      "critical_surprisal": 10.677373647889025
+    }
+  }
+]
