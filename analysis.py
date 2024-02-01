@@ -2,13 +2,13 @@ from pymer4.models import Lmer
 
 def island_effects_for_model(model_name, control_tuples, island_tuples, construction):
     island_effects = []
-    for condition, data in zip(("simple", "island"), (control_tuples, island_tuples)):
+    for condition, data in zip(("Simple", "Island"), (control_tuples, island_tuples)):
         for item in data:
             island_effects.append({
                 "model": model_name,
                 "construction": construction,
                 "condition": condition,
-                "gap": "gap",
+                "gap": "+gap",
                 "gram": str(item.s_ab),
                 "ungram": str(item.s_xb),
                 "wh_effect": item.s_ab.critical_surprisal - item.s_xb.critical_surprisal
@@ -17,7 +17,7 @@ def island_effects_for_model(model_name, control_tuples, island_tuples, construc
                 "model": model_name,
                 "construction": construction,
                 "condition": condition,
-                "gap": "nogap",
+                "gap": "-gap",
                 "gram": str(item.s_xx),
                 "ungram": str(item.s_ax),
                 "wh_effect": item.s_ax.critical_surprisal - item.s_xx.critical_surprisal
