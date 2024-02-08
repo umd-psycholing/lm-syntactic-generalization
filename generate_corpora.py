@@ -434,7 +434,7 @@ def generate_s_xx_train_test_sentence_tuples_from_grammar(grammar: CFG, split_ra
 # Modified from Lan, et al. (2023)
 # Function get_terminal_productions is slightly different in our implementation,
 # accounting for the variation in code seen where that function is invoked.
-def generate_train_test_sentence_tuples_from_grammar(
+def generate_train_test_grammatical_sentence_sets_from_grammar(
     grammar: CFG, split_ratio: float = 0.65,
     random_seed: int = grammars.RANDOM_SEED,
     base_grammatical_condition: Nonterminal = grammars.AB_CONDITION) -> tuple[tuple[SentenceData],
@@ -546,7 +546,6 @@ def generate_train_test_sentence_tuples_from_grammar(
     return training_sentences, test_sentences
 
 
-# NOTE: For this to work, we assume the same criteria as generate_train_test_sentences_from_grammar()
 def generate_all_sentence_tuples_from_grammar(grammar: CFG) -> tuple[TupleSentenceData]:
     # find all lex. productions. Using XX and AB should lead to all lexical productions
 
@@ -647,12 +646,12 @@ def generate_all_sentences_from_grammar(grammar: CFG) -> tuple[SentenceData]:
 #       S_XX, regardless of whether that represents a filler-gap dependency or some other,
 #       must contain all lexical data required.
 #       There should be no lexical-decision information in an S_FX, S_XG that is not in S_XX.
-def generate_train_test_tuples_from_grammar(grammar: CFG, split_ratio: float):
+def generate_train_test_tuples_from_grammar(grammar: CFG, split_ratio: float = 0.65):
     # really simple method here
 
     # first generate all the training, test s_fg sentences, ...
-    training, testing = generate_train_test_sentence_tuples_from_grammar(grammar=grammar,
-                                                                         split_ratio=split_ratio)
+    training, testing = generate_train_test_grammatical_sentence_sets_from_grammar(grammar=grammar,
+                                                                                   split_ratio=split_ratio)
 
     # ... then find all the tuples which contain those sentences.
     all_tuples = generate_all_sentence_tuples_from_grammar(grammar=grammar)
