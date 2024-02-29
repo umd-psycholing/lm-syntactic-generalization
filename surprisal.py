@@ -1,8 +1,12 @@
+from multiprocessing import Pool
+from functools import partial  # used to define default values
 import numpy as np
 import torch
 import torch.nn.functional as F
 import sys
 from generate_corpora import SentenceData, TupleSentenceData
+
+from typing import Iterable
 
 # sort of emulation of conditional compilation; this is an ugly temporary solution
 # until we either find a way to generate the GRNN model w/ a version of torch
@@ -158,6 +162,16 @@ def surprisal_effect_full_tuple(sentence_tuple: TupleSentenceData, model: str, u
     # defined externally since it may be calculated w/out re-calculating surprisal
     return compute_surprisal_effect_from_surprisals(s_ab_surprisal, s_xb_surprisal,
                                                     s_ax_surprisal, s_xx_surprisal)
+
+
+def surprisal_total_corpus(corpus: Iterable[TupleSentenceData], model: str):
+    partial_func_surprisal_effect = partial(
+        surprisal_effect_full_tuple, model=model)
+
+    with Pool() as pool:
+        results = pool.map(partial_func_surprisal_effect, corpus)
+
+    return results
 
 
 def _sum_surprisals(tokens_and_scores: list[tuple[str, float]], target_tokens: list[str]) -> float:
