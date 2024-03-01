@@ -13,7 +13,7 @@ from typing import Iterable
 # compatible with minicons (torch>=2.0.0) or or replicate the functionality of
 # minicons w/ version compatible w/ GRNN model (torch < 1.8.0).
 
-if torch.__version__ >= "2.0":  # gpt2 (minicons)
+if "3.9" not in sys.version:  # gpt2 (minicons)
     from minicons import scorer
 
     gpt2_model = scorer.IncrementalLMScorer(model="gpt2")
@@ -27,7 +27,7 @@ if torch.__version__ >= "2.0":  # gpt2 (minicons)
         # return first result since we are only doing one sentence at a time
         return align_surprisal(results[0], BOS_TOKEN + sentence + EOS_TOKEN)
 
-elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
+else:  # grnn (colorlessgreenRNNs)
     from colorlessgreenRNNs.src.language_models.dictionary_corpus import Dictionary
     from colorlessgreenRNNs.src.language_models.model import RNNModel
 
@@ -80,17 +80,18 @@ elif torch.__version__ <= "1.8":  # grnn (colorlessgreenRNNs)
         # return index of word if its known, otherwise index of <unk> (unknown)
         return vocab.word2idx[word] if word in vocab.word2idx else vocab.word2idx['<unk>']
 
+
     # load model, vocab once
     sys.path.insert(
         0, "./colorlessgreenRNNs/src/language_models")
     # set up model
-    torch.nn.Module.dump_patches = False
+    #torch.nn.Module.dump_patches = False
     lstm_vocab = load_vocab("./colorlessgreenRNNs/src/data/lm/")
     model, grnn = load_rnn(
         "./colorlessgreenRNNs/src/models/model_clefting.pt")
 
     # single sentence surprisal for gpt2
-    def grnn_surprisal(sentence: str, model: RNNModel = model, grnn: RNNModel = grnn, vocab: Dictionary = lstm_vocab):
+    def grnn_surprisal(sentence: str, model: RNNModel, grnn: RNNModel, vocab: Dictionary):
         # EOS prepend + 's split
         # tokens = ["<eos>"] + grnn_tokenize(sentence)
         with torch.no_grad():
