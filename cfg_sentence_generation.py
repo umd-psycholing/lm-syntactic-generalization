@@ -1,4 +1,7 @@
+# THIS FILE NEEDS TO BE MADE AUTOMATIC! #
+
 from nltk.grammar import CFG
+
 
 import generate_corpora as gc
 import grammars
