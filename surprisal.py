@@ -165,6 +165,7 @@ def surprisal_effect_full_tuple(sentence_tuple: TupleSentenceData, model: str, u
 
 
 def surprisal_total_corpus(corpus: Iterable[TupleSentenceData], model: str):
+    print("pooling")
     partial_func_surprisal_effect = partial(
         surprisal_effect_full_tuple, model=model)
 
