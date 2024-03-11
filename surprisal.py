@@ -159,9 +159,8 @@ def surprisal_effect_full_tuple(sentence_tuple: TupleSentenceData, model: str, u
     s_xx_surprisal = critical_surprisal_from_sentence(
         sentence=s_xx, model_to_use=model, update_class_field=update_class_fields)
 
-    # defined externally since it may be calculated w/out re-calculating surprisal
-    return compute_surprisal_effect_from_surprisals(s_ab_surprisal, s_xb_surprisal,
-                                                    s_ax_surprisal, s_xx_surprisal)
+    # return changed corpus
+    return sentence_tuple
 
 
 def surprisal_total_corpus(corpus: Iterable[TupleSentenceData], model: str):

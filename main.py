@@ -41,7 +41,7 @@ def main():
         corpus=corpus, model=args.model)
     print(f"surprisals calculated for {args.model}")
 
-   # save
+    # save
     sentence_tuples.corpus_to_json(
         input_data=corpus_surprisal, filename=args.save_to)
     print(f"surprisal-containing corpus saved to {args.save_to}")
