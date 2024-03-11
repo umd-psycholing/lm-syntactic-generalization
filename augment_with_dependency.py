@@ -7,7 +7,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_dir", help = "path to directory with data for LM")
     parser.add_argument("--dependency_name")
-    parser.add_argument("--augmenting_data", help = "path to directory with dependency")
+    parser.add_argument("--augmenting_data", help = "path to CSV with dependency")
     args = parser.parse_args()
     print("Reading and tokenizing sentences")
     sentences = sentence_list(args.augmenting_data)
