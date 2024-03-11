@@ -194,338 +194,356 @@ ISLAND_GRAMMAR = SHARED_GRAMMAR + """
 # experiment 1 CFGs start here
 # cleft
 CLEFT_GRAMMAR_C = SHARED_GRAMMAR + """
-	S_AB -> PREAMBLE E G
-	S_XB -> UNGRAMMATICAL PREAMBLE XE G
-	S_AX -> UNGRAMMATICAL PREAMBLE E XG
-	S_XX -> PREAMBLE XE XG
-	PREAMBLE -> "It is"
-	E -> OBJ1 COMP N1 V1
-	XE -> CLEFTADJ COMP N1 V1
+    S_AB -> PREAMBLE E G
+    S_XB -> UNGRAMMATICAL PREAMBLE XE G
+    S_AX -> UNGRAMMATICAL PREAMBLE E XG
+    S_XX -> PREAMBLE XE XG
+    PREAMBLE -> "It is"
+    E -> OBJ1 COMP N1 V1
+    XE -> CLEFTADJ COMP N1 V1
     G -> GAP_MARKER ADV GAP_MARKER
-	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	OBJ1 -> "these snacks" | "those boots" | "her books"
-	CLEFTADJ -> "apparent" | "clear" | "disappointing"
-	COMP -> "that"
-	N1 -> "Mary" | "Jennifer"
-	V1 -> "bought" | "saw" | "forgot"
+    XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
+    OBJ1 -> "these snacks" | "those boots" | "her books"
+    CLEFTADJ -> "apparent" | "clear" | "disappointing"
+    COMP -> "that"
+    N1 -> "Mary" | "Jennifer"
+    V1 -> "bought" | "saw" | "forgot"
     RC_OBJ -> "the bag" | "a car" | "the house"
     V2 -> "carried" | "held" | "contained"
-	OBJ2 -> "the cheese" | "your hat" | "our keys"
-	ADV -> "yesterday" | "recently" | "earlier"
+    OBJ2 -> "the cheese" | "your hat" | "our keys"
+    ADV -> "yesterday" | "recently" | "earlier"
 """
 
 CLEFT_GRAMMAR_I = SHARED_GRAMMAR + """
-	S_AB -> UNGRAMMATICAL PREAMBLE E I G
-	S_XB -> UNGRAMMATICAL PREAMBLE XE I G
-	S_AX -> UNGRAMMATICAL PREAMBLE E I XG
-	S_XX -> PREAMBLE XE I XG
-	PREAMBLE -> "It is"
-	E -> OBJ1 COMP N1 V1
-	XE -> CLEFTADJ COMP N1 V1
+    S_AB -> UNGRAMMATICAL PREAMBLE E I G
+    S_XB -> UNGRAMMATICAL PREAMBLE XE I G
+    S_AX -> UNGRAMMATICAL PREAMBLE E I XG
+    S_XX -> PREAMBLE XE I XG
+    PREAMBLE -> "It is"
+    E -> OBJ1 COMP N1 V1
+    XE -> CLEFTADJ COMP N1 V1
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV GAP_MARKER 
-	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	OBJ1 -> "these snacks" | "those boots" | "her books"
-	CLEFTADJ -> "apparent" | "clear" | "disappointing"
-	COMP -> "that"
-	N1 -> "Mary" | "Jennifer"
-	V1 -> "bought" | "saw" | "forgot"
+    G -> GAP_MARKER ADV GAP_MARKER 
+    XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
+    OBJ1 -> "these snacks" | "those boots" | "her books"
+    CLEFTADJ -> "apparent" | "clear" | "disappointing"
+    COMP -> "that"
+    N1 -> "Mary" | "Jennifer"
+    V1 -> "bought" | "saw" | "forgot"
     RC_OBJ -> "the bag" | "a car" | "the house"
     V2 -> "carried" | "held" | "contained"
-	OBJ2 -> "the cheese" | "your hat" | "our keys"
-	ADV -> "yesterday" | "recently" | "earlier"
+    OBJ2 -> "the cheese" | "your hat" | "our keys"
+    ADV -> "yesterday" | "recently" | "earlier"
 """
 
 # topic w/ intro
 INTRO_TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
-	S_AB -> E G
-	S_XB -> UNGRAMMATICAL XE G
-	S_AX -> UNGRAMMATICAL E XG
-	S_XX -> XE XG
-	E -> TOPIC N1 V1
-	XE -> INTRO N1 V1
-	G -> GAP_MARKER ADV GAP_MARKER
-	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	TOPIC -> "these snacks," | "those boots," | "her books,"
+    S_AB -> E G
+    S_XB -> UNGRAMMATICAL XE G
+    S_AX -> UNGRAMMATICAL E XG
+    S_XX -> XE XG
+    E -> TOPIC N1 V1
+    XE -> INTRO N1 V1
+    G -> GAP_MARKER ADV GAP_MARKER
+    XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
+    TOPIC -> "these snacks," | "those boots," | "her books,"
     INTRO -> "in fact," | "of course," | "clearly,"
     COMP -> "that"
-	N1 -> "Mary" | "Jennifer"
-	V1 -> "bought" | "saw" | "forgot"
+    N1 -> "Mary" | "Jennifer"
+    V1 -> "bought" | "saw" | "forgot"
     RC_OBJ -> "the bag" | "a car" | "the house"
     V2 -> "carried" | "held" | "contained"
-	OBJ2 -> "the cheese" | "your hat" | "our keys"
-	ADV -> "yesterday" | "recently" | "earlier"
+    OBJ2 -> "the cheese" | "your hat" | "our keys"
+    ADV -> "yesterday" | "recently" | "earlier"
 """
 
 INTRO_TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
     S_AB -> UNGRAMMATICAL E I G
-	S_XB -> UNGRAMMATICAL XE I G
-	S_AX -> UNGRAMMATICAL E I XG
-	S_XX -> XE I XG
-	E -> TOPIC N1 V1
-	XE -> INTRO N1 V1
+    S_XB -> UNGRAMMATICAL XE I G
+    S_AX -> UNGRAMMATICAL E I XG
+    S_XX -> XE I XG
+    E -> TOPIC N1 V1
+    XE -> INTRO N1 V1
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV GAP_MARKER
-	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	TOPIC -> "these snacks," | "those boots," | "her books,"
+    G -> GAP_MARKER ADV GAP_MARKER
+    XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
+    TOPIC -> "these snacks," | "those boots," | "her books,"
     INTRO -> "in fact," | "of course," | "clearly,"
     COMP -> "that"
-	N1 -> "Mary" | "Jennifer"
-	V1 -> "bought" | "saw" | "forgot"
+    N1 -> "Mary" | "Jennifer"
+    V1 -> "bought" | "saw" | "forgot"
     RC_OBJ -> "the bag" | "a car" | "the house"
     V2 -> "carried" | "held" | "contained"
-	OBJ2 -> "the cheese" | "your hat" | "our keys"
-	ADV -> "yesterday" | "recently" | "earlier"
+    OBJ2 -> "the cheese" | "your hat" | "our keys"
+    ADV -> "yesterday" | "recently" | "earlier"
 """
 
 # topic NO intro
 NOINTRO_TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
-	S_AB -> E G
-	S_XB -> UNGRAMMATICAL XE G
-	S_AX -> UNGRAMMATICAL E XG
-	S_XX -> XE XG
-	E -> TOPIC N1 V1
-	XE -> N1 V1
-	G -> GAP_MARKER ADV GAP_MARKER
-	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	TOPIC -> "these snacks," | "those boots," | "her books,"
+    S_AB -> E G
+    S_XB -> UNGRAMMATICAL XE G
+    S_AX -> UNGRAMMATICAL E XG
+    S_XX -> XE XG
+    E -> TOPIC N1 V1
+    XE -> N1 V1
+    G -> GAP_MARKER ADV GAP_MARKER
+    XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
+    TOPIC -> "these snacks," | "those boots," | "her books,"
     COMP -> "that"
-	N1 -> "Mary" | "Jennifer"
-	V1 -> "bought" | "saw" | "forgot"
+    N1 -> "Mary" | "Jennifer"
+    V1 -> "bought" | "saw" | "forgot"
     RC_OBJ -> "the bag" | "a car" | "the house"
     V2 -> "carried" | "held" | "contained"
-	OBJ2 -> "the cheese" | "your hat" | "our keys"
-	ADV -> "yesterday" | "recently" | "earlier"
+    OBJ2 -> "the cheese" | "your hat" | "our keys"
+    ADV -> "yesterday" | "recently" | "earlier"
 """
 
 NOINTRO_TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
     S_AB -> UNGRAMMATICAL E I G
-	S_XB -> UNGRAMMATICAL XE I G
-	S_AX -> UNGRAMMATICAL E I XG
-	S_XX -> XE I XG
-	E -> TOPIC N1 V1
-	XE -> N1 V1
+    S_XB -> UNGRAMMATICAL XE I G
+    S_AX -> UNGRAMMATICAL E I XG
+    S_XX -> XE I XG
+    E -> TOPIC N1 V1
+    XE -> N1 V1
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV GAP_MARKER
-	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	TOPIC -> "these snacks," | "those boots," | "her books,"
+    G -> GAP_MARKER ADV GAP_MARKER
+    XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
+    TOPIC -> "these snacks," | "those boots," | "her books,"
     COMP -> "that"
-	N1 -> "Mary" | "Jennifer"
-	V1 -> "bought" | "saw" | "forgot"
+    N1 -> "Mary" | "Jennifer"
+    V1 -> "bought" | "saw" | "forgot"
     RC_OBJ -> "the bag" | "a car" | "the house"
     V2 -> "carried" | "held" | "contained"
-	OBJ2 -> "the cheese" | "your hat" | "our keys"
-	ADV -> "yesterday" | "recently" | "earlier"
+    OBJ2 -> "the cheese" | "your hat" | "our keys"
+    ADV -> "yesterday" | "recently" | "earlier"
 """
 
 # tough movement
 TOUGH_GRAMMAR_C = SHARED_GRAMMAR + """
-	S_AB -> E G
-	S_XB -> UNGRAMMATICAL XE G
-	S_AX -> UNGRAMMATICAL E XG
-	S_XX -> XE XG
-	E -> N1 TOUGH INF 
-	XE -> IT TOUGH INF
-	G -> GAP_MARKER ADV GAP_MARKER
-	XG -> GAP_MARKER N2 GAP_MARKER ADV
+    S_AB -> E G
+    S_XB -> UNGRAMMATICAL XE G
+    S_AX -> UNGRAMMATICAL E XG
+    S_XX -> XE XG
+    E -> N1 TOUGH INF 
+    XE -> IT TOUGH INF
+    G -> GAP_MARKER ADV GAP_MARKER
+    XG -> GAP_MARKER N2 GAP_MARKER ADV
     COMP -> "that"
-	N1 -> "this snack" | "the shoe" | "her book"
+    N1 -> "this snack" | "the shoe" | "her book"
     IT -> "it"
     TOUGH -> "is impossible" | "is easy" | "is difficult"
-	INF -> "to find" | "to see" | "to lose"
+    INF -> "to find" | "to see" | "to lose"
     RC_OBJ -> "the bag" | "a car" | "the house"
     V2 -> "carried" | "held" | "contained"
-	N2 -> "the cheese" | "your hat" | "our keys"
-	ADV -> "with a friend" | "in the park" | "on Saturdays"
+    N2 -> "the cheese" | "your hat" | "our keys"
+    ADV -> "with a friend" | "in the park" | "on Saturdays"
 """
 
 TOUGH_GRAMMAR_I = SHARED_GRAMMAR + """
     S_AB -> UNGRAMMATICAL E I G
-	S_XB -> UNGRAMMATICAL XE I G
-	S_AX -> UNGRAMMATICAL E I XG
-	S_XX -> XE I XG
-	E -> N1 TOUGH INF 
-	XE -> IT TOUGH INF
+    S_XB -> UNGRAMMATICAL XE I G
+    S_AX -> UNGRAMMATICAL E I XG
+    S_XX -> XE I XG
+    E -> N1 TOUGH INF 
+    XE -> IT TOUGH INF
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV GAP_MARKER
-	XG -> GAP_MARKER N2 GAP_MARKER ADV
+    G -> GAP_MARKER ADV GAP_MARKER
+    XG -> GAP_MARKER N2 GAP_MARKER ADV
     COMP -> "that"
-	N1 -> "this snack" | "the shoe" | "her book"
+    N1 -> "this snack" | "the shoe" | "her book"
     IT -> "it"
     TOUGH -> "is impossible" | "is easy" | "is difficult"
-	INF -> "to find" | "to see" | "to lose"
+    INF -> "to find" | "to see" | "to lose"
     RC_OBJ -> "the bag" | "a car" | "the house"
     V2 -> "carried" | "held" | "contained"
-	N2 -> "the cheese" | "your hat" | "our keys"
-	ADV -> "with a friend" | "in the park" | "on Saturdays"
+    N2 -> "the cheese" | "your hat" | "our keys"
+    ADV -> "with a friend" | "in the park" | "on Saturdays"
 """
 
 
 # training set cfgs
 # cleft
 TRAINING_CLEFT_GRAMMAR_C = SHARED_GRAMMAR + """
-	S_AB -> PREAMBLE E G
-	S_XB -> UNGRAMMATICAL PREAMBLE XE G
-	S_AX -> UNGRAMMATICAL PREAMBLE E XG
-	S_XX -> PREAMBLE XE XG
-	PREAMBLE -> "It is"
-	E -> OBJ1 COMP N1 V1
-	XE -> CLEFTADJ COMP N1 V1
+    S_AB -> PREAMBLE E G
+    S_XB -> UNGRAMMATICAL PREAMBLE XE G
+    S_AX -> UNGRAMMATICAL PREAMBLE E XG
+    S_XX -> PREAMBLE XE XG
+    PREAMBLE -> "It is"
+    E -> OBJ1 COMP N1 V1
+    XE -> CLEFTADJ COMP N1 V1
     G -> GAP_MARKER ADV GAP_MARKER
-	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	OBJ1 -> "these cakes" | "those balls" | "her gloves"
-	CLEFTADJ -> "obvious" | "surprising" | "annoying"
-	COMP -> "that"
-	N1 -> "Susan" | "Michelle"
-	V1 -> "lifted" | "stole" | "threw"
+    XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
+    OBJ1 -> "these cakes" | "those balls" | "her gloves"
+    CLEFTADJ -> "obvious" | "surprising" | "annoying"
+    COMP -> "that"
+    N1 -> "Susan" | "Michelle"
+    V1 -> "lifted" | "stole" | "threw"
     RC_OBJ -> "the box" | "this truck" | "her backpack"
     V2 -> "hauled" | "had" | "transported"
-	OBJ2 -> "your jacket" | "a phone" | "the paperwork"
-	ADV -> "carefully" | "without falling" | "quickly"
+    OBJ2 -> "your jacket" | "a phone" | "the paperwork"
+    ADV -> "carefully" | "without falling" | "quickly"
 """
 
 TRAINING_CLEFT_GRAMMAR_I = SHARED_GRAMMAR + """
-	S_AB -> UNGRAMMATICAL PREAMBLE E I G
-	S_XB -> UNGRAMMATICAL PREAMBLE XE I G
-	S_AX -> UNGRAMMATICAL PREAMBLE E I XG
-	S_XX -> PREAMBLE XE I XG
-	PREAMBLE -> "It is"
-	E -> OBJ1 COMP N1 V1
-	XE -> CLEFTADJ COMP N1 V1
+    S_AB -> UNGRAMMATICAL PREAMBLE E I G
+    S_XB -> UNGRAMMATICAL PREAMBLE XE I G
+    S_AX -> UNGRAMMATICAL PREAMBLE E I XG
+    S_XX -> PREAMBLE XE I XG
+    PREAMBLE -> "It is"
+    E -> OBJ1 COMP N1 V1
+    XE -> CLEFTADJ COMP N1 V1
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV GAP_MARKER
-	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	OBJ1 -> "these cakes" | "those balls" | "her gloves"
-	CLEFTADJ -> "obvious" | "surprising" | "annoying"
-	COMP -> "that"
-	N1 -> "Susan" | "Michelle"
-	V1 -> "lifted" | "stole" | "threw"
+    G -> GAP_MARKER ADV GAP_MARKER
+    XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
+    OBJ1 -> "these cakes" | "those balls" | "her gloves"
+    CLEFTADJ -> "obvious" | "surprising" | "annoying"
+    COMP -> "that"
+    N1 -> "Susan" | "Michelle"
+    V1 -> "lifted" | "stole" | "threw"
     RC_OBJ -> "the box" | "this truck" | "her backpack"
     V2 -> "hauled" | "had" | "transported"
-	OBJ2 -> "your jacket" | "a phone" | "the paperwork"
-	ADV -> "carefully" | "without falling" | "quickly"
+    OBJ2 -> "your jacket" | "a phone" | "the paperwork"
+    ADV -> "carefully" | "without falling" | "quickly"
 """
 
 # topic w/ intro
 TRAINING_INTRO_TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
-	S_AB -> E G
-	S_XB -> UNGRAMMATICAL XE G
-	S_AX -> UNGRAMMATICAL E XG
-	S_XX -> XE XG
-	E -> TOPIC N1 V1
-	XE -> INTRO N1 V1
-	G -> GAP_MARKER ADV GAP_MARKER
-	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	TOPIC -> "these cakes," | "those balls," | "her gloves,"
+    S_AB -> E G
+    S_XB -> UNGRAMMATICAL XE G
+    S_AX -> UNGRAMMATICAL E XG
+    S_XX -> XE XG
+    E -> TOPIC N1 V1
+    XE -> INTRO N1 V1
+    G -> GAP_MARKER ADV GAP_MARKER
+    XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
+    TOPIC -> "these cakes," | "those balls," | "her gloves,"
     INTRO -> "indeed," | "meanwhile," | "still,"
     COMP -> "that"
-	N1 -> "Susan" | "Michelle"
-	V1 -> "lifted" | "stole" | "threw"
+    N1 -> "Susan" | "Michelle"
+    V1 -> "lifted" | "stole" | "threw"
     RC_OBJ -> "the box" | "this truck" | "her backpack"
     V2 -> "hauled" | "had" | "transported"
-	OBJ2 -> "your jacket" | "a phone" | "the paperwork"
-	ADV -> "carefully" | "without falling" | "quickly"
+    OBJ2 -> "your jacket" | "a phone" | "the paperwork"
+    ADV -> "carefully" | "without falling" | "quickly"
 """
 
 TRAINING_INTRO_TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
     S_AB -> UNGRAMMATICAL E I G
-	S_XB -> UNGRAMMATICAL XE I G
-	S_AX -> UNGRAMMATICAL E I XG
-	S_XX -> XE I XG
-	E -> TOPIC N1 V1
-	XE -> INTRO N1 V1
+    S_XB -> UNGRAMMATICAL XE I G
+    S_AX -> UNGRAMMATICAL E I XG
+    S_XX -> XE I XG
+    E -> TOPIC N1 V1
+    XE -> INTRO N1 V1
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV GAP_MARKER
-	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	TOPIC -> "these cakes," | "those balls," | "her gloves,"
+    G -> GAP_MARKER ADV GAP_MARKER
+    XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
+    TOPIC -> "these cakes," | "those balls," | "her gloves,"
     INTRO -> "indeed," | "meanwhile," | "still,"
     COMP -> "that"
-	N1 -> "Susan" | "Michelle"
-	V1 -> "lifted" | "stole" | "threw"
+    N1 -> "Susan" | "Michelle"
+    V1 -> "lifted" | "stole" | "threw"
     RC_OBJ -> "the box" | "this truck" | "her backpack"
     V2 -> "hauled" | "had" | "transported"
-	OBJ2 -> "your jacket" | "a phone" | "the paperwork"
-	ADV -> "carefully" | "without falling" | "quickly"
+    OBJ2 -> "your jacket" | "a phone" | "the paperwork"
+    ADV -> "carefully" | "without falling" | "quickly"
 """
 
 # topic NO intro
 TRAINING_NOINTRO_TOPIC_GRAMMAR_C = SHARED_GRAMMAR + """
-	S_AB -> E G
-	S_XB -> UNGRAMMATICAL XE G
-	S_AX -> UNGRAMMATICAL E XG
-	S_XX -> XE XG
-	E -> TOPIC N1 V1
-	XE -> N1 V1
-	G -> GAP_MARKER ADV GAP_MARKER
-	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	TOPIC -> "these cakes," | "those balls," | "her gloves,"
+    S_AB -> E G
+    S_XB -> UNGRAMMATICAL XE G
+    S_AX -> UNGRAMMATICAL E XG
+    S_XX -> XE XG
+    E -> TOPIC N1 V1
+    XE -> N1 V1
+    G -> GAP_MARKER ADV GAP_MARKER
+    XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
+    TOPIC -> "these cakes," | "those balls," | "her gloves,"
     COMP -> "that"
-	N1 -> "Susan" | "Michelle"
-	V1 -> "lifted" | "stole" | "threw"
+    N1 -> "Susan" | "Michelle"
+    V1 -> "lifted" | "stole" | "threw"
     RC_OBJ -> "the box" | "this truck" | "her backpack"
     V2 -> "hauled" | "had" | "transported"
-	OBJ2 -> "your jacket" | "a phone" | "the paperwork"
-	ADV -> "carefully" | "without falling" | "quickly"
+    OBJ2 -> "your jacket" | "a phone" | "the paperwork"
+    ADV -> "carefully" | "without falling" | "quickly"
 """
 
 TRAINING_NOINTRO_TOPIC_GRAMMAR_I = SHARED_GRAMMAR + """
     S_AB -> UNGRAMMATICAL E I G
-	S_XB -> UNGRAMMATICAL XE I G
-	S_AX -> UNGRAMMATICAL E I XG
-	S_XX -> XE I XG
-	E -> TOPIC N1 V1
-	XE -> N1 V1
+    S_XB -> UNGRAMMATICAL XE I G
+    S_AX -> UNGRAMMATICAL E I XG
+    S_XX -> XE I XG
+    E -> TOPIC N1 V1
+    XE -> N1 V1
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV GAP_MARKER
-	XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
-	TOPIC -> "these cakes," | "those balls," | "her gloves,"
+    G -> GAP_MARKER ADV GAP_MARKER
+    XG -> GAP_MARKER OBJ2 GAP_MARKER ADV
+    TOPIC -> "these cakes," | "those balls," | "her gloves,"
     COMP -> "that"
-	N1 -> "Susan" | "Michelle"
-	V1 -> "lifted" | "stole" | "threw"
+    N1 -> "Susan" | "Michelle"
+    V1 -> "lifted" | "stole" | "threw"
     RC_OBJ -> "the box" | "this truck" | "her backpack"
     V2 -> "hauled" | "had" | "transported"
-	OBJ2 -> "your jacket" | "a phone" | "the paperwork"
-	ADV -> "carefully" | "without falling" | "quickly"
+    OBJ2 -> "your jacket" | "a phone" | "the paperwork"
+    ADV -> "carefully" | "without falling" | "quickly"
 """
 
 # tough movement
 TRAINING_TOUGH_GRAMMAR_C = SHARED_GRAMMAR + """
-	S_AB -> E G
-	S_XB -> UNGRAMMATICAL XE G
-	S_AX -> UNGRAMMATICAL E XG
-	S_XX -> XE XG
-	E -> N1 TOUGH INF 
-	XE -> IT TOUGH INF
-	G -> GAP_MARKER ADV GAP_MARKER
-	XG -> GAP_MARKER N2 GAP_MARKER ADV
+    S_AB -> E G
+    S_XB -> UNGRAMMATICAL XE G
+    S_AX -> UNGRAMMATICAL E XG
+    S_XX -> XE XG
+    E -> N1 TOUGH INF 
+    XE -> IT TOUGH INF
+    G -> GAP_MARKER ADV GAP_MARKER
+    XG -> GAP_MARKER N2 GAP_MARKER ADV
     COMP -> "that"
-	N1 -> "the pizza" | "that ball" | "his wallet"
+    N1 -> "the pizza" | "that ball" | "his wallet"
     IT -> "it"
     TOUGH -> "is tough" | "is annoying" | "is simple" | "is embarrassing"
-	INF -> "to steal" | "to throw" | "to lift"
+    INF -> "to steal" | "to throw" | "to lift"
     RC_OBJ -> "the box" | "this truck" | "his backpack"
     V2 -> "hauled" | "had" | "transported"
-	N2 -> "your jacket" | "a phone" | "the paperwork"
-	ADV -> "carefully" | "without falling" | "quickly"
+    N2 -> "your jacket" | "a phone" | "the paperwork"
+    ADV -> "carefully" | "without falling" | "quickly"
 """
 
 TRAINING_TOUGH_GRAMMAR_I = SHARED_GRAMMAR + """
     S_AB -> UNGRAMMATICAL E I G
-	S_XB -> UNGRAMMATICAL XE I G
-	S_AX -> UNGRAMMATICAL E I XG
-	S_XX -> XE I XG
-	E -> N1 TOUGH INF 
-	XE -> IT TOUGH INF
+    S_XB -> UNGRAMMATICAL XE I G
+    S_AX -> UNGRAMMATICAL E I XG
+    S_XX -> XE I XG
+    E -> N1 TOUGH INF 
+    XE -> IT TOUGH INF
     I -> RC_OBJ COMP V2
-	G -> GAP_MARKER ADV GAP_MARKER
-	XG -> GAP_MARKER N2 GAP_MARKER ADV
+    G -> GAP_MARKER ADV GAP_MARKER
+    XG -> GAP_MARKER N2 GAP_MARKER ADV
     COMP -> "that"
-	N1 -> "the pizza" | "that ball" | "his wallet"
+    N1 -> "the pizza" | "that ball" | "his wallet"
     IT -> "it"
     TOUGH -> "is tough" | "is annoying" | "is simple" | "is embarrassing"
-	INF -> "to steal" | "to throw" | "to lift"
+    INF -> "to steal" | "to throw" | "to lift"
     RC_OBJ -> "the box" | "this truck" | "his backpack"
     V2 -> "hauled" | "had" | "transported"
-	N2 -> "your jacket" | "a phone" | "the paperwork"
-	ADV -> "carefully" | "without falling" | "quickly"
+    N2 -> "your jacket" | "a phone" | "the paperwork"
+    ADV -> "carefully" | "without falling" | "quickly"
 """
+
+
+# 0 = non-training, non-island; 1 = non-training, island; 2 = training, non-island; 3 = training, island
+grammars_dict = {
+    "cleft": [CLEFT_GRAMMAR_C, CLEFT_GRAMMAR_I, TRAINING_CLEFT_GRAMMAR_C, TRAINING_CLEFT_GRAMMAR_I],
+    "intro_topic": [],
+    "no_intro_topic": [],
+    "tough": [],
+}
+
+
+# get grammar w/out using its name
+def get_grammar(type, island=False, training=False):
+    # 0 = non-training, non-island;
+    # 1 = non-training, island;
+    # 2 = training, non-island;
+    # 3 = training, island
+    return grammars_dict[type][2*int(island) + int(training)]
