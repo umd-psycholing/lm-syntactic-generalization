@@ -10,11 +10,15 @@ def main():
     parser.add_argument("--train", help = "Path to training data")
     args = parser.parse_args()
     tokenizer = load_tokenizer(args.vocab)
+    gpt2 = load_model(tokenizer)
+    train(gpt2, args.train)
+
+def load_model(tokenizer : GRNNTokenizer) -> aitextgen:
+    model_config = utils.GPT2Config()
+    model_config.vocab_size = tokenizer.vocab_size
     gpt2 = aitextgen(config = utils.GPT2Config())
     gpt2.tokenizer = tokenizer
-    train_data = TokenDataset(file_path = args.train, tokenizer = tokenizer)
-    # validation_data = TokenDataset(file_path = args.valid, tokenizer = tokenizer)
-    train(gpt2, train_data)
+    return gpt2
 
 def load_tokenizer(vocab : str) -> GRNNTokenizer:
     vocab = process_vocab_file(vocab, eos_token="<eos>", unk_token="<unk>")
@@ -26,13 +30,17 @@ def load_tokenizer(vocab : str) -> GRNNTokenizer:
     print("Loaded Tokenizer")
     return tokenizer
 
-def train(model : aitextgen, training_data : TokenDataset):
+def train(model : aitextgen, train_path : str):
     # runs for one epoch (for now)
+    # if we use aitextgen for augmentation, we should shuffle the dataset
+    # maybe test val accuracy after x steps?
     print("Training model")
-    batch_size = 200
-    grnn_steps_per_epoch = 18541
-    model.train(training_data, batch_size = batch_size, num_steps = batch_size * grnn_steps_per_epoch,
-                 save_every = 2000, model_folder = "retrained_gpt2")
+    batch_size = 10
+    with open(train_path) as f:
+        sentence_count = len(f.readlines())
+    model.train(train_path, line_by_line = True, batch_size = batch_size, num_steps = round(sentence_count / batch_size),
+                 save_every = 10000, num_workers = 2, gradient_accumulation_steps = 8, generate_every = -1,
+                 model_folder = "retrained_gpt2")
 
 if __name__ == "__main__":
     main()
