@@ -534,9 +534,9 @@ TRAINING_TOUGH_GRAMMAR_I = SHARED_GRAMMAR + """
 # 0 = non-training, non-island; 1 = non-training, island; 2 = training, non-island; 3 = training, island
 grammars_dict = {
     "cleft": [CLEFT_GRAMMAR_C, CLEFT_GRAMMAR_I, TRAINING_CLEFT_GRAMMAR_C, TRAINING_CLEFT_GRAMMAR_I],
-    "intro_topic": [],
-    "no_intro_topic": [],
-    "tough": [],
+    "intro_topic": [INTRO_TOPIC_GRAMMAR_C, INTRO_TOPIC_GRAMMAR_I, TRAINING_INTRO_TOPIC_GRAMMAR_C, TRAINING_INTRO_TOPIC_GRAMMAR_I],
+    "no_intro_topic": [NOINTRO_TOPIC_GRAMMAR_C, NOINTRO_TOPIC_GRAMMAR_I, TRAINING_NOINTRO_TOPIC_GRAMMAR_C, TRAINING_NOINTRO_TOPIC_GRAMMAR_I],
+    "tough": [TOUGH_GRAMMAR_C, TOUGH_GRAMMAR_I, TRAINING_TOUGH_GRAMMAR_C, TRAINING_TOUGH_GRAMMAR_I],
 }
 
 
@@ -546,4 +546,4 @@ def get_grammar(type, island=False, training=False):
     # 1 = non-training, island;
     # 2 = training, non-island;
     # 3 = training, island
-    return grammars_dict[type][2*int(island) + int(training)]
+    return grammars_dict[type][2*int(training) + int(island)]
