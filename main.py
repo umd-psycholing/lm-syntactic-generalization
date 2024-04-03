@@ -16,7 +16,7 @@ def main():
     # trained models added here
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", choices=['grnn', 'gpt2'],
-                        help='choose between grnn or gpt2')
+                        help='choose between grnn or gpt2. \'none\' will just return the wordlist.')
     parser.add_argument("--sentence_type", choices=['cleft', 'intro_topic', 'no_intro_topic', 'tough'],
                         help='construction type for grammar')
     parser.add_argument("-island", action='store_true', default=False,
@@ -37,13 +37,15 @@ def main():
     print(f"{len(corpus)} tuples generated")
 
     # calculate surprisal
-    corpus_surprisal = surprisal.surprisal_total_corpus(
-        corpus=corpus, model=args.model)
-    print(f"surprisals calculated for {args.model}")
-
+    if args.model != 'none':
+        output_corpus = surprisal.surprisal_total_corpus(
+            corpus=corpus, model=args.model)
+        print(f"surprisals calculated for {args.model}")
+    else:
+        output_corpus = corpus  # just returns the corpus itself
     # save
     sentence_tuples.corpus_to_json(
-        input_data=corpus_surprisal, filename=args.save_to)
+        input_data=output_corpus, filename=args.save_to)
     print(f"surprisal-containing corpus saved to {args.save_to}")
 
 
