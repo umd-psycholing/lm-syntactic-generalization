@@ -16,7 +16,7 @@ def main():
     # trained models added here
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", choices=['grnn', 'gpt2'],
-                        help='choose between grnn or gpt2. \'none\' will just return the wordlist.')
+                        help='choose between grnn or gpt2. Do not provide a model for just the formatted corpus.')
     parser.add_argument("--sentence_type", choices=['cleft', 'intro_topic', 'no_intro_topic', 'tough'],
                         help='construction type for grammar')
     parser.add_argument("-island", action='store_true', default=False,
@@ -37,7 +37,7 @@ def main():
     print(f"{len(corpus)} tuples generated")
 
     # calculate surprisal
-    if args.model != 'none':
+    if hasattr(args, 'model'):
         output_corpus = surprisal.surprisal_total_corpus(
             corpus=corpus, model=args.model)
         print(f"surprisals calculated for {args.model}")
