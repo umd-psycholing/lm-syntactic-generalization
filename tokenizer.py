@@ -2,7 +2,6 @@ import json
 from pathlib import Path
 from typing import Optional, Tuple, Dict
 
-from tqdm import tqdm
 from transformers import PreTrainedTokenizer
 
 
@@ -41,7 +40,7 @@ def process_vocab_file(path : str, eos_token : str, unk_token: str) -> Dict[str,
     vocab_dict = {}
     token_id = 2
     print("Reading vocab")
-    for token in tqdm(vocab_list):
+    for token in vocab_list:
         token = token.strip("\n")
         if token == unk_token:
             vocab_dict[token] = 0
