@@ -24,23 +24,29 @@ def setup_gpt2(model_dir, vocab):
     return tokenizer, gpt2
 
 def prepare_text(sentence, tokenizer, vocab):
+    sentence = "<eos> " + sentence
     words = sentence.split(" ")
     unk_indices = {}
     for i in range(len(words)):
         if words[i] not in vocab:
-            words[i] = "<unk>"
             unk_indices[i] = words[i]
+            words[i] = "<unk>"
     sentence = " ".join(words)
-    tokens = tokenizer.tokenize(sentence + " <eos>")
-    return sentence, tokens, torch.tensor(tokenizer.convert_tokens_to_ids(tokens))
+    tokens = tokenizer.tokenize(sentence)
+    return sentence, tokens, torch.tensor(tokenizer.convert_tokens_to_ids(tokens)), unk_indices
 
 def gpt2_surprisal(sentence, gpt2_model, tokenizer, vocab):
-    formatted_sentence, tokens, model_input = prepare_text(sentence, tokenizer, vocab)
+    formatted_sentence, tokens, model_input, unk_indices = prepare_text(sentence, tokenizer, vocab)
     with torch.no_grad():
         logits = gpt2_model(model_input).logits
-    surprisals = -F.log_softmax(logits) / np.log(2.0)
+    surprisals = -F.log_softmax(logits, dim = -1) / np.log(2.0)
     tokenwise_surprisals = [(tokens[i], surprisals[i][model_input[i]].item()) for i in np.arange(len(model_input))]
-    return align_surprisal(tokenwise_surprisals, formatted_sentence + " <eos>")
+    word_surprisals = align_surprisal(tokenwise_surprisals, formatted_sentence)
+    if unk_indices: # replace unk tokens with words
+        for index in unk_indices:
+            assert word_surprisals[index][0] == '<unk>'
+            word_surprisals[index] = (unk_indices[index], word_surprisals[index][1])
+    return word_surprisals[1:]
 
 gpt2_vocab = process_vocab_file(GPT2_VOCAB_PATH, "<eos>", "<unk>")
 grnn_hf_tokenizer, gpt2 = setup_gpt2(GPT2_DIR, gpt2_vocab)
@@ -236,7 +242,6 @@ def critical_surprisal_from_sentence(sentence: SentenceData, model_to_use: str, 
 
     # get critical surprisal
     critical_surprisal = _sum_surprisals(surprisal_info, critical_tokens)
-
     """
     # this way of doing it over-counted repeat words. 
     # Ex: "I know the cat ate the bird", ("the", "bird") would add the surprisal of 'the', 'the', and 'bird'.
