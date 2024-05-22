@@ -14,29 +14,33 @@ from colorlessgreenRNNs.src.language_models.model import RNNModel
 from generate_corpora import SentenceData, TupleSentenceData
 from tokenizer import *
 
-GPT2_DIR = "retrained_gpt2/trained_model"
-GPT2_VOCAB_PATH = "grnn_data/vocab.txt"
+GPT2_DIR = "retrained_gpt2"
+GPT2_VOCAB_PATH = "colorlessgreenRNNs/src/data/lm/vocab.txt"
 
 def setup_gpt2(model_dir, vocab):
     # loads a GPT2 model and the hf implementation of the GRNN tokenizer - no BPE
     tokenizer = GRNNTokenizer(vocab)
-    gpt2 = GPT2LMHeadModel.from_pretrained(f"{model_dir}/pytorch_model.bin", config = f"{model_dir}/config.json")
+    gpt2 = GPT2LMHeadModel.from_pretrained(model_dir, config = f"{model_dir}/config.json")
     return tokenizer, gpt2
 
 def prepare_text(sentence, tokenizer, vocab):
+    words = sentence.split(" ")
+    unk_indices = {}
+    for i in range(len(words)):
+        if words[i] not in vocab:
+            words[i] = "<unk>"
+            unk_indices[i] = words[i]
+    sentence = " ".join(words)
     tokens = tokenizer.tokenize(sentence + " <eos>")
-    for i in range(len(tokens)):
-        if tokens[i] not in vocab:
-            tokens[i] = "<unk>"
-    return tokens, torch.tensor(tokenizer.convert_tokens_to_ids(tokens))
+    return sentence, tokens, torch.tensor(tokenizer.convert_tokens_to_ids(tokens))
 
 def gpt2_surprisal(sentence, gpt2_model, tokenizer, vocab):
-    tokens, model_input = prepare_text(sentence, tokenizer, vocab)
+    formatted_sentence, tokens, model_input = prepare_text(sentence, tokenizer, vocab)
     with torch.no_grad():
         logits = gpt2_model(model_input).logits
     surprisals = -F.log_softmax(logits) / np.log(2.0)
     tokenwise_surprisals = [(tokens[i], surprisals[i][model_input[i]].item()) for i in np.arange(len(model_input))]
-    return align_surprisal(tokenwise_surprisals)
+    return align_surprisal(tokenwise_surprisals, formatted_sentence + " <eos>")
 
 gpt2_vocab = process_vocab_file(GPT2_VOCAB_PATH, "<eos>", "<unk>")
 grnn_hf_tokenizer, gpt2 = setup_gpt2(GPT2_DIR, gpt2_vocab)
