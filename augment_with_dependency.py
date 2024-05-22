@@ -3,13 +3,11 @@ import os
 import numpy as np
 import pandas as pd
 
-from surprisal import grnn_tokenize
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_dir", help = "path to directory with data for LM")
     parser.add_argument("--dependency_name")
-    parser.add_argument("--augmenting_data", help = "path to directory with dependency")
+    parser.add_argument("--augmenting_data", help = "path to CSV with dependency")
     args = parser.parse_args()
     print("Reading and tokenizing sentences")
     sentences = sentence_list(args.augmenting_data)
@@ -52,6 +50,23 @@ def write_sentence_to_file(sentence_list, data_dir, dependency_name):
 
 def convert_tokens(sentence):
     return " ".join(sentence + ["."] + ['<eos>']) + "\n"
+
+def grnn_tokenize(sent):
+    sent = sent.strip()
+    if sent == "":
+        return []
+    # respect commas as a token
+    sent = " ,".join(sent.split(","))
+    # same w/ EOS punctuation (but not . in abbreviations)
+    if sent[-1] in [".", "?", "!"]:
+        sent = sent[:-1] + " " + sent[-1]
+    if ("." in sent) & (sent[-1] != "."):
+        print(sent)
+    # split on 's
+    sent = " 's".join(sent.split("'s"))
+    # split on n't
+    sent = " n't".join(sent.split("n't"))
+    return sent.split()
 
 if __name__ == "__main__":
     main()
