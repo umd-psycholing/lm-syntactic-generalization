@@ -54,7 +54,7 @@ def island_surprisals(condition_name, tuples, model_name, construction_name):
         base_info = {
             "item": stim_id,
             "model": model_name,
-            "island": condition_name,
+            "island": 1 if condition_name == "island" else 0,
             "construction": construction_name
         }
         surprisals.append(modify_base_dict("s_ab", stim_set, base_info))
