@@ -1,0 +1,1945 @@
+group,grammatical,sentence,a condition,b condition
+0,True,"these cakes, Susan lifted carefully",+,+
+0,False,"indeed, Susan lifted carefully",-,+
+0,False,"these cakes, Susan lifted your jacket carefully",+,-
+0,True,"indeed, Susan lifted your jacket carefully",-,-
+1,True,"these cakes, Susan lifted without falling",+,+
+1,False,"indeed, Susan lifted without falling",-,+
+1,False,"these cakes, Susan lifted your jacket without falling",+,-
+1,True,"indeed, Susan lifted your jacket without falling",-,-
+2,True,"these cakes, Susan lifted quickly",+,+
+2,False,"indeed, Susan lifted quickly",-,+
+2,False,"these cakes, Susan lifted your jacket quickly",+,-
+2,True,"indeed, Susan lifted your jacket quickly",-,-
+3,True,"these cakes, Susan lifted carefully",+,+
+3,False,"indeed, Susan lifted carefully",-,+
+3,False,"these cakes, Susan lifted a phone carefully",+,-
+3,True,"indeed, Susan lifted a phone carefully",-,-
+4,True,"these cakes, Susan lifted without falling",+,+
+4,False,"indeed, Susan lifted without falling",-,+
+4,False,"these cakes, Susan lifted a phone without falling",+,-
+4,True,"indeed, Susan lifted a phone without falling",-,-
+5,True,"these cakes, Susan lifted quickly",+,+
+5,False,"indeed, Susan lifted quickly",-,+
+5,False,"these cakes, Susan lifted a phone quickly",+,-
+5,True,"indeed, Susan lifted a phone quickly",-,-
+6,True,"these cakes, Susan lifted carefully",+,+
+6,False,"indeed, Susan lifted carefully",-,+
+6,False,"these cakes, Susan lifted the paperwork carefully",+,-
+6,True,"indeed, Susan lifted the paperwork carefully",-,-
+7,True,"these cakes, Susan lifted without falling",+,+
+7,False,"indeed, Susan lifted without falling",-,+
+7,False,"these cakes, Susan lifted the paperwork without falling",+,-
+7,True,"indeed, Susan lifted the paperwork without falling",-,-
+8,True,"these cakes, Susan lifted quickly",+,+
+8,False,"indeed, Susan lifted quickly",-,+
+8,False,"these cakes, Susan lifted the paperwork quickly",+,-
+8,True,"indeed, Susan lifted the paperwork quickly",-,-
+9,True,"these cakes, Susan stole carefully",+,+
+9,False,"indeed, Susan stole carefully",-,+
+9,False,"these cakes, Susan stole your jacket carefully",+,-
+9,True,"indeed, Susan stole your jacket carefully",-,-
+10,True,"these cakes, Susan stole without falling",+,+
+10,False,"indeed, Susan stole without falling",-,+
+10,False,"these cakes, Susan stole your jacket without falling",+,-
+10,True,"indeed, Susan stole your jacket without falling",-,-
+11,True,"these cakes, Susan stole quickly",+,+
+11,False,"indeed, Susan stole quickly",-,+
+11,False,"these cakes, Susan stole your jacket quickly",+,-
+11,True,"indeed, Susan stole your jacket quickly",-,-
+12,True,"these cakes, Susan stole carefully",+,+
+12,False,"indeed, Susan stole carefully",-,+
+12,False,"these cakes, Susan stole a phone carefully",+,-
+12,True,"indeed, Susan stole a phone carefully",-,-
+13,True,"these cakes, Susan stole without falling",+,+
+13,False,"indeed, Susan stole without falling",-,+
+13,False,"these cakes, Susan stole a phone without falling",+,-
+13,True,"indeed, Susan stole a phone without falling",-,-
+14,True,"these cakes, Susan stole quickly",+,+
+14,False,"indeed, Susan stole quickly",-,+
+14,False,"these cakes, Susan stole a phone quickly",+,-
+14,True,"indeed, Susan stole a phone quickly",-,-
+15,True,"these cakes, Susan stole carefully",+,+
+15,False,"indeed, Susan stole carefully",-,+
+15,False,"these cakes, Susan stole the paperwork carefully",+,-
+15,True,"indeed, Susan stole the paperwork carefully",-,-
+16,True,"these cakes, Susan stole without falling",+,+
+16,False,"indeed, Susan stole without falling",-,+
+16,False,"these cakes, Susan stole the paperwork without falling",+,-
+16,True,"indeed, Susan stole the paperwork without falling",-,-
+17,True,"these cakes, Susan stole quickly",+,+
+17,False,"indeed, Susan stole quickly",-,+
+17,False,"these cakes, Susan stole the paperwork quickly",+,-
+17,True,"indeed, Susan stole the paperwork quickly",-,-
+18,True,"these cakes, Susan threw carefully",+,+
+18,False,"indeed, Susan threw carefully",-,+
+18,False,"these cakes, Susan threw your jacket carefully",+,-
+18,True,"indeed, Susan threw your jacket carefully",-,-
+19,True,"these cakes, Susan threw without falling",+,+
+19,False,"indeed, Susan threw without falling",-,+
+19,False,"these cakes, Susan threw your jacket without falling",+,-
+19,True,"indeed, Susan threw your jacket without falling",-,-
+20,True,"these cakes, Susan threw quickly",+,+
+20,False,"indeed, Susan threw quickly",-,+
+20,False,"these cakes, Susan threw your jacket quickly",+,-
+20,True,"indeed, Susan threw your jacket quickly",-,-
+21,True,"these cakes, Susan threw carefully",+,+
+21,False,"indeed, Susan threw carefully",-,+
+21,False,"these cakes, Susan threw a phone carefully",+,-
+21,True,"indeed, Susan threw a phone carefully",-,-
+22,True,"these cakes, Susan threw without falling",+,+
+22,False,"indeed, Susan threw without falling",-,+
+22,False,"these cakes, Susan threw a phone without falling",+,-
+22,True,"indeed, Susan threw a phone without falling",-,-
+23,True,"these cakes, Susan threw quickly",+,+
+23,False,"indeed, Susan threw quickly",-,+
+23,False,"these cakes, Susan threw a phone quickly",+,-
+23,True,"indeed, Susan threw a phone quickly",-,-
+24,True,"these cakes, Susan threw carefully",+,+
+24,False,"indeed, Susan threw carefully",-,+
+24,False,"these cakes, Susan threw the paperwork carefully",+,-
+24,True,"indeed, Susan threw the paperwork carefully",-,-
+25,True,"these cakes, Susan threw without falling",+,+
+25,False,"indeed, Susan threw without falling",-,+
+25,False,"these cakes, Susan threw the paperwork without falling",+,-
+25,True,"indeed, Susan threw the paperwork without falling",-,-
+26,True,"these cakes, Susan threw quickly",+,+
+26,False,"indeed, Susan threw quickly",-,+
+26,False,"these cakes, Susan threw the paperwork quickly",+,-
+26,True,"indeed, Susan threw the paperwork quickly",-,-
+27,True,"these cakes, Michelle lifted carefully",+,+
+27,False,"indeed, Michelle lifted carefully",-,+
+27,False,"these cakes, Michelle lifted your jacket carefully",+,-
+27,True,"indeed, Michelle lifted your jacket carefully",-,-
+28,True,"these cakes, Michelle lifted without falling",+,+
+28,False,"indeed, Michelle lifted without falling",-,+
+28,False,"these cakes, Michelle lifted your jacket without falling",+,-
+28,True,"indeed, Michelle lifted your jacket without falling",-,-
+29,True,"these cakes, Michelle lifted quickly",+,+
+29,False,"indeed, Michelle lifted quickly",-,+
+29,False,"these cakes, Michelle lifted your jacket quickly",+,-
+29,True,"indeed, Michelle lifted your jacket quickly",-,-
+30,True,"these cakes, Michelle lifted carefully",+,+
+30,False,"indeed, Michelle lifted carefully",-,+
+30,False,"these cakes, Michelle lifted a phone carefully",+,-
+30,True,"indeed, Michelle lifted a phone carefully",-,-
+31,True,"these cakes, Michelle lifted without falling",+,+
+31,False,"indeed, Michelle lifted without falling",-,+
+31,False,"these cakes, Michelle lifted a phone without falling",+,-
+31,True,"indeed, Michelle lifted a phone without falling",-,-
+32,True,"these cakes, Michelle lifted quickly",+,+
+32,False,"indeed, Michelle lifted quickly",-,+
+32,False,"these cakes, Michelle lifted a phone quickly",+,-
+32,True,"indeed, Michelle lifted a phone quickly",-,-
+33,True,"these cakes, Michelle lifted carefully",+,+
+33,False,"indeed, Michelle lifted carefully",-,+
+33,False,"these cakes, Michelle lifted the paperwork carefully",+,-
+33,True,"indeed, Michelle lifted the paperwork carefully",-,-
+34,True,"these cakes, Michelle lifted without falling",+,+
+34,False,"indeed, Michelle lifted without falling",-,+
+34,False,"these cakes, Michelle lifted the paperwork without falling",+,-
+34,True,"indeed, Michelle lifted the paperwork without falling",-,-
+35,True,"these cakes, Michelle lifted quickly",+,+
+35,False,"indeed, Michelle lifted quickly",-,+
+35,False,"these cakes, Michelle lifted the paperwork quickly",+,-
+35,True,"indeed, Michelle lifted the paperwork quickly",-,-
+36,True,"these cakes, Michelle stole carefully",+,+
+36,False,"indeed, Michelle stole carefully",-,+
+36,False,"these cakes, Michelle stole your jacket carefully",+,-
+36,True,"indeed, Michelle stole your jacket carefully",-,-
+37,True,"these cakes, Michelle stole without falling",+,+
+37,False,"indeed, Michelle stole without falling",-,+
+37,False,"these cakes, Michelle stole your jacket without falling",+,-
+37,True,"indeed, Michelle stole your jacket without falling",-,-
+38,True,"these cakes, Michelle stole quickly",+,+
+38,False,"indeed, Michelle stole quickly",-,+
+38,False,"these cakes, Michelle stole your jacket quickly",+,-
+38,True,"indeed, Michelle stole your jacket quickly",-,-
+39,True,"these cakes, Michelle stole carefully",+,+
+39,False,"indeed, Michelle stole carefully",-,+
+39,False,"these cakes, Michelle stole a phone carefully",+,-
+39,True,"indeed, Michelle stole a phone carefully",-,-
+40,True,"these cakes, Michelle stole without falling",+,+
+40,False,"indeed, Michelle stole without falling",-,+
+40,False,"these cakes, Michelle stole a phone without falling",+,-
+40,True,"indeed, Michelle stole a phone without falling",-,-
+41,True,"these cakes, Michelle stole quickly",+,+
+41,False,"indeed, Michelle stole quickly",-,+
+41,False,"these cakes, Michelle stole a phone quickly",+,-
+41,True,"indeed, Michelle stole a phone quickly",-,-
+42,True,"these cakes, Michelle stole carefully",+,+
+42,False,"indeed, Michelle stole carefully",-,+
+42,False,"these cakes, Michelle stole the paperwork carefully",+,-
+42,True,"indeed, Michelle stole the paperwork carefully",-,-
+43,True,"these cakes, Michelle stole without falling",+,+
+43,False,"indeed, Michelle stole without falling",-,+
+43,False,"these cakes, Michelle stole the paperwork without falling",+,-
+43,True,"indeed, Michelle stole the paperwork without falling",-,-
+44,True,"these cakes, Michelle stole quickly",+,+
+44,False,"indeed, Michelle stole quickly",-,+
+44,False,"these cakes, Michelle stole the paperwork quickly",+,-
+44,True,"indeed, Michelle stole the paperwork quickly",-,-
+45,True,"these cakes, Michelle threw carefully",+,+
+45,False,"indeed, Michelle threw carefully",-,+
+45,False,"these cakes, Michelle threw your jacket carefully",+,-
+45,True,"indeed, Michelle threw your jacket carefully",-,-
+46,True,"these cakes, Michelle threw without falling",+,+
+46,False,"indeed, Michelle threw without falling",-,+
+46,False,"these cakes, Michelle threw your jacket without falling",+,-
+46,True,"indeed, Michelle threw your jacket without falling",-,-
+47,True,"these cakes, Michelle threw quickly",+,+
+47,False,"indeed, Michelle threw quickly",-,+
+47,False,"these cakes, Michelle threw your jacket quickly",+,-
+47,True,"indeed, Michelle threw your jacket quickly",-,-
+48,True,"these cakes, Michelle threw carefully",+,+
+48,False,"indeed, Michelle threw carefully",-,+
+48,False,"these cakes, Michelle threw a phone carefully",+,-
+48,True,"indeed, Michelle threw a phone carefully",-,-
+49,True,"these cakes, Michelle threw without falling",+,+
+49,False,"indeed, Michelle threw without falling",-,+
+49,False,"these cakes, Michelle threw a phone without falling",+,-
+49,True,"indeed, Michelle threw a phone without falling",-,-
+50,True,"these cakes, Michelle threw quickly",+,+
+50,False,"indeed, Michelle threw quickly",-,+
+50,False,"these cakes, Michelle threw a phone quickly",+,-
+50,True,"indeed, Michelle threw a phone quickly",-,-
+51,True,"these cakes, Michelle threw carefully",+,+
+51,False,"indeed, Michelle threw carefully",-,+
+51,False,"these cakes, Michelle threw the paperwork carefully",+,-
+51,True,"indeed, Michelle threw the paperwork carefully",-,-
+52,True,"these cakes, Michelle threw without falling",+,+
+52,False,"indeed, Michelle threw without falling",-,+
+52,False,"these cakes, Michelle threw the paperwork without falling",+,-
+52,True,"indeed, Michelle threw the paperwork without falling",-,-
+53,True,"these cakes, Michelle threw quickly",+,+
+53,False,"indeed, Michelle threw quickly",-,+
+53,False,"these cakes, Michelle threw the paperwork quickly",+,-
+53,True,"indeed, Michelle threw the paperwork quickly",-,-
+54,True,"these cakes, Susan lifted carefully",+,+
+54,False,"meanwhile, Susan lifted carefully",-,+
+54,False,"these cakes, Susan lifted your jacket carefully",+,-
+54,True,"meanwhile, Susan lifted your jacket carefully",-,-
+55,True,"these cakes, Susan lifted without falling",+,+
+55,False,"meanwhile, Susan lifted without falling",-,+
+55,False,"these cakes, Susan lifted your jacket without falling",+,-
+55,True,"meanwhile, Susan lifted your jacket without falling",-,-
+56,True,"these cakes, Susan lifted quickly",+,+
+56,False,"meanwhile, Susan lifted quickly",-,+
+56,False,"these cakes, Susan lifted your jacket quickly",+,-
+56,True,"meanwhile, Susan lifted your jacket quickly",-,-
+57,True,"these cakes, Susan lifted carefully",+,+
+57,False,"meanwhile, Susan lifted carefully",-,+
+57,False,"these cakes, Susan lifted a phone carefully",+,-
+57,True,"meanwhile, Susan lifted a phone carefully",-,-
+58,True,"these cakes, Susan lifted without falling",+,+
+58,False,"meanwhile, Susan lifted without falling",-,+
+58,False,"these cakes, Susan lifted a phone without falling",+,-
+58,True,"meanwhile, Susan lifted a phone without falling",-,-
+59,True,"these cakes, Susan lifted quickly",+,+
+59,False,"meanwhile, Susan lifted quickly",-,+
+59,False,"these cakes, Susan lifted a phone quickly",+,-
+59,True,"meanwhile, Susan lifted a phone quickly",-,-
+60,True,"these cakes, Susan lifted carefully",+,+
+60,False,"meanwhile, Susan lifted carefully",-,+
+60,False,"these cakes, Susan lifted the paperwork carefully",+,-
+60,True,"meanwhile, Susan lifted the paperwork carefully",-,-
+61,True,"these cakes, Susan lifted without falling",+,+
+61,False,"meanwhile, Susan lifted without falling",-,+
+61,False,"these cakes, Susan lifted the paperwork without falling",+,-
+61,True,"meanwhile, Susan lifted the paperwork without falling",-,-
+62,True,"these cakes, Susan lifted quickly",+,+
+62,False,"meanwhile, Susan lifted quickly",-,+
+62,False,"these cakes, Susan lifted the paperwork quickly",+,-
+62,True,"meanwhile, Susan lifted the paperwork quickly",-,-
+63,True,"these cakes, Susan stole carefully",+,+
+63,False,"meanwhile, Susan stole carefully",-,+
+63,False,"these cakes, Susan stole your jacket carefully",+,-
+63,True,"meanwhile, Susan stole your jacket carefully",-,-
+64,True,"these cakes, Susan stole without falling",+,+
+64,False,"meanwhile, Susan stole without falling",-,+
+64,False,"these cakes, Susan stole your jacket without falling",+,-
+64,True,"meanwhile, Susan stole your jacket without falling",-,-
+65,True,"these cakes, Susan stole quickly",+,+
+65,False,"meanwhile, Susan stole quickly",-,+
+65,False,"these cakes, Susan stole your jacket quickly",+,-
+65,True,"meanwhile, Susan stole your jacket quickly",-,-
+66,True,"these cakes, Susan stole carefully",+,+
+66,False,"meanwhile, Susan stole carefully",-,+
+66,False,"these cakes, Susan stole a phone carefully",+,-
+66,True,"meanwhile, Susan stole a phone carefully",-,-
+67,True,"these cakes, Susan stole without falling",+,+
+67,False,"meanwhile, Susan stole without falling",-,+
+67,False,"these cakes, Susan stole a phone without falling",+,-
+67,True,"meanwhile, Susan stole a phone without falling",-,-
+68,True,"these cakes, Susan stole quickly",+,+
+68,False,"meanwhile, Susan stole quickly",-,+
+68,False,"these cakes, Susan stole a phone quickly",+,-
+68,True,"meanwhile, Susan stole a phone quickly",-,-
+69,True,"these cakes, Susan stole carefully",+,+
+69,False,"meanwhile, Susan stole carefully",-,+
+69,False,"these cakes, Susan stole the paperwork carefully",+,-
+69,True,"meanwhile, Susan stole the paperwork carefully",-,-
+70,True,"these cakes, Susan stole without falling",+,+
+70,False,"meanwhile, Susan stole without falling",-,+
+70,False,"these cakes, Susan stole the paperwork without falling",+,-
+70,True,"meanwhile, Susan stole the paperwork without falling",-,-
+71,True,"these cakes, Susan stole quickly",+,+
+71,False,"meanwhile, Susan stole quickly",-,+
+71,False,"these cakes, Susan stole the paperwork quickly",+,-
+71,True,"meanwhile, Susan stole the paperwork quickly",-,-
+72,True,"these cakes, Susan threw carefully",+,+
+72,False,"meanwhile, Susan threw carefully",-,+
+72,False,"these cakes, Susan threw your jacket carefully",+,-
+72,True,"meanwhile, Susan threw your jacket carefully",-,-
+73,True,"these cakes, Susan threw without falling",+,+
+73,False,"meanwhile, Susan threw without falling",-,+
+73,False,"these cakes, Susan threw your jacket without falling",+,-
+73,True,"meanwhile, Susan threw your jacket without falling",-,-
+74,True,"these cakes, Susan threw quickly",+,+
+74,False,"meanwhile, Susan threw quickly",-,+
+74,False,"these cakes, Susan threw your jacket quickly",+,-
+74,True,"meanwhile, Susan threw your jacket quickly",-,-
+75,True,"these cakes, Susan threw carefully",+,+
+75,False,"meanwhile, Susan threw carefully",-,+
+75,False,"these cakes, Susan threw a phone carefully",+,-
+75,True,"meanwhile, Susan threw a phone carefully",-,-
+76,True,"these cakes, Susan threw without falling",+,+
+76,False,"meanwhile, Susan threw without falling",-,+
+76,False,"these cakes, Susan threw a phone without falling",+,-
+76,True,"meanwhile, Susan threw a phone without falling",-,-
+77,True,"these cakes, Susan threw quickly",+,+
+77,False,"meanwhile, Susan threw quickly",-,+
+77,False,"these cakes, Susan threw a phone quickly",+,-
+77,True,"meanwhile, Susan threw a phone quickly",-,-
+78,True,"these cakes, Susan threw carefully",+,+
+78,False,"meanwhile, Susan threw carefully",-,+
+78,False,"these cakes, Susan threw the paperwork carefully",+,-
+78,True,"meanwhile, Susan threw the paperwork carefully",-,-
+79,True,"these cakes, Susan threw without falling",+,+
+79,False,"meanwhile, Susan threw without falling",-,+
+79,False,"these cakes, Susan threw the paperwork without falling",+,-
+79,True,"meanwhile, Susan threw the paperwork without falling",-,-
+80,True,"these cakes, Susan threw quickly",+,+
+80,False,"meanwhile, Susan threw quickly",-,+
+80,False,"these cakes, Susan threw the paperwork quickly",+,-
+80,True,"meanwhile, Susan threw the paperwork quickly",-,-
+81,True,"these cakes, Michelle lifted carefully",+,+
+81,False,"meanwhile, Michelle lifted carefully",-,+
+81,False,"these cakes, Michelle lifted your jacket carefully",+,-
+81,True,"meanwhile, Michelle lifted your jacket carefully",-,-
+82,True,"these cakes, Michelle lifted without falling",+,+
+82,False,"meanwhile, Michelle lifted without falling",-,+
+82,False,"these cakes, Michelle lifted your jacket without falling",+,-
+82,True,"meanwhile, Michelle lifted your jacket without falling",-,-
+83,True,"these cakes, Michelle lifted quickly",+,+
+83,False,"meanwhile, Michelle lifted quickly",-,+
+83,False,"these cakes, Michelle lifted your jacket quickly",+,-
+83,True,"meanwhile, Michelle lifted your jacket quickly",-,-
+84,True,"these cakes, Michelle lifted carefully",+,+
+84,False,"meanwhile, Michelle lifted carefully",-,+
+84,False,"these cakes, Michelle lifted a phone carefully",+,-
+84,True,"meanwhile, Michelle lifted a phone carefully",-,-
+85,True,"these cakes, Michelle lifted without falling",+,+
+85,False,"meanwhile, Michelle lifted without falling",-,+
+85,False,"these cakes, Michelle lifted a phone without falling",+,-
+85,True,"meanwhile, Michelle lifted a phone without falling",-,-
+86,True,"these cakes, Michelle lifted quickly",+,+
+86,False,"meanwhile, Michelle lifted quickly",-,+
+86,False,"these cakes, Michelle lifted a phone quickly",+,-
+86,True,"meanwhile, Michelle lifted a phone quickly",-,-
+87,True,"these cakes, Michelle lifted carefully",+,+
+87,False,"meanwhile, Michelle lifted carefully",-,+
+87,False,"these cakes, Michelle lifted the paperwork carefully",+,-
+87,True,"meanwhile, Michelle lifted the paperwork carefully",-,-
+88,True,"these cakes, Michelle lifted without falling",+,+
+88,False,"meanwhile, Michelle lifted without falling",-,+
+88,False,"these cakes, Michelle lifted the paperwork without falling",+,-
+88,True,"meanwhile, Michelle lifted the paperwork without falling",-,-
+89,True,"these cakes, Michelle lifted quickly",+,+
+89,False,"meanwhile, Michelle lifted quickly",-,+
+89,False,"these cakes, Michelle lifted the paperwork quickly",+,-
+89,True,"meanwhile, Michelle lifted the paperwork quickly",-,-
+90,True,"these cakes, Michelle stole carefully",+,+
+90,False,"meanwhile, Michelle stole carefully",-,+
+90,False,"these cakes, Michelle stole your jacket carefully",+,-
+90,True,"meanwhile, Michelle stole your jacket carefully",-,-
+91,True,"these cakes, Michelle stole without falling",+,+
+91,False,"meanwhile, Michelle stole without falling",-,+
+91,False,"these cakes, Michelle stole your jacket without falling",+,-
+91,True,"meanwhile, Michelle stole your jacket without falling",-,-
+92,True,"these cakes, Michelle stole quickly",+,+
+92,False,"meanwhile, Michelle stole quickly",-,+
+92,False,"these cakes, Michelle stole your jacket quickly",+,-
+92,True,"meanwhile, Michelle stole your jacket quickly",-,-
+93,True,"these cakes, Michelle stole carefully",+,+
+93,False,"meanwhile, Michelle stole carefully",-,+
+93,False,"these cakes, Michelle stole a phone carefully",+,-
+93,True,"meanwhile, Michelle stole a phone carefully",-,-
+94,True,"these cakes, Michelle stole without falling",+,+
+94,False,"meanwhile, Michelle stole without falling",-,+
+94,False,"these cakes, Michelle stole a phone without falling",+,-
+94,True,"meanwhile, Michelle stole a phone without falling",-,-
+95,True,"these cakes, Michelle stole quickly",+,+
+95,False,"meanwhile, Michelle stole quickly",-,+
+95,False,"these cakes, Michelle stole a phone quickly",+,-
+95,True,"meanwhile, Michelle stole a phone quickly",-,-
+96,True,"these cakes, Michelle stole carefully",+,+
+96,False,"meanwhile, Michelle stole carefully",-,+
+96,False,"these cakes, Michelle stole the paperwork carefully",+,-
+96,True,"meanwhile, Michelle stole the paperwork carefully",-,-
+97,True,"these cakes, Michelle stole without falling",+,+
+97,False,"meanwhile, Michelle stole without falling",-,+
+97,False,"these cakes, Michelle stole the paperwork without falling",+,-
+97,True,"meanwhile, Michelle stole the paperwork without falling",-,-
+98,True,"these cakes, Michelle stole quickly",+,+
+98,False,"meanwhile, Michelle stole quickly",-,+
+98,False,"these cakes, Michelle stole the paperwork quickly",+,-
+98,True,"meanwhile, Michelle stole the paperwork quickly",-,-
+99,True,"these cakes, Michelle threw carefully",+,+
+99,False,"meanwhile, Michelle threw carefully",-,+
+99,False,"these cakes, Michelle threw your jacket carefully",+,-
+99,True,"meanwhile, Michelle threw your jacket carefully",-,-
+100,True,"these cakes, Michelle threw without falling",+,+
+100,False,"meanwhile, Michelle threw without falling",-,+
+100,False,"these cakes, Michelle threw your jacket without falling",+,-
+100,True,"meanwhile, Michelle threw your jacket without falling",-,-
+101,True,"these cakes, Michelle threw quickly",+,+
+101,False,"meanwhile, Michelle threw quickly",-,+
+101,False,"these cakes, Michelle threw your jacket quickly",+,-
+101,True,"meanwhile, Michelle threw your jacket quickly",-,-
+102,True,"these cakes, Michelle threw carefully",+,+
+102,False,"meanwhile, Michelle threw carefully",-,+
+102,False,"these cakes, Michelle threw a phone carefully",+,-
+102,True,"meanwhile, Michelle threw a phone carefully",-,-
+103,True,"these cakes, Michelle threw without falling",+,+
+103,False,"meanwhile, Michelle threw without falling",-,+
+103,False,"these cakes, Michelle threw a phone without falling",+,-
+103,True,"meanwhile, Michelle threw a phone without falling",-,-
+104,True,"these cakes, Michelle threw quickly",+,+
+104,False,"meanwhile, Michelle threw quickly",-,+
+104,False,"these cakes, Michelle threw a phone quickly",+,-
+104,True,"meanwhile, Michelle threw a phone quickly",-,-
+105,True,"these cakes, Michelle threw carefully",+,+
+105,False,"meanwhile, Michelle threw carefully",-,+
+105,False,"these cakes, Michelle threw the paperwork carefully",+,-
+105,True,"meanwhile, Michelle threw the paperwork carefully",-,-
+106,True,"these cakes, Michelle threw without falling",+,+
+106,False,"meanwhile, Michelle threw without falling",-,+
+106,False,"these cakes, Michelle threw the paperwork without falling",+,-
+106,True,"meanwhile, Michelle threw the paperwork without falling",-,-
+107,True,"these cakes, Michelle threw quickly",+,+
+107,False,"meanwhile, Michelle threw quickly",-,+
+107,False,"these cakes, Michelle threw the paperwork quickly",+,-
+107,True,"meanwhile, Michelle threw the paperwork quickly",-,-
+108,True,"these cakes, Susan lifted carefully",+,+
+108,False,"still, Susan lifted carefully",-,+
+108,False,"these cakes, Susan lifted your jacket carefully",+,-
+108,True,"still, Susan lifted your jacket carefully",-,-
+109,True,"these cakes, Susan lifted without falling",+,+
+109,False,"still, Susan lifted without falling",-,+
+109,False,"these cakes, Susan lifted your jacket without falling",+,-
+109,True,"still, Susan lifted your jacket without falling",-,-
+110,True,"these cakes, Susan lifted quickly",+,+
+110,False,"still, Susan lifted quickly",-,+
+110,False,"these cakes, Susan lifted your jacket quickly",+,-
+110,True,"still, Susan lifted your jacket quickly",-,-
+111,True,"these cakes, Susan lifted carefully",+,+
+111,False,"still, Susan lifted carefully",-,+
+111,False,"these cakes, Susan lifted a phone carefully",+,-
+111,True,"still, Susan lifted a phone carefully",-,-
+112,True,"these cakes, Susan lifted without falling",+,+
+112,False,"still, Susan lifted without falling",-,+
+112,False,"these cakes, Susan lifted a phone without falling",+,-
+112,True,"still, Susan lifted a phone without falling",-,-
+113,True,"these cakes, Susan lifted quickly",+,+
+113,False,"still, Susan lifted quickly",-,+
+113,False,"these cakes, Susan lifted a phone quickly",+,-
+113,True,"still, Susan lifted a phone quickly",-,-
+114,True,"these cakes, Susan lifted carefully",+,+
+114,False,"still, Susan lifted carefully",-,+
+114,False,"these cakes, Susan lifted the paperwork carefully",+,-
+114,True,"still, Susan lifted the paperwork carefully",-,-
+115,True,"these cakes, Susan lifted without falling",+,+
+115,False,"still, Susan lifted without falling",-,+
+115,False,"these cakes, Susan lifted the paperwork without falling",+,-
+115,True,"still, Susan lifted the paperwork without falling",-,-
+116,True,"these cakes, Susan lifted quickly",+,+
+116,False,"still, Susan lifted quickly",-,+
+116,False,"these cakes, Susan lifted the paperwork quickly",+,-
+116,True,"still, Susan lifted the paperwork quickly",-,-
+117,True,"these cakes, Susan stole carefully",+,+
+117,False,"still, Susan stole carefully",-,+
+117,False,"these cakes, Susan stole your jacket carefully",+,-
+117,True,"still, Susan stole your jacket carefully",-,-
+118,True,"these cakes, Susan stole without falling",+,+
+118,False,"still, Susan stole without falling",-,+
+118,False,"these cakes, Susan stole your jacket without falling",+,-
+118,True,"still, Susan stole your jacket without falling",-,-
+119,True,"these cakes, Susan stole quickly",+,+
+119,False,"still, Susan stole quickly",-,+
+119,False,"these cakes, Susan stole your jacket quickly",+,-
+119,True,"still, Susan stole your jacket quickly",-,-
+120,True,"these cakes, Susan stole carefully",+,+
+120,False,"still, Susan stole carefully",-,+
+120,False,"these cakes, Susan stole a phone carefully",+,-
+120,True,"still, Susan stole a phone carefully",-,-
+121,True,"these cakes, Susan stole without falling",+,+
+121,False,"still, Susan stole without falling",-,+
+121,False,"these cakes, Susan stole a phone without falling",+,-
+121,True,"still, Susan stole a phone without falling",-,-
+122,True,"these cakes, Susan stole quickly",+,+
+122,False,"still, Susan stole quickly",-,+
+122,False,"these cakes, Susan stole a phone quickly",+,-
+122,True,"still, Susan stole a phone quickly",-,-
+123,True,"these cakes, Susan stole carefully",+,+
+123,False,"still, Susan stole carefully",-,+
+123,False,"these cakes, Susan stole the paperwork carefully",+,-
+123,True,"still, Susan stole the paperwork carefully",-,-
+124,True,"these cakes, Susan stole without falling",+,+
+124,False,"still, Susan stole without falling",-,+
+124,False,"these cakes, Susan stole the paperwork without falling",+,-
+124,True,"still, Susan stole the paperwork without falling",-,-
+125,True,"these cakes, Susan stole quickly",+,+
+125,False,"still, Susan stole quickly",-,+
+125,False,"these cakes, Susan stole the paperwork quickly",+,-
+125,True,"still, Susan stole the paperwork quickly",-,-
+126,True,"these cakes, Susan threw carefully",+,+
+126,False,"still, Susan threw carefully",-,+
+126,False,"these cakes, Susan threw your jacket carefully",+,-
+126,True,"still, Susan threw your jacket carefully",-,-
+127,True,"these cakes, Susan threw without falling",+,+
+127,False,"still, Susan threw without falling",-,+
+127,False,"these cakes, Susan threw your jacket without falling",+,-
+127,True,"still, Susan threw your jacket without falling",-,-
+128,True,"these cakes, Susan threw quickly",+,+
+128,False,"still, Susan threw quickly",-,+
+128,False,"these cakes, Susan threw your jacket quickly",+,-
+128,True,"still, Susan threw your jacket quickly",-,-
+129,True,"these cakes, Susan threw carefully",+,+
+129,False,"still, Susan threw carefully",-,+
+129,False,"these cakes, Susan threw a phone carefully",+,-
+129,True,"still, Susan threw a phone carefully",-,-
+130,True,"these cakes, Susan threw without falling",+,+
+130,False,"still, Susan threw without falling",-,+
+130,False,"these cakes, Susan threw a phone without falling",+,-
+130,True,"still, Susan threw a phone without falling",-,-
+131,True,"these cakes, Susan threw quickly",+,+
+131,False,"still, Susan threw quickly",-,+
+131,False,"these cakes, Susan threw a phone quickly",+,-
+131,True,"still, Susan threw a phone quickly",-,-
+132,True,"these cakes, Susan threw carefully",+,+
+132,False,"still, Susan threw carefully",-,+
+132,False,"these cakes, Susan threw the paperwork carefully",+,-
+132,True,"still, Susan threw the paperwork carefully",-,-
+133,True,"these cakes, Susan threw without falling",+,+
+133,False,"still, Susan threw without falling",-,+
+133,False,"these cakes, Susan threw the paperwork without falling",+,-
+133,True,"still, Susan threw the paperwork without falling",-,-
+134,True,"these cakes, Susan threw quickly",+,+
+134,False,"still, Susan threw quickly",-,+
+134,False,"these cakes, Susan threw the paperwork quickly",+,-
+134,True,"still, Susan threw the paperwork quickly",-,-
+135,True,"these cakes, Michelle lifted carefully",+,+
+135,False,"still, Michelle lifted carefully",-,+
+135,False,"these cakes, Michelle lifted your jacket carefully",+,-
+135,True,"still, Michelle lifted your jacket carefully",-,-
+136,True,"these cakes, Michelle lifted without falling",+,+
+136,False,"still, Michelle lifted without falling",-,+
+136,False,"these cakes, Michelle lifted your jacket without falling",+,-
+136,True,"still, Michelle lifted your jacket without falling",-,-
+137,True,"these cakes, Michelle lifted quickly",+,+
+137,False,"still, Michelle lifted quickly",-,+
+137,False,"these cakes, Michelle lifted your jacket quickly",+,-
+137,True,"still, Michelle lifted your jacket quickly",-,-
+138,True,"these cakes, Michelle lifted carefully",+,+
+138,False,"still, Michelle lifted carefully",-,+
+138,False,"these cakes, Michelle lifted a phone carefully",+,-
+138,True,"still, Michelle lifted a phone carefully",-,-
+139,True,"these cakes, Michelle lifted without falling",+,+
+139,False,"still, Michelle lifted without falling",-,+
+139,False,"these cakes, Michelle lifted a phone without falling",+,-
+139,True,"still, Michelle lifted a phone without falling",-,-
+140,True,"these cakes, Michelle lifted quickly",+,+
+140,False,"still, Michelle lifted quickly",-,+
+140,False,"these cakes, Michelle lifted a phone quickly",+,-
+140,True,"still, Michelle lifted a phone quickly",-,-
+141,True,"these cakes, Michelle lifted carefully",+,+
+141,False,"still, Michelle lifted carefully",-,+
+141,False,"these cakes, Michelle lifted the paperwork carefully",+,-
+141,True,"still, Michelle lifted the paperwork carefully",-,-
+142,True,"these cakes, Michelle lifted without falling",+,+
+142,False,"still, Michelle lifted without falling",-,+
+142,False,"these cakes, Michelle lifted the paperwork without falling",+,-
+142,True,"still, Michelle lifted the paperwork without falling",-,-
+143,True,"these cakes, Michelle lifted quickly",+,+
+143,False,"still, Michelle lifted quickly",-,+
+143,False,"these cakes, Michelle lifted the paperwork quickly",+,-
+143,True,"still, Michelle lifted the paperwork quickly",-,-
+144,True,"these cakes, Michelle stole carefully",+,+
+144,False,"still, Michelle stole carefully",-,+
+144,False,"these cakes, Michelle stole your jacket carefully",+,-
+144,True,"still, Michelle stole your jacket carefully",-,-
+145,True,"these cakes, Michelle stole without falling",+,+
+145,False,"still, Michelle stole without falling",-,+
+145,False,"these cakes, Michelle stole your jacket without falling",+,-
+145,True,"still, Michelle stole your jacket without falling",-,-
+146,True,"these cakes, Michelle stole quickly",+,+
+146,False,"still, Michelle stole quickly",-,+
+146,False,"these cakes, Michelle stole your jacket quickly",+,-
+146,True,"still, Michelle stole your jacket quickly",-,-
+147,True,"these cakes, Michelle stole carefully",+,+
+147,False,"still, Michelle stole carefully",-,+
+147,False,"these cakes, Michelle stole a phone carefully",+,-
+147,True,"still, Michelle stole a phone carefully",-,-
+148,True,"these cakes, Michelle stole without falling",+,+
+148,False,"still, Michelle stole without falling",-,+
+148,False,"these cakes, Michelle stole a phone without falling",+,-
+148,True,"still, Michelle stole a phone without falling",-,-
+149,True,"these cakes, Michelle stole quickly",+,+
+149,False,"still, Michelle stole quickly",-,+
+149,False,"these cakes, Michelle stole a phone quickly",+,-
+149,True,"still, Michelle stole a phone quickly",-,-
+150,True,"these cakes, Michelle stole carefully",+,+
+150,False,"still, Michelle stole carefully",-,+
+150,False,"these cakes, Michelle stole the paperwork carefully",+,-
+150,True,"still, Michelle stole the paperwork carefully",-,-
+151,True,"these cakes, Michelle stole without falling",+,+
+151,False,"still, Michelle stole without falling",-,+
+151,False,"these cakes, Michelle stole the paperwork without falling",+,-
+151,True,"still, Michelle stole the paperwork without falling",-,-
+152,True,"these cakes, Michelle stole quickly",+,+
+152,False,"still, Michelle stole quickly",-,+
+152,False,"these cakes, Michelle stole the paperwork quickly",+,-
+152,True,"still, Michelle stole the paperwork quickly",-,-
+153,True,"these cakes, Michelle threw carefully",+,+
+153,False,"still, Michelle threw carefully",-,+
+153,False,"these cakes, Michelle threw your jacket carefully",+,-
+153,True,"still, Michelle threw your jacket carefully",-,-
+154,True,"these cakes, Michelle threw without falling",+,+
+154,False,"still, Michelle threw without falling",-,+
+154,False,"these cakes, Michelle threw your jacket without falling",+,-
+154,True,"still, Michelle threw your jacket without falling",-,-
+155,True,"these cakes, Michelle threw quickly",+,+
+155,False,"still, Michelle threw quickly",-,+
+155,False,"these cakes, Michelle threw your jacket quickly",+,-
+155,True,"still, Michelle threw your jacket quickly",-,-
+156,True,"these cakes, Michelle threw carefully",+,+
+156,False,"still, Michelle threw carefully",-,+
+156,False,"these cakes, Michelle threw a phone carefully",+,-
+156,True,"still, Michelle threw a phone carefully",-,-
+157,True,"these cakes, Michelle threw without falling",+,+
+157,False,"still, Michelle threw without falling",-,+
+157,False,"these cakes, Michelle threw a phone without falling",+,-
+157,True,"still, Michelle threw a phone without falling",-,-
+158,True,"these cakes, Michelle threw quickly",+,+
+158,False,"still, Michelle threw quickly",-,+
+158,False,"these cakes, Michelle threw a phone quickly",+,-
+158,True,"still, Michelle threw a phone quickly",-,-
+159,True,"these cakes, Michelle threw carefully",+,+
+159,False,"still, Michelle threw carefully",-,+
+159,False,"these cakes, Michelle threw the paperwork carefully",+,-
+159,True,"still, Michelle threw the paperwork carefully",-,-
+160,True,"these cakes, Michelle threw without falling",+,+
+160,False,"still, Michelle threw without falling",-,+
+160,False,"these cakes, Michelle threw the paperwork without falling",+,-
+160,True,"still, Michelle threw the paperwork without falling",-,-
+161,True,"these cakes, Michelle threw quickly",+,+
+161,False,"still, Michelle threw quickly",-,+
+161,False,"these cakes, Michelle threw the paperwork quickly",+,-
+161,True,"still, Michelle threw the paperwork quickly",-,-
+162,True,"those balls, Susan lifted carefully",+,+
+162,False,"indeed, Susan lifted carefully",-,+
+162,False,"those balls, Susan lifted your jacket carefully",+,-
+162,True,"indeed, Susan lifted your jacket carefully",-,-
+163,True,"those balls, Susan lifted without falling",+,+
+163,False,"indeed, Susan lifted without falling",-,+
+163,False,"those balls, Susan lifted your jacket without falling",+,-
+163,True,"indeed, Susan lifted your jacket without falling",-,-
+164,True,"those balls, Susan lifted quickly",+,+
+164,False,"indeed, Susan lifted quickly",-,+
+164,False,"those balls, Susan lifted your jacket quickly",+,-
+164,True,"indeed, Susan lifted your jacket quickly",-,-
+165,True,"those balls, Susan lifted carefully",+,+
+165,False,"indeed, Susan lifted carefully",-,+
+165,False,"those balls, Susan lifted a phone carefully",+,-
+165,True,"indeed, Susan lifted a phone carefully",-,-
+166,True,"those balls, Susan lifted without falling",+,+
+166,False,"indeed, Susan lifted without falling",-,+
+166,False,"those balls, Susan lifted a phone without falling",+,-
+166,True,"indeed, Susan lifted a phone without falling",-,-
+167,True,"those balls, Susan lifted quickly",+,+
+167,False,"indeed, Susan lifted quickly",-,+
+167,False,"those balls, Susan lifted a phone quickly",+,-
+167,True,"indeed, Susan lifted a phone quickly",-,-
+168,True,"those balls, Susan lifted carefully",+,+
+168,False,"indeed, Susan lifted carefully",-,+
+168,False,"those balls, Susan lifted the paperwork carefully",+,-
+168,True,"indeed, Susan lifted the paperwork carefully",-,-
+169,True,"those balls, Susan lifted without falling",+,+
+169,False,"indeed, Susan lifted without falling",-,+
+169,False,"those balls, Susan lifted the paperwork without falling",+,-
+169,True,"indeed, Susan lifted the paperwork without falling",-,-
+170,True,"those balls, Susan lifted quickly",+,+
+170,False,"indeed, Susan lifted quickly",-,+
+170,False,"those balls, Susan lifted the paperwork quickly",+,-
+170,True,"indeed, Susan lifted the paperwork quickly",-,-
+171,True,"those balls, Susan stole carefully",+,+
+171,False,"indeed, Susan stole carefully",-,+
+171,False,"those balls, Susan stole your jacket carefully",+,-
+171,True,"indeed, Susan stole your jacket carefully",-,-
+172,True,"those balls, Susan stole without falling",+,+
+172,False,"indeed, Susan stole without falling",-,+
+172,False,"those balls, Susan stole your jacket without falling",+,-
+172,True,"indeed, Susan stole your jacket without falling",-,-
+173,True,"those balls, Susan stole quickly",+,+
+173,False,"indeed, Susan stole quickly",-,+
+173,False,"those balls, Susan stole your jacket quickly",+,-
+173,True,"indeed, Susan stole your jacket quickly",-,-
+174,True,"those balls, Susan stole carefully",+,+
+174,False,"indeed, Susan stole carefully",-,+
+174,False,"those balls, Susan stole a phone carefully",+,-
+174,True,"indeed, Susan stole a phone carefully",-,-
+175,True,"those balls, Susan stole without falling",+,+
+175,False,"indeed, Susan stole without falling",-,+
+175,False,"those balls, Susan stole a phone without falling",+,-
+175,True,"indeed, Susan stole a phone without falling",-,-
+176,True,"those balls, Susan stole quickly",+,+
+176,False,"indeed, Susan stole quickly",-,+
+176,False,"those balls, Susan stole a phone quickly",+,-
+176,True,"indeed, Susan stole a phone quickly",-,-
+177,True,"those balls, Susan stole carefully",+,+
+177,False,"indeed, Susan stole carefully",-,+
+177,False,"those balls, Susan stole the paperwork carefully",+,-
+177,True,"indeed, Susan stole the paperwork carefully",-,-
+178,True,"those balls, Susan stole without falling",+,+
+178,False,"indeed, Susan stole without falling",-,+
+178,False,"those balls, Susan stole the paperwork without falling",+,-
+178,True,"indeed, Susan stole the paperwork without falling",-,-
+179,True,"those balls, Susan stole quickly",+,+
+179,False,"indeed, Susan stole quickly",-,+
+179,False,"those balls, Susan stole the paperwork quickly",+,-
+179,True,"indeed, Susan stole the paperwork quickly",-,-
+180,True,"those balls, Susan threw carefully",+,+
+180,False,"indeed, Susan threw carefully",-,+
+180,False,"those balls, Susan threw your jacket carefully",+,-
+180,True,"indeed, Susan threw your jacket carefully",-,-
+181,True,"those balls, Susan threw without falling",+,+
+181,False,"indeed, Susan threw without falling",-,+
+181,False,"those balls, Susan threw your jacket without falling",+,-
+181,True,"indeed, Susan threw your jacket without falling",-,-
+182,True,"those balls, Susan threw quickly",+,+
+182,False,"indeed, Susan threw quickly",-,+
+182,False,"those balls, Susan threw your jacket quickly",+,-
+182,True,"indeed, Susan threw your jacket quickly",-,-
+183,True,"those balls, Susan threw carefully",+,+
+183,False,"indeed, Susan threw carefully",-,+
+183,False,"those balls, Susan threw a phone carefully",+,-
+183,True,"indeed, Susan threw a phone carefully",-,-
+184,True,"those balls, Susan threw without falling",+,+
+184,False,"indeed, Susan threw without falling",-,+
+184,False,"those balls, Susan threw a phone without falling",+,-
+184,True,"indeed, Susan threw a phone without falling",-,-
+185,True,"those balls, Susan threw quickly",+,+
+185,False,"indeed, Susan threw quickly",-,+
+185,False,"those balls, Susan threw a phone quickly",+,-
+185,True,"indeed, Susan threw a phone quickly",-,-
+186,True,"those balls, Susan threw carefully",+,+
+186,False,"indeed, Susan threw carefully",-,+
+186,False,"those balls, Susan threw the paperwork carefully",+,-
+186,True,"indeed, Susan threw the paperwork carefully",-,-
+187,True,"those balls, Susan threw without falling",+,+
+187,False,"indeed, Susan threw without falling",-,+
+187,False,"those balls, Susan threw the paperwork without falling",+,-
+187,True,"indeed, Susan threw the paperwork without falling",-,-
+188,True,"those balls, Susan threw quickly",+,+
+188,False,"indeed, Susan threw quickly",-,+
+188,False,"those balls, Susan threw the paperwork quickly",+,-
+188,True,"indeed, Susan threw the paperwork quickly",-,-
+189,True,"those balls, Michelle lifted carefully",+,+
+189,False,"indeed, Michelle lifted carefully",-,+
+189,False,"those balls, Michelle lifted your jacket carefully",+,-
+189,True,"indeed, Michelle lifted your jacket carefully",-,-
+190,True,"those balls, Michelle lifted without falling",+,+
+190,False,"indeed, Michelle lifted without falling",-,+
+190,False,"those balls, Michelle lifted your jacket without falling",+,-
+190,True,"indeed, Michelle lifted your jacket without falling",-,-
+191,True,"those balls, Michelle lifted quickly",+,+
+191,False,"indeed, Michelle lifted quickly",-,+
+191,False,"those balls, Michelle lifted your jacket quickly",+,-
+191,True,"indeed, Michelle lifted your jacket quickly",-,-
+192,True,"those balls, Michelle lifted carefully",+,+
+192,False,"indeed, Michelle lifted carefully",-,+
+192,False,"those balls, Michelle lifted a phone carefully",+,-
+192,True,"indeed, Michelle lifted a phone carefully",-,-
+193,True,"those balls, Michelle lifted without falling",+,+
+193,False,"indeed, Michelle lifted without falling",-,+
+193,False,"those balls, Michelle lifted a phone without falling",+,-
+193,True,"indeed, Michelle lifted a phone without falling",-,-
+194,True,"those balls, Michelle lifted quickly",+,+
+194,False,"indeed, Michelle lifted quickly",-,+
+194,False,"those balls, Michelle lifted a phone quickly",+,-
+194,True,"indeed, Michelle lifted a phone quickly",-,-
+195,True,"those balls, Michelle lifted carefully",+,+
+195,False,"indeed, Michelle lifted carefully",-,+
+195,False,"those balls, Michelle lifted the paperwork carefully",+,-
+195,True,"indeed, Michelle lifted the paperwork carefully",-,-
+196,True,"those balls, Michelle lifted without falling",+,+
+196,False,"indeed, Michelle lifted without falling",-,+
+196,False,"those balls, Michelle lifted the paperwork without falling",+,-
+196,True,"indeed, Michelle lifted the paperwork without falling",-,-
+197,True,"those balls, Michelle lifted quickly",+,+
+197,False,"indeed, Michelle lifted quickly",-,+
+197,False,"those balls, Michelle lifted the paperwork quickly",+,-
+197,True,"indeed, Michelle lifted the paperwork quickly",-,-
+198,True,"those balls, Michelle stole carefully",+,+
+198,False,"indeed, Michelle stole carefully",-,+
+198,False,"those balls, Michelle stole your jacket carefully",+,-
+198,True,"indeed, Michelle stole your jacket carefully",-,-
+199,True,"those balls, Michelle stole without falling",+,+
+199,False,"indeed, Michelle stole without falling",-,+
+199,False,"those balls, Michelle stole your jacket without falling",+,-
+199,True,"indeed, Michelle stole your jacket without falling",-,-
+200,True,"those balls, Michelle stole quickly",+,+
+200,False,"indeed, Michelle stole quickly",-,+
+200,False,"those balls, Michelle stole your jacket quickly",+,-
+200,True,"indeed, Michelle stole your jacket quickly",-,-
+201,True,"those balls, Michelle stole carefully",+,+
+201,False,"indeed, Michelle stole carefully",-,+
+201,False,"those balls, Michelle stole a phone carefully",+,-
+201,True,"indeed, Michelle stole a phone carefully",-,-
+202,True,"those balls, Michelle stole without falling",+,+
+202,False,"indeed, Michelle stole without falling",-,+
+202,False,"those balls, Michelle stole a phone without falling",+,-
+202,True,"indeed, Michelle stole a phone without falling",-,-
+203,True,"those balls, Michelle stole quickly",+,+
+203,False,"indeed, Michelle stole quickly",-,+
+203,False,"those balls, Michelle stole a phone quickly",+,-
+203,True,"indeed, Michelle stole a phone quickly",-,-
+204,True,"those balls, Michelle stole carefully",+,+
+204,False,"indeed, Michelle stole carefully",-,+
+204,False,"those balls, Michelle stole the paperwork carefully",+,-
+204,True,"indeed, Michelle stole the paperwork carefully",-,-
+205,True,"those balls, Michelle stole without falling",+,+
+205,False,"indeed, Michelle stole without falling",-,+
+205,False,"those balls, Michelle stole the paperwork without falling",+,-
+205,True,"indeed, Michelle stole the paperwork without falling",-,-
+206,True,"those balls, Michelle stole quickly",+,+
+206,False,"indeed, Michelle stole quickly",-,+
+206,False,"those balls, Michelle stole the paperwork quickly",+,-
+206,True,"indeed, Michelle stole the paperwork quickly",-,-
+207,True,"those balls, Michelle threw carefully",+,+
+207,False,"indeed, Michelle threw carefully",-,+
+207,False,"those balls, Michelle threw your jacket carefully",+,-
+207,True,"indeed, Michelle threw your jacket carefully",-,-
+208,True,"those balls, Michelle threw without falling",+,+
+208,False,"indeed, Michelle threw without falling",-,+
+208,False,"those balls, Michelle threw your jacket without falling",+,-
+208,True,"indeed, Michelle threw your jacket without falling",-,-
+209,True,"those balls, Michelle threw quickly",+,+
+209,False,"indeed, Michelle threw quickly",-,+
+209,False,"those balls, Michelle threw your jacket quickly",+,-
+209,True,"indeed, Michelle threw your jacket quickly",-,-
+210,True,"those balls, Michelle threw carefully",+,+
+210,False,"indeed, Michelle threw carefully",-,+
+210,False,"those balls, Michelle threw a phone carefully",+,-
+210,True,"indeed, Michelle threw a phone carefully",-,-
+211,True,"those balls, Michelle threw without falling",+,+
+211,False,"indeed, Michelle threw without falling",-,+
+211,False,"those balls, Michelle threw a phone without falling",+,-
+211,True,"indeed, Michelle threw a phone without falling",-,-
+212,True,"those balls, Michelle threw quickly",+,+
+212,False,"indeed, Michelle threw quickly",-,+
+212,False,"those balls, Michelle threw a phone quickly",+,-
+212,True,"indeed, Michelle threw a phone quickly",-,-
+213,True,"those balls, Michelle threw carefully",+,+
+213,False,"indeed, Michelle threw carefully",-,+
+213,False,"those balls, Michelle threw the paperwork carefully",+,-
+213,True,"indeed, Michelle threw the paperwork carefully",-,-
+214,True,"those balls, Michelle threw without falling",+,+
+214,False,"indeed, Michelle threw without falling",-,+
+214,False,"those balls, Michelle threw the paperwork without falling",+,-
+214,True,"indeed, Michelle threw the paperwork without falling",-,-
+215,True,"those balls, Michelle threw quickly",+,+
+215,False,"indeed, Michelle threw quickly",-,+
+215,False,"those balls, Michelle threw the paperwork quickly",+,-
+215,True,"indeed, Michelle threw the paperwork quickly",-,-
+216,True,"those balls, Susan lifted carefully",+,+
+216,False,"meanwhile, Susan lifted carefully",-,+
+216,False,"those balls, Susan lifted your jacket carefully",+,-
+216,True,"meanwhile, Susan lifted your jacket carefully",-,-
+217,True,"those balls, Susan lifted without falling",+,+
+217,False,"meanwhile, Susan lifted without falling",-,+
+217,False,"those balls, Susan lifted your jacket without falling",+,-
+217,True,"meanwhile, Susan lifted your jacket without falling",-,-
+218,True,"those balls, Susan lifted quickly",+,+
+218,False,"meanwhile, Susan lifted quickly",-,+
+218,False,"those balls, Susan lifted your jacket quickly",+,-
+218,True,"meanwhile, Susan lifted your jacket quickly",-,-
+219,True,"those balls, Susan lifted carefully",+,+
+219,False,"meanwhile, Susan lifted carefully",-,+
+219,False,"those balls, Susan lifted a phone carefully",+,-
+219,True,"meanwhile, Susan lifted a phone carefully",-,-
+220,True,"those balls, Susan lifted without falling",+,+
+220,False,"meanwhile, Susan lifted without falling",-,+
+220,False,"those balls, Susan lifted a phone without falling",+,-
+220,True,"meanwhile, Susan lifted a phone without falling",-,-
+221,True,"those balls, Susan lifted quickly",+,+
+221,False,"meanwhile, Susan lifted quickly",-,+
+221,False,"those balls, Susan lifted a phone quickly",+,-
+221,True,"meanwhile, Susan lifted a phone quickly",-,-
+222,True,"those balls, Susan lifted carefully",+,+
+222,False,"meanwhile, Susan lifted carefully",-,+
+222,False,"those balls, Susan lifted the paperwork carefully",+,-
+222,True,"meanwhile, Susan lifted the paperwork carefully",-,-
+223,True,"those balls, Susan lifted without falling",+,+
+223,False,"meanwhile, Susan lifted without falling",-,+
+223,False,"those balls, Susan lifted the paperwork without falling",+,-
+223,True,"meanwhile, Susan lifted the paperwork without falling",-,-
+224,True,"those balls, Susan lifted quickly",+,+
+224,False,"meanwhile, Susan lifted quickly",-,+
+224,False,"those balls, Susan lifted the paperwork quickly",+,-
+224,True,"meanwhile, Susan lifted the paperwork quickly",-,-
+225,True,"those balls, Susan stole carefully",+,+
+225,False,"meanwhile, Susan stole carefully",-,+
+225,False,"those balls, Susan stole your jacket carefully",+,-
+225,True,"meanwhile, Susan stole your jacket carefully",-,-
+226,True,"those balls, Susan stole without falling",+,+
+226,False,"meanwhile, Susan stole without falling",-,+
+226,False,"those balls, Susan stole your jacket without falling",+,-
+226,True,"meanwhile, Susan stole your jacket without falling",-,-
+227,True,"those balls, Susan stole quickly",+,+
+227,False,"meanwhile, Susan stole quickly",-,+
+227,False,"those balls, Susan stole your jacket quickly",+,-
+227,True,"meanwhile, Susan stole your jacket quickly",-,-
+228,True,"those balls, Susan stole carefully",+,+
+228,False,"meanwhile, Susan stole carefully",-,+
+228,False,"those balls, Susan stole a phone carefully",+,-
+228,True,"meanwhile, Susan stole a phone carefully",-,-
+229,True,"those balls, Susan stole without falling",+,+
+229,False,"meanwhile, Susan stole without falling",-,+
+229,False,"those balls, Susan stole a phone without falling",+,-
+229,True,"meanwhile, Susan stole a phone without falling",-,-
+230,True,"those balls, Susan stole quickly",+,+
+230,False,"meanwhile, Susan stole quickly",-,+
+230,False,"those balls, Susan stole a phone quickly",+,-
+230,True,"meanwhile, Susan stole a phone quickly",-,-
+231,True,"those balls, Susan stole carefully",+,+
+231,False,"meanwhile, Susan stole carefully",-,+
+231,False,"those balls, Susan stole the paperwork carefully",+,-
+231,True,"meanwhile, Susan stole the paperwork carefully",-,-
+232,True,"those balls, Susan stole without falling",+,+
+232,False,"meanwhile, Susan stole without falling",-,+
+232,False,"those balls, Susan stole the paperwork without falling",+,-
+232,True,"meanwhile, Susan stole the paperwork without falling",-,-
+233,True,"those balls, Susan stole quickly",+,+
+233,False,"meanwhile, Susan stole quickly",-,+
+233,False,"those balls, Susan stole the paperwork quickly",+,-
+233,True,"meanwhile, Susan stole the paperwork quickly",-,-
+234,True,"those balls, Susan threw carefully",+,+
+234,False,"meanwhile, Susan threw carefully",-,+
+234,False,"those balls, Susan threw your jacket carefully",+,-
+234,True,"meanwhile, Susan threw your jacket carefully",-,-
+235,True,"those balls, Susan threw without falling",+,+
+235,False,"meanwhile, Susan threw without falling",-,+
+235,False,"those balls, Susan threw your jacket without falling",+,-
+235,True,"meanwhile, Susan threw your jacket without falling",-,-
+236,True,"those balls, Susan threw quickly",+,+
+236,False,"meanwhile, Susan threw quickly",-,+
+236,False,"those balls, Susan threw your jacket quickly",+,-
+236,True,"meanwhile, Susan threw your jacket quickly",-,-
+237,True,"those balls, Susan threw carefully",+,+
+237,False,"meanwhile, Susan threw carefully",-,+
+237,False,"those balls, Susan threw a phone carefully",+,-
+237,True,"meanwhile, Susan threw a phone carefully",-,-
+238,True,"those balls, Susan threw without falling",+,+
+238,False,"meanwhile, Susan threw without falling",-,+
+238,False,"those balls, Susan threw a phone without falling",+,-
+238,True,"meanwhile, Susan threw a phone without falling",-,-
+239,True,"those balls, Susan threw quickly",+,+
+239,False,"meanwhile, Susan threw quickly",-,+
+239,False,"those balls, Susan threw a phone quickly",+,-
+239,True,"meanwhile, Susan threw a phone quickly",-,-
+240,True,"those balls, Susan threw carefully",+,+
+240,False,"meanwhile, Susan threw carefully",-,+
+240,False,"those balls, Susan threw the paperwork carefully",+,-
+240,True,"meanwhile, Susan threw the paperwork carefully",-,-
+241,True,"those balls, Susan threw without falling",+,+
+241,False,"meanwhile, Susan threw without falling",-,+
+241,False,"those balls, Susan threw the paperwork without falling",+,-
+241,True,"meanwhile, Susan threw the paperwork without falling",-,-
+242,True,"those balls, Susan threw quickly",+,+
+242,False,"meanwhile, Susan threw quickly",-,+
+242,False,"those balls, Susan threw the paperwork quickly",+,-
+242,True,"meanwhile, Susan threw the paperwork quickly",-,-
+243,True,"those balls, Michelle lifted carefully",+,+
+243,False,"meanwhile, Michelle lifted carefully",-,+
+243,False,"those balls, Michelle lifted your jacket carefully",+,-
+243,True,"meanwhile, Michelle lifted your jacket carefully",-,-
+244,True,"those balls, Michelle lifted without falling",+,+
+244,False,"meanwhile, Michelle lifted without falling",-,+
+244,False,"those balls, Michelle lifted your jacket without falling",+,-
+244,True,"meanwhile, Michelle lifted your jacket without falling",-,-
+245,True,"those balls, Michelle lifted quickly",+,+
+245,False,"meanwhile, Michelle lifted quickly",-,+
+245,False,"those balls, Michelle lifted your jacket quickly",+,-
+245,True,"meanwhile, Michelle lifted your jacket quickly",-,-
+246,True,"those balls, Michelle lifted carefully",+,+
+246,False,"meanwhile, Michelle lifted carefully",-,+
+246,False,"those balls, Michelle lifted a phone carefully",+,-
+246,True,"meanwhile, Michelle lifted a phone carefully",-,-
+247,True,"those balls, Michelle lifted without falling",+,+
+247,False,"meanwhile, Michelle lifted without falling",-,+
+247,False,"those balls, Michelle lifted a phone without falling",+,-
+247,True,"meanwhile, Michelle lifted a phone without falling",-,-
+248,True,"those balls, Michelle lifted quickly",+,+
+248,False,"meanwhile, Michelle lifted quickly",-,+
+248,False,"those balls, Michelle lifted a phone quickly",+,-
+248,True,"meanwhile, Michelle lifted a phone quickly",-,-
+249,True,"those balls, Michelle lifted carefully",+,+
+249,False,"meanwhile, Michelle lifted carefully",-,+
+249,False,"those balls, Michelle lifted the paperwork carefully",+,-
+249,True,"meanwhile, Michelle lifted the paperwork carefully",-,-
+250,True,"those balls, Michelle lifted without falling",+,+
+250,False,"meanwhile, Michelle lifted without falling",-,+
+250,False,"those balls, Michelle lifted the paperwork without falling",+,-
+250,True,"meanwhile, Michelle lifted the paperwork without falling",-,-
+251,True,"those balls, Michelle lifted quickly",+,+
+251,False,"meanwhile, Michelle lifted quickly",-,+
+251,False,"those balls, Michelle lifted the paperwork quickly",+,-
+251,True,"meanwhile, Michelle lifted the paperwork quickly",-,-
+252,True,"those balls, Michelle stole carefully",+,+
+252,False,"meanwhile, Michelle stole carefully",-,+
+252,False,"those balls, Michelle stole your jacket carefully",+,-
+252,True,"meanwhile, Michelle stole your jacket carefully",-,-
+253,True,"those balls, Michelle stole without falling",+,+
+253,False,"meanwhile, Michelle stole without falling",-,+
+253,False,"those balls, Michelle stole your jacket without falling",+,-
+253,True,"meanwhile, Michelle stole your jacket without falling",-,-
+254,True,"those balls, Michelle stole quickly",+,+
+254,False,"meanwhile, Michelle stole quickly",-,+
+254,False,"those balls, Michelle stole your jacket quickly",+,-
+254,True,"meanwhile, Michelle stole your jacket quickly",-,-
+255,True,"those balls, Michelle stole carefully",+,+
+255,False,"meanwhile, Michelle stole carefully",-,+
+255,False,"those balls, Michelle stole a phone carefully",+,-
+255,True,"meanwhile, Michelle stole a phone carefully",-,-
+256,True,"those balls, Michelle stole without falling",+,+
+256,False,"meanwhile, Michelle stole without falling",-,+
+256,False,"those balls, Michelle stole a phone without falling",+,-
+256,True,"meanwhile, Michelle stole a phone without falling",-,-
+257,True,"those balls, Michelle stole quickly",+,+
+257,False,"meanwhile, Michelle stole quickly",-,+
+257,False,"those balls, Michelle stole a phone quickly",+,-
+257,True,"meanwhile, Michelle stole a phone quickly",-,-
+258,True,"those balls, Michelle stole carefully",+,+
+258,False,"meanwhile, Michelle stole carefully",-,+
+258,False,"those balls, Michelle stole the paperwork carefully",+,-
+258,True,"meanwhile, Michelle stole the paperwork carefully",-,-
+259,True,"those balls, Michelle stole without falling",+,+
+259,False,"meanwhile, Michelle stole without falling",-,+
+259,False,"those balls, Michelle stole the paperwork without falling",+,-
+259,True,"meanwhile, Michelle stole the paperwork without falling",-,-
+260,True,"those balls, Michelle stole quickly",+,+
+260,False,"meanwhile, Michelle stole quickly",-,+
+260,False,"those balls, Michelle stole the paperwork quickly",+,-
+260,True,"meanwhile, Michelle stole the paperwork quickly",-,-
+261,True,"those balls, Michelle threw carefully",+,+
+261,False,"meanwhile, Michelle threw carefully",-,+
+261,False,"those balls, Michelle threw your jacket carefully",+,-
+261,True,"meanwhile, Michelle threw your jacket carefully",-,-
+262,True,"those balls, Michelle threw without falling",+,+
+262,False,"meanwhile, Michelle threw without falling",-,+
+262,False,"those balls, Michelle threw your jacket without falling",+,-
+262,True,"meanwhile, Michelle threw your jacket without falling",-,-
+263,True,"those balls, Michelle threw quickly",+,+
+263,False,"meanwhile, Michelle threw quickly",-,+
+263,False,"those balls, Michelle threw your jacket quickly",+,-
+263,True,"meanwhile, Michelle threw your jacket quickly",-,-
+264,True,"those balls, Michelle threw carefully",+,+
+264,False,"meanwhile, Michelle threw carefully",-,+
+264,False,"those balls, Michelle threw a phone carefully",+,-
+264,True,"meanwhile, Michelle threw a phone carefully",-,-
+265,True,"those balls, Michelle threw without falling",+,+
+265,False,"meanwhile, Michelle threw without falling",-,+
+265,False,"those balls, Michelle threw a phone without falling",+,-
+265,True,"meanwhile, Michelle threw a phone without falling",-,-
+266,True,"those balls, Michelle threw quickly",+,+
+266,False,"meanwhile, Michelle threw quickly",-,+
+266,False,"those balls, Michelle threw a phone quickly",+,-
+266,True,"meanwhile, Michelle threw a phone quickly",-,-
+267,True,"those balls, Michelle threw carefully",+,+
+267,False,"meanwhile, Michelle threw carefully",-,+
+267,False,"those balls, Michelle threw the paperwork carefully",+,-
+267,True,"meanwhile, Michelle threw the paperwork carefully",-,-
+268,True,"those balls, Michelle threw without falling",+,+
+268,False,"meanwhile, Michelle threw without falling",-,+
+268,False,"those balls, Michelle threw the paperwork without falling",+,-
+268,True,"meanwhile, Michelle threw the paperwork without falling",-,-
+269,True,"those balls, Michelle threw quickly",+,+
+269,False,"meanwhile, Michelle threw quickly",-,+
+269,False,"those balls, Michelle threw the paperwork quickly",+,-
+269,True,"meanwhile, Michelle threw the paperwork quickly",-,-
+270,True,"those balls, Susan lifted carefully",+,+
+270,False,"still, Susan lifted carefully",-,+
+270,False,"those balls, Susan lifted your jacket carefully",+,-
+270,True,"still, Susan lifted your jacket carefully",-,-
+271,True,"those balls, Susan lifted without falling",+,+
+271,False,"still, Susan lifted without falling",-,+
+271,False,"those balls, Susan lifted your jacket without falling",+,-
+271,True,"still, Susan lifted your jacket without falling",-,-
+272,True,"those balls, Susan lifted quickly",+,+
+272,False,"still, Susan lifted quickly",-,+
+272,False,"those balls, Susan lifted your jacket quickly",+,-
+272,True,"still, Susan lifted your jacket quickly",-,-
+273,True,"those balls, Susan lifted carefully",+,+
+273,False,"still, Susan lifted carefully",-,+
+273,False,"those balls, Susan lifted a phone carefully",+,-
+273,True,"still, Susan lifted a phone carefully",-,-
+274,True,"those balls, Susan lifted without falling",+,+
+274,False,"still, Susan lifted without falling",-,+
+274,False,"those balls, Susan lifted a phone without falling",+,-
+274,True,"still, Susan lifted a phone without falling",-,-
+275,True,"those balls, Susan lifted quickly",+,+
+275,False,"still, Susan lifted quickly",-,+
+275,False,"those balls, Susan lifted a phone quickly",+,-
+275,True,"still, Susan lifted a phone quickly",-,-
+276,True,"those balls, Susan lifted carefully",+,+
+276,False,"still, Susan lifted carefully",-,+
+276,False,"those balls, Susan lifted the paperwork carefully",+,-
+276,True,"still, Susan lifted the paperwork carefully",-,-
+277,True,"those balls, Susan lifted without falling",+,+
+277,False,"still, Susan lifted without falling",-,+
+277,False,"those balls, Susan lifted the paperwork without falling",+,-
+277,True,"still, Susan lifted the paperwork without falling",-,-
+278,True,"those balls, Susan lifted quickly",+,+
+278,False,"still, Susan lifted quickly",-,+
+278,False,"those balls, Susan lifted the paperwork quickly",+,-
+278,True,"still, Susan lifted the paperwork quickly",-,-
+279,True,"those balls, Susan stole carefully",+,+
+279,False,"still, Susan stole carefully",-,+
+279,False,"those balls, Susan stole your jacket carefully",+,-
+279,True,"still, Susan stole your jacket carefully",-,-
+280,True,"those balls, Susan stole without falling",+,+
+280,False,"still, Susan stole without falling",-,+
+280,False,"those balls, Susan stole your jacket without falling",+,-
+280,True,"still, Susan stole your jacket without falling",-,-
+281,True,"those balls, Susan stole quickly",+,+
+281,False,"still, Susan stole quickly",-,+
+281,False,"those balls, Susan stole your jacket quickly",+,-
+281,True,"still, Susan stole your jacket quickly",-,-
+282,True,"those balls, Susan stole carefully",+,+
+282,False,"still, Susan stole carefully",-,+
+282,False,"those balls, Susan stole a phone carefully",+,-
+282,True,"still, Susan stole a phone carefully",-,-
+283,True,"those balls, Susan stole without falling",+,+
+283,False,"still, Susan stole without falling",-,+
+283,False,"those balls, Susan stole a phone without falling",+,-
+283,True,"still, Susan stole a phone without falling",-,-
+284,True,"those balls, Susan stole quickly",+,+
+284,False,"still, Susan stole quickly",-,+
+284,False,"those balls, Susan stole a phone quickly",+,-
+284,True,"still, Susan stole a phone quickly",-,-
+285,True,"those balls, Susan stole carefully",+,+
+285,False,"still, Susan stole carefully",-,+
+285,False,"those balls, Susan stole the paperwork carefully",+,-
+285,True,"still, Susan stole the paperwork carefully",-,-
+286,True,"those balls, Susan stole without falling",+,+
+286,False,"still, Susan stole without falling",-,+
+286,False,"those balls, Susan stole the paperwork without falling",+,-
+286,True,"still, Susan stole the paperwork without falling",-,-
+287,True,"those balls, Susan stole quickly",+,+
+287,False,"still, Susan stole quickly",-,+
+287,False,"those balls, Susan stole the paperwork quickly",+,-
+287,True,"still, Susan stole the paperwork quickly",-,-
+288,True,"those balls, Susan threw carefully",+,+
+288,False,"still, Susan threw carefully",-,+
+288,False,"those balls, Susan threw your jacket carefully",+,-
+288,True,"still, Susan threw your jacket carefully",-,-
+289,True,"those balls, Susan threw without falling",+,+
+289,False,"still, Susan threw without falling",-,+
+289,False,"those balls, Susan threw your jacket without falling",+,-
+289,True,"still, Susan threw your jacket without falling",-,-
+290,True,"those balls, Susan threw quickly",+,+
+290,False,"still, Susan threw quickly",-,+
+290,False,"those balls, Susan threw your jacket quickly",+,-
+290,True,"still, Susan threw your jacket quickly",-,-
+291,True,"those balls, Susan threw carefully",+,+
+291,False,"still, Susan threw carefully",-,+
+291,False,"those balls, Susan threw a phone carefully",+,-
+291,True,"still, Susan threw a phone carefully",-,-
+292,True,"those balls, Susan threw without falling",+,+
+292,False,"still, Susan threw without falling",-,+
+292,False,"those balls, Susan threw a phone without falling",+,-
+292,True,"still, Susan threw a phone without falling",-,-
+293,True,"those balls, Susan threw quickly",+,+
+293,False,"still, Susan threw quickly",-,+
+293,False,"those balls, Susan threw a phone quickly",+,-
+293,True,"still, Susan threw a phone quickly",-,-
+294,True,"those balls, Susan threw carefully",+,+
+294,False,"still, Susan threw carefully",-,+
+294,False,"those balls, Susan threw the paperwork carefully",+,-
+294,True,"still, Susan threw the paperwork carefully",-,-
+295,True,"those balls, Susan threw without falling",+,+
+295,False,"still, Susan threw without falling",-,+
+295,False,"those balls, Susan threw the paperwork without falling",+,-
+295,True,"still, Susan threw the paperwork without falling",-,-
+296,True,"those balls, Susan threw quickly",+,+
+296,False,"still, Susan threw quickly",-,+
+296,False,"those balls, Susan threw the paperwork quickly",+,-
+296,True,"still, Susan threw the paperwork quickly",-,-
+297,True,"those balls, Michelle lifted carefully",+,+
+297,False,"still, Michelle lifted carefully",-,+
+297,False,"those balls, Michelle lifted your jacket carefully",+,-
+297,True,"still, Michelle lifted your jacket carefully",-,-
+298,True,"those balls, Michelle lifted without falling",+,+
+298,False,"still, Michelle lifted without falling",-,+
+298,False,"those balls, Michelle lifted your jacket without falling",+,-
+298,True,"still, Michelle lifted your jacket without falling",-,-
+299,True,"those balls, Michelle lifted quickly",+,+
+299,False,"still, Michelle lifted quickly",-,+
+299,False,"those balls, Michelle lifted your jacket quickly",+,-
+299,True,"still, Michelle lifted your jacket quickly",-,-
+300,True,"those balls, Michelle lifted carefully",+,+
+300,False,"still, Michelle lifted carefully",-,+
+300,False,"those balls, Michelle lifted a phone carefully",+,-
+300,True,"still, Michelle lifted a phone carefully",-,-
+301,True,"those balls, Michelle lifted without falling",+,+
+301,False,"still, Michelle lifted without falling",-,+
+301,False,"those balls, Michelle lifted a phone without falling",+,-
+301,True,"still, Michelle lifted a phone without falling",-,-
+302,True,"those balls, Michelle lifted quickly",+,+
+302,False,"still, Michelle lifted quickly",-,+
+302,False,"those balls, Michelle lifted a phone quickly",+,-
+302,True,"still, Michelle lifted a phone quickly",-,-
+303,True,"those balls, Michelle lifted carefully",+,+
+303,False,"still, Michelle lifted carefully",-,+
+303,False,"those balls, Michelle lifted the paperwork carefully",+,-
+303,True,"still, Michelle lifted the paperwork carefully",-,-
+304,True,"those balls, Michelle lifted without falling",+,+
+304,False,"still, Michelle lifted without falling",-,+
+304,False,"those balls, Michelle lifted the paperwork without falling",+,-
+304,True,"still, Michelle lifted the paperwork without falling",-,-
+305,True,"those balls, Michelle lifted quickly",+,+
+305,False,"still, Michelle lifted quickly",-,+
+305,False,"those balls, Michelle lifted the paperwork quickly",+,-
+305,True,"still, Michelle lifted the paperwork quickly",-,-
+306,True,"those balls, Michelle stole carefully",+,+
+306,False,"still, Michelle stole carefully",-,+
+306,False,"those balls, Michelle stole your jacket carefully",+,-
+306,True,"still, Michelle stole your jacket carefully",-,-
+307,True,"those balls, Michelle stole without falling",+,+
+307,False,"still, Michelle stole without falling",-,+
+307,False,"those balls, Michelle stole your jacket without falling",+,-
+307,True,"still, Michelle stole your jacket without falling",-,-
+308,True,"those balls, Michelle stole quickly",+,+
+308,False,"still, Michelle stole quickly",-,+
+308,False,"those balls, Michelle stole your jacket quickly",+,-
+308,True,"still, Michelle stole your jacket quickly",-,-
+309,True,"those balls, Michelle stole carefully",+,+
+309,False,"still, Michelle stole carefully",-,+
+309,False,"those balls, Michelle stole a phone carefully",+,-
+309,True,"still, Michelle stole a phone carefully",-,-
+310,True,"those balls, Michelle stole without falling",+,+
+310,False,"still, Michelle stole without falling",-,+
+310,False,"those balls, Michelle stole a phone without falling",+,-
+310,True,"still, Michelle stole a phone without falling",-,-
+311,True,"those balls, Michelle stole quickly",+,+
+311,False,"still, Michelle stole quickly",-,+
+311,False,"those balls, Michelle stole a phone quickly",+,-
+311,True,"still, Michelle stole a phone quickly",-,-
+312,True,"those balls, Michelle stole carefully",+,+
+312,False,"still, Michelle stole carefully",-,+
+312,False,"those balls, Michelle stole the paperwork carefully",+,-
+312,True,"still, Michelle stole the paperwork carefully",-,-
+313,True,"those balls, Michelle stole without falling",+,+
+313,False,"still, Michelle stole without falling",-,+
+313,False,"those balls, Michelle stole the paperwork without falling",+,-
+313,True,"still, Michelle stole the paperwork without falling",-,-
+314,True,"those balls, Michelle stole quickly",+,+
+314,False,"still, Michelle stole quickly",-,+
+314,False,"those balls, Michelle stole the paperwork quickly",+,-
+314,True,"still, Michelle stole the paperwork quickly",-,-
+315,True,"those balls, Michelle threw carefully",+,+
+315,False,"still, Michelle threw carefully",-,+
+315,False,"those balls, Michelle threw your jacket carefully",+,-
+315,True,"still, Michelle threw your jacket carefully",-,-
+316,True,"those balls, Michelle threw without falling",+,+
+316,False,"still, Michelle threw without falling",-,+
+316,False,"those balls, Michelle threw your jacket without falling",+,-
+316,True,"still, Michelle threw your jacket without falling",-,-
+317,True,"those balls, Michelle threw quickly",+,+
+317,False,"still, Michelle threw quickly",-,+
+317,False,"those balls, Michelle threw your jacket quickly",+,-
+317,True,"still, Michelle threw your jacket quickly",-,-
+318,True,"those balls, Michelle threw carefully",+,+
+318,False,"still, Michelle threw carefully",-,+
+318,False,"those balls, Michelle threw a phone carefully",+,-
+318,True,"still, Michelle threw a phone carefully",-,-
+319,True,"those balls, Michelle threw without falling",+,+
+319,False,"still, Michelle threw without falling",-,+
+319,False,"those balls, Michelle threw a phone without falling",+,-
+319,True,"still, Michelle threw a phone without falling",-,-
+320,True,"those balls, Michelle threw quickly",+,+
+320,False,"still, Michelle threw quickly",-,+
+320,False,"those balls, Michelle threw a phone quickly",+,-
+320,True,"still, Michelle threw a phone quickly",-,-
+321,True,"those balls, Michelle threw carefully",+,+
+321,False,"still, Michelle threw carefully",-,+
+321,False,"those balls, Michelle threw the paperwork carefully",+,-
+321,True,"still, Michelle threw the paperwork carefully",-,-
+322,True,"those balls, Michelle threw without falling",+,+
+322,False,"still, Michelle threw without falling",-,+
+322,False,"those balls, Michelle threw the paperwork without falling",+,-
+322,True,"still, Michelle threw the paperwork without falling",-,-
+323,True,"those balls, Michelle threw quickly",+,+
+323,False,"still, Michelle threw quickly",-,+
+323,False,"those balls, Michelle threw the paperwork quickly",+,-
+323,True,"still, Michelle threw the paperwork quickly",-,-
+324,True,"her gloves, Susan lifted carefully",+,+
+324,False,"indeed, Susan lifted carefully",-,+
+324,False,"her gloves, Susan lifted your jacket carefully",+,-
+324,True,"indeed, Susan lifted your jacket carefully",-,-
+325,True,"her gloves, Susan lifted without falling",+,+
+325,False,"indeed, Susan lifted without falling",-,+
+325,False,"her gloves, Susan lifted your jacket without falling",+,-
+325,True,"indeed, Susan lifted your jacket without falling",-,-
+326,True,"her gloves, Susan lifted quickly",+,+
+326,False,"indeed, Susan lifted quickly",-,+
+326,False,"her gloves, Susan lifted your jacket quickly",+,-
+326,True,"indeed, Susan lifted your jacket quickly",-,-
+327,True,"her gloves, Susan lifted carefully",+,+
+327,False,"indeed, Susan lifted carefully",-,+
+327,False,"her gloves, Susan lifted a phone carefully",+,-
+327,True,"indeed, Susan lifted a phone carefully",-,-
+328,True,"her gloves, Susan lifted without falling",+,+
+328,False,"indeed, Susan lifted without falling",-,+
+328,False,"her gloves, Susan lifted a phone without falling",+,-
+328,True,"indeed, Susan lifted a phone without falling",-,-
+329,True,"her gloves, Susan lifted quickly",+,+
+329,False,"indeed, Susan lifted quickly",-,+
+329,False,"her gloves, Susan lifted a phone quickly",+,-
+329,True,"indeed, Susan lifted a phone quickly",-,-
+330,True,"her gloves, Susan lifted carefully",+,+
+330,False,"indeed, Susan lifted carefully",-,+
+330,False,"her gloves, Susan lifted the paperwork carefully",+,-
+330,True,"indeed, Susan lifted the paperwork carefully",-,-
+331,True,"her gloves, Susan lifted without falling",+,+
+331,False,"indeed, Susan lifted without falling",-,+
+331,False,"her gloves, Susan lifted the paperwork without falling",+,-
+331,True,"indeed, Susan lifted the paperwork without falling",-,-
+332,True,"her gloves, Susan lifted quickly",+,+
+332,False,"indeed, Susan lifted quickly",-,+
+332,False,"her gloves, Susan lifted the paperwork quickly",+,-
+332,True,"indeed, Susan lifted the paperwork quickly",-,-
+333,True,"her gloves, Susan stole carefully",+,+
+333,False,"indeed, Susan stole carefully",-,+
+333,False,"her gloves, Susan stole your jacket carefully",+,-
+333,True,"indeed, Susan stole your jacket carefully",-,-
+334,True,"her gloves, Susan stole without falling",+,+
+334,False,"indeed, Susan stole without falling",-,+
+334,False,"her gloves, Susan stole your jacket without falling",+,-
+334,True,"indeed, Susan stole your jacket without falling",-,-
+335,True,"her gloves, Susan stole quickly",+,+
+335,False,"indeed, Susan stole quickly",-,+
+335,False,"her gloves, Susan stole your jacket quickly",+,-
+335,True,"indeed, Susan stole your jacket quickly",-,-
+336,True,"her gloves, Susan stole carefully",+,+
+336,False,"indeed, Susan stole carefully",-,+
+336,False,"her gloves, Susan stole a phone carefully",+,-
+336,True,"indeed, Susan stole a phone carefully",-,-
+337,True,"her gloves, Susan stole without falling",+,+
+337,False,"indeed, Susan stole without falling",-,+
+337,False,"her gloves, Susan stole a phone without falling",+,-
+337,True,"indeed, Susan stole a phone without falling",-,-
+338,True,"her gloves, Susan stole quickly",+,+
+338,False,"indeed, Susan stole quickly",-,+
+338,False,"her gloves, Susan stole a phone quickly",+,-
+338,True,"indeed, Susan stole a phone quickly",-,-
+339,True,"her gloves, Susan stole carefully",+,+
+339,False,"indeed, Susan stole carefully",-,+
+339,False,"her gloves, Susan stole the paperwork carefully",+,-
+339,True,"indeed, Susan stole the paperwork carefully",-,-
+340,True,"her gloves, Susan stole without falling",+,+
+340,False,"indeed, Susan stole without falling",-,+
+340,False,"her gloves, Susan stole the paperwork without falling",+,-
+340,True,"indeed, Susan stole the paperwork without falling",-,-
+341,True,"her gloves, Susan stole quickly",+,+
+341,False,"indeed, Susan stole quickly",-,+
+341,False,"her gloves, Susan stole the paperwork quickly",+,-
+341,True,"indeed, Susan stole the paperwork quickly",-,-
+342,True,"her gloves, Susan threw carefully",+,+
+342,False,"indeed, Susan threw carefully",-,+
+342,False,"her gloves, Susan threw your jacket carefully",+,-
+342,True,"indeed, Susan threw your jacket carefully",-,-
+343,True,"her gloves, Susan threw without falling",+,+
+343,False,"indeed, Susan threw without falling",-,+
+343,False,"her gloves, Susan threw your jacket without falling",+,-
+343,True,"indeed, Susan threw your jacket without falling",-,-
+344,True,"her gloves, Susan threw quickly",+,+
+344,False,"indeed, Susan threw quickly",-,+
+344,False,"her gloves, Susan threw your jacket quickly",+,-
+344,True,"indeed, Susan threw your jacket quickly",-,-
+345,True,"her gloves, Susan threw carefully",+,+
+345,False,"indeed, Susan threw carefully",-,+
+345,False,"her gloves, Susan threw a phone carefully",+,-
+345,True,"indeed, Susan threw a phone carefully",-,-
+346,True,"her gloves, Susan threw without falling",+,+
+346,False,"indeed, Susan threw without falling",-,+
+346,False,"her gloves, Susan threw a phone without falling",+,-
+346,True,"indeed, Susan threw a phone without falling",-,-
+347,True,"her gloves, Susan threw quickly",+,+
+347,False,"indeed, Susan threw quickly",-,+
+347,False,"her gloves, Susan threw a phone quickly",+,-
+347,True,"indeed, Susan threw a phone quickly",-,-
+348,True,"her gloves, Susan threw carefully",+,+
+348,False,"indeed, Susan threw carefully",-,+
+348,False,"her gloves, Susan threw the paperwork carefully",+,-
+348,True,"indeed, Susan threw the paperwork carefully",-,-
+349,True,"her gloves, Susan threw without falling",+,+
+349,False,"indeed, Susan threw without falling",-,+
+349,False,"her gloves, Susan threw the paperwork without falling",+,-
+349,True,"indeed, Susan threw the paperwork without falling",-,-
+350,True,"her gloves, Susan threw quickly",+,+
+350,False,"indeed, Susan threw quickly",-,+
+350,False,"her gloves, Susan threw the paperwork quickly",+,-
+350,True,"indeed, Susan threw the paperwork quickly",-,-
+351,True,"her gloves, Michelle lifted carefully",+,+
+351,False,"indeed, Michelle lifted carefully",-,+
+351,False,"her gloves, Michelle lifted your jacket carefully",+,-
+351,True,"indeed, Michelle lifted your jacket carefully",-,-
+352,True,"her gloves, Michelle lifted without falling",+,+
+352,False,"indeed, Michelle lifted without falling",-,+
+352,False,"her gloves, Michelle lifted your jacket without falling",+,-
+352,True,"indeed, Michelle lifted your jacket without falling",-,-
+353,True,"her gloves, Michelle lifted quickly",+,+
+353,False,"indeed, Michelle lifted quickly",-,+
+353,False,"her gloves, Michelle lifted your jacket quickly",+,-
+353,True,"indeed, Michelle lifted your jacket quickly",-,-
+354,True,"her gloves, Michelle lifted carefully",+,+
+354,False,"indeed, Michelle lifted carefully",-,+
+354,False,"her gloves, Michelle lifted a phone carefully",+,-
+354,True,"indeed, Michelle lifted a phone carefully",-,-
+355,True,"her gloves, Michelle lifted without falling",+,+
+355,False,"indeed, Michelle lifted without falling",-,+
+355,False,"her gloves, Michelle lifted a phone without falling",+,-
+355,True,"indeed, Michelle lifted a phone without falling",-,-
+356,True,"her gloves, Michelle lifted quickly",+,+
+356,False,"indeed, Michelle lifted quickly",-,+
+356,False,"her gloves, Michelle lifted a phone quickly",+,-
+356,True,"indeed, Michelle lifted a phone quickly",-,-
+357,True,"her gloves, Michelle lifted carefully",+,+
+357,False,"indeed, Michelle lifted carefully",-,+
+357,False,"her gloves, Michelle lifted the paperwork carefully",+,-
+357,True,"indeed, Michelle lifted the paperwork carefully",-,-
+358,True,"her gloves, Michelle lifted without falling",+,+
+358,False,"indeed, Michelle lifted without falling",-,+
+358,False,"her gloves, Michelle lifted the paperwork without falling",+,-
+358,True,"indeed, Michelle lifted the paperwork without falling",-,-
+359,True,"her gloves, Michelle lifted quickly",+,+
+359,False,"indeed, Michelle lifted quickly",-,+
+359,False,"her gloves, Michelle lifted the paperwork quickly",+,-
+359,True,"indeed, Michelle lifted the paperwork quickly",-,-
+360,True,"her gloves, Michelle stole carefully",+,+
+360,False,"indeed, Michelle stole carefully",-,+
+360,False,"her gloves, Michelle stole your jacket carefully",+,-
+360,True,"indeed, Michelle stole your jacket carefully",-,-
+361,True,"her gloves, Michelle stole without falling",+,+
+361,False,"indeed, Michelle stole without falling",-,+
+361,False,"her gloves, Michelle stole your jacket without falling",+,-
+361,True,"indeed, Michelle stole your jacket without falling",-,-
+362,True,"her gloves, Michelle stole quickly",+,+
+362,False,"indeed, Michelle stole quickly",-,+
+362,False,"her gloves, Michelle stole your jacket quickly",+,-
+362,True,"indeed, Michelle stole your jacket quickly",-,-
+363,True,"her gloves, Michelle stole carefully",+,+
+363,False,"indeed, Michelle stole carefully",-,+
+363,False,"her gloves, Michelle stole a phone carefully",+,-
+363,True,"indeed, Michelle stole a phone carefully",-,-
+364,True,"her gloves, Michelle stole without falling",+,+
+364,False,"indeed, Michelle stole without falling",-,+
+364,False,"her gloves, Michelle stole a phone without falling",+,-
+364,True,"indeed, Michelle stole a phone without falling",-,-
+365,True,"her gloves, Michelle stole quickly",+,+
+365,False,"indeed, Michelle stole quickly",-,+
+365,False,"her gloves, Michelle stole a phone quickly",+,-
+365,True,"indeed, Michelle stole a phone quickly",-,-
+366,True,"her gloves, Michelle stole carefully",+,+
+366,False,"indeed, Michelle stole carefully",-,+
+366,False,"her gloves, Michelle stole the paperwork carefully",+,-
+366,True,"indeed, Michelle stole the paperwork carefully",-,-
+367,True,"her gloves, Michelle stole without falling",+,+
+367,False,"indeed, Michelle stole without falling",-,+
+367,False,"her gloves, Michelle stole the paperwork without falling",+,-
+367,True,"indeed, Michelle stole the paperwork without falling",-,-
+368,True,"her gloves, Michelle stole quickly",+,+
+368,False,"indeed, Michelle stole quickly",-,+
+368,False,"her gloves, Michelle stole the paperwork quickly",+,-
+368,True,"indeed, Michelle stole the paperwork quickly",-,-
+369,True,"her gloves, Michelle threw carefully",+,+
+369,False,"indeed, Michelle threw carefully",-,+
+369,False,"her gloves, Michelle threw your jacket carefully",+,-
+369,True,"indeed, Michelle threw your jacket carefully",-,-
+370,True,"her gloves, Michelle threw without falling",+,+
+370,False,"indeed, Michelle threw without falling",-,+
+370,False,"her gloves, Michelle threw your jacket without falling",+,-
+370,True,"indeed, Michelle threw your jacket without falling",-,-
+371,True,"her gloves, Michelle threw quickly",+,+
+371,False,"indeed, Michelle threw quickly",-,+
+371,False,"her gloves, Michelle threw your jacket quickly",+,-
+371,True,"indeed, Michelle threw your jacket quickly",-,-
+372,True,"her gloves, Michelle threw carefully",+,+
+372,False,"indeed, Michelle threw carefully",-,+
+372,False,"her gloves, Michelle threw a phone carefully",+,-
+372,True,"indeed, Michelle threw a phone carefully",-,-
+373,True,"her gloves, Michelle threw without falling",+,+
+373,False,"indeed, Michelle threw without falling",-,+
+373,False,"her gloves, Michelle threw a phone without falling",+,-
+373,True,"indeed, Michelle threw a phone without falling",-,-
+374,True,"her gloves, Michelle threw quickly",+,+
+374,False,"indeed, Michelle threw quickly",-,+
+374,False,"her gloves, Michelle threw a phone quickly",+,-
+374,True,"indeed, Michelle threw a phone quickly",-,-
+375,True,"her gloves, Michelle threw carefully",+,+
+375,False,"indeed, Michelle threw carefully",-,+
+375,False,"her gloves, Michelle threw the paperwork carefully",+,-
+375,True,"indeed, Michelle threw the paperwork carefully",-,-
+376,True,"her gloves, Michelle threw without falling",+,+
+376,False,"indeed, Michelle threw without falling",-,+
+376,False,"her gloves, Michelle threw the paperwork without falling",+,-
+376,True,"indeed, Michelle threw the paperwork without falling",-,-
+377,True,"her gloves, Michelle threw quickly",+,+
+377,False,"indeed, Michelle threw quickly",-,+
+377,False,"her gloves, Michelle threw the paperwork quickly",+,-
+377,True,"indeed, Michelle threw the paperwork quickly",-,-
+378,True,"her gloves, Susan lifted carefully",+,+
+378,False,"meanwhile, Susan lifted carefully",-,+
+378,False,"her gloves, Susan lifted your jacket carefully",+,-
+378,True,"meanwhile, Susan lifted your jacket carefully",-,-
+379,True,"her gloves, Susan lifted without falling",+,+
+379,False,"meanwhile, Susan lifted without falling",-,+
+379,False,"her gloves, Susan lifted your jacket without falling",+,-
+379,True,"meanwhile, Susan lifted your jacket without falling",-,-
+380,True,"her gloves, Susan lifted quickly",+,+
+380,False,"meanwhile, Susan lifted quickly",-,+
+380,False,"her gloves, Susan lifted your jacket quickly",+,-
+380,True,"meanwhile, Susan lifted your jacket quickly",-,-
+381,True,"her gloves, Susan lifted carefully",+,+
+381,False,"meanwhile, Susan lifted carefully",-,+
+381,False,"her gloves, Susan lifted a phone carefully",+,-
+381,True,"meanwhile, Susan lifted a phone carefully",-,-
+382,True,"her gloves, Susan lifted without falling",+,+
+382,False,"meanwhile, Susan lifted without falling",-,+
+382,False,"her gloves, Susan lifted a phone without falling",+,-
+382,True,"meanwhile, Susan lifted a phone without falling",-,-
+383,True,"her gloves, Susan lifted quickly",+,+
+383,False,"meanwhile, Susan lifted quickly",-,+
+383,False,"her gloves, Susan lifted a phone quickly",+,-
+383,True,"meanwhile, Susan lifted a phone quickly",-,-
+384,True,"her gloves, Susan lifted carefully",+,+
+384,False,"meanwhile, Susan lifted carefully",-,+
+384,False,"her gloves, Susan lifted the paperwork carefully",+,-
+384,True,"meanwhile, Susan lifted the paperwork carefully",-,-
+385,True,"her gloves, Susan lifted without falling",+,+
+385,False,"meanwhile, Susan lifted without falling",-,+
+385,False,"her gloves, Susan lifted the paperwork without falling",+,-
+385,True,"meanwhile, Susan lifted the paperwork without falling",-,-
+386,True,"her gloves, Susan lifted quickly",+,+
+386,False,"meanwhile, Susan lifted quickly",-,+
+386,False,"her gloves, Susan lifted the paperwork quickly",+,-
+386,True,"meanwhile, Susan lifted the paperwork quickly",-,-
+387,True,"her gloves, Susan stole carefully",+,+
+387,False,"meanwhile, Susan stole carefully",-,+
+387,False,"her gloves, Susan stole your jacket carefully",+,-
+387,True,"meanwhile, Susan stole your jacket carefully",-,-
+388,True,"her gloves, Susan stole without falling",+,+
+388,False,"meanwhile, Susan stole without falling",-,+
+388,False,"her gloves, Susan stole your jacket without falling",+,-
+388,True,"meanwhile, Susan stole your jacket without falling",-,-
+389,True,"her gloves, Susan stole quickly",+,+
+389,False,"meanwhile, Susan stole quickly",-,+
+389,False,"her gloves, Susan stole your jacket quickly",+,-
+389,True,"meanwhile, Susan stole your jacket quickly",-,-
+390,True,"her gloves, Susan stole carefully",+,+
+390,False,"meanwhile, Susan stole carefully",-,+
+390,False,"her gloves, Susan stole a phone carefully",+,-
+390,True,"meanwhile, Susan stole a phone carefully",-,-
+391,True,"her gloves, Susan stole without falling",+,+
+391,False,"meanwhile, Susan stole without falling",-,+
+391,False,"her gloves, Susan stole a phone without falling",+,-
+391,True,"meanwhile, Susan stole a phone without falling",-,-
+392,True,"her gloves, Susan stole quickly",+,+
+392,False,"meanwhile, Susan stole quickly",-,+
+392,False,"her gloves, Susan stole a phone quickly",+,-
+392,True,"meanwhile, Susan stole a phone quickly",-,-
+393,True,"her gloves, Susan stole carefully",+,+
+393,False,"meanwhile, Susan stole carefully",-,+
+393,False,"her gloves, Susan stole the paperwork carefully",+,-
+393,True,"meanwhile, Susan stole the paperwork carefully",-,-
+394,True,"her gloves, Susan stole without falling",+,+
+394,False,"meanwhile, Susan stole without falling",-,+
+394,False,"her gloves, Susan stole the paperwork without falling",+,-
+394,True,"meanwhile, Susan stole the paperwork without falling",-,-
+395,True,"her gloves, Susan stole quickly",+,+
+395,False,"meanwhile, Susan stole quickly",-,+
+395,False,"her gloves, Susan stole the paperwork quickly",+,-
+395,True,"meanwhile, Susan stole the paperwork quickly",-,-
+396,True,"her gloves, Susan threw carefully",+,+
+396,False,"meanwhile, Susan threw carefully",-,+
+396,False,"her gloves, Susan threw your jacket carefully",+,-
+396,True,"meanwhile, Susan threw your jacket carefully",-,-
+397,True,"her gloves, Susan threw without falling",+,+
+397,False,"meanwhile, Susan threw without falling",-,+
+397,False,"her gloves, Susan threw your jacket without falling",+,-
+397,True,"meanwhile, Susan threw your jacket without falling",-,-
+398,True,"her gloves, Susan threw quickly",+,+
+398,False,"meanwhile, Susan threw quickly",-,+
+398,False,"her gloves, Susan threw your jacket quickly",+,-
+398,True,"meanwhile, Susan threw your jacket quickly",-,-
+399,True,"her gloves, Susan threw carefully",+,+
+399,False,"meanwhile, Susan threw carefully",-,+
+399,False,"her gloves, Susan threw a phone carefully",+,-
+399,True,"meanwhile, Susan threw a phone carefully",-,-
+400,True,"her gloves, Susan threw without falling",+,+
+400,False,"meanwhile, Susan threw without falling",-,+
+400,False,"her gloves, Susan threw a phone without falling",+,-
+400,True,"meanwhile, Susan threw a phone without falling",-,-
+401,True,"her gloves, Susan threw quickly",+,+
+401,False,"meanwhile, Susan threw quickly",-,+
+401,False,"her gloves, Susan threw a phone quickly",+,-
+401,True,"meanwhile, Susan threw a phone quickly",-,-
+402,True,"her gloves, Susan threw carefully",+,+
+402,False,"meanwhile, Susan threw carefully",-,+
+402,False,"her gloves, Susan threw the paperwork carefully",+,-
+402,True,"meanwhile, Susan threw the paperwork carefully",-,-
+403,True,"her gloves, Susan threw without falling",+,+
+403,False,"meanwhile, Susan threw without falling",-,+
+403,False,"her gloves, Susan threw the paperwork without falling",+,-
+403,True,"meanwhile, Susan threw the paperwork without falling",-,-
+404,True,"her gloves, Susan threw quickly",+,+
+404,False,"meanwhile, Susan threw quickly",-,+
+404,False,"her gloves, Susan threw the paperwork quickly",+,-
+404,True,"meanwhile, Susan threw the paperwork quickly",-,-
+405,True,"her gloves, Michelle lifted carefully",+,+
+405,False,"meanwhile, Michelle lifted carefully",-,+
+405,False,"her gloves, Michelle lifted your jacket carefully",+,-
+405,True,"meanwhile, Michelle lifted your jacket carefully",-,-
+406,True,"her gloves, Michelle lifted without falling",+,+
+406,False,"meanwhile, Michelle lifted without falling",-,+
+406,False,"her gloves, Michelle lifted your jacket without falling",+,-
+406,True,"meanwhile, Michelle lifted your jacket without falling",-,-
+407,True,"her gloves, Michelle lifted quickly",+,+
+407,False,"meanwhile, Michelle lifted quickly",-,+
+407,False,"her gloves, Michelle lifted your jacket quickly",+,-
+407,True,"meanwhile, Michelle lifted your jacket quickly",-,-
+408,True,"her gloves, Michelle lifted carefully",+,+
+408,False,"meanwhile, Michelle lifted carefully",-,+
+408,False,"her gloves, Michelle lifted a phone carefully",+,-
+408,True,"meanwhile, Michelle lifted a phone carefully",-,-
+409,True,"her gloves, Michelle lifted without falling",+,+
+409,False,"meanwhile, Michelle lifted without falling",-,+
+409,False,"her gloves, Michelle lifted a phone without falling",+,-
+409,True,"meanwhile, Michelle lifted a phone without falling",-,-
+410,True,"her gloves, Michelle lifted quickly",+,+
+410,False,"meanwhile, Michelle lifted quickly",-,+
+410,False,"her gloves, Michelle lifted a phone quickly",+,-
+410,True,"meanwhile, Michelle lifted a phone quickly",-,-
+411,True,"her gloves, Michelle lifted carefully",+,+
+411,False,"meanwhile, Michelle lifted carefully",-,+
+411,False,"her gloves, Michelle lifted the paperwork carefully",+,-
+411,True,"meanwhile, Michelle lifted the paperwork carefully",-,-
+412,True,"her gloves, Michelle lifted without falling",+,+
+412,False,"meanwhile, Michelle lifted without falling",-,+
+412,False,"her gloves, Michelle lifted the paperwork without falling",+,-
+412,True,"meanwhile, Michelle lifted the paperwork without falling",-,-
+413,True,"her gloves, Michelle lifted quickly",+,+
+413,False,"meanwhile, Michelle lifted quickly",-,+
+413,False,"her gloves, Michelle lifted the paperwork quickly",+,-
+413,True,"meanwhile, Michelle lifted the paperwork quickly",-,-
+414,True,"her gloves, Michelle stole carefully",+,+
+414,False,"meanwhile, Michelle stole carefully",-,+
+414,False,"her gloves, Michelle stole your jacket carefully",+,-
+414,True,"meanwhile, Michelle stole your jacket carefully",-,-
+415,True,"her gloves, Michelle stole without falling",+,+
+415,False,"meanwhile, Michelle stole without falling",-,+
+415,False,"her gloves, Michelle stole your jacket without falling",+,-
+415,True,"meanwhile, Michelle stole your jacket without falling",-,-
+416,True,"her gloves, Michelle stole quickly",+,+
+416,False,"meanwhile, Michelle stole quickly",-,+
+416,False,"her gloves, Michelle stole your jacket quickly",+,-
+416,True,"meanwhile, Michelle stole your jacket quickly",-,-
+417,True,"her gloves, Michelle stole carefully",+,+
+417,False,"meanwhile, Michelle stole carefully",-,+
+417,False,"her gloves, Michelle stole a phone carefully",+,-
+417,True,"meanwhile, Michelle stole a phone carefully",-,-
+418,True,"her gloves, Michelle stole without falling",+,+
+418,False,"meanwhile, Michelle stole without falling",-,+
+418,False,"her gloves, Michelle stole a phone without falling",+,-
+418,True,"meanwhile, Michelle stole a phone without falling",-,-
+419,True,"her gloves, Michelle stole quickly",+,+
+419,False,"meanwhile, Michelle stole quickly",-,+
+419,False,"her gloves, Michelle stole a phone quickly",+,-
+419,True,"meanwhile, Michelle stole a phone quickly",-,-
+420,True,"her gloves, Michelle stole carefully",+,+
+420,False,"meanwhile, Michelle stole carefully",-,+
+420,False,"her gloves, Michelle stole the paperwork carefully",+,-
+420,True,"meanwhile, Michelle stole the paperwork carefully",-,-
+421,True,"her gloves, Michelle stole without falling",+,+
+421,False,"meanwhile, Michelle stole without falling",-,+
+421,False,"her gloves, Michelle stole the paperwork without falling",+,-
+421,True,"meanwhile, Michelle stole the paperwork without falling",-,-
+422,True,"her gloves, Michelle stole quickly",+,+
+422,False,"meanwhile, Michelle stole quickly",-,+
+422,False,"her gloves, Michelle stole the paperwork quickly",+,-
+422,True,"meanwhile, Michelle stole the paperwork quickly",-,-
+423,True,"her gloves, Michelle threw carefully",+,+
+423,False,"meanwhile, Michelle threw carefully",-,+
+423,False,"her gloves, Michelle threw your jacket carefully",+,-
+423,True,"meanwhile, Michelle threw your jacket carefully",-,-
+424,True,"her gloves, Michelle threw without falling",+,+
+424,False,"meanwhile, Michelle threw without falling",-,+
+424,False,"her gloves, Michelle threw your jacket without falling",+,-
+424,True,"meanwhile, Michelle threw your jacket without falling",-,-
+425,True,"her gloves, Michelle threw quickly",+,+
+425,False,"meanwhile, Michelle threw quickly",-,+
+425,False,"her gloves, Michelle threw your jacket quickly",+,-
+425,True,"meanwhile, Michelle threw your jacket quickly",-,-
+426,True,"her gloves, Michelle threw carefully",+,+
+426,False,"meanwhile, Michelle threw carefully",-,+
+426,False,"her gloves, Michelle threw a phone carefully",+,-
+426,True,"meanwhile, Michelle threw a phone carefully",-,-
+427,True,"her gloves, Michelle threw without falling",+,+
+427,False,"meanwhile, Michelle threw without falling",-,+
+427,False,"her gloves, Michelle threw a phone without falling",+,-
+427,True,"meanwhile, Michelle threw a phone without falling",-,-
+428,True,"her gloves, Michelle threw quickly",+,+
+428,False,"meanwhile, Michelle threw quickly",-,+
+428,False,"her gloves, Michelle threw a phone quickly",+,-
+428,True,"meanwhile, Michelle threw a phone quickly",-,-
+429,True,"her gloves, Michelle threw carefully",+,+
+429,False,"meanwhile, Michelle threw carefully",-,+
+429,False,"her gloves, Michelle threw the paperwork carefully",+,-
+429,True,"meanwhile, Michelle threw the paperwork carefully",-,-
+430,True,"her gloves, Michelle threw without falling",+,+
+430,False,"meanwhile, Michelle threw without falling",-,+
+430,False,"her gloves, Michelle threw the paperwork without falling",+,-
+430,True,"meanwhile, Michelle threw the paperwork without falling",-,-
+431,True,"her gloves, Michelle threw quickly",+,+
+431,False,"meanwhile, Michelle threw quickly",-,+
+431,False,"her gloves, Michelle threw the paperwork quickly",+,-
+431,True,"meanwhile, Michelle threw the paperwork quickly",-,-
+432,True,"her gloves, Susan lifted carefully",+,+
+432,False,"still, Susan lifted carefully",-,+
+432,False,"her gloves, Susan lifted your jacket carefully",+,-
+432,True,"still, Susan lifted your jacket carefully",-,-
+433,True,"her gloves, Susan lifted without falling",+,+
+433,False,"still, Susan lifted without falling",-,+
+433,False,"her gloves, Susan lifted your jacket without falling",+,-
+433,True,"still, Susan lifted your jacket without falling",-,-
+434,True,"her gloves, Susan lifted quickly",+,+
+434,False,"still, Susan lifted quickly",-,+
+434,False,"her gloves, Susan lifted your jacket quickly",+,-
+434,True,"still, Susan lifted your jacket quickly",-,-
+435,True,"her gloves, Susan lifted carefully",+,+
+435,False,"still, Susan lifted carefully",-,+
+435,False,"her gloves, Susan lifted a phone carefully",+,-
+435,True,"still, Susan lifted a phone carefully",-,-
+436,True,"her gloves, Susan lifted without falling",+,+
+436,False,"still, Susan lifted without falling",-,+
+436,False,"her gloves, Susan lifted a phone without falling",+,-
+436,True,"still, Susan lifted a phone without falling",-,-
+437,True,"her gloves, Susan lifted quickly",+,+
+437,False,"still, Susan lifted quickly",-,+
+437,False,"her gloves, Susan lifted a phone quickly",+,-
+437,True,"still, Susan lifted a phone quickly",-,-
+438,True,"her gloves, Susan lifted carefully",+,+
+438,False,"still, Susan lifted carefully",-,+
+438,False,"her gloves, Susan lifted the paperwork carefully",+,-
+438,True,"still, Susan lifted the paperwork carefully",-,-
+439,True,"her gloves, Susan lifted without falling",+,+
+439,False,"still, Susan lifted without falling",-,+
+439,False,"her gloves, Susan lifted the paperwork without falling",+,-
+439,True,"still, Susan lifted the paperwork without falling",-,-
+440,True,"her gloves, Susan lifted quickly",+,+
+440,False,"still, Susan lifted quickly",-,+
+440,False,"her gloves, Susan lifted the paperwork quickly",+,-
+440,True,"still, Susan lifted the paperwork quickly",-,-
+441,True,"her gloves, Susan stole carefully",+,+
+441,False,"still, Susan stole carefully",-,+
+441,False,"her gloves, Susan stole your jacket carefully",+,-
+441,True,"still, Susan stole your jacket carefully",-,-
+442,True,"her gloves, Susan stole without falling",+,+
+442,False,"still, Susan stole without falling",-,+
+442,False,"her gloves, Susan stole your jacket without falling",+,-
+442,True,"still, Susan stole your jacket without falling",-,-
+443,True,"her gloves, Susan stole quickly",+,+
+443,False,"still, Susan stole quickly",-,+
+443,False,"her gloves, Susan stole your jacket quickly",+,-
+443,True,"still, Susan stole your jacket quickly",-,-
+444,True,"her gloves, Susan stole carefully",+,+
+444,False,"still, Susan stole carefully",-,+
+444,False,"her gloves, Susan stole a phone carefully",+,-
+444,True,"still, Susan stole a phone carefully",-,-
+445,True,"her gloves, Susan stole without falling",+,+
+445,False,"still, Susan stole without falling",-,+
+445,False,"her gloves, Susan stole a phone without falling",+,-
+445,True,"still, Susan stole a phone without falling",-,-
+446,True,"her gloves, Susan stole quickly",+,+
+446,False,"still, Susan stole quickly",-,+
+446,False,"her gloves, Susan stole a phone quickly",+,-
+446,True,"still, Susan stole a phone quickly",-,-
+447,True,"her gloves, Susan stole carefully",+,+
+447,False,"still, Susan stole carefully",-,+
+447,False,"her gloves, Susan stole the paperwork carefully",+,-
+447,True,"still, Susan stole the paperwork carefully",-,-
+448,True,"her gloves, Susan stole without falling",+,+
+448,False,"still, Susan stole without falling",-,+
+448,False,"her gloves, Susan stole the paperwork without falling",+,-
+448,True,"still, Susan stole the paperwork without falling",-,-
+449,True,"her gloves, Susan stole quickly",+,+
+449,False,"still, Susan stole quickly",-,+
+449,False,"her gloves, Susan stole the paperwork quickly",+,-
+449,True,"still, Susan stole the paperwork quickly",-,-
+450,True,"her gloves, Susan threw carefully",+,+
+450,False,"still, Susan threw carefully",-,+
+450,False,"her gloves, Susan threw your jacket carefully",+,-
+450,True,"still, Susan threw your jacket carefully",-,-
+451,True,"her gloves, Susan threw without falling",+,+
+451,False,"still, Susan threw without falling",-,+
+451,False,"her gloves, Susan threw your jacket without falling",+,-
+451,True,"still, Susan threw your jacket without falling",-,-
+452,True,"her gloves, Susan threw quickly",+,+
+452,False,"still, Susan threw quickly",-,+
+452,False,"her gloves, Susan threw your jacket quickly",+,-
+452,True,"still, Susan threw your jacket quickly",-,-
+453,True,"her gloves, Susan threw carefully",+,+
+453,False,"still, Susan threw carefully",-,+
+453,False,"her gloves, Susan threw a phone carefully",+,-
+453,True,"still, Susan threw a phone carefully",-,-
+454,True,"her gloves, Susan threw without falling",+,+
+454,False,"still, Susan threw without falling",-,+
+454,False,"her gloves, Susan threw a phone without falling",+,-
+454,True,"still, Susan threw a phone without falling",-,-
+455,True,"her gloves, Susan threw quickly",+,+
+455,False,"still, Susan threw quickly",-,+
+455,False,"her gloves, Susan threw a phone quickly",+,-
+455,True,"still, Susan threw a phone quickly",-,-
+456,True,"her gloves, Susan threw carefully",+,+
+456,False,"still, Susan threw carefully",-,+
+456,False,"her gloves, Susan threw the paperwork carefully",+,-
+456,True,"still, Susan threw the paperwork carefully",-,-
+457,True,"her gloves, Susan threw without falling",+,+
+457,False,"still, Susan threw without falling",-,+
+457,False,"her gloves, Susan threw the paperwork without falling",+,-
+457,True,"still, Susan threw the paperwork without falling",-,-
+458,True,"her gloves, Susan threw quickly",+,+
+458,False,"still, Susan threw quickly",-,+
+458,False,"her gloves, Susan threw the paperwork quickly",+,-
+458,True,"still, Susan threw the paperwork quickly",-,-
+459,True,"her gloves, Michelle lifted carefully",+,+
+459,False,"still, Michelle lifted carefully",-,+
+459,False,"her gloves, Michelle lifted your jacket carefully",+,-
+459,True,"still, Michelle lifted your jacket carefully",-,-
+460,True,"her gloves, Michelle lifted without falling",+,+
+460,False,"still, Michelle lifted without falling",-,+
+460,False,"her gloves, Michelle lifted your jacket without falling",+,-
+460,True,"still, Michelle lifted your jacket without falling",-,-
+461,True,"her gloves, Michelle lifted quickly",+,+
+461,False,"still, Michelle lifted quickly",-,+
+461,False,"her gloves, Michelle lifted your jacket quickly",+,-
+461,True,"still, Michelle lifted your jacket quickly",-,-
+462,True,"her gloves, Michelle lifted carefully",+,+
+462,False,"still, Michelle lifted carefully",-,+
+462,False,"her gloves, Michelle lifted a phone carefully",+,-
+462,True,"still, Michelle lifted a phone carefully",-,-
+463,True,"her gloves, Michelle lifted without falling",+,+
+463,False,"still, Michelle lifted without falling",-,+
+463,False,"her gloves, Michelle lifted a phone without falling",+,-
+463,True,"still, Michelle lifted a phone without falling",-,-
+464,True,"her gloves, Michelle lifted quickly",+,+
+464,False,"still, Michelle lifted quickly",-,+
+464,False,"her gloves, Michelle lifted a phone quickly",+,-
+464,True,"still, Michelle lifted a phone quickly",-,-
+465,True,"her gloves, Michelle lifted carefully",+,+
+465,False,"still, Michelle lifted carefully",-,+
+465,False,"her gloves, Michelle lifted the paperwork carefully",+,-
+465,True,"still, Michelle lifted the paperwork carefully",-,-
+466,True,"her gloves, Michelle lifted without falling",+,+
+466,False,"still, Michelle lifted without falling",-,+
+466,False,"her gloves, Michelle lifted the paperwork without falling",+,-
+466,True,"still, Michelle lifted the paperwork without falling",-,-
+467,True,"her gloves, Michelle lifted quickly",+,+
+467,False,"still, Michelle lifted quickly",-,+
+467,False,"her gloves, Michelle lifted the paperwork quickly",+,-
+467,True,"still, Michelle lifted the paperwork quickly",-,-
+468,True,"her gloves, Michelle stole carefully",+,+
+468,False,"still, Michelle stole carefully",-,+
+468,False,"her gloves, Michelle stole your jacket carefully",+,-
+468,True,"still, Michelle stole your jacket carefully",-,-
+469,True,"her gloves, Michelle stole without falling",+,+
+469,False,"still, Michelle stole without falling",-,+
+469,False,"her gloves, Michelle stole your jacket without falling",+,-
+469,True,"still, Michelle stole your jacket without falling",-,-
+470,True,"her gloves, Michelle stole quickly",+,+
+470,False,"still, Michelle stole quickly",-,+
+470,False,"her gloves, Michelle stole your jacket quickly",+,-
+470,True,"still, Michelle stole your jacket quickly",-,-
+471,True,"her gloves, Michelle stole carefully",+,+
+471,False,"still, Michelle stole carefully",-,+
+471,False,"her gloves, Michelle stole a phone carefully",+,-
+471,True,"still, Michelle stole a phone carefully",-,-
+472,True,"her gloves, Michelle stole without falling",+,+
+472,False,"still, Michelle stole without falling",-,+
+472,False,"her gloves, Michelle stole a phone without falling",+,-
+472,True,"still, Michelle stole a phone without falling",-,-
+473,True,"her gloves, Michelle stole quickly",+,+
+473,False,"still, Michelle stole quickly",-,+
+473,False,"her gloves, Michelle stole a phone quickly",+,-
+473,True,"still, Michelle stole a phone quickly",-,-
+474,True,"her gloves, Michelle stole carefully",+,+
+474,False,"still, Michelle stole carefully",-,+
+474,False,"her gloves, Michelle stole the paperwork carefully",+,-
+474,True,"still, Michelle stole the paperwork carefully",-,-
+475,True,"her gloves, Michelle stole without falling",+,+
+475,False,"still, Michelle stole without falling",-,+
+475,False,"her gloves, Michelle stole the paperwork without falling",+,-
+475,True,"still, Michelle stole the paperwork without falling",-,-
+476,True,"her gloves, Michelle stole quickly",+,+
+476,False,"still, Michelle stole quickly",-,+
+476,False,"her gloves, Michelle stole the paperwork quickly",+,-
+476,True,"still, Michelle stole the paperwork quickly",-,-
+477,True,"her gloves, Michelle threw carefully",+,+
+477,False,"still, Michelle threw carefully",-,+
+477,False,"her gloves, Michelle threw your jacket carefully",+,-
+477,True,"still, Michelle threw your jacket carefully",-,-
+478,True,"her gloves, Michelle threw without falling",+,+
+478,False,"still, Michelle threw without falling",-,+
+478,False,"her gloves, Michelle threw your jacket without falling",+,-
+478,True,"still, Michelle threw your jacket without falling",-,-
+479,True,"her gloves, Michelle threw quickly",+,+
+479,False,"still, Michelle threw quickly",-,+
+479,False,"her gloves, Michelle threw your jacket quickly",+,-
+479,True,"still, Michelle threw your jacket quickly",-,-
+480,True,"her gloves, Michelle threw carefully",+,+
+480,False,"still, Michelle threw carefully",-,+
+480,False,"her gloves, Michelle threw a phone carefully",+,-
+480,True,"still, Michelle threw a phone carefully",-,-
+481,True,"her gloves, Michelle threw without falling",+,+
+481,False,"still, Michelle threw without falling",-,+
+481,False,"her gloves, Michelle threw a phone without falling",+,-
+481,True,"still, Michelle threw a phone without falling",-,-
+482,True,"her gloves, Michelle threw quickly",+,+
+482,False,"still, Michelle threw quickly",-,+
+482,False,"her gloves, Michelle threw a phone quickly",+,-
+482,True,"still, Michelle threw a phone quickly",-,-
+483,True,"her gloves, Michelle threw carefully",+,+
+483,False,"still, Michelle threw carefully",-,+
+483,False,"her gloves, Michelle threw the paperwork carefully",+,-
+483,True,"still, Michelle threw the paperwork carefully",-,-
+484,True,"her gloves, Michelle threw without falling",+,+
+484,False,"still, Michelle threw without falling",-,+
+484,False,"her gloves, Michelle threw the paperwork without falling",+,-
+484,True,"still, Michelle threw the paperwork without falling",-,-
+485,True,"her gloves, Michelle threw quickly",+,+
+485,False,"still, Michelle threw quickly",-,+
+485,False,"her gloves, Michelle threw the paperwork quickly",+,-
+485,True,"still, Michelle threw the paperwork quickly",-,-

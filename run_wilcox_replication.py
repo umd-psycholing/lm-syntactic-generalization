@@ -1,10 +1,7 @@
 import subprocess
-import torch
 
-MODEL = "grnn"
-if torch.__version__ >= "2.0":
-    MODEL = "gpt2"
-# we have to switch the Python env to use GPT2/GRNN, otherwise we could run model-wise evals.
+MODEL = "gpt2"
+OUTPUT = "grammar_outputs/wilcox_replication/gptwiki"
 
 run_configs = {
     'basic_subj': {'gap_region': ('verb', 'verb'),
@@ -26,5 +23,6 @@ for sentence_type in run_configs.keys():
     subprocess.Popen(['python', 'wilcox_replication.py', '--model', MODEL, '--data', config['data_location'],
                       '--gap_region', config['gap_region'][0], config['gap_region'][1],
                       '--nogap_region', config['nogap_region'][0], config['nogap_region'][1],
-                      '--sentence_type', sentence_type
+                      '--sentence_type', sentence_type,
+                      '--output_dir', OUTPUT
                       ])

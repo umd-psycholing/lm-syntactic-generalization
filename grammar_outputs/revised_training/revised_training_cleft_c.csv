@@ -1,0 +1,1945 @@
+group,grammatical,sentence,a condition,b condition
+0,True,It is these cakes that Susan lifted carefully,+,+
+0,False,It is obvious that Susan lifted carefully,-,+
+0,False,It is these cakes that Susan lifted your jacket carefully,+,-
+0,True,It is obvious that Susan lifted your jacket carefully,-,-
+1,True,It is these cakes that Susan lifted without falling,+,+
+1,False,It is obvious that Susan lifted without falling,-,+
+1,False,It is these cakes that Susan lifted your jacket without falling,+,-
+1,True,It is obvious that Susan lifted your jacket without falling,-,-
+2,True,It is these cakes that Susan lifted quickly,+,+
+2,False,It is obvious that Susan lifted quickly,-,+
+2,False,It is these cakes that Susan lifted your jacket quickly,+,-
+2,True,It is obvious that Susan lifted your jacket quickly,-,-
+3,True,It is these cakes that Susan lifted carefully,+,+
+3,False,It is obvious that Susan lifted carefully,-,+
+3,False,It is these cakes that Susan lifted a phone carefully,+,-
+3,True,It is obvious that Susan lifted a phone carefully,-,-
+4,True,It is these cakes that Susan lifted without falling,+,+
+4,False,It is obvious that Susan lifted without falling,-,+
+4,False,It is these cakes that Susan lifted a phone without falling,+,-
+4,True,It is obvious that Susan lifted a phone without falling,-,-
+5,True,It is these cakes that Susan lifted quickly,+,+
+5,False,It is obvious that Susan lifted quickly,-,+
+5,False,It is these cakes that Susan lifted a phone quickly,+,-
+5,True,It is obvious that Susan lifted a phone quickly,-,-
+6,True,It is these cakes that Susan lifted carefully,+,+
+6,False,It is obvious that Susan lifted carefully,-,+
+6,False,It is these cakes that Susan lifted the paperwork carefully,+,-
+6,True,It is obvious that Susan lifted the paperwork carefully,-,-
+7,True,It is these cakes that Susan lifted without falling,+,+
+7,False,It is obvious that Susan lifted without falling,-,+
+7,False,It is these cakes that Susan lifted the paperwork without falling,+,-
+7,True,It is obvious that Susan lifted the paperwork without falling,-,-
+8,True,It is these cakes that Susan lifted quickly,+,+
+8,False,It is obvious that Susan lifted quickly,-,+
+8,False,It is these cakes that Susan lifted the paperwork quickly,+,-
+8,True,It is obvious that Susan lifted the paperwork quickly,-,-
+9,True,It is these cakes that Susan stole carefully,+,+
+9,False,It is obvious that Susan stole carefully,-,+
+9,False,It is these cakes that Susan stole your jacket carefully,+,-
+9,True,It is obvious that Susan stole your jacket carefully,-,-
+10,True,It is these cakes that Susan stole without falling,+,+
+10,False,It is obvious that Susan stole without falling,-,+
+10,False,It is these cakes that Susan stole your jacket without falling,+,-
+10,True,It is obvious that Susan stole your jacket without falling,-,-
+11,True,It is these cakes that Susan stole quickly,+,+
+11,False,It is obvious that Susan stole quickly,-,+
+11,False,It is these cakes that Susan stole your jacket quickly,+,-
+11,True,It is obvious that Susan stole your jacket quickly,-,-
+12,True,It is these cakes that Susan stole carefully,+,+
+12,False,It is obvious that Susan stole carefully,-,+
+12,False,It is these cakes that Susan stole a phone carefully,+,-
+12,True,It is obvious that Susan stole a phone carefully,-,-
+13,True,It is these cakes that Susan stole without falling,+,+
+13,False,It is obvious that Susan stole without falling,-,+
+13,False,It is these cakes that Susan stole a phone without falling,+,-
+13,True,It is obvious that Susan stole a phone without falling,-,-
+14,True,It is these cakes that Susan stole quickly,+,+
+14,False,It is obvious that Susan stole quickly,-,+
+14,False,It is these cakes that Susan stole a phone quickly,+,-
+14,True,It is obvious that Susan stole a phone quickly,-,-
+15,True,It is these cakes that Susan stole carefully,+,+
+15,False,It is obvious that Susan stole carefully,-,+
+15,False,It is these cakes that Susan stole the paperwork carefully,+,-
+15,True,It is obvious that Susan stole the paperwork carefully,-,-
+16,True,It is these cakes that Susan stole without falling,+,+
+16,False,It is obvious that Susan stole without falling,-,+
+16,False,It is these cakes that Susan stole the paperwork without falling,+,-
+16,True,It is obvious that Susan stole the paperwork without falling,-,-
+17,True,It is these cakes that Susan stole quickly,+,+
+17,False,It is obvious that Susan stole quickly,-,+
+17,False,It is these cakes that Susan stole the paperwork quickly,+,-
+17,True,It is obvious that Susan stole the paperwork quickly,-,-
+18,True,It is these cakes that Susan threw carefully,+,+
+18,False,It is obvious that Susan threw carefully,-,+
+18,False,It is these cakes that Susan threw your jacket carefully,+,-
+18,True,It is obvious that Susan threw your jacket carefully,-,-
+19,True,It is these cakes that Susan threw without falling,+,+
+19,False,It is obvious that Susan threw without falling,-,+
+19,False,It is these cakes that Susan threw your jacket without falling,+,-
+19,True,It is obvious that Susan threw your jacket without falling,-,-
+20,True,It is these cakes that Susan threw quickly,+,+
+20,False,It is obvious that Susan threw quickly,-,+
+20,False,It is these cakes that Susan threw your jacket quickly,+,-
+20,True,It is obvious that Susan threw your jacket quickly,-,-
+21,True,It is these cakes that Susan threw carefully,+,+
+21,False,It is obvious that Susan threw carefully,-,+
+21,False,It is these cakes that Susan threw a phone carefully,+,-
+21,True,It is obvious that Susan threw a phone carefully,-,-
+22,True,It is these cakes that Susan threw without falling,+,+
+22,False,It is obvious that Susan threw without falling,-,+
+22,False,It is these cakes that Susan threw a phone without falling,+,-
+22,True,It is obvious that Susan threw a phone without falling,-,-
+23,True,It is these cakes that Susan threw quickly,+,+
+23,False,It is obvious that Susan threw quickly,-,+
+23,False,It is these cakes that Susan threw a phone quickly,+,-
+23,True,It is obvious that Susan threw a phone quickly,-,-
+24,True,It is these cakes that Susan threw carefully,+,+
+24,False,It is obvious that Susan threw carefully,-,+
+24,False,It is these cakes that Susan threw the paperwork carefully,+,-
+24,True,It is obvious that Susan threw the paperwork carefully,-,-
+25,True,It is these cakes that Susan threw without falling,+,+
+25,False,It is obvious that Susan threw without falling,-,+
+25,False,It is these cakes that Susan threw the paperwork without falling,+,-
+25,True,It is obvious that Susan threw the paperwork without falling,-,-
+26,True,It is these cakes that Susan threw quickly,+,+
+26,False,It is obvious that Susan threw quickly,-,+
+26,False,It is these cakes that Susan threw the paperwork quickly,+,-
+26,True,It is obvious that Susan threw the paperwork quickly,-,-
+27,True,It is these cakes that Michelle lifted carefully,+,+
+27,False,It is obvious that Michelle lifted carefully,-,+
+27,False,It is these cakes that Michelle lifted your jacket carefully,+,-
+27,True,It is obvious that Michelle lifted your jacket carefully,-,-
+28,True,It is these cakes that Michelle lifted without falling,+,+
+28,False,It is obvious that Michelle lifted without falling,-,+
+28,False,It is these cakes that Michelle lifted your jacket without falling,+,-
+28,True,It is obvious that Michelle lifted your jacket without falling,-,-
+29,True,It is these cakes that Michelle lifted quickly,+,+
+29,False,It is obvious that Michelle lifted quickly,-,+
+29,False,It is these cakes that Michelle lifted your jacket quickly,+,-
+29,True,It is obvious that Michelle lifted your jacket quickly,-,-
+30,True,It is these cakes that Michelle lifted carefully,+,+
+30,False,It is obvious that Michelle lifted carefully,-,+
+30,False,It is these cakes that Michelle lifted a phone carefully,+,-
+30,True,It is obvious that Michelle lifted a phone carefully,-,-
+31,True,It is these cakes that Michelle lifted without falling,+,+
+31,False,It is obvious that Michelle lifted without falling,-,+
+31,False,It is these cakes that Michelle lifted a phone without falling,+,-
+31,True,It is obvious that Michelle lifted a phone without falling,-,-
+32,True,It is these cakes that Michelle lifted quickly,+,+
+32,False,It is obvious that Michelle lifted quickly,-,+
+32,False,It is these cakes that Michelle lifted a phone quickly,+,-
+32,True,It is obvious that Michelle lifted a phone quickly,-,-
+33,True,It is these cakes that Michelle lifted carefully,+,+
+33,False,It is obvious that Michelle lifted carefully,-,+
+33,False,It is these cakes that Michelle lifted the paperwork carefully,+,-
+33,True,It is obvious that Michelle lifted the paperwork carefully,-,-
+34,True,It is these cakes that Michelle lifted without falling,+,+
+34,False,It is obvious that Michelle lifted without falling,-,+
+34,False,It is these cakes that Michelle lifted the paperwork without falling,+,-
+34,True,It is obvious that Michelle lifted the paperwork without falling,-,-
+35,True,It is these cakes that Michelle lifted quickly,+,+
+35,False,It is obvious that Michelle lifted quickly,-,+
+35,False,It is these cakes that Michelle lifted the paperwork quickly,+,-
+35,True,It is obvious that Michelle lifted the paperwork quickly,-,-
+36,True,It is these cakes that Michelle stole carefully,+,+
+36,False,It is obvious that Michelle stole carefully,-,+
+36,False,It is these cakes that Michelle stole your jacket carefully,+,-
+36,True,It is obvious that Michelle stole your jacket carefully,-,-
+37,True,It is these cakes that Michelle stole without falling,+,+
+37,False,It is obvious that Michelle stole without falling,-,+
+37,False,It is these cakes that Michelle stole your jacket without falling,+,-
+37,True,It is obvious that Michelle stole your jacket without falling,-,-
+38,True,It is these cakes that Michelle stole quickly,+,+
+38,False,It is obvious that Michelle stole quickly,-,+
+38,False,It is these cakes that Michelle stole your jacket quickly,+,-
+38,True,It is obvious that Michelle stole your jacket quickly,-,-
+39,True,It is these cakes that Michelle stole carefully,+,+
+39,False,It is obvious that Michelle stole carefully,-,+
+39,False,It is these cakes that Michelle stole a phone carefully,+,-
+39,True,It is obvious that Michelle stole a phone carefully,-,-
+40,True,It is these cakes that Michelle stole without falling,+,+
+40,False,It is obvious that Michelle stole without falling,-,+
+40,False,It is these cakes that Michelle stole a phone without falling,+,-
+40,True,It is obvious that Michelle stole a phone without falling,-,-
+41,True,It is these cakes that Michelle stole quickly,+,+
+41,False,It is obvious that Michelle stole quickly,-,+
+41,False,It is these cakes that Michelle stole a phone quickly,+,-
+41,True,It is obvious that Michelle stole a phone quickly,-,-
+42,True,It is these cakes that Michelle stole carefully,+,+
+42,False,It is obvious that Michelle stole carefully,-,+
+42,False,It is these cakes that Michelle stole the paperwork carefully,+,-
+42,True,It is obvious that Michelle stole the paperwork carefully,-,-
+43,True,It is these cakes that Michelle stole without falling,+,+
+43,False,It is obvious that Michelle stole without falling,-,+
+43,False,It is these cakes that Michelle stole the paperwork without falling,+,-
+43,True,It is obvious that Michelle stole the paperwork without falling,-,-
+44,True,It is these cakes that Michelle stole quickly,+,+
+44,False,It is obvious that Michelle stole quickly,-,+
+44,False,It is these cakes that Michelle stole the paperwork quickly,+,-
+44,True,It is obvious that Michelle stole the paperwork quickly,-,-
+45,True,It is these cakes that Michelle threw carefully,+,+
+45,False,It is obvious that Michelle threw carefully,-,+
+45,False,It is these cakes that Michelle threw your jacket carefully,+,-
+45,True,It is obvious that Michelle threw your jacket carefully,-,-
+46,True,It is these cakes that Michelle threw without falling,+,+
+46,False,It is obvious that Michelle threw without falling,-,+
+46,False,It is these cakes that Michelle threw your jacket without falling,+,-
+46,True,It is obvious that Michelle threw your jacket without falling,-,-
+47,True,It is these cakes that Michelle threw quickly,+,+
+47,False,It is obvious that Michelle threw quickly,-,+
+47,False,It is these cakes that Michelle threw your jacket quickly,+,-
+47,True,It is obvious that Michelle threw your jacket quickly,-,-
+48,True,It is these cakes that Michelle threw carefully,+,+
+48,False,It is obvious that Michelle threw carefully,-,+
+48,False,It is these cakes that Michelle threw a phone carefully,+,-
+48,True,It is obvious that Michelle threw a phone carefully,-,-
+49,True,It is these cakes that Michelle threw without falling,+,+
+49,False,It is obvious that Michelle threw without falling,-,+
+49,False,It is these cakes that Michelle threw a phone without falling,+,-
+49,True,It is obvious that Michelle threw a phone without falling,-,-
+50,True,It is these cakes that Michelle threw quickly,+,+
+50,False,It is obvious that Michelle threw quickly,-,+
+50,False,It is these cakes that Michelle threw a phone quickly,+,-
+50,True,It is obvious that Michelle threw a phone quickly,-,-
+51,True,It is these cakes that Michelle threw carefully,+,+
+51,False,It is obvious that Michelle threw carefully,-,+
+51,False,It is these cakes that Michelle threw the paperwork carefully,+,-
+51,True,It is obvious that Michelle threw the paperwork carefully,-,-
+52,True,It is these cakes that Michelle threw without falling,+,+
+52,False,It is obvious that Michelle threw without falling,-,+
+52,False,It is these cakes that Michelle threw the paperwork without falling,+,-
+52,True,It is obvious that Michelle threw the paperwork without falling,-,-
+53,True,It is these cakes that Michelle threw quickly,+,+
+53,False,It is obvious that Michelle threw quickly,-,+
+53,False,It is these cakes that Michelle threw the paperwork quickly,+,-
+53,True,It is obvious that Michelle threw the paperwork quickly,-,-
+54,True,It is these cakes that Susan lifted carefully,+,+
+54,False,It is surprising that Susan lifted carefully,-,+
+54,False,It is these cakes that Susan lifted your jacket carefully,+,-
+54,True,It is surprising that Susan lifted your jacket carefully,-,-
+55,True,It is these cakes that Susan lifted without falling,+,+
+55,False,It is surprising that Susan lifted without falling,-,+
+55,False,It is these cakes that Susan lifted your jacket without falling,+,-
+55,True,It is surprising that Susan lifted your jacket without falling,-,-
+56,True,It is these cakes that Susan lifted quickly,+,+
+56,False,It is surprising that Susan lifted quickly,-,+
+56,False,It is these cakes that Susan lifted your jacket quickly,+,-
+56,True,It is surprising that Susan lifted your jacket quickly,-,-
+57,True,It is these cakes that Susan lifted carefully,+,+
+57,False,It is surprising that Susan lifted carefully,-,+
+57,False,It is these cakes that Susan lifted a phone carefully,+,-
+57,True,It is surprising that Susan lifted a phone carefully,-,-
+58,True,It is these cakes that Susan lifted without falling,+,+
+58,False,It is surprising that Susan lifted without falling,-,+
+58,False,It is these cakes that Susan lifted a phone without falling,+,-
+58,True,It is surprising that Susan lifted a phone without falling,-,-
+59,True,It is these cakes that Susan lifted quickly,+,+
+59,False,It is surprising that Susan lifted quickly,-,+
+59,False,It is these cakes that Susan lifted a phone quickly,+,-
+59,True,It is surprising that Susan lifted a phone quickly,-,-
+60,True,It is these cakes that Susan lifted carefully,+,+
+60,False,It is surprising that Susan lifted carefully,-,+
+60,False,It is these cakes that Susan lifted the paperwork carefully,+,-
+60,True,It is surprising that Susan lifted the paperwork carefully,-,-
+61,True,It is these cakes that Susan lifted without falling,+,+
+61,False,It is surprising that Susan lifted without falling,-,+
+61,False,It is these cakes that Susan lifted the paperwork without falling,+,-
+61,True,It is surprising that Susan lifted the paperwork without falling,-,-
+62,True,It is these cakes that Susan lifted quickly,+,+
+62,False,It is surprising that Susan lifted quickly,-,+
+62,False,It is these cakes that Susan lifted the paperwork quickly,+,-
+62,True,It is surprising that Susan lifted the paperwork quickly,-,-
+63,True,It is these cakes that Susan stole carefully,+,+
+63,False,It is surprising that Susan stole carefully,-,+
+63,False,It is these cakes that Susan stole your jacket carefully,+,-
+63,True,It is surprising that Susan stole your jacket carefully,-,-
+64,True,It is these cakes that Susan stole without falling,+,+
+64,False,It is surprising that Susan stole without falling,-,+
+64,False,It is these cakes that Susan stole your jacket without falling,+,-
+64,True,It is surprising that Susan stole your jacket without falling,-,-
+65,True,It is these cakes that Susan stole quickly,+,+
+65,False,It is surprising that Susan stole quickly,-,+
+65,False,It is these cakes that Susan stole your jacket quickly,+,-
+65,True,It is surprising that Susan stole your jacket quickly,-,-
+66,True,It is these cakes that Susan stole carefully,+,+
+66,False,It is surprising that Susan stole carefully,-,+
+66,False,It is these cakes that Susan stole a phone carefully,+,-
+66,True,It is surprising that Susan stole a phone carefully,-,-
+67,True,It is these cakes that Susan stole without falling,+,+
+67,False,It is surprising that Susan stole without falling,-,+
+67,False,It is these cakes that Susan stole a phone without falling,+,-
+67,True,It is surprising that Susan stole a phone without falling,-,-
+68,True,It is these cakes that Susan stole quickly,+,+
+68,False,It is surprising that Susan stole quickly,-,+
+68,False,It is these cakes that Susan stole a phone quickly,+,-
+68,True,It is surprising that Susan stole a phone quickly,-,-
+69,True,It is these cakes that Susan stole carefully,+,+
+69,False,It is surprising that Susan stole carefully,-,+
+69,False,It is these cakes that Susan stole the paperwork carefully,+,-
+69,True,It is surprising that Susan stole the paperwork carefully,-,-
+70,True,It is these cakes that Susan stole without falling,+,+
+70,False,It is surprising that Susan stole without falling,-,+
+70,False,It is these cakes that Susan stole the paperwork without falling,+,-
+70,True,It is surprising that Susan stole the paperwork without falling,-,-
+71,True,It is these cakes that Susan stole quickly,+,+
+71,False,It is surprising that Susan stole quickly,-,+
+71,False,It is these cakes that Susan stole the paperwork quickly,+,-
+71,True,It is surprising that Susan stole the paperwork quickly,-,-
+72,True,It is these cakes that Susan threw carefully,+,+
+72,False,It is surprising that Susan threw carefully,-,+
+72,False,It is these cakes that Susan threw your jacket carefully,+,-
+72,True,It is surprising that Susan threw your jacket carefully,-,-
+73,True,It is these cakes that Susan threw without falling,+,+
+73,False,It is surprising that Susan threw without falling,-,+
+73,False,It is these cakes that Susan threw your jacket without falling,+,-
+73,True,It is surprising that Susan threw your jacket without falling,-,-
+74,True,It is these cakes that Susan threw quickly,+,+
+74,False,It is surprising that Susan threw quickly,-,+
+74,False,It is these cakes that Susan threw your jacket quickly,+,-
+74,True,It is surprising that Susan threw your jacket quickly,-,-
+75,True,It is these cakes that Susan threw carefully,+,+
+75,False,It is surprising that Susan threw carefully,-,+
+75,False,It is these cakes that Susan threw a phone carefully,+,-
+75,True,It is surprising that Susan threw a phone carefully,-,-
+76,True,It is these cakes that Susan threw without falling,+,+
+76,False,It is surprising that Susan threw without falling,-,+
+76,False,It is these cakes that Susan threw a phone without falling,+,-
+76,True,It is surprising that Susan threw a phone without falling,-,-
+77,True,It is these cakes that Susan threw quickly,+,+
+77,False,It is surprising that Susan threw quickly,-,+
+77,False,It is these cakes that Susan threw a phone quickly,+,-
+77,True,It is surprising that Susan threw a phone quickly,-,-
+78,True,It is these cakes that Susan threw carefully,+,+
+78,False,It is surprising that Susan threw carefully,-,+
+78,False,It is these cakes that Susan threw the paperwork carefully,+,-
+78,True,It is surprising that Susan threw the paperwork carefully,-,-
+79,True,It is these cakes that Susan threw without falling,+,+
+79,False,It is surprising that Susan threw without falling,-,+
+79,False,It is these cakes that Susan threw the paperwork without falling,+,-
+79,True,It is surprising that Susan threw the paperwork without falling,-,-
+80,True,It is these cakes that Susan threw quickly,+,+
+80,False,It is surprising that Susan threw quickly,-,+
+80,False,It is these cakes that Susan threw the paperwork quickly,+,-
+80,True,It is surprising that Susan threw the paperwork quickly,-,-
+81,True,It is these cakes that Michelle lifted carefully,+,+
+81,False,It is surprising that Michelle lifted carefully,-,+
+81,False,It is these cakes that Michelle lifted your jacket carefully,+,-
+81,True,It is surprising that Michelle lifted your jacket carefully,-,-
+82,True,It is these cakes that Michelle lifted without falling,+,+
+82,False,It is surprising that Michelle lifted without falling,-,+
+82,False,It is these cakes that Michelle lifted your jacket without falling,+,-
+82,True,It is surprising that Michelle lifted your jacket without falling,-,-
+83,True,It is these cakes that Michelle lifted quickly,+,+
+83,False,It is surprising that Michelle lifted quickly,-,+
+83,False,It is these cakes that Michelle lifted your jacket quickly,+,-
+83,True,It is surprising that Michelle lifted your jacket quickly,-,-
+84,True,It is these cakes that Michelle lifted carefully,+,+
+84,False,It is surprising that Michelle lifted carefully,-,+
+84,False,It is these cakes that Michelle lifted a phone carefully,+,-
+84,True,It is surprising that Michelle lifted a phone carefully,-,-
+85,True,It is these cakes that Michelle lifted without falling,+,+
+85,False,It is surprising that Michelle lifted without falling,-,+
+85,False,It is these cakes that Michelle lifted a phone without falling,+,-
+85,True,It is surprising that Michelle lifted a phone without falling,-,-
+86,True,It is these cakes that Michelle lifted quickly,+,+
+86,False,It is surprising that Michelle lifted quickly,-,+
+86,False,It is these cakes that Michelle lifted a phone quickly,+,-
+86,True,It is surprising that Michelle lifted a phone quickly,-,-
+87,True,It is these cakes that Michelle lifted carefully,+,+
+87,False,It is surprising that Michelle lifted carefully,-,+
+87,False,It is these cakes that Michelle lifted the paperwork carefully,+,-
+87,True,It is surprising that Michelle lifted the paperwork carefully,-,-
+88,True,It is these cakes that Michelle lifted without falling,+,+
+88,False,It is surprising that Michelle lifted without falling,-,+
+88,False,It is these cakes that Michelle lifted the paperwork without falling,+,-
+88,True,It is surprising that Michelle lifted the paperwork without falling,-,-
+89,True,It is these cakes that Michelle lifted quickly,+,+
+89,False,It is surprising that Michelle lifted quickly,-,+
+89,False,It is these cakes that Michelle lifted the paperwork quickly,+,-
+89,True,It is surprising that Michelle lifted the paperwork quickly,-,-
+90,True,It is these cakes that Michelle stole carefully,+,+
+90,False,It is surprising that Michelle stole carefully,-,+
+90,False,It is these cakes that Michelle stole your jacket carefully,+,-
+90,True,It is surprising that Michelle stole your jacket carefully,-,-
+91,True,It is these cakes that Michelle stole without falling,+,+
+91,False,It is surprising that Michelle stole without falling,-,+
+91,False,It is these cakes that Michelle stole your jacket without falling,+,-
+91,True,It is surprising that Michelle stole your jacket without falling,-,-
+92,True,It is these cakes that Michelle stole quickly,+,+
+92,False,It is surprising that Michelle stole quickly,-,+
+92,False,It is these cakes that Michelle stole your jacket quickly,+,-
+92,True,It is surprising that Michelle stole your jacket quickly,-,-
+93,True,It is these cakes that Michelle stole carefully,+,+
+93,False,It is surprising that Michelle stole carefully,-,+
+93,False,It is these cakes that Michelle stole a phone carefully,+,-
+93,True,It is surprising that Michelle stole a phone carefully,-,-
+94,True,It is these cakes that Michelle stole without falling,+,+
+94,False,It is surprising that Michelle stole without falling,-,+
+94,False,It is these cakes that Michelle stole a phone without falling,+,-
+94,True,It is surprising that Michelle stole a phone without falling,-,-
+95,True,It is these cakes that Michelle stole quickly,+,+
+95,False,It is surprising that Michelle stole quickly,-,+
+95,False,It is these cakes that Michelle stole a phone quickly,+,-
+95,True,It is surprising that Michelle stole a phone quickly,-,-
+96,True,It is these cakes that Michelle stole carefully,+,+
+96,False,It is surprising that Michelle stole carefully,-,+
+96,False,It is these cakes that Michelle stole the paperwork carefully,+,-
+96,True,It is surprising that Michelle stole the paperwork carefully,-,-
+97,True,It is these cakes that Michelle stole without falling,+,+
+97,False,It is surprising that Michelle stole without falling,-,+
+97,False,It is these cakes that Michelle stole the paperwork without falling,+,-
+97,True,It is surprising that Michelle stole the paperwork without falling,-,-
+98,True,It is these cakes that Michelle stole quickly,+,+
+98,False,It is surprising that Michelle stole quickly,-,+
+98,False,It is these cakes that Michelle stole the paperwork quickly,+,-
+98,True,It is surprising that Michelle stole the paperwork quickly,-,-
+99,True,It is these cakes that Michelle threw carefully,+,+
+99,False,It is surprising that Michelle threw carefully,-,+
+99,False,It is these cakes that Michelle threw your jacket carefully,+,-
+99,True,It is surprising that Michelle threw your jacket carefully,-,-
+100,True,It is these cakes that Michelle threw without falling,+,+
+100,False,It is surprising that Michelle threw without falling,-,+
+100,False,It is these cakes that Michelle threw your jacket without falling,+,-
+100,True,It is surprising that Michelle threw your jacket without falling,-,-
+101,True,It is these cakes that Michelle threw quickly,+,+
+101,False,It is surprising that Michelle threw quickly,-,+
+101,False,It is these cakes that Michelle threw your jacket quickly,+,-
+101,True,It is surprising that Michelle threw your jacket quickly,-,-
+102,True,It is these cakes that Michelle threw carefully,+,+
+102,False,It is surprising that Michelle threw carefully,-,+
+102,False,It is these cakes that Michelle threw a phone carefully,+,-
+102,True,It is surprising that Michelle threw a phone carefully,-,-
+103,True,It is these cakes that Michelle threw without falling,+,+
+103,False,It is surprising that Michelle threw without falling,-,+
+103,False,It is these cakes that Michelle threw a phone without falling,+,-
+103,True,It is surprising that Michelle threw a phone without falling,-,-
+104,True,It is these cakes that Michelle threw quickly,+,+
+104,False,It is surprising that Michelle threw quickly,-,+
+104,False,It is these cakes that Michelle threw a phone quickly,+,-
+104,True,It is surprising that Michelle threw a phone quickly,-,-
+105,True,It is these cakes that Michelle threw carefully,+,+
+105,False,It is surprising that Michelle threw carefully,-,+
+105,False,It is these cakes that Michelle threw the paperwork carefully,+,-
+105,True,It is surprising that Michelle threw the paperwork carefully,-,-
+106,True,It is these cakes that Michelle threw without falling,+,+
+106,False,It is surprising that Michelle threw without falling,-,+
+106,False,It is these cakes that Michelle threw the paperwork without falling,+,-
+106,True,It is surprising that Michelle threw the paperwork without falling,-,-
+107,True,It is these cakes that Michelle threw quickly,+,+
+107,False,It is surprising that Michelle threw quickly,-,+
+107,False,It is these cakes that Michelle threw the paperwork quickly,+,-
+107,True,It is surprising that Michelle threw the paperwork quickly,-,-
+108,True,It is these cakes that Susan lifted carefully,+,+
+108,False,It is annoying that Susan lifted carefully,-,+
+108,False,It is these cakes that Susan lifted your jacket carefully,+,-
+108,True,It is annoying that Susan lifted your jacket carefully,-,-
+109,True,It is these cakes that Susan lifted without falling,+,+
+109,False,It is annoying that Susan lifted without falling,-,+
+109,False,It is these cakes that Susan lifted your jacket without falling,+,-
+109,True,It is annoying that Susan lifted your jacket without falling,-,-
+110,True,It is these cakes that Susan lifted quickly,+,+
+110,False,It is annoying that Susan lifted quickly,-,+
+110,False,It is these cakes that Susan lifted your jacket quickly,+,-
+110,True,It is annoying that Susan lifted your jacket quickly,-,-
+111,True,It is these cakes that Susan lifted carefully,+,+
+111,False,It is annoying that Susan lifted carefully,-,+
+111,False,It is these cakes that Susan lifted a phone carefully,+,-
+111,True,It is annoying that Susan lifted a phone carefully,-,-
+112,True,It is these cakes that Susan lifted without falling,+,+
+112,False,It is annoying that Susan lifted without falling,-,+
+112,False,It is these cakes that Susan lifted a phone without falling,+,-
+112,True,It is annoying that Susan lifted a phone without falling,-,-
+113,True,It is these cakes that Susan lifted quickly,+,+
+113,False,It is annoying that Susan lifted quickly,-,+
+113,False,It is these cakes that Susan lifted a phone quickly,+,-
+113,True,It is annoying that Susan lifted a phone quickly,-,-
+114,True,It is these cakes that Susan lifted carefully,+,+
+114,False,It is annoying that Susan lifted carefully,-,+
+114,False,It is these cakes that Susan lifted the paperwork carefully,+,-
+114,True,It is annoying that Susan lifted the paperwork carefully,-,-
+115,True,It is these cakes that Susan lifted without falling,+,+
+115,False,It is annoying that Susan lifted without falling,-,+
+115,False,It is these cakes that Susan lifted the paperwork without falling,+,-
+115,True,It is annoying that Susan lifted the paperwork without falling,-,-
+116,True,It is these cakes that Susan lifted quickly,+,+
+116,False,It is annoying that Susan lifted quickly,-,+
+116,False,It is these cakes that Susan lifted the paperwork quickly,+,-
+116,True,It is annoying that Susan lifted the paperwork quickly,-,-
+117,True,It is these cakes that Susan stole carefully,+,+
+117,False,It is annoying that Susan stole carefully,-,+
+117,False,It is these cakes that Susan stole your jacket carefully,+,-
+117,True,It is annoying that Susan stole your jacket carefully,-,-
+118,True,It is these cakes that Susan stole without falling,+,+
+118,False,It is annoying that Susan stole without falling,-,+
+118,False,It is these cakes that Susan stole your jacket without falling,+,-
+118,True,It is annoying that Susan stole your jacket without falling,-,-
+119,True,It is these cakes that Susan stole quickly,+,+
+119,False,It is annoying that Susan stole quickly,-,+
+119,False,It is these cakes that Susan stole your jacket quickly,+,-
+119,True,It is annoying that Susan stole your jacket quickly,-,-
+120,True,It is these cakes that Susan stole carefully,+,+
+120,False,It is annoying that Susan stole carefully,-,+
+120,False,It is these cakes that Susan stole a phone carefully,+,-
+120,True,It is annoying that Susan stole a phone carefully,-,-
+121,True,It is these cakes that Susan stole without falling,+,+
+121,False,It is annoying that Susan stole without falling,-,+
+121,False,It is these cakes that Susan stole a phone without falling,+,-
+121,True,It is annoying that Susan stole a phone without falling,-,-
+122,True,It is these cakes that Susan stole quickly,+,+
+122,False,It is annoying that Susan stole quickly,-,+
+122,False,It is these cakes that Susan stole a phone quickly,+,-
+122,True,It is annoying that Susan stole a phone quickly,-,-
+123,True,It is these cakes that Susan stole carefully,+,+
+123,False,It is annoying that Susan stole carefully,-,+
+123,False,It is these cakes that Susan stole the paperwork carefully,+,-
+123,True,It is annoying that Susan stole the paperwork carefully,-,-
+124,True,It is these cakes that Susan stole without falling,+,+
+124,False,It is annoying that Susan stole without falling,-,+
+124,False,It is these cakes that Susan stole the paperwork without falling,+,-
+124,True,It is annoying that Susan stole the paperwork without falling,-,-
+125,True,It is these cakes that Susan stole quickly,+,+
+125,False,It is annoying that Susan stole quickly,-,+
+125,False,It is these cakes that Susan stole the paperwork quickly,+,-
+125,True,It is annoying that Susan stole the paperwork quickly,-,-
+126,True,It is these cakes that Susan threw carefully,+,+
+126,False,It is annoying that Susan threw carefully,-,+
+126,False,It is these cakes that Susan threw your jacket carefully,+,-
+126,True,It is annoying that Susan threw your jacket carefully,-,-
+127,True,It is these cakes that Susan threw without falling,+,+
+127,False,It is annoying that Susan threw without falling,-,+
+127,False,It is these cakes that Susan threw your jacket without falling,+,-
+127,True,It is annoying that Susan threw your jacket without falling,-,-
+128,True,It is these cakes that Susan threw quickly,+,+
+128,False,It is annoying that Susan threw quickly,-,+
+128,False,It is these cakes that Susan threw your jacket quickly,+,-
+128,True,It is annoying that Susan threw your jacket quickly,-,-
+129,True,It is these cakes that Susan threw carefully,+,+
+129,False,It is annoying that Susan threw carefully,-,+
+129,False,It is these cakes that Susan threw a phone carefully,+,-
+129,True,It is annoying that Susan threw a phone carefully,-,-
+130,True,It is these cakes that Susan threw without falling,+,+
+130,False,It is annoying that Susan threw without falling,-,+
+130,False,It is these cakes that Susan threw a phone without falling,+,-
+130,True,It is annoying that Susan threw a phone without falling,-,-
+131,True,It is these cakes that Susan threw quickly,+,+
+131,False,It is annoying that Susan threw quickly,-,+
+131,False,It is these cakes that Susan threw a phone quickly,+,-
+131,True,It is annoying that Susan threw a phone quickly,-,-
+132,True,It is these cakes that Susan threw carefully,+,+
+132,False,It is annoying that Susan threw carefully,-,+
+132,False,It is these cakes that Susan threw the paperwork carefully,+,-
+132,True,It is annoying that Susan threw the paperwork carefully,-,-
+133,True,It is these cakes that Susan threw without falling,+,+
+133,False,It is annoying that Susan threw without falling,-,+
+133,False,It is these cakes that Susan threw the paperwork without falling,+,-
+133,True,It is annoying that Susan threw the paperwork without falling,-,-
+134,True,It is these cakes that Susan threw quickly,+,+
+134,False,It is annoying that Susan threw quickly,-,+
+134,False,It is these cakes that Susan threw the paperwork quickly,+,-
+134,True,It is annoying that Susan threw the paperwork quickly,-,-
+135,True,It is these cakes that Michelle lifted carefully,+,+
+135,False,It is annoying that Michelle lifted carefully,-,+
+135,False,It is these cakes that Michelle lifted your jacket carefully,+,-
+135,True,It is annoying that Michelle lifted your jacket carefully,-,-
+136,True,It is these cakes that Michelle lifted without falling,+,+
+136,False,It is annoying that Michelle lifted without falling,-,+
+136,False,It is these cakes that Michelle lifted your jacket without falling,+,-
+136,True,It is annoying that Michelle lifted your jacket without falling,-,-
+137,True,It is these cakes that Michelle lifted quickly,+,+
+137,False,It is annoying that Michelle lifted quickly,-,+
+137,False,It is these cakes that Michelle lifted your jacket quickly,+,-
+137,True,It is annoying that Michelle lifted your jacket quickly,-,-
+138,True,It is these cakes that Michelle lifted carefully,+,+
+138,False,It is annoying that Michelle lifted carefully,-,+
+138,False,It is these cakes that Michelle lifted a phone carefully,+,-
+138,True,It is annoying that Michelle lifted a phone carefully,-,-
+139,True,It is these cakes that Michelle lifted without falling,+,+
+139,False,It is annoying that Michelle lifted without falling,-,+
+139,False,It is these cakes that Michelle lifted a phone without falling,+,-
+139,True,It is annoying that Michelle lifted a phone without falling,-,-
+140,True,It is these cakes that Michelle lifted quickly,+,+
+140,False,It is annoying that Michelle lifted quickly,-,+
+140,False,It is these cakes that Michelle lifted a phone quickly,+,-
+140,True,It is annoying that Michelle lifted a phone quickly,-,-
+141,True,It is these cakes that Michelle lifted carefully,+,+
+141,False,It is annoying that Michelle lifted carefully,-,+
+141,False,It is these cakes that Michelle lifted the paperwork carefully,+,-
+141,True,It is annoying that Michelle lifted the paperwork carefully,-,-
+142,True,It is these cakes that Michelle lifted without falling,+,+
+142,False,It is annoying that Michelle lifted without falling,-,+
+142,False,It is these cakes that Michelle lifted the paperwork without falling,+,-
+142,True,It is annoying that Michelle lifted the paperwork without falling,-,-
+143,True,It is these cakes that Michelle lifted quickly,+,+
+143,False,It is annoying that Michelle lifted quickly,-,+
+143,False,It is these cakes that Michelle lifted the paperwork quickly,+,-
+143,True,It is annoying that Michelle lifted the paperwork quickly,-,-
+144,True,It is these cakes that Michelle stole carefully,+,+
+144,False,It is annoying that Michelle stole carefully,-,+
+144,False,It is these cakes that Michelle stole your jacket carefully,+,-
+144,True,It is annoying that Michelle stole your jacket carefully,-,-
+145,True,It is these cakes that Michelle stole without falling,+,+
+145,False,It is annoying that Michelle stole without falling,-,+
+145,False,It is these cakes that Michelle stole your jacket without falling,+,-
+145,True,It is annoying that Michelle stole your jacket without falling,-,-
+146,True,It is these cakes that Michelle stole quickly,+,+
+146,False,It is annoying that Michelle stole quickly,-,+
+146,False,It is these cakes that Michelle stole your jacket quickly,+,-
+146,True,It is annoying that Michelle stole your jacket quickly,-,-
+147,True,It is these cakes that Michelle stole carefully,+,+
+147,False,It is annoying that Michelle stole carefully,-,+
+147,False,It is these cakes that Michelle stole a phone carefully,+,-
+147,True,It is annoying that Michelle stole a phone carefully,-,-
+148,True,It is these cakes that Michelle stole without falling,+,+
+148,False,It is annoying that Michelle stole without falling,-,+
+148,False,It is these cakes that Michelle stole a phone without falling,+,-
+148,True,It is annoying that Michelle stole a phone without falling,-,-
+149,True,It is these cakes that Michelle stole quickly,+,+
+149,False,It is annoying that Michelle stole quickly,-,+
+149,False,It is these cakes that Michelle stole a phone quickly,+,-
+149,True,It is annoying that Michelle stole a phone quickly,-,-
+150,True,It is these cakes that Michelle stole carefully,+,+
+150,False,It is annoying that Michelle stole carefully,-,+
+150,False,It is these cakes that Michelle stole the paperwork carefully,+,-
+150,True,It is annoying that Michelle stole the paperwork carefully,-,-
+151,True,It is these cakes that Michelle stole without falling,+,+
+151,False,It is annoying that Michelle stole without falling,-,+
+151,False,It is these cakes that Michelle stole the paperwork without falling,+,-
+151,True,It is annoying that Michelle stole the paperwork without falling,-,-
+152,True,It is these cakes that Michelle stole quickly,+,+
+152,False,It is annoying that Michelle stole quickly,-,+
+152,False,It is these cakes that Michelle stole the paperwork quickly,+,-
+152,True,It is annoying that Michelle stole the paperwork quickly,-,-
+153,True,It is these cakes that Michelle threw carefully,+,+
+153,False,It is annoying that Michelle threw carefully,-,+
+153,False,It is these cakes that Michelle threw your jacket carefully,+,-
+153,True,It is annoying that Michelle threw your jacket carefully,-,-
+154,True,It is these cakes that Michelle threw without falling,+,+
+154,False,It is annoying that Michelle threw without falling,-,+
+154,False,It is these cakes that Michelle threw your jacket without falling,+,-
+154,True,It is annoying that Michelle threw your jacket without falling,-,-
+155,True,It is these cakes that Michelle threw quickly,+,+
+155,False,It is annoying that Michelle threw quickly,-,+
+155,False,It is these cakes that Michelle threw your jacket quickly,+,-
+155,True,It is annoying that Michelle threw your jacket quickly,-,-
+156,True,It is these cakes that Michelle threw carefully,+,+
+156,False,It is annoying that Michelle threw carefully,-,+
+156,False,It is these cakes that Michelle threw a phone carefully,+,-
+156,True,It is annoying that Michelle threw a phone carefully,-,-
+157,True,It is these cakes that Michelle threw without falling,+,+
+157,False,It is annoying that Michelle threw without falling,-,+
+157,False,It is these cakes that Michelle threw a phone without falling,+,-
+157,True,It is annoying that Michelle threw a phone without falling,-,-
+158,True,It is these cakes that Michelle threw quickly,+,+
+158,False,It is annoying that Michelle threw quickly,-,+
+158,False,It is these cakes that Michelle threw a phone quickly,+,-
+158,True,It is annoying that Michelle threw a phone quickly,-,-
+159,True,It is these cakes that Michelle threw carefully,+,+
+159,False,It is annoying that Michelle threw carefully,-,+
+159,False,It is these cakes that Michelle threw the paperwork carefully,+,-
+159,True,It is annoying that Michelle threw the paperwork carefully,-,-
+160,True,It is these cakes that Michelle threw without falling,+,+
+160,False,It is annoying that Michelle threw without falling,-,+
+160,False,It is these cakes that Michelle threw the paperwork without falling,+,-
+160,True,It is annoying that Michelle threw the paperwork without falling,-,-
+161,True,It is these cakes that Michelle threw quickly,+,+
+161,False,It is annoying that Michelle threw quickly,-,+
+161,False,It is these cakes that Michelle threw the paperwork quickly,+,-
+161,True,It is annoying that Michelle threw the paperwork quickly,-,-
+162,True,It is those balls that Susan lifted carefully,+,+
+162,False,It is obvious that Susan lifted carefully,-,+
+162,False,It is those balls that Susan lifted your jacket carefully,+,-
+162,True,It is obvious that Susan lifted your jacket carefully,-,-
+163,True,It is those balls that Susan lifted without falling,+,+
+163,False,It is obvious that Susan lifted without falling,-,+
+163,False,It is those balls that Susan lifted your jacket without falling,+,-
+163,True,It is obvious that Susan lifted your jacket without falling,-,-
+164,True,It is those balls that Susan lifted quickly,+,+
+164,False,It is obvious that Susan lifted quickly,-,+
+164,False,It is those balls that Susan lifted your jacket quickly,+,-
+164,True,It is obvious that Susan lifted your jacket quickly,-,-
+165,True,It is those balls that Susan lifted carefully,+,+
+165,False,It is obvious that Susan lifted carefully,-,+
+165,False,It is those balls that Susan lifted a phone carefully,+,-
+165,True,It is obvious that Susan lifted a phone carefully,-,-
+166,True,It is those balls that Susan lifted without falling,+,+
+166,False,It is obvious that Susan lifted without falling,-,+
+166,False,It is those balls that Susan lifted a phone without falling,+,-
+166,True,It is obvious that Susan lifted a phone without falling,-,-
+167,True,It is those balls that Susan lifted quickly,+,+
+167,False,It is obvious that Susan lifted quickly,-,+
+167,False,It is those balls that Susan lifted a phone quickly,+,-
+167,True,It is obvious that Susan lifted a phone quickly,-,-
+168,True,It is those balls that Susan lifted carefully,+,+
+168,False,It is obvious that Susan lifted carefully,-,+
+168,False,It is those balls that Susan lifted the paperwork carefully,+,-
+168,True,It is obvious that Susan lifted the paperwork carefully,-,-
+169,True,It is those balls that Susan lifted without falling,+,+
+169,False,It is obvious that Susan lifted without falling,-,+
+169,False,It is those balls that Susan lifted the paperwork without falling,+,-
+169,True,It is obvious that Susan lifted the paperwork without falling,-,-
+170,True,It is those balls that Susan lifted quickly,+,+
+170,False,It is obvious that Susan lifted quickly,-,+
+170,False,It is those balls that Susan lifted the paperwork quickly,+,-
+170,True,It is obvious that Susan lifted the paperwork quickly,-,-
+171,True,It is those balls that Susan stole carefully,+,+
+171,False,It is obvious that Susan stole carefully,-,+
+171,False,It is those balls that Susan stole your jacket carefully,+,-
+171,True,It is obvious that Susan stole your jacket carefully,-,-
+172,True,It is those balls that Susan stole without falling,+,+
+172,False,It is obvious that Susan stole without falling,-,+
+172,False,It is those balls that Susan stole your jacket without falling,+,-
+172,True,It is obvious that Susan stole your jacket without falling,-,-
+173,True,It is those balls that Susan stole quickly,+,+
+173,False,It is obvious that Susan stole quickly,-,+
+173,False,It is those balls that Susan stole your jacket quickly,+,-
+173,True,It is obvious that Susan stole your jacket quickly,-,-
+174,True,It is those balls that Susan stole carefully,+,+
+174,False,It is obvious that Susan stole carefully,-,+
+174,False,It is those balls that Susan stole a phone carefully,+,-
+174,True,It is obvious that Susan stole a phone carefully,-,-
+175,True,It is those balls that Susan stole without falling,+,+
+175,False,It is obvious that Susan stole without falling,-,+
+175,False,It is those balls that Susan stole a phone without falling,+,-
+175,True,It is obvious that Susan stole a phone without falling,-,-
+176,True,It is those balls that Susan stole quickly,+,+
+176,False,It is obvious that Susan stole quickly,-,+
+176,False,It is those balls that Susan stole a phone quickly,+,-
+176,True,It is obvious that Susan stole a phone quickly,-,-
+177,True,It is those balls that Susan stole carefully,+,+
+177,False,It is obvious that Susan stole carefully,-,+
+177,False,It is those balls that Susan stole the paperwork carefully,+,-
+177,True,It is obvious that Susan stole the paperwork carefully,-,-
+178,True,It is those balls that Susan stole without falling,+,+
+178,False,It is obvious that Susan stole without falling,-,+
+178,False,It is those balls that Susan stole the paperwork without falling,+,-
+178,True,It is obvious that Susan stole the paperwork without falling,-,-
+179,True,It is those balls that Susan stole quickly,+,+
+179,False,It is obvious that Susan stole quickly,-,+
+179,False,It is those balls that Susan stole the paperwork quickly,+,-
+179,True,It is obvious that Susan stole the paperwork quickly,-,-
+180,True,It is those balls that Susan threw carefully,+,+
+180,False,It is obvious that Susan threw carefully,-,+
+180,False,It is those balls that Susan threw your jacket carefully,+,-
+180,True,It is obvious that Susan threw your jacket carefully,-,-
+181,True,It is those balls that Susan threw without falling,+,+
+181,False,It is obvious that Susan threw without falling,-,+
+181,False,It is those balls that Susan threw your jacket without falling,+,-
+181,True,It is obvious that Susan threw your jacket without falling,-,-
+182,True,It is those balls that Susan threw quickly,+,+
+182,False,It is obvious that Susan threw quickly,-,+
+182,False,It is those balls that Susan threw your jacket quickly,+,-
+182,True,It is obvious that Susan threw your jacket quickly,-,-
+183,True,It is those balls that Susan threw carefully,+,+
+183,False,It is obvious that Susan threw carefully,-,+
+183,False,It is those balls that Susan threw a phone carefully,+,-
+183,True,It is obvious that Susan threw a phone carefully,-,-
+184,True,It is those balls that Susan threw without falling,+,+
+184,False,It is obvious that Susan threw without falling,-,+
+184,False,It is those balls that Susan threw a phone without falling,+,-
+184,True,It is obvious that Susan threw a phone without falling,-,-
+185,True,It is those balls that Susan threw quickly,+,+
+185,False,It is obvious that Susan threw quickly,-,+
+185,False,It is those balls that Susan threw a phone quickly,+,-
+185,True,It is obvious that Susan threw a phone quickly,-,-
+186,True,It is those balls that Susan threw carefully,+,+
+186,False,It is obvious that Susan threw carefully,-,+
+186,False,It is those balls that Susan threw the paperwork carefully,+,-
+186,True,It is obvious that Susan threw the paperwork carefully,-,-
+187,True,It is those balls that Susan threw without falling,+,+
+187,False,It is obvious that Susan threw without falling,-,+
+187,False,It is those balls that Susan threw the paperwork without falling,+,-
+187,True,It is obvious that Susan threw the paperwork without falling,-,-
+188,True,It is those balls that Susan threw quickly,+,+
+188,False,It is obvious that Susan threw quickly,-,+
+188,False,It is those balls that Susan threw the paperwork quickly,+,-
+188,True,It is obvious that Susan threw the paperwork quickly,-,-
+189,True,It is those balls that Michelle lifted carefully,+,+
+189,False,It is obvious that Michelle lifted carefully,-,+
+189,False,It is those balls that Michelle lifted your jacket carefully,+,-
+189,True,It is obvious that Michelle lifted your jacket carefully,-,-
+190,True,It is those balls that Michelle lifted without falling,+,+
+190,False,It is obvious that Michelle lifted without falling,-,+
+190,False,It is those balls that Michelle lifted your jacket without falling,+,-
+190,True,It is obvious that Michelle lifted your jacket without falling,-,-
+191,True,It is those balls that Michelle lifted quickly,+,+
+191,False,It is obvious that Michelle lifted quickly,-,+
+191,False,It is those balls that Michelle lifted your jacket quickly,+,-
+191,True,It is obvious that Michelle lifted your jacket quickly,-,-
+192,True,It is those balls that Michelle lifted carefully,+,+
+192,False,It is obvious that Michelle lifted carefully,-,+
+192,False,It is those balls that Michelle lifted a phone carefully,+,-
+192,True,It is obvious that Michelle lifted a phone carefully,-,-
+193,True,It is those balls that Michelle lifted without falling,+,+
+193,False,It is obvious that Michelle lifted without falling,-,+
+193,False,It is those balls that Michelle lifted a phone without falling,+,-
+193,True,It is obvious that Michelle lifted a phone without falling,-,-
+194,True,It is those balls that Michelle lifted quickly,+,+
+194,False,It is obvious that Michelle lifted quickly,-,+
+194,False,It is those balls that Michelle lifted a phone quickly,+,-
+194,True,It is obvious that Michelle lifted a phone quickly,-,-
+195,True,It is those balls that Michelle lifted carefully,+,+
+195,False,It is obvious that Michelle lifted carefully,-,+
+195,False,It is those balls that Michelle lifted the paperwork carefully,+,-
+195,True,It is obvious that Michelle lifted the paperwork carefully,-,-
+196,True,It is those balls that Michelle lifted without falling,+,+
+196,False,It is obvious that Michelle lifted without falling,-,+
+196,False,It is those balls that Michelle lifted the paperwork without falling,+,-
+196,True,It is obvious that Michelle lifted the paperwork without falling,-,-
+197,True,It is those balls that Michelle lifted quickly,+,+
+197,False,It is obvious that Michelle lifted quickly,-,+
+197,False,It is those balls that Michelle lifted the paperwork quickly,+,-
+197,True,It is obvious that Michelle lifted the paperwork quickly,-,-
+198,True,It is those balls that Michelle stole carefully,+,+
+198,False,It is obvious that Michelle stole carefully,-,+
+198,False,It is those balls that Michelle stole your jacket carefully,+,-
+198,True,It is obvious that Michelle stole your jacket carefully,-,-
+199,True,It is those balls that Michelle stole without falling,+,+
+199,False,It is obvious that Michelle stole without falling,-,+
+199,False,It is those balls that Michelle stole your jacket without falling,+,-
+199,True,It is obvious that Michelle stole your jacket without falling,-,-
+200,True,It is those balls that Michelle stole quickly,+,+
+200,False,It is obvious that Michelle stole quickly,-,+
+200,False,It is those balls that Michelle stole your jacket quickly,+,-
+200,True,It is obvious that Michelle stole your jacket quickly,-,-
+201,True,It is those balls that Michelle stole carefully,+,+
+201,False,It is obvious that Michelle stole carefully,-,+
+201,False,It is those balls that Michelle stole a phone carefully,+,-
+201,True,It is obvious that Michelle stole a phone carefully,-,-
+202,True,It is those balls that Michelle stole without falling,+,+
+202,False,It is obvious that Michelle stole without falling,-,+
+202,False,It is those balls that Michelle stole a phone without falling,+,-
+202,True,It is obvious that Michelle stole a phone without falling,-,-
+203,True,It is those balls that Michelle stole quickly,+,+
+203,False,It is obvious that Michelle stole quickly,-,+
+203,False,It is those balls that Michelle stole a phone quickly,+,-
+203,True,It is obvious that Michelle stole a phone quickly,-,-
+204,True,It is those balls that Michelle stole carefully,+,+
+204,False,It is obvious that Michelle stole carefully,-,+
+204,False,It is those balls that Michelle stole the paperwork carefully,+,-
+204,True,It is obvious that Michelle stole the paperwork carefully,-,-
+205,True,It is those balls that Michelle stole without falling,+,+
+205,False,It is obvious that Michelle stole without falling,-,+
+205,False,It is those balls that Michelle stole the paperwork without falling,+,-
+205,True,It is obvious that Michelle stole the paperwork without falling,-,-
+206,True,It is those balls that Michelle stole quickly,+,+
+206,False,It is obvious that Michelle stole quickly,-,+
+206,False,It is those balls that Michelle stole the paperwork quickly,+,-
+206,True,It is obvious that Michelle stole the paperwork quickly,-,-
+207,True,It is those balls that Michelle threw carefully,+,+
+207,False,It is obvious that Michelle threw carefully,-,+
+207,False,It is those balls that Michelle threw your jacket carefully,+,-
+207,True,It is obvious that Michelle threw your jacket carefully,-,-
+208,True,It is those balls that Michelle threw without falling,+,+
+208,False,It is obvious that Michelle threw without falling,-,+
+208,False,It is those balls that Michelle threw your jacket without falling,+,-
+208,True,It is obvious that Michelle threw your jacket without falling,-,-
+209,True,It is those balls that Michelle threw quickly,+,+
+209,False,It is obvious that Michelle threw quickly,-,+
+209,False,It is those balls that Michelle threw your jacket quickly,+,-
+209,True,It is obvious that Michelle threw your jacket quickly,-,-
+210,True,It is those balls that Michelle threw carefully,+,+
+210,False,It is obvious that Michelle threw carefully,-,+
+210,False,It is those balls that Michelle threw a phone carefully,+,-
+210,True,It is obvious that Michelle threw a phone carefully,-,-
+211,True,It is those balls that Michelle threw without falling,+,+
+211,False,It is obvious that Michelle threw without falling,-,+
+211,False,It is those balls that Michelle threw a phone without falling,+,-
+211,True,It is obvious that Michelle threw a phone without falling,-,-
+212,True,It is those balls that Michelle threw quickly,+,+
+212,False,It is obvious that Michelle threw quickly,-,+
+212,False,It is those balls that Michelle threw a phone quickly,+,-
+212,True,It is obvious that Michelle threw a phone quickly,-,-
+213,True,It is those balls that Michelle threw carefully,+,+
+213,False,It is obvious that Michelle threw carefully,-,+
+213,False,It is those balls that Michelle threw the paperwork carefully,+,-
+213,True,It is obvious that Michelle threw the paperwork carefully,-,-
+214,True,It is those balls that Michelle threw without falling,+,+
+214,False,It is obvious that Michelle threw without falling,-,+
+214,False,It is those balls that Michelle threw the paperwork without falling,+,-
+214,True,It is obvious that Michelle threw the paperwork without falling,-,-
+215,True,It is those balls that Michelle threw quickly,+,+
+215,False,It is obvious that Michelle threw quickly,-,+
+215,False,It is those balls that Michelle threw the paperwork quickly,+,-
+215,True,It is obvious that Michelle threw the paperwork quickly,-,-
+216,True,It is those balls that Susan lifted carefully,+,+
+216,False,It is surprising that Susan lifted carefully,-,+
+216,False,It is those balls that Susan lifted your jacket carefully,+,-
+216,True,It is surprising that Susan lifted your jacket carefully,-,-
+217,True,It is those balls that Susan lifted without falling,+,+
+217,False,It is surprising that Susan lifted without falling,-,+
+217,False,It is those balls that Susan lifted your jacket without falling,+,-
+217,True,It is surprising that Susan lifted your jacket without falling,-,-
+218,True,It is those balls that Susan lifted quickly,+,+
+218,False,It is surprising that Susan lifted quickly,-,+
+218,False,It is those balls that Susan lifted your jacket quickly,+,-
+218,True,It is surprising that Susan lifted your jacket quickly,-,-
+219,True,It is those balls that Susan lifted carefully,+,+
+219,False,It is surprising that Susan lifted carefully,-,+
+219,False,It is those balls that Susan lifted a phone carefully,+,-
+219,True,It is surprising that Susan lifted a phone carefully,-,-
+220,True,It is those balls that Susan lifted without falling,+,+
+220,False,It is surprising that Susan lifted without falling,-,+
+220,False,It is those balls that Susan lifted a phone without falling,+,-
+220,True,It is surprising that Susan lifted a phone without falling,-,-
+221,True,It is those balls that Susan lifted quickly,+,+
+221,False,It is surprising that Susan lifted quickly,-,+
+221,False,It is those balls that Susan lifted a phone quickly,+,-
+221,True,It is surprising that Susan lifted a phone quickly,-,-
+222,True,It is those balls that Susan lifted carefully,+,+
+222,False,It is surprising that Susan lifted carefully,-,+
+222,False,It is those balls that Susan lifted the paperwork carefully,+,-
+222,True,It is surprising that Susan lifted the paperwork carefully,-,-
+223,True,It is those balls that Susan lifted without falling,+,+
+223,False,It is surprising that Susan lifted without falling,-,+
+223,False,It is those balls that Susan lifted the paperwork without falling,+,-
+223,True,It is surprising that Susan lifted the paperwork without falling,-,-
+224,True,It is those balls that Susan lifted quickly,+,+
+224,False,It is surprising that Susan lifted quickly,-,+
+224,False,It is those balls that Susan lifted the paperwork quickly,+,-
+224,True,It is surprising that Susan lifted the paperwork quickly,-,-
+225,True,It is those balls that Susan stole carefully,+,+
+225,False,It is surprising that Susan stole carefully,-,+
+225,False,It is those balls that Susan stole your jacket carefully,+,-
+225,True,It is surprising that Susan stole your jacket carefully,-,-
+226,True,It is those balls that Susan stole without falling,+,+
+226,False,It is surprising that Susan stole without falling,-,+
+226,False,It is those balls that Susan stole your jacket without falling,+,-
+226,True,It is surprising that Susan stole your jacket without falling,-,-
+227,True,It is those balls that Susan stole quickly,+,+
+227,False,It is surprising that Susan stole quickly,-,+
+227,False,It is those balls that Susan stole your jacket quickly,+,-
+227,True,It is surprising that Susan stole your jacket quickly,-,-
+228,True,It is those balls that Susan stole carefully,+,+
+228,False,It is surprising that Susan stole carefully,-,+
+228,False,It is those balls that Susan stole a phone carefully,+,-
+228,True,It is surprising that Susan stole a phone carefully,-,-
+229,True,It is those balls that Susan stole without falling,+,+
+229,False,It is surprising that Susan stole without falling,-,+
+229,False,It is those balls that Susan stole a phone without falling,+,-
+229,True,It is surprising that Susan stole a phone without falling,-,-
+230,True,It is those balls that Susan stole quickly,+,+
+230,False,It is surprising that Susan stole quickly,-,+
+230,False,It is those balls that Susan stole a phone quickly,+,-
+230,True,It is surprising that Susan stole a phone quickly,-,-
+231,True,It is those balls that Susan stole carefully,+,+
+231,False,It is surprising that Susan stole carefully,-,+
+231,False,It is those balls that Susan stole the paperwork carefully,+,-
+231,True,It is surprising that Susan stole the paperwork carefully,-,-
+232,True,It is those balls that Susan stole without falling,+,+
+232,False,It is surprising that Susan stole without falling,-,+
+232,False,It is those balls that Susan stole the paperwork without falling,+,-
+232,True,It is surprising that Susan stole the paperwork without falling,-,-
+233,True,It is those balls that Susan stole quickly,+,+
+233,False,It is surprising that Susan stole quickly,-,+
+233,False,It is those balls that Susan stole the paperwork quickly,+,-
+233,True,It is surprising that Susan stole the paperwork quickly,-,-
+234,True,It is those balls that Susan threw carefully,+,+
+234,False,It is surprising that Susan threw carefully,-,+
+234,False,It is those balls that Susan threw your jacket carefully,+,-
+234,True,It is surprising that Susan threw your jacket carefully,-,-
+235,True,It is those balls that Susan threw without falling,+,+
+235,False,It is surprising that Susan threw without falling,-,+
+235,False,It is those balls that Susan threw your jacket without falling,+,-
+235,True,It is surprising that Susan threw your jacket without falling,-,-
+236,True,It is those balls that Susan threw quickly,+,+
+236,False,It is surprising that Susan threw quickly,-,+
+236,False,It is those balls that Susan threw your jacket quickly,+,-
+236,True,It is surprising that Susan threw your jacket quickly,-,-
+237,True,It is those balls that Susan threw carefully,+,+
+237,False,It is surprising that Susan threw carefully,-,+
+237,False,It is those balls that Susan threw a phone carefully,+,-
+237,True,It is surprising that Susan threw a phone carefully,-,-
+238,True,It is those balls that Susan threw without falling,+,+
+238,False,It is surprising that Susan threw without falling,-,+
+238,False,It is those balls that Susan threw a phone without falling,+,-
+238,True,It is surprising that Susan threw a phone without falling,-,-
+239,True,It is those balls that Susan threw quickly,+,+
+239,False,It is surprising that Susan threw quickly,-,+
+239,False,It is those balls that Susan threw a phone quickly,+,-
+239,True,It is surprising that Susan threw a phone quickly,-,-
+240,True,It is those balls that Susan threw carefully,+,+
+240,False,It is surprising that Susan threw carefully,-,+
+240,False,It is those balls that Susan threw the paperwork carefully,+,-
+240,True,It is surprising that Susan threw the paperwork carefully,-,-
+241,True,It is those balls that Susan threw without falling,+,+
+241,False,It is surprising that Susan threw without falling,-,+
+241,False,It is those balls that Susan threw the paperwork without falling,+,-
+241,True,It is surprising that Susan threw the paperwork without falling,-,-
+242,True,It is those balls that Susan threw quickly,+,+
+242,False,It is surprising that Susan threw quickly,-,+
+242,False,It is those balls that Susan threw the paperwork quickly,+,-
+242,True,It is surprising that Susan threw the paperwork quickly,-,-
+243,True,It is those balls that Michelle lifted carefully,+,+
+243,False,It is surprising that Michelle lifted carefully,-,+
+243,False,It is those balls that Michelle lifted your jacket carefully,+,-
+243,True,It is surprising that Michelle lifted your jacket carefully,-,-
+244,True,It is those balls that Michelle lifted without falling,+,+
+244,False,It is surprising that Michelle lifted without falling,-,+
+244,False,It is those balls that Michelle lifted your jacket without falling,+,-
+244,True,It is surprising that Michelle lifted your jacket without falling,-,-
+245,True,It is those balls that Michelle lifted quickly,+,+
+245,False,It is surprising that Michelle lifted quickly,-,+
+245,False,It is those balls that Michelle lifted your jacket quickly,+,-
+245,True,It is surprising that Michelle lifted your jacket quickly,-,-
+246,True,It is those balls that Michelle lifted carefully,+,+
+246,False,It is surprising that Michelle lifted carefully,-,+
+246,False,It is those balls that Michelle lifted a phone carefully,+,-
+246,True,It is surprising that Michelle lifted a phone carefully,-,-
+247,True,It is those balls that Michelle lifted without falling,+,+
+247,False,It is surprising that Michelle lifted without falling,-,+
+247,False,It is those balls that Michelle lifted a phone without falling,+,-
+247,True,It is surprising that Michelle lifted a phone without falling,-,-
+248,True,It is those balls that Michelle lifted quickly,+,+
+248,False,It is surprising that Michelle lifted quickly,-,+
+248,False,It is those balls that Michelle lifted a phone quickly,+,-
+248,True,It is surprising that Michelle lifted a phone quickly,-,-
+249,True,It is those balls that Michelle lifted carefully,+,+
+249,False,It is surprising that Michelle lifted carefully,-,+
+249,False,It is those balls that Michelle lifted the paperwork carefully,+,-
+249,True,It is surprising that Michelle lifted the paperwork carefully,-,-
+250,True,It is those balls that Michelle lifted without falling,+,+
+250,False,It is surprising that Michelle lifted without falling,-,+
+250,False,It is those balls that Michelle lifted the paperwork without falling,+,-
+250,True,It is surprising that Michelle lifted the paperwork without falling,-,-
+251,True,It is those balls that Michelle lifted quickly,+,+
+251,False,It is surprising that Michelle lifted quickly,-,+
+251,False,It is those balls that Michelle lifted the paperwork quickly,+,-
+251,True,It is surprising that Michelle lifted the paperwork quickly,-,-
+252,True,It is those balls that Michelle stole carefully,+,+
+252,False,It is surprising that Michelle stole carefully,-,+
+252,False,It is those balls that Michelle stole your jacket carefully,+,-
+252,True,It is surprising that Michelle stole your jacket carefully,-,-
+253,True,It is those balls that Michelle stole without falling,+,+
+253,False,It is surprising that Michelle stole without falling,-,+
+253,False,It is those balls that Michelle stole your jacket without falling,+,-
+253,True,It is surprising that Michelle stole your jacket without falling,-,-
+254,True,It is those balls that Michelle stole quickly,+,+
+254,False,It is surprising that Michelle stole quickly,-,+
+254,False,It is those balls that Michelle stole your jacket quickly,+,-
+254,True,It is surprising that Michelle stole your jacket quickly,-,-
+255,True,It is those balls that Michelle stole carefully,+,+
+255,False,It is surprising that Michelle stole carefully,-,+
+255,False,It is those balls that Michelle stole a phone carefully,+,-
+255,True,It is surprising that Michelle stole a phone carefully,-,-
+256,True,It is those balls that Michelle stole without falling,+,+
+256,False,It is surprising that Michelle stole without falling,-,+
+256,False,It is those balls that Michelle stole a phone without falling,+,-
+256,True,It is surprising that Michelle stole a phone without falling,-,-
+257,True,It is those balls that Michelle stole quickly,+,+
+257,False,It is surprising that Michelle stole quickly,-,+
+257,False,It is those balls that Michelle stole a phone quickly,+,-
+257,True,It is surprising that Michelle stole a phone quickly,-,-
+258,True,It is those balls that Michelle stole carefully,+,+
+258,False,It is surprising that Michelle stole carefully,-,+
+258,False,It is those balls that Michelle stole the paperwork carefully,+,-
+258,True,It is surprising that Michelle stole the paperwork carefully,-,-
+259,True,It is those balls that Michelle stole without falling,+,+
+259,False,It is surprising that Michelle stole without falling,-,+
+259,False,It is those balls that Michelle stole the paperwork without falling,+,-
+259,True,It is surprising that Michelle stole the paperwork without falling,-,-
+260,True,It is those balls that Michelle stole quickly,+,+
+260,False,It is surprising that Michelle stole quickly,-,+
+260,False,It is those balls that Michelle stole the paperwork quickly,+,-
+260,True,It is surprising that Michelle stole the paperwork quickly,-,-
+261,True,It is those balls that Michelle threw carefully,+,+
+261,False,It is surprising that Michelle threw carefully,-,+
+261,False,It is those balls that Michelle threw your jacket carefully,+,-
+261,True,It is surprising that Michelle threw your jacket carefully,-,-
+262,True,It is those balls that Michelle threw without falling,+,+
+262,False,It is surprising that Michelle threw without falling,-,+
+262,False,It is those balls that Michelle threw your jacket without falling,+,-
+262,True,It is surprising that Michelle threw your jacket without falling,-,-
+263,True,It is those balls that Michelle threw quickly,+,+
+263,False,It is surprising that Michelle threw quickly,-,+
+263,False,It is those balls that Michelle threw your jacket quickly,+,-
+263,True,It is surprising that Michelle threw your jacket quickly,-,-
+264,True,It is those balls that Michelle threw carefully,+,+
+264,False,It is surprising that Michelle threw carefully,-,+
+264,False,It is those balls that Michelle threw a phone carefully,+,-
+264,True,It is surprising that Michelle threw a phone carefully,-,-
+265,True,It is those balls that Michelle threw without falling,+,+
+265,False,It is surprising that Michelle threw without falling,-,+
+265,False,It is those balls that Michelle threw a phone without falling,+,-
+265,True,It is surprising that Michelle threw a phone without falling,-,-
+266,True,It is those balls that Michelle threw quickly,+,+
+266,False,It is surprising that Michelle threw quickly,-,+
+266,False,It is those balls that Michelle threw a phone quickly,+,-
+266,True,It is surprising that Michelle threw a phone quickly,-,-
+267,True,It is those balls that Michelle threw carefully,+,+
+267,False,It is surprising that Michelle threw carefully,-,+
+267,False,It is those balls that Michelle threw the paperwork carefully,+,-
+267,True,It is surprising that Michelle threw the paperwork carefully,-,-
+268,True,It is those balls that Michelle threw without falling,+,+
+268,False,It is surprising that Michelle threw without falling,-,+
+268,False,It is those balls that Michelle threw the paperwork without falling,+,-
+268,True,It is surprising that Michelle threw the paperwork without falling,-,-
+269,True,It is those balls that Michelle threw quickly,+,+
+269,False,It is surprising that Michelle threw quickly,-,+
+269,False,It is those balls that Michelle threw the paperwork quickly,+,-
+269,True,It is surprising that Michelle threw the paperwork quickly,-,-
+270,True,It is those balls that Susan lifted carefully,+,+
+270,False,It is annoying that Susan lifted carefully,-,+
+270,False,It is those balls that Susan lifted your jacket carefully,+,-
+270,True,It is annoying that Susan lifted your jacket carefully,-,-
+271,True,It is those balls that Susan lifted without falling,+,+
+271,False,It is annoying that Susan lifted without falling,-,+
+271,False,It is those balls that Susan lifted your jacket without falling,+,-
+271,True,It is annoying that Susan lifted your jacket without falling,-,-
+272,True,It is those balls that Susan lifted quickly,+,+
+272,False,It is annoying that Susan lifted quickly,-,+
+272,False,It is those balls that Susan lifted your jacket quickly,+,-
+272,True,It is annoying that Susan lifted your jacket quickly,-,-
+273,True,It is those balls that Susan lifted carefully,+,+
+273,False,It is annoying that Susan lifted carefully,-,+
+273,False,It is those balls that Susan lifted a phone carefully,+,-
+273,True,It is annoying that Susan lifted a phone carefully,-,-
+274,True,It is those balls that Susan lifted without falling,+,+
+274,False,It is annoying that Susan lifted without falling,-,+
+274,False,It is those balls that Susan lifted a phone without falling,+,-
+274,True,It is annoying that Susan lifted a phone without falling,-,-
+275,True,It is those balls that Susan lifted quickly,+,+
+275,False,It is annoying that Susan lifted quickly,-,+
+275,False,It is those balls that Susan lifted a phone quickly,+,-
+275,True,It is annoying that Susan lifted a phone quickly,-,-
+276,True,It is those balls that Susan lifted carefully,+,+
+276,False,It is annoying that Susan lifted carefully,-,+
+276,False,It is those balls that Susan lifted the paperwork carefully,+,-
+276,True,It is annoying that Susan lifted the paperwork carefully,-,-
+277,True,It is those balls that Susan lifted without falling,+,+
+277,False,It is annoying that Susan lifted without falling,-,+
+277,False,It is those balls that Susan lifted the paperwork without falling,+,-
+277,True,It is annoying that Susan lifted the paperwork without falling,-,-
+278,True,It is those balls that Susan lifted quickly,+,+
+278,False,It is annoying that Susan lifted quickly,-,+
+278,False,It is those balls that Susan lifted the paperwork quickly,+,-
+278,True,It is annoying that Susan lifted the paperwork quickly,-,-
+279,True,It is those balls that Susan stole carefully,+,+
+279,False,It is annoying that Susan stole carefully,-,+
+279,False,It is those balls that Susan stole your jacket carefully,+,-
+279,True,It is annoying that Susan stole your jacket carefully,-,-
+280,True,It is those balls that Susan stole without falling,+,+
+280,False,It is annoying that Susan stole without falling,-,+
+280,False,It is those balls that Susan stole your jacket without falling,+,-
+280,True,It is annoying that Susan stole your jacket without falling,-,-
+281,True,It is those balls that Susan stole quickly,+,+
+281,False,It is annoying that Susan stole quickly,-,+
+281,False,It is those balls that Susan stole your jacket quickly,+,-
+281,True,It is annoying that Susan stole your jacket quickly,-,-
+282,True,It is those balls that Susan stole carefully,+,+
+282,False,It is annoying that Susan stole carefully,-,+
+282,False,It is those balls that Susan stole a phone carefully,+,-
+282,True,It is annoying that Susan stole a phone carefully,-,-
+283,True,It is those balls that Susan stole without falling,+,+
+283,False,It is annoying that Susan stole without falling,-,+
+283,False,It is those balls that Susan stole a phone without falling,+,-
+283,True,It is annoying that Susan stole a phone without falling,-,-
+284,True,It is those balls that Susan stole quickly,+,+
+284,False,It is annoying that Susan stole quickly,-,+
+284,False,It is those balls that Susan stole a phone quickly,+,-
+284,True,It is annoying that Susan stole a phone quickly,-,-
+285,True,It is those balls that Susan stole carefully,+,+
+285,False,It is annoying that Susan stole carefully,-,+
+285,False,It is those balls that Susan stole the paperwork carefully,+,-
+285,True,It is annoying that Susan stole the paperwork carefully,-,-
+286,True,It is those balls that Susan stole without falling,+,+
+286,False,It is annoying that Susan stole without falling,-,+
+286,False,It is those balls that Susan stole the paperwork without falling,+,-
+286,True,It is annoying that Susan stole the paperwork without falling,-,-
+287,True,It is those balls that Susan stole quickly,+,+
+287,False,It is annoying that Susan stole quickly,-,+
+287,False,It is those balls that Susan stole the paperwork quickly,+,-
+287,True,It is annoying that Susan stole the paperwork quickly,-,-
+288,True,It is those balls that Susan threw carefully,+,+
+288,False,It is annoying that Susan threw carefully,-,+
+288,False,It is those balls that Susan threw your jacket carefully,+,-
+288,True,It is annoying that Susan threw your jacket carefully,-,-
+289,True,It is those balls that Susan threw without falling,+,+
+289,False,It is annoying that Susan threw without falling,-,+
+289,False,It is those balls that Susan threw your jacket without falling,+,-
+289,True,It is annoying that Susan threw your jacket without falling,-,-
+290,True,It is those balls that Susan threw quickly,+,+
+290,False,It is annoying that Susan threw quickly,-,+
+290,False,It is those balls that Susan threw your jacket quickly,+,-
+290,True,It is annoying that Susan threw your jacket quickly,-,-
+291,True,It is those balls that Susan threw carefully,+,+
+291,False,It is annoying that Susan threw carefully,-,+
+291,False,It is those balls that Susan threw a phone carefully,+,-
+291,True,It is annoying that Susan threw a phone carefully,-,-
+292,True,It is those balls that Susan threw without falling,+,+
+292,False,It is annoying that Susan threw without falling,-,+
+292,False,It is those balls that Susan threw a phone without falling,+,-
+292,True,It is annoying that Susan threw a phone without falling,-,-
+293,True,It is those balls that Susan threw quickly,+,+
+293,False,It is annoying that Susan threw quickly,-,+
+293,False,It is those balls that Susan threw a phone quickly,+,-
+293,True,It is annoying that Susan threw a phone quickly,-,-
+294,True,It is those balls that Susan threw carefully,+,+
+294,False,It is annoying that Susan threw carefully,-,+
+294,False,It is those balls that Susan threw the paperwork carefully,+,-
+294,True,It is annoying that Susan threw the paperwork carefully,-,-
+295,True,It is those balls that Susan threw without falling,+,+
+295,False,It is annoying that Susan threw without falling,-,+
+295,False,It is those balls that Susan threw the paperwork without falling,+,-
+295,True,It is annoying that Susan threw the paperwork without falling,-,-
+296,True,It is those balls that Susan threw quickly,+,+
+296,False,It is annoying that Susan threw quickly,-,+
+296,False,It is those balls that Susan threw the paperwork quickly,+,-
+296,True,It is annoying that Susan threw the paperwork quickly,-,-
+297,True,It is those balls that Michelle lifted carefully,+,+
+297,False,It is annoying that Michelle lifted carefully,-,+
+297,False,It is those balls that Michelle lifted your jacket carefully,+,-
+297,True,It is annoying that Michelle lifted your jacket carefully,-,-
+298,True,It is those balls that Michelle lifted without falling,+,+
+298,False,It is annoying that Michelle lifted without falling,-,+
+298,False,It is those balls that Michelle lifted your jacket without falling,+,-
+298,True,It is annoying that Michelle lifted your jacket without falling,-,-
+299,True,It is those balls that Michelle lifted quickly,+,+
+299,False,It is annoying that Michelle lifted quickly,-,+
+299,False,It is those balls that Michelle lifted your jacket quickly,+,-
+299,True,It is annoying that Michelle lifted your jacket quickly,-,-
+300,True,It is those balls that Michelle lifted carefully,+,+
+300,False,It is annoying that Michelle lifted carefully,-,+
+300,False,It is those balls that Michelle lifted a phone carefully,+,-
+300,True,It is annoying that Michelle lifted a phone carefully,-,-
+301,True,It is those balls that Michelle lifted without falling,+,+
+301,False,It is annoying that Michelle lifted without falling,-,+
+301,False,It is those balls that Michelle lifted a phone without falling,+,-
+301,True,It is annoying that Michelle lifted a phone without falling,-,-
+302,True,It is those balls that Michelle lifted quickly,+,+
+302,False,It is annoying that Michelle lifted quickly,-,+
+302,False,It is those balls that Michelle lifted a phone quickly,+,-
+302,True,It is annoying that Michelle lifted a phone quickly,-,-
+303,True,It is those balls that Michelle lifted carefully,+,+
+303,False,It is annoying that Michelle lifted carefully,-,+
+303,False,It is those balls that Michelle lifted the paperwork carefully,+,-
+303,True,It is annoying that Michelle lifted the paperwork carefully,-,-
+304,True,It is those balls that Michelle lifted without falling,+,+
+304,False,It is annoying that Michelle lifted without falling,-,+
+304,False,It is those balls that Michelle lifted the paperwork without falling,+,-
+304,True,It is annoying that Michelle lifted the paperwork without falling,-,-
+305,True,It is those balls that Michelle lifted quickly,+,+
+305,False,It is annoying that Michelle lifted quickly,-,+
+305,False,It is those balls that Michelle lifted the paperwork quickly,+,-
+305,True,It is annoying that Michelle lifted the paperwork quickly,-,-
+306,True,It is those balls that Michelle stole carefully,+,+
+306,False,It is annoying that Michelle stole carefully,-,+
+306,False,It is those balls that Michelle stole your jacket carefully,+,-
+306,True,It is annoying that Michelle stole your jacket carefully,-,-
+307,True,It is those balls that Michelle stole without falling,+,+
+307,False,It is annoying that Michelle stole without falling,-,+
+307,False,It is those balls that Michelle stole your jacket without falling,+,-
+307,True,It is annoying that Michelle stole your jacket without falling,-,-
+308,True,It is those balls that Michelle stole quickly,+,+
+308,False,It is annoying that Michelle stole quickly,-,+
+308,False,It is those balls that Michelle stole your jacket quickly,+,-
+308,True,It is annoying that Michelle stole your jacket quickly,-,-
+309,True,It is those balls that Michelle stole carefully,+,+
+309,False,It is annoying that Michelle stole carefully,-,+
+309,False,It is those balls that Michelle stole a phone carefully,+,-
+309,True,It is annoying that Michelle stole a phone carefully,-,-
+310,True,It is those balls that Michelle stole without falling,+,+
+310,False,It is annoying that Michelle stole without falling,-,+
+310,False,It is those balls that Michelle stole a phone without falling,+,-
+310,True,It is annoying that Michelle stole a phone without falling,-,-
+311,True,It is those balls that Michelle stole quickly,+,+
+311,False,It is annoying that Michelle stole quickly,-,+
+311,False,It is those balls that Michelle stole a phone quickly,+,-
+311,True,It is annoying that Michelle stole a phone quickly,-,-
+312,True,It is those balls that Michelle stole carefully,+,+
+312,False,It is annoying that Michelle stole carefully,-,+
+312,False,It is those balls that Michelle stole the paperwork carefully,+,-
+312,True,It is annoying that Michelle stole the paperwork carefully,-,-
+313,True,It is those balls that Michelle stole without falling,+,+
+313,False,It is annoying that Michelle stole without falling,-,+
+313,False,It is those balls that Michelle stole the paperwork without falling,+,-
+313,True,It is annoying that Michelle stole the paperwork without falling,-,-
+314,True,It is those balls that Michelle stole quickly,+,+
+314,False,It is annoying that Michelle stole quickly,-,+
+314,False,It is those balls that Michelle stole the paperwork quickly,+,-
+314,True,It is annoying that Michelle stole the paperwork quickly,-,-
+315,True,It is those balls that Michelle threw carefully,+,+
+315,False,It is annoying that Michelle threw carefully,-,+
+315,False,It is those balls that Michelle threw your jacket carefully,+,-
+315,True,It is annoying that Michelle threw your jacket carefully,-,-
+316,True,It is those balls that Michelle threw without falling,+,+
+316,False,It is annoying that Michelle threw without falling,-,+
+316,False,It is those balls that Michelle threw your jacket without falling,+,-
+316,True,It is annoying that Michelle threw your jacket without falling,-,-
+317,True,It is those balls that Michelle threw quickly,+,+
+317,False,It is annoying that Michelle threw quickly,-,+
+317,False,It is those balls that Michelle threw your jacket quickly,+,-
+317,True,It is annoying that Michelle threw your jacket quickly,-,-
+318,True,It is those balls that Michelle threw carefully,+,+
+318,False,It is annoying that Michelle threw carefully,-,+
+318,False,It is those balls that Michelle threw a phone carefully,+,-
+318,True,It is annoying that Michelle threw a phone carefully,-,-
+319,True,It is those balls that Michelle threw without falling,+,+
+319,False,It is annoying that Michelle threw without falling,-,+
+319,False,It is those balls that Michelle threw a phone without falling,+,-
+319,True,It is annoying that Michelle threw a phone without falling,-,-
+320,True,It is those balls that Michelle threw quickly,+,+
+320,False,It is annoying that Michelle threw quickly,-,+
+320,False,It is those balls that Michelle threw a phone quickly,+,-
+320,True,It is annoying that Michelle threw a phone quickly,-,-
+321,True,It is those balls that Michelle threw carefully,+,+
+321,False,It is annoying that Michelle threw carefully,-,+
+321,False,It is those balls that Michelle threw the paperwork carefully,+,-
+321,True,It is annoying that Michelle threw the paperwork carefully,-,-
+322,True,It is those balls that Michelle threw without falling,+,+
+322,False,It is annoying that Michelle threw without falling,-,+
+322,False,It is those balls that Michelle threw the paperwork without falling,+,-
+322,True,It is annoying that Michelle threw the paperwork without falling,-,-
+323,True,It is those balls that Michelle threw quickly,+,+
+323,False,It is annoying that Michelle threw quickly,-,+
+323,False,It is those balls that Michelle threw the paperwork quickly,+,-
+323,True,It is annoying that Michelle threw the paperwork quickly,-,-
+324,True,It is her gloves that Susan lifted carefully,+,+
+324,False,It is obvious that Susan lifted carefully,-,+
+324,False,It is her gloves that Susan lifted your jacket carefully,+,-
+324,True,It is obvious that Susan lifted your jacket carefully,-,-
+325,True,It is her gloves that Susan lifted without falling,+,+
+325,False,It is obvious that Susan lifted without falling,-,+
+325,False,It is her gloves that Susan lifted your jacket without falling,+,-
+325,True,It is obvious that Susan lifted your jacket without falling,-,-
+326,True,It is her gloves that Susan lifted quickly,+,+
+326,False,It is obvious that Susan lifted quickly,-,+
+326,False,It is her gloves that Susan lifted your jacket quickly,+,-
+326,True,It is obvious that Susan lifted your jacket quickly,-,-
+327,True,It is her gloves that Susan lifted carefully,+,+
+327,False,It is obvious that Susan lifted carefully,-,+
+327,False,It is her gloves that Susan lifted a phone carefully,+,-
+327,True,It is obvious that Susan lifted a phone carefully,-,-
+328,True,It is her gloves that Susan lifted without falling,+,+
+328,False,It is obvious that Susan lifted without falling,-,+
+328,False,It is her gloves that Susan lifted a phone without falling,+,-
+328,True,It is obvious that Susan lifted a phone without falling,-,-
+329,True,It is her gloves that Susan lifted quickly,+,+
+329,False,It is obvious that Susan lifted quickly,-,+
+329,False,It is her gloves that Susan lifted a phone quickly,+,-
+329,True,It is obvious that Susan lifted a phone quickly,-,-
+330,True,It is her gloves that Susan lifted carefully,+,+
+330,False,It is obvious that Susan lifted carefully,-,+
+330,False,It is her gloves that Susan lifted the paperwork carefully,+,-
+330,True,It is obvious that Susan lifted the paperwork carefully,-,-
+331,True,It is her gloves that Susan lifted without falling,+,+
+331,False,It is obvious that Susan lifted without falling,-,+
+331,False,It is her gloves that Susan lifted the paperwork without falling,+,-
+331,True,It is obvious that Susan lifted the paperwork without falling,-,-
+332,True,It is her gloves that Susan lifted quickly,+,+
+332,False,It is obvious that Susan lifted quickly,-,+
+332,False,It is her gloves that Susan lifted the paperwork quickly,+,-
+332,True,It is obvious that Susan lifted the paperwork quickly,-,-
+333,True,It is her gloves that Susan stole carefully,+,+
+333,False,It is obvious that Susan stole carefully,-,+
+333,False,It is her gloves that Susan stole your jacket carefully,+,-
+333,True,It is obvious that Susan stole your jacket carefully,-,-
+334,True,It is her gloves that Susan stole without falling,+,+
+334,False,It is obvious that Susan stole without falling,-,+
+334,False,It is her gloves that Susan stole your jacket without falling,+,-
+334,True,It is obvious that Susan stole your jacket without falling,-,-
+335,True,It is her gloves that Susan stole quickly,+,+
+335,False,It is obvious that Susan stole quickly,-,+
+335,False,It is her gloves that Susan stole your jacket quickly,+,-
+335,True,It is obvious that Susan stole your jacket quickly,-,-
+336,True,It is her gloves that Susan stole carefully,+,+
+336,False,It is obvious that Susan stole carefully,-,+
+336,False,It is her gloves that Susan stole a phone carefully,+,-
+336,True,It is obvious that Susan stole a phone carefully,-,-
+337,True,It is her gloves that Susan stole without falling,+,+
+337,False,It is obvious that Susan stole without falling,-,+
+337,False,It is her gloves that Susan stole a phone without falling,+,-
+337,True,It is obvious that Susan stole a phone without falling,-,-
+338,True,It is her gloves that Susan stole quickly,+,+
+338,False,It is obvious that Susan stole quickly,-,+
+338,False,It is her gloves that Susan stole a phone quickly,+,-
+338,True,It is obvious that Susan stole a phone quickly,-,-
+339,True,It is her gloves that Susan stole carefully,+,+
+339,False,It is obvious that Susan stole carefully,-,+
+339,False,It is her gloves that Susan stole the paperwork carefully,+,-
+339,True,It is obvious that Susan stole the paperwork carefully,-,-
+340,True,It is her gloves that Susan stole without falling,+,+
+340,False,It is obvious that Susan stole without falling,-,+
+340,False,It is her gloves that Susan stole the paperwork without falling,+,-
+340,True,It is obvious that Susan stole the paperwork without falling,-,-
+341,True,It is her gloves that Susan stole quickly,+,+
+341,False,It is obvious that Susan stole quickly,-,+
+341,False,It is her gloves that Susan stole the paperwork quickly,+,-
+341,True,It is obvious that Susan stole the paperwork quickly,-,-
+342,True,It is her gloves that Susan threw carefully,+,+
+342,False,It is obvious that Susan threw carefully,-,+
+342,False,It is her gloves that Susan threw your jacket carefully,+,-
+342,True,It is obvious that Susan threw your jacket carefully,-,-
+343,True,It is her gloves that Susan threw without falling,+,+
+343,False,It is obvious that Susan threw without falling,-,+
+343,False,It is her gloves that Susan threw your jacket without falling,+,-
+343,True,It is obvious that Susan threw your jacket without falling,-,-
+344,True,It is her gloves that Susan threw quickly,+,+
+344,False,It is obvious that Susan threw quickly,-,+
+344,False,It is her gloves that Susan threw your jacket quickly,+,-
+344,True,It is obvious that Susan threw your jacket quickly,-,-
+345,True,It is her gloves that Susan threw carefully,+,+
+345,False,It is obvious that Susan threw carefully,-,+
+345,False,It is her gloves that Susan threw a phone carefully,+,-
+345,True,It is obvious that Susan threw a phone carefully,-,-
+346,True,It is her gloves that Susan threw without falling,+,+
+346,False,It is obvious that Susan threw without falling,-,+
+346,False,It is her gloves that Susan threw a phone without falling,+,-
+346,True,It is obvious that Susan threw a phone without falling,-,-
+347,True,It is her gloves that Susan threw quickly,+,+
+347,False,It is obvious that Susan threw quickly,-,+
+347,False,It is her gloves that Susan threw a phone quickly,+,-
+347,True,It is obvious that Susan threw a phone quickly,-,-
+348,True,It is her gloves that Susan threw carefully,+,+
+348,False,It is obvious that Susan threw carefully,-,+
+348,False,It is her gloves that Susan threw the paperwork carefully,+,-
+348,True,It is obvious that Susan threw the paperwork carefully,-,-
+349,True,It is her gloves that Susan threw without falling,+,+
+349,False,It is obvious that Susan threw without falling,-,+
+349,False,It is her gloves that Susan threw the paperwork without falling,+,-
+349,True,It is obvious that Susan threw the paperwork without falling,-,-
+350,True,It is her gloves that Susan threw quickly,+,+
+350,False,It is obvious that Susan threw quickly,-,+
+350,False,It is her gloves that Susan threw the paperwork quickly,+,-
+350,True,It is obvious that Susan threw the paperwork quickly,-,-
+351,True,It is her gloves that Michelle lifted carefully,+,+
+351,False,It is obvious that Michelle lifted carefully,-,+
+351,False,It is her gloves that Michelle lifted your jacket carefully,+,-
+351,True,It is obvious that Michelle lifted your jacket carefully,-,-
+352,True,It is her gloves that Michelle lifted without falling,+,+
+352,False,It is obvious that Michelle lifted without falling,-,+
+352,False,It is her gloves that Michelle lifted your jacket without falling,+,-
+352,True,It is obvious that Michelle lifted your jacket without falling,-,-
+353,True,It is her gloves that Michelle lifted quickly,+,+
+353,False,It is obvious that Michelle lifted quickly,-,+
+353,False,It is her gloves that Michelle lifted your jacket quickly,+,-
+353,True,It is obvious that Michelle lifted your jacket quickly,-,-
+354,True,It is her gloves that Michelle lifted carefully,+,+
+354,False,It is obvious that Michelle lifted carefully,-,+
+354,False,It is her gloves that Michelle lifted a phone carefully,+,-
+354,True,It is obvious that Michelle lifted a phone carefully,-,-
+355,True,It is her gloves that Michelle lifted without falling,+,+
+355,False,It is obvious that Michelle lifted without falling,-,+
+355,False,It is her gloves that Michelle lifted a phone without falling,+,-
+355,True,It is obvious that Michelle lifted a phone without falling,-,-
+356,True,It is her gloves that Michelle lifted quickly,+,+
+356,False,It is obvious that Michelle lifted quickly,-,+
+356,False,It is her gloves that Michelle lifted a phone quickly,+,-
+356,True,It is obvious that Michelle lifted a phone quickly,-,-
+357,True,It is her gloves that Michelle lifted carefully,+,+
+357,False,It is obvious that Michelle lifted carefully,-,+
+357,False,It is her gloves that Michelle lifted the paperwork carefully,+,-
+357,True,It is obvious that Michelle lifted the paperwork carefully,-,-
+358,True,It is her gloves that Michelle lifted without falling,+,+
+358,False,It is obvious that Michelle lifted without falling,-,+
+358,False,It is her gloves that Michelle lifted the paperwork without falling,+,-
+358,True,It is obvious that Michelle lifted the paperwork without falling,-,-
+359,True,It is her gloves that Michelle lifted quickly,+,+
+359,False,It is obvious that Michelle lifted quickly,-,+
+359,False,It is her gloves that Michelle lifted the paperwork quickly,+,-
+359,True,It is obvious that Michelle lifted the paperwork quickly,-,-
+360,True,It is her gloves that Michelle stole carefully,+,+
+360,False,It is obvious that Michelle stole carefully,-,+
+360,False,It is her gloves that Michelle stole your jacket carefully,+,-
+360,True,It is obvious that Michelle stole your jacket carefully,-,-
+361,True,It is her gloves that Michelle stole without falling,+,+
+361,False,It is obvious that Michelle stole without falling,-,+
+361,False,It is her gloves that Michelle stole your jacket without falling,+,-
+361,True,It is obvious that Michelle stole your jacket without falling,-,-
+362,True,It is her gloves that Michelle stole quickly,+,+
+362,False,It is obvious that Michelle stole quickly,-,+
+362,False,It is her gloves that Michelle stole your jacket quickly,+,-
+362,True,It is obvious that Michelle stole your jacket quickly,-,-
+363,True,It is her gloves that Michelle stole carefully,+,+
+363,False,It is obvious that Michelle stole carefully,-,+
+363,False,It is her gloves that Michelle stole a phone carefully,+,-
+363,True,It is obvious that Michelle stole a phone carefully,-,-
+364,True,It is her gloves that Michelle stole without falling,+,+
+364,False,It is obvious that Michelle stole without falling,-,+
+364,False,It is her gloves that Michelle stole a phone without falling,+,-
+364,True,It is obvious that Michelle stole a phone without falling,-,-
+365,True,It is her gloves that Michelle stole quickly,+,+
+365,False,It is obvious that Michelle stole quickly,-,+
+365,False,It is her gloves that Michelle stole a phone quickly,+,-
+365,True,It is obvious that Michelle stole a phone quickly,-,-
+366,True,It is her gloves that Michelle stole carefully,+,+
+366,False,It is obvious that Michelle stole carefully,-,+
+366,False,It is her gloves that Michelle stole the paperwork carefully,+,-
+366,True,It is obvious that Michelle stole the paperwork carefully,-,-
+367,True,It is her gloves that Michelle stole without falling,+,+
+367,False,It is obvious that Michelle stole without falling,-,+
+367,False,It is her gloves that Michelle stole the paperwork without falling,+,-
+367,True,It is obvious that Michelle stole the paperwork without falling,-,-
+368,True,It is her gloves that Michelle stole quickly,+,+
+368,False,It is obvious that Michelle stole quickly,-,+
+368,False,It is her gloves that Michelle stole the paperwork quickly,+,-
+368,True,It is obvious that Michelle stole the paperwork quickly,-,-
+369,True,It is her gloves that Michelle threw carefully,+,+
+369,False,It is obvious that Michelle threw carefully,-,+
+369,False,It is her gloves that Michelle threw your jacket carefully,+,-
+369,True,It is obvious that Michelle threw your jacket carefully,-,-
+370,True,It is her gloves that Michelle threw without falling,+,+
+370,False,It is obvious that Michelle threw without falling,-,+
+370,False,It is her gloves that Michelle threw your jacket without falling,+,-
+370,True,It is obvious that Michelle threw your jacket without falling,-,-
+371,True,It is her gloves that Michelle threw quickly,+,+
+371,False,It is obvious that Michelle threw quickly,-,+
+371,False,It is her gloves that Michelle threw your jacket quickly,+,-
+371,True,It is obvious that Michelle threw your jacket quickly,-,-
+372,True,It is her gloves that Michelle threw carefully,+,+
+372,False,It is obvious that Michelle threw carefully,-,+
+372,False,It is her gloves that Michelle threw a phone carefully,+,-
+372,True,It is obvious that Michelle threw a phone carefully,-,-
+373,True,It is her gloves that Michelle threw without falling,+,+
+373,False,It is obvious that Michelle threw without falling,-,+
+373,False,It is her gloves that Michelle threw a phone without falling,+,-
+373,True,It is obvious that Michelle threw a phone without falling,-,-
+374,True,It is her gloves that Michelle threw quickly,+,+
+374,False,It is obvious that Michelle threw quickly,-,+
+374,False,It is her gloves that Michelle threw a phone quickly,+,-
+374,True,It is obvious that Michelle threw a phone quickly,-,-
+375,True,It is her gloves that Michelle threw carefully,+,+
+375,False,It is obvious that Michelle threw carefully,-,+
+375,False,It is her gloves that Michelle threw the paperwork carefully,+,-
+375,True,It is obvious that Michelle threw the paperwork carefully,-,-
+376,True,It is her gloves that Michelle threw without falling,+,+
+376,False,It is obvious that Michelle threw without falling,-,+
+376,False,It is her gloves that Michelle threw the paperwork without falling,+,-
+376,True,It is obvious that Michelle threw the paperwork without falling,-,-
+377,True,It is her gloves that Michelle threw quickly,+,+
+377,False,It is obvious that Michelle threw quickly,-,+
+377,False,It is her gloves that Michelle threw the paperwork quickly,+,-
+377,True,It is obvious that Michelle threw the paperwork quickly,-,-
+378,True,It is her gloves that Susan lifted carefully,+,+
+378,False,It is surprising that Susan lifted carefully,-,+
+378,False,It is her gloves that Susan lifted your jacket carefully,+,-
+378,True,It is surprising that Susan lifted your jacket carefully,-,-
+379,True,It is her gloves that Susan lifted without falling,+,+
+379,False,It is surprising that Susan lifted without falling,-,+
+379,False,It is her gloves that Susan lifted your jacket without falling,+,-
+379,True,It is surprising that Susan lifted your jacket without falling,-,-
+380,True,It is her gloves that Susan lifted quickly,+,+
+380,False,It is surprising that Susan lifted quickly,-,+
+380,False,It is her gloves that Susan lifted your jacket quickly,+,-
+380,True,It is surprising that Susan lifted your jacket quickly,-,-
+381,True,It is her gloves that Susan lifted carefully,+,+
+381,False,It is surprising that Susan lifted carefully,-,+
+381,False,It is her gloves that Susan lifted a phone carefully,+,-
+381,True,It is surprising that Susan lifted a phone carefully,-,-
+382,True,It is her gloves that Susan lifted without falling,+,+
+382,False,It is surprising that Susan lifted without falling,-,+
+382,False,It is her gloves that Susan lifted a phone without falling,+,-
+382,True,It is surprising that Susan lifted a phone without falling,-,-
+383,True,It is her gloves that Susan lifted quickly,+,+
+383,False,It is surprising that Susan lifted quickly,-,+
+383,False,It is her gloves that Susan lifted a phone quickly,+,-
+383,True,It is surprising that Susan lifted a phone quickly,-,-
+384,True,It is her gloves that Susan lifted carefully,+,+
+384,False,It is surprising that Susan lifted carefully,-,+
+384,False,It is her gloves that Susan lifted the paperwork carefully,+,-
+384,True,It is surprising that Susan lifted the paperwork carefully,-,-
+385,True,It is her gloves that Susan lifted without falling,+,+
+385,False,It is surprising that Susan lifted without falling,-,+
+385,False,It is her gloves that Susan lifted the paperwork without falling,+,-
+385,True,It is surprising that Susan lifted the paperwork without falling,-,-
+386,True,It is her gloves that Susan lifted quickly,+,+
+386,False,It is surprising that Susan lifted quickly,-,+
+386,False,It is her gloves that Susan lifted the paperwork quickly,+,-
+386,True,It is surprising that Susan lifted the paperwork quickly,-,-
+387,True,It is her gloves that Susan stole carefully,+,+
+387,False,It is surprising that Susan stole carefully,-,+
+387,False,It is her gloves that Susan stole your jacket carefully,+,-
+387,True,It is surprising that Susan stole your jacket carefully,-,-
+388,True,It is her gloves that Susan stole without falling,+,+
+388,False,It is surprising that Susan stole without falling,-,+
+388,False,It is her gloves that Susan stole your jacket without falling,+,-
+388,True,It is surprising that Susan stole your jacket without falling,-,-
+389,True,It is her gloves that Susan stole quickly,+,+
+389,False,It is surprising that Susan stole quickly,-,+
+389,False,It is her gloves that Susan stole your jacket quickly,+,-
+389,True,It is surprising that Susan stole your jacket quickly,-,-
+390,True,It is her gloves that Susan stole carefully,+,+
+390,False,It is surprising that Susan stole carefully,-,+
+390,False,It is her gloves that Susan stole a phone carefully,+,-
+390,True,It is surprising that Susan stole a phone carefully,-,-
+391,True,It is her gloves that Susan stole without falling,+,+
+391,False,It is surprising that Susan stole without falling,-,+
+391,False,It is her gloves that Susan stole a phone without falling,+,-
+391,True,It is surprising that Susan stole a phone without falling,-,-
+392,True,It is her gloves that Susan stole quickly,+,+
+392,False,It is surprising that Susan stole quickly,-,+
+392,False,It is her gloves that Susan stole a phone quickly,+,-
+392,True,It is surprising that Susan stole a phone quickly,-,-
+393,True,It is her gloves that Susan stole carefully,+,+
+393,False,It is surprising that Susan stole carefully,-,+
+393,False,It is her gloves that Susan stole the paperwork carefully,+,-
+393,True,It is surprising that Susan stole the paperwork carefully,-,-
+394,True,It is her gloves that Susan stole without falling,+,+
+394,False,It is surprising that Susan stole without falling,-,+
+394,False,It is her gloves that Susan stole the paperwork without falling,+,-
+394,True,It is surprising that Susan stole the paperwork without falling,-,-
+395,True,It is her gloves that Susan stole quickly,+,+
+395,False,It is surprising that Susan stole quickly,-,+
+395,False,It is her gloves that Susan stole the paperwork quickly,+,-
+395,True,It is surprising that Susan stole the paperwork quickly,-,-
+396,True,It is her gloves that Susan threw carefully,+,+
+396,False,It is surprising that Susan threw carefully,-,+
+396,False,It is her gloves that Susan threw your jacket carefully,+,-
+396,True,It is surprising that Susan threw your jacket carefully,-,-
+397,True,It is her gloves that Susan threw without falling,+,+
+397,False,It is surprising that Susan threw without falling,-,+
+397,False,It is her gloves that Susan threw your jacket without falling,+,-
+397,True,It is surprising that Susan threw your jacket without falling,-,-
+398,True,It is her gloves that Susan threw quickly,+,+
+398,False,It is surprising that Susan threw quickly,-,+
+398,False,It is her gloves that Susan threw your jacket quickly,+,-
+398,True,It is surprising that Susan threw your jacket quickly,-,-
+399,True,It is her gloves that Susan threw carefully,+,+
+399,False,It is surprising that Susan threw carefully,-,+
+399,False,It is her gloves that Susan threw a phone carefully,+,-
+399,True,It is surprising that Susan threw a phone carefully,-,-
+400,True,It is her gloves that Susan threw without falling,+,+
+400,False,It is surprising that Susan threw without falling,-,+
+400,False,It is her gloves that Susan threw a phone without falling,+,-
+400,True,It is surprising that Susan threw a phone without falling,-,-
+401,True,It is her gloves that Susan threw quickly,+,+
+401,False,It is surprising that Susan threw quickly,-,+
+401,False,It is her gloves that Susan threw a phone quickly,+,-
+401,True,It is surprising that Susan threw a phone quickly,-,-
+402,True,It is her gloves that Susan threw carefully,+,+
+402,False,It is surprising that Susan threw carefully,-,+
+402,False,It is her gloves that Susan threw the paperwork carefully,+,-
+402,True,It is surprising that Susan threw the paperwork carefully,-,-
+403,True,It is her gloves that Susan threw without falling,+,+
+403,False,It is surprising that Susan threw without falling,-,+
+403,False,It is her gloves that Susan threw the paperwork without falling,+,-
+403,True,It is surprising that Susan threw the paperwork without falling,-,-
+404,True,It is her gloves that Susan threw quickly,+,+
+404,False,It is surprising that Susan threw quickly,-,+
+404,False,It is her gloves that Susan threw the paperwork quickly,+,-
+404,True,It is surprising that Susan threw the paperwork quickly,-,-
+405,True,It is her gloves that Michelle lifted carefully,+,+
+405,False,It is surprising that Michelle lifted carefully,-,+
+405,False,It is her gloves that Michelle lifted your jacket carefully,+,-
+405,True,It is surprising that Michelle lifted your jacket carefully,-,-
+406,True,It is her gloves that Michelle lifted without falling,+,+
+406,False,It is surprising that Michelle lifted without falling,-,+
+406,False,It is her gloves that Michelle lifted your jacket without falling,+,-
+406,True,It is surprising that Michelle lifted your jacket without falling,-,-
+407,True,It is her gloves that Michelle lifted quickly,+,+
+407,False,It is surprising that Michelle lifted quickly,-,+
+407,False,It is her gloves that Michelle lifted your jacket quickly,+,-
+407,True,It is surprising that Michelle lifted your jacket quickly,-,-
+408,True,It is her gloves that Michelle lifted carefully,+,+
+408,False,It is surprising that Michelle lifted carefully,-,+
+408,False,It is her gloves that Michelle lifted a phone carefully,+,-
+408,True,It is surprising that Michelle lifted a phone carefully,-,-
+409,True,It is her gloves that Michelle lifted without falling,+,+
+409,False,It is surprising that Michelle lifted without falling,-,+
+409,False,It is her gloves that Michelle lifted a phone without falling,+,-
+409,True,It is surprising that Michelle lifted a phone without falling,-,-
+410,True,It is her gloves that Michelle lifted quickly,+,+
+410,False,It is surprising that Michelle lifted quickly,-,+
+410,False,It is her gloves that Michelle lifted a phone quickly,+,-
+410,True,It is surprising that Michelle lifted a phone quickly,-,-
+411,True,It is her gloves that Michelle lifted carefully,+,+
+411,False,It is surprising that Michelle lifted carefully,-,+
+411,False,It is her gloves that Michelle lifted the paperwork carefully,+,-
+411,True,It is surprising that Michelle lifted the paperwork carefully,-,-
+412,True,It is her gloves that Michelle lifted without falling,+,+
+412,False,It is surprising that Michelle lifted without falling,-,+
+412,False,It is her gloves that Michelle lifted the paperwork without falling,+,-
+412,True,It is surprising that Michelle lifted the paperwork without falling,-,-
+413,True,It is her gloves that Michelle lifted quickly,+,+
+413,False,It is surprising that Michelle lifted quickly,-,+
+413,False,It is her gloves that Michelle lifted the paperwork quickly,+,-
+413,True,It is surprising that Michelle lifted the paperwork quickly,-,-
+414,True,It is her gloves that Michelle stole carefully,+,+
+414,False,It is surprising that Michelle stole carefully,-,+
+414,False,It is her gloves that Michelle stole your jacket carefully,+,-
+414,True,It is surprising that Michelle stole your jacket carefully,-,-
+415,True,It is her gloves that Michelle stole without falling,+,+
+415,False,It is surprising that Michelle stole without falling,-,+
+415,False,It is her gloves that Michelle stole your jacket without falling,+,-
+415,True,It is surprising that Michelle stole your jacket without falling,-,-
+416,True,It is her gloves that Michelle stole quickly,+,+
+416,False,It is surprising that Michelle stole quickly,-,+
+416,False,It is her gloves that Michelle stole your jacket quickly,+,-
+416,True,It is surprising that Michelle stole your jacket quickly,-,-
+417,True,It is her gloves that Michelle stole carefully,+,+
+417,False,It is surprising that Michelle stole carefully,-,+
+417,False,It is her gloves that Michelle stole a phone carefully,+,-
+417,True,It is surprising that Michelle stole a phone carefully,-,-
+418,True,It is her gloves that Michelle stole without falling,+,+
+418,False,It is surprising that Michelle stole without falling,-,+
+418,False,It is her gloves that Michelle stole a phone without falling,+,-
+418,True,It is surprising that Michelle stole a phone without falling,-,-
+419,True,It is her gloves that Michelle stole quickly,+,+
+419,False,It is surprising that Michelle stole quickly,-,+
+419,False,It is her gloves that Michelle stole a phone quickly,+,-
+419,True,It is surprising that Michelle stole a phone quickly,-,-
+420,True,It is her gloves that Michelle stole carefully,+,+
+420,False,It is surprising that Michelle stole carefully,-,+
+420,False,It is her gloves that Michelle stole the paperwork carefully,+,-
+420,True,It is surprising that Michelle stole the paperwork carefully,-,-
+421,True,It is her gloves that Michelle stole without falling,+,+
+421,False,It is surprising that Michelle stole without falling,-,+
+421,False,It is her gloves that Michelle stole the paperwork without falling,+,-
+421,True,It is surprising that Michelle stole the paperwork without falling,-,-
+422,True,It is her gloves that Michelle stole quickly,+,+
+422,False,It is surprising that Michelle stole quickly,-,+
+422,False,It is her gloves that Michelle stole the paperwork quickly,+,-
+422,True,It is surprising that Michelle stole the paperwork quickly,-,-
+423,True,It is her gloves that Michelle threw carefully,+,+
+423,False,It is surprising that Michelle threw carefully,-,+
+423,False,It is her gloves that Michelle threw your jacket carefully,+,-
+423,True,It is surprising that Michelle threw your jacket carefully,-,-
+424,True,It is her gloves that Michelle threw without falling,+,+
+424,False,It is surprising that Michelle threw without falling,-,+
+424,False,It is her gloves that Michelle threw your jacket without falling,+,-
+424,True,It is surprising that Michelle threw your jacket without falling,-,-
+425,True,It is her gloves that Michelle threw quickly,+,+
+425,False,It is surprising that Michelle threw quickly,-,+
+425,False,It is her gloves that Michelle threw your jacket quickly,+,-
+425,True,It is surprising that Michelle threw your jacket quickly,-,-
+426,True,It is her gloves that Michelle threw carefully,+,+
+426,False,It is surprising that Michelle threw carefully,-,+
+426,False,It is her gloves that Michelle threw a phone carefully,+,-
+426,True,It is surprising that Michelle threw a phone carefully,-,-
+427,True,It is her gloves that Michelle threw without falling,+,+
+427,False,It is surprising that Michelle threw without falling,-,+
+427,False,It is her gloves that Michelle threw a phone without falling,+,-
+427,True,It is surprising that Michelle threw a phone without falling,-,-
+428,True,It is her gloves that Michelle threw quickly,+,+
+428,False,It is surprising that Michelle threw quickly,-,+
+428,False,It is her gloves that Michelle threw a phone quickly,+,-
+428,True,It is surprising that Michelle threw a phone quickly,-,-
+429,True,It is her gloves that Michelle threw carefully,+,+
+429,False,It is surprising that Michelle threw carefully,-,+
+429,False,It is her gloves that Michelle threw the paperwork carefully,+,-
+429,True,It is surprising that Michelle threw the paperwork carefully,-,-
+430,True,It is her gloves that Michelle threw without falling,+,+
+430,False,It is surprising that Michelle threw without falling,-,+
+430,False,It is her gloves that Michelle threw the paperwork without falling,+,-
+430,True,It is surprising that Michelle threw the paperwork without falling,-,-
+431,True,It is her gloves that Michelle threw quickly,+,+
+431,False,It is surprising that Michelle threw quickly,-,+
+431,False,It is her gloves that Michelle threw the paperwork quickly,+,-
+431,True,It is surprising that Michelle threw the paperwork quickly,-,-
+432,True,It is her gloves that Susan lifted carefully,+,+
+432,False,It is annoying that Susan lifted carefully,-,+
+432,False,It is her gloves that Susan lifted your jacket carefully,+,-
+432,True,It is annoying that Susan lifted your jacket carefully,-,-
+433,True,It is her gloves that Susan lifted without falling,+,+
+433,False,It is annoying that Susan lifted without falling,-,+
+433,False,It is her gloves that Susan lifted your jacket without falling,+,-
+433,True,It is annoying that Susan lifted your jacket without falling,-,-
+434,True,It is her gloves that Susan lifted quickly,+,+
+434,False,It is annoying that Susan lifted quickly,-,+
+434,False,It is her gloves that Susan lifted your jacket quickly,+,-
+434,True,It is annoying that Susan lifted your jacket quickly,-,-
+435,True,It is her gloves that Susan lifted carefully,+,+
+435,False,It is annoying that Susan lifted carefully,-,+
+435,False,It is her gloves that Susan lifted a phone carefully,+,-
+435,True,It is annoying that Susan lifted a phone carefully,-,-
+436,True,It is her gloves that Susan lifted without falling,+,+
+436,False,It is annoying that Susan lifted without falling,-,+
+436,False,It is her gloves that Susan lifted a phone without falling,+,-
+436,True,It is annoying that Susan lifted a phone without falling,-,-
+437,True,It is her gloves that Susan lifted quickly,+,+
+437,False,It is annoying that Susan lifted quickly,-,+
+437,False,It is her gloves that Susan lifted a phone quickly,+,-
+437,True,It is annoying that Susan lifted a phone quickly,-,-
+438,True,It is her gloves that Susan lifted carefully,+,+
+438,False,It is annoying that Susan lifted carefully,-,+
+438,False,It is her gloves that Susan lifted the paperwork carefully,+,-
+438,True,It is annoying that Susan lifted the paperwork carefully,-,-
+439,True,It is her gloves that Susan lifted without falling,+,+
+439,False,It is annoying that Susan lifted without falling,-,+
+439,False,It is her gloves that Susan lifted the paperwork without falling,+,-
+439,True,It is annoying that Susan lifted the paperwork without falling,-,-
+440,True,It is her gloves that Susan lifted quickly,+,+
+440,False,It is annoying that Susan lifted quickly,-,+
+440,False,It is her gloves that Susan lifted the paperwork quickly,+,-
+440,True,It is annoying that Susan lifted the paperwork quickly,-,-
+441,True,It is her gloves that Susan stole carefully,+,+
+441,False,It is annoying that Susan stole carefully,-,+
+441,False,It is her gloves that Susan stole your jacket carefully,+,-
+441,True,It is annoying that Susan stole your jacket carefully,-,-
+442,True,It is her gloves that Susan stole without falling,+,+
+442,False,It is annoying that Susan stole without falling,-,+
+442,False,It is her gloves that Susan stole your jacket without falling,+,-
+442,True,It is annoying that Susan stole your jacket without falling,-,-
+443,True,It is her gloves that Susan stole quickly,+,+
+443,False,It is annoying that Susan stole quickly,-,+
+443,False,It is her gloves that Susan stole your jacket quickly,+,-
+443,True,It is annoying that Susan stole your jacket quickly,-,-
+444,True,It is her gloves that Susan stole carefully,+,+
+444,False,It is annoying that Susan stole carefully,-,+
+444,False,It is her gloves that Susan stole a phone carefully,+,-
+444,True,It is annoying that Susan stole a phone carefully,-,-
+445,True,It is her gloves that Susan stole without falling,+,+
+445,False,It is annoying that Susan stole without falling,-,+
+445,False,It is her gloves that Susan stole a phone without falling,+,-
+445,True,It is annoying that Susan stole a phone without falling,-,-
+446,True,It is her gloves that Susan stole quickly,+,+
+446,False,It is annoying that Susan stole quickly,-,+
+446,False,It is her gloves that Susan stole a phone quickly,+,-
+446,True,It is annoying that Susan stole a phone quickly,-,-
+447,True,It is her gloves that Susan stole carefully,+,+
+447,False,It is annoying that Susan stole carefully,-,+
+447,False,It is her gloves that Susan stole the paperwork carefully,+,-
+447,True,It is annoying that Susan stole the paperwork carefully,-,-
+448,True,It is her gloves that Susan stole without falling,+,+
+448,False,It is annoying that Susan stole without falling,-,+
+448,False,It is her gloves that Susan stole the paperwork without falling,+,-
+448,True,It is annoying that Susan stole the paperwork without falling,-,-
+449,True,It is her gloves that Susan stole quickly,+,+
+449,False,It is annoying that Susan stole quickly,-,+
+449,False,It is her gloves that Susan stole the paperwork quickly,+,-
+449,True,It is annoying that Susan stole the paperwork quickly,-,-
+450,True,It is her gloves that Susan threw carefully,+,+
+450,False,It is annoying that Susan threw carefully,-,+
+450,False,It is her gloves that Susan threw your jacket carefully,+,-
+450,True,It is annoying that Susan threw your jacket carefully,-,-
+451,True,It is her gloves that Susan threw without falling,+,+
+451,False,It is annoying that Susan threw without falling,-,+
+451,False,It is her gloves that Susan threw your jacket without falling,+,-
+451,True,It is annoying that Susan threw your jacket without falling,-,-
+452,True,It is her gloves that Susan threw quickly,+,+
+452,False,It is annoying that Susan threw quickly,-,+
+452,False,It is her gloves that Susan threw your jacket quickly,+,-
+452,True,It is annoying that Susan threw your jacket quickly,-,-
+453,True,It is her gloves that Susan threw carefully,+,+
+453,False,It is annoying that Susan threw carefully,-,+
+453,False,It is her gloves that Susan threw a phone carefully,+,-
+453,True,It is annoying that Susan threw a phone carefully,-,-
+454,True,It is her gloves that Susan threw without falling,+,+
+454,False,It is annoying that Susan threw without falling,-,+
+454,False,It is her gloves that Susan threw a phone without falling,+,-
+454,True,It is annoying that Susan threw a phone without falling,-,-
+455,True,It is her gloves that Susan threw quickly,+,+
+455,False,It is annoying that Susan threw quickly,-,+
+455,False,It is her gloves that Susan threw a phone quickly,+,-
+455,True,It is annoying that Susan threw a phone quickly,-,-
+456,True,It is her gloves that Susan threw carefully,+,+
+456,False,It is annoying that Susan threw carefully,-,+
+456,False,It is her gloves that Susan threw the paperwork carefully,+,-
+456,True,It is annoying that Susan threw the paperwork carefully,-,-
+457,True,It is her gloves that Susan threw without falling,+,+
+457,False,It is annoying that Susan threw without falling,-,+
+457,False,It is her gloves that Susan threw the paperwork without falling,+,-
+457,True,It is annoying that Susan threw the paperwork without falling,-,-
+458,True,It is her gloves that Susan threw quickly,+,+
+458,False,It is annoying that Susan threw quickly,-,+
+458,False,It is her gloves that Susan threw the paperwork quickly,+,-
+458,True,It is annoying that Susan threw the paperwork quickly,-,-
+459,True,It is her gloves that Michelle lifted carefully,+,+
+459,False,It is annoying that Michelle lifted carefully,-,+
+459,False,It is her gloves that Michelle lifted your jacket carefully,+,-
+459,True,It is annoying that Michelle lifted your jacket carefully,-,-
+460,True,It is her gloves that Michelle lifted without falling,+,+
+460,False,It is annoying that Michelle lifted without falling,-,+
+460,False,It is her gloves that Michelle lifted your jacket without falling,+,-
+460,True,It is annoying that Michelle lifted your jacket without falling,-,-
+461,True,It is her gloves that Michelle lifted quickly,+,+
+461,False,It is annoying that Michelle lifted quickly,-,+
+461,False,It is her gloves that Michelle lifted your jacket quickly,+,-
+461,True,It is annoying that Michelle lifted your jacket quickly,-,-
+462,True,It is her gloves that Michelle lifted carefully,+,+
+462,False,It is annoying that Michelle lifted carefully,-,+
+462,False,It is her gloves that Michelle lifted a phone carefully,+,-
+462,True,It is annoying that Michelle lifted a phone carefully,-,-
+463,True,It is her gloves that Michelle lifted without falling,+,+
+463,False,It is annoying that Michelle lifted without falling,-,+
+463,False,It is her gloves that Michelle lifted a phone without falling,+,-
+463,True,It is annoying that Michelle lifted a phone without falling,-,-
+464,True,It is her gloves that Michelle lifted quickly,+,+
+464,False,It is annoying that Michelle lifted quickly,-,+
+464,False,It is her gloves that Michelle lifted a phone quickly,+,-
+464,True,It is annoying that Michelle lifted a phone quickly,-,-
+465,True,It is her gloves that Michelle lifted carefully,+,+
+465,False,It is annoying that Michelle lifted carefully,-,+
+465,False,It is her gloves that Michelle lifted the paperwork carefully,+,-
+465,True,It is annoying that Michelle lifted the paperwork carefully,-,-
+466,True,It is her gloves that Michelle lifted without falling,+,+
+466,False,It is annoying that Michelle lifted without falling,-,+
+466,False,It is her gloves that Michelle lifted the paperwork without falling,+,-
+466,True,It is annoying that Michelle lifted the paperwork without falling,-,-
+467,True,It is her gloves that Michelle lifted quickly,+,+
+467,False,It is annoying that Michelle lifted quickly,-,+
+467,False,It is her gloves that Michelle lifted the paperwork quickly,+,-
+467,True,It is annoying that Michelle lifted the paperwork quickly,-,-
+468,True,It is her gloves that Michelle stole carefully,+,+
+468,False,It is annoying that Michelle stole carefully,-,+
+468,False,It is her gloves that Michelle stole your jacket carefully,+,-
+468,True,It is annoying that Michelle stole your jacket carefully,-,-
+469,True,It is her gloves that Michelle stole without falling,+,+
+469,False,It is annoying that Michelle stole without falling,-,+
+469,False,It is her gloves that Michelle stole your jacket without falling,+,-
+469,True,It is annoying that Michelle stole your jacket without falling,-,-
+470,True,It is her gloves that Michelle stole quickly,+,+
+470,False,It is annoying that Michelle stole quickly,-,+
+470,False,It is her gloves that Michelle stole your jacket quickly,+,-
+470,True,It is annoying that Michelle stole your jacket quickly,-,-
+471,True,It is her gloves that Michelle stole carefully,+,+
+471,False,It is annoying that Michelle stole carefully,-,+
+471,False,It is her gloves that Michelle stole a phone carefully,+,-
+471,True,It is annoying that Michelle stole a phone carefully,-,-
+472,True,It is her gloves that Michelle stole without falling,+,+
+472,False,It is annoying that Michelle stole without falling,-,+
+472,False,It is her gloves that Michelle stole a phone without falling,+,-
+472,True,It is annoying that Michelle stole a phone without falling,-,-
+473,True,It is her gloves that Michelle stole quickly,+,+
+473,False,It is annoying that Michelle stole quickly,-,+
+473,False,It is her gloves that Michelle stole a phone quickly,+,-
+473,True,It is annoying that Michelle stole a phone quickly,-,-
+474,True,It is her gloves that Michelle stole carefully,+,+
+474,False,It is annoying that Michelle stole carefully,-,+
+474,False,It is her gloves that Michelle stole the paperwork carefully,+,-
+474,True,It is annoying that Michelle stole the paperwork carefully,-,-
+475,True,It is her gloves that Michelle stole without falling,+,+
+475,False,It is annoying that Michelle stole without falling,-,+
+475,False,It is her gloves that Michelle stole the paperwork without falling,+,-
+475,True,It is annoying that Michelle stole the paperwork without falling,-,-
+476,True,It is her gloves that Michelle stole quickly,+,+
+476,False,It is annoying that Michelle stole quickly,-,+
+476,False,It is her gloves that Michelle stole the paperwork quickly,+,-
+476,True,It is annoying that Michelle stole the paperwork quickly,-,-
+477,True,It is her gloves that Michelle threw carefully,+,+
+477,False,It is annoying that Michelle threw carefully,-,+
+477,False,It is her gloves that Michelle threw your jacket carefully,+,-
+477,True,It is annoying that Michelle threw your jacket carefully,-,-
+478,True,It is her gloves that Michelle threw without falling,+,+
+478,False,It is annoying that Michelle threw without falling,-,+
+478,False,It is her gloves that Michelle threw your jacket without falling,+,-
+478,True,It is annoying that Michelle threw your jacket without falling,-,-
+479,True,It is her gloves that Michelle threw quickly,+,+
+479,False,It is annoying that Michelle threw quickly,-,+
+479,False,It is her gloves that Michelle threw your jacket quickly,+,-
+479,True,It is annoying that Michelle threw your jacket quickly,-,-
+480,True,It is her gloves that Michelle threw carefully,+,+
+480,False,It is annoying that Michelle threw carefully,-,+
+480,False,It is her gloves that Michelle threw a phone carefully,+,-
+480,True,It is annoying that Michelle threw a phone carefully,-,-
+481,True,It is her gloves that Michelle threw without falling,+,+
+481,False,It is annoying that Michelle threw without falling,-,+
+481,False,It is her gloves that Michelle threw a phone without falling,+,-
+481,True,It is annoying that Michelle threw a phone without falling,-,-
+482,True,It is her gloves that Michelle threw quickly,+,+
+482,False,It is annoying that Michelle threw quickly,-,+
+482,False,It is her gloves that Michelle threw a phone quickly,+,-
+482,True,It is annoying that Michelle threw a phone quickly,-,-
+483,True,It is her gloves that Michelle threw carefully,+,+
+483,False,It is annoying that Michelle threw carefully,-,+
+483,False,It is her gloves that Michelle threw the paperwork carefully,+,-
+483,True,It is annoying that Michelle threw the paperwork carefully,-,-
+484,True,It is her gloves that Michelle threw without falling,+,+
+484,False,It is annoying that Michelle threw without falling,-,+
+484,False,It is her gloves that Michelle threw the paperwork without falling,+,-
+484,True,It is annoying that Michelle threw the paperwork without falling,-,-
+485,True,It is her gloves that Michelle threw quickly,+,+
+485,False,It is annoying that Michelle threw quickly,-,+
+485,False,It is her gloves that Michelle threw the paperwork quickly,+,-
+485,True,It is annoying that Michelle threw the paperwork quickly,-,-

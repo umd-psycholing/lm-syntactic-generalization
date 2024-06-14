@@ -14,6 +14,7 @@ def main():
     parser.add_argument("--gap_region", nargs=2, help = 'region to compute surprisal for sentences with gaps')
     parser.add_argument("--nogap_region", nargs=2, help = 'region to compute surprisal for sentences without gaps')
     parser.add_argument("--sentence_type", choices = ['basic_subj', 'basic_obj', 'basic_pp', 'island_cnp'])
+    parser.add_argument("--output_dir", help = "directory the results will be written to")
     args = parser.parse_args()
     df = pd.read_csv(args.data)
     gap_critical_keys, nogap_critical_keys = tuple(args.gap_region), tuple(args.nogap_region)
@@ -21,7 +22,7 @@ def main():
     tuples = setup_tuple_dict(df, args.sentence_type)
     print(f"processing {args.sentence_type}")
     group_sentences(df, tuples, items, gap_critical_keys, nogap_critical_keys)
-    save_surprisal(tuples, args.sentence_type, args.model)
+    save_surprisal(tuples, args.sentence_type, args.model, args.output_dir)
 
 def group_sentences(df, tuples, items, gap_critical_keys, nogap_critical_keys):
     for item_id in items:
@@ -78,13 +79,13 @@ def setup_tuple_dict(df: pd.DataFrame, sentence_type: str):
             tuples[condition_type] = []
     return tuples
 
-def save_surprisal(tuples: Dict[str, List[gc.TupleSentenceData]], sentence_type: str, model: str):
+def save_surprisal(tuples: Dict[str, List[gc.TupleSentenceData]], sentence_type: str, model: str, output_dir):
     # compute surprisals and save
     for sentence_set in tuples.keys():
         print(f"computing surprisal for {sentence_type} {sentence_set}")
         for sentence_tuple in tqdm(tuples[sentence_set]):
             surprisal_effect_full_tuple(sentence_tuple, model, True)
-        gc.corpus_to_json(tuples[sentence_set], f"grammar_outputs/wilcox_replication/{sentence_type}_{sentence_set}_{model}.json")
+        gc.corpus_to_json(tuples[sentence_set], f"{output_dir}/{sentence_type}_{sentence_set}_{model}.json")
 
 if __name__ == "__main__":
     main()
