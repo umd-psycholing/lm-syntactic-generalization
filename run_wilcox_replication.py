@@ -1,7 +1,7 @@
 import subprocess
 
-MODEL = "gpt2"
-OUTPUT = "grammar_outputs/wilcox_replication/gptwiki"
+MODEL = "grnn"
+OUTPUT = "grammar_outputs/wilcox_replication/"
 
 run_configs = {
     'basic_subj': {'gap_region': ('verb', 'verb'),

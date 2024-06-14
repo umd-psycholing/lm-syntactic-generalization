@@ -8,102 +8,94 @@ from generate_corpora import SentenceData, TupleSentenceData
 
 from typing import Iterable
 
-# sort of emulation of conditional compilation; this is an ugly temporary solution
-# until we either find a way to generate the GRNN model w/ a version of torch
-# compatible with minicons (torch>=2.0.0) or or replicate the functionality of
-# minicons w/ version compatible w/ GRNN model (torch < 1.8.0).
+from minicons import scorer
 
-if "3.9" not in sys.version:  # gpt2 (minicons)
-    from minicons import scorer
+gpt2_model = scorer.IncrementalLMScorer(model="gpt2")
 
-    gpt2_model = scorer.IncrementalLMScorer(model="gpt2")
+# single sentence surprisal for gpt2
+def gpt2_surprisal(sentence: str) -> list[tuple[str, float]]:
+    BOS_TOKEN = "<|endoftext|> "
+    EOS_TOKEN = " <|endoftext|>"
+    results = gpt2_model.token_score(
+        batch=BOS_TOKEN + sentence + EOS_TOKEN, surprisal=True, base_two=True)  # surprisal=True just flips signs relative to surprisal=False (log-odds)
+    # return first result since we are only doing one sentence at a time
+    return align_surprisal(results[0], BOS_TOKEN + sentence + EOS_TOKEN)
 
-    # single sentence surprisal for gpt2
-    def gpt2_surprisal(sentence: str) -> list[tuple[str, float]]:
-        BOS_TOKEN = "<|endoftext|> "
-        EOS_TOKEN = " <|endoftext|>"
-        results = gpt2_model.token_score(
-            batch=BOS_TOKEN + sentence + EOS_TOKEN, surprisal=True, base_two=True)  # surprisal=True just flips signs relative to surprisal=False (log-odds)
-        # return first result since we are only doing one sentence at a time
-        return align_surprisal(results[0], BOS_TOKEN + sentence + EOS_TOKEN)
+from colorlessgreenRNNs.src.language_models.dictionary_corpus import Dictionary
+from colorlessgreenRNNs.src.language_models.model import RNNModel
 
-else:  # grnn (colorlessgreenRNNs)
-    from colorlessgreenRNNs.src.language_models.dictionary_corpus import Dictionary
-    from colorlessgreenRNNs.src.language_models.model import RNNModel
+# load GRNN
+def load_rnn(model_path):
+    # this assumes we're using the CPU, which should be fine for inference
+    # we can change the settings to allow GPU inference if needed
+    model = torch.load(model_path, map_location=torch.device("cpu"))
+    grnn = RNNModel(model.rnn_type, model.encoder.num_embeddings,
+                    model.nhid, model.nhid, model.nlayers, 0.2, False)
+    grnn.load_state_dict(model.state_dict())
+    grnn.eval()
+    return model, grnn
 
-    # ===Sathvik-created helping functions for GRNN=== #
-    # load GRNN
-    def load_rnn(model_path):
-        # this assumes we're using the CPU, which should be fine for inference
-        # we can change the settings to allow GPU inference if needed
-        model = torch.load(model_path, map_location=torch.device("cpu"))
-        grnn = RNNModel(model.rnn_type, model.encoder.num_embeddings,
-                        model.nhid, model.nhid, model.nlayers, 0.2, False)
-        grnn.load_state_dict(model.state_dict())
-        grnn.eval()
-        return model, grnn
+# vocab comes from ./colorlessgreenRNNs/src/data/lm/vocab.txt (where gulordova repo references it)
+def load_vocab(vocab_path):
+    # loads vocabulary for RNN model
+    # the path must be a directory
+    return Dictionary(vocab_path)
 
-    # vocab comes from ./colorlessgreenRNNs/src/data/lm/vocab.txt (where gulordova repo references it)
-    def load_vocab(vocab_path):
-        # loads vocabulary for RNN model
-        # the path must be a directory
-        return Dictionary(vocab_path)
+# GRNN model expects this sort of tokenization for input (split -'s is critical)
+def grnn_tokenize(sent):
+    sent = sent.strip()
+    if sent == "":
+        return []
+    # respect commas as a token
+    sent = " ,".join(sent.split(","))
+    # same w/ EOS punctuation (but not . in abbreviations)
+    if sent[-1] in [".", "?", "!"]:
+        sent = sent[:-1] + " " + sent[-1]
+    if ("." in sent) & (sent[-1] != "."):
+        print(sent)
+    # split on 's
+    sent = " 's".join(sent.split("'s"))
+    # split on n't
+    sent = " n't".join(sent.split("n't"))
+    return sent.split()
 
-    # GRNN model expects this sort of tokenization for input (split -'s is critical)
-    def grnn_tokenize(sent):
-        sent = sent.strip()
-        if sent == "":
-            return []
-        # respect commas as a token
-        sent = " ,".join(sent.split(","))
-        # same w/ EOS punctuation (but not . in abbreviations)
-        if sent[-1] in [".", "?", "!"]:
-            sent = sent[:-1] + " " + sent[-1]
-        if ("." in sent) & (sent[-1] != "."):
-            print(sent)
-        # split on 's
-        sent = " 's".join(sent.split("'s"))
-        # split on n't
-        sent = " n't".join(sent.split("n't"))
-        return sent.split()
+not_in_vocab = []  # don't print unknown word over and over
 
-    not_in_vocab = []  # don't print unknown word over and over
-
-    # convert word to index in embedding matrix
-    def indexify(word, vocab):
-        """ Convert word to an index into the embedding matrix """
-        if word not in vocab.word2idx:
-            # print non-vocabulary words only once
-            if word not in not_in_vocab:
-                not_in_vocab.append(word)
-                print(f"Warning: {word} not in vocab")
-        # return index of word if its known, otherwise index of <unk> (unknown)
-        return vocab.word2idx[word] if word in vocab.word2idx else vocab.word2idx['<unk>']
+# convert word to index in embedding matrix
+def indexify(word, vocab):
+    """ Convert word to an index into the embedding matrix """
+    if word not in vocab.word2idx:
+        # print non-vocabulary words only once
+        if word not in not_in_vocab:
+            not_in_vocab.append(word)
+            print(f"Warning: {word} not in vocab")
+    # return index of word if its known, otherwise index of <unk> (unknown)
+    return vocab.word2idx[word] if word in vocab.word2idx else vocab.word2idx['<unk>']
 
 
-    # load model, vocab once
-    sys.path.insert(
-        0, "./colorlessgreenRNNs/src/language_models")
-    # set up model
-    #torch.nn.Module.dump_patches = False
-    lstm_vocab = load_vocab("./colorlessgreenRNNs/src/data/lm/")
-    model, grnn = load_rnn(
-        "./colorlessgreenRNNs/src/models/model_clefting.pt")
+# load model, vocab once
+sys.path.insert(
+    0, "./colorlessgreenRNNs/src/language_models")
+# set up model
+#torch.nn.Module.dump_patches = False
+lstm_vocab = load_vocab("./colorlessgreenRNNs/src/data/lm/")
+model, grnn = load_rnn(
+    "./colorlessgreenRNNs/src/models/model_clefting.pt")
 
-    # single sentence surprisal for gpt2
-    def grnn_surprisal(sentence: str, model: RNNModel, grnn: RNNModel, vocab: Dictionary):
-        # EOS prepend + 's split
-        # tokens = ["<eos>"] + grnn_tokenize(sentence)
-        with torch.no_grad():
-            tokens = ["<eos>"] + grnn_tokenize(sentence)
-            rnn_input = torch.LongTensor(
-                # [indexify(w.lower(), vocab) for w in sentence]) # lowercase names are not in vocab!
-                [indexify(w, vocab) for w in tokens])
-            out, _ = grnn(rnn_input.view(-1, 1), model.init_hidden(1))
-            surprisals = [-F.log_softmax(out[i - 1], dim=-1).view(-1)[word_idx].item()/np.log(2.0) for i, (word_idx, word)
-                          in enumerate(zip(rnn_input, tokens))]
-            surprisals = list(zip(tokens, surprisals))  # zip tokens in w/ it
-            return align_surprisal(surprisals, "<eos> " + sentence)
+# single sentence surprisal for gpt2
+def grnn_surprisal(sentence: str, model: RNNModel, grnn: RNNModel, vocab: Dictionary):
+    # EOS prepend + 's split
+    # tokens = ["<eos>"] + grnn_tokenize(sentence)
+    with torch.no_grad():
+        tokens = ["<eos>"] + grnn_tokenize(sentence)
+        rnn_input = torch.LongTensor(
+            # [indexify(w.lower(), vocab) for w in sentence]) # lowercase names are not in vocab!
+            [indexify(w, vocab) for w in tokens])
+        out, _ = grnn(rnn_input.view(-1, 1), model.init_hidden(1))
+        surprisals = [-F.log_softmax(out[i - 1], dim=-1).view(-1)[word_idx].item()/np.log(2.0) for i, (word_idx, word)
+                        in enumerate(zip(rnn_input, tokens))]
+        surprisals = list(zip(tokens, surprisals))  # zip tokens in w/ it
+        return align_surprisal(surprisals, "<eos> " + sentence)
 
 
 def align_surprisal(token_surprisals: list[tuple[str, float]], sentence: str):
