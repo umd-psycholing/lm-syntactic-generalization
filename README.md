@@ -8,6 +8,25 @@ The vocab should be saved at `colorlessgreenRNNs/src/data/lm` (you may have to m
 
 Our models are available at https://huggingface.co/sathvik-n/augmented-rnns.
 
+### Downloading files to go with GRNN
+Make sure you are in the root directory (not one of the subdirectories) for each of these datasets.
+
+Vocabulary:
+
+```
+mkdir data/lm-data
+cd data/lm-data
+wget https://dl.fbaipublicfiles.com/colorless-green-rnns/training-data/English/vocab.txt
+```
+
+Pretrained English model: 
+
+```
+mkdir models
+cd models
+wget https://dl.fbaipublicfiles.com/colorless-green-rnns/best-models/English/hidden650_batch128_dropout0.2_lr20.0.pt
+```
+
 ### CFGs and Sentence Generation
 
 The file `grammars.py` contains text-based specifications for the different CFGs based on appendices from [Lan et al](https://lingbuzz.net/lingbuzz/006829).

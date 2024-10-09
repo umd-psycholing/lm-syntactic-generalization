@@ -164,3 +164,4 @@ grnn_data
 *.pt
 *.slurm
 colorlessgreenRNNs
+.DS_Store
