@@ -39,16 +39,16 @@ def modify_base_dict(sentence_key, stim_set, base_dict):
         sent_copy['gap'] = 1
         sent_copy['surprisal'] = stim_set[sentence_key]['critical_surprisal']
     elif sentence_key == "s_xb":
-        sent_copy['wh'] = 0
+        sent_copy['wh'] = -1
         sent_copy['gap'] = 1
         sent_copy['surprisal'] = stim_set[sentence_key]['critical_surprisal']
     elif sentence_key == "s_ax":
         sent_copy['wh'] = 1
-        sent_copy['gap'] = 0
+        sent_copy['gap'] = -1
         sent_copy['surprisal'] = stim_set[sentence_key]['critical_surprisal']
     else: # s_xx
-        sent_copy['wh'] = 0
-        sent_copy['gap'] = 0
+        sent_copy['wh'] = -1
+        sent_copy['gap'] = -1
         sent_copy['surprisal'] = stim_set[sentence_key]['critical_surprisal']
     return sent_copy
 
@@ -111,3 +111,20 @@ def per_gap_models(formula : str, conditions : List[str], models : List[str], da
                 summary['gap'] = is_gap
                 coefs.append(summary)
     return pd.concat(coefs)
+
+def recode_fg(value):
+    if value == -1:
+        return 0
+    return value
+
+def format_gap(value):
+    if value == 0:
+        return "FGE"
+    else:
+        return "UGE"
+
+def format_for_latex(df):
+    df['gap'] = df['gap'].apply(format_gap)
+    df['T-stat'] = df['T-stat'].map(str) + df['Sig']
+    df = df[["index", 'Estimate', "SE", 'T-stat']]
+    return df.to_latex(float_format="%.3f", index = False)
