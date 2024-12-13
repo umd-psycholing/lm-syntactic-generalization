@@ -1,5 +1,15 @@
 ## LM Syntactic Generalization
 
+### Environment Setup
+
+Create a Python virtual environment, activate it, and install the dependencies.
+
+```
+python3 -m virtualenv lm-gen-env
+source lm-gen-env/bin/activate
+pip install -r requirements.txt
+```
+
 ### Getting the RNN language models
 
 Download [colorlessgreenRNNs](https://github.com/facebookresearch/colorlessgreenRNNs/) from [Gulordava et al (2018)](https://aclanthology.org/N18-1108/). Then download the [full English vocab](https://dl.fbaipublicfiles.com/colorless-green-rnns/training-data/English/vocab.txt) and [English language model](https://dl.fbaipublicfiles.com/colorless-green-rnns/best-models/English/hidden650_batch128_dropout0.2_lr20.0.pt).
